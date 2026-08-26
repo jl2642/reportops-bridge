@@ -1,0 +1,17 @@
+{
+  "schema_version": "REPORTOPS_RECENT_PUBLIC_CONTEXT_V1",
+  "as_of_public_daily": "2026-08-24",
+  "context_only": true,
+  "signals": [
+    "Sanctions and Gulf export tail risks raised transaction, insurance and payment complexity.",
+    "China refining profitability improved while inventory impairment highlighted volatility risk.",
+    "Regional refining margins remained an important transmission channel for product tightness.",
+    "Asset availability events in power and offshore production remained relevant operational signals."
+  ],
+  "known_public_data_gaps": [
+    "same-window China LNG/LPG price detail",
+    "same-window JKM/TTF observations when unavailable"
+  ],
+  "usage": "background continuity only; never treat as fresh evidence for a new Daily",
+  "private_content_included": false
+}
