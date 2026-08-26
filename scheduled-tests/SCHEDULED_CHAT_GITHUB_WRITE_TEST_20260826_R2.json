@@ -1,0 +1,8 @@
+{
+  "test_id": "SCHEDULED_CHAT_GITHUB_WRITE_TEST_20260826_R2",
+  "writer": "scheduled_chat",
+  "repository": "jl2642/reportops-bridge",
+  "purpose": "verify unattended Scheduled Chat can persist ReportOps bridge data",
+  "status": "SUCCESS",
+  "executed_at": "2026-08-26T19:46:18+08:00"
+}
