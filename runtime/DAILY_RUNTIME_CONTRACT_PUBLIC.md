@@ -1,12 +1,20 @@
 # ReportOps Daily Public Runtime Contract v1
 
-Status: R2 PRE-CUTOVER
+Status: R3 ACTIVE_PUBLIC_CORE_PRODUCTION
 
 ## Product role
 
 Daily answers: **what new, verifiable energy-market signals appeared in the fixed reporting window?**
 
 Role: `SIGNAL_RADAR`.
+
+## R3 automation role
+
+At `10:15 Asia/Shanghai`, Scheduled Chat is the primary producer of the public-safe Daily core. It writes the accepted bridge candidate to GitHub for later Work reconciliation.
+
+At `19:15 Asia/Shanghai`, the same Scheduled Chat automation performs public-health verification and fallback evidence insurance. It must not duplicate an already accepted 10:15 Daily core.
+
+Scheduled Work is downstream: it consumes the GitHub output, reconciles it against the latest Library Authority, adds private-only layers where required, runs formal gates, performs Canonical Promotion and publishes Sites/Download. Work is not the default public-web research producer after R3.
 
 ## Fixed window
 
@@ -52,4 +60,6 @@ The GitHub output may contain only public-market research and generic sector/ope
 
 ## Output status
 
-Before R3 cutover, Scheduled Chat output is a bridge candidate, not Canonical Authority. GitHub never promotes Library Current or publishes Sites.
+R3 Scheduled Chat outputs are formal **bridge production inputs** but are not Canonical Authority. `PUBLIC_CORE_ACCEPTED` means the public-safe research/evidence package passed the bridge gates; it does not mean Library Current was promoted or Sites were published.
+
+GitHub never promotes Library Current or publishes Sites.
