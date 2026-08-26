@@ -1,7 +1,7 @@
 {
   "schema_version": "REPORTOPS_PUBLIC_RUNTIME_CURRENT_V1",
-  "status": "R3_1_TWO_TASK_ARCHITECTURE_IMPLEMENTED__R4_LIVE_ACCEPTANCE_PENDING",
-  "current_daily_public": "2026-08-24",
+  "status": "R4_PUBLIC_ACCEPTANCE_PASS__AUTHORITY_LIBRARY_BINARY_REMATERIALIZATION_PENDING",
+  "current_daily_public": "2026-08-26",
   "current_weekly_public": "2026-W33",
   "daily_role": "SIGNAL_RADAR",
   "daily_window_timezone": "Asia/Shanghai",
@@ -17,5 +17,5 @@
   "github_role": "PUBLIC_SAFE_RUNTIME_BRIDGE_NOT_CANONICAL_AUTHORITY",
   "private_layer_required": true,
   "formal_authority_remains_library_release_until_r4": true,
-  "last_updated": "2026-08-26T20:47:00+08:00"
+  "last_updated": "2026-08-26T20:54:00+08:00"
 }
