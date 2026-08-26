@@ -1,34 +1,8 @@
 {
   "schema_version": "REPORTOPS_AUTOMATION_TOPOLOGY_R3_V1",
   "phase": "R3_AUTOMATION_REWIRE",
-  "status": "IMPLEMENTED_PENDING_FIRST_LIVE_CYCLE_ACCEPTANCE",
-  "timezone": "Asia/Shanghai",
-  "scheduled_chat": {
-    "automation_role": "PRIMARY_PUBLIC_CORE_PRODUCER_AND_EVENING_INSURANCE",
-    "runs": [
-      {"time": "10:15", "mode": "PRIMARY_DAILY_PUBLIC_CORE_PRODUCTION"},
-      {"time": "19:15", "mode": "EVENING_PUBLIC_HEALTH_AND_EVIDENCE_INSURANCE"}
-    ],
-    "writes": ["daily/YYYY/MM/YYYY-MM-DD/public_core.md", "daily/YYYY/MM/YYYY-MM-DD/evidence.json", "daily/YYYY/MM/YYYY-MM-DD/manifest.json", "fallback/YYYY/MM/YYYY-MM-DD.json", "status/latest.json"],
-    "authority_mutation": false,
-    "site_publication": false
-  },
-  "scheduled_work": {
-    "time": "11:15",
-    "role": "LIBRARY_RECONCILIATION_CANONICAL_PROMOTION_AND_PUBLISHER",
-    "default_public_web_reresearch": "PROHIBITED",
-    "read_order": ["LATEST_LIBRARY_AUTHORITY", "GITHUB_TARGET_DATE_MANIFEST", "GITHUB_PUBLIC_CORE", "GITHUB_EVIDENCE"],
-    "publication_order": ["PRIVATE_SITE", "PRIVATE_REMOTE_READBACK", "PUBLIC_SITE", "PUBLIC_REMOTE_READBACK", "DOWNLOAD_CENTER_REMOTE_ZIP_SHA"],
-    "weekly_authoring": false
-  },
-  "fail_closed": {
-    "bridge_missing_or_failed": "NO_CANONICAL_PROMOTION_FROM_UNVERIFIED_PUBLIC_INPUT",
-    "private_site_unverified": "PUBLIC_MUST_NOT_ADVANCE",
-    "historical_auto_backfill": false,
-    "github_is_canonical": false
-  },
-  "current_daily_unchanged_at_rewire": "2026-08-24",
-  "current_weekly_unchanged_at_rewire": "2026-W33",
-  "w34_production": "PROHIBITED_DURING_R3",
-  "next_gate": "FIRST_LIVE_10_15_CHAT_TO_GITHUB_THEN_11_15_WORK_CONSUMPTION_ACCEPTANCE"
+  "status": "SUPERSEDED_BY_R3_1",
+  "superseded_by": "runtime/AUTOMATION_TOPOLOGY_R3_1.json",
+  "supersession_reason": "R3.1 removes the redundant 19:15 execution point, upgrades 10:15 Chat into a daily continuity controller, and upgrades Work into a universal reconciler/publisher for Daily, Weekly, Monthly, Quarterly and Annual accepted products.",
+  "do_not_use_for_new_runs": true
 }
