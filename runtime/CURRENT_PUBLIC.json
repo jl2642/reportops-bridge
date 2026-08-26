@@ -1,0 +1,14 @@
+{
+  "schema_version": "REPORTOPS_PUBLIC_RUNTIME_CURRENT_V1",
+  "status": "R2_PRE_CUTOVER",
+  "current_daily_public": "2026-08-24",
+  "current_weekly_public": "2026-W33",
+  "daily_role": "SIGNAL_RADAR",
+  "daily_window_timezone": "Asia/Shanghai",
+  "daily_window_start_local": "D-1 10:00",
+  "daily_window_end_local": "D 10:00",
+  "scheduled_chat_daily_cutover": false,
+  "github_role": "PUBLIC_SAFE_RUNTIME_BRIDGE_NOT_CANONICAL_AUTHORITY",
+  "private_layer_required": true,
+  "last_updated": "2026-08-26"
+}
