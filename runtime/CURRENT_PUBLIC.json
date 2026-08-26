@@ -1,6 +1,6 @@
 {
   "schema_version": "REPORTOPS_PUBLIC_RUNTIME_CURRENT_V1",
-  "status": "R3_AUTOMATION_REWIRED",
+  "status": "R3_1_TWO_TASK_ARCHITECTURE_IMPLEMENTED__R4_LIVE_ACCEPTANCE_PENDING",
   "current_daily_public": "2026-08-24",
   "current_weekly_public": "2026-W33",
   "daily_role": "SIGNAL_RADAR",
@@ -8,12 +8,14 @@
   "daily_window_start_local": "D-1 10:00",
   "daily_window_end_local": "D 10:00",
   "scheduled_chat_primary_time_local": "10:15",
-  "scheduled_chat_insurance_time_local": "19:15",
-  "scheduled_work_consumer_time_local": "11:15",
-  "scheduled_chat_daily_cutover": true,
+  "scheduled_chat_continuity_recovery_max_days_per_run": 2,
+  "scheduled_chat_insurance_time_local": null,
+  "scheduled_work_consumer_time_local": "12:30",
+  "scheduled_work_product_scan": ["DAILY", "WEEKLY", "MONTHLY", "QUARTERLY", "ANNUAL"],
+  "scheduled_chat_daily_bridge_enabled": true,
   "library_cutover": false,
   "github_role": "PUBLIC_SAFE_RUNTIME_BRIDGE_NOT_CANONICAL_AUTHORITY",
   "private_layer_required": true,
   "formal_authority_remains_library_release_until_r4": true,
-  "last_updated": "2026-08-26"
+  "last_updated": "2026-08-26T20:47:00+08:00"
 }
