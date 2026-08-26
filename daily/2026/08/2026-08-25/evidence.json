@@ -1,0 +1,95 @@
+{
+  "schema_version": "REPORTOPS_PUBLIC_EVIDENCE_V1",
+  "target_date": "2026-08-25",
+  "window_start": "2026-08-24T10:00:00+08:00",
+  "window_end": "2026-08-25T10:00:00+08:00",
+  "mode": "STRICT_NEW_PUBLIC",
+  "provenance": "FORMAL_RECOVERY_DAILY_FROM_CONFIRMED_SAME_DAY_FALLBACK_WITH_CHAT_REVALIDATION",
+  "original_row_ledger_recovered_verbatim": false,
+  "sources": [
+    {
+      "source_id": "PUB-20260825-001",
+      "publisher": "Reuters",
+      "title": "Fewer than 20 ships transit key Strait of Hormuz over weekend, data shows",
+      "url": "https://www.reuters.com/business/energy/fewer-than-20-ships-transit-key-strait-hormuz-over-weekend-data-shows-2026-08-24/",
+      "publication_time_utc": "2026-08-24T02:42:48Z",
+      "publication_time_asia_shanghai": "2026-08-24T10:42:48+08:00",
+      "event_or_data_period": "weekend through 2026-08-23; week ending 2026-08-21",
+      "supported_claims": ["C1_HORMUZ_LOW_TRANSIT", "C2_LPG_TRANSITS_PRESENT_BUT_SUPPRESSED"],
+      "directness": "DIRECT",
+      "grade": "CORE_PROFESSIONAL",
+      "window_status": "PASS"
+    },
+    {
+      "source_id": "PUB-20260825-002",
+      "publisher": "Reuters",
+      "title": "Chinese refiner Sinopec to boost oil imports from outside the Gulf",
+      "url": "https://www.reuters.com/business/energy/chinese-refiner-sinopec-boost-oil-imports-outside-gulf-2026-08-24/",
+      "publication_time_utc": "2026-08-24T10:42:45Z",
+      "publication_time_asia_shanghai": "2026-08-24T18:42:45+08:00",
+      "event_or_data_period": "2026 interim-results briefing and forward sourcing plan",
+      "supported_claims": ["C3_SINOPEC_DIVERSIFIES_CRUDE_SOURCING", "C4_SINOPEC_COMMERCIAL_INVENTORY_BUFFER", "C5_REFINING_THROUGHPUT_PRESSURE"],
+      "directness": "DIRECT",
+      "grade": "CORE_PROFESSIONAL",
+      "window_status": "PASS"
+    },
+    {
+      "source_id": "PUB-20260825-003",
+      "publisher": "Reuters Open Interest",
+      "title": "US LNG exports set for endurance test as high gas prices bite",
+      "url": "https://www.reuters.com/commentary/reuters-open-interest/us-lng-exports-set-endurance-test-high-gas-prices-bite-2026-08-24/",
+      "publication_time_utc": "2026-08-24T06:00:34Z",
+      "publication_time_asia_shanghai": "2026-08-24T14:00:34+08:00",
+      "event_or_data_period": "2026 Jan-Jul exports; July Europe imports; Q4 forward LNG pricing",
+      "supported_claims": ["C6_US_LNG_EXPORT_REPLACEMENT", "C7_HIGH_LNG_PRICES_TEST_DEMAND_ELASTICITY"],
+      "directness": "DIRECT_FOR_CITED_LSEG_KPLER_DATA__ANALYTICAL_FOR_DEMAND_INTERPRETATION",
+      "grade": "PROFESSIONAL_COMMENTARY_WITH_DATA",
+      "window_status": "PASS"
+    },
+    {
+      "source_id": "PUB-20260825-004",
+      "publisher": "Reuters",
+      "title": "Germany's Uniper says it has filled 70% of its contracted gas storage",
+      "url": "https://www.reuters.com/business/energy/germanys-uniper-says-it-has-filled-70-its-contracted-gas-storage-2026-08-24/",
+      "publication_time_utc": "2026-08-24T08:53:43Z",
+      "publication_time_asia_shanghai": "2026-08-24T16:53:43+08:00",
+      "event_or_data_period": "storage levels reported as of prior Thursday; CEO comments on 2026-08-24",
+      "supported_claims": ["C8_UNIPER_CONTRACTED_STORAGE_70", "C9_INVERTED_SUMMER_WINTER_SPREAD_WEAKENS_STORAGE_INCENTIVE"],
+      "directness": "DIRECT",
+      "grade": "CORE_PROFESSIONAL",
+      "window_status": "PASS"
+    }
+  ],
+  "claims": [
+    {"claim_id":"C1_HORMUZ_LOW_TRANSIT","severity":"CORE","statement":"Commodity-vessel transits through Hormuz remained far below normal in the observed weekend and AIS-visible traffic was reported around 90% below pre-conflict baselines.","support":["PUB-20260825-001"],"status":"SUPPORTED_WITH_SOURCE_METHODOLOGY_CAVEAT"},
+    {"claim_id":"C2_LPG_TRANSITS_PRESENT_BUT_SUPPRESSED","severity":"MATERIAL","statement":"Large LPG carrier movements were still observed through Hormuz, indicating constrained rather than zero LPG passage.","support":["PUB-20260825-001"],"status":"SUPPORTED"},
+    {"claim_id":"C3_SINOPEC_DIVERSIFIES_CRUDE_SOURCING","severity":"CORE","statement":"Sinopec said it would increase crude sourcing from Brazil, Africa and other non-Gulf routes to manage Middle East supply disruption.","support":["PUB-20260825-002"],"status":"SUPPORTED"},
+    {"claim_id":"C4_SINOPEC_COMMERCIAL_INVENTORY_BUFFER","severity":"MATERIAL","statement":"Sinopec disclosed crude stocks for about 20 days of processing and refined fuel for about 15 days of sales.","support":["PUB-20260825-002"],"status":"SUPPORTED"},
+    {"claim_id":"C5_REFINING_THROUGHPUT_PRESSURE","severity":"MATERIAL","statement":"Sinopec indicated lower annual crude processing needs amid weaker fuel demand, showing supply diversification does not imply aggregate demand expansion.","support":["PUB-20260825-002"],"status":"SUPPORTED"},
+    {"claim_id":"C6_US_LNG_EXPORT_REPLACEMENT","severity":"MATERIAL","statement":"U.S. LNG exports were at record 2026 levels through July as disrupted Gulf supply increased reliance on alternative exporters.","support":["PUB-20260825-003"],"status":"SUPPORTED_BY_PROFESSIONAL_COMMENTARY_DATA"},
+    {"claim_id":"C7_HIGH_LNG_PRICES_TEST_DEMAND_ELASTICITY","severity":"MATERIAL","statement":"High forward LNG prices create a risk of delayed purchases and demand destruction among price-sensitive buyers.","support":["PUB-20260825-003"],"status":"ANALYTICAL_INTERPRETATION__WORK_REVALIDATION_REQUIRED"},
+    {"claim_id":"C8_UNIPER_CONTRACTED_STORAGE_70","severity":"MATERIAL","statement":"Uniper said it had filled around 70% of its contracted gas storage capacity.","support":["PUB-20260825-004"],"status":"SUPPORTED"},
+    {"claim_id":"C9_INVERTED_SUMMER_WINTER_SPREAD_WEAKENS_STORAGE_INCENTIVE","severity":"CORE","statement":"An inverted summer-winter gas spread was reducing commercial incentive to inject gas into storage.","support":["PUB-20260825-004"],"status":"SUPPORTED"}
+  ],
+  "price_semantics": [
+    {
+      "record_id": "P1_ASIA_FORWARD_LNG",
+      "description": "Asia LNG forward deliveries for Oct-Dec estimated above USD 22/MMBtu",
+      "value": ">22",
+      "unit": "USD/MMBtu",
+      "currency": "USD",
+      "geography": "Asia",
+      "basis": "estimated forward LNG delivery prices cited from LSEG by Reuters Open Interest",
+      "observation_time": "2026-08-24 article publication window",
+      "source_id": "PUB-20260825-003",
+      "formal_use": "DIRECTIONAL_ONLY_PENDING_WORK_REVALIDATION"
+    }
+  ],
+  "data_gaps": [
+    "No fully independent multi-publisher price snapshot was reconstructed in this public recovery core.",
+    "AIS-based shipping counts may undercount vessels with transponders disabled.",
+    "Reuters Open Interest demand-elasticity interpretation requires formal Work review before strong Canonical use."
+  ],
+  "evidence_status": "PASS_PUBLIC_BRIDGE_WITH_FORMAL_WORK_REVALIDATION_REQUIRED",
+  "privacy_status": "PASS_PUBLIC_SAFE"
+}
