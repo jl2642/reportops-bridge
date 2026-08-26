@@ -1,6 +1,6 @@
-# ReportOps Daily Public Runtime Contract v1
+# ReportOps Daily Public Runtime Contract v1.1
 
-Status: R3 ACTIVE_PUBLIC_CORE_PRODUCTION
+Status: `R3_1_TWO_TASK_DAILY_CONTINUITY_ARCHITECTURE`
 
 ## Product role
 
@@ -8,13 +8,19 @@ Daily answers: **what new, verifiable energy-market signals appeared in the fixe
 
 Role: `SIGNAL_RADAR`.
 
-## R3 automation role
+## R3.1 automation role
 
-At `10:15 Asia/Shanghai`, Scheduled Chat is the primary producer of the public-safe Daily core. It writes the accepted bridge candidate to GitHub for later Work reconciliation.
+At `10:15 Asia/Shanghai`, Scheduled Chat is the single Daily continuity controller and primary producer of the public-safe Daily core.
 
-At `19:15 Asia/Shanghai`, the same Scheduled Chat automation performs public-health verification and fallback evidence insurance. It must not duplicate an already accepted 10:15 Daily core.
+Priority order is mandatory:
 
-Scheduled Work is downstream: it consumes the GitHub output, reconciles it against the latest Library Authority, adds private-only layers where required, runs formal gates, performs Canonical Promotion and publishes Sites/Download. Work is not the default public-web research producer after R3.
+1. **Secure target day D first.** Check whether an accepted D manifest already exists. If not, research the fixed D window, persist Evidence, then write `public_core.md` → `evidence.json` → `manifest.json` and read them back.
+2. **Scan continuity.** Starting from the last publicly verified Daily pointer plus already accepted GitHub Daily manifests, identify missing/failed dates through D.
+3. **Limited recovery.** Only after D is secured, recover at most the two oldest historical gaps in one run. Each historical reconstruction keeps its original fixed window and is labeled `DELAYED_RECOVERY`; it must never be represented as an original same-day Scheduled Chat capture.
+
+There is **no permanent 19:00/19:15 ReportOps insurance run** after R3.1. GitHub persistence itself is the cross-task durability bridge. A missed day is detected and recovered by a later 10:15 continuity scan.
+
+At `12:30 Asia/Shanghai`, Scheduled Work is downstream. It reads the latest Library Authority and GitHub Daily bridge, performs formal reconciliation/private-only layers/gates/Lineage/Canonical Promotion, scans ready-to-publish Daily/Weekly/Monthly/Quarterly/Annual products, and performs one batch publication. Work is not the default public-web Daily research producer and does not author higher-cycle reports.
 
 ## Fixed window
 
@@ -22,7 +28,7 @@ For target date D in Asia/Shanghai:
 
 `[D-1 10:00, D 10:00)`
 
-A delayed run must not shift this window.
+A delayed run or delayed recovery must not shift this window.
 
 ## Required analytical coverage
 
@@ -60,6 +66,8 @@ The GitHub output may contain only public-market research and generic sector/ope
 
 ## Output status
 
-R3 Scheduled Chat outputs are formal **bridge production inputs** but are not Canonical Authority. `PUBLIC_CORE_ACCEPTED` means the public-safe research/evidence package passed the bridge gates; it does not mean Library Current was promoted or Sites were published.
+Scheduled Chat outputs are formal **bridge production inputs** but are not Canonical Authority. `PUBLIC_CORE_ACCEPTED` means the public-safe research/evidence package passed the bridge gates; it does not mean Library Current was promoted or Sites were published.
+
+`MISSING_DAILY != ORIGINAL_CAPTURE_GAP` and `BRIDGE_NOT_VISIBLE != NO_CHAT_DATA`.
 
 GitHub never promotes Library Current or publishes Sites.
