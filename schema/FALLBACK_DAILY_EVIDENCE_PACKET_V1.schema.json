@@ -1,0 +1,52 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ReportOps Fallback Daily Evidence Packet V1",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "capture_id",
+    "target_date",
+    "window_start",
+    "window_end",
+    "capture_status",
+    "formal_status",
+    "sources",
+    "signal_summary",
+    "data_gaps",
+    "created_at"
+  ],
+  "properties": {
+    "schema_version": {"const": "REPORTOPS_FALLBACK_BRIDGE_V1"},
+    "capture_id": {"type": "string"},
+    "target_date": {"type": "string", "format": "date"},
+    "window_start": {"type": "string"},
+    "window_end": {"type": "string"},
+    "capture_status": {"enum": ["SUCCESS", "PARTIAL", "FAILED"]},
+    "formal_status": {"type": "string"},
+    "sources": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["source_id", "url", "title", "publisher", "publication_time", "supported_claim", "evidence_grade"],
+        "properties": {
+          "source_id": {"type": "string"},
+          "url": {"type": "string"},
+          "title": {"type": "string"},
+          "publisher": {"type": "string"},
+          "publication_time": {"type": "string"},
+          "event_or_data_period": {"type": ["string", "null"]},
+          "supported_claim": {"type": "string"},
+          "evidence_grade": {"type": "string"},
+          "direct_support": {"type": ["string", "null"]},
+          "cross_check_group": {"type": ["string", "null"]},
+          "price_semantics": {"type": ["object", "null"]}
+        }
+      }
+    },
+    "signal_summary": {"type": "array", "items": {"type": "string"}},
+    "data_gaps": {"type": "array", "items": {"type": "string"}},
+    "created_at": {"type": "string"},
+    "privacy_check": {"type": "string"}
+  },
+  "additionalProperties": true
+}
