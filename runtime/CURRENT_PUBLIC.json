@@ -1,8 +1,13 @@
 {
   "schema_version": "REPORTOPS_PUBLIC_RUNTIME_CURRENT_V1",
-  "status": "R4_PUBLIC_ACCEPTANCE_PASS__AUTHORITY_LIBRARY_BINARY_REMATERIALIZATION_PENDING",
+  "status": "SUCCESS_R4_CLOSED_NORMAL_OPERATION",
   "current_daily_public": "2026-08-26",
-  "current_weekly_public": "2026-W33",
+  "current_weekly_public": "2026-W34",
+  "weekly_status": "AUDITED_DISCONTINUITY_WEEKLY_FORMAL_WITH_BOUNDARY",
+  "weekly_exception": "AUDITED_DISCONTINUITY_WEEKLY_EXCEPTION_V1",
+  "weekly_formal_daily": "4/7",
+  "weekly_recovered_gap_evidence": "3/7",
+  "fake_daily_count": 0,
   "daily_role": "SIGNAL_RADAR",
   "daily_window_timezone": "Asia/Shanghai",
   "daily_window_start_local": "D-1 10:00",
@@ -13,9 +18,14 @@
   "scheduled_work_consumer_time_local": "12:30",
   "scheduled_work_product_scan": ["DAILY", "WEEKLY", "MONTHLY", "QUARTERLY", "ANNUAL"],
   "scheduled_chat_daily_bridge_enabled": true,
-  "library_cutover": false,
+  "reportops_evening_task": null,
+  "public_site_version": 38,
+  "public_remote_readback": "PASS",
+  "public_w34_download_sha256": "7912d3aad52d46fe507d64163136fece7c5fdf646c8208ca8ce4b58a28420f67",
+  "formal_cutover": true,
+  "library_cutover": true,
   "github_role": "PUBLIC_SAFE_RUNTIME_BRIDGE_NOT_CANONICAL_AUTHORITY",
+  "canonical_authority": "CHATGPT_LIBRARY",
   "private_layer_required": true,
-  "formal_authority_remains_library_release_until_r4": true,
-  "last_updated": "2026-08-26T20:54:00+08:00"
+  "last_updated": "2026-08-27T15:28:00+08:00"
 }
