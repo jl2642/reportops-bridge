@@ -90,9 +90,8 @@
       "publisher": "Reuters",
       "title": "Gulf ship traffic via Strait of Hormuz hovers below 10-day average, data shows",
       "url": "https://www.reuters.com/business/energy/gulf-ship-traffic-via-strait-hormuz-hovers-below-10-day-average-data-shows-2026-08-26/",
-      "publication_time_utc": "2026-08-26T09:12:00Z",
-      "publication_time_asia_shanghai": "2026-08-26T17:12:00+08:00",
-      "publication_time_metadata_note": "Reuters-syndicated timestamp cross-check; exact Reuters page fetch unavailable during recovery",
+      "publication_time_utc": "2026-08-26T04:29:30Z",
+      "publication_time_asia_shanghai": "2026-08-26T12:29:30+08:00",
       "event_or_data_period": "2026-08-25 commodity-vessel transits; 10-day comparator",
       "supported_claims": [
         "C2_HORMUZ_NOT_NORMALIZED",
