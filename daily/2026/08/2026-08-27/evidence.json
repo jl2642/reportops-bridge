@@ -1,0 +1,268 @@
+{
+  "schema_version": "REPORTOPS_PUBLIC_EVIDENCE_V1",
+  "target_date": "2026-08-27",
+  "window_start": "2026-08-26T10:00:00+08:00",
+  "window_end": "2026-08-27T10:00:00+08:00",
+  "mode": "STRICT_NEW_PUBLIC",
+  "provenance": "MANUAL_RECOVERY_AFTER_SCHEDULED_CHAT_FAILURE",
+  "scheduled_run_status": "TRIGGERED_BUT_NO_GITHUB_ARTIFACT",
+  "sources": [
+    {
+      "source_id": "PUB-20260827-001",
+      "publisher": "Reuters",
+      "title": "Global equity index, bond yields edge up with focus on inflation and Middle East",
+      "url": "https://www.reuters.com/world/china/global-markets-wrapup-1-2026-08-26/",
+      "publication_time_utc": "2026-08-26T02:17:27Z",
+      "publication_time_asia_shanghai": "2026-08-26T10:17:27+08:00",
+      "event_or_data_period": "2026-08-26 market session; Iran-Oman talks; oil settlement",
+      "supported_claims": [
+        "C1_PRICE_RELIEF_ON_DIPLOMACY",
+        "C2_HORMUZ_NOT_NORMALIZED"
+      ],
+      "directness": "DIRECT",
+      "grade": "CORE_PROFESSIONAL",
+      "window_status": "PASS"
+    },
+    {
+      "source_id": "PUB-20260827-002",
+      "publisher": "Reuters",
+      "title": "As war strands Qatari gas for 6 months, US sales rise and European stocks plummet",
+      "url": "https://www.reuters.com/business/energy/war-strands-qatari-gas-6-months-us-sales-rise-european-stocks-plummet-2026-08-26/",
+      "publication_time_utc": "2026-08-26T05:03:31Z",
+      "publication_time_asia_shanghai": "2026-08-26T13:03:31+08:00",
+      "event_or_data_period": "six months through 2026-08-26; Qatar LNG shipment counts vs prior year",
+      "supported_claims": [
+        "C4_QATAR_LNG_EXPORT_COLLAPSE",
+        "C5_NON_GULF_LNG_REPLACEMENT_VALUE"
+      ],
+      "directness": "DIRECT_FOR_REUTERS_REPORTED_ICIS_DATA",
+      "grade": "CORE_PROFESSIONAL",
+      "window_status": "PASS"
+    },
+    {
+      "source_id": "PUB-20260827-003",
+      "publisher": "Reuters Open Interest",
+      "title": "Seven charts point to tighter energy markets through 2027",
+      "url": "https://www.reuters.com/commentary/reuters-open-interest/seven-charts-point-tighter-energy-markets-through-2027-2026-08-26/",
+      "publication_time_utc": "2026-08-26T07:00:28Z",
+      "publication_time_asia_shanghai": "2026-08-26T15:00:28+08:00",
+      "event_or_data_period": "forward 2027 market pricing and freight/refining signals",
+      "supported_claims": [
+        "C8_DELIVERABILITY_COSTS_REMAIN_ELEVATED"
+      ],
+      "directness": "ANALYTICAL_WITH_MARKET_DATA",
+      "grade": "PROFESSIONAL_COMMENTARY_WITH_DATA",
+      "window_status": "PASS"
+    },
+    {
+      "source_id": "PUB-20260827-004",
+      "publisher": "Reuters",
+      "title": "US-Iran war spurs Europe, Asia to boost renewables",
+      "url": "https://www.reuters.com/business/energy/us-iran-war-spurs-europe-asia-boost-renewables-2026-08-26/",
+      "publication_time_utc": "2026-08-26T08:30:22Z",
+      "publication_time_asia_shanghai": "2026-08-26T16:30:22+08:00",
+      "event_or_data_period": "2026 energy-transition response to six-month Gulf disruption",
+      "supported_claims": [
+        "C7_ENERGY_SECURITY_ACCELERATES_RENEWABLES_AND_COAL_BUFFER"
+      ],
+      "directness": "DIRECT_FOR_REPORTED_IEA_AND_COUNTRY_DATA",
+      "grade": "MATERIAL_PROFESSIONAL",
+      "window_status": "PASS"
+    },
+    {
+      "source_id": "PUB-20260827-005",
+      "publisher": "Reuters",
+      "title": "Aramco offers more oil outside Hormuz with some cargoes heading to China",
+      "url": "https://www.reuters.com/business/energy/aramco-offers-more-oil-outside-hormuz-with-some-cargoes-heading-china-2026-08-26/",
+      "publication_time_utc": "2026-08-26T09:43:12Z",
+      "publication_time_asia_shanghai": "2026-08-26T17:43:12+08:00",
+      "event_or_data_period": "August sales and September STS offers outside Hormuz",
+      "supported_claims": [
+        "C3_ARAMCO_OUTSIDE_HORMUZ_CHINA_SUPPLY",
+        "C8_DELIVERABILITY_COSTS_REMAIN_ELEVATED"
+      ],
+      "directness": "DIRECT",
+      "grade": "CORE_PROFESSIONAL",
+      "window_status": "PASS"
+    },
+    {
+      "source_id": "PUB-20260827-006",
+      "publisher": "Reuters",
+      "title": "Gulf ship traffic via Strait of Hormuz hovers below 10-day average, data shows",
+      "url": "https://www.reuters.com/business/energy/gulf-ship-traffic-via-strait-hormuz-hovers-below-10-day-average-data-shows-2026-08-26/",
+      "publication_time_utc": "2026-08-26T09:12:00Z",
+      "publication_time_asia_shanghai": "2026-08-26T17:12:00+08:00",
+      "publication_time_metadata_note": "Reuters-syndicated timestamp cross-check; exact Reuters page fetch unavailable during recovery",
+      "event_or_data_period": "2026-08-25 commodity-vessel transits; 10-day comparator",
+      "supported_claims": [
+        "C2_HORMUZ_NOT_NORMALIZED",
+        "C9_LPG_PASSAGE_CONSTRAINED_NOT_ZERO"
+      ],
+      "directness": "DIRECT_FOR_KPLER_REPORTED_COUNTS",
+      "grade": "CORE_PROFESSIONAL",
+      "window_status": "PASS"
+    },
+    {
+      "source_id": "PUB-20260827-007",
+      "publisher": "Reuters",
+      "title": "Oil prices extend losses on expectations talks to ease Middle East supply woes",
+      "url": "https://www.reuters.com/business/energy/oil-prices-extend-losses-expectations-talks-ease-middle-east-supply-woes-2026-08-27/",
+      "publication_time_utc": "2026-08-27T01:20:27Z",
+      "publication_time_asia_shanghai": "2026-08-27T09:20:27+08:00",
+      "event_or_data_period": "2026-08-27 00:04 GMT futures observation; EIA week ended 2026-08-21 distillate inventory",
+      "supported_claims": [
+        "C1_PRICE_RELIEF_ON_DIPLOMACY",
+        "C2_HORMUZ_NOT_NORMALIZED",
+        "C6_US_DISTILLATE_STOCKS_TIGHT"
+      ],
+      "directness": "DIRECT",
+      "grade": "CORE_PROFESSIONAL",
+      "window_status": "PASS"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "C1_PRICE_RELIEF_ON_DIPLOMACY",
+      "severity": "CORE",
+      "statement": "Brent and WTI fell as markets priced improved prospects for Hormuz diplomacy, while the physical supply chain had not yet normalized.",
+      "support": [
+        "PUB-20260827-001",
+        "PUB-20260827-007"
+      ],
+      "status": "SUPPORTED"
+    },
+    {
+      "claim_id": "C2_HORMUZ_NOT_NORMALIZED",
+      "severity": "CORE",
+      "statement": "Hormuz commodity-vessel traffic remained far below recent/pre-war norms despite diplomatic progress, so price relief did not equal physical normalization.",
+      "support": [
+        "PUB-20260827-001",
+        "PUB-20260827-006",
+        "PUB-20260827-007"
+      ],
+      "status": "SUPPORTED_WITH_AIS_TRACKING_CAVEAT"
+    },
+    {
+      "claim_id": "C3_ARAMCO_OUTSIDE_HORMUZ_CHINA_SUPPLY",
+      "severity": "CORE",
+      "statement": "Saudi Aramco continued offering crude via STS loading outside Hormuz, with at least 4 million barrels sold to Chinese buyers this month.",
+      "support": [
+        "PUB-20260827-005"
+      ],
+      "status": "SUPPORTED"
+    },
+    {
+      "claim_id": "C4_QATAR_LNG_EXPORT_COLLAPSE",
+      "severity": "CORE",
+      "statement": "Qatar LNG exports were reported down about 96% over the six-month conflict period, with 18 cargoes versus 509 in the comparable prior-year period.",
+      "support": [
+        "PUB-20260827-002"
+      ],
+      "status": "SUPPORTED_BY_REUTERS_REPORTED_ICIS_DATA"
+    },
+    {
+      "claim_id": "C5_NON_GULF_LNG_REPLACEMENT_VALUE",
+      "severity": "MATERIAL",
+      "statement": "Reduced Qatari exports increased the strategic value of U.S. and other non-Gulf LNG supply, while European inventory remained vulnerable.",
+      "support": [
+        "PUB-20260827-002"
+      ],
+      "status": "SUPPORTED_WITH_ANALYTICAL_INTERPRETATION"
+    },
+    {
+      "claim_id": "C6_US_DISTILLATE_STOCKS_TIGHT",
+      "severity": "CORE",
+      "statement": "U.S. distillate inventories fell by about 2.2 million barrels to 103.4 million barrels in the week ended August 21, signaling continuing refined-product tightness.",
+      "support": [
+        "PUB-20260827-007"
+      ],
+      "status": "SUPPORTED_BY_REUTERS_CITATION_OF_EIA"
+    },
+    {
+      "claim_id": "C7_ENERGY_SECURITY_ACCELERATES_RENEWABLES_AND_COAL_BUFFER",
+      "severity": "MATERIAL",
+      "statement": "The prolonged Gulf shock is accelerating renewable-energy investment in parts of Europe and Asia while some import-dependent Asian markets also use more coal as a near-term security buffer.",
+      "support": [
+        "PUB-20260827-004"
+      ],
+      "status": "SUPPORTED_WITH_POLICY_AND_IEA_DATA_BOUNDARY"
+    },
+    {
+      "claim_id": "C8_DELIVERABILITY_COSTS_REMAIN_ELEVATED",
+      "severity": "MATERIAL",
+      "statement": "Freight, STS routing and refining constraints show that energy-market tightness increasingly reflects deliverability costs rather than crude availability alone.",
+      "support": [
+        "PUB-20260827-003",
+        "PUB-20260827-005"
+      ],
+      "status": "ANALYTICAL_SYNTHESIS_SUPPORTED_BY_MARKET_DATA"
+    },
+    {
+      "claim_id": "C9_LPG_PASSAGE_CONSTRAINED_NOT_ZERO",
+      "severity": "MATERIAL",
+      "statement": "Two LPG tankers were among the reported Hormuz transits, indicating LPG passage was constrained but not zero.",
+      "support": [
+        "PUB-20260827-006"
+      ],
+      "status": "SUPPORTED_WITH_TRACKER_CAVEAT"
+    }
+  ],
+  "price_semantics": [
+    {
+      "record_id": "P1_BRENT_SETTLEMENT_20260826",
+      "description": "Brent crude settlement on 2026-08-26",
+      "value": "87.84",
+      "unit": "USD/bbl",
+      "currency": "USD",
+      "geography": "GLOBAL",
+      "basis": "ICE Brent futures settlement",
+      "observation_time": "2026-08-26 settlement",
+      "source_id": "PUB-20260827-001",
+      "formal_use": "DIRECT_MARKET_OBSERVATION"
+    },
+    {
+      "record_id": "P2_WTI_SETTLEMENT_20260826",
+      "description": "WTI crude settlement on 2026-08-26",
+      "value": "82.23",
+      "unit": "USD/bbl",
+      "currency": "USD",
+      "geography": "US",
+      "basis": "NYMEX WTI futures settlement",
+      "observation_time": "2026-08-26 settlement",
+      "source_id": "PUB-20260827-001",
+      "formal_use": "DIRECT_MARKET_OBSERVATION"
+    },
+    {
+      "record_id": "P3_BRENT_LIVE_20260827_0004GMT",
+      "description": "Brent front-month live observation",
+      "value": "87.24",
+      "unit": "USD/bbl",
+      "currency": "USD",
+      "geography": "GLOBAL",
+      "basis": "front-month futures live observation",
+      "observation_time": "2026-08-27T00:04:00Z",
+      "source_id": "PUB-20260827-007",
+      "formal_use": "LIVE_OBSERVATION_NOT_SETTLEMENT"
+    },
+    {
+      "record_id": "P4_WTI_LIVE_20260827_0004GMT",
+      "description": "WTI front-month live observation",
+      "value": "81.67",
+      "unit": "USD/bbl",
+      "currency": "USD",
+      "geography": "US",
+      "basis": "front-month futures live observation",
+      "observation_time": "2026-08-27T00:04:00Z",
+      "source_id": "PUB-20260827-007",
+      "formal_use": "LIVE_OBSERVATION_NOT_SETTLEMENT"
+    }
+  ],
+  "data_gaps": [
+    "Same-window China LNG/LPG spot price, CP/FEI, VLGC freight and port inventory series were not established.",
+    "AIS/Kpler vessel counts can be revised and may miss vessels with transponders disabled.",
+    "Reuters Open Interest is commentary; its forward-market synthesis is not treated as an official forecast.",
+    "Private/JOVO-specific operating, contract, margin and opportunity analysis is intentionally excluded from GitHub."
+  ],
+  "evidence_status": "PASS_PUBLIC_BRIDGE_WITH_FORMAL_WORK_REVALIDATION_REQUIRED",
+  "privacy_status": "PASS_PUBLIC_SAFE"
+}
