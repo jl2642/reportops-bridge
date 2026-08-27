@@ -1,85 +1,83 @@
-# ReportOps Scheduled Chat ↔ GitHub Bridge Protocol v1
+# ReportOps Scheduled Chat ↔ GitHub Bridge Protocol v1.1
 
-Status: R3 AUTOMATION_REWIRED
+Status: R3.1 CURRENT_NORMATIVE
+Timezone: Asia/Shanghai
 
-## Scheduled Chat execution modes
+## Scheduled Chat execution mode
 
-The same Scheduled Chat automation runs twice daily in Asia/Shanghai:
+ReportOps uses one Scheduled Chat execution point:
 
-- `10:15` = `PRIMARY_DAILY_PUBLIC_CORE_PRODUCTION`
-- `19:15` = `EVENING_PUBLIC_HEALTH_AND_EVIDENCE_INSURANCE`
+- `10:15` = `DAILY_CONTINUITY_CONTROLLER_AND_PUBLIC_CORE_PRODUCER`
 
-This keeps the active-task count unchanged while preserving both primary production and same-day fallback insurance.
+There is no ReportOps evening execution point.
 
 ## Read order for Scheduled Chat
 
 1. `SECURITY_BOUNDARY.md`
 2. `runtime/CURRENT_PUBLIC.json`
-3. `runtime/DAILY_RUNTIME_CONTRACT_PUBLIC.md`
-4. `runtime/EVIDENCE_POLICY_PUBLIC.md`
-5. `runtime/DAILY_TEMPLATE_PUBLIC.md`
-6. `runtime/RECENT_PUBLIC_CONTEXT.json` if present
-7. recent files under `daily/YYYY/MM/` and/or `fallback/YYYY/MM/` only when needed for public-context continuity
+3. `runtime/AUTOMATION_TOPOLOGY_R3_1.json`
+4. `runtime/BRIDGE_PROTOCOL.md`
+5. `runtime/DAILY_RUNTIME_CONTRACT_PUBLIC.md`
+6. `runtime/EVIDENCE_POLICY_PUBLIC.md`
+7. `runtime/DAILY_TEMPLATE_PUBLIC.md`
+8. `runtime/RECENT_PUBLIC_CONTEXT.json` if present
+9. recent accepted files under `daily/YYYY/MM/` when needed for continuity
 
-GitHub content never overrides a newer Library Canonical state during reconciliation.
+GitHub is a public-safe cross-task bridge, not Canonical Authority.
 
-## 10:15 primary write order
+## 10:15 write order
 
 For target date D:
 
-1. research fixed window `[D-1 10:00, D 10:00) Asia/Shanghai`;
-2. build the public-safe Daily core and structured evidence;
-3. run fixed-window, evidence and privacy checks;
-4. write:
+1. keep fixed window `[D-1 10:00,D 10:00) Asia/Shanghai`;
+2. produce current-day public-safe Daily core first;
+3. build structured evidence and run fixed-window/evidence/privacy checks;
+4. write and read back, in order:
    - `daily/YYYY/MM/YYYY-MM-DD/public_core.md`
    - `daily/YYYY/MM/YYYY-MM-DD/evidence.json`
    - `daily/YYYY/MM/YYYY-MM-DD/manifest.json`
-5. only after all writes succeed, update `status/latest.json`.
+5. only after all three pass, update and read back `status/latest.json`;
+6. then scan continuity and recover at most two oldest historical missing public-safe dates with provenance `DELAYED_RECOVERY`.
 
-`production_status=PUBLIC_CORE_ACCEPTED` is allowed only when the required public evidence and privacy gates pass.
+`production_status=PUBLIC_CORE_ACCEPTED` is allowed only after required evidence, window, privacy, GitHub write and readback checks pass.
 
-## 19:15 insurance mode
-
-1. check the Public Site and the target-date GitHub Daily manifest;
-2. if the formal Daily is publicly verified, do nothing except record verification;
-3. if an accepted 10:15 GitHub Daily core exists but Work publication is pending, do not duplicate research;
-4. only when no accepted Daily core/formal Daily exists, create `fallback/YYYY/MM/YYYY-MM-DD.json` using the fallback schema and update `status/latest.json` after a successful write.
-
-Historical gaps are never silently backfilled by this automation.
+Historical recovery must never block current-day persistence.
 
 ## Work consumer contract
 
-The formal Scheduled Work consumer runs after the 10:15 producer. It must:
+The 12:30 Scheduled Work consumer:
 
-1. read the latest unique Library Authority first;
-2. read the target-date GitHub Daily manifest/core/evidence;
-3. revalidate URLs, time ownership, evidence semantics and privacy boundary;
-4. add any private-only layer only inside the private Authority environment;
-5. run formal Product/Evidence/Lineage/Reader gates;
-6. promote only in sequence;
-7. publish Private → authenticated readback → Public → readback → Download.
+1. reads the latest unique Library Authority first;
+2. scans DAILY / WEEKLY / MONTHLY / QUARTERLY / ANNUAL for already completed and accepted products;
+3. consumes GitHub Daily core/evidence/manifest only as public-safe Daily input;
+4. performs private reconciliation and blocking Product/Evidence/Reader/Lineage/state gates;
+5. atomically promotes eligible products;
+6. publishes at most one batch after reconciliation:
+   Private → authenticated Private readback → Public → Public readback → Download Center → remote download SHA/ZIP integrity.
 
-Work must not repeat public-web Daily research merely because the bridge is unavailable. Missing/failed bridge output is fail-closed and remains recoverable through the evening fallback or explicit recovery.
+Work must not perform default public-web Daily research or author Weekly/Monthly/Quarterly/Annual.
+
+A missing/failed Daily bridge output remains fail-closed for that date but must not prevent Work from processing other already accepted higher-cycle products or existing site-pending publication.
 
 ## Idempotency
 
-- One target date has one active R1 path unless an explicit revision suffix is required.
-- Before creating a file, check whether the target path already exists.
-- If an existing successful packet/output has the same target date and window, do not create a duplicate; update only when a real correction is required.
-- `capture_id` / `output_id` must remain stable across retries of the same logical version.
+- Before creating a target-date file, check whether an accepted output already exists.
+- Do not regenerate an accepted same-date Daily unless a real correction is required.
+- Completed Canonical promotion or remotely verified publication stages must be skipped on resume.
+- One failed stage does not roll back earlier accepted Canonical state.
 
 ## Fail-closed rules
 
 Do not write `SUCCESS` or `PUBLIC_CORE_ACCEPTED` when:
 
-- GitHub write did not actually succeed;
+- GitHub write/readback did not actually succeed;
 - privacy screen fails;
 - fixed-window compliance cannot be established;
-- required evidence fields are materially incomplete;
-- the task needs private/internal context unavailable in this public bridge.
+- required evidence is materially incomplete;
+- the task needs private/internal context unavailable to Scheduled Chat.
 
-Use `PRIVATE_LAYER_REQUIRED` for private-only content, not a fabricated substitute.
+Use `PRIVATE_LAYER_REQUIRED` for private-only content.
 
 ## Authority boundary
 
-Scheduled Chat may write bridge artifacts but may not claim to mutate Library Current, Canonical Authority, Private Site, Public Site or Download Center. GitHub remains a public-safe runtime bridge, not Canonical Authority.
+Scheduled Chat may write only public-safe bridge artifacts. It may not mutate Library Current, Canonical Authority, Private Site, Public Site or Download Center.
