@@ -1,0 +1,29 @@
+{
+  "schema_version": "REPORTOPS_PUBLIC_DAILY_OUTPUT_V1",
+  "output_id": "REPORTOPS-DAILY-2026-08-27-MANUAL-RECOVERY-R1",
+  "target_date": "2026-08-27",
+  "window_start": "2026-08-26T10:00:00+08:00",
+  "window_end": "2026-08-27T10:00:00+08:00",
+  "product_role": "SIGNAL_RADAR",
+  "production_status": "PUBLIC_CORE_ACCEPTED",
+  "evidence_status": "PASS_PUBLIC_BRIDGE_WITH_FORMAL_WORK_REVALIDATION_REQUIRED",
+  "privacy_status": "PASS_PUBLIC_SAFE",
+  "report_path": "daily/2026/08/2026-08-27/public_core.md",
+  "evidence_path": "daily/2026/08/2026-08-27/evidence.json",
+  "source_count": 7,
+  "core_claim_count": 5,
+  "created_at": "2026-08-27T11:00:00+08:00",
+  "provenance": "MANUAL_RECOVERY_AFTER_SCHEDULED_CHAT_FAILURE",
+  "scheduled_automation_id": "6a54a11e58508191aac889c10b90c0ef",
+  "scheduled_run_status": "TRIGGERED_BUT_NO_GITHUB_ARTIFACT",
+  "scheduled_run_pass_claimed": false,
+  "manual_recovery_status": "PASS_PUBLIC_BRIDGE",
+  "formal_canonical_status": "PENDING_WORK_RECONCILIATION",
+  "library_status": "NOT_MODIFIED_BY_GITHUB_BRIDGE",
+  "site_status": "NOT_PUBLISHED_BY_GITHUB_BRIDGE",
+  "data_gaps": [
+    "Same-window China LNG/LPG spot/freight/inventory detail remains incomplete.",
+    "Formal Work must revalidate strong numeric/price claims and private-layer requirements.",
+    "This manual recovery does not satisfy the R3.1 first-natural-scheduled-cycle acceptance gate."
+  ]
+}
