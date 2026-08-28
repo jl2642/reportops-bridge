@@ -16,7 +16,13 @@
   "scheduled_chat_continuity_recovery_max_days_per_run": 2,
   "scheduled_chat_insurance_time_local": null,
   "scheduled_work_consumer_time_local": "12:30",
-  "scheduled_work_product_scan": ["DAILY", "WEEKLY", "MONTHLY", "QUARTERLY", "ANNUAL"],
+  "scheduled_work_product_scan": [
+    "DAILY",
+    "WEEKLY",
+    "MONTHLY",
+    "QUARTERLY",
+    "ANNUAL"
+  ],
   "scheduled_chat_daily_bridge_enabled": true,
   "reportops_evening_task": null,
   "public_site_version": 39,
@@ -24,10 +30,9 @@
   "public_daily_2026_08_28_download_sha256": "56ff033af5ed52144cff8d5a96a193515cedc1977cbfea53e63d6c5357c90e22",
   "public_w34_download_sha256": "7912d3aad52d46fe507d64163136fece7c5fdf646c8208ca8ce4b58a28420f67",
   "public_w34_reader_css_hotfix": "PASS_REMOTE_BOTH_SITES",
-  "formal_cutover": true,
-  "library_cutover": true,
   "github_role": "PUBLIC_SAFE_RUNTIME_BRIDGE_NOT_CANONICAL_AUTHORITY",
   "canonical_authority": "CHATGPT_LIBRARY",
   "private_layer_required": true,
-  "last_updated": "2026-08-28T13:01:00+08:00"
+  "last_updated": "2026-08-28T13:01:00+08:00",
+  "deployment_state_ref": "runtime/DEPLOYMENT_STATE.json"
 }
