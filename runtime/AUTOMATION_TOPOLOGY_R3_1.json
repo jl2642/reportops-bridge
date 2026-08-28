@@ -1,7 +1,8 @@
 {
-  "schema_version": "REPORTOPS_AUTOMATION_TOPOLOGY_R3_1_V1",
+  "schema_version": "REPORTOPS_AUTOMATION_TOPOLOGY_R3_1_V2",
+  "document_class": "STATIC_ARCHITECTURE",
   "phase": "R3_1_TWO_TASK_DAILY_CONTINUITY_ARCHITECTURE",
-  "status": "IMPLEMENTED_PENDING_FIRST_LIVE_CYCLE_ACCEPTANCE",
+  "normative_status": "CURRENT",
   "timezone": "Asia/Shanghai",
   "scheduled_chat": {
     "time": "10:15",
@@ -27,7 +28,13 @@
   "scheduled_work": {
     "time": "12:30",
     "role": "UNIVERSAL_RECONCILER_CANONICAL_PROMOTER_AND_PUBLISHER",
-    "checks_product_types": ["DAILY", "WEEKLY", "MONTHLY", "QUARTERLY", "ANNUAL"],
+    "checks_product_types": [
+      "DAILY",
+      "WEEKLY",
+      "MONTHLY",
+      "QUARTERLY",
+      "ANNUAL"
+    ],
     "daily_input": "GITHUB_PUBLIC_SAFE_DAILY_CORE_PLUS_LIBRARY_AUTHORITY",
     "higher_cycle_input": "INTERACTIVE_CHAT_ACCEPTED_LIBRARY_PRODUCTS_ONLY",
     "authoring": {
@@ -38,7 +45,13 @@
       "annual": false
     },
     "queue_policy": "DEPENDENCY_AWARE_THEN_OLDEST_FIRST",
-    "dependency_order": ["DAILY", "WEEKLY", "MONTHLY", "QUARTERLY", "ANNUAL"],
+    "dependency_order": [
+      "DAILY",
+      "WEEKLY",
+      "MONTHLY",
+      "QUARTERLY",
+      "ANNUAL"
+    ],
     "promotion_policy": "ATOMIC_PER_PRODUCT",
     "publication_policy": "BATCH_ONCE_AFTER_ALL_SUCCESSFUL_PROMOTIONS",
     "publication_order": [
@@ -51,10 +64,11 @@
     ],
     "public_current_pointer_update": "ONLY_AFTER_PUBLIC_DAILY_REMOTE_READBACK_PASS"
   },
-  "removed_execution_points": ["19:15_EVENING_INSURANCE"],
-  "github_role": "PUBLIC_SAFE_CROSS_TASK_BRIDGE_NOT_CANONICAL",
+  "removed_execution_points": [
+    "19:15_EVENING_INSURANCE"
+  ],
+  "github_role": "PUBLIC_SAFE_RUNTIME_BRIDGE_NOT_CANONICAL_AUTHORITY",
   "canonical_authority": "CHATGPT_LIBRARY",
-  "formal_cutover": false,
-  "library_cutover": false,
-  "next_gate": "FIRST_LIVE_10_15_CHAT_CONTINUITY_RUN_THEN_12_30_UNIVERSAL_WORK_RECONCILIATION_AND_PUBLICATION"
+  "mutable_state_ref": "runtime/DEPLOYMENT_STATE.json",
+  "public_current_ref": "runtime/CURRENT_PUBLIC.json"
 }

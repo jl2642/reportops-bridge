@@ -1,11 +1,12 @@
 {
-  "schema_version": "REPORTOPS_BRIDGE_RUNTIME_MANIFEST_V2",
-  "phase": "R3_1_TWO_TASK_DAILY_CONTINUITY_ARCHITECTURE",
-  "status": "IMPLEMENTED_PENDING_FIRST_LIVE_CYCLE_ACCEPTANCE",
+  "schema_version": "REPORTOPS_BRIDGE_RUNTIME_MANIFEST_V3",
+  "document_class": "STATIC_RUNTIME_FILE_MANIFEST",
+  "status": "CURRENT",
   "required_files": [
     "SECURITY_BOUNDARY.md",
     "runtime/CURRENT_PUBLIC.json",
     "runtime/AUTOMATION_TOPOLOGY_R3_1.json",
+    "runtime/DEPLOYMENT_STATE.json",
     "runtime/DAILY_RUNTIME_CONTRACT_PUBLIC.md",
     "runtime/EVIDENCE_POLICY_PUBLIC.md",
     "runtime/DAILY_TEMPLATE_PUBLIC.md",
@@ -14,16 +15,17 @@
     "schema/FALLBACK_DAILY_EVIDENCE_PACKET_V1.schema.json",
     "schema/DAILY_OUTPUT_MANIFEST_V1.schema.json"
   ],
-  "interactive_chat_read": "PASS",
-  "interactive_chat_write": "PASS",
-  "scheduled_chat_write": "PASS",
-  "scheduled_chat_readback": "PASS",
-  "scheduled_chat_daily_cutover": false,
+  "deployment_state_ref": "runtime/DEPLOYMENT_STATE.json",
   "canonical_authority": "CHATGPT_LIBRARY",
-  "github_role": "PUBLIC_SAFE_CROSS_TASK_BRIDGE",
+  "github_role": "PUBLIC_SAFE_RUNTIME_BRIDGE_NOT_CANONICAL_AUTHORITY",
   "scheduled_chat_time": "10:15 Asia/Shanghai",
   "scheduled_work_time": "12:30 Asia/Shanghai",
   "evening_reportops_task": "REMOVED",
-  "work_product_scan": ["DAILY", "WEEKLY", "MONTHLY", "QUARTERLY", "ANNUAL"],
-  "updated_at": "2026-08-26T20:12:00+08:00"
+  "work_product_scan": [
+    "DAILY",
+    "WEEKLY",
+    "MONTHLY",
+    "QUARTERLY",
+    "ANNUAL"
+  ]
 }
