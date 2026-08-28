@@ -1,0 +1,255 @@
+{
+  "schema_version": "REPORTOPS_PUBLIC_EVIDENCE_V1",
+  "target_date": "2026-08-28",
+  "window_start": "2026-08-27T10:00:00+08:00",
+  "window_end": "2026-08-28T10:00:00+08:00",
+  "mode": "STRICT_NEW_PUBLIC",
+  "provenance": "SCHEDULED_CHAT_PRIMARY",
+  "sources": [
+    {
+      "source_id": "PUB-20260828-001",
+      "publisher": "U.S. Energy Information Administration",
+      "title": "Weekly Natural Gas Storage Report",
+      "url": "https://www.eia.gov/naturalgas/storage/",
+      "publication_time_utc": "2026-08-27T14:30:00Z",
+      "publication_time_asia_shanghai": "2026-08-27T22:30:00+08:00",
+      "event_or_data_period": "week ended 2026-08-21",
+      "supported_claims": ["C1_US_GAS_STORAGE_SMALL_BUILD"],
+      "directness": "DIRECT",
+      "grade": "A1_PRIMARY_OFFICIAL",
+      "window_status": "PASS"
+    },
+    {
+      "source_id": "PUB-20260828-002",
+      "publisher": "U.S. Energy Information Administration",
+      "title": "Today in Energy Daily Prices",
+      "url": "https://www.eia.gov/todayinenergy/prices.php",
+      "publication_time_utc": "2026-08-27T11:30:00Z/2026-08-27T12:30:00Z",
+      "publication_time_asia_shanghai": "2026-08-27T19:30:00+08:00/2026-08-27T20:30:00+08:00",
+      "publication_time_precision": "PUBLISHED_DAILY_TYPICAL_UPDATE_WINDOW",
+      "event_or_data_period": "2026-08-26 close",
+      "supported_claims": ["C2_PRICE_AND_CRACK_SNAPSHOT"],
+      "directness": "DIRECT_REPUBLICATION",
+      "grade": "A1_OFFICIAL_DISTRIBUTOR_WITH_COMMERCIAL_UNDERLYING_DATA",
+      "window_status": "PASS"
+    },
+    {
+      "source_id": "PUB-20260828-003",
+      "publisher": "Enbridge",
+      "title": "Enbridge and KKR Announce New Joint Venture to Support Investment in the Westcoast Pipeline System in BC",
+      "url": "https://www.enbridge.com/media-center/news/details?id=123887&lang=en",
+      "publication_time_asia_shanghai": "2026-08-27",
+      "publication_time_precision": "DATE_ONLY",
+      "event_or_data_period": "transaction announced 2026-08-27; Aspen Point 2026 and Sunrise late-2028 expected service",
+      "supported_claims": ["C3_WESTCOAST_CAPITAL_AND_CAPACITY"],
+      "directness": "DIRECT",
+      "grade": "A1_PRIMARY_COMPANY",
+      "window_status": "SUPPORTING_PRIMARY_DATE_ONLY_CROSSCHECKED_BY_EXACT_TIME_SOURCE"
+    },
+    {
+      "source_id": "PUB-20260828-004",
+      "publisher": "Reuters",
+      "title": "Enbridge, KKR form $1.95 billion JV to fund Westcoast gas pipeline expansions",
+      "url": "https://www.reuters.com/business/energy/enbridge-kkr-form-joint-venture-invest-westcoast-natural-gas-pipeline-2026-08-27/",
+      "publication_time_utc": "2026-08-27T11:20:00Z",
+      "publication_time_asia_shanghai": "2026-08-27T19:20:00+08:00",
+      "event_or_data_period": "transaction announced 2026-08-27",
+      "supported_claims": ["C3_WESTCOAST_CAPITAL_AND_CAPACITY"],
+      "directness": "DIRECT",
+      "grade": "A2_PROFESSIONAL_CROSSCHECK",
+      "window_status": "PASS"
+    },
+    {
+      "source_id": "PUB-20260828-005",
+      "publisher": "Reuters",
+      "title": "Singapore oil product inventories rebound to highest in three weeks",
+      "url": "https://www.reuters.com/business/energy/singapore-oil-product-inventories-rebound-highest-three-weeks-2026-08-27/",
+      "publication_time_utc": "2026-08-27T08:51:00Z",
+      "publication_time_asia_shanghai": "2026-08-27T16:51:00+08:00",
+      "event_or_data_period": "week ended 2026-08-26; Enterprise Singapore inventory data",
+      "supported_claims": ["C4_SINGAPORE_PRODUCTS_INVENTORY_BUILD", "C5_CHINA_LIGHT_DISTILLATE_FLOW_WATCH"],
+      "directness": "DIRECT_FOR_REPORTED_GOVERNMENT_DATA",
+      "grade": "A2_PRIMARY_DERIVED_PROFESSIONAL",
+      "window_status": "PASS"
+    },
+    {
+      "source_id": "PUB-20260828-006",
+      "publisher": "Reuters",
+      "title": "Turkey boosts diesel imports from US, India after Russia ban prompts diversification",
+      "url": "https://www.reuters.com/business/energy/turkey-boosts-diesel-imports-us-india-after-russia-ban-prompts-diversification-2026-08-27/",
+      "publication_time_utc": "2026-08-27T15:04:00Z",
+      "publication_time_asia_shanghai": "2026-08-27T23:04:00+08:00",
+      "event_or_data_period": "August 2026 shipping estimates; 2025 regulator comparator",
+      "supported_claims": ["C6_TURKEY_DIESEL_TRADE_REROUTING"],
+      "directness": "DIRECT_FOR_REPORTED_KPLER_AND_ENERGY_ASPECTS_DATA",
+      "grade": "A2_PROFESSIONAL_WITH_INDEPENDENT_DATASET_CROSSCHECK",
+      "window_status": "PASS"
+    },
+    {
+      "source_id": "PUB-20260828-007",
+      "publisher": "Reuters",
+      "title": "Iran sets conditions for reopening Strait of Hormuz, top security official Rezaei says",
+      "url": "https://www.reuters.com/world/middle-east/irans-security-chief-denies-allegations-iranian-plot-assassinate-trumps-son-al-2026-08-27/",
+      "publication_time_utc": "2026-08-27T19:31:00Z",
+      "publication_time_asia_shanghai": "2026-08-28T03:31:00+08:00",
+      "event_or_data_period": "2026-08-27 official statements and ongoing Iran-Oman discussions",
+      "supported_claims": ["C7_HORMUZ_CONDITIONS_NOT_EXECUTED"],
+      "directness": "DIRECT_FOR_ATTRIBUTED_OFFICIAL_STATEMENTS",
+      "grade": "A2_PROFESSIONAL",
+      "window_status": "PASS"
+    },
+    {
+      "source_id": "PUB-20260828-008",
+      "publisher": "Reuters",
+      "title": "OPEC+ loses oil market sway in Iran war as China gains influence",
+      "url": "https://www.reuters.com/business/energy/opec-loses-oil-market-sway-iran-war-china-gains-influence-2026-08-27/",
+      "publication_time_utc": "2026-08-27T07:06:00Z",
+      "publication_time_asia_shanghai": "2026-08-27T15:06:00+08:00",
+      "event_or_data_period": "July 2026 OPEC+ share; cumulative China imports since March 2026",
+      "supported_claims": ["C8_CHINA_SWING_DEMAND_AND_OPEC_SHARE"],
+      "directness": "ANALYTICAL_WITH_REUTERS_CALCULATIONS_AND_IEA_DATA",
+      "grade": "A2_PROFESSIONAL_ANALYSIS",
+      "window_status": "PASS"
+    },
+    {
+      "source_id": "PUB-20260828-009",
+      "publisher": "Reuters",
+      "title": "Chinese state oil giant CNOOC sees potential for US-China energy cooperation",
+      "url": "https://www.reuters.com/business/energy/chinese-state-oil-giant-cnooc-sees-potential-us-china-energy-cooperation-2026-08-27/",
+      "publication_time_utc": "2026-08-27T11:25:00Z",
+      "publication_time_asia_shanghai": "2026-08-27T19:25:00+08:00",
+      "event_or_data_period": "2026-08-27 management statements after half-year results",
+      "supported_claims": ["C9_CNOOC_US_CHINA_COOPERATION_WATCH"],
+      "directness": "DIRECT_FOR_ATTRIBUTED_MANAGEMENT_STATEMENTS",
+      "grade": "A2_PROFESSIONAL",
+      "window_status": "PASS"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "C1_US_GAS_STORAGE_SMALL_BUILD",
+      "severity": "CORE",
+      "statement": "U.S. working gas in storage reached 3,184 Bcf for the week ended August 21 after a 15 Bcf weekly increase; stocks were 30 Bcf below year-ago and 167 Bcf above the five-year average.",
+      "support": ["PUB-20260828-001"],
+      "status": "SUPPORTED_BY_SINGLE_AUTHORITATIVE_DATUM"
+    },
+    {
+      "claim_id": "C2_PRICE_AND_CRACK_SNAPSHOT",
+      "severity": "CORE",
+      "statement": "EIA's August 27 republication of August 26 spot data showed WTI at 83.46 USD/bbl, Brent at 87.77 USD/bbl and the U.S. Gulf Coast 3:2:1 crack at 67.17 USD/bbl.",
+      "support": ["PUB-20260828-002"],
+      "status": "SUPPORTED_WITH_REPUBLICATION_AND_OBSERVATION_DATE_BOUNDARY"
+    },
+    {
+      "claim_id": "C3_WESTCOAST_CAPITAL_AND_CAPACITY",
+      "severity": "CORE",
+      "statement": "Enbridge, KKR and Apollo announced approximately C$2.7 billion of funding for Westcoast expansions backed by regulatory approvals and long-term take-or-pay contracts.",
+      "support": ["PUB-20260828-003", "PUB-20260828-004"],
+      "status": "SUPPORTED_AND_CROSSCHECKED"
+    },
+    {
+      "claim_id": "C4_SINGAPORE_PRODUCTS_INVENTORY_BUILD",
+      "severity": "CORE",
+      "statement": "Singapore onshore oil-product inventories rose 4.0% week on week to 39.18 million barrels in the week ended August 26, with builds across residual, middle and light distillates.",
+      "support": ["PUB-20260828-005"],
+      "status": "SUPPORTED_BY_REUTERS_REPORTING_OF_ENTERPRISE_SINGAPORE_DATA"
+    },
+    {
+      "claim_id": "C5_CHINA_LIGHT_DISTILLATE_FLOW_WATCH",
+      "severity": "MATERIAL",
+      "statement": "China was among the reported sources of Singapore gasoline and naphtha imports, but the window lacks a complete China export-volume and quota data chain.",
+      "support": ["PUB-20260828-005"],
+      "status": "SUPPORTED_WITH_NEEDS_CONFIRMATION_BOUNDARY"
+    },
+    {
+      "claim_id": "C6_TURKEY_DIESEL_TRADE_REROUTING",
+      "severity": "CORE",
+      "statement": "Turkey materially increased August diesel imports from India and the United States while Russian supply and share fell; Kpler and Energy Aspects agree on direction but differ on absolute volumes.",
+      "support": ["PUB-20260828-006"],
+      "status": "SUPPORTED_WITH_DATASET_RANGE_BOUNDARY"
+    },
+    {
+      "claim_id": "C7_HORMUZ_CONDITIONS_NOT_EXECUTED",
+      "severity": "CORE",
+      "statement": "Iran publicly described conditions and a proposed Iran-Oman channel for reopening Hormuz, but acknowledged unresolved details; no executed universal commercial-access agreement was established.",
+      "support": ["PUB-20260828-007"],
+      "status": "SUPPORTED_AS_NEGOTIATION_NOT_COMPLETION"
+    },
+    {
+      "claim_id": "C8_CHINA_SWING_DEMAND_AND_OPEC_SHARE",
+      "severity": "MATERIAL",
+      "statement": "Reuters analysis using IEA data estimated OPEC+ at about 40% of July world oil output versus over 48% before the war, while lower Chinese imports became a major balancing variable.",
+      "support": ["PUB-20260828-008"],
+      "status": "SUPPORTED_ANALYTICAL_CALCULATION"
+    },
+    {
+      "claim_id": "C9_CNOOC_US_CHINA_COOPERATION_WATCH",
+      "severity": "MATERIAL",
+      "statement": "CNOOC management expressed openness to future U.S.-China energy investment cooperation, but announced no new binding contract or investment.",
+      "support": ["PUB-20260828-009"],
+      "status": "SUPPORTED_AS_WATCH_NOT_TRANSACTION"
+    }
+  ],
+  "price_semantics": [
+    {
+      "record_id": "P1_WTI_SPOT_20260826",
+      "value": "83.46",
+      "unit": "USD/bbl",
+      "currency": "USD",
+      "geography": "US",
+      "basis": "wholesale spot petroleum price republished by EIA from Refinitiv",
+      "observation_time": "2026-08-26 close",
+      "source_id": "PUB-20260828-002"
+    },
+    {
+      "record_id": "P2_BRENT_SPOT_20260826",
+      "value": "87.77",
+      "unit": "USD/bbl",
+      "currency": "USD",
+      "geography": "GLOBAL",
+      "basis": "wholesale spot petroleum price republished by EIA from Refinitiv",
+      "observation_time": "2026-08-26 close",
+      "source_id": "PUB-20260828-002"
+    },
+    {
+      "record_id": "P3_NYH_RBOB_20260826",
+      "value": "3.37",
+      "unit": "USD/gal",
+      "currency": "USD",
+      "geography": "NY Harbor, US",
+      "basis": "wholesale spot petroleum price; daily change +2.2%",
+      "observation_time": "2026-08-26 close",
+      "source_id": "PUB-20260828-002"
+    },
+    {
+      "record_id": "P4_USGC_CRACK_20260826",
+      "value": "67.17",
+      "unit": "USD/bbl",
+      "currency": "USD",
+      "geography": "U.S. Gulf Coast",
+      "basis": "3:2:1 crack spread using LLS; EIA republished snapshot; daily change +4.9%",
+      "observation_time": "2026-08-26 close",
+      "source_id": "PUB-20260828-002"
+    },
+    {
+      "record_id": "P5_MONT_BELVIEU_PROPANE_20260826",
+      "value": "0.69",
+      "unit": "USD/gal",
+      "currency": "USD",
+      "geography": "Mont Belvieu, Texas, US",
+      "basis": "wholesale spot petroleum price; daily change 0.0%",
+      "observation_time": "2026-08-26 close",
+      "source_id": "PUB-20260828-002"
+    }
+  ],
+  "data_gaps": [
+    "Same-window JKM, TTF, China LNG/LPG delivered prices, CP/FEI, VLGC freight and port inventory were not established.",
+    "Hormuz vessel counts by vessel class, insurance costs and waiting times were not established in a complete same-window chain.",
+    "Singapore inventory is a weekly hub measure and does not establish Asia-wide end-user demand.",
+    "CNOOC cooperation language and Hormuz conditions are intentions/negotiations, not completed transactions or access agreements.",
+    "Private/JOVO-specific operating, contract, margin, capital-allocation and opportunity analysis is intentionally excluded."
+  ],
+  "evidence_status": "PASS_PUBLIC_BRIDGE_WITH_FORMAL_WORK_REVALIDATION_REQUIRED",
+  "window_status": "PASS",
+  "privacy_status": "PASS_PUBLIC_SAFE"
+}
