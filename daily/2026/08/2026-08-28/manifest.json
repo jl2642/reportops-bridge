@@ -1,0 +1,28 @@
+{
+  "schema_version": "REPORTOPS_PUBLIC_DAILY_OUTPUT_V1",
+  "output_id": "REPORTOPS-DAILY-2026-08-28-SCHEDULED-R1",
+  "target_date": "2026-08-28",
+  "window_start": "2026-08-27T10:00:00+08:00",
+  "window_end": "2026-08-28T10:00:00+08:00",
+  "product_role": "SIGNAL_RADAR",
+  "production_status": "PUBLIC_CORE_ACCEPTED",
+  "evidence_status": "PASS_PUBLIC_BRIDGE_WITH_FORMAL_WORK_REVALIDATION_REQUIRED",
+  "window_status": "PASS",
+  "privacy_status": "PASS_PUBLIC_SAFE",
+  "report_path": "daily/2026/08/2026-08-28/public_core.md",
+  "evidence_path": "daily/2026/08/2026-08-28/evidence.json",
+  "source_count": 9,
+  "core_claim_count": 6,
+  "created_at": "2026-08-28T10:12:47+08:00",
+  "provenance": "SCHEDULED_CHAT_PRIMARY",
+  "github_write_status": "PASS",
+  "github_readback_status": "PASS_PUBLIC_CORE_AND_EVIDENCE_PRE_MANIFEST",
+  "formal_canonical_status": "PENDING_WORK_RECONCILIATION",
+  "library_status": "NOT_READ_OR_MODIFIED_BY_GITHUB_BRIDGE",
+  "site_status": "NOT_READ_OR_PUBLISHED_BY_GITHUB_BRIDGE",
+  "data_gaps": [
+    "Same-window JKM, TTF, China LNG/LPG spot/freight/inventory detail remains incomplete.",
+    "Formal Work must revalidate strong numeric claims and any private-layer requirements.",
+    "Hormuz negotiations do not establish executed commercial normalization."
+  ]
+}
