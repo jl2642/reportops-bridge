@@ -1,83 +1,22 @@
-# ReportOps Scheduled Chat ↔ GitHub Bridge Protocol v1.1
+# ReportOps Scheduled Chat ↔ GitHub Bridge Protocol v1.2
 
-Status: R3.1 CURRENT_NORMATIVE
+Status: `R3.1_DAILY_V4_PUBLIC_CORE_CURRENT`
 Timezone: Asia/Shanghai
 
-## Scheduled Chat execution mode
+## Scheduled Chat
 
-ReportOps uses one Scheduled Chat execution point:
-
-- `10:15` = `DAILY_CONTINUITY_CONTROLLER_AND_PUBLIC_CORE_PRODUCER`
-
-There is no ReportOps evening execution point.
-
-## Read order for Scheduled Chat
-
-1. `SECURITY_BOUNDARY.md`
-2. `runtime/CURRENT_PUBLIC.json`
-3. `runtime/AUTOMATION_TOPOLOGY_R3_1.json`
-4. `runtime/BRIDGE_PROTOCOL.md`
-5. `runtime/DAILY_RUNTIME_CONTRACT_PUBLIC.md`
-6. `runtime/EVIDENCE_POLICY_PUBLIC.md`
-7. `runtime/DAILY_TEMPLATE_PUBLIC.md`
-8. `runtime/RECENT_PUBLIC_CONTEXT.json` if present
-9. recent accepted files under `daily/YYYY/MM/` when needed for continuity
-
-GitHub is a public-safe cross-task bridge, not Canonical Authority.
+10:15 = `DAILY_CONTINUITY_CONTROLLER_AND_PUBLIC_CORE_PRODUCER`; no evening ReportOps task. Read SECURITY_BOUNDARY → CURRENT_PUBLIC → topology → this protocol → DAILY_RUNTIME_CONTRACT_PUBLIC → EVIDENCE_POLICY_PUBLIC → DAILY_TEMPLATE_PUBLIC → recent context/manifests.
 
 ## 10:15 write order
 
-For target date D:
+For target D: fixed window → produce Chinese `DAILY_V4_PUBLIC_CORE` → structured evidence → window/privacy/evidence/public-composition checks → write/readback `public_core.md` → `evidence.json` → `manifest.json` → update/readback `status/latest.json` → recover at most two oldest gaps.
 
-1. keep fixed window `[D-1 10:00,D 10:00) Asia/Shanghai`;
-2. produce current-day public-safe Daily core first;
-3. build structured evidence and run fixed-window/evidence/privacy checks;
-4. write and read back, in order:
-   - `daily/YYYY/MM/YYYY-MM-DD/public_core.md`
-   - `daily/YYYY/MM/YYYY-MM-DD/evidence.json`
-   - `daily/YYYY/MM/YYYY-MM-DD/manifest.json`
-5. only after all three pass, update and read back `status/latest.json`;
-6. then scan continuity and recover at most two oldest historical missing public-safe dates with provenance `DELAYED_RECOVERY`.
+`PUBLIC_CORE_ACCEPTED` requires manifest fields: `editorial_contract=DAILY_V4_PUBLIC_CORE`, `language=zh-CN`, `public_composition_status=PASS`, 3–5 signal cards, Evidence PASS, privacy PASS, window PASS, GitHub write/readback PASS, unsupported CORE claims = 0. Historical recovery never blocks D.
 
-`production_status=PUBLIC_CORE_ACCEPTED` is allowed only after required evidence, window, privacy, GitHub write and readback checks pass.
+## Work consumer
 
-Historical recovery must never block current-day persistence.
+12:30 Work reads unique Library Authority and accepted GitHub bridge, reuses public core/evidence without re-research, adds a separate private `JOVO_DIRECTIONAL_EXPOSURE` layer, runs blocking V3+V4 Product/Evidence/Reader/Lineage/state/freshness gates, atomically promotes, then publishes Private → authenticated readback → Public → remote readback → Download SHA/ZIP. Work must not author higher cycles.
 
-## Work consumer contract
+## Idempotency / fail-closed
 
-The 12:30 Scheduled Work consumer:
-
-1. reads the latest unique Library Authority first;
-2. scans DAILY / WEEKLY / MONTHLY / QUARTERLY / ANNUAL for already completed and accepted products;
-3. consumes GitHub Daily core/evidence/manifest only as public-safe Daily input;
-4. performs private reconciliation and blocking Product/Evidence/Reader/Lineage/state gates;
-5. atomically promotes eligible products;
-6. publishes at most one batch after reconciliation:
-   Private → authenticated Private readback → Public → Public readback → Download Center → remote download SHA/ZIP integrity.
-
-Work must not perform default public-web Daily research or author Weekly/Monthly/Quarterly/Annual.
-
-A missing/failed Daily bridge output remains fail-closed for that date but must not prevent Work from processing other already accepted higher-cycle products or existing site-pending publication.
-
-## Idempotency
-
-- Before creating a target-date file, check whether an accepted output already exists.
-- Do not regenerate an accepted same-date Daily unless a real correction is required.
-- Completed Canonical promotion or remotely verified publication stages must be skipped on resume.
-- One failed stage does not roll back earlier accepted Canonical state.
-
-## Fail-closed rules
-
-Do not write `SUCCESS` or `PUBLIC_CORE_ACCEPTED` when:
-
-- GitHub write/readback did not actually succeed;
-- privacy screen fails;
-- fixed-window compliance cannot be established;
-- required evidence is materially incomplete;
-- the task needs private/internal context unavailable to Scheduled Chat.
-
-Use `PRIVATE_LAYER_REQUIRED` for private-only content.
-
-## Authority boundary
-
-Scheduled Chat may write only public-safe bridge artifacts. It may not mutate Library Current, Canonical Authority, Private Site, Public Site or Download Center.
+Accepted same-date bridge outputs are not regenerated unless correcting a real defect. Missing/failed Daily remains fail-closed for that date. GitHub never mutates Library Current or Sites.
