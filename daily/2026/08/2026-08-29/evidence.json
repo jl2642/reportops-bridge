@@ -2,107 +2,18 @@
   "schema_version": "REPORTOPS_PUBLIC_EVIDENCE_V1",
   "target_date": "2026-08-29",
   "mode": "STRICT_NEW_PUBLIC",
-  "fixed_window": {
-    "timezone": "Asia/Shanghai",
-    "start": "2026-08-28T10:00:00+08:00",
-    "end": "2026-08-29T10:00:00+08:00",
-    "end_exclusive": true
-  },
+  "fixed_window": {"timezone":"Asia/Shanghai","start":"2026-08-28T10:00:00+08:00","end":"2026-08-29T10:00:00+08:00","end_exclusive":true},
   "records": [
-    {
-      "id": "E01",
-      "publisher": "Reuters",
-      "title": "Shipping traffic via Strait of Hormuz slips below 10-day average, data shows",
-      "url": "https://www.reuters.com/business/energy/shipping-traffic-via-strait-hormuz-slips-below-10-day-average-data-shows-2026-08-28/",
-      "publication_time": "2026-08-28T03:15:00Z",
-      "source_type": "PROFESSIONAL_WIRE",
-      "support": "DIRECT",
-      "claim_ids": ["C01"],
-      "boundary": "Preliminary Kpler ship-tracking observation; seven Thursday commodity-vessel transits, versus 17 prior day and 10-day average 15."
-    },
-    {
-      "id": "E02",
-      "publisher": "Reuters",
-      "title": "Oil settles lower on clues about Fed policy, rumors of Hormuz deal",
-      "url": "https://www.reuters.com/business/energy/oil-track-weekly-loss-even-iran-tensions-simmer-2026-08-28/",
-      "publication_time": "2026-08-28T01:16:00Z",
-      "updated_within_window": true,
-      "source_type": "PROFESSIONAL_WIRE",
-      "support": "DIRECT",
-      "claim_ids": ["C01", "C02"],
-      "price_semantics": {"Brent":{"value":89.31,"unit":"USD/bbl","basis":"futures settlement","observation":"Friday settlement"},"WTI":{"value":83.40,"unit":"USD/bbl","basis":"futures settlement","observation":"Friday settlement"}},
-      "boundary": "Article page updated within fixed window; settlement data and weekly direction used."
-    },
-    {
-      "id": "E03",
-      "publisher": "Reuters",
-      "title": "QatarEnergy cancels gas deliveries to Italy's Edison until early November over Iran war",
-      "url": "https://www.reuters.com/business/energy/qatarenergy-cancels-gas-deliveries-italys-edison-until-early-november-over-iran-war-2026-08-28/",
-      "publication_time": "2026-08-28T09:51:00Z",
-      "source_type": "PROFESSIONAL_WIRE",
-      "support": "DIRECT",
-      "claim_ids": ["C03"],
-      "boundary": "Edison/QatarEnergy contract disruption; five further cargoes and aggregate 29 cargoes / 3.8 bcm."
-    },
-    {
-      "id": "E04",
-      "publisher": "Reuters",
-      "title": "Germany says gas storage injections pick up as LNG market conditions improve",
-      "url": "https://www.reuters.com/business/germany-says-gas-storage-injections-pick-up-lng-market-conditions-improve-2026-08-28/",
-      "publication_time": "2026-08-28T11:58:00Z",
-      "source_type": "PROFESSIONAL_WIRE",
-      "support": "DIRECT",
-      "claim_ids": ["C04"],
-      "boundary": "German government statement; storage 51.64%, improved injections and weaker Asian LNG competition."
-    },
-    {
-      "id": "E05",
-      "publisher": "Reuters",
-      "title": "Russia's gasoline output drops to 70% of domestic demand late in August after drone attacks, sources say",
-      "url": "https://www.reuters.com/business/energy/russias-gasoline-output-drops-70-domestic-demand-late-august-after-drone-attacks-sources-say-2026-08-28/",
-      "publication_time": "2026-08-28T15:21:00Z",
-      "source_type": "PROFESSIONAL_WIRE_INDUSTRY_SOURCES",
-      "support": "DIRECT",
-      "claim_ids": ["C05"],
-      "boundary": "Industry-source estimates, not official statistics: output ~80kt/d, summer demand ~115kt/d; import estimates included."
-    },
-    {
-      "id": "E06",
-      "publisher": "Reuters",
-      "title": "China's factory activity seen contracting again in August",
-      "url": "https://www.reuters.com/world/asia-pacific/chinas-factory-activity-seen-contracting-again-august-2026-08-28/",
-      "publication_time": "2026-08-28T06:27:00Z",
-      "source_type": "PROFESSIONAL_WIRE_POLL",
-      "support": "DIRECT",
-      "claim_ids": ["C06"],
-      "boundary": "Reuters poll forecast, not official PMI result; official data due Monday."
-    },
-    {
-      "id": "E07",
-      "publisher": "Reuters",
-      "title": "US energy firms leave rig count unchanged in latest week, Baker Hughes says",
-      "url": "https://www.reuters.com/business/energy/us-energy-firms-leave-rig-count-unchanged-latest-week-baker-hughes-says-2026-08-28/",
-      "publication_time": "2026-08-28T17:32:00Z",
-      "source_type": "PROFESSIONAL_WIRE_COMPANY_DATA",
-      "support": "DIRECT",
-      "claim_ids": ["C07"],
-      "boundary": "Baker Hughes weekly rig count: total 588; oil 447; gas 132; Permian 267."
-    },
-    {
-      "id": "E08",
-      "publisher": "U.S. Energy Information Administration",
-      "title": "U.S. uranium production more than tripled in 2025 and was the highest since 2017",
-      "url": "https://www.eia.gov/todayinenergy/detail.php?id=68044",
-      "publication_time": "2026-08-28T12:00:00-04:00",
-      "source_type": "OFFICIAL_PRIMARY",
-      "support": "DIRECT",
-      "claim_ids": ["C08"],
-      "boundary": "2025 annual uranium production/procurement data; structural signal, not current spot-price evidence."
-    }
+    {"id":"E01","publisher":"Reuters","title":"Shipping traffic via Strait of Hormuz slips below 10-day average, data shows","url":"https://www.reuters.com/business/energy/shipping-traffic-via-strait-hormuz-slips-below-10-day-average-data-shows-2026-08-28/","publication_time":"2026-08-28T03:15:00Z","source_type":"PROFESSIONAL_WIRE","support":"DIRECT","claim_ids":["C01"],"boundary":"Preliminary Kpler ship-tracking observation; seven Thursday commodity-vessel transits, versus 17 prior day and 10-day average 15."},
+    {"id":"E03","publisher":"Reuters","title":"QatarEnergy cancels gas deliveries to Italy's Edison until early November over Iran war","url":"https://www.reuters.com/business/energy/qatarenergy-cancels-gas-deliveries-italys-edison-until-early-november-over-iran-war-2026-08-28/","publication_time":"2026-08-28T09:51:00Z","source_type":"PROFESSIONAL_WIRE","support":"DIRECT","claim_ids":["C03"],"boundary":"Five further cargoes canceled; aggregate 29 cargoes / 3.8 bcm; Edison replacement volumes disclosed."},
+    {"id":"E04","publisher":"Reuters","title":"Germany says gas storage injections pick up as LNG market conditions improve","url":"https://www.reuters.com/business/germany-says-gas-storage-injections-pick-up-lng-market-conditions-improve-2026-08-28/","publication_time":"2026-08-28T11:58:00Z","source_type":"PROFESSIONAL_WIRE","support":"DIRECT","claim_ids":["C04"],"boundary":"German government statement; storage 51.64%, improved injections and weaker Asian LNG competition."},
+    {"id":"E05","publisher":"Reuters","title":"Russia's gasoline output drops to 70% of domestic demand late in August after drone attacks, sources say","url":"https://www.reuters.com/business/energy/russias-gasoline-output-drops-70-domestic-demand-late-august-after-drone-attacks-sources-say-2026-08-28/","publication_time":"2026-08-28T15:21:00Z","source_type":"PROFESSIONAL_WIRE_INDUSTRY_SOURCES","support":"DIRECT","claim_ids":["C05"],"boundary":"Industry-source estimates, not official statistics: output ~80kt/d, summer demand ~115kt/d; import estimates included."},
+    {"id":"E06","publisher":"Reuters","title":"China's factory activity seen contracting again in August","url":"https://www.reuters.com/world/asia-pacific/chinas-factory-activity-seen-contracting-again-august-2026-08-28/","publication_time":"2026-08-28T06:27:00Z","source_type":"PROFESSIONAL_WIRE_POLL","support":"DIRECT","claim_ids":["C06"],"boundary":"Reuters poll forecast, not official PMI result; official data due Monday."},
+    {"id":"E07","publisher":"Reuters","title":"US energy firms leave rig count unchanged in latest week, Baker Hughes says","url":"https://www.reuters.com/business/energy/us-energy-firms-leave-rig-count-unchanged-latest-week-baker-hughes-says-2026-08-28/","publication_time":"2026-08-28T17:32:00Z","source_type":"PROFESSIONAL_WIRE_COMPANY_DATA","support":"DIRECT","claim_ids":["C07"],"boundary":"Baker Hughes weekly rig count: total 588; oil 447; gas 132; Permian 267."},
+    {"id":"E08","publisher":"U.S. Energy Information Administration","title":"U.S. uranium production more than tripled in 2025 and was the highest since 2017","url":"https://www.eia.gov/todayinenergy/detail.php?id=68044","publication_time":"2026-08-28T12:00:00-04:00","source_type":"OFFICIAL_PRIMARY","support":"DIRECT","claim_ids":["C08"],"boundary":"2025 annual uranium production/procurement data; structural signal, not current spot-price evidence."}
   ],
   "claims": [
-    {"id":"C01","class":"CORE","text":"Hormuz physical transit remained below recent average and volatile.","evidence":["E01","E02"],"support":"DIRECT"},
-    {"id":"C02","class":"CORE","text":"Brent and WTI Friday settlements declined while markets weighed possible Hormuz normalization.","evidence":["E02"],"support":"DIRECT","single_professional_market_record":true},
+    {"id":"C01","class":"CORE","text":"Hormuz physical transit remained below recent average and volatile.","evidence":["E01"],"support":"DIRECT","qualification":"preliminary Kpler observation via Reuters"},
     {"id":"C03","class":"CORE","text":"QatarEnergy extended Edison LNG force majeure to early November with five further cargo cancellations.","evidence":["E03"],"support":"DIRECT"},
     {"id":"C04","class":"MATERIAL","text":"German storage injections improved as Asian LNG cargo competition softened.","evidence":["E04"],"support":"DIRECT"},
     {"id":"C05","class":"CORE","text":"Russian gasoline output was materially below estimated domestic demand after refinery outages.","evidence":["E05"],"support":"DIRECT","qualification":"Reuters industry-source estimate"},
@@ -110,12 +21,8 @@
     {"id":"C07","class":"MATERIAL","text":"U.S. total rig count held at 588 while oil rigs fell and gas rigs rose.","evidence":["E07"],"support":"DIRECT"},
     {"id":"C08","class":"MATERIAL","text":"U.S. 2025 uranium concentrate production exceeded 2024 by more than threefold but remained small versus reactor procurement.","evidence":["E08"],"support":"DIRECT"}
   ],
-  "gaps": [
-    "No directly sourced fixed-window Asian LNG spot assessment captured.",
-    "No complete fixed-window diesel/gasoline crack settlement captured.",
-    "No new official China LNG/LPG customs-volume release captured."
-  ],
-  "privacy_screen": "PASS_PUBLIC_SAFE",
-  "window_check": "PASS",
-  "unsupported_core_claims": 0
+  "gaps": ["No fixed-window direct crude settlement record accepted; price section is DATA_GAP rather than using an out-of-window timestamp.","No directly sourced fixed-window Asian LNG spot assessment captured.","No complete fixed-window diesel/gasoline crack settlement captured.","No new official China LNG/LPG customs-volume release captured."],
+  "privacy_screen":"PASS_PUBLIC_SAFE",
+  "window_check":"PASS",
+  "unsupported_core_claims":0
 }
