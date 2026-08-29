@@ -1,31 +1,49 @@
 ---
 product_role: SIGNAL_RADAR
 runtime_scope: PUBLIC_SAFE
+editorial_contract: DAILY_V4_PUBLIC_CORE
+language: zh-CN
 ---
-# Energy Cycle Daily
+# 能源周期日报｜YYYY-MM-DD
 
-## 1. Executive Signal Summary
+<!-- MODULE:EXECUTIVE_SIGNAL_SUMMARY -->
+## 1. 今日一屏结论
 
-## 2. Market And Event Delta
+<!-- KEY_SIGNAL_CARDS:3-5 -->
+## 2. 今日关键信号
 
-## 3. Price And Spread Delta
+### 信号卡1
+- 事实摘要：
+- 为什么重要：
+- 价格/供需/产业链传导：
+- 影响对象：
+- 证据边界：
+- 下一步验证：
+- 反证条件：
 
-## 4. China Chain Delta
+<!-- MODULE:MARKET_AND_EVENT_DELTA -->
+## 3. 市场与事件增量
 
-## 5. Global Energy Delta
+<!-- MODULE:PRICE_AND_SPREAD_DELTA -->
+## 4. 价格与价差增量
 
-## 6. Research Trigger Board
+<!-- MODULE:CHINA_CHAIN_DELTA -->
+## 5. 中国天然气 / LNG / LPG产业链增量
 
-Use only public-safe labels and themes. Do not expose internal Research Object state.
+<!-- MODULE:GLOBAL_ENERGY_DELTA -->
+## 6. 国际油气 / LNG增量
 
-## 7. Industry Chain & Operator Exposure
+<!-- MODULE:RESEARCH_TRIGGER_BOARD -->
+## 7. Research Trigger Board
 
-Discuss generic sector/operator transmission only. Do not include JOVO/九丰-specific operating, contract, margin, capital-allocation or opportunity analysis.
+<!-- MODULE:INDUSTRY_CHAIN_AND_OPERATOR_EXPOSURE -->
+## 8. 产业链与经营主体影响（Public-safe）
 
-## 8. Evidence And Gaps
+<!-- MODULE:EVIDENCE_AND_GAPS -->
+## 9. 证据、数据缺口、风险与反证
 
-Bind each material conclusion to source IDs or explicit `DATA_GAP / PROXY_USED / WATCH / NEEDS_CONFIRMATION` markers.
+<!-- NEXT_VERIFICATION -->
+## 10. 下一窗口验证
 
-## 9. Next Verification
-
-List the next observable facts, data releases or events that would confirm or weaken the signals.
+<!-- PROXY_MATRIX_CONDITIONAL -->
+## Appendix. Proxy Matrix（仅在存在Material DATA_GAP/PROXY时）
