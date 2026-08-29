@@ -1,0 +1,26 @@
+{
+  "schema_version": "REPORTOPS_DAILY_PUBLIC_MANIFEST_V1",
+  "target_date": "2026-08-29",
+  "product_role": "SIGNAL_RADAR",
+  "production_status": "PUBLIC_CORE_ACCEPTED",
+  "provenance": "SCHEDULED_CHAT_PRIMARY",
+  "fixed_window": "[2026-08-28 10:00,2026-08-29 10:00) Asia/Shanghai",
+  "window_status": "PASS",
+  "privacy_status": "PASS_PUBLIC_SAFE",
+  "evidence_status": "PASS_STRICT_NEW_PUBLIC",
+  "evidence_record_count": 7,
+  "unsupported_core_claims": 0,
+  "github_write_status": "PASS",
+  "github_readback_status": "PASS_PUBLIC_CORE_AND_EVIDENCE_BEFORE_MANIFEST",
+  "public_core_path": "daily/2026/08/2026-08-29/public_core.md",
+  "evidence_path": "daily/2026/08/2026-08-29/evidence.json",
+  "formal_canonical_status": "PENDING_WORK_RECONCILIATION",
+  "sites_publication_status": "NOT_PERFORMED_BY_CHAT",
+  "higher_cycle_authored": false,
+  "private_layer_written": false,
+  "notes": [
+    "Weekend mode applied.",
+    "An initially considered crude settlement article had a displayed publication timestamp before the fixed-window start and was removed before acceptance; price section remains explicit DATA_GAP.",
+    "GitHub package is public-safe bridge input, not Canonical Authority."
+  ]
+}
