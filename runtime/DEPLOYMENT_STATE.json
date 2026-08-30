@@ -1,7 +1,7 @@
 {
   "schema_version": "REPORTOPS_DEPLOYMENT_STATE_V1",
   "document_class": "MUTABLE_DEPLOYMENT_AND_ACTIVATION_STATE",
-  "status": "PHASE3_RUNTIME_CUTOVER_ACTIVE",
+  "status": "V4_LIVE_WIRING_FORMALIZED",
   "topology": "AUTOMATION_TOPOLOGY_R3_1",
   "formal_cutover": true,
   "library_cutover": true,
@@ -14,11 +14,17 @@
   "historical_reader_policy": "LEGACY_COMPAT",
   "current_metadata_freshness_gate_active": true,
   "work_cycle_authoring_allowed": false,
-  "report_bodies_modified": false,
-  "site_publication_performed": false,
+  "report_bodies_modified": true,
+  "site_publication_performed": true,
+  "private_site_version": 43,
+  "public_site_version": 41,
+  "download_integrity": "PASS",
+  "v4_runtime_assets_in_authority": "PASS_POST_REBUILD",
+  "v4_formalization_transaction": "REPORTOPS_V4_LIVE_WIRING_FORMALIZATION_20260829",
   "current_public_ref": "runtime/CURRENT_PUBLIC.json",
   "github_role": "PUBLIC_SAFE_RUNTIME_BRIDGE_NOT_CANONICAL_AUTHORITY",
   "canonical_authority": "CHATGPT_LIBRARY:/能源周期报告/00_CURRENT/CURRENT_POINTER.json",
-  "latest_cutover_transaction": "REPORTOPS_PHASE3_CONTROLLED_RUNTIME_CUTOVER_20260828",
-  "activated_at": "2026-08-28T15:25:00+08:00"
+  "latest_cutover_transaction": "REPORTOPS_V4_LIVE_WIRING_FORMALIZATION_20260829",
+  "activated_at": "2026-08-28T15:25:00+08:00",
+  "formalized_at": "2026-08-30T13:08:00+08:00"
 }
