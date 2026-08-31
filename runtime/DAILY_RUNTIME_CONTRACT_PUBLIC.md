@@ -1,67 +1,87 @@
-# ReportOps Daily Public Runtime Contract v1.3
+# ReportOps Daily Public Runtime Contract v1.4
 
 Status: `R3_1_DAILY_V4_PUBLIC_CORE_ACTIVE`
 Editorial contract: `DAILY_V4_PUBLIC_CORE`
-Language: `zh-CN` (source titles/identifiers may remain original language)
+Language: `zh-CN`
 
 ## Product role
 
-Daily answers: **固定窗口内出现了哪些新的、可验证的能源市场信号，它们通过什么机制影响价格、供需、物流和产业链？** Role: `SIGNAL_RADAR`.
+Daily answers: **固定窗口内出现了哪些新的、可验证、且对能源产业决策最重要的信号，它们通过什么机制影响价格、供需、物流、资产和产业链？** Role: `SIGNAL_RADAR`.
 
 ## Runtime role
 
 10:15 Asia/Shanghai Scheduled Chat is the Daily continuity/editorial controller. 12:30 Work is the downstream formal reconciler/publisher and must not redo public-web research or rewrite an Accepted public core.
 
-Before new-day production, Chat compares `runtime/CURRENT_PUBLIC.json` with `status/latest.json` and recent Daily manifests. If a newer bridge Daily exists but has not advanced Canonical Current, Chat must perform an exact V4 public-depth preflight on that candidate. A failed/unpromoted candidate is a **correction backlog**, not a missing-evidence day: reuse its accepted Evidence, make a bounded content-only revision, then re-accept it before/alongside D. Never re-research merely to repair depth.
+Before new-day production, Chat compares `CURRENT_PUBLIC`, `status/latest` and recent manifests. Unpromoted newer candidates are correction backlog and must be revalidated before silent continuity.
 
 ## Fixed window
 
 `[D-1 10:00, D 10:00) Asia/Shanghai`. Delays never move the window.
 
-## V4 public-core composition
+## Source identity gate — BLOCKING BEFORE EDITORIAL ACCEPTANCE
 
-Use exact semantic markers:
+Apply `EVIDENCE_POLICY_PUBLIC v1.1`.
 
-1. `MODULE:EXECUTIVE_SIGNAL_SUMMARY`
-2. `KEY_SIGNAL_CARDS:3-5` plus heading containing `今日关键信号` and 3–5 `### 信号卡...`
-3. `MODULE:MARKET_AND_EVENT_DELTA`
-4. `MODULE:PRICE_AND_SPREAD_DELTA`
-5. `MODULE:CHINA_CHAIN_DELTA`
-6. `MODULE:GLOBAL_ENERGY_DELTA`
-7. `MODULE:RESEARCH_TRIGGER_BOARD`
-8. `MODULE:INDUSTRY_CHAIN_AND_OPERATOR_EXPOSURE`
-9. `MODULE:EVIDENCE_AND_GAPS`
-10. `NEXT_VERIFICATION`
-11. conditional Proxy Matrix when material `DATA_GAP/PROXY_USED` exists.
+For every external CORE/MATERIAL source:
+- URL is copied from an observed source/search result; never generated from a title;
+- title/publisher/domain identity is verified;
+- evidence records include `url_identity_status` and verification date;
+- all external CORE/MATERIAL records must pass.
+
+Manifest must record:
+- `source_identity_gate_status=PASS`;
+- `verified_external_source_count`;
+- `unverified_external_source_count=0`;
+- `guessed_url_count=0`.
+
+## Expert signal-priority gate — BLOCKING
+
+Passing word counts is not enough. Before selecting 3–5 signal cards, rank eligible evidence by:
+
+1. direct impact on oil/gas/LNG/LPG/refining/shipping/power/fuel economics;
+2. magnitude or change in physical supply/demand/flow/price/contract availability;
+3. relevance to China/Asia and JOVO-adjacent value chains;
+4. timeliness and incremental information versus prior Daily;
+5. actionability: a clear next observable, risk path or decision implication.
+
+A lower-priority structural item may appear in Global Energy / Watchlist, but must not displace a materially more relevant same-window energy-market signal from the main cards.
+
+Manifest must record:
+- `expert_signal_priority_gate_status=PASS`;
+- `primary_signal_count`;
+- `secondary_structural_signal_count`;
+- a short `signal_selection_rationale`.
+
+## V4 composition
+
+Use semantic markers:
+`EXECUTIVE_SIGNAL_SUMMARY`, `KEY_SIGNAL_CARDS:3-5`, `MARKET_AND_EVENT_DELTA`, `PRICE_AND_SPREAD_DELTA`, `CHINA_CHAIN_DELTA`, `GLOBAL_ENERGY_DELTA`, `RESEARCH_TRIGGER_BOARD`, `INDUSTRY_CHAIN_AND_OPERATOR_EXPOSURE`, `EVIDENCE_AND_GAPS`, `NEXT_VERIFICATION`, conditional Proxy Matrix.
 
 Each signal card contains fact summary, why it matters, transmission, affected objects, evidence boundary, next verification and falsifier.
 
 ## Exact deterministic public-depth acceptance
 
-`PUBLIC_CORE_ACCEPTED` is forbidden unless the same Daily V4 logic used by Work would pass the public surface:
-
+`PUBLIC_CORE_ACCEPTED` is forbidden unless:
 - 3–5 signal cards;
-- Executive Signal Summary ≥150 CJK;
-- 今日关键信号 section ≥850 CJK;
+- Executive ≥150 CJK;
+- 今日关键信号 ≥850 CJK;
 - every signal card ≥180 CJK;
-- China Chain Delta ≥120 CJK;
-- Global Energy Delta ≥120 CJK;
+- China Chain ≥120 CJK;
+- Global Energy ≥120 CJK;
 - Industry/Operator Exposure ≥120 CJK;
 - explicit falsifier/counterevidence;
 - explicit next-verification/trigger set;
-- every material `DATA_GAP` has proxy/boundary or governed no-proxy treatment;
-- strong claims have evidence + boundary treatment;
+- material `DATA_GAP` has proxy/boundary or governed no-proxy treatment;
+- strong claims have evidence + boundary;
 - normal-day body ≥1,800 CJK;
-- reference band 2,200–3,500 CJK; weekend/holiday may use governed shorter mode but does not waive section/card depth.
-
-The manifest must record `v4_public_depth_gate_status=PASS` plus the measured CJK/card values. Marker/card-count checks alone are not composition acceptance.
+- 2,200–3,500 CJK reference band; weekend mode may be shorter but does not waive section/card depth.
 
 ## Public-safe boundary
 
-GitHub contains no JOVO/九丰-specific operating, contract, margin, capital-allocation or opportunity judgment. `JOVO_DIRECTIONAL_EXPOSURE` is private-only Work reconciliation.
+GitHub contains no JOVO/九丰-specific operating, contract, margin, capital-allocation or opportunity judgment.
 
 ## Acceptance metadata
 
-Before `PUBLIC_CORE_ACCEPTED`, manifest records: `editorial_contract=DAILY_V4_PUBLIC_CORE`, `language=zh-CN`, `public_composition_status=PASS`, `v4_public_depth_gate_status=PASS`, signal-card count, window/privacy/evidence/write/readback PASS and `unsupported_core_claims=0`.
+Before `PUBLIC_CORE_ACCEPTED`, manifest records: V4 depth PASS, source identity PASS, expert signal priority PASS, window/privacy/evidence/write/readback PASS and `unsupported_core_claims=0`.
 
 GitHub is bridge durability, not Canonical Authority, and never publishes Sites.
