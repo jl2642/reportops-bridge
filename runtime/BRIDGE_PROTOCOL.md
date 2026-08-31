@@ -18,10 +18,10 @@ Depth/content correction reuses accepted Evidence with no new research. Source-i
 
 ## 10:15 order
 
-correction backlog → target D fixed-window research → source identity verification → expert signal ranking → Chinese V4 public core with inline clickable Evidence links → inline citation gate → exact V4 depth/window/privacy/evidence checks → write/readback public_core → evidence → manifest → status/latest.
+correction backlog → target D fixed-window research → source identity verification + acquisition receipt → Source Identity v2 gate → expert signal ranking → Chinese V4 public core with inline clickable Evidence links → inline citation gate → exact V4 depth/window/privacy/evidence checks → write/readback public_core → evidence → manifest → status/latest.
 
 `PUBLIC_CORE_ACCEPTED` requires:
-- source identity PASS / guessed_url_count=0;
+- Source Identity v2 PASS / guessed_url_count=0;
 - inline citation PASS;
 - expert signal priority PASS;
 - V4 depth PASS;
@@ -31,7 +31,7 @@ correction backlog → target D fixed-window research → source identity verifi
 ## Work consumer
 
 12:30 Work does not re-research. It:
-- verifies source identity metadata;
+- verifies source identity metadata and acquisition receipts;
 - runs `source_identity_gate_v1.py`;
 - runs `inline_citation_gate_v1.py` on accepted Markdown and final Private/Public Reader HTML;
 - requires every narrative Evidence anchor to retain the exact accepted canonical href;
