@@ -1,0 +1,45 @@
+{
+  "schema_version": "REPORTOPS_SOURCE_IDENTITY_CORRECTION_V1",
+  "target_date": "2026-08-29",
+  "corrective_revision": "R3_SOURCE_IDENTITY",
+  "status": "CHAT_ACCEPTED_PENDING_WORK_FORMALIZATION",
+  "audited_on": "2026-08-31",
+  "scope": "SOURCE_URL_IDENTITY_ONLY",
+  "corrected_records": [
+    {
+      "evidence_id": "E03",
+      "publisher": "Reuters",
+      "title": "QatarEnergy cancels gas deliveries to Italy's Edison until early November over Iran war",
+      "old_url": "https://www.reuters.com/business/energy/qatarenergy-cancels-gas-deliveries-italys-edison-until-early-november-over-iran-war-2026-08-28/",
+      "corrected_url": "https://www.reuters.com/business/energy/qatarenergy-cancels-gas-deliveries-italys-edison-until-early-november-2026-08-28/",
+      "defect_class": "SYNTHESIZED_OR_GUESSED_URL",
+      "title_identity": "MATCH",
+      "claim_support_identity": "MATCH",
+      "claim_semantics_changed": false
+    }
+  ],
+  "verification_summary": {
+    "total_external_sources": 7,
+    "verified_external_sources": 7,
+    "incorrect_urls_found": 1,
+    "remaining_unverified": 0,
+    "guessed_url_count_after_correction": 0
+  },
+  "content_effect": {
+    "public_core_body_change_required": false,
+    "private_core_body_change_required": false,
+    "evidence_url_change_required": true,
+    "rendered_source_href_change_required": true,
+    "current_date_change_required": false
+  },
+  "work_required": [
+    "Consume corrected evidence.json.",
+    "Replace E03 rendered href on Private/Public Daily 2026-08-29 and Download artifact.",
+    "Assert rendered href equality against accepted evidence URLs.",
+    "Run Evidence/Reader/Source-Href/State/Freshness gates.",
+    "Republish Private -> authenticated readback -> Public -> remote readback -> Download SHA/ZIP.",
+    "Keep Current Daily date at 2026-08-29 until any newer Daily is separately promoted."
+  ],
+  "public_reresearch": false,
+  "narrow_source_verification": true
+}
