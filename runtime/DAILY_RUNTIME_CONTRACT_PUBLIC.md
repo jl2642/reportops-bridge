@@ -18,11 +18,11 @@ Before new-day production, Chat compares `CURRENT_PUBLIC`, `status/latest` and r
 
 `[D-1 10:00, D 10:00) Asia/Shanghai`. Delays never move the window.
 
-## Source identity gate — BLOCKING
+## Source identity v2 acquisition-receipt gate — BLOCKING
 
 Apply `EVIDENCE_POLICY_PUBLIC v1.1`.
 
-Every external CORE/MATERIAL source URL must be an actually observed/canonical exact-document URL, never generated from a title. Manifest requires `source_identity_gate_status=PASS`, `unverified_external_source_count=0`, `guessed_url_count=0`.
+Every external CORE/MATERIAL source URL must be an actually observed/canonical exact-document URL, never generated from a title. Each record must also carry a complete `source_identity_receipt` matching the observed URL/title/publisher and accepted canonical URL. Run `runtime/source_identity_gate_v2.py`. Manifest requires `source_identity_gate_status=PASS_V2`, `unverified_external_source_count=0`, `guessed_url_count=0`.
 
 ## Inline clickable citation gate — BLOCKING
 
