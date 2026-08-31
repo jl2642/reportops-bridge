@@ -1,0 +1,8 @@
+cycle,gate_code,severity,applies,condition,owner
+daily,SOURCE_IDENTITY_INVALID,BLOCKING,Y,Every external CORE/MATERIAL source must have exact observed/canonical identity evidence and zero guessed URLs,Chat→Work
+daily,INLINE_CITATION_INVALID,BLOCKING,Y,Every unique external source used by the narrative must be clickable inline and every Signal Card must contain an inline source link,Chat→Work
+daily,READER_CITATION_FUNCTIONALITY_INVALID,BLOCKING,Y,Final Reader article must preserve accepted external source hrefs and must not render Source markers as plain text,Work
+daily,EXPERT_SIGNAL_PRIORITY_INVALID,BLOCKING,Y,Primary Signal Cards must be selected by documented energy-industry priority ranking rather than filler/structure completion,Chat
+daily,BRIDGE_CANONICAL_IDENTITY_MISMATCH,BLOCKING,Y,Same-date correction must patch formal Canonical prose in place and may not overwrite it with a divergent pre-formal bridge body,Work
+daily,RUNTIME_CONTRACT_VERSION_DRIFT,BLOCKING,Y,Formal Authority/GitHub deployment state/task contract versions must explicitly agree or declare pending formalization,Work
+daily,READER_RENDERER_RELEASE_REGRESSION_MISSING,BLOCKING_CONDITIONAL,Y,When Reader renderer changes functional and desktop/mobile/print regression evidence is required before deployment,Work
