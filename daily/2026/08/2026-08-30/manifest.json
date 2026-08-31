@@ -58,5 +58,15 @@
     "Chevron-Venezuela expansion remains source-reported negotiation/expected signing and is not treated as realized incremental production."
   ],
   "corrected_at": "2026-08-31T09:31:00+08:00",
-  "corrected_readback_at": "2026-08-31T09:32:00+08:00"
+  "corrected_readback_at": "2026-08-31T09:32:00+08:00",
+  "source_identity_gate_status": "PASS",
+  "verified_external_source_count": 6,
+  "unique_verified_external_urls": 3,
+  "unverified_external_source_count": 0,
+  "guessed_url_count": 0,
+  "source_identity_verified_at": "2026-08-31T09:47:00+08:00",
+  "expert_signal_priority_gate_status": "PASS_RETROSPECTIVE_REVIEW",
+  "primary_signal_count": 3,
+  "secondary_structural_signal_count": 0,
+  "signal_selection_rationale": "Russia diesel export restriction, Hormuz/Iran physical-deliverability risk, and Chevron/Venezuela future heavy-crude supply path are the three highest-value in-window energy signals; no lower-priority structural item displaced a more relevant eligible signal."
 }
