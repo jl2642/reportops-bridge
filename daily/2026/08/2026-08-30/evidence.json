@@ -1,5 +1,5 @@
 {
-  "schema_version": "REPORTOPS_PUBLIC_DAILY_EVIDENCE_V1",
+  "schema_version": "REPORTOPS_PUBLIC_DAILY_EVIDENCE_V1_1",
   "mode": "STRICT_NEW_PUBLIC",
   "target_date": "2026-08-30",
   "window_start": "2026-08-29T10:00:00+08:00",
@@ -20,7 +20,9 @@
       "support": "DIRECT",
       "source_tier": "T2_PROFESSIONAL",
       "window_status": "IN_WINDOW",
-      "boundary": "Policy fact only; does not itself prove a new market-price move."
+      "boundary": "Policy fact only; does not itself prove a new market-price move.",
+      "url_identity_status": "EXACT_SEARCH_RESULT_CONFIRMED",
+      "url_verified_date": "2026-08-31"
     },
     {
       "evidence_id": "PUB-0830-E02",
@@ -35,7 +37,9 @@
       "support": "DIRECT",
       "source_tier": "T2_PROFESSIONAL",
       "window_status": "IN_WINDOW",
-      "boundary": "Refinery-offline context is reported background; exact current capacity loss is not asserted."
+      "boundary": "Refinery-offline context is reported background; exact current capacity loss is not asserted.",
+      "url_identity_status": "EXACT_SEARCH_RESULT_CONFIRMED",
+      "url_verified_date": "2026-08-31"
     },
     {
       "evidence_id": "PUB-0830-E03",
@@ -50,7 +54,9 @@
       "support": "DIRECT_ATTRIBUTED_STATEMENT",
       "source_tier": "T2_PROFESSIONAL",
       "window_status": "IN_WINDOW",
-      "boundary": "Attributed official statement; not independently audited trade statistics."
+      "boundary": "Attributed official statement; not independently audited trade statistics.",
+      "url_identity_status": "EXACT_SEARCH_RESULT_CONFIRMED",
+      "url_verified_date": "2026-08-31"
     },
     {
       "evidence_id": "PUB-0830-E04",
@@ -65,7 +71,9 @@
       "support": "DIRECT_ATTRIBUTED_STATEMENTS",
       "source_tier": "T2_PROFESSIONAL",
       "window_status": "IN_WINDOW",
-      "boundary": "Does not establish actual vessel-flow improvement or a signed navigation agreement."
+      "boundary": "Does not establish actual vessel-flow improvement or a signed navigation agreement.",
+      "url_identity_status": "EXACT_SEARCH_RESULT_CONFIRMED",
+      "url_verified_date": "2026-08-31"
     },
     {
       "evidence_id": "PUB-0830-E05",
@@ -80,7 +88,9 @@
       "support": "DIRECT_TO_SOURCE_REPORTING",
       "source_tier": "T2_PROFESSIONAL",
       "window_status": "IN_WINDOW",
-      "boundary": "Source-based negotiation report; formal signing and implementation remained pending."
+      "boundary": "Source-based negotiation report; formal signing and implementation remained pending.",
+      "url_identity_status": "EXACT_SEARCH_RESULT_CONFIRMED",
+      "url_verified_date": "2026-08-31"
     },
     {
       "evidence_id": "PUB-0830-E06",
@@ -95,7 +105,9 @@
       "support": "DIRECT_TO_SOURCE_REPORTING",
       "source_tier": "T2_PROFESSIONAL",
       "window_status": "IN_WINDOW",
-      "boundary": "No incremental production volume is treated as realized."
+      "boundary": "No incremental production volume is treated as realized.",
+      "url_identity_status": "EXACT_SEARCH_RESULT_CONFIRMED",
+      "url_verified_date": "2026-08-31"
     },
     {
       "evidence_id": "PUB-0830-E07",
@@ -110,7 +122,9 @@
       "support": "METHOD_RESULT",
       "source_tier": "METHOD",
       "window_status": "IN_WINDOW",
-      "boundary": "Absence claim is limited to evidence accepted in this run; it is not a claim that no market quotes existed anywhere."
+      "boundary": "Absence claim is limited to evidence accepted in this run; it is not a claim that no market quotes existed anywhere.",
+      "url_identity_status": "METHOD_RESULT_NO_URL",
+      "url_verified_date": "2026-08-31"
     }
   ],
   "source_count": 3,
@@ -122,5 +136,13 @@
   "window_status": "PASS",
   "privacy_status": "PASS_PUBLIC_SAFE",
   "cross_check_status": "PASS_WITH_ATTRIBUTION_AND_BOUNDARIES",
-  "evidence_status": "PASS_STRICT_NEW_PUBLIC_WITH_FORMAL_WORK_REVALIDATION_REQUIRED"
+  "evidence_status": "PASS_STRICT_NEW_PUBLIC_WITH_FORMAL_WORK_REVALIDATION_REQUIRED",
+  "source_identity_policy": "EVIDENCE_POLICY_PUBLIC_V1_1",
+  "source_identity_gate_status": "PASS",
+  "source_identity_summary": {
+    "verified_external_source_count": 6,
+    "unique_verified_external_urls": 3,
+    "unverified_external_source_count": 0,
+    "guessed_url_count": 0
+  }
 }
