@@ -23,7 +23,7 @@
   "unsupported_core_claims": 0,
   "latest_contiguous_public_core_date": "2026-08-30",
   "github_write_status": "PASS",
-  "github_readback_status": "PENDING_POST_WRITE_READBACK",
+  "github_readback_status": "PASS_R2_PUBLIC_CORE_MANIFEST",
   "formal_status": "PENDING_WORK_RECONCILIATION",
   "work_reconciliation_status": "R1_REJECTED__R2_CHAT_CORRECTED_PENDING_WORK_REVALIDATION",
   "prior_failed_checks": [
@@ -36,5 +36,5 @@
   "manual_action_required": false,
   "failure_stage": null,
   "failure_reason": null,
-  "updated_at": "2026-08-31T09:31:00+08:00"
+  "updated_at": "2026-08-31T09:32:00+08:00"
 }
