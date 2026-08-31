@@ -16,13 +16,13 @@
     "daily_2026_08_30": "PUBLIC_CORE_ACCEPTED_V1_5_PENDING_WORK_RECONCILIATION",
     "new_public_reresearch_for_corrections": false
   },
-  "source_identity_gate_status": "PASS",
+  "source_identity_gate_status": "PASS_V2",
   "verified_external_source_count": 7,
   "unique_verified_external_urls": 6,
   "unverified_external_source_count": 0,
   "guessed_url_count": 0,
   "source_identity_verified_at": "2026-08-31T10:15:59+08:00",
-  "inline_citation_gate_status": "PASS",
+  "inline_citation_gate_status": "PASS_V2_SOURCE_LEVEL",
   "inline_clickable_evidence_count": 7,
   "inline_markdown_link_count": 20,
   "plain_unlinked_evidence_marker_count": 0,
@@ -51,7 +51,7 @@
     "industry_exposure_depth_cjk": 163,
     "blocking_issues": 0
   },
-  "evidence_status": "PASS_STRICT_NEW_PUBLIC_SOURCE_IDENTITY_VERIFIED",
+  "evidence_status": "PASS_STRICT_NEW_PUBLIC_SOURCE_IDENTITY_V2",
   "evidence_record_count": 7,
   "window_status": "PASS",
   "privacy_status": "PASS_PUBLIC_SAFE",
@@ -71,5 +71,12 @@
     "No accepted new JKM or TTF assessment meeting fixed-window price semantics.",
     "No accepted new China LNG/LPG spot, inventory, terminal-utilization or VLGC freight evidence.",
     "Venezuela 1.5 million bpd target and ONEOK processing expansion are forward-looking capacity paths, not realized current supply."
-  ]
+  ],
+  "source_identity_gate_version": "V2",
+  "source_identity_receipt_status": "PASS_7_OF_7_EXTERNAL_RECORDS",
+  "source_primary_upgrade_status": "E07_ONEOK_OFFICIAL_PRIMARY",
+  "inline_citation_gate_version": "V2",
+  "candidate_revision": "R2_SOURCE_ASSURANCE_UPGRADE_NO_CLAIM_CHANGE",
+  "new_research_for_content": false,
+  "source_verification_only": true
 }
