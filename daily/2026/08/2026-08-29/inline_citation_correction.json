@@ -1,0 +1,26 @@
+{
+  "schema_version": "REPORTOPS_INLINE_CITATION_CORRECTION_V1",
+  "target_date": "2026-08-29",
+  "corrective_revision": "R4_INLINE_CITATION",
+  "status": "CHAT_ACCEPTED_PENDING_WORK_FORMALIZATION",
+  "audited_on": "2026-08-31",
+  "scope": "MARKUP_ONLY_INLINE_CLICKABLE_SOURCE_LINKS",
+  "defect": "FORMAL_DAILY_BODY_USED_PLAIN_EVIDENCE_MARKERS_WITHOUT_CLICKABLE_SOURCE_HREFS",
+  "requirement": "Key factual claims in narrative must expose clickable Evidence links to exact accepted source URLs; a bottom Sources appendix alone is insufficient.",
+  "content_effect": {
+    "claim_semantics_changed": false,
+    "prose_rewrite_required": false,
+    "evidence_url_change_required": false,
+    "inline_markup_change_required": true,
+    "reader_href_change_required": true,
+    "current_date_change_required": false
+  },
+  "work_required": [
+    "Use the accepted 2026-08-29 evidence URLs after R3 source-identity correction.",
+    "Inject clickable inline Evidence anchors adjacent to the corresponding factual claims in the current formal Private/Public Daily without changing prose semantics.",
+    "Preserve the bottom source list if desired, but do not use it as a substitute for inline citation coverage.",
+    "Run runtime/inline_citation_gate_v1.py on accepted Markdown and final Private/Public Reader HTML.",
+    "Require exact href equality to accepted canonical Evidence URLs.",
+    "Republish via Private -> authenticated readback -> Public -> remote readback -> Download."
+  ]
+}
