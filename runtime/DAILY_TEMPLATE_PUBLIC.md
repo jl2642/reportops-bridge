@@ -6,14 +6,18 @@ language: zh-CN
 ---
 # 能源周期日报｜YYYY-MM-DD
 
+> 引用规则：关键事实后必须直接附可点击来源，例如 `[E01](EXACT_CANONICAL_SOURCE_URL)`。Evidence编号不可只写成纯文本；文末Sources列表只能补充浏览，不能替代正文inline citation。
+
 <!-- MODULE:EXECUTIVE_SIGNAL_SUMMARY -->
 ## 1. 今日一屏结论
+
+每个核心事实/判断链的事实端至少含一个正文内可点击Evidence链接。
 
 <!-- KEY_SIGNAL_CARDS:3-5 -->
 ## 2. 今日关键信号
 
 ### 信号卡1
-- 事实摘要：
+- 事实摘要：…… [E01](EXACT_CANONICAL_SOURCE_URL)
 - 为什么重要：
 - 价格/供需/产业链传导：
 - 影响对象：
@@ -44,6 +48,10 @@ language: zh-CN
 
 <!-- NEXT_VERIFICATION -->
 ## 10. 下一窗口验证
+
+## Public Sources
+
+保留可浏览的来源清单，但不得把这一节当作正文引用覆盖的替代品。
 
 <!-- PROXY_MATRIX_CONDITIONAL -->
 ## Appendix. Proxy Matrix（仅在存在Material DATA_GAP/PROXY时）
