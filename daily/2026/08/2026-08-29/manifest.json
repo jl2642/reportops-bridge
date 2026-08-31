@@ -1,26 +1,42 @@
 {
-  "schema_version": "REPORTOPS_DAILY_PUBLIC_MANIFEST_V1",
+  "schema_version": "REPORTOPS_DAILY_PUBLIC_MANIFEST_V1_1",
   "target_date": "2026-08-29",
   "product_role": "SIGNAL_RADAR",
-  "production_status": "PUBLIC_CORE_ACCEPTED",
+  "production_status": "PUBLIC_CORE_ACCEPTED_SOURCE_IDENTITY_CORRECTED",
   "provenance": "SCHEDULED_CHAT_PRIMARY",
   "fixed_window": "[2026-08-28 10:00,2026-08-29 10:00) Asia/Shanghai",
   "window_status": "PASS",
   "privacy_status": "PASS_PUBLIC_SAFE",
-  "evidence_status": "PASS_STRICT_NEW_PUBLIC",
+  "evidence_status": "PASS_STRICT_NEW_PUBLIC_SOURCE_IDENTITY_VERIFIED",
   "evidence_record_count": 7,
   "unsupported_core_claims": 0,
   "github_write_status": "PASS",
   "github_readback_status": "PASS_PUBLIC_CORE_AND_EVIDENCE_BEFORE_MANIFEST",
   "public_core_path": "daily/2026/08/2026-08-29/public_core.md",
   "evidence_path": "daily/2026/08/2026-08-29/evidence.json",
-  "formal_canonical_status": "PENDING_WORK_RECONCILIATION",
+  "formal_canonical_status": "CURRENT_2026_08_29_REQUIRES_BOUNDED_SOURCE_IDENTITY_CORRECTION",
   "sites_publication_status": "NOT_PERFORMED_BY_CHAT",
   "higher_cycle_authored": false,
   "private_layer_written": false,
   "notes": [
     "Weekend mode applied.",
     "An initially considered crude settlement article had a displayed publication timestamp before the fixed-window start and was removed before acceptance; price section remains explicit DATA_GAP.",
-    "GitHub package is public-safe bridge input, not Canonical Authority."
-  ]
+    "GitHub package is public-safe bridge input, not Canonical Authority.",
+    "2026-08-31 source-identity audit found one synthesized Reuters slug in E03; factual claim/title remain supported.",
+    "E03 canonical Reuters URL corrected; all seven external sources independently source-identity verified.",
+    "This correction does not change the Daily's claims, fixed window, evidence meaning or Current date; Work must replace rendered hrefs and republish through normal gates."
+  ],
+  "source_identity_gate_status": "PASS_AFTER_CORRECTION",
+  "verified_external_source_count": 7,
+  "unverified_external_source_count": 0,
+  "guessed_url_count": 0,
+  "source_identity_correction_status": "CHAT_ACCEPTED_PENDING_WORK_FORMALIZATION",
+  "corrective_revision": "R3_SOURCE_IDENTITY",
+  "corrected_evidence_ids": [
+    "E03"
+  ],
+  "claim_semantics_changed": false,
+  "source_verification_performed": true,
+  "new_public_research_performed": false,
+  "same_date_work_correction_required": true
 }
