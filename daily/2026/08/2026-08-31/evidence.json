@@ -1,0 +1,111 @@
+{
+  "schema_version": "REPORTOPS_PUBLIC_EVIDENCE_V1_1",
+  "target_date": "2026-08-31",
+  "fixed_window": {
+    "start": "2026-08-30T10:00:00+08:00",
+    "end": "2026-08-31T10:00:00+08:00"
+  },
+  "mode": "STRICT_NEW_PUBLIC",
+  "guessed_url_count": 0,
+  "unverified_external_source_count": 0,
+  "records": [
+    {
+      "id": "E01",
+      "claim": "2026-08-31 00:40 GMT Brent was $89.18/bbl (+1.23%) and WTI $84.32/bbl (+1.10%).",
+      "publisher": "Reuters",
+      "title": "Oil jumps more than 1% after US attack on Iran's Larak island",
+      "publication_time": "2026-08-30T22:12:00Z",
+      "data_period": "2026-08-31T00:40:00Z",
+      "url": "https://www.reuters.com/business/energy/oil-jumps-more-than-2-after-us-attack-irans-larak-island-2026-08-30/",
+      "url_identity_status": "OPENED_EXACT_DOCUMENT",
+      "url_verified_date": "2026-08-31",
+      "support": "DIRECT",
+      "materiality": "CORE",
+      "boundary": "Intraday futures quote, not settlement."
+    },
+    {
+      "id": "E02",
+      "claim": "US forces struck two Iranian launchers on Larak Island; a US official said IRGC forces were preparing to launch rockets with sea mines into the Strait of Hormuz.",
+      "publisher": "Reuters",
+      "title": "US forces strike two Iranian launchers on Iran's Larak island, US official says",
+      "publication_time": "2026-08-30T20:38:00Z",
+      "data_period": "2026-08-30",
+      "url": "https://www.reuters.com/world/middle-east/us-forces-strike-two-iranian-launchers-irans-larak-island-us-official-says-2026-08-30/",
+      "url_identity_status": "OPENED_EXACT_DOCUMENT",
+      "url_verified_date": "2026-08-31",
+      "support": "DIRECT",
+      "materiality": "CORE",
+      "boundary": "Based on a US official and subsequent reported retaliation; military claims remain subject to later confirmation."
+    },
+    {
+      "id": "E03",
+      "claim": "Visible commodity vessel transits through Hormuz over the weekend fell to about five per day.",
+      "publisher": "Reuters",
+      "title": "Oil jumps more than 1% after US attack on Iran's Larak island",
+      "publication_time": "2026-08-30T22:12:00Z",
+      "data_period": "2026-08-30_to_2026-08-31_weekend",
+      "url": "https://www.reuters.com/business/energy/oil-jumps-more-than-2-after-us-attack-irans-larak-island-2026-08-30/",
+      "url_identity_status": "OPENED_EXACT_DOCUMENT",
+      "url_verified_date": "2026-08-31",
+      "support": "DIRECT",
+      "materiality": "CORE",
+      "boundary": "Visible-vessel shipping-data count; AIS visibility and later revisions can change the figure."
+    },
+    {
+      "id": "E04",
+      "claim": "PetroChina H1 crude processing fell 5.6%, gasoline/kerosene/diesel sales fell 8.8%, while total natural-gas sales rose 3.9%.",
+      "publisher": "Reuters",
+      "title": "PetroChina H1 profit jumps 22%, fuel sales fall as China demand weakens",
+      "publication_time": "2026-08-30T12:08:00Z",
+      "data_period": "2026-H1",
+      "url": "https://www.reuters.com/business/energy/petrochina-h1-profit-jumps-22-fuel-sales-fall-china-demand-weakens-2026-08-30/",
+      "url_identity_status": "OPENED_EXACT_DOCUMENT",
+      "url_verified_date": "2026-08-31",
+      "support": "DIRECT",
+      "materiality": "CORE",
+      "boundary": "Half-year cumulative issuer data; structural, not an intraday China spot-market indicator."
+    },
+    {
+      "id": "E05",
+      "claim": "Venezuela's interim president said a US-Venezuela energy arrangement would last 25 years and target more than 1.5 million bpd from 17 strategic oilfields.",
+      "publisher": "Reuters",
+      "title": "Venezuela's interim president says US energy deal will last 25 years",
+      "publication_time": "2026-08-30T02:29:00Z",
+      "data_period": "2026-08-29_statement",
+      "url": "https://www.reuters.com/business/energy/venezuelas-interim-president-says-us-energy-deal-will-last-25-years-2026-08-30/",
+      "url_identity_status": "OPENED_EXACT_DOCUMENT",
+      "url_verified_date": "2026-08-31",
+      "support": "DIRECT",
+      "materiality": "CORE",
+      "boundary": "Agreement target/forward plan, not realized incremental production."
+    },
+    {
+      "id": "E06",
+      "claim": "Trump said Venezuelan oil from the new arrangement would be used to replenish the US SPR; Reuters reported about 290 million barrels in the reserve as of Aug. 21.",
+      "publisher": "Reuters",
+      "title": "Trump says US will refill Strategic Petroleum Reserve using Venezuelan oil",
+      "publication_time": "2026-08-30T14:34:00Z",
+      "data_period": "2026-08-30_statement_and_2026-08-21_inventory",
+      "url": "https://www.reuters.com/business/energy/trump-says-us-will-refill-strategic-petroleum-reserve-using-venezuelan-oil-2026-08-30/",
+      "url_identity_status": "OPENED_EXACT_DOCUMENT",
+      "url_verified_date": "2026-08-31",
+      "support": "DIRECT",
+      "materiality": "MATERIAL",
+      "boundary": "No firm timing/volume mechanics for replenishment; Venezuela production expansion requires investment and infrastructure."
+    },
+    {
+      "id": "E07",
+      "claim": "ONEOK agreed to buy Brazos Midstream's Permian Midland gas gathering and processing assets for about $4.43bn, more than doubling its regional processing capacity.",
+      "publisher": "Reuters",
+      "title": "ONEOK to buy Brazos Midstream's Permian Midland Basin assets for $4.43 billion",
+      "publication_time": "2026-08-31T01:40:00Z",
+      "data_period": "2026-08-30_transaction_announcement",
+      "url": "https://www.reuters.com/legal/litigation/oneok-buy-brazos-midstreams-permian-midland-basin-assets-443-billion-2026-08-31/",
+      "url_identity_status": "OPENED_EXACT_DOCUMENT",
+      "url_verified_date": "2026-08-31",
+      "support": "DIRECT",
+      "materiality": "MATERIAL",
+      "boundary": "Transaction remains subject to customary closing conditions; capacity includes assets/projects not equivalent to immediate new gas supply."
+    }
+  ]
+}
