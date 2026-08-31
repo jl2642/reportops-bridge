@@ -15,13 +15,13 @@
     "daily_2026_08_29": "CHAT_CORRECTIONS_ACCEPTED_PENDING_WORK_FORMALIZATION",
     "daily_2026_08_30": "PUBLIC_CORE_ACCEPTED_V1_5_PENDING_WORK_RECONCILIATION"
   },
-  "source_identity_gate_status": "PASS",
-  "inline_citation_gate_status": "PASS",
+  "source_identity_gate_status": "PASS_V2",
+  "inline_citation_gate_status": "PASS_V2_SOURCE_LEVEL",
   "expert_signal_priority_gate_status": "PASS",
   "v4_public_depth_gate_status": "PASS",
   "v4_public_depth_gate_cjk": 3115,
   "signal_card_count": 4,
-  "evidence_status": "PASS_STRICT_NEW_PUBLIC_SOURCE_IDENTITY_VERIFIED",
+  "evidence_status": "PASS_STRICT_NEW_PUBLIC_SOURCE_IDENTITY_V2",
   "evidence_record_count": 7,
   "privacy_status": "PASS_PUBLIC_SAFE",
   "window_status": "PASS",
@@ -39,5 +39,6 @@
   "manual_action_required": false,
   "failure_stage": null,
   "failure_reason": null,
-  "updated_at": "2026-08-31T10:15:59+08:00"
+  "updated_at": "2026-08-31T10:34:00+08:00",
+  "corrective_revision": "R2_SOURCE_ASSURANCE_UPGRADE_NO_CLAIM_CHANGE"
 }
