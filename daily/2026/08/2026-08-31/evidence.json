@@ -1,5 +1,5 @@
 {
-  "schema_version": "REPORTOPS_PUBLIC_EVIDENCE_V1_1",
+  "schema_version": "REPORTOPS_PUBLIC_EVIDENCE_V1_2",
   "target_date": "2026-08-31",
   "fixed_window": {
     "start": "2026-08-30T10:00:00+08:00",
@@ -21,7 +21,16 @@
       "url_verified_date": "2026-08-31",
       "support": "DIRECT",
       "materiality": "CORE",
-      "boundary": "Intraday futures quote, not settlement."
+      "boundary": "Intraday futures quote, not settlement.",
+      "source_identity_receipt": {
+        "verification_method": "SEARCH_RESULT_OBSERVED",
+        "observed_url": "https://www.reuters.com/business/energy/oil-jumps-more-than-2-after-us-attack-irans-larak-island-2026-08-30/",
+        "canonical_url": "https://www.reuters.com/business/energy/oil-jumps-more-than-2-after-us-attack-irans-larak-island-2026-08-30/",
+        "observed_title": "Oil jumps more than 1% after US attack on Iran's Larak island",
+        "observed_publisher": "Reuters",
+        "title_match_status": "EXACT",
+        "verified_at": "2026-08-31T10:33:00+08:00"
+      }
     },
     {
       "id": "E02",
@@ -35,7 +44,16 @@
       "url_verified_date": "2026-08-31",
       "support": "DIRECT",
       "materiality": "CORE",
-      "boundary": "Based on a US official and subsequent reported retaliation; military claims remain subject to later confirmation."
+      "boundary": "Based on a US official and subsequent reported retaliation; military claims remain subject to later confirmation.",
+      "source_identity_receipt": {
+        "verification_method": "SEARCH_RESULT_OBSERVED",
+        "observed_url": "https://www.reuters.com/world/middle-east/us-forces-strike-two-iranian-launchers-irans-larak-island-us-official-says-2026-08-30/",
+        "canonical_url": "https://www.reuters.com/world/middle-east/us-forces-strike-two-iranian-launchers-irans-larak-island-us-official-says-2026-08-30/",
+        "observed_title": "US forces strike two Iranian launchers on Iran's Larak island, US official says",
+        "observed_publisher": "Reuters",
+        "title_match_status": "EXACT",
+        "verified_at": "2026-08-31T10:33:00+08:00"
+      }
     },
     {
       "id": "E03",
@@ -49,7 +67,16 @@
       "url_verified_date": "2026-08-31",
       "support": "DIRECT",
       "materiality": "CORE",
-      "boundary": "Visible-vessel shipping-data count; AIS visibility and later revisions can change the figure."
+      "boundary": "Visible-vessel shipping-data count; AIS visibility and later revisions can change the figure.",
+      "source_identity_receipt": {
+        "verification_method": "SEARCH_RESULT_OBSERVED",
+        "observed_url": "https://www.reuters.com/business/energy/oil-jumps-more-than-2-after-us-attack-irans-larak-island-2026-08-30/",
+        "canonical_url": "https://www.reuters.com/business/energy/oil-jumps-more-than-2-after-us-attack-irans-larak-island-2026-08-30/",
+        "observed_title": "Oil jumps more than 1% after US attack on Iran's Larak island",
+        "observed_publisher": "Reuters",
+        "title_match_status": "EXACT",
+        "verified_at": "2026-08-31T10:33:00+08:00"
+      }
     },
     {
       "id": "E04",
@@ -63,7 +90,16 @@
       "url_verified_date": "2026-08-31",
       "support": "DIRECT",
       "materiality": "CORE",
-      "boundary": "Half-year cumulative issuer data; structural, not an intraday China spot-market indicator."
+      "boundary": "Half-year cumulative issuer data; structural, not an intraday China spot-market indicator.",
+      "source_identity_receipt": {
+        "verification_method": "SEARCH_RESULT_OBSERVED",
+        "observed_url": "https://www.reuters.com/business/energy/petrochina-h1-profit-jumps-22-fuel-sales-fall-china-demand-weakens-2026-08-30/",
+        "canonical_url": "https://www.reuters.com/business/energy/petrochina-h1-profit-jumps-22-fuel-sales-fall-china-demand-weakens-2026-08-30/",
+        "observed_title": "PetroChina H1 profit jumps 22%, fuel sales fall as China demand weakens",
+        "observed_publisher": "Reuters",
+        "title_match_status": "EXACT",
+        "verified_at": "2026-08-31T10:33:00+08:00"
+      }
     },
     {
       "id": "E05",
@@ -77,7 +113,16 @@
       "url_verified_date": "2026-08-31",
       "support": "DIRECT",
       "materiality": "CORE",
-      "boundary": "Agreement target/forward plan, not realized incremental production."
+      "boundary": "Agreement target/forward plan, not realized incremental production.",
+      "source_identity_receipt": {
+        "verification_method": "SEARCH_RESULT_OBSERVED",
+        "observed_url": "https://www.reuters.com/business/energy/venezuelas-interim-president-says-us-energy-deal-will-last-25-years-2026-08-30/",
+        "canonical_url": "https://www.reuters.com/business/energy/venezuelas-interim-president-says-us-energy-deal-will-last-25-years-2026-08-30/",
+        "observed_title": "Venezuela's interim president says US energy deal will last 25 years",
+        "observed_publisher": "Reuters",
+        "title_match_status": "EXACT",
+        "verified_at": "2026-08-31T10:33:00+08:00"
+      }
     },
     {
       "id": "E06",
@@ -91,21 +136,50 @@
       "url_verified_date": "2026-08-31",
       "support": "DIRECT",
       "materiality": "MATERIAL",
-      "boundary": "No firm timing/volume mechanics for replenishment; Venezuela production expansion requires investment and infrastructure."
+      "boundary": "No firm timing/volume mechanics for replenishment; Venezuela production expansion requires investment and infrastructure.",
+      "source_identity_receipt": {
+        "verification_method": "SEARCH_RESULT_OBSERVED",
+        "observed_url": "https://www.reuters.com/business/energy/trump-says-us-will-refill-strategic-petroleum-reserve-using-venezuelan-oil-2026-08-30/",
+        "canonical_url": "https://www.reuters.com/business/energy/trump-says-us-will-refill-strategic-petroleum-reserve-using-venezuelan-oil-2026-08-30/",
+        "observed_title": "Trump says US will refill Strategic Petroleum Reserve using Venezuelan oil",
+        "observed_publisher": "Reuters",
+        "title_match_status": "EXACT",
+        "verified_at": "2026-08-31T10:33:00+08:00"
+      }
     },
     {
       "id": "E07",
       "claim": "ONEOK agreed to buy Brazos Midstream's Permian Midland gas gathering and processing assets for about $4.43bn, more than doubling its regional processing capacity.",
-      "publisher": "Reuters",
-      "title": "ONEOK to buy Brazos Midstream's Permian Midland Basin assets for $4.43 billion",
-      "publication_time": "2026-08-31T01:40:00Z",
+      "publisher": "ONEOK",
+      "title": "ONEOK to Acquire Brazos Midstream's Permian Midland Basin Assets for $4.425 Billion",
+      "publication_time": "2026-08-30T20:40:00Z",
       "data_period": "2026-08-30_transaction_announcement",
-      "url": "https://www.reuters.com/legal/litigation/oneok-buy-brazos-midstreams-permian-midland-basin-assets-443-billion-2026-08-31/",
+      "url": "https://ir.oneok.com/news-and-events/press-releases/2026/08-30-2026-214020927",
       "url_identity_status": "OPENED_EXACT_DOCUMENT",
       "url_verified_date": "2026-08-31",
       "support": "DIRECT",
       "materiality": "MATERIAL",
-      "boundary": "Transaction remains subject to customary closing conditions; capacity includes assets/projects not equivalent to immediate new gas supply."
+      "boundary": "Issuer primary release; transaction remains subject to customary closing conditions and future processing capacity is not immediate gas supply.",
+      "source_identity_receipt": {
+        "verification_method": "OPENED_EXACT_DOCUMENT",
+        "observed_url": "https://ir.oneok.com/news-and-events/press-releases/2026/08-30-2026-214020927",
+        "canonical_url": "https://ir.oneok.com/news-and-events/press-releases/2026/08-30-2026-214020927",
+        "observed_title": "ONEOK to Acquire Brazos Midstream's Permian Midland Basin Assets for $4.425 Billion",
+        "observed_publisher": "ONEOK",
+        "title_match_status": "EXACT",
+        "verified_at": "2026-08-31T10:33:00+08:00"
+      }
     }
-  ]
+  ],
+  "source_identity_gate_version": "V2",
+  "source_identity_gate_status": "PASS_V2_ACQUISITION_RECEIPT_READY",
+  "source_identity_summary": {
+    "verified_external_source_count": 7,
+    "unique_verified_external_urls": 6,
+    "unverified_external_source_count": 0,
+    "guessed_url_count": 0,
+    "primary_source_upgrades": [
+      "E07_REUTERS_TO_ONEOK_OFFICIAL"
+    ]
+  }
 }
