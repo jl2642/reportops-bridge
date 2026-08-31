@@ -22,7 +22,16 @@
       "window_status": "IN_WINDOW",
       "boundary": "Policy fact only; does not itself prove a new market-price move.",
       "url_identity_status": "EXACT_SEARCH_RESULT_CONFIRMED",
-      "url_verified_date": "2026-08-31"
+      "url_verified_date": "2026-08-31",
+      "source_identity_receipt": {
+        "verification_method": "SEARCH_RESULT_OBSERVED",
+        "observed_url": "https://www.reuters.com/business/energy/russia-extends-ban-diesel-exports-until-september-30-2026-08-29/",
+        "canonical_url": "https://www.reuters.com/business/energy/russia-extends-ban-diesel-exports-until-september-30-2026-08-29/",
+        "observed_title": "Russia extends ban on diesel exports until September 30",
+        "observed_publisher": "Reuters",
+        "title_match_status": "EXACT",
+        "verified_at": "2026-08-31T10:24:00+08:00"
+      }
     },
     {
       "evidence_id": "PUB-0830-E02",
@@ -39,7 +48,16 @@
       "window_status": "IN_WINDOW",
       "boundary": "Refinery-offline context is reported background; exact current capacity loss is not asserted.",
       "url_identity_status": "EXACT_SEARCH_RESULT_CONFIRMED",
-      "url_verified_date": "2026-08-31"
+      "url_verified_date": "2026-08-31",
+      "source_identity_receipt": {
+        "verification_method": "SEARCH_RESULT_OBSERVED",
+        "observed_url": "https://www.reuters.com/business/energy/russia-extends-ban-diesel-exports-until-september-30-2026-08-29/",
+        "canonical_url": "https://www.reuters.com/business/energy/russia-extends-ban-diesel-exports-until-september-30-2026-08-29/",
+        "observed_title": "Russia extends ban on diesel exports until September 30",
+        "observed_publisher": "Reuters",
+        "title_match_status": "EXACT",
+        "verified_at": "2026-08-31T10:24:00+08:00"
+      }
     },
     {
       "evidence_id": "PUB-0830-E03",
@@ -56,7 +74,16 @@
       "window_status": "IN_WINDOW",
       "boundary": "Attributed official statement; not independently audited trade statistics.",
       "url_identity_status": "EXACT_SEARCH_RESULT_CONFIRMED",
-      "url_verified_date": "2026-08-31"
+      "url_verified_date": "2026-08-31",
+      "source_identity_receipt": {
+        "verification_method": "SEARCH_RESULT_OBSERVED",
+        "observed_url": "https://www.reuters.com/world/asia-pacific/war-weighs-irans-economy-us-intensifies-sanctions-2026-08-29/",
+        "canonical_url": "https://www.reuters.com/world/asia-pacific/war-weighs-irans-economy-us-intensifies-sanctions-2026-08-29/",
+        "observed_title": "War weighs on Iran's economy as US intensifies sanctions",
+        "observed_publisher": "Reuters",
+        "title_match_status": "EXACT",
+        "verified_at": "2026-08-31T10:24:00+08:00"
+      }
     },
     {
       "evidence_id": "PUB-0830-E04",
@@ -73,7 +100,16 @@
       "window_status": "IN_WINDOW",
       "boundary": "Does not establish actual vessel-flow improvement or a signed navigation agreement.",
       "url_identity_status": "EXACT_SEARCH_RESULT_CONFIRMED",
-      "url_verified_date": "2026-08-31"
+      "url_verified_date": "2026-08-31",
+      "source_identity_receipt": {
+        "verification_method": "SEARCH_RESULT_OBSERVED",
+        "observed_url": "https://www.reuters.com/world/asia-pacific/war-weighs-irans-economy-us-intensifies-sanctions-2026-08-29/",
+        "canonical_url": "https://www.reuters.com/world/asia-pacific/war-weighs-irans-economy-us-intensifies-sanctions-2026-08-29/",
+        "observed_title": "War weighs on Iran's economy as US intensifies sanctions",
+        "observed_publisher": "Reuters",
+        "title_match_status": "EXACT",
+        "verified_at": "2026-08-31T10:24:00+08:00"
+      }
     },
     {
       "evidence_id": "PUB-0830-E05",
@@ -90,7 +126,16 @@
       "window_status": "IN_WINDOW",
       "boundary": "Source-based negotiation report; formal signing and implementation remained pending.",
       "url_identity_status": "EXACT_SEARCH_RESULT_CONFIRMED",
-      "url_verified_date": "2026-08-31"
+      "url_verified_date": "2026-08-31",
+      "source_identity_receipt": {
+        "verification_method": "SEARCH_RESULT_OBSERVED",
+        "observed_url": "https://www.reuters.com/business/energy/chevron-complete-deal-venezuela-migrate-expand-oil-projects-sources-say-2026-08-28/",
+        "canonical_url": "https://www.reuters.com/business/energy/chevron-complete-deal-venezuela-migrate-expand-oil-projects-sources-say-2026-08-28/",
+        "observed_title": "Chevron to complete deal in Venezuela to migrate, expand oil projects, sources say",
+        "observed_publisher": "Reuters",
+        "title_match_status": "EXACT",
+        "verified_at": "2026-08-31T10:24:00+08:00"
+      }
     },
     {
       "evidence_id": "PUB-0830-E06",
@@ -107,7 +152,16 @@
       "window_status": "IN_WINDOW",
       "boundary": "No incremental production volume is treated as realized.",
       "url_identity_status": "EXACT_SEARCH_RESULT_CONFIRMED",
-      "url_verified_date": "2026-08-31"
+      "url_verified_date": "2026-08-31",
+      "source_identity_receipt": {
+        "verification_method": "SEARCH_RESULT_OBSERVED",
+        "observed_url": "https://www.reuters.com/business/energy/chevron-complete-deal-venezuela-migrate-expand-oil-projects-sources-say-2026-08-28/",
+        "canonical_url": "https://www.reuters.com/business/energy/chevron-complete-deal-venezuela-migrate-expand-oil-projects-sources-say-2026-08-28/",
+        "observed_title": "Chevron to complete deal in Venezuela to migrate, expand oil projects, sources say",
+        "observed_publisher": "Reuters",
+        "title_match_status": "EXACT",
+        "verified_at": "2026-08-31T10:24:00+08:00"
+      }
     },
     {
       "evidence_id": "PUB-0830-E07",
@@ -138,11 +192,12 @@
   "cross_check_status": "PASS_WITH_ATTRIBUTION_AND_BOUNDARIES",
   "evidence_status": "PASS_STRICT_NEW_PUBLIC_WITH_FORMAL_WORK_REVALIDATION_REQUIRED",
   "source_identity_policy": "EVIDENCE_POLICY_PUBLIC_V1_1",
-  "source_identity_gate_status": "PASS",
+  "source_identity_gate_status": "PASS_V2_ACQUISITION_RECEIPT_READY",
   "source_identity_summary": {
     "verified_external_source_count": 6,
     "unique_verified_external_urls": 3,
     "unverified_external_source_count": 0,
     "guessed_url_count": 0
-  }
+  },
+  "source_identity_gate_version": "V2"
 }
