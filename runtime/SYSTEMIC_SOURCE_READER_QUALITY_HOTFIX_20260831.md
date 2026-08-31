@@ -15,9 +15,13 @@ The defect is not a single bad link. Full Authority audit found a multi-layer qu
 7. GitHub's pre-formal 8/29 body diverges from the formal Chinese V4 Canonical body; same-date correction must patch Canonical in place, never overwrite it from the old bridge body.
 8. GitHub runtime policy files are v1.5 candidate while formal Authority remains v1.4; the state must declare this distinction until Work formalizes it.
 
+## Source acquisition assurance
+
+Every external CORE/MATERIAL Evidence record must carry a machine-auditable source_identity_receipt. A PASS label without receipt is insufficient.
+
 ## Chat-produced controlled assets
 
-- `runtime/source_identity_gate_v1.py`
+- `runtime/source_identity_gate_v2.py`
 - `runtime/inline_citation_gate_v2.py`
 - `runtime/render_daily_reader_v1_1.py`
 - `runtime/QUALITY_GATE_REGISTRY_PATCH_SOURCE_READER_V1.csv`
@@ -26,7 +30,7 @@ The defect is not a single bad link. Full Authority audit found a multi-layer qu
 - `daily/2026/08/2026-08-29/inline_citation_correction.json`
 - `runtime/DAILY_RUNTIME_CONTRACT_PUBLIC.md` v1.5 candidate
 - `runtime/BRIDGE_PROTOCOL.md` v1.5 candidate
-- `runtime/EVIDENCE_POLICY_PUBLIC.md` v1.1
+- `runtime/EVIDENCE_POLICY_PUBLIC.md` v1.2
 - `runtime/DAILY_TEMPLATE_PUBLIC.md`
 
 ## 8/29 correction rule
@@ -59,7 +63,7 @@ Work should perform one bounded transaction:
 1. verify current Authority base and Current Daily;
 2. copy the Chat-produced runtime assets into formal Authority and merge the Gate Registry patch;
 3. patch the formal 8/29 Canonical body in place from `canonical_source_map.json`;
-4. render 8/29 with Reader V1.1 and run Source Identity + Inline Citation v2 + Reader/V4/Evidence/Lineage/State/Freshness gates;
+4. render 8/29 with Reader V1.1 and run Source Identity v2 + Inline Citation v2 + Reader/V4/Evidence/Lineage/State/Freshness gates;
 5. process 8/30 and any ready 8/31 oldest-first using the same formalized gates;
 6. publish Private → authenticated readback → Public → remote readback → Download → SHA/ZIP;
 7. update Current/derived views and GitHub deployment state to formal v1.5 only after successful formalization;
