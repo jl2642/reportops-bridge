@@ -22,5 +22,9 @@
     "Run runtime/inline_citation_gate_v1.py on accepted Markdown and final Private/Public Reader HTML.",
     "Require exact href equality to accepted canonical Evidence URLs.",
     "Republish via Private -> authenticated readback -> Public -> remote readback -> Download."
-  ]
+  ],
+  "canonical_body_authority": "FORMAL_LIBRARY_AUTHORITY_CURRENT_2026_08_29_R2_V4_CORRECTIVE",
+  "canonical_source_map_path": "daily/2026/08/2026-08-29/canonical_source_map.json",
+  "github_public_core_body_must_not_replace_canonical": true,
+  "correction_apply_mode": "PATCH_FORMAL_CANONICAL_IN_PLACE"
 }
