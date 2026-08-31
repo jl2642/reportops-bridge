@@ -11,7 +11,7 @@ fixed_window: "[2026-08-30 10:00,2026-08-31 10:00) Asia/Shanghai"
 <!-- MODULE:EXECUTIVE_SIGNAL_SUMMARY -->
 ## 1. 今日一屏结论
 
-本窗口最重要的变化不是单一价格跳涨，而是霍尔木兹海峡的军事与航运风险再次从“谈判拖延”切回“可观测的冲突升级”：美国打击伊朗拉腊克岛上被指准备向海峡投放水雷的发射装置，伊朗随后报复；周一亚洲早盘布伦特一度升至89.18美元/桶、WTI升至84.32美元/桶，同时可见商品船周末通行仍低至每日约5艘。[E02](https://www.reuters.com/world/middle-east/us-forces-strike-two-iranian-launchers-irans-larak-island-us-official-says-2026-08-30/) [E01](https://www.reuters.com/business/energy/oil-jumps-more-than-2-after-us-attack-irans-larak-island-2026-08-30/) 这说明当前油价风险溢价仍由“海峡物理可交付性”主导，而不是仅由宏观情绪驱动。与此同时，中国端出现更结构性的分化：PetroChina上半年成品油销售下降、天然气销售增长，显示交通燃料需求承压而气体能源需求相对更有韧性。[E04](https://www.reuters.com/business/energy/petrochina-h1-profit-jumps-22-fuel-sales-fall-china-demand-weakens-2026-08-30/) 供应侧则出现两条中期增量路径——委内瑞拉与美国的25年能源安排，以及ONEOK对Permian Midland天然气处理中游资产的44.3亿美元收购——但二者都属于“未来供给能力/基础设施增强”，不能当作当期新增桶或新增气量。[E05](https://www.reuters.com/business/energy/venezuelas-interim-president-says-us-energy-deal-will-last-25-years-2026-08-30/) [E07](https://www.reuters.com/legal/litigation/oneok-buy-brazos-midstreams-permian-midland-basin-assets-443-billion-2026-08-31/)
+本窗口最重要的变化不是单一价格跳涨，而是霍尔木兹海峡的军事与航运风险再次从“谈判拖延”切回“可观测的冲突升级”：美国打击伊朗拉腊克岛上被指准备向海峡投放水雷的发射装置，伊朗随后报复；周一亚洲早盘布伦特一度升至89.18美元/桶、WTI升至84.32美元/桶，同时可见商品船周末通行仍低至每日约5艘。[E02](https://www.reuters.com/world/middle-east/us-forces-strike-two-iranian-launchers-irans-larak-island-us-official-says-2026-08-30/) [E01](https://www.reuters.com/business/energy/oil-jumps-more-than-2-after-us-attack-irans-larak-island-2026-08-30/) 这说明当前油价风险溢价仍由“海峡物理可交付性”主导，而不是仅由宏观情绪驱动。与此同时，中国端出现更结构性的分化：PetroChina上半年成品油销售下降、天然气销售增长，显示交通燃料需求承压而气体能源需求相对更有韧性。[E04](https://www.reuters.com/business/energy/petrochina-h1-profit-jumps-22-fuel-sales-fall-china-demand-weakens-2026-08-30/) 供应侧则出现两条中期增量路径——委内瑞拉与美国的25年能源安排，以及ONEOK对Permian Midland天然气处理中游资产的44.3亿美元收购——但二者都属于“未来供给能力/基础设施增强”，不能当作当期新增桶或新增气量。[E05](https://www.reuters.com/business/energy/venezuelas-interim-president-says-us-energy-deal-will-last-25-years-2026-08-30/) [E07](https://ir.oneok.com/news-and-events/press-releases/2026/08-30-2026-214020927)
 
 <!-- KEY_SIGNAL_CARDS:3-5 -->
 ## 2. 今日关键信号
@@ -41,7 +41,7 @@ fixed_window: "[2026-08-30 10:00,2026-08-31 10:00) Asia/Shanghai"
 - 反证条件：若制裁、治理、资本投入或基础设施瓶颈阻碍项目落地，协议目标可能长期停留在名义层面。
 
 ### 信号卡4｜Permian中游继续资本化：天然气处理能力成为LNG出口增长的前置资产
-- 事实摘要：ONEOK同意以约44.3亿美元收购Brazos Midstream在Permian Midland Basin的天然气集输和处理资产；交易将使ONEOK在该区域的处理能力增加一倍以上，预计第四季度完成。[E07](https://www.reuters.com/legal/litigation/oneok-buy-brazos-midstreams-permian-midland-basin-assets-443-billion-2026-08-31/)
+- 事实摘要：ONEOK同意以约44.3亿美元收购Brazos Midstream在Permian Midland Basin的天然气集输和处理资产；交易将使ONEOK在该区域的处理能力增加一倍以上，预计第四季度完成。[E07](https://ir.oneok.com/news-and-events/press-releases/2026/08-30-2026-214020927)
 - 为什么重要：在美国LNG出口高位和Permian伴生气持续增长背景下，中游处理、NGL外输和管道连接决定“井口气能否转化为可销售气量”。交易说明资本正在继续押注Permian气量增长，而不只是上游油价。
 - 价格/供需/产业链传导：更多处理能力有助于降低局部瓶颈、支持干气和NGL外输，并增强美国湾岸LNG原料气长期可获得性；但建设和整合周期意味着其对短期Henry Hub或JKM并无直接即时冲击。
 - 证据边界：收购完成仍需常规监管条件，产能提升包括在建项目，不能把交易金额等同于新增天然气供给。
@@ -66,7 +66,7 @@ fixed_window: "[2026-08-30 10:00,2026-08-31 10:00) Asia/Shanghai"
 <!-- MODULE:GLOBAL_ENERGY_DELTA -->
 ## 6. 国际油气 / LNG增量
 
-全球层面同时存在短期紧张与中期扩供：霍尔木兹军事升级提高海湾油气物流不确定性，[E02](https://www.reuters.com/world/middle-east/us-forces-strike-two-iranian-launchers-irans-larak-island-us-official-says-2026-08-30/) 委内瑞拉协议试图重建重质原油供给能力，[E05](https://www.reuters.com/business/energy/venezuelas-interim-president-says-us-energy-deal-will-last-25-years-2026-08-30/) ONEOK则通过收购扩大Permian天然气处理中游能力。[E07](https://www.reuters.com/legal/litigation/oneok-buy-brazos-midstreams-permian-midland-basin-assets-443-billion-2026-08-31/) 这意味着未来数季的核心矛盾可能不是“资源绝对不足”，而是高风险地区的可交付性与低风险地区新增基础设施的兑现速度之间的竞赛。
+全球层面同时存在短期紧张与中期扩供：霍尔木兹军事升级提高海湾油气物流不确定性，[E02](https://www.reuters.com/world/middle-east/us-forces-strike-two-iranian-launchers-irans-larak-island-us-official-says-2026-08-30/) 委内瑞拉协议试图重建重质原油供给能力，[E05](https://www.reuters.com/business/energy/venezuelas-interim-president-says-us-energy-deal-will-last-25-years-2026-08-30/) ONEOK则通过收购扩大Permian天然气处理中游能力。[E07](https://ir.oneok.com/news-and-events/press-releases/2026/08-30-2026-214020927) 这意味着未来数季的核心矛盾可能不是“资源绝对不足”，而是高风险地区的可交付性与低风险地区新增基础设施的兑现速度之间的竞赛。
 
 <!-- MODULE:RESEARCH_TRIGGER_BOARD -->
 ## 7. Research Trigger Board
@@ -79,7 +79,7 @@ fixed_window: "[2026-08-30 10:00,2026-08-31 10:00) Asia/Shanghai"
 <!-- MODULE:INDUSTRY_CHAIN_AND_OPERATOR_EXPOSURE -->
 ## 8. 产业链与经营主体影响（Public-safe）
 
-上游与贸易商面临的是“高油价风险溢价但交付不确定性更高”的组合，炼厂和下游则需关注原料可得性、船期和裂解结构，而不能只看绝对油价。中国成品油需求偏弱会推动炼化企业继续优化产品结构、化工和新材料占比；天然气销售相对增长则使管网、接收站、城燃和交通LNG的需求韧性更值得跟踪。[E04](https://www.reuters.com/business/energy/petrochina-h1-profit-jumps-22-fuel-sales-fall-china-demand-weakens-2026-08-30/) 北美中游交易表明天然气处理和NGL连接仍是LNG出口扩张的关键基础设施环节。[E07](https://www.reuters.com/legal/litigation/oneok-buy-brazos-midstreams-permian-midland-basin-assets-443-billion-2026-08-31/)
+上游与贸易商面临的是“高油价风险溢价但交付不确定性更高”的组合，炼厂和下游则需关注原料可得性、船期和裂解结构，而不能只看绝对油价。中国成品油需求偏弱会推动炼化企业继续优化产品结构、化工和新材料占比；天然气销售相对增长则使管网、接收站、城燃和交通LNG的需求韧性更值得跟踪。[E04](https://www.reuters.com/business/energy/petrochina-h1-profit-jumps-22-fuel-sales-fall-china-demand-weakens-2026-08-30/) 北美中游交易表明天然气处理和NGL连接仍是LNG出口扩张的关键基础设施环节。[E07](https://ir.oneok.com/news-and-events/press-releases/2026/08-30-2026-214020927)
 
 <!-- MODULE:EVIDENCE_AND_GAPS -->
 ## 9. 证据、数据缺口、风险与反证
@@ -102,4 +102,4 @@ fixed_window: "[2026-08-30 10:00,2026-08-31 10:00) Asia/Shanghai"
 - [E04](https://www.reuters.com/business/energy/petrochina-h1-profit-jumps-22-fuel-sales-fall-china-demand-weakens-2026-08-30/) Reuters — PetroChina H1 profit jumps 22%, fuel sales fall as China demand weakens.
 - [E05](https://www.reuters.com/business/energy/venezuelas-interim-president-says-us-energy-deal-will-last-25-years-2026-08-30/) Reuters — Venezuela's interim president says US energy deal will last 25 years.
 - [E06](https://www.reuters.com/business/energy/trump-says-us-will-refill-strategic-petroleum-reserve-using-venezuelan-oil-2026-08-30/) Reuters — Trump says US will refill Strategic Petroleum Reserve using Venezuelan oil.
-- [E07](https://www.reuters.com/legal/litigation/oneok-buy-brazos-midstreams-permian-midland-basin-assets-443-billion-2026-08-31/) Reuters — ONEOK to buy Brazos Midstream's Permian Midland Basin assets for $4.43 billion.
+- [E07](https://ir.oneok.com/news-and-events/press-releases/2026/08-30-2026-214020927) ONEOK — ONEOK to Acquire Brazos Midstream's Permian Midland Basin Assets for $4.425 Billion.
