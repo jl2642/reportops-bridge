@@ -1,7 +1,7 @@
 {
   "schema_version": "REPORTOPS_DEPLOYMENT_STATE_V1",
   "document_class": "MUTABLE_DEPLOYMENT_AND_ACTIVATION_STATE",
-  "status": "V4_LIVE_WIRING_FORMALIZED",
+  "status": "V4_LIVE_WIRING_FORMALIZED__SOURCE_IDENTITY_ASSURANCE_PATCHED_PENDING_REPUBLICATION",
   "topology": "AUTOMATION_TOPOLOGY_R3_1",
   "formal_cutover": true,
   "library_cutover": true,
@@ -26,5 +26,15 @@
   "canonical_authority": "CHATGPT_LIBRARY:/能源周期报告/00_CURRENT/CURRENT_POINTER.json",
   "latest_cutover_transaction": "REPORTOPS_V4_LIVE_WIRING_FORMALIZATION_20260829",
   "activated_at": "2026-08-28T15:25:00+08:00",
-  "formalized_at": "2026-08-30T13:08:00+08:00"
+  "formalized_at": "2026-08-30T13:08:00+08:00",
+  "source_identity_policy_active": "EVIDENCE_POLICY_PUBLIC_V1_1",
+  "daily_runtime_contract_active": "V1_4",
+  "bridge_protocol_active": "V1_4",
+  "source_identity_gate_runtime_active": true,
+  "expert_signal_priority_gate_active": true,
+  "current_daily_source_identity_correction_pending": true,
+  "current_daily_source_identity_correction_target": "2026-08-29",
+  "stabilized_baseline_status": "SUSPENDED_PENDING_CURRENT_DAILY_LINK_CORRECTION_AND_NEXT_NATURAL_ACCEPTANCE",
+  "latest_runtime_policy_patch": "REPORTOPS_SOURCE_IDENTITY_AND_EXPERT_PRIORITY_HOTFIX_20260831",
+  "latest_runtime_policy_patch_at": "2026-08-31T09:48:00+08:00"
 }
