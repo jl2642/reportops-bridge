@@ -1,32 +1,55 @@
-# ReportOps Scheduled Chat ↔ GitHub Bridge Protocol v1.3
+# ReportOps Scheduled Chat ↔ GitHub Bridge Protocol v1.4
 
 Status: `R3.1_DAILY_V4_PUBLIC_CORE_CURRENT`
 Timezone: Asia/Shanghai
 
 ## Scheduled Chat
 
-10:15 = `DAILY_CONTINUITY_CONTROLLER_AND_PUBLIC_CORE_PRODUCER`; no evening task. Read SECURITY_BOUNDARY → CURRENT_PUBLIC → topology → this protocol → DAILY_RUNTIME_CONTRACT_PUBLIC → EVIDENCE_POLICY_PUBLIC → DAILY_TEMPLATE_PUBLIC → status/latest → recent manifests.
+10:15 reads SECURITY_BOUNDARY → CURRENT_PUBLIC → topology → this protocol → DAILY_RUNTIME_CONTRACT_PUBLIC → EVIDENCE_POLICY_PUBLIC → DAILY_TEMPLATE_PUBLIC → status/latest → recent manifests.
 
-### Correction backlog comes before silent continuity
+## Correction backlog
 
-If `status/latest` or a recent Daily manifest is newer than `CURRENT_PUBLIC.current_daily_public`, Chat must not assume “PUBLIC_CORE_ACCEPTED” means Work-promotable. Re-run the exact deterministic V4 public-depth preflight specified in DAILY_RUNTIME_CONTRACT_PUBLIC.
+Before new-day research, check:
+1. newer unpromoted Daily candidates;
+2. same-date accepted source-identity correction receipts.
 
-If it fails, preserve the same fixed window and accepted Evidence, create a bounded `CHAT_DEPTH_CORRECTION` revision with no new research, write/readback public_core + manifest, and only then restore `PUBLIC_CORE_ACCEPTED`. This state is not a historical evidence gap and does not consume the max-two research recovery allowance.
+Depth/content correction reuses accepted Evidence with no new research. Source-identity correction may perform narrowly scoped source verification and must preserve claim meaning unless the source itself disproves the claim.
 
-## 10:15 normal write order
+## 10:15 order
 
-Correction backlog preflight/repair → target D fixed-window research → Chinese `DAILY_V4_PUBLIC_CORE` → structured evidence → exact V4 public-depth + window/privacy/evidence checks → write/readback public_core → evidence → manifest → status/latest → optional historical evidence recovery.
+correction backlog → target D fixed-window research → **source identity verification** → expert signal ranking → Chinese V4 public core → exact V4 depth/window/privacy/evidence checks → write/readback public_core → evidence → manifest → status/latest.
 
-`PUBLIC_CORE_ACCEPTED` requires exact public V4 depth PASS, 3–5 cards, Evidence PASS, privacy PASS, window PASS, GitHub write/readback PASS and unsupported CORE claims = 0.
+`PUBLIC_CORE_ACCEPTED` requires:
+- source identity PASS / guessed_url_count=0;
+- expert signal priority PASS;
+- V4 depth PASS;
+- Evidence/window/privacy/write/readback PASS;
+- unsupported CORE claims = 0.
 
-## Work consumer and rejection feedback
+## Work consumer
 
-12:30 Work reads unique Library Authority and accepted GitHub bridge, reuses public core/evidence without re-research, adds separate private `JOVO_DIRECTIONAL_EXPOSURE`, runs blocking V3+V4 Product/Evidence/Reader/Lineage/state/freshness gates, then atomically promotes and publishes Private → authenticated readback → Public → remote readback → Download SHA/ZIP.
+12:30 Work does not re-research. It:
+- verifies required source-identity metadata is present and PASS;
+- verifies every rendered public/private source href exactly equals the accepted evidence canonical URL;
+- adds separate private JOVO layer;
+- runs Product/Evidence/Reader/Lineage/state/freshness gates;
+- publishes Private → authenticated readback → Public → remote readback → Download SHA/ZIP.
 
-If Work rejects a bridge Daily, it must keep Canonical/Sites fail-closed **and write a public-safe reconciliation result back to GitHub** in that date manifest/status surface: `work_reconciliation_status=REJECTED_NEEDS_CHAT_CORRECTION`, failed check names, `new_research_required=false/true`, and formal status. It must not expose private/JOVO content in feedback.
+External publisher reachability remains non-blocking at Work because paywalls/anti-bot are unstable; **this does not waive Chat source-identity verification**.
 
-If Work accepts it, GitHub Current is advanced only after remote publication PASS.
+## Work rejection feedback
+
+If Work rejects a bridge Daily, keep Canonical/Sites fail-closed and write public-safe feedback to GitHub with failed checks, whether new research is required, and pending Chat correction state.
+
+## Same-date source correction
+
+If current Canonical Daily has an accepted Chat source-identity correction receipt, Work may perform a bounded same-date correction transaction:
+- do not change report conclusions except where source verification requires;
+- replace only corrected evidence/source URLs and corresponding rendered hrefs;
+- rerun evidence, Reader, source-href equality, state/freshness gates;
+- republish through normal Private → Public → Download order;
+- keep Current date unchanged but increment publication versions and record correction provenance.
 
 ## Idempotency
 
-Accepted and formally promoted same-date products are SKIP. A same-date Work rejection authorizes a corrective revision while preserving original provenance/evidence lineage. GitHub never mutates Library Current or Sites.
+Formally promoted unchanged products are SKIP. Explicit correction receipts authorize only the bounded defect class stated.
