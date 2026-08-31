@@ -1,55 +1,53 @@
-# ReportOps Scheduled Chat ↔ GitHub Bridge Protocol v1.4
+# ReportOps Scheduled Chat ↔ GitHub Bridge Protocol v1.5
 
 Status: `R3.1_DAILY_V4_PUBLIC_CORE_CURRENT`
 Timezone: Asia/Shanghai
 
 ## Scheduled Chat
 
-10:15 reads SECURITY_BOUNDARY → CURRENT_PUBLIC → topology → this protocol → DAILY_RUNTIME_CONTRACT_PUBLIC → EVIDENCE_POLICY_PUBLIC → DAILY_TEMPLATE_PUBLIC → status/latest → recent manifests.
+10:15 reads SECURITY_BOUNDARY → CURRENT_PUBLIC → topology → this protocol → DAILY_RUNTIME_CONTRACT_PUBLIC v1.5 → EVIDENCE_POLICY_PUBLIC v1.1 → DAILY_TEMPLATE_PUBLIC → status/latest → recent manifests/correction receipts.
 
 ## Correction backlog
 
 Before new-day research, check:
 1. newer unpromoted Daily candidates;
-2. same-date accepted source-identity correction receipts.
+2. same-date source-identity correction receipts;
+3. same-date inline-citation correction receipts.
 
-Depth/content correction reuses accepted Evidence with no new research. Source-identity correction may perform narrowly scoped source verification and must preserve claim meaning unless the source itself disproves the claim.
+Depth/content correction reuses accepted Evidence with no new research. Source-identity correction allows narrow identity verification. Inline-citation correction is markup-only: do not change claim semantics; inject exact clickable Evidence links adjacent to the facts they support.
 
 ## 10:15 order
 
-correction backlog → target D fixed-window research → **source identity verification** → expert signal ranking → Chinese V4 public core → exact V4 depth/window/privacy/evidence checks → write/readback public_core → evidence → manifest → status/latest.
+correction backlog → target D fixed-window research → source identity verification → expert signal ranking → Chinese V4 public core with inline clickable Evidence links → inline citation gate → exact V4 depth/window/privacy/evidence checks → write/readback public_core → evidence → manifest → status/latest.
 
 `PUBLIC_CORE_ACCEPTED` requires:
 - source identity PASS / guessed_url_count=0;
+- inline citation PASS;
 - expert signal priority PASS;
 - V4 depth PASS;
 - Evidence/window/privacy/write/readback PASS;
-- unsupported CORE claims = 0.
+- unsupported CORE claims=0.
 
 ## Work consumer
 
 12:30 Work does not re-research. It:
-- verifies required source-identity metadata is present and PASS;
-- verifies every rendered public/private source href exactly equals the accepted evidence canonical URL;
+- verifies source identity metadata;
+- runs `source_identity_gate_v1.py`;
+- runs `inline_citation_gate_v1.py` on accepted Markdown and final Private/Public Reader HTML;
+- requires every narrative Evidence anchor to retain the exact accepted canonical href;
+- does not accept “all URLs appear only in a Sources appendix” as citation coverage;
 - adds separate private JOVO layer;
 - runs Product/Evidence/Reader/Lineage/state/freshness gates;
 - publishes Private → authenticated readback → Public → remote readback → Download SHA/ZIP.
 
-External publisher reachability remains non-blocking at Work because paywalls/anti-bot are unstable; **this does not waive Chat source-identity verification**.
-
 ## Work rejection feedback
 
-If Work rejects a bridge Daily, keep Canonical/Sites fail-closed and write public-safe feedback to GitHub with failed checks, whether new research is required, and pending Chat correction state.
+If Work rejects a bridge Daily, keep Canonical/Sites fail-closed and write public-safe failed checks and correction need back to GitHub.
 
-## Same-date source correction
+## Same-date correction
 
-If current Canonical Daily has an accepted Chat source-identity correction receipt, Work may perform a bounded same-date correction transaction:
-- do not change report conclusions except where source verification requires;
-- replace only corrected evidence/source URLs and corresponding rendered hrefs;
-- rerun evidence, Reader, source-href equality, state/freshness gates;
-- republish through normal Private → Public → Download order;
-- keep Current date unchanged but increment publication versions and record correction provenance.
+Current-date source or inline-citation corrections may be republished without changing Current date. Allowed changes are limited to corrected Evidence URLs, Evidence labels/hrefs, source tables and markup-only inline citations unless the correction receipt explicitly states claim semantics must change.
 
 ## Idempotency
 
-Formally promoted unchanged products are SKIP. Explicit correction receipts authorize only the bounded defect class stated.
+Formally promoted unchanged products are SKIP. Explicit correction receipts authorize only their bounded defect class.
