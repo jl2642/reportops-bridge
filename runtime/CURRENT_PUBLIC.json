@@ -1,6 +1,6 @@
 {
   "schema_version": "REPORTOPS_PUBLIC_RUNTIME_CURRENT_V1",
-  "status": "REPORTOPS_V4_LIVE_WIRING_FORMALIZATION_20260829_PASS",
+  "status": "REPORTOPS_V4_FORMALIZED__SOURCE_IDENTITY_CORRECTION_PENDING_20260829",
   "current_daily_public": "2026-08-29",
   "current_weekly_public": "2026-W34",
   "weekly_status": "AUDITED_DISCONTINUITY_WEEKLY_FORMAL_WITH_BOUNDARY",
@@ -40,6 +40,13 @@
   "github_role": "PUBLIC_SAFE_RUNTIME_BRIDGE_NOT_CANONICAL_AUTHORITY",
   "canonical_authority": "CHATGPT_LIBRARY",
   "private_layer_required": true,
-  "last_updated": "2026-08-30T13:08:00+08:00",
-  "deployment_state_ref": "runtime/DEPLOYMENT_STATE.json"
+  "last_updated": "2026-08-31T09:48:00+08:00",
+  "deployment_state_ref": "runtime/DEPLOYMENT_STATE.json",
+  "source_identity_policy_current": "EVIDENCE_POLICY_PUBLIC_V1_1",
+  "daily_runtime_contract_current": "V1_4",
+  "source_identity_correction_pending": true,
+  "source_identity_correction_target_date": "2026-08-29",
+  "source_identity_correction_scope": "E03_URL_ONLY_NO_CLAIM_CHANGE",
+  "current_daily_source_identity_status": "KNOWN_DEFECT_PENDING_BOUNDED_WORK_REPUBLICATION",
+  "stabilized_baseline_status": "SUSPENDED_PENDING_SOURCE_IDENTITY_CORRECTION_AND_NATURAL_CYCLE_ACCEPTANCE"
 }
