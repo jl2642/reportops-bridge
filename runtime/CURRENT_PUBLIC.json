@@ -1,6 +1,6 @@
 {
   "schema_version": "REPORTOPS_PUBLIC_RUNTIME_CURRENT_V1",
-  "status": "REPORTOPS_V4_FORMALIZED__SOURCE_IDENTITY_CORRECTION_PENDING_20260829",
+  "status": "REPORTOPS_FORMAL_V4_ACTIVE__CHAT_V1_5_READER_CITATION_HOTFIX_PENDING_WORK",
   "current_daily_public": "2026-08-29",
   "current_weekly_public": "2026-W34",
   "weekly_status": "AUDITED_DISCONTINUITY_WEEKLY_FORMAL_WITH_BOUNDARY",
@@ -43,10 +43,23 @@
   "last_updated": "2026-08-31T09:48:00+08:00",
   "deployment_state_ref": "runtime/DEPLOYMENT_STATE.json",
   "source_identity_policy_current": "EVIDENCE_POLICY_PUBLIC_V1_1",
-  "daily_runtime_contract_current": "V1_4",
+  "daily_runtime_contract_current": "V1_5_CHAT_PENDING_FORMAL_AUTHORITY",
   "source_identity_correction_pending": true,
   "source_identity_correction_target_date": "2026-08-29",
   "source_identity_correction_scope": "E03_URL_ONLY_NO_CLAIM_CHANGE",
   "current_daily_source_identity_status": "KNOWN_DEFECT_PENDING_BOUNDED_WORK_REPUBLICATION",
-  "stabilized_baseline_status": "SUSPENDED_PENDING_SOURCE_IDENTITY_CORRECTION_AND_NATURAL_CYCLE_ACCEPTANCE"
+  "stabilized_baseline_status": "SUSPENDED_PENDING_READER_CITATION_FUNCTIONAL_REPAIR_AND_NATURAL_CYCLE_ACCEPTANCE",
+  "formal_authority_runtime_contract_active": "V1_4",
+  "formal_authority_bridge_protocol_active": "V1_4",
+  "chat_runtime_contract_current": "V1_5",
+  "chat_bridge_protocol_current": "V1_5",
+  "pending_work_runtime_formalization": true,
+  "pending_runtime_assets": [
+    "source_identity_gate_v1.py",
+    "inline_citation_gate_v2.py",
+    "render_daily_reader_v1_1.py"
+  ],
+  "reader_v1_citation_regression_status": "KNOWN_DEFECT_CURRENT_2026_08_29_PENDING_WORK_CORRECTION",
+  "bridge_canonical_same_date_identity_rule": "FORMAL_AUTHORITY_PROSE_WINS_FOR_SAME_DATE_CORRECTION",
+  "inline_citation_correction_pending": true
 }
