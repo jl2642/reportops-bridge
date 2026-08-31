@@ -68,5 +68,11 @@
   "expert_signal_priority_gate_status": "PASS_RETROSPECTIVE_REVIEW",
   "primary_signal_count": 3,
   "secondary_structural_signal_count": 0,
-  "signal_selection_rationale": "Russia diesel export restriction, Hormuz/Iran physical-deliverability risk, and Chevron/Venezuela future heavy-crude supply path are the three highest-value in-window energy signals; no lower-priority structural item displaced a more relevant eligible signal."
+  "signal_selection_rationale": "Russia diesel export restriction, Hormuz/Iran physical-deliverability risk, and Chevron/Venezuela future heavy-crude supply path are the three highest-value in-window energy signals; no lower-priority structural item displaced a more relevant eligible signal.",
+  "inline_citation_gate_status": "PASS_CHAT_MARKDOWN",
+  "inline_clickable_evidence_count": 6,
+  "plain_unlinked_evidence_marker_count": 0,
+  "source_appendix_only_citation_count": 0,
+  "citation_mode": "INLINE_CLICKABLE_EXACT_EVIDENCE_URL",
+  "daily_runtime_contract_version": "V1_5"
 }
