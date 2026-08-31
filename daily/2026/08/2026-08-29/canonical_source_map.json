@@ -1,0 +1,56 @@
+{
+  "schema_version": "REPORTOPS_CANONICAL_SOURCE_MAP_V1",
+  "target_date": "2026-08-29",
+  "formal_canonical_basis": {
+    "authority_sha256": "385a4f8c99a30e66570641b49746ce5f52e17bd8c1bd6fa2c9dda99530d5e730",
+    "formal_product_revision": "R2_V4_CORRECTIVE",
+    "canonical_body_path": "ReportOps/outputs/energy/daily/2026-08-29/energy_daily_2026-08-29.md",
+    "canonical_public_body_sha256_before_markup": "274da222a0c5f7d6bc125cabf98dd4cda783e70ed1c9ecc381b62b60d7f18610"
+  },
+  "correction_revision": "R4_SOURCE_IDENTITY_INLINE_CITATION",
+  "source_map": [
+    {
+      "source_id": "S1",
+      "publisher": "Reuters",
+      "url": "https://www.reuters.com/business/energy/shipping-traffic-via-strait-hormuz-slips-below-10-day-average-data-shows-2026-08-28/"
+    },
+    {
+      "source_id": "S2",
+      "publisher": "Reuters",
+      "url": "https://www.reuters.com/business/energy/qatarenergy-cancels-gas-deliveries-italys-edison-until-early-november-2026-08-28/",
+      "corrected_from_synthesized_slug": true
+    },
+    {
+      "source_id": "S3",
+      "publisher": "Reuters",
+      "url": "https://www.reuters.com/business/germany-says-gas-storage-injections-pick-up-lng-market-conditions-improve-2026-08-28/"
+    },
+    {
+      "source_id": "S4",
+      "publisher": "Reuters",
+      "url": "https://www.reuters.com/business/energy/russias-gasoline-output-drops-70-domestic-demand-late-august-after-drone-attacks-sources-say-2026-08-28/"
+    },
+    {
+      "source_id": "S5",
+      "publisher": "Reuters",
+      "url": "https://www.reuters.com/world/asia-pacific/chinas-factory-activity-seen-contracting-again-august-2026-08-28/"
+    },
+    {
+      "source_id": "S6",
+      "publisher": "Reuters",
+      "url": "https://www.reuters.com/business/energy/us-energy-firms-leave-rig-count-unchanged-latest-week-baker-hughes-says-2026-08-28/"
+    },
+    {
+      "source_id": "S7",
+      "publisher": "U.S. EIA",
+      "url": "https://www.eia.gov/todayinenergy/detail.php?id=68044"
+    }
+  ],
+  "hard_rules": [
+    "FORMAL_AUTHORITY_CURRENT_BODY_IS_PROSE_AUTHORITY",
+    "DO_NOT_OVERWRITE_CANONICAL_PROSE_WITH_OLD_GITHUB_SCHEDULED_BODY",
+    "ONLY_CORRECT_S2_URL_AND_CONVERT_EXISTING_SOURCE_MARKERS_TO_CLICKABLE_LINKS",
+    "CLAIM_SEMANTICS_AND_FIXED_WINDOW_UNCHANGED",
+    "PRIVATE_JOVO_LAYER_MUST_REMAIN_PRIVATE_ONLY"
+  ]
+}
