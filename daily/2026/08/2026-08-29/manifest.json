@@ -26,14 +26,15 @@
     "E03 canonical Reuters URL corrected; all seven external sources independently source-identity verified.",
     "This correction does not change the Daily's claims, fixed window, evidence meaning or Current date; Work must replace rendered hrefs and republish through normal gates.",
     "2026-08-31 inline-citation audit found body evidence markers were not clickable.",
-    "Public bridge Markdown now uses exact canonical URLs directly on Evidence labels; Work must preserve equivalent clickable inline anchors in final Private/Public Reader."
+    "Public bridge Markdown now uses exact canonical URLs directly on Evidence labels; Work must preserve equivalent clickable inline anchors in final Private/Public Reader.",
+    "System audit found GitHub pre-formal body diverges from formal Chinese V4 canonical body. Work must patch the formal Authority body in place using canonical_source_map.json; the GitHub bridge prose must not overwrite Canonical."
   ],
   "source_identity_gate_status": "PASS_AFTER_CORRECTION",
   "verified_external_source_count": 7,
   "unverified_external_source_count": 0,
   "guessed_url_count": 0,
   "source_identity_correction_status": "CHAT_ACCEPTED_PENDING_WORK_FORMALIZATION",
-  "corrective_revision": "R4_SOURCE_IDENTITY_AND_INLINE_CITATION",
+  "corrective_revision": "R4_SOURCE_IDENTITY_INLINE_CITATION_CANONICAL_BASIS_FROZEN",
   "corrected_evidence_ids": [
     "E03"
   ],
@@ -45,5 +46,14 @@
   "inline_clickable_evidence_count": 7,
   "plain_unlinked_evidence_marker_count": 0,
   "source_appendix_only_citation_count": 0,
-  "inline_citation_correction_status": "CHAT_ACCEPTED_PENDING_WORK_FORMALIZATION"
+  "inline_citation_correction_status": "CHAT_ACCEPTED_PENDING_WORK_FORMALIZATION",
+  "bridge_body_role": "ARCHIVAL_PRE_FORMAL_SCHEDULED_INPUT_NOT_CANONICAL_PROSE",
+  "same_date_correction_body_authority": "FORMAL_LIBRARY_AUTHORITY_CURRENT_2026_08_29_R2_V4_CORRECTIVE",
+  "canonical_source_map_path": "daily/2026/08/2026-08-29/canonical_source_map.json",
+  "canonical_body_overwrite_from_bridge_forbidden": true,
+  "formal_correction_scope": [
+    "S2_CANONICAL_URL",
+    "INLINE_CLICKABLE_SOURCE_MARKUP",
+    "READER_CITATION_FUNCTIONALITY"
+  ]
 }
