@@ -41,5 +41,9 @@
     "Keep Current Daily date at 2026-08-29 until any newer Daily is separately promoted."
   ],
   "public_reresearch": false,
-  "narrow_source_verification": true
+  "narrow_source_verification": true,
+  "canonical_body_authority": "FORMAL_LIBRARY_AUTHORITY_CURRENT_2026_08_29_R2_V4_CORRECTIVE",
+  "canonical_source_map_path": "daily/2026/08/2026-08-29/canonical_source_map.json",
+  "github_public_core_body_must_not_replace_canonical": true,
+  "correction_apply_mode": "PATCH_FORMAL_CANONICAL_IN_PLACE"
 }
