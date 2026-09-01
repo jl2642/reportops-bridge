@@ -41,10 +41,12 @@
   "recovered_dates": [],
   "recovery_queue_after": [],
   "formal_status": "PENDING_WORK_RECONCILIATION",
-  "work_reconciliation_status": "PENDING_WORK_REVALIDATION",
+  "work_reconciliation_status": "REJECTED_NEEDS_CHAT_FINAL_PRIVATE_LAYER",
   "manual_action_required": false,
-  "failed_checks": [],
-  "failure_stage": null,
-  "failure_reason": null,
-  "updated_at": "2026-09-01T10:31:00+08:00"
+  "failed_checks": [
+    "PRIVATE_LAYER_HANDOFF_MISSING"
+  ],
+  "failure_stage": "DAILY_2026_09_01_PRIVATE_COMPOSITION",
+  "failure_reason": "PUBLIC_CORE_ACCEPTED is present, but no explicit Chat-final JOVO_DIRECTIONAL_EXPOSURE private-layer handoff exists; Work may not author or rewrite it.",
+  "updated_at": "2026-09-01T12:31:52+08:00"
 }
