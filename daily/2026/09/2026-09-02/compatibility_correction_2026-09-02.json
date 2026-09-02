@@ -1,0 +1,19 @@
+{
+  "schema_version": "REPORTOPS_CHAT_COMPATIBILITY_CORRECTION_V1",
+  "target_date": "2026-09-02",
+  "correction_type": "DATA_GAP_BOUNDARY_TOKEN_COMPATIBILITY_ONLY",
+  "status": "CHAT_ACCEPTED_PENDING_WORK_RECONCILIATION",
+  "changed_surface": "public_core.md",
+  "research_repeated": false,
+  "evidence_changed": false,
+  "source_urls_changed": false,
+  "claim_semantics_changed": false,
+  "added_tokens": [
+    "证据边界",
+    "无可用替代"
+  ],
+  "purpose": "Satisfy existing DAILY_PRODUCT_DEPTH_GATE_V4 data_gap_boundary contract without changing research, evidence or analytical conclusions.",
+  "canonical_promotion_performed": false,
+  "public_site_publication_performed": false,
+  "next_action": "Next scheduled Work 12:30 run revalidates oldest-first and promotes if all gates pass."
+}
