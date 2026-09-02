@@ -67,7 +67,7 @@
   "public_core_path": "daily/2026/09/2026-09-02/public_core.md",
   "evidence_path": "daily/2026/09/2026-09-02/evidence.json",
   "github_write_status": "PASS",
-  "github_readback_status": "PENDING_POST_WRITE_READBACK",
+  "github_readback_status": "PASS_PUBLIC_CORE_EVIDENCE_MANIFEST_CORRECTION_RECEIPT",
   "single_site_product_complete": true,
   "private_layer_required": false,
   "jovo_directional_exposure_compatibility_alias": "INDUSTRY_CHAIN_AND_OPERATOR_EXPOSURE_PUBLIC_SAFE",
