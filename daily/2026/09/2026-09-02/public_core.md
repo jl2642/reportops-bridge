@@ -93,7 +93,7 @@ language: zh-CN
 
 核心Evidence均来自实际打开的Reuters exact-document URL，并记录Source Identity receipt。船舶通行数据来自Kpler等跟踪数据，存在AIS关闭导致低估的边界；伊朗装载和出口量是第三方跟踪机构估计；俄罗斯数字来自尚待月底最终确定的政府预算草案，因此属于正式草案预期而非最终统计。[E01](https://www.reuters.com/world/middle-east/strait-hormuz-commodity-vessel-transits-stay-single-digits-data-shows-2026-09-01/) [E03](https://www.reuters.com/business/energy/blockade-succeeds-where-sanctions-failed-iran-oil-exports-stall-2026-09-01/) [E04](https://www.reuters.com/business/energy/russia-cuts-expected-2026-oil-output-17-year-low-war-fallout-draft-forecasts-2026-09-01/)
 
-**DATA_GAP**：没有在固定窗口内找到可验证的新JKM/TTF现货评估、中国LNG/LPG现货/库存/接收站利用率、CP/FEI及VLGC运价；因此这些字段保持空缺，禁止沿用前值冒充新增数据。反证方面，如果霍尔木兹油气船舶通行快速恢复、伊朗对华新增货物重新稳定、俄罗斯炼厂开工回升且燃料出口恢复，则当前“物理供应约束仍扩散”的主判断需要降级。
+**DATA_GAP**：没有在固定窗口内找到可验证的新JKM/TTF现货评估、中国LNG/LPG现货/库存/接收站利用率、CP/FEI及VLGC运价；因此这些字段保持空缺，禁止沿用前值冒充新增数据。\n\n**证据边界**：上述缺口目前**无可用替代**（no acceptable proxy）可在同一固定窗口、同一来源身份与时间戳标准下替代；因此不得用旧值、跨窗口报价或弱口径代理填充，也不得据此外推出未被公开证据支持的价格、库存、利用率或运费结论。\n\n反证方面，如果霍尔木兹油气船舶通行快速恢复、伊朗对华新增货物重新稳定、俄罗斯炼厂开工回升且燃料出口恢复，则当前“物理供应约束仍扩散”的主判断需要降级。
 
 <!-- NEXT_VERIFICATION -->
 ## 10. 下一窗口验证
