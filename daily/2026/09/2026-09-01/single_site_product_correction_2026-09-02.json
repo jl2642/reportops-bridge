@@ -1,0 +1,20 @@
+{
+  "schema_version": "REPORTOPS_SINGLE_SITE_PRODUCT_CORRECTION_RECEIPT_V1",
+  "target_date": "2026-09-01",
+  "correction_type": "SINGLE_SITE_PRODUCT_COMPOSITION_SEMANTICS_ONLY",
+  "status": "CHAT_CORRECTION_ACCEPTED_PENDING_WORK_RECONCILIATION",
+  "accepted_public_core": "daily/2026/09/2026-09-01/public_core.md",
+  "accepted_evidence": "daily/2026/09/2026-09-01/evidence.json",
+  "accepted_manifest": "daily/2026/09/2026-09-01/manifest.json",
+  "public_core_research_repeated": false,
+  "claim_semantics_changed": false,
+  "source_urls_changed": false,
+  "inline_citations_changed": false,
+  "private_layer_required": false,
+  "single_site_product_complete": true,
+  "industry_operator_module_required": true,
+  "compatibility_alias": "JOVO_DIRECTIONAL_EXPOSURE -> INDUSTRY_CHAIN_AND_OPERATOR_EXPOSURE_PUBLIC_SAFE",
+  "public_safety_boundary": "No non-public JOVO/九丰 contract, price, margin, inventory, customer, shipping, financing, unannounced project, forecast or management-material content is required or permitted.",
+  "correction_reason": "The live Single-Site contract no longer requires a separate PRIVATE_JOVO_LAYER. The previously accepted 2026-09-01 public-safe Daily remains unchanged and must not fail solely for absence of a private layer.",
+  "created_at": "2026-09-02T10:17:39+08:00"
+}
