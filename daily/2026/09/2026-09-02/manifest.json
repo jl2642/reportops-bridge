@@ -72,7 +72,7 @@
   "private_layer_required": false,
   "jovo_directional_exposure_compatibility_alias": "INDUSTRY_CHAIN_AND_OPERATOR_EXPOSURE_PUBLIC_SAFE",
   "formal_canonical_status": "PENDING_WORK_RECONCILIATION",
-  "work_reconciliation_status": "PENDING_WORK_REVALIDATION",
+  "work_reconciliation_status": "PENDING_WORK_REVALIDATION_AFTER_CHAT_COMPATIBILITY_CORRECTION",
   "library_status": "NOT_READ_OR_MODIFIED_BY_GITHUB_BRIDGE",
   "site_status": "NOT_READ_OR_PUBLISHED_BY_GITHUB_BRIDGE",
   "higher_cycle_authored": false,
@@ -84,5 +84,18 @@
     "No accepted new China LNG/LPG spot, inventory, terminal-utilization, CP/FEI or VLGC freight evidence.",
     "Hormuz ship-tracking data exclude AIS-dark vessels and are preliminary.",
     "Russia 2026 production/export numbers are draft government forecasts, not final statistics."
-  ]
+  ],
+  "chat_compatibility_correction": {
+    "status": "ACCEPTED",
+    "correction_type": "DATA_GAP_BOUNDARY_TOKEN_COMPATIBILITY_ONLY",
+    "corrected_at": "2026-09-02T13:15:00+08:00",
+    "research_repeated": false,
+    "evidence_changed": false,
+    "claim_semantics_changed": false,
+    "source_urls_changed": false,
+    "boundary_token": "证据边界",
+    "governed_no_proxy_token": "无可用替代",
+    "next_status": "PENDING_WORK_RECONCILIATION",
+    "receipt": "daily/2026/09/2026-09-02/compatibility_correction_2026-09-02.json"
+  }
 }
