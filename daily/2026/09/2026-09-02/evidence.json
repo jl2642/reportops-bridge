@@ -1,0 +1,180 @@
+{
+  "schema_version": "REPORTOPS_PUBLIC_EVIDENCE_V1_2",
+  "target_date": "2026-09-02",
+  "window_start": "2026-09-01T10:00:00+08:00",
+  "window_end": "2026-09-02T10:00:00+08:00",
+  "mode": "STRICT_NEW_PUBLIC",
+  "records": [
+    {
+      "id": "E01",
+      "title": "Strait of Hormuz commodity vessel transits stay in single digits, data shows",
+      "publisher": "Reuters",
+      "publication_time": "2026-09-01T04:00:00Z",
+      "data_period": "2026-08-31",
+      "url": "https://www.reuters.com/world/middle-east/strait-hormuz-commodity-vessel-transits-stay-single-digits-data-shows-2026-09-01/",
+      "claim_class": "CORE",
+      "support": "DIRECT",
+      "url_identity_status": "PASS_OBSERVED_EXACT_DOCUMENT",
+      "url_verified_date": "2026-09-02",
+      "source_identity_receipt": {
+        "verification_method": "OPENED_EXACT_DOCUMENT",
+        "observed_url": "https://www.reuters.com/world/middle-east/strait-hormuz-commodity-vessel-transits-stay-single-digits-data-shows-2026-09-01/",
+        "canonical_url": "https://www.reuters.com/world/middle-east/strait-hormuz-commodity-vessel-transits-stay-single-digits-data-shows-2026-09-01/",
+        "observed_title": "Strait of Hormuz commodity vessel transits stay in single digits, data shows",
+        "observed_publisher": "Reuters",
+        "title_match_status": "EXACT",
+        "verified_at": "2026-09-02T10:17:39+08:00"
+      },
+      "supports": ["Hormuz visible commodity-vessel transits around five", "10-day average around 14", "no liquid tankers in observed Monday transit set"],
+      "boundary": "Preliminary Kpler visible-traffic data exclude vessels with transponders switched off; not complete physical traffic."
+    },
+    {
+      "id": "E02",
+      "title": "Two tankers carrying Saudi oil attacked in Strait of Hormuz",
+      "publisher": "Reuters",
+      "publication_time": "2026-09-01T10:21:00Z",
+      "data_period": "2026-08-31",
+      "url": "https://www.reuters.com/business/energy/two-tankers-carrying-saudi-oil-attacked-strait-hormuz-2026-09-01/",
+      "claim_class": "CORE",
+      "support": "DIRECT",
+      "url_identity_status": "PASS_OBSERVED_EXACT_DOCUMENT",
+      "url_verified_date": "2026-09-02",
+      "source_identity_receipt": {
+        "verification_method": "OPENED_EXACT_DOCUMENT",
+        "observed_url": "https://www.reuters.com/business/energy/two-tankers-carrying-saudi-oil-attacked-strait-hormuz-2026-09-01/",
+        "canonical_url": "https://www.reuters.com/business/energy/two-tankers-carrying-saudi-oil-attacked-strait-hormuz-2026-09-01/",
+        "observed_title": "Two tankers carrying Saudi oil attacked in Strait of Hormuz",
+        "observed_publisher": "Reuters",
+        "title_match_status": "EXACT",
+        "verified_at": "2026-09-02T10:17:39+08:00"
+      },
+      "supports": ["two outbound VLCCs struck by unknown projectiles", "each had loaded about two million barrels of Saudi crude", "crew reported safe"],
+      "boundary": "Incident-level shipping-security evidence; does not by itself quantify fleet-wide insurance or freight repricing."
+    },
+    {
+      "id": "E03",
+      "title": "Blockade succeeds where sanctions failed as Iran oil exports stall",
+      "publisher": "Reuters",
+      "publication_time": "2026-09-01T12:53:00Z",
+      "data_period": "2026-08",
+      "url": "https://www.reuters.com/business/energy/blockade-succeeds-where-sanctions-failed-iran-oil-exports-stall-2026-09-01/",
+      "claim_class": "CORE",
+      "support": "DIRECT",
+      "url_identity_status": "PASS_OBSERVED_EXACT_DOCUMENT",
+      "url_verified_date": "2026-09-02",
+      "source_identity_receipt": {
+        "verification_method": "OPENED_EXACT_DOCUMENT",
+        "observed_url": "https://www.reuters.com/business/energy/blockade-succeeds-where-sanctions-failed-iran-oil-exports-stall-2026-09-01/",
+        "canonical_url": "https://www.reuters.com/business/energy/blockade-succeeds-where-sanctions-failed-iran-oil-exports-stall-2026-09-01/",
+        "observed_title": "Blockade succeeds where sanctions failed as Iran oil exports stall",
+        "observed_publisher": "Reuters",
+        "title_match_status": "EXACT",
+        "verified_at": "2026-09-02T10:17:39+08:00"
+      },
+      "supports": ["about seven weeks without meaningful Iranian crude exports through Hormuz", "no fresh cargoes successfully transited to China since mid-July", "August loadings estimated 220-255 kbpd"],
+      "boundary": "Shipping and loading estimates rely on Kpler, Vortexa and TankerTrackers.com; floating storage can temporarily support deliveries."
+    },
+    {
+      "id": "E04",
+      "title": "Russia cuts expected 2026 oil output to 17-year low on war fallout, draft forecasts show",
+      "publisher": "Reuters",
+      "publication_time": "2026-09-01T10:52:00Z",
+      "data_period": "2026 forecast",
+      "url": "https://www.reuters.com/business/energy/russia-cuts-expected-2026-oil-output-17-year-low-war-fallout-draft-forecasts-2026-09-01/",
+      "claim_class": "CORE",
+      "support": "DIRECT",
+      "url_identity_status": "PASS_OBSERVED_EXACT_DOCUMENT",
+      "url_verified_date": "2026-09-02",
+      "source_identity_receipt": {
+        "verification_method": "OPENED_EXACT_DOCUMENT",
+        "observed_url": "https://www.reuters.com/business/energy/russia-cuts-expected-2026-oil-output-17-year-low-war-fallout-draft-forecasts-2026-09-01/",
+        "canonical_url": "https://www.reuters.com/business/energy/russia-cuts-expected-2026-oil-output-17-year-low-war-fallout-draft-forecasts-2026-09-01/",
+        "observed_title": "Russia cuts expected 2026 oil output to 17-year low on war fallout, draft forecasts show",
+        "observed_publisher": "Reuters",
+        "title_match_status": "EXACT",
+        "verified_at": "2026-09-02T10:17:39+08:00"
+      },
+      "supports": ["2026 crude output draft forecast 494.2 million tons / 9.88 mbpd", "fuel exports forecast 98.5 million tons", "refinery disruption and domestic fuel shortage context"],
+      "boundary": "Government draft forecast expected to be finalized later in September; not final production statistics."
+    },
+    {
+      "id": "E05",
+      "title": "Solar overtakes coal as China's largest source of installed power capacity",
+      "publisher": "Reuters",
+      "publication_time": "2026-09-01T06:47:00Z",
+      "data_period": "2026-07",
+      "url": "https://www.reuters.com/business/energy/solar-overtakes-coal-chinas-largest-source-installed-power-capacity-2026-09-01/",
+      "claim_class": "MATERIAL",
+      "support": "DIRECT",
+      "url_identity_status": "PASS_OBSERVED_EXACT_DOCUMENT",
+      "url_verified_date": "2026-09-02",
+      "source_identity_receipt": {
+        "verification_method": "OPENED_EXACT_DOCUMENT",
+        "observed_url": "https://www.reuters.com/business/energy/solar-overtakes-coal-chinas-largest-source-installed-power-capacity-2026-09-01/",
+        "canonical_url": "https://www.reuters.com/business/energy/solar-overtakes-coal-chinas-largest-source-installed-power-capacity-2026-09-01/",
+        "observed_title": "Solar overtakes coal as China's largest source of installed power capacity",
+        "observed_publisher": "Reuters",
+        "title_match_status": "EXACT",
+        "verified_at": "2026-09-02T10:17:39+08:00"
+      },
+      "supports": ["China July solar capacity 1,288 GW versus coal 1,285 GW", "solar remains below coal in actual generation", "H1 wind and solar generation share 24.6% versus coal 49.7%"],
+      "boundary": "Installed-capacity milestone is structural; it does not imply same-day gas, coal or power-demand displacement."
+    },
+    {
+      "id": "E06",
+      "title": "Oil up nearly 1% as US and Iran trade fresh strikes",
+      "publisher": "Reuters",
+      "publication_time": "2026-09-02T00:55:00Z",
+      "data_period": "2026-09-02T00:08:00Z",
+      "url": "https://www.reuters.com/business/energy/oil-up-nearly-1-us-iran-trade-fresh-strikes-2026-09-02/",
+      "claim_class": "CORE",
+      "support": "DIRECT",
+      "url_identity_status": "PASS_OBSERVED_EXACT_DOCUMENT",
+      "url_verified_date": "2026-09-02",
+      "source_identity_receipt": {
+        "verification_method": "OPENED_EXACT_DOCUMENT",
+        "observed_url": "https://www.reuters.com/business/energy/oil-up-nearly-1-us-iran-trade-fresh-strikes-2026-09-02/",
+        "canonical_url": "https://www.reuters.com/business/energy/oil-up-nearly-1-us-iran-trade-fresh-strikes-2026-09-02/",
+        "observed_title": "Oil up nearly 1% as US and Iran trade fresh strikes",
+        "observed_publisher": "Reuters",
+        "title_match_status": "EXACT",
+        "verified_at": "2026-09-02T10:17:39+08:00"
+      },
+      "supports": ["Brent 95.52 dollars per barrel at 0008 GMT", "WTI 91.02 dollars per barrel at 0008 GMT", "early-trade rise around 0.9%"],
+      "boundary": "Intraday futures quote, not settlement or physical spot assessment."
+    },
+    {
+      "id": "E07",
+      "title": "Methanex plans to idle New Zealand plants as gas supply dwindles",
+      "publisher": "Reuters",
+      "publication_time": "2026-09-02T01:39:00Z",
+      "data_period": "2027 onward plan",
+      "url": "https://www.reuters.com/business/energy/methanex-plans-idle-new-zealand-plants-gas-supply-dwindles-2026-09-02/",
+      "claim_class": "MATERIAL",
+      "support": "DIRECT",
+      "url_identity_status": "PASS_OBSERVED_EXACT_DOCUMENT",
+      "url_verified_date": "2026-09-02",
+      "source_identity_receipt": {
+        "verification_method": "OPENED_EXACT_DOCUMENT",
+        "observed_url": "https://www.reuters.com/business/energy/methanex-plans-idle-new-zealand-plants-gas-supply-dwindles-2026-09-02/",
+        "canonical_url": "https://www.reuters.com/business/energy/methanex-plans-idle-new-zealand-plants-gas-supply-dwindles-2026-09-02/",
+        "observed_title": "Methanex plans to idle New Zealand plants as gas supply dwindles",
+        "observed_publisher": "Reuters",
+        "title_match_status": "EXACT",
+        "verified_at": "2026-09-02T10:17:39+08:00"
+      },
+      "supports": ["Methanex plans to sell substantially all New Zealand gas entitlements from Q1 2027", "indefinite idling of New Zealand production facilities", "declining domestic gas availability cited"],
+      "boundary": "Company plan for 2027 onward; not a same-day physical gas-flow reduction."
+    }
+  ],
+  "source_identity_summary": {
+    "external_source_count": 7,
+    "verified_external_source_count": 7,
+    "unverified_external_source_count": 0,
+    "guessed_url_count": 0
+  },
+  "unsupported_core_claims": 0,
+  "window_status": "PASS",
+  "privacy_status": "PASS_PUBLIC_SAFE",
+  "price_semantics_status": "PASS_INTRADAY_QUOTE_EXPLICIT_JKM_TTF_CHINA_LNG_LPG_VLGC_DATA_GAP"
+}
