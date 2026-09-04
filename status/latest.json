@@ -1,14 +1,13 @@
 {
   "schema_version": "REPORTOPS_R3_1_CHAT_STATUS_V1_5_SINGLE_SITE",
-  "scheduled_date": "2026-09-03",
-  "target_date": "2026-09-03",
-  "current_day_status": "FORMAL",
-  "scheduled_run_status": "PASS_PUBLISHED",
+  "scheduled_date": "2026-09-04",
+  "target_date": "2026-09-04",
+  "current_day_status": "PUBLIC_CORE_ACCEPTED",
+  "scheduled_run_status": "PASS",
   "scheduled_run_pass_claimed": true,
   "manual_recovery": false,
   "correction_backlog": {
-    "status": "CONSUMED",
-    "daily_2026_09_02": "FORMAL_CANONICAL_PUBLIC_SITE_DOWNLOAD_PASS",
+    "status": "NONE_CURRENT_PUBLIC_FORMAL_THROUGH_2026_09_03",
     "research_repeated": false,
     "evidence_changed": false,
     "claim_semantics_changed": false
@@ -28,14 +27,14 @@
   "unsupported_core_claims": 0,
   "failed_checks": [],
   "recovered_dates": [],
-  "latest_contiguous_public_core_date": "2026-09-03",
+  "latest_contiguous_public_core_date": "2026-09-04",
   "current_daily_public": "2026-09-03",
-  "formal_status": "FORMAL_CANONICAL_PUBLIC_SITE_DOWNLOAD_PASS",
-  "canonical_promotion_performed": true,
-  "site_publication_performed": true,
+  "formal_status": "PENDING_WORK_RECONCILIATION",
+  "canonical_promotion_performed": false,
+  "site_publication_performed": false,
   "higher_cycle_authored": false,
   "failure_stage": null,
   "failure_reason": null,
-  "next_action": "Scan only newer Chat-final accepted products; skip all completed same-version nodes.",
-  "updated_at": "2026-09-03T12:48:40+08:00"
+  "next_action": "12:30 Work reconcile 2026-09-04, promote Canonical if all Work gates pass, then publish single Public Site and Download Center.",
+  "updated_at": "2026-09-04T10:31:00+08:00"
 }
