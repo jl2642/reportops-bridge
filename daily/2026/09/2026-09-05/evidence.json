@@ -1,0 +1,114 @@
+{
+  "schema_version": "REPORTOPS_PUBLIC_EVIDENCE_V1_2",
+  "target_date": "2026-09-05",
+  "window_start": "2026-09-04T10:00:00+08:00",
+  "window_end": "2026-09-05T10:00:00+08:00",
+  "mode": "STRICT_NEW_PUBLIC",
+  "records": [
+    {
+      "id": "E01",
+      "claim_type": "SHIPPING_FLOW",
+      "materiality": "CORE",
+      "support": "DIRECT",
+      "title": "Gulf shipping traffic via Hormuz keeps below 10-day average, data shows",
+      "publisher": "Reuters",
+      "publication_time": "2026-09-04T06:09:00Z",
+      "data_period": "2026-09-03/2026-09-04",
+      "url": "https://www.reuters.com/world/middle-east/gulf-shipping-traffic-via-hormuz-keeps-below-10-day-average-data-shows-2026-09-04/",
+      "url_identity_status": "VERIFIED_EXACT_DOCUMENT",
+      "url_verified_date": "2026-09-05",
+      "source_identity_receipt": {
+        "verification_method": "OPENED_EXACT_DOCUMENT",
+        "observed_url": "https://www.reuters.com/world/middle-east/gulf-shipping-traffic-via-hormuz-keeps-below-10-day-average-data-shows-2026-09-04/",
+        "canonical_url": "https://www.reuters.com/world/middle-east/gulf-shipping-traffic-via-hormuz-keeps-below-10-day-average-data-shows-2026-09-04/",
+        "observed_title": "Gulf shipping traffic via Hormuz keeps below 10-day average, data shows",
+        "observed_publisher": "Reuters",
+        "title_match_status": "EXACT",
+        "verified_at": "2026-09-05T10:18:00+08:00"
+      },
+      "fact_summary": "Kpler preliminary data showed four commodity vessels transited Hormuz on Thursday versus nine the prior day and about 15 over the 10-day average; AIS-off vessels are excluded.",
+      "boundary": "Observable AIS-based traffic, not total physical flow."
+    },
+    {
+      "id": "E02",
+      "claim_type": "POLICY_SHIPPING_SECURITY",
+      "materiality": "CORE",
+      "support": "DIRECT",
+      "title": "South Korea reviewing options to support Hormuz navigation, official says",
+      "publisher": "Reuters",
+      "publication_time": "2026-09-04T02:21:00Z",
+      "data_period": "2026-09-04",
+      "url": "https://www.reuters.com/world/asia-pacific/south-korea-reviewing-options-support-hormuz-navigation-official-says-2026-09-04/",
+      "url_identity_status": "VERIFIED_EXACT_DOCUMENT",
+      "url_verified_date": "2026-09-05",
+      "source_identity_receipt": {
+        "verification_method": "OPENED_EXACT_DOCUMENT",
+        "observed_url": "https://www.reuters.com/world/asia-pacific/south-korea-reviewing-options-support-hormuz-navigation-official-says-2026-09-04/",
+        "canonical_url": "https://www.reuters.com/world/asia-pacific/south-korea-reviewing-options-support-hormuz-navigation-official-says-2026-09-04/",
+        "observed_title": "South Korea reviewing options to support Hormuz navigation, official says",
+        "observed_publisher": "Reuters",
+        "title_match_status": "EXACT",
+        "verified_at": "2026-09-05T10:18:00+08:00"
+      },
+      "fact_summary": "A South Korean presidential official said Seoul is reviewing practical options, including military measures, to support freedom of navigation in Hormuz.",
+      "boundary": "Policy review only; no executed escort or insurance measure is claimed."
+    },
+    {
+      "id": "E03",
+      "claim_type": "REFINING_CAPITAL",
+      "materiality": "CORE",
+      "support": "DIRECT",
+      "title": "Nigeria's SEC approves about $1.6bn Dangote Refinery IPO",
+      "publisher": "Reuters",
+      "publication_time": "2026-09-04T09:58:00Z",
+      "data_period": "2026-09-04",
+      "url": "https://www.reuters.com/business/energy/nigerias-dangote-refinery-ipo-raise-between-155-18-bln-sources-2026-09-04/",
+      "url_identity_status": "VERIFIED_EXACT_DOCUMENT",
+      "url_verified_date": "2026-09-05",
+      "source_identity_receipt": {
+        "verification_method": "OPENED_EXACT_DOCUMENT",
+        "observed_url": "https://www.reuters.com/business/energy/nigerias-dangote-refinery-ipo-raise-between-155-18-bln-sources-2026-09-04/",
+        "canonical_url": "https://www.reuters.com/business/energy/nigerias-dangote-refinery-ipo-raise-between-155-18-bln-sources-2026-09-04/",
+        "observed_title": "Nigeria's SEC approves about $1.6bn Dangote Refinery IPO",
+        "observed_publisher": "Reuters",
+        "title_match_status": "EXACT",
+        "verified_at": "2026-09-05T10:18:00+08:00"
+      },
+      "fact_summary": "Nigeria's SEC approved Dangote refinery's IPO; the company says full subscription could raise about 2.15 trillion naira. Existing capacity is 650,000 bpd and expansion plans target 1.4 million bpd.",
+      "boundary": "IPO approval and fundraising target do not equal completed financing or commissioned capacity."
+    },
+    {
+      "id": "E04",
+      "claim_type": "WEATHER_LOGISTICS",
+      "materiality": "MATERIAL",
+      "support": "DIRECT",
+      "title": "Typhoon Saudel brings torrential rain, flooding to China's coastal areas",
+      "publisher": "Reuters",
+      "publication_time": "2026-09-04T03:23:00Z",
+      "data_period": "2026-09-03/2026-09-04",
+      "url": "https://www.reuters.com/business/environment/typhoon-saudel-brings-torrential-rain-flooding-chinas-coastal-areas-2026-09-04/",
+      "url_identity_status": "VERIFIED_EXACT_DOCUMENT",
+      "url_verified_date": "2026-09-05",
+      "source_identity_receipt": {
+        "verification_method": "OPENED_EXACT_DOCUMENT",
+        "observed_url": "https://www.reuters.com/business/environment/typhoon-saudel-brings-torrential-rain-flooding-chinas-coastal-areas-2026-09-04/",
+        "canonical_url": "https://www.reuters.com/business/environment/typhoon-saudel-brings-torrential-rain-flooding-chinas-coastal-areas-2026-09-04/",
+        "observed_title": "Typhoon Saudel brings torrential rain, flooding to China's coastal areas",
+        "observed_publisher": "Reuters",
+        "title_match_status": "EXACT",
+        "verified_at": "2026-09-05T10:18:00+08:00"
+      },
+      "fact_summary": "Heavy rain and flooding affected Fujian and Guangdong; schools and public transport were suspended in multiple coastal areas and more than 83,000 Fujian residents were evacuated.",
+      "boundary": "No specific LNG/LPG terminal, refinery, storage or port shutdown is evidenced."
+    }
+  ],
+  "source_identity_summary": {
+    "guessed_url_count": 0,
+    "unverified_external_source_count": 0,
+    "verified_external_source_count": 4
+  },
+  "unsupported_core_claims": 0,
+  "price_semantics_status": "PASS_NO_NEW_COMPLIANT_PRICE_RECORD__DATA_GAP_NOT_FILLED",
+  "privacy_status": "PASS_PUBLIC_SAFE_SINGLE_SITE",
+  "window_status": "PASS"
+}
