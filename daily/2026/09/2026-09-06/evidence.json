@@ -1,0 +1,105 @@
+{
+  "schema_version": "REPORTOPS_PUBLIC_EVIDENCE_V1_2",
+  "target_date": "2026-09-06",
+  "window_start": "2026-09-05T10:00:00+08:00",
+  "window_end": "2026-09-06T10:00:00+08:00",
+  "mode": "STRICT_NEW_PUBLIC",
+  "records": [
+    {
+      "id": "E01",
+      "claim_class": "CORE",
+      "support": "DIRECT",
+      "url": "https://www.reuters.com/world/middle-east/explosions-heard-near-irans-kharg-island-gulf-origin-unknown-fars-news-says-2026-09-05/",
+      "title": "US, Iranian forces fire at vessels in waters near Iran",
+      "publisher": "Reuters",
+      "publication_time": "2026-09-05T07:16:00Z",
+      "data_period": "2026-09-05",
+      "url_identity_status": "VERIFIED_OBSERVED",
+      "url_verified_date": "2026-09-06",
+      "source_identity_receipt": {
+        "verification_method": "OPENED_EXACT_DOCUMENT",
+        "observed_url": "https://www.reuters.com/world/middle-east/explosions-heard-near-irans-kharg-island-gulf-origin-unknown-fars-news-says-2026-09-05/",
+        "canonical_url": "https://www.reuters.com/world/middle-east/explosions-heard-near-irans-kharg-island-gulf-origin-unknown-fars-news-says-2026-09-05/",
+        "observed_title": "US, Iranian forces fire at vessels in waters near Iran",
+        "observed_publisher": "Reuters",
+        "title_match_status": "EXACT",
+        "verified_at": "2026-09-06T10:15:00+08:00"
+      }
+    },
+    {
+      "id": "E02",
+      "claim_class": "CORE",
+      "support": "DIRECT",
+      "url": "https://www.reuters.com/business/energy/americans-hit-with-record-high-labor-day-weekend-gasoline-prices-2026-09-05/",
+      "title": "Americans hit with record-high Labor Day Weekend gasoline prices",
+      "publisher": "Reuters",
+      "publication_time": "2026-09-05T11:02:00Z",
+      "data_period": "2026-09-05",
+      "url_identity_status": "VERIFIED_OBSERVED",
+      "url_verified_date": "2026-09-06",
+      "source_identity_receipt": {
+        "verification_method": "OPENED_EXACT_DOCUMENT",
+        "observed_url": "https://www.reuters.com/business/energy/americans-hit-with-record-high-labor-day-weekend-gasoline-prices-2026-09-05/",
+        "canonical_url": "https://www.reuters.com/business/energy/americans-hit-with-record-high-labor-day-weekend-gasoline-prices-2026-09-05/",
+        "observed_title": "Americans hit with record-high Labor Day Weekend gasoline prices",
+        "observed_publisher": "Reuters",
+        "title_match_status": "EXACT",
+        "verified_at": "2026-09-06T10:15:00+08:00"
+      }
+    },
+    {
+      "id": "E03",
+      "claim_class": "MATERIAL",
+      "support": "DIRECT",
+      "url": "https://www.reuters.com/business/energy/brokered-ceasefire-takes-effect-repairs-zaporizhzhia-nuclear-plant-2026-09-05/",
+      "title": "Brokered ceasefire takes effect for repairs at Zaporizhzhia nuclear plant",
+      "publisher": "Reuters",
+      "publication_time": "2026-09-05T16:23:00Z",
+      "data_period": "2026-09-05",
+      "url_identity_status": "VERIFIED_OBSERVED",
+      "url_verified_date": "2026-09-06",
+      "source_identity_receipt": {
+        "verification_method": "OPENED_EXACT_DOCUMENT",
+        "observed_url": "https://www.reuters.com/business/energy/brokered-ceasefire-takes-effect-repairs-zaporizhzhia-nuclear-plant-2026-09-05/",
+        "canonical_url": "https://www.reuters.com/business/energy/brokered-ceasefire-takes-effect-repairs-zaporizhzhia-nuclear-plant-2026-09-05/",
+        "observed_title": "Brokered ceasefire takes effect for repairs at Zaporizhzhia nuclear plant",
+        "observed_publisher": "Reuters",
+        "title_match_status": "EXACT",
+        "verified_at": "2026-09-06T10:15:00+08:00"
+      }
+    },
+    {
+      "id": "E04",
+      "claim_class": "MATERIAL",
+      "support": "DIRECT",
+      "url": "https://www.reuters.com/business/energy/venezuelan-billionaire-us-investigated-money-laundering-now-has-pentagon-oil-2026-09-05/",
+      "title": "The Venezuelan billionaire the US investigated for money laundering now has a Pentagon oil deal",
+      "publisher": "Reuters",
+      "publication_time": "2026-09-05T10:05:00Z",
+      "data_period": "2026-09-05",
+      "url_identity_status": "VERIFIED_OBSERVED",
+      "url_verified_date": "2026-09-06",
+      "source_identity_receipt": {
+        "verification_method": "OPENED_EXACT_DOCUMENT",
+        "observed_url": "https://www.reuters.com/business/energy/venezuelan-billionaire-us-investigated-money-laundering-now-has-pentagon-oil-2026-09-05/",
+        "canonical_url": "https://www.reuters.com/business/energy/venezuelan-billionaire-us-investigated-money-laundering-now-has-pentagon-oil-2026-09-05/",
+        "observed_title": "The Venezuelan billionaire the US investigated for money laundering now has a Pentagon oil deal",
+        "observed_publisher": "Reuters",
+        "title_match_status": "EXACT",
+        "verified_at": "2026-09-06T10:15:00+08:00"
+      }
+    }
+  ],
+  "source_identity_summary": {
+    "verified_external_source_count": 4,
+    "unverified_external_source_count": 0,
+    "guessed_url_count": 0
+  },
+  "unsupported_core_claims": 0,
+  "privacy_status": "PASS_PUBLIC_SAFE_SINGLE_SITE",
+  "data_gaps": [
+    "No accepted new JKM/TTF independent assessment inside the fixed window with complete price semantics.",
+    "No accepted new China LNG/LPG spot, CP/FEI, VLGC freight, terminal inventory/utilization or PDH operating-rate evidence.",
+    "No observed public same-window China facility-specific operating interruption."
+  ]
+}
