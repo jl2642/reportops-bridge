@@ -16,7 +16,7 @@
   "site_publication_performed": true,
   "live_site_mode": "SINGLE_SITE_V4_PUBLIC",
   "private_site_status": "RETIRED_FROM_LIVE_OPERATION",
-  "public_site_version": 48,
+  "public_site_version": 49,
   "public_site_url": "https://energy-cycle-report-share.ljjx2020.chatgpt.site",
   "download_integrity": "PASS_2026_09_05_06_07_REMOTE_SHA_ZIP",
   "v4_runtime_assets_in_authority": "PASS_POST_REBUILD",
@@ -33,5 +33,5 @@
   "stabilized_baseline_status": "NOT_RE_SIGNED",
   "final_closure_status": "PASS",
   "pending_product": null,
-  "updated_at": "2026-09-07T12:45:00+08:00"
+  "updated_at": "2026-09-07T12:50:00+08:00"
 }
