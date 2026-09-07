@@ -1,0 +1,144 @@
+{
+  "schema_version": "REPORTOPS_PUBLIC_EVIDENCE_V1_2",
+  "target_date": "2026-09-07",
+  "window_start": "2026-09-06T10:00:00+08:00",
+  "window_end": "2026-09-07T10:00:00+08:00",
+  "mode": "STRICT_NEW_PUBLIC",
+  "records": [
+    {
+      "id": "E01",
+      "claim_class": "CORE",
+      "support": "DIRECT",
+      "url": "https://www.reuters.com/world/middle-east/hormuz-traffic-dips-lowest-since-may-after-us-iranian-strikes-ships-2026-09-06/",
+      "title": "Hormuz traffic dips to lowest since May after US, Iranian strikes on ships",
+      "publisher": "Reuters",
+      "publication_time": "2026-09-06T23:29:00Z",
+      "data_period": "10-day moving average through 2026-09-06",
+      "claim": "Kpler reported a 10-day average of 10 commodity ships/day through Hormuz, lowest since May; no VLCC had exited since Wednesday.",
+      "url_identity_status": "VERIFIED_EXACT_DOCUMENT",
+      "url_verified_date": "2026-09-07",
+      "source_identity_receipt": {
+        "verification_method": "OPENED_EXACT_DOCUMENT",
+        "observed_url": "https://www.reuters.com/world/middle-east/hormuz-traffic-dips-lowest-since-may-after-us-iranian-strikes-ships-2026-09-06/",
+        "canonical_url": "https://www.reuters.com/world/middle-east/hormuz-traffic-dips-lowest-since-may-after-us-iranian-strikes-ships-2026-09-06/",
+        "observed_title": "Hormuz traffic dips to lowest since May after US, Iranian strikes on ships",
+        "observed_publisher": "Reuters",
+        "title_match_status": "EXACT",
+        "verified_at": "2026-09-07T10:12:00+08:00"
+      },
+      "boundary": "Traffic counts are vessel counts and do not directly equal energy volume."
+    },
+    {
+      "id": "E02",
+      "claim_class": "CORE",
+      "support": "DIRECT",
+      "url": "https://www.reuters.com/business/energy/oil-extends-gains-after-us-iran-strike-ships-2026-09-07/",
+      "title": "Oil extends gains after US and Iran strike ships",
+      "publisher": "Reuters",
+      "publication_time": "2026-09-07T00:15:00Z",
+      "data_period": "2026-09-07 report snapshot; futures observation 2026-09-06T23:54:00Z",
+      "claim": "Brent was $96.80/bbl and WTI $92.14/bbl; prices extended gains amid renewed vessel strikes and reduced Hormuz flows.",
+      "url_identity_status": "VERIFIED_EXACT_DOCUMENT",
+      "url_verified_date": "2026-09-07",
+      "source_identity_receipt": {
+        "verification_method": "OPENED_EXACT_DOCUMENT",
+        "observed_url": "https://www.reuters.com/business/energy/oil-extends-gains-after-us-iran-strike-ships-2026-09-07/",
+        "canonical_url": "https://www.reuters.com/business/energy/oil-extends-gains-after-us-iran-strike-ships-2026-09-07/",
+        "observed_title": "Oil extends gains after US and Iran strike ships",
+        "observed_publisher": "Reuters",
+        "title_match_status": "EXACT",
+        "verified_at": "2026-09-07T10:12:00+08:00"
+      },
+      "price_semantics": {
+        "value_brent": 96.8,
+        "value_wti": 92.14,
+        "unit": "USD/bbl",
+        "basis": "futures snapshot reported by Reuters",
+        "observation_time": "2026-09-06T23:54:00Z"
+      },
+      "boundary": "Snapshot futures values, not settlement and not LNG/LPG price proxies."
+    },
+    {
+      "id": "E03",
+      "claim_class": "CORE",
+      "support": "DIRECT",
+      "url": "https://www.reuters.com/business/energy/ship-fuel-shortage-looms-refiners-strained-by-war-favour-other-products-2026-09-07/",
+      "title": "Ship fuel shortage looms as refiners strained by war favour other products",
+      "publisher": "Reuters",
+      "publication_time": "2026-09-07T01:02:00Z",
+      "data_period": "Q3 2026 outlook; inventory and price observations through Sep 1",
+      "claim": "Fuel oil deficit forecast at 218 kbpd in Q3; key hub stocks around 30% below seasonal averages; Singapore VLSFO up 76% since war began.",
+      "url_identity_status": "VERIFIED_EXACT_DOCUMENT",
+      "url_verified_date": "2026-09-07",
+      "source_identity_receipt": {
+        "verification_method": "OPENED_EXACT_DOCUMENT",
+        "observed_url": "https://www.reuters.com/business/energy/ship-fuel-shortage-looms-refiners-strained-by-war-favour-other-products-2026-09-07/",
+        "canonical_url": "https://www.reuters.com/business/energy/ship-fuel-shortage-looms-refiners-strained-by-war-favour-other-products-2026-09-07/",
+        "observed_title": "Ship fuel shortage looms as refiners strained by war favour other products",
+        "observed_publisher": "Reuters",
+        "title_match_status": "EXACT",
+        "verified_at": "2026-09-07T10:12:00+08:00"
+      },
+      "boundary": "Consultancy forecasts and Sep 1 price data; not a Sep 7 live bunker assessment."
+    },
+    {
+      "id": "E04",
+      "claim_class": "MATERIAL",
+      "support": "DIRECT",
+      "url": "https://www.reuters.com/business/energy/opec-set-keep-oil-output-policy-unchanged-sunday-sources-say-2026-09-06/",
+      "title": "OPEC+ keeps oil output policy unchanged for October",
+      "publisher": "Reuters",
+      "publication_time": "2026-09-06T07:37:00Z",
+      "data_period": "OPEC+ meeting on 2026-09-06",
+      "claim": "Seven OPEC+ members kept October oil output policy unchanged; actual production remains below targets due to war constraints.",
+      "url_identity_status": "VERIFIED_EXACT_DOCUMENT",
+      "url_verified_date": "2026-09-07",
+      "source_identity_receipt": {
+        "verification_method": "OPENED_EXACT_DOCUMENT",
+        "observed_url": "https://www.reuters.com/business/energy/opec-set-keep-oil-output-policy-unchanged-sunday-sources-say-2026-09-06/",
+        "canonical_url": "https://www.reuters.com/business/energy/opec-set-keep-oil-output-policy-unchanged-sunday-sources-say-2026-09-06/",
+        "observed_title": "OPEC+ keeps oil output policy unchanged for October",
+        "observed_publisher": "Reuters",
+        "title_match_status": "EXACT",
+        "verified_at": "2026-09-07T10:12:00+08:00"
+      },
+      "boundary": "Policy targets do not guarantee production or exports."
+    },
+    {
+      "id": "E05",
+      "claim_class": "MATERIAL",
+      "support": "DIRECT",
+      "url": "https://www.reuters.com/business/energy/irans-hormuz-leverage-wanes-us-economic-squeeze-bites-2026-09-06/",
+      "title": "Iran's Hormuz leverage wanes as US economic squeeze bites",
+      "publisher": "Reuters",
+      "publication_time": "2026-09-06T12:48:00Z",
+      "data_period": "Current as of 2026-09-06",
+      "claim": "US blockade and sanctions are constraining Iranian exports and foreign-currency access; mediators are discussing a possible formula but no executed agreement exists.",
+      "url_identity_status": "VERIFIED_EXACT_DOCUMENT",
+      "url_verified_date": "2026-09-07",
+      "source_identity_receipt": {
+        "verification_method": "OPENED_EXACT_DOCUMENT",
+        "observed_url": "https://www.reuters.com/business/energy/irans-hormuz-leverage-wanes-us-economic-squeeze-bites-2026-09-06/",
+        "canonical_url": "https://www.reuters.com/business/energy/irans-hormuz-leverage-wanes-us-economic-squeeze-bites-2026-09-06/",
+        "observed_title": "Iran's Hormuz leverage wanes as US economic squeeze bites",
+        "observed_publisher": "Reuters",
+        "title_match_status": "EXACT",
+        "verified_at": "2026-09-07T10:12:00+08:00"
+      },
+      "boundary": "Negotiation pathway is not an executed shipping-normalization agreement."
+    }
+  ],
+  "source_identity_summary": {
+    "verified_external_source_count": 5,
+    "unique_verified_external_urls": 5,
+    "unverified_external_source_count": 0,
+    "guessed_url_count": 0
+  },
+  "unsupported_core_claims": 0,
+  "privacy_status": "PASS_PUBLIC_SAFE_SINGLE_SITE",
+  "data_gaps": [
+    "No accepted new same-window JKM/TTF/China LNG-LPG spot/CP-FEI/VLGC freight with complete price semantics.",
+    "No same-window verified China terminal inventory/utilization or facility-specific interruption.",
+    "No same-window verified insurance premium series by tanker class."
+  ]
+}
