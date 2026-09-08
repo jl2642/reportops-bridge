@@ -1,0 +1,123 @@
+{
+  "schema_version": "REPORTOPS_PUBLIC_EVIDENCE_V1_2",
+  "target_date": "2026-09-08",
+  "window_start": "2026-09-07T10:00:00+08:00",
+  "window_end": "2026-09-08T10:00:00+08:00",
+  "mode": "STRICT_NEW_PUBLIC",
+  "records": [
+    {
+      "id": "E01",
+      "claim_class": "CORE",
+      "support": "DIRECT",
+      "url": "https://www.reuters.com/world/middle-east/iran-says-announce-new-restricted-zone-gulf-coming-days-2026-09-07/",
+      "title": "Iran warns US energy assets in Gulf are vulnerable after latest clashes",
+      "publisher": "Reuters",
+      "publication_time": "2026-09-07T06:57:33Z",
+      "data_period": "2026-09-07 report snapshot",
+      "claim": "Iran warned Gulf energy infrastructure was vulnerable and said a new restricted zone and shipping corridor through Hormuz would be announced; Reuters reported average commodity-ship transits around 10/day over the prior 10 days.",
+      "url_identity_status": "VERIFIED_EXACT_DOCUMENT",
+      "url_verified_date": "2026-09-08",
+      "source_identity_receipt": {
+        "verification_method": "OPENED_EXACT_DOCUMENT",
+        "observed_url": "https://www.reuters.com/world/middle-east/iran-says-announce-new-restricted-zone-gulf-coming-days-2026-09-07/",
+        "canonical_url": "https://www.reuters.com/world/middle-east/iran-says-announce-new-restricted-zone-gulf-coming-days-2026-09-07/",
+        "observed_title": "Iran warns US energy assets in Gulf are vulnerable after latest clashes",
+        "observed_publisher": "Reuters",
+        "title_match_status": "EXACT",
+        "verified_at": "2026-09-08T10:13:00+08:00"
+      },
+      "boundary": "Threats and announced rules are not the same as executed interdiction; vessel counts are not cargo volumes."
+    },
+    {
+      "id": "E02",
+      "claim_class": "CORE",
+      "support": "DIRECT",
+      "url": "https://www.reuters.com/business/energy/oil-rises-risks-prolonged-mideast-conflict-heighten-supply-worries-2026-09-08/",
+      "title": "Oil rises as risks of prolonged Mideast conflict heighten supply worries",
+      "publisher": "Reuters",
+      "publication_time": "2026-09-08T00:50:52Z",
+      "data_period": "2026-09-08 00:00 GMT market snapshot",
+      "claim": "Brent was $97.34/bbl and WTI $92.63/bbl around 00:00 GMT as markets priced prolonged Gulf supply risk.",
+      "url_identity_status": "VERIFIED_EXACT_DOCUMENT",
+      "url_verified_date": "2026-09-08",
+      "source_identity_receipt": {
+        "verification_method": "OPENED_EXACT_DOCUMENT",
+        "observed_url": "https://www.reuters.com/business/energy/oil-rises-risks-prolonged-mideast-conflict-heighten-supply-worries-2026-09-08/",
+        "canonical_url": "https://www.reuters.com/business/energy/oil-rises-risks-prolonged-mideast-conflict-heighten-supply-worries-2026-09-08/",
+        "observed_title": "Oil rises as risks of prolonged Mideast conflict heighten supply worries",
+        "observed_publisher": "Reuters",
+        "title_match_status": "EXACT",
+        "verified_at": "2026-09-08T10:13:00+08:00"
+      },
+      "boundary": "Intraday futures snapshot, not settlement; scenario commentary is analytical opinion, not guaranteed supply loss.",
+      "price_semantics": {
+        "value_brent": 97.34,
+        "value_wti": 92.63,
+        "unit": "USD/bbl",
+        "currency": "USD",
+        "geography": "global benchmarks",
+        "basis": "Reuters-reported futures snapshot",
+        "observation_time": "2026-09-08T00:00:00Z"
+      }
+    },
+    {
+      "id": "E03",
+      "claim_class": "MATERIAL",
+      "support": "DIRECT",
+      "url": "https://www.reuters.com/world/middle-east/uae-builds-alternative-trade-energy-routes-after-iran-attacks-official-says-2026-09-07/",
+      "title": "UAE says its energy exports will not be 'held hostage' by Iran war",
+      "publisher": "Reuters",
+      "publication_time": "2026-09-07T08:46:13Z",
+      "data_period": "2026-09-07 official remarks",
+      "claim": "UAE said it is expanding eastern-coast port capacity and developing pipelines, railways and trade routes to reduce dependence on Hormuz.",
+      "url_identity_status": "VERIFIED_EXACT_DOCUMENT",
+      "url_verified_date": "2026-09-08",
+      "source_identity_receipt": {
+        "verification_method": "OPENED_EXACT_DOCUMENT",
+        "observed_url": "https://www.reuters.com/world/middle-east/uae-builds-alternative-trade-energy-routes-after-iran-attacks-official-says-2026-09-07/",
+        "canonical_url": "https://www.reuters.com/world/middle-east/uae-builds-alternative-trade-energy-routes-after-iran-attacks-official-says-2026-09-07/",
+        "observed_title": "UAE says its energy exports will not be 'held hostage' by Iran war",
+        "observed_publisher": "Reuters",
+        "title_match_status": "EXACT",
+        "verified_at": "2026-09-08T10:13:00+08:00"
+      },
+      "boundary": "Capacity, timing and incremental export volumes for each corridor were not quantified in the report."
+    },
+    {
+      "id": "E04",
+      "claim_class": "MATERIAL",
+      "support": "DIRECT",
+      "url": "https://www.reuters.com/business/energy/totalenergies-nears-papua-lng-investment-decision-after-cost-cuts-exxon-deal-2026-09-07/",
+      "title": "TotalEnergies to lower stake in Papua LNG, hand operatorship to Exxon",
+      "publisher": "Reuters",
+      "publication_time": "2026-09-07T07:05:00Z",
+      "data_period": "2026-09-07 project update",
+      "claim": "Papua LNG partners restructured ownership/operatorship, reduced estimated capex to about $14bn, and target FID by end-2026 for a 5.6 Mtpa project aimed mainly at Asian buyers.",
+      "url_identity_status": "VERIFIED_EXACT_DOCUMENT",
+      "url_verified_date": "2026-09-08",
+      "source_identity_receipt": {
+        "verification_method": "OPENED_EXACT_DOCUMENT",
+        "observed_url": "https://www.reuters.com/business/energy/totalenergies-nears-papua-lng-investment-decision-after-cost-cuts-exxon-deal-2026-09-07/",
+        "canonical_url": "https://www.reuters.com/business/energy/totalenergies-nears-papua-lng-investment-decision-after-cost-cuts-exxon-deal-2026-09-07/",
+        "observed_title": "TotalEnergies to lower stake in Papua LNG, hand operatorship to Exxon",
+        "observed_publisher": "Reuters",
+        "title_match_status": "EXACT",
+        "verified_at": "2026-09-08T10:13:00+08:00"
+      },
+      "boundary": "FID is not yet taken; future LNG supply should not be treated as committed operating capacity."
+    }
+  ],
+  "source_identity_summary": {
+    "verified_external_source_count": 4,
+    "unique_verified_external_urls": 4,
+    "unverified_external_source_count": 0,
+    "guessed_url_count": 0
+  },
+  "unsupported_core_claims": 0,
+  "privacy_status": "PASS_PUBLIC_SAFE_SINGLE_SITE",
+  "data_gaps": [
+    "No accepted new same-window JKM/TTF/China LNG-LPG spot/CP-FEI/VLGC freight series with complete price semantics.",
+    "No same-window verified China LNG terminal inventory/utilization series.",
+    "No same-window quantified UAE bypass-corridor incremental export capacity."
+  ]
+}
