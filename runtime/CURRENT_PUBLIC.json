@@ -18,7 +18,7 @@
   "public_weekly_2026_w35_download_sha256": "ff9b19b3608f9ff11864e1126b81b4c2fb9c04368f042838a360761b84e1e933",
   "public_monthly_2026_08_download_sha256": "b3074a86d6601c81c45a8021aaa8036b89c25b7b775504ee66940c38fbfce6a1",
   "public_daily_archive_2026_08_29_30": "PASS_REMOTE_NAVIGATION",
-  "authority_package_sha256": "b3b911030e307cd7c7e53e8d66f96458a30b60fa9172170962fc3e58ff75ce4e",
+  "authority_package_sha256": "e5fb16d18679ff08dd73febca0c8f50f9c6c5097fe71caa3f1b66f49eee77025",
   "github_role": "PUBLIC_SAFE_RUNTIME_BRIDGE_NOT_CANONICAL_AUTHORITY",
   "canonical_authority": "CHATGPT_LIBRARY",
   "daily_runtime_contract_current": "V1_5_FORMAL_AUTHORITY",
@@ -35,7 +35,7 @@
     "status": "FAIL_CLOSED_READER_RECEIPT_BYTE_CONFLICT",
     "promotion_allowed": true
   },
-  "last_updated": "2026-09-09T12:51:40+08:00",
+  "last_updated": "2026-09-09T13:01:43+08:00",
   "deployment_state_ref": "runtime/DEPLOYMENT_STATE.json",
   "public_daily_2026_09_02_download_sha256": "9c9d6af08770f66d3453bead83101236d8018ba4191f9ac74df9f9fb49c6085e",
   "public_daily_2026_09_03_download_sha256": "664abde9a1bec0d34bb845e2278bef4c61e679ff9deb6a27f2626125b7d1baa2",
@@ -45,7 +45,7 @@
   "public_daily_2026_09_07_download_sha256": "d7db1245e70c5d0b9115990927096b9c80bfe90c49a5c01da3d7d7cffd464d16",
   "public_daily_2026_09_08_download_sha256": "f432b45ff0ecaef902ec31d1c4d927865e7af6d5d9bbbc61610d98dae70e7fb",
   "metadata_freshness": "PASS",
-  "state_consistency_pointer_sha256": "409ada06c3bcdad590b036293174c5ce4e392472872c94acc92d5e53823ea8fe",
-  "state_consistency_generated_at": "2026-09-09T12:48:17+08:00",
+  "state_consistency_pointer_sha256": "a8013e08854b94bb05264388f3a0d14ddba6a6550cd62d13f102e06ecfd2c226",
+  "state_consistency_generated_at": "2026-09-09T13:00:03+08:00",
   "public_daily_2026_09_09_download_sha256": "02d0f0e63dfb9aa41e0ad4e0cb5a2678db5262363beb0eed28e8c67164ea2a8a"
 }
