@@ -27,7 +27,7 @@
   "current_weekly_public": "2026-W35",
   "current_monthly_public": "2026-08",
   "archive_navigation_2026_08_29_30": "PASS_REMOTE",
-  "authority_package_sha256": "b3b911030e307cd7c7e53e8d66f96458a30b60fa9172170962fc3e58ff75ce4e",
+  "authority_package_sha256": "e5fb16d18679ff08dd73febca0c8f50f9c6c5097fe71caa3f1b66f49eee77025",
   "canonical_authority": "CHATGPT_LIBRARY:/能源周期报告/00_CURRENT/CURRENT_POINTER.json",
   "current_public_ref": "runtime/CURRENT_PUBLIC.json",
   "stabilized_baseline_status": "NOT_RE_SIGNED",
@@ -39,8 +39,8 @@
     "status": "FAIL_CLOSED_READER_RECEIPT_BYTE_CONFLICT",
     "promotion_allowed": true
   },
-  "updated_at": "2026-09-09T12:51:40+08:00",
+  "updated_at": "2026-09-09T13:01:43+08:00",
   "metadata_freshness": "PASS",
-  "state_consistency_pointer_sha256": "409ada06c3bcdad590b036293174c5ce4e392472872c94acc92d5e53823ea8fe",
-  "state_consistency_generated_at": "2026-09-09T12:48:17+08:00"
+  "state_consistency_pointer_sha256": "a8013e08854b94bb05264388f3a0d14ddba6a6550cd62d13f102e06ecfd2c226",
+  "state_consistency_generated_at": "2026-09-09T13:00:03+08:00"
 }
