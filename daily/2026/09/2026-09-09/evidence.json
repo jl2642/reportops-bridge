@@ -1,0 +1,147 @@
+{
+  "schema_version": "REPORTOPS_PUBLIC_EVIDENCE_V1_2",
+  "target_date": "2026-09-09",
+  "window_start": "2026-09-08T10:00:00+08:00",
+  "window_end": "2026-09-09T10:00:00+08:00",
+  "mode": "STRICT_NEW_PUBLIC",
+  "records": [
+    {
+      "id": "E01",
+      "claim_class": "CORE",
+      "support": "DIRECT",
+      "url": "https://www.reuters.com/world/middle-east/saudi-led-coalition-yemen-says-73-injured-houthi-attacks-kingdom-2026-09-08/",
+      "title": "Houthi attacks disrupt Saudi energy facilities, wound 73, authorities say",
+      "publisher": "Reuters",
+      "publication_time": "2026-09-08T04:19:00Z",
+      "data_period": "2026-09-08 report snapshot",
+      "claim": "Saudi authorities said operations at some energy facilities were halted after Houthi attacks; Reuters reported Brent near $98/bbl and U.S. crude near $93.65/bbl after the statement.",
+      "url_identity_status": "VERIFIED_EXACT_DOCUMENT",
+      "url_verified_date": "2026-09-09",
+      "source_identity_receipt": {
+        "verification_method": "OPENED_EXACT_DOCUMENT",
+        "observed_url": "https://www.reuters.com/world/middle-east/saudi-led-coalition-yemen-says-73-injured-houthi-attacks-kingdom-2026-09-08/",
+        "canonical_url": "https://www.reuters.com/world/middle-east/saudi-led-coalition-yemen-says-73-injured-houthi-attacks-kingdom-2026-09-08/",
+        "observed_title": "Houthi attacks disrupt Saudi energy facilities, wound 73, authorities say",
+        "observed_publisher": "Reuters",
+        "title_match_status": "EXACT",
+        "verified_at": "2026-09-09T10:15:00+08:00"
+      },
+      "boundary": "Facility-level capacity loss and outage duration were not disclosed; price is an intraday Reuters snapshot, not settlement.",
+      "price_semantics": {
+        "value_brent": 98.0,
+        "value_us_crude": 93.65,
+        "unit": "USD/bbl",
+        "currency": "USD",
+        "geography": "global/U.S. crude benchmarks",
+        "basis": "Reuters-reported intraday futures snapshot after Saudi energy ministry statement",
+        "observation_time": "2026-09-08T04:19:00Z"
+      }
+    },
+    {
+      "id": "E02",
+      "claim_class": "CORE",
+      "support": "DIRECT",
+      "url": "https://www.reuters.com/business/energy/dangote-expects-fuel-shortages-beyond-iran-war-it-spurs-expansion-2026-09-08/",
+      "title": "Dangote expects fuel shortages beyond Iran war as it spurs expansion",
+      "publisher": "Reuters",
+      "publication_time": "2026-09-08T13:02:00Z",
+      "data_period": "2026-09-08 report snapshot",
+      "claim": "Dangote refinery CEO said global fuel shortages could persist beyond the Iran war because of refinery damage, high utilization/deferred maintenance and the need to rebuild inventories; the refinery is at 700,000 bpd and targets 1.4 million bpd by 2029.",
+      "url_identity_status": "VERIFIED_EXACT_DOCUMENT",
+      "url_verified_date": "2026-09-09",
+      "source_identity_receipt": {
+        "verification_method": "OPENED_EXACT_DOCUMENT",
+        "observed_url": "https://www.reuters.com/business/energy/dangote-expects-fuel-shortages-beyond-iran-war-it-spurs-expansion-2026-09-08/",
+        "canonical_url": "https://www.reuters.com/business/energy/dangote-expects-fuel-shortages-beyond-iran-war-it-spurs-expansion-2026-09-08/",
+        "observed_title": "Dangote expects fuel shortages beyond Iran war as it spurs expansion",
+        "observed_publisher": "Reuters",
+        "title_match_status": "EXACT",
+        "verified_at": "2026-09-09T10:15:00+08:00"
+      },
+      "boundary": "Management outlook is not an official global balance forecast; future expansion is not current supply."
+    },
+    {
+      "id": "E03",
+      "claim_class": "CORE",
+      "support": "DIRECT",
+      "url": "https://www.reuters.com/business/energy/russias-arctic-lng-2-seeks-1-billion-damages-south-koreas-hanwha-2026-09-08/",
+      "title": "Russia's Arctic LNG 2 seeks $1 billion in damages from South Korea's Hanwha",
+      "publisher": "Reuters",
+      "publication_time": "2026-09-08T12:30:40Z",
+      "data_period": "2026-09-08 report snapshot",
+      "claim": "Arctic LNG 2 is seeking about $1 billion over cancelled Arc7 LNG tanker contracts; Reuters said the 19.8 Mtpa project has delivered cargoes to end-users in China while sanctions complicated its tanker availability.",
+      "url_identity_status": "VERIFIED_EXACT_DOCUMENT",
+      "url_verified_date": "2026-09-09",
+      "source_identity_receipt": {
+        "verification_method": "OPENED_EXACT_DOCUMENT",
+        "observed_url": "https://www.reuters.com/business/energy/russias-arctic-lng-2-seeks-1-billion-damages-south-koreas-hanwha-2026-09-08/",
+        "canonical_url": "https://www.reuters.com/business/energy/russias-arctic-lng-2-seeks-1-billion-damages-south-koreas-hanwha-2026-09-08/",
+        "observed_title": "Russia's Arctic LNG 2 seeks $1 billion in damages from South Korea's Hanwha",
+        "observed_publisher": "Reuters",
+        "title_match_status": "EXACT",
+        "verified_at": "2026-09-09T10:15:00+08:00"
+      },
+      "boundary": "Arbitration value is not equivalent to lost LNG output; no same-window monthly cargo volume was provided."
+    },
+    {
+      "id": "E04",
+      "claim_class": "MATERIAL",
+      "support": "DIRECT",
+      "url": "https://www.reuters.com/business/energy/australias-shale-patch-americans-bring-money-tech-lessons-learned-2026-09-08/",
+      "title": "In Australia's shale patch, Americans bring money, tech and lessons learned",
+      "publisher": "Reuters",
+      "publication_time": "2026-09-08T11:56:00Z",
+      "data_period": "2026-09-08 report snapshot",
+      "claim": "Beetaloo delivered first gas; developers target up to 1,000 TJ/day potentially enough for two LNG trains, while industry estimates well costs must fall 40%-60% and major pipeline infrastructure is still required.",
+      "url_identity_status": "VERIFIED_EXACT_DOCUMENT",
+      "url_verified_date": "2026-09-09",
+      "source_identity_receipt": {
+        "verification_method": "OPENED_EXACT_DOCUMENT",
+        "observed_url": "https://www.reuters.com/business/energy/australias-shale-patch-americans-bring-money-tech-lessons-learned-2026-09-08/",
+        "canonical_url": "https://www.reuters.com/business/energy/australias-shale-patch-americans-bring-money-tech-lessons-learned-2026-09-08/",
+        "observed_title": "In Australia's shale patch, Americans bring money, tech and lessons learned",
+        "observed_publisher": "Reuters",
+        "title_match_status": "EXACT",
+        "verified_at": "2026-09-09T10:15:00+08:00"
+      },
+      "boundary": "Target production is not current output or committed LNG capacity; economics and timing remain unproven."
+    },
+    {
+      "id": "E05",
+      "claim_class": "MATERIAL",
+      "support": "DIRECT",
+      "url": "https://www.reuters.com/business/energy/south-koreas-power-demand-set-soar-ai-boom-nation-weighs-expanding-nuclear-2026-09-08/",
+      "title": "South Korea's power demand set to soar on AI boom as nation weighs expanding nuclear energy",
+      "publisher": "Reuters",
+      "publication_time": "2026-09-08T06:26:00Z",
+      "data_period": "2026-09-08 report snapshot",
+      "claim": "South Korea's energy minister said AI-related expansion could add 25-30 GW of power demand; the government is assessing more nuclear capacity and noted some load centers may need LNG plants.",
+      "url_identity_status": "VERIFIED_EXACT_DOCUMENT",
+      "url_verified_date": "2026-09-09",
+      "source_identity_receipt": {
+        "verification_method": "OPENED_EXACT_DOCUMENT",
+        "observed_url": "https://www.reuters.com/business/energy/south-koreas-power-demand-set-soar-ai-boom-nation-weighs-expanding-nuclear-2026-09-08/",
+        "canonical_url": "https://www.reuters.com/business/energy/south-koreas-power-demand-set-soar-ai-boom-nation-weighs-expanding-nuclear-2026-09-08/",
+        "observed_title": "South Korea's power demand set to soar on AI boom as nation weighs expanding nuclear energy",
+        "observed_publisher": "Reuters",
+        "title_match_status": "EXACT",
+        "verified_at": "2026-09-09T10:15:00+08:00"
+      },
+      "boundary": "Incremental power demand is not equivalent to LNG capacity or import demand; future generation mix is undecided."
+    }
+  ],
+  "source_identity_summary": {
+    "verified_external_source_count": 5,
+    "unique_verified_external_urls": 5,
+    "unverified_external_source_count": 0,
+    "guessed_url_count": 0
+  },
+  "unsupported_core_claims": 0,
+  "privacy_status": "PASS_PUBLIC_SAFE_SINGLE_SITE",
+  "data_gaps": [
+    "No accepted same-window JKM/TTF/China LNG-LPG spot/CP-FEI/VLGC or LNGC freight series with complete price semantics.",
+    "No quantified same-window Saudi outage capacity or restoration schedule.",
+    "No same-window verified China LNG terminal inventory/utilization series.",
+    "No same-window Arctic LNG 2 monthly loading volume, Beetaloo delivered-cost estimate, or Korea LNG share of incremental load."
+  ]
+}
