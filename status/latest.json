@@ -29,23 +29,23 @@
   "failed_checks": [],
   "recovered_dates": [],
   "latest_contiguous_public_core_date": "2026-09-10",
-  "current_daily_public": "2026-09-09",
-  "formal_status": "PENDING_WORK_RECONCILIATION",
-  "canonical_promotion_performed": false,
-  "site_publication_performed": false,
+  "current_daily_public": "2026-09-10",
+  "formal_status": "PROMOTED_CANONICAL_AND_PUBLISHED",
+  "canonical_promotion_performed": true,
+  "site_publication_performed": true,
   "higher_cycle_authored": false,
   "failure_stage": null,
   "failure_reason": null,
-  "next_action": "12:30 Work revalidates and reconciles Daily 2026-09-10; existing Weekly 2026-W36 fail-closed state remains outside this Daily run.",
-  "updated_at": "2026-09-10T10:17:00+08:00",
+  "next_action": "Scan only newer Chat-final accepted products; skip completed identical versions.",
+  "updated_at": "2026-09-10T12:49:46+08:00",
   "work_public_reresearch_performed": false,
-  "eligible_unpublished_products": [
-    "Daily 2026-09-10",
-    "Weekly 2026-W36 R2"
-  ],
-  "queue_remaining": [
-    "Daily 2026-09-10",
-    "Weekly 2026-W36 R2"
-  ],
-  "metadata_freshness": "PASS"
+  "eligible_unpublished_products": [],
+  "queue_remaining": [],
+  "metadata_freshness": "PASS",
+  "current_weekly_public": "2026-W36",
+  "public_site_version": 52,
+  "authority_package_sha256": "b54019502b540c9c98e21cef7df5bf385f80e69b2389bca595ef78773572df39",
+  "state_consistency_pointer_sha256": "33d77bc219cdfe59ae6e6d8c4d1fac28700f3f6ea882c8ee339f36dfee6a5e4c",
+  "state_consistency_generated_at": "2026-09-10T12:49:46+08:00",
+  "work_reconciliation_status": "SUCCESS__FINAL_CLOSURE_PASS__DEVELOPMENT_FROZEN_LONG_TERM_OPERATION"
 }
