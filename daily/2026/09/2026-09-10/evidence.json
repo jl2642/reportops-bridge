@@ -1,0 +1,138 @@
+{
+  "schema_version": "REPORTOPS_PUBLIC_EVIDENCE_V1_2",
+  "target_date": "2026-09-10",
+  "window_start": "2026-09-09T10:00:00+08:00",
+  "window_end": "2026-09-10T10:00:00+08:00",
+  "mode": "STRICT_NEW_PUBLIC",
+  "records": [
+    {
+      "id": "E01",
+      "claim_class": "CORE",
+      "support": "DIRECT",
+      "url": "https://www.reuters.com/world/middle-east/iran-attacks-us-base-jordan-ships-near-hormuz-after-tankers-sunk-2026-09-09/",
+      "title": "Iran and US hit tankers in biggest wave of attacks on shipping since war began",
+      "publisher": "Reuters",
+      "publication_time": "2026-09-09T04:07:04Z",
+      "data_period": "2026-09-09 report snapshot",
+      "claim": "Iran said it attacked 10 ships near Hormuz after the U.S. sank five Iranian tankers; Reuters reported multiple merchant vessel impacts, an LNG tanker damaged at Khor Fakkan, Brent above $100 and Hormuz flows as low as about 2 million bpd.",
+      "url_identity_status": "VERIFIED_EXACT_DOCUMENT",
+      "url_verified_date": "2026-09-10",
+      "source_identity_receipt": {
+        "verification_method": "OPENED_EXACT_DOCUMENT",
+        "observed_url": "https://www.reuters.com/world/middle-east/iran-attacks-us-base-jordan-ships-near-hormuz-after-tankers-sunk-2026-09-09/",
+        "canonical_url": "https://www.reuters.com/world/middle-east/iran-attacks-us-base-jordan-ships-near-hormuz-after-tankers-sunk-2026-09-09/",
+        "observed_title": "Iran and US hit tankers in biggest wave of attacks on shipping since war began",
+        "observed_publisher": "Reuters",
+        "title_match_status": "EXACT",
+        "verified_at": "2026-09-10T10:17:00+08:00"
+      },
+      "boundary": "The 2 million bpd figure is a point estimate for Hormuz oil flows and cannot be applied directly to LNG or LPG volumes."
+    },
+    {
+      "id": "E02",
+      "claim_class": "CORE",
+      "support": "DIRECT",
+      "url": "https://www.reuters.com/world/middle-east/oil-vessel-transit-costs-through-hormuz-escalated-after-iran-war-enoc-exec-says-2026-09-09/",
+      "title": "Oil vessel transit costs through Hormuz escalated after Iran war, ENOC exec says",
+      "publisher": "Reuters",
+      "publication_time": "2026-09-09T06:19:57Z",
+      "data_period": "2026-09-09 APPEC management commentary",
+      "claim": "ENOC director said cargo insurance could reach 5%-6% of cargo value, additional war risk premiums up to 10%, and transit costs roughly $10-$20 million, while willing shipowners were limited.",
+      "url_identity_status": "VERIFIED_EXACT_DOCUMENT",
+      "url_verified_date": "2026-09-10",
+      "source_identity_receipt": {
+        "verification_method": "OPENED_EXACT_DOCUMENT",
+        "observed_url": "https://www.reuters.com/world/middle-east/oil-vessel-transit-costs-through-hormuz-escalated-after-iran-war-enoc-exec-says-2026-09-09/",
+        "canonical_url": "https://www.reuters.com/world/middle-east/oil-vessel-transit-costs-through-hormuz-escalated-after-iran-war-enoc-exec-says-2026-09-09/",
+        "observed_title": "Oil vessel transit costs through Hormuz escalated after Iran war, ENOC exec says",
+        "observed_publisher": "Reuters",
+        "title_match_status": "EXACT",
+        "verified_at": "2026-09-10T10:17:00+08:00"
+      },
+      "boundary": "These are observed high-end/industry examples, not a complete market-wide average quote."
+    },
+    {
+      "id": "E03",
+      "claim_class": "CORE",
+      "support": "DIRECT",
+      "url": "https://www.reuters.com/business/energy/one-third-gulf-oil-is-still-missing-despite-dark-crossings-data-shows-2026-09-09/",
+      "title": "One third of Gulf oil is still missing despite 'dark crossings', data shows",
+      "publisher": "Reuters",
+      "publication_time": "2026-09-09T14:57:54Z",
+      "data_period": "2026-09-09 Reuters analysis",
+      "claim": "Reuters analysis put industry consensus Gulf oil exports including dark crossings at roughly 15-16 million bpd, around two-thirds of pre-war levels; Vortexa estimated August exports around 15 million bpd and seven-day Hormuz crude/product flows around 8 million bpd.",
+      "url_identity_status": "VERIFIED_EXACT_DOCUMENT",
+      "url_verified_date": "2026-09-10",
+      "source_identity_receipt": {
+        "verification_method": "OPENED_EXACT_DOCUMENT",
+        "observed_url": "https://www.reuters.com/business/energy/one-third-gulf-oil-is-still-missing-despite-dark-crossings-data-shows-2026-09-09/",
+        "canonical_url": "https://www.reuters.com/business/energy/one-third-gulf-oil-is-still-missing-despite-dark-crossings-data-shows-2026-09-09/",
+        "observed_title": "One third of Gulf oil is still missing despite 'dark crossings', data shows",
+        "observed_publisher": "Reuters",
+        "title_match_status": "EXACT",
+        "verified_at": "2026-09-10T10:17:00+08:00"
+      },
+      "boundary": "Dark crossings are inherently uncertain and estimates differ among trackers; single-day peaks are not sustained flow."
+    },
+    {
+      "id": "E04",
+      "claim_class": "CORE",
+      "support": "DIRECT",
+      "url": "https://www.reuters.com/business/energy/china-oil-demand-fall-89-2026-sinopec-research-says-2026-09-09/",
+      "title": "China oil demand to fall 8.9% in 2026, Sinopec research says",
+      "publisher": "Reuters",
+      "publication_time": "2026-09-09T05:29:47Z",
+      "data_period": "2026 full-year forecast reported 2026-09-09",
+      "claim": "Sinopec research arm forecast China oil demand down 600,000 bpd or 8.9% in 2026, gasoline down 8.7%, diesel down 11.4%, and 80-100 million tpy of smaller simple refining capacity potentially exiting by 2030.",
+      "url_identity_status": "VERIFIED_EXACT_DOCUMENT",
+      "url_verified_date": "2026-09-10",
+      "source_identity_receipt": {
+        "verification_method": "OPENED_EXACT_DOCUMENT",
+        "observed_url": "https://www.reuters.com/business/energy/china-oil-demand-fall-89-2026-sinopec-research-says-2026-09-09/",
+        "canonical_url": "https://www.reuters.com/business/energy/china-oil-demand-fall-89-2026-sinopec-research-says-2026-09-09/",
+        "observed_title": "China oil demand to fall 8.9% in 2026, Sinopec research says",
+        "observed_publisher": "Reuters",
+        "title_match_status": "EXACT",
+        "verified_at": "2026-09-10T10:17:00+08:00"
+      },
+      "boundary": "This is an annual research forecast, not realized September demand or an official monthly consumption statistic."
+    },
+    {
+      "id": "E05",
+      "claim_class": "MATERIAL",
+      "support": "DIRECT",
+      "url": "https://www.reuters.com/business/energy/aster-buys-crude-americas-africa-replace-middle-east-supply-2026-09-10/",
+      "title": "Aster buys crude from Americas, Africa to replace Middle East supply",
+      "publisher": "Reuters",
+      "publication_time": "2026-09-10T01:34:00Z",
+      "data_period": "2026-09-09 APPEC management commentary",
+      "claim": "Singapore's Aster said it bought crude from the Americas and Africa to replace part of Middle Eastern supply; it previously sourced about 70% of crude from the Middle East and operates a 237,000 bpd refinery.",
+      "url_identity_status": "VERIFIED_EXACT_DOCUMENT",
+      "url_verified_date": "2026-09-10",
+      "source_identity_receipt": {
+        "verification_method": "OPENED_EXACT_DOCUMENT",
+        "observed_url": "https://www.reuters.com/business/energy/aster-buys-crude-americas-africa-replace-middle-east-supply-2026-09-10/",
+        "canonical_url": "https://www.reuters.com/business/energy/aster-buys-crude-americas-africa-replace-middle-east-supply-2026-09-10/",
+        "observed_title": "Aster buys crude from Americas, Africa to replace Middle East supply",
+        "observed_publisher": "Reuters",
+        "title_match_status": "EXACT",
+        "verified_at": "2026-09-10T10:17:00+08:00"
+      },
+      "boundary": "Aster is one refinery; the article does not disclose replacement volume, duration, price differential or incremental freight."
+    }
+  ],
+  "source_identity_summary": {
+    "verified_external_source_count": 5,
+    "unique_verified_external_urls": 5,
+    "unverified_external_source_count": 0,
+    "guessed_url_count": 0
+  },
+  "unsupported_core_claims": 0,
+  "privacy_status": "PASS_PUBLIC_SAFE_SINGLE_SITE",
+  "data_gaps": [
+    "No accepted same-window JKM/TTF/CP-FEI/VLGC/LNGC complete price/freight series.",
+    "No verified commodity-specific Hormuz loss ratio for LNG or LPG.",
+    "No same-window market-wide war-risk insurance average transaction quote.",
+    "No disclosed Aster replacement purchase volume, duration or incremental freight."
+  ]
+}
