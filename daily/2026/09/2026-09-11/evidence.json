@@ -1,0 +1,93 @@
+{
+  "schema_version": "REPORTOPS_PUBLIC_EVIDENCE_V1_2",
+  "target_date": "2026-09-11",
+  "window_start": "2026-09-10T10:00:00+08:00",
+  "window_end": "2026-09-11T10:00:00+08:00",
+  "mode": "STRICT_NEW_PUBLIC",
+  "records": [
+    {
+      "id": "E01",
+      "claim_class": "CORE",
+      "support": "DIRECT",
+      "url": "https://www.reuters.com/world/middle-east/hormuz-shipping-traffic-single-digits-data-shows-2026-09-10/",
+      "title": "Hormuz shipping traffic in single digits, data shows",
+      "publisher": "Reuters",
+      "publication_time": "2026-09-10T03:57:01Z",
+      "data_period": "2026-09-10 report snapshot",
+      "claim": "Reuters reported preliminary tracking showing seven Hormuz transits on Sep 9, no LNG tanker exit, while Saudi Yanbu crude/condensate loadings rebounded in September.",
+      "url_identity_status": "VERIFIED_EXACT_DOCUMENT",
+      "url_verified_date": "2026-09-11",
+      "source_identity_receipt": {"verification_method":"SEARCH_RESULT_OBSERVED","observed_url":"https://www.reuters.com/world/middle-east/hormuz-shipping-traffic-single-digits-data-shows-2026-09-10/","canonical_url":"https://www.reuters.com/world/middle-east/hormuz-shipping-traffic-single-digits-data-shows-2026-09-10/","observed_title":"Hormuz shipping traffic in single digits, data shows","observed_publisher":"Reuters","title_match_status":"EXACT","verified_at":"2026-09-11T10:14:00+08:00"},
+      "boundary": "Single-day AIS-based vessel counts can miss dark crossings; Yanbu tracker estimates differ and cannot be applied to LNG/LPG."
+    },
+    {
+      "id": "E02",
+      "claim_class": "CORE",
+      "support": "DIRECT",
+      "url": "https://www.reuters.com/business/energy/china-independent-refiners-scramble-oil-underpinning-spot-premiums-2026-09-10/",
+      "title": "China independent refiners scramble for oil, underpinning spot premiums",
+      "publisher": "Reuters",
+      "publication_time": "2026-09-10T10:10:51Z",
+      "data_period": "2026-09-10 report snapshot",
+      "claim": "Chinese independent refiners bought more than 20 million barrels of replacement crude from West Africa, Canada and South America as Iranian and Russian availability thinned, supporting spot premiums.",
+      "url_identity_status": "VERIFIED_EXACT_DOCUMENT",
+      "url_verified_date": "2026-09-11",
+      "source_identity_receipt": {"verification_method":"SEARCH_RESULT_OBSERVED","observed_url":"https://www.reuters.com/business/energy/china-independent-refiners-scramble-oil-underpinning-spot-premiums-2026-09-10/","canonical_url":"https://www.reuters.com/business/energy/china-independent-refiners-scramble-oil-underpinning-spot-premiums-2026-09-10/","observed_title":"China independent refiners scramble for oil, underpinning spot premiums","observed_publisher":"Reuters","title_match_status":"EXACT","verified_at":"2026-09-11T10:14:00+08:00"},
+      "boundary": "Purchase volume is trader-estimated rather than official customs data; individual grade premiums do not represent the full market."
+    },
+    {
+      "id": "E03",
+      "claim_class": "CORE",
+      "support": "DIRECT",
+      "url": "https://www.reuters.com/business/energy/iran-suspends-freight-charge-foreign-vessels-carrying-energy-products-or-iran-2026-09-10/",
+      "title": "Iran suspends freight charge on foreign vessels carrying energy products to or from Iran",
+      "publisher": "Reuters",
+      "publication_time": "2026-09-10T11:13:34Z",
+      "data_period": "2026-09-10 report snapshot",
+      "claim": "Iran temporarily suspended a 10% freight fee on foreign vessels carrying imported/exported oil, gas and liquid petroleum products, aiming to lower transport cost and attract foreign fleets.",
+      "url_identity_status": "VERIFIED_EXACT_DOCUMENT",
+      "url_verified_date": "2026-09-11",
+      "source_identity_receipt": {"verification_method":"SEARCH_RESULT_OBSERVED","observed_url":"https://www.reuters.com/business/energy/iran-suspends-freight-charge-foreign-vessels-carrying-energy-products-or-iran-2026-09-10/","canonical_url":"https://www.reuters.com/business/energy/iran-suspends-freight-charge-foreign-vessels-carrying-energy-products-or-iran-2026-09-10/","observed_title":"Iran suspends freight charge on foreign vessels carrying energy products to or from Iran","observed_publisher":"Reuters","title_match_status":"EXACT","verified_at":"2026-09-11T10:14:00+08:00"},
+      "boundary": "Final taxable product scope and actual post-suspension vessel/export response were not disclosed."
+    },
+    {
+      "id": "E04",
+      "claim_class": "CORE",
+      "support": "DIRECT",
+      "url": "https://www.reuters.com/business/energy/opec-further-lowers-2026-global-oil-demand-growth-forecast-2026-09-10/",
+      "title": "OPEC further lowers 2026 global oil demand growth forecast",
+      "publisher": "Reuters",
+      "publication_time": "2026-09-10T12:04:11Z",
+      "data_period": "2026-09-10 report snapshot",
+      "claim": "OPEC lowered its 2026 global oil demand growth forecast to 380,000 bpd, its fifth consecutive downgrade, while raising its 2027 growth forecast.",
+      "url_identity_status": "VERIFIED_EXACT_DOCUMENT",
+      "url_verified_date": "2026-09-11",
+      "source_identity_receipt": {"verification_method":"SEARCH_RESULT_OBSERVED","observed_url":"https://www.reuters.com/business/energy/opec-further-lowers-2026-global-oil-demand-growth-forecast-2026-09-10/","canonical_url":"https://www.reuters.com/business/energy/opec-further-lowers-2026-global-oil-demand-growth-forecast-2026-09-10/","observed_title":"OPEC further lowers 2026 global oil demand growth forecast","observed_publisher":"Reuters","title_match_status":"EXACT","verified_at":"2026-09-11T10:14:00+08:00"},
+      "boundary": "This is an OPEC forecast, not realized demand; other agencies differ materially."
+    },
+    {
+      "id": "E05",
+      "claim_class": "MATERIAL",
+      "support": "DIRECT",
+      "url": "https://www.reuters.com/business/energy/global-clean-hydrogen-investment-tops-130-billion-amid-energy-security-push-2026-09-10/",
+      "title": "Global clean hydrogen investment tops $130 billion amid energy security push, council says",
+      "publisher": "Reuters",
+      "publication_time": "2026-09-10T06:06:59Z",
+      "data_period": "2026-09-10 report snapshot",
+      "claim": "Hydrogen Council said committed clean hydrogen investment exceeded $130 billion across more than 570 projects supporting about 6.9 mtpa, while high costs and weak demand still caused cancellations.",
+      "url_identity_status": "VERIFIED_EXACT_DOCUMENT",
+      "url_verified_date": "2026-09-11",
+      "source_identity_receipt": {"verification_method":"SEARCH_RESULT_OBSERVED","observed_url":"https://www.reuters.com/business/energy/global-clean-hydrogen-investment-tops-130-billion-amid-energy-security-push-2026-09-10/","canonical_url":"https://www.reuters.com/business/energy/global-clean-hydrogen-investment-tops-130-billion-amid-energy-security-push-2026-09-10/","observed_title":"Global clean hydrogen investment tops $130 billion amid energy security push, council says","observed_publisher":"Reuters","title_match_status":"EXACT","verified_at":"2026-09-11T10:14:00+08:00"},
+      "boundary": "Committed investment is not identical to realized capex or profitability; capacity is not current output."
+    }
+  ],
+  "source_identity_summary": {"verified_external_source_count":5,"unique_verified_external_urls":5,"unverified_external_source_count":0,"guessed_url_count":0},
+  "unsupported_core_claims": 0,
+  "privacy_status": "PASS_PUBLIC_SAFE_SINGLE_SITE",
+  "data_gaps": [
+    "No accepted same-window complete JKM/TTF/CP-FEI/VLGC/LNGC price/freight series.",
+    "No verified LNG/LPG-specific sustained Hormuz transit-loss ratio.",
+    "No complete China independent-refinery purchase ledger.",
+    "No project-level clean-hydrogen IRR/offtake coverage dataset."
+  ]
+}
