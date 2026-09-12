@@ -1,13 +1,13 @@
 {
   "schema_version": "REPORTOPS_R3_1_CHAT_STATUS_V1_5_SINGLE_SITE",
-  "scheduled_date": "2026-09-11",
-  "target_date": "2026-09-11",
-  "current_day_status": "FORMAL_CANONICAL_PUBLISHED",
+  "scheduled_date": "2026-09-12",
+  "target_date": "2026-09-12",
+  "current_day_status": "PUBLIC_CORE_ACCEPTED",
   "scheduled_run_status": "PASS",
   "scheduled_run_pass_claimed": true,
   "manual_recovery": false,
   "correction_backlog": {
-    "status": "NONE_CURRENT_PUBLIC_FORMAL_THROUGH_2026_09_10",
+    "status": "NONE_CURRENT_PUBLIC_FORMAL_THROUGH_2026_09_11",
     "chat_correction_required": false,
     "research_repeated": false,
     "evidence_changed": false,
@@ -28,22 +28,26 @@
   "unsupported_core_claims": 0,
   "failed_checks": [],
   "recovered_dates": [],
-  "latest_contiguous_public_core_date": "2026-09-11",
+  "latest_contiguous_public_core_date": "2026-09-12",
   "current_daily_public": "2026-09-11",
-  "formal_status": "PROMOTED_CANONICAL_AND_PUBLISHED",
-  "canonical_promotion_performed": true,
-  "site_publication_performed": true,
+  "formal_status": "PENDING_WORK_RECONCILIATION",
+  "canonical_promotion_performed": false,
+  "site_publication_performed": false,
   "higher_cycle_authored": false,
   "failure_stage": null,
   "failure_reason": null,
-  "next_action": "Scan only newer Chat-final accepted products; idempotently skip completed versions.",
-  "updated_at": "2026-09-11T12:49:45+08:00",
+  "next_action": "Work reconcile 2026-09-12; promote Canonical/Site only if Work gates pass.",
+  "updated_at": "2026-09-12T10:17:45+08:00",
   "work_public_reresearch_performed": false,
-  "eligible_unpublished_products": [],
-  "queue_remaining": [],
+  "eligible_unpublished_products": [
+    "2026-09-12"
+  ],
+  "queue_remaining": [
+    "2026-09-12"
+  ],
   "metadata_freshness": "PASS",
   "current_weekly_public": "2026-W36",
   "public_site_version": 54,
   "authority_package_sha256": "16ed33e5c83a81e30f394942957d8187e596f63e815a7594bdd0044a0f354c6d",
-  "work_reconciliation_status": "PASS_2026_09_11"
+  "work_reconciliation_status": "PENDING_2026_09_12"
 }
