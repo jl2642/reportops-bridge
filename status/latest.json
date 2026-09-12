@@ -7,8 +7,8 @@
   "scheduled_run_pass_claimed": true,
   "manual_recovery": false,
   "correction_backlog": {
-    "status": "NONE_CURRENT_PUBLIC_FORMAL_THROUGH_2026_09_11",
-    "chat_correction_required": false,
+    "status": "DAILY_2026_09_12_RECEIPT_COMPATIBILITY_CORRECTION_REQUIRED",
+    "chat_correction_required": true,
     "research_repeated": false,
     "evidence_changed": false,
     "claim_semantics_changed": false
@@ -30,14 +30,14 @@
   "recovered_dates": [],
   "latest_contiguous_public_core_date": "2026-09-12",
   "current_daily_public": "2026-09-11",
-  "formal_status": "PENDING_WORK_RECONCILIATION",
+  "formal_status": "PENDING_WORK_RECONCILIATION_FAIL_CLOSED",
   "canonical_promotion_performed": false,
-  "site_publication_performed": false,
+  "site_publication_performed": true,
   "higher_cycle_authored": false,
-  "failure_stage": null,
-  "failure_reason": null,
-  "next_action": "Work reconcile 2026-09-12; promote Canonical/Site only if Work gates pass.",
-  "updated_at": "2026-09-12T10:17:45+08:00",
+  "failure_stage": "DAILY_2026_09_12_SOURCE_IDENTITY_GATE",
+  "failure_reason": "Accepted receipts use verification_method DIRECT_REUTERS_OPEN, which is not recognized by the current Authority Source Identity V2 validator.",
+  "next_action": "Chat should provide an accepted receipt compatibility correction without new research or claim/evidence changes; next Work run revalidates 2026-09-12.",
+  "updated_at": "2026-09-12T12:50:18+08:00",
   "work_public_reresearch_performed": false,
   "eligible_unpublished_products": [
     "2026-09-12"
@@ -47,7 +47,9 @@
   ],
   "metadata_freshness": "PASS",
   "current_weekly_public": "2026-W36",
-  "public_site_version": 54,
-  "authority_package_sha256": "16ed33e5c83a81e30f394942957d8187e596f63e815a7594bdd0044a0f354c6d",
-  "work_reconciliation_status": "PENDING_2026_09_12"
+  "public_site_version": 55,
+  "authority_package_sha256": "cf57bd762562b4ed80f9ef48bbe67369fd98c4ab7288db599493addf0a27fe29",
+  "work_reconciliation_status": "FAIL_CLOSED_SOURCE_IDENTITY_RECEIPT_METHOD_ENUM",
+  "work_source_identity_gate_status": "FAIL_SOURCE_ACQUISITION_RECEIPT_INCOMPLETE",
+  "real_remote_readback_status": "PASS_REAL_REMOTE_CONTENT_V55"
 }
