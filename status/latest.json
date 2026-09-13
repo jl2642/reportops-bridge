@@ -1,17 +1,18 @@
 {
   "schema_version": "REPORTOPS_R3_1_CHAT_STATUS_V1_5_SINGLE_SITE",
-  "scheduled_date": "2026-09-12",
-  "target_date": "2026-09-12",
+  "scheduled_date": "2026-09-13",
+  "target_date": "2026-09-13",
   "current_day_status": "PUBLIC_CORE_ACCEPTED",
   "scheduled_run_status": "PASS",
   "scheduled_run_pass_claimed": true,
   "manual_recovery": false,
   "correction_backlog": {
-    "status": "DAILY_2026_09_12_RECEIPT_COMPATIBILITY_CORRECTION_REQUIRED",
-    "chat_correction_required": true,
+    "status": "2026-09-12_RECEIPT_COMPATIBILITY_CORRECTED_PENDING_WORK_REVALIDATION",
+    "chat_correction_required": false,
     "research_repeated": false,
     "evidence_changed": false,
-    "claim_semantics_changed": false
+    "claim_semantics_changed": false,
+    "receipt_method_enum_corrected": true
   },
   "source_identity_gate_status": "PASS_V2",
   "inline_citation_gate_status": "PASS_V2_SOURCE_LEVEL",
@@ -27,29 +28,18 @@
   "private_layer_required": false,
   "unsupported_core_claims": 0,
   "failed_checks": [],
-  "recovered_dates": [],
-  "latest_contiguous_public_core_date": "2026-09-12",
+  "recovered_dates": ["2026-09-12_RECEIPT_COMPATIBILITY_CORRECTION"],
+  "latest_contiguous_public_core_date": "2026-09-13",
   "current_daily_public": "2026-09-11",
-  "formal_status": "PENDING_WORK_RECONCILIATION_FAIL_CLOSED",
+  "formal_status": "PENDING_WORK_RECONCILIATION_2026_09_12_THEN_2026_09_13",
   "canonical_promotion_performed": false,
-  "site_publication_performed": true,
+  "site_publication_performed": false,
   "higher_cycle_authored": false,
-  "failure_stage": "DAILY_2026_09_12_SOURCE_IDENTITY_GATE",
-  "failure_reason": "Accepted receipts use verification_method DIRECT_REUTERS_OPEN, which is not recognized by the current Authority Source Identity V2 validator.",
-  "next_action": "Chat should provide an accepted receipt compatibility correction without new research or claim/evidence changes; next Work run revalidates 2026-09-12.",
-  "updated_at": "2026-09-12T12:50:18+08:00",
+  "failure_stage": null,
+  "failure_reason": null,
+  "next_action": "Work revalidates corrected 2026-09-12 source-identity receipts, then reconciles 2026-09-13 oldest-first.",
+  "updated_at": "2026-09-13T10:17:00+08:00",
   "work_public_reresearch_performed": false,
-  "eligible_unpublished_products": [
-    "2026-09-12"
-  ],
-  "queue_remaining": [
-    "2026-09-12"
-  ],
-  "metadata_freshness": "PASS",
-  "current_weekly_public": "2026-W36",
-  "public_site_version": 55,
-  "authority_package_sha256": "cf57bd762562b4ed80f9ef48bbe67369fd98c4ab7288db599493addf0a27fe29",
-  "work_reconciliation_status": "FAIL_CLOSED_SOURCE_IDENTITY_RECEIPT_METHOD_ENUM",
-  "work_source_identity_gate_status": "FAIL_SOURCE_ACQUISITION_RECEIPT_INCOMPLETE",
-  "real_remote_readback_status": "PASS_REAL_REMOTE_CONTENT_V55"
+  "eligible_unpublished_products": ["2026-09-12", "2026-09-13"],
+  "queue_remaining": ["2026-09-12", "2026-09-13"]
 }
