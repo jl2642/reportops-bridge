@@ -1,0 +1,115 @@
+{
+  "schema_version": "REPORTOPS_PUBLIC_EVIDENCE_V1_2",
+  "target_date": "2026-09-13",
+  "window_start": "2026-09-12T10:00:00+08:00",
+  "window_end": "2026-09-13T10:00:00+08:00",
+  "mode": "STRICT_NEW_PUBLIC",
+  "records": [
+    {
+      "id": "E01",
+      "claim_class": "CORE",
+      "support": "DIRECT",
+      "url": "https://www.reuters.com/business/energy/trump-says-iran-probably-responsible-attack-saudi-pipeline-2026-09-12/",
+      "title": "Trump says Iran probably responsible for attack on Saudi pipeline",
+      "publisher": "Reuters",
+      "publication_time": "2026-09-12T10:18:00Z",
+      "data_period": "2026-09-12 report snapshot",
+      "claim": "The Saudi East-West pipeline, a main crude-export route bypassing Hormuz, remained shut after an aerial attack; Trump said Iran was probably responsible.",
+      "url_identity_status": "VERIFIED_EXACT_DOCUMENT",
+      "url_verified_date": "2026-09-13",
+      "source_identity_receipt": {
+        "verification_method": "OPENED_EXACT_DOCUMENT",
+        "observed_url": "https://www.reuters.com/business/energy/trump-says-iran-probably-responsible-attack-saudi-pipeline-2026-09-12/",
+        "canonical_url": "https://www.reuters.com/business/energy/trump-says-iran-probably-responsible-attack-saudi-pipeline-2026-09-12/",
+        "observed_title": "Trump says Iran probably responsible for attack on Saudi pipeline",
+        "observed_publisher": "Reuters",
+        "title_match_status": "EXACT",
+        "verified_at": "2026-09-13T10:17:00+08:00"
+      },
+      "boundary": "Attribution is a U.S. presidential assessment, not independently proven responsibility; the report does not establish duration or quantified export loss."
+    },
+    {
+      "id": "E02",
+      "claim_class": "CORE",
+      "support": "DIRECT",
+      "url": "https://www.reuters.com/world/middle-east/no-signed-hormuz-deal-expected-yet-oman-meeting-monday-iranian-official-says-2026-09-12/",
+      "title": "No signed Hormuz deal expected yet from Oman meeting on Monday, Iranian official says",
+      "publisher": "Reuters",
+      "publication_time": "2026-09-12T13:44:00Z",
+      "data_period": "2026-09-12 diplomatic snapshot",
+      "claim": "A senior Iranian official said Monday's Oman meeting was not expected to yield a signed Hormuz agreement; Iran still sought a framework allowing it to collect fees from ships using the strait.",
+      "url_identity_status": "VERIFIED_EXACT_DOCUMENT",
+      "url_verified_date": "2026-09-13",
+      "source_identity_receipt": {
+        "verification_method": "OPENED_EXACT_DOCUMENT",
+        "observed_url": "https://www.reuters.com/world/middle-east/no-signed-hormuz-deal-expected-yet-oman-meeting-monday-iranian-official-says-2026-09-12/",
+        "canonical_url": "https://www.reuters.com/world/middle-east/no-signed-hormuz-deal-expected-yet-oman-meeting-monday-iranian-official-says-2026-09-12/",
+        "observed_title": "No signed Hormuz deal expected yet from Oman meeting on Monday, Iranian official says",
+        "observed_publisher": "Reuters",
+        "title_match_status": "EXACT",
+        "verified_at": "2026-09-13T10:17:00+08:00"
+      },
+      "boundary": "This is a pre-meeting expectation from an unnamed senior Iranian official; final meeting outcomes may differ."
+    },
+    {
+      "id": "E03",
+      "claim_class": "CORE",
+      "support": "DIRECT",
+      "url": "https://www.reuters.com/world/middle-east/houthi-advance-yemen-puts-us-new-bind-2026-09-12/",
+      "title": "Houthi advance in Yemen puts U.S. in a new bind",
+      "publisher": "Reuters",
+      "publication_time": "2026-09-12T13:15:00Z",
+      "data_period": "2026-09-12 Yemen/Red Sea snapshot",
+      "claim": "Houthi forces reached Perim island in the Bab el-Mandeb Strait, raising the risk that a second major regional energy and trade chokepoint could be constrained while Hormuz remains disrupted.",
+      "url_identity_status": "VERIFIED_EXACT_DOCUMENT",
+      "url_verified_date": "2026-09-13",
+      "source_identity_receipt": {
+        "verification_method": "OPENED_EXACT_DOCUMENT",
+        "observed_url": "https://www.reuters.com/world/middle-east/houthi-advance-yemen-puts-us-new-bind-2026-09-12/",
+        "canonical_url": "https://www.reuters.com/world/middle-east/houthi-advance-yemen-puts-us-new-bind-2026-09-12/",
+        "observed_title": "Houthi advance in Yemen puts U.S. in a new bind",
+        "observed_publisher": "Reuters",
+        "title_match_status": "EXACT",
+        "verified_at": "2026-09-13T10:17:00+08:00"
+      },
+      "boundary": "Reaching Perim does not itself prove commercial closure of Bab el-Mandeb; actual vessel flows and shipowner decisions require separate verification."
+    },
+    {
+      "id": "E04",
+      "claim_class": "CORE",
+      "support": "DIRECT",
+      "url": "https://www.reuters.com/world/middle-east/iran-oman-understanding-does-not-provide-immediate-reopening-strait-hormuz-2026-09-12/",
+      "title": "Iran-Oman understanding does not provide for immediate reopening of Strait of Hormuz, Tasnim reports",
+      "publisher": "Reuters",
+      "publication_time": "2026-09-12T16:45:00Z",
+      "data_period": "2026-09-12 diplomatic snapshot",
+      "claim": "An Iranian source said the Iran-Oman understanding did not provide for immediate reopening of Hormuz and that reopening depended on U.S. acceptance of Tehran's conditions.",
+      "url_identity_status": "VERIFIED_EXACT_DOCUMENT",
+      "url_verified_date": "2026-09-13",
+      "source_identity_receipt": {
+        "verification_method": "OPENED_EXACT_DOCUMENT",
+        "observed_url": "https://www.reuters.com/world/middle-east/iran-oman-understanding-does-not-provide-immediate-reopening-strait-hormuz-2026-09-12/",
+        "canonical_url": "https://www.reuters.com/world/middle-east/iran-oman-understanding-does-not-provide-immediate-reopening-strait-hormuz-2026-09-12/",
+        "observed_title": "Iran-Oman understanding does not provide for immediate reopening of Strait of Hormuz, Tasnim reports",
+        "observed_publisher": "Reuters",
+        "title_match_status": "EXACT",
+        "verified_at": "2026-09-13T10:17:00+08:00"
+      },
+      "boundary": "This is Reuters reporting of an Iranian source cited by semi-official Tasnim; it is not a published bilateral legal text."
+    }
+  ],
+  "source_identity_summary": {
+    "verified_external_source_count": 4,
+    "unique_verified_external_urls": 4,
+    "unverified_external_source_count": 0,
+    "guessed_url_count": 0
+  },
+  "unsupported_core_claims": 0,
+  "privacy_status": "PASS_PUBLIC_SAFE_SINGLE_SITE",
+  "data_gaps": [
+    "No accepted same-window complete JKM/TTF/CP-FEI/VLGC/LNGC or major crude benchmark series.",
+    "No verified same-window war-risk surcharge series by LNGC/VLGC class.",
+    "No confirmed Saudi East-West pipeline restart time or quantified export loss in the accepted window.",
+    "No verified same-window consolidated commercial-vessel flow series for Bab el-Mandeb."
+  ]
+}
