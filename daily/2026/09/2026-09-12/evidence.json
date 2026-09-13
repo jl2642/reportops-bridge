@@ -18,7 +18,7 @@
       "url_identity_status": "VERIFIED_EXACT_DOCUMENT",
       "url_verified_date": "2026-09-12",
       "source_identity_receipt": {
-        "verification_method": "DIRECT_REUTERS_OPEN",
+        "verification_method": "OPENED_EXACT_DOCUMENT",
         "observed_url": "https://www.reuters.com/business/energy/qatarenergy-seeks-us-lng-deals-through-2031-sources-say-2026-09-11/",
         "canonical_url": "https://www.reuters.com/business/energy/qatarenergy-seeks-us-lng-deals-through-2031-sources-say-2026-09-11/",
         "observed_title": "QatarEnergy seeks US LNG deals through to 2031, sources say",
@@ -41,7 +41,7 @@
       "url_identity_status": "VERIFIED_EXACT_DOCUMENT",
       "url_verified_date": "2026-09-12",
       "source_identity_receipt": {
-        "verification_method": "DIRECT_REUTERS_OPEN",
+        "verification_method": "OPENED_EXACT_DOCUMENT",
         "observed_url": "https://www.reuters.com/business/energy/global-2026-oil-supply-gap-deepen-delayed-return-normal-gulf-flows-iea-says-2026-09-11/",
         "canonical_url": "https://www.reuters.com/business/energy/global-2026-oil-supply-gap-deepen-delayed-return-normal-gulf-flows-iea-says-2026-09-11/",
         "observed_title": "IEA warns 2026 oil supply gap will widen on delayed return of normal Gulf flows",
@@ -64,7 +64,7 @@
       "url_identity_status": "VERIFIED_EXACT_DOCUMENT",
       "url_verified_date": "2026-09-12",
       "source_identity_receipt": {
-        "verification_method": "DIRECT_REUTERS_OPEN",
+        "verification_method": "OPENED_EXACT_DOCUMENT",
         "observed_url": "https://www.reuters.com/business/energy/oil-tanker-rates-hit-record-highs-following-iran-us-shipping-attacks-2026-09-11/",
         "canonical_url": "https://www.reuters.com/business/energy/oil-tanker-rates-hit-record-highs-following-iran-us-shipping-attacks-2026-09-11/",
         "observed_title": "Oil tanker rates hit record highs following Iran, US shipping attacks",
@@ -87,7 +87,7 @@
       "url_identity_status": "VERIFIED_EXACT_DOCUMENT",
       "url_verified_date": "2026-09-12",
       "source_identity_receipt": {
-        "verification_method": "DIRECT_REUTERS_OPEN",
+        "verification_method": "OPENED_EXACT_DOCUMENT",
         "observed_url": "https://www.reuters.com/business/energy/how-chinas-oil-majors-helped-beijing-prepare-an-energy-crisis-2026-09-11/",
         "canonical_url": "https://www.reuters.com/business/energy/how-chinas-oil-majors-helped-beijing-prepare-an-energy-crisis-2026-09-11/",
         "observed_title": "How China's oil majors helped Beijing prepare for an energy crisis",
