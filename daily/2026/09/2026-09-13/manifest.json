@@ -10,12 +10,14 @@
   "evidence_policy_version": "V1_2",
   "production_status": "PUBLIC_CORE_ACCEPTED",
   "correction_backlog": {
-    "status": "2026-09-12_RECEIPT_COMPATIBILITY_CORRECTED_PENDING_WORK_REVALIDATION",
+    "status": "STRUCTURE_AND_PUBLIC_SAFE_WORDING_COMPATIBILITY_CORRECTED_PENDING_WORK_REVALIDATION",
     "chat_correction_required": false,
     "research_repeated_for_correction": false,
     "claim_semantics_changed_for_correction": false,
     "evidence_changed_for_correction": false,
-    "receipt_method_enum_corrected": true
+    "v4_module_structure_corrected": true,
+    "signal_card_machine_syntax_corrected": true,
+    "public_safe_wording_corrected": true
   },
   "source_identity_gate_status": "PASS_V2",
   "verified_external_source_count": 4,
@@ -34,6 +36,7 @@
     "HORMUZ_DIPLOMATIC_NORMALIZATION_NOT_YET_ACTIONABLE"
   ],
   "v4_public_depth_gate_status": "PASS",
+  "v4_structure_compatibility_status": "CHAT_CORRECTED_PENDING_WORK_AUTHORITY_REVALIDATION",
   "v4_measurements": {
     "signal_card_count": 3,
     "body_cjk": 2592,
@@ -73,6 +76,8 @@
   "library_status": "NOT_MODIFIED_BY_CHAT",
   "site_status": "NOT_MODIFIED_BY_CHAT",
   "higher_cycle_authored": false,
-  "recovered_dates": ["2026-09-12_RECEIPT_COMPATIBILITY_CORRECTION"],
+  "recovered_dates": [
+    "2026-09-12_RECEIPT_COMPATIBILITY_CORRECTION"
+  ],
   "failed_checks": []
 }
