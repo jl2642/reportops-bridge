@@ -67,7 +67,7 @@
   "public_core_path": "daily/2026/09/2026-09-14/public_core.md",
   "evidence_path": "daily/2026/09/2026-09-14/evidence.json",
   "github_write_status": "PASS_PUBLIC_CORE_EVIDENCE_MANIFEST",
-  "github_readback_status": "PENDING_PRE_WRITE",
+  "github_readback_status": "PASS_PUBLIC_CORE_EVIDENCE_MANIFEST",
   "single_site_product_complete": true,
   "private_layer_required": false,
   "formal_canonical_status": "PENDING_WORK_RECONCILIATION",
