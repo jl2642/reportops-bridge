@@ -10,11 +10,14 @@
   "evidence_policy_version": "V1_2",
   "production_status": "PUBLIC_CORE_ACCEPTED",
   "correction_backlog": {
-    "status": "2026-09-12_RECEIPT_COMPATIBILITY_CORRECTED_PENDING_WORK_REVALIDATION__2026-09-13_PENDING_WORK",
+    "status": "STRUCTURE_AND_PUBLIC_SAFE_WORDING_COMPATIBILITY_CORRECTED_PENDING_WORK_REVALIDATION",
     "chat_correction_required": false,
     "research_repeated_for_correction": false,
     "claim_semantics_changed_for_correction": false,
-    "evidence_changed_for_correction": false
+    "evidence_changed_for_correction": false,
+    "v4_module_structure_corrected": true,
+    "signal_card_machine_syntax_corrected": true,
+    "public_safe_wording_corrected": true
   },
   "source_identity_gate_status": "PASS_V2",
   "verified_external_source_count": 4,
@@ -34,6 +37,7 @@
     "CHINA_YTTRIUM_CRITICAL_MATERIAL_SUPPLY_LEVERAGE"
   ],
   "v4_public_depth_gate_status": "PASS",
+  "v4_structure_compatibility_status": "CHAT_CORRECTED_PENDING_WORK_AUTHORITY_REVALIDATION",
   "v4_measurements": {
     "signal_card_count": 4,
     "body_cjk": 3179,
@@ -75,7 +79,8 @@
   "site_status": "NOT_MODIFIED_BY_CHAT",
   "higher_cycle_authored": false,
   "recovered_dates": [
-    "2026-09-12_RECEIPT_COMPATIBILITY_CORRECTION"
+    "2026-09-12_RECEIPT_COMPATIBILITY_CORRECTION",
+    "2026-09-12_TO_14_STRUCTURE_COMPATIBILITY_CORRECTION"
   ],
   "failed_checks": []
 }
