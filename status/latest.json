@@ -1,18 +1,17 @@
 {
   "schema_version": "REPORTOPS_R3_1_CHAT_STATUS_V1_5_SINGLE_SITE",
-  "scheduled_date": "2026-09-13",
-  "target_date": "2026-09-13",
+  "scheduled_date": "2026-09-14",
+  "target_date": "2026-09-14",
   "current_day_status": "PUBLIC_CORE_ACCEPTED",
   "scheduled_run_status": "PASS",
   "scheduled_run_pass_claimed": true,
   "manual_recovery": false,
   "correction_backlog": {
-    "status": "2026-09-12_RECEIPT_COMPATIBILITY_CORRECTED_PENDING_WORK_REVALIDATION",
+    "status": "2026-09-12_RECEIPT_COMPATIBILITY_CORRECTED_PENDING_WORK_REVALIDATION__2026-09-13_PENDING_WORK",
     "chat_correction_required": false,
     "research_repeated": false,
     "evidence_changed": false,
-    "claim_semantics_changed": false,
-    "receipt_method_enum_corrected": true
+    "claim_semantics_changed": false
   },
   "source_identity_gate_status": "PASS_V2",
   "inline_citation_gate_status": "PASS_V2_SOURCE_LEVEL",
@@ -28,18 +27,28 @@
   "private_layer_required": false,
   "unsupported_core_claims": 0,
   "failed_checks": [],
-  "recovered_dates": ["2026-09-12_RECEIPT_COMPATIBILITY_CORRECTION"],
-  "latest_contiguous_public_core_date": "2026-09-13",
+  "recovered_dates": [
+    "2026-09-12_RECEIPT_COMPATIBILITY_CORRECTION"
+  ],
+  "latest_contiguous_public_core_date": "2026-09-14",
   "current_daily_public": "2026-09-11",
-  "formal_status": "PENDING_WORK_RECONCILIATION_2026_09_12_THEN_2026_09_13",
+  "formal_status": "PENDING_WORK_RECONCILIATION_2026_09_12_THEN_2026_09_13_THEN_2026_09_14",
   "canonical_promotion_performed": false,
   "site_publication_performed": false,
   "higher_cycle_authored": false,
   "failure_stage": null,
   "failure_reason": null,
-  "next_action": "Work revalidates corrected 2026-09-12 source-identity receipts, then reconciles 2026-09-13 oldest-first.",
-  "updated_at": "2026-09-13T10:17:00+08:00",
+  "next_action": "Work revalidates corrected 2026-09-12 source-identity receipts, then reconciles 2026-09-13 and 2026-09-14 oldest-first.",
+  "updated_at": "2026-09-14T10:13:47+08:00",
   "work_public_reresearch_performed": false,
-  "eligible_unpublished_products": ["2026-09-12", "2026-09-13"],
-  "queue_remaining": ["2026-09-12", "2026-09-13"]
+  "eligible_unpublished_products": [
+    "2026-09-12",
+    "2026-09-13",
+    "2026-09-14"
+  ],
+  "queue_remaining": [
+    "2026-09-12",
+    "2026-09-13",
+    "2026-09-14"
+  ]
 }
