@@ -1,0 +1,116 @@
+{
+  "schema_version": "REPORTOPS_PUBLIC_EVIDENCE_V1_2",
+  "target_date": "2026-09-14",
+  "window_start": "2026-09-13T10:00:00+08:00",
+  "window_end": "2026-09-14T10:00:00+08:00",
+  "mode": "STRICT_NEW_PUBLIC",
+  "records": [
+    {
+      "id": "E01",
+      "claim_class": "CORE",
+      "support": "DIRECT",
+      "url": "https://www.reuters.com/business/energy/saudi-pipeline-outage-threatens-loss-4-global-oil-supply-2026-09-13/",
+      "title": "Saudi pipeline outage threatens loss of 4% of global oil supply",
+      "publisher": "Reuters",
+      "publication_time": "2026-09-13T12:04:00Z",
+      "data_period": "2026-09-13 report snapshot",
+      "claim": "Saudi Arabia's East-West pipeline remained offline after drone attacks; Reuters sources said Yanbu had roughly 5-7 days of stocks to maintain exports and up to 4% of global supply could be at risk if the pipeline did not restart.",
+      "url_identity_status": "VERIFIED_EXACT_DOCUMENT",
+      "url_verified_date": "2026-09-14",
+      "source_identity_receipt": {
+        "verification_method": "OPENED_EXACT_DOCUMENT",
+        "observed_url": "https://www.reuters.com/business/energy/saudi-pipeline-outage-threatens-loss-4-global-oil-supply-2026-09-13/",
+        "canonical_url": "https://www.reuters.com/business/energy/saudi-pipeline-outage-threatens-loss-4-global-oil-supply-2026-09-13/",
+        "observed_title": "Saudi pipeline outage threatens loss of 4% of global oil supply",
+        "observed_publisher": "Reuters",
+        "title_match_status": "EXACT",
+        "verified_at": "2026-09-14T10:13:47+08:00"
+      },
+      "boundary": "The 5-7 day inventory estimate and potential 4% global-supply impact are based on industry sources; Saudi authorities had not provided a repair duration or confirmed quantified export losses."
+    },
+    {
+      "id": "E02",
+      "claim_class": "CORE",
+      "support": "DIRECT",
+      "url": "https://www.reuters.com/business/energy/new-report-attack-strait-hormuz-shipping-fans-fears-threats-oil-supplies-2026-09-13/",
+      "title": "New attacks in Hormuz and Saudi test nerves as war's spread worsens oil disruption",
+      "publisher": "Reuters",
+      "publication_time": "2026-09-13T02:22:00Z",
+      "data_period": "2026-09-13 Gulf/Red Sea security snapshot",
+      "claim": "A vessel was hit while transiting Hormuz and the Houthis had captured Perim Island in Bab el-Mandeb, while Saudi Arabia's East-West pipeline was shut, increasing correlated risk across Gulf and Red Sea export routes.",
+      "url_identity_status": "VERIFIED_EXACT_DOCUMENT",
+      "url_verified_date": "2026-09-14",
+      "source_identity_receipt": {
+        "verification_method": "OPENED_EXACT_DOCUMENT",
+        "observed_url": "https://www.reuters.com/business/energy/new-report-attack-strait-hormuz-shipping-fans-fears-threats-oil-supplies-2026-09-13/",
+        "canonical_url": "https://www.reuters.com/business/energy/new-report-attack-strait-hormuz-shipping-fans-fears-threats-oil-supplies-2026-09-13/",
+        "observed_title": "New attacks in Hormuz and Saudi test nerves as war's spread worsens oil disruption",
+        "observed_publisher": "Reuters",
+        "title_match_status": "EXACT",
+        "verified_at": "2026-09-14T10:13:47+08:00"
+      },
+      "boundary": "Perim control and a single vessel attack do not by themselves prove a sustained commercial closure of Bab el-Mandeb or Hormuz; vessel flows and shipowner policies require separate verification."
+    },
+    {
+      "id": "E03",
+      "claim_class": "CORE",
+      "support": "DIRECT",
+      "url": "https://www.reuters.com/business/energy/trump-tells-ukraines-zelenskiy-stop-hitting-russian-diesel-2026-09-13/",
+      "title": "Trump tells Ukraine's Zelenskiy to stop hitting Russian diesel",
+      "publisher": "Reuters",
+      "publication_time": "2026-09-13T14:34:00Z",
+      "data_period": "2026-09-13 Russia/Ukraine refining and diesel snapshot",
+      "claim": "Trump called on Ukraine to stop targeting Russian diesel infrastructure; Reuters reported that repeated Ukrainian drone attacks had reduced Russian fuel production and that U.S. average diesel prices had recently exceeded $6/gallon.",
+      "url_identity_status": "VERIFIED_EXACT_DOCUMENT",
+      "url_verified_date": "2026-09-14",
+      "source_identity_receipt": {
+        "verification_method": "OPENED_EXACT_DOCUMENT",
+        "observed_url": "https://www.reuters.com/business/energy/trump-tells-ukraines-zelenskiy-stop-hitting-russian-diesel-2026-09-13/",
+        "canonical_url": "https://www.reuters.com/business/energy/trump-tells-ukraines-zelenskiy-stop-hitting-russian-diesel-2026-09-13/",
+        "observed_title": "Trump tells Ukraine's Zelenskiy to stop hitting Russian diesel",
+        "observed_publisher": "Reuters",
+        "title_match_status": "EXACT",
+        "verified_at": "2026-09-14T10:13:47+08:00"
+      },
+      "boundary": "The claim that Ukrainian strikes are causing the global diesel shortage is Trump's attribution; Reuters directly supports reduced Russian fuel production and the contemporaneous high U.S. diesel price, not a quantified global causal share."
+    },
+    {
+      "id": "E04",
+      "claim_class": "MATERIAL",
+      "support": "DIRECT",
+      "url": "https://www.reuters.com/commentary/reuters-open-interest/how-obscure-yttrium-became-global-flashpoint-2026-09-13/",
+      "title": "How obscure yttrium became a global flashpoint",
+      "publisher": "Reuters",
+      "publication_time": "2026-09-13T23:00:00Z",
+      "data_period": "2026-09-14 critical-minerals commentary snapshot",
+      "claim": "Reuters commentary described China's dominant yttrium supply position, highly intermittent exports to the U.S., near-absence of supply to Japan since late 2025, and resulting impacts on aerospace, energy and semiconductor supply chains.",
+      "url_identity_status": "VERIFIED_EXACT_DOCUMENT",
+      "url_verified_date": "2026-09-14",
+      "source_identity_receipt": {
+        "verification_method": "OPENED_EXACT_DOCUMENT",
+        "observed_url": "https://www.reuters.com/commentary/reuters-open-interest/how-obscure-yttrium-became-global-flashpoint-2026-09-13/",
+        "canonical_url": "https://www.reuters.com/commentary/reuters-open-interest/how-obscure-yttrium-became-global-flashpoint-2026-09-13/",
+        "observed_title": "How obscure yttrium became a global flashpoint",
+        "observed_publisher": "Reuters",
+        "title_match_status": "EXACT",
+        "verified_at": "2026-09-14T10:13:47+08:00"
+      },
+      "boundary": "This source is Reuters Open Interest commentary, not straight news. Its factual trade-flow observations are usable, while the author's geopolitical interpretation is treated as analysis rather than established fact."
+    }
+  ],
+  "source_identity_summary": {
+    "verified_external_source_count": 4,
+    "unique_verified_external_urls": 4,
+    "unverified_external_source_count": 0,
+    "guessed_url_count": 0
+  },
+  "unsupported_core_claims": 0,
+  "privacy_status": "PASS_PUBLIC_SAFE_SINGLE_SITE",
+  "data_gaps": [
+    "No accepted same-window complete JKM/TTF/CP-FEI/VLGC/LNGC, major crude benchmark, diesel crack-spread or war-risk surcharge series.",
+    "No official confirmed Saudi East-West pipeline restart time or same-window actual throughput.",
+    "No verified same-window consolidated commercial-vessel flow series for both Hormuz and Bab el-Mandeb.",
+    "No same-window quantified Russian refined-product export loss attributable to refinery strikes.",
+    "No complete official yttrium mine/separation production series or current China quota disclosure."
+  ]
+}
