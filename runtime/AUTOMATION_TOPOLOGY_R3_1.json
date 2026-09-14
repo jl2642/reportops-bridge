@@ -1,20 +1,20 @@
 {
-  "schema_version": "REPORTOPS_AUTOMATION_TOPOLOGY_R3_1_V2",
+  "schema_version": "REPORTOPS_AUTOMATION_TOPOLOGY_R3_1_V3",
   "document_class": "STATIC_ARCHITECTURE",
   "phase": "R3_1_TWO_TASK_DAILY_CONTINUITY_ARCHITECTURE",
-  "normative_status": "CURRENT",
+  "normative_status": "CURRENT_SINGLE_SITE",
   "timezone": "Asia/Shanghai",
   "scheduled_chat": {
     "time": "10:15",
     "role": "DAILY_CONTINUITY_CONTROLLER_AND_PUBLIC_CORE_PRODUCER",
     "priority_order": [
+      "PROCESS_CORRECTION_BACKLOG",
       "PERSIST_CURRENT_DAY_D_FIRST",
-      "SCAN_CONTINUITY_FROM_LAST_PUBLICLY_VERIFIED_DATE_TO_D",
-      "RECOVER_AT_MOST_TWO_OLDEST_HISTORICAL_GAPS"
+      "SCAN_CONTINUITY_FROM_LAST_PUBLICLY_VERIFIED_DATE_TO_D"
     ],
     "current_day_window": "[D-1 10:00,D 10:00) Asia/Shanghai",
-    "historical_recovery_limit_per_run": 2,
-    "historical_recovery_provenance": "DELAYED_RECOVERY",
+    "template_identity": "runtime/DAILY_TEMPLATE_PUBLIC.md",
+    "exact_machine_skeleton_required": true,
     "writes": [
       "daily/YYYY/MM/YYYY-MM-DD/public_core.md",
       "daily/YYYY/MM/YYYY-MM-DD/evidence.json",
@@ -27,7 +27,8 @@
   },
   "scheduled_work": {
     "time": "12:30",
-    "role": "UNIVERSAL_RECONCILER_CANONICAL_PROMOTER_AND_PUBLISHER",
+    "role": "UNIVERSAL_RECONCILER_CANONICAL_PROMOTER_AND_SINGLE_SITE_PUBLISHER",
+    "preflight_policy": "READ_ONLY_NON_SHORT_CIRCUIT_FULL_PENDING_QUEUE",
     "checks_product_types": [
       "DAILY",
       "WEEKLY",
@@ -52,20 +53,22 @@
       "QUARTERLY",
       "ANNUAL"
     ],
-    "promotion_policy": "ATOMIC_PER_PRODUCT",
+    "promotion_policy": "ATOMIC_PER_PRODUCT_AFTER_FULL_PREFLIGHT",
     "publication_policy": "BATCH_ONCE_AFTER_ALL_SUCCESSFUL_PROMOTIONS",
     "publication_order": [
-      "PRIVATE_SITE",
-      "PRIVATE_REMOTE_READBACK",
       "PUBLIC_SITE",
       "PUBLIC_REMOTE_READBACK",
       "DOWNLOAD_CENTER",
-      "REMOTE_DOWNLOAD_SHA_INTEGRITY"
-    ],
-    "public_current_pointer_update": "ONLY_AFTER_PUBLIC_DAILY_REMOTE_READBACK_PASS"
+      "REMOTE_DOWNLOAD_SHA_INTEGRITY",
+      "RUNTIME_AND_FRESHNESS_SYNC"
+    ]
   },
+  "live_site_mode": "SINGLE_SITE_V4_PUBLIC",
+  "sole_live_site": "https://energy-cycle-report-share.ljjx2020.chatgpt.site",
+  "private_site_status": "RETIRED_FROM_LIVE_OPERATION",
   "removed_execution_points": [
-    "19:15_EVENING_INSURANCE"
+    "19:15_EVENING_INSURANCE",
+    "PRIVATE_SITE_PUBLICATION_DEPENDENCY"
   ],
   "github_role": "PUBLIC_SAFE_RUNTIME_BRIDGE_NOT_CANONICAL_AUTHORITY",
   "canonical_authority": "CHATGPT_LIBRARY",
