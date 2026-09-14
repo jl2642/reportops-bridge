@@ -48,24 +48,28 @@ language: zh-CN
 - 下一步验证：跟踪三大油企后续资本开支、炼化利润、成品油出口政策、国内油气产量和储备释放节奏。
 - 反证条件：若供应环境恢复后企业快速恢复出口、炼化利润修复且高成本产量被明显收缩，则政策性保供对常态利润的压制可能弱于当前判断。
 
-## 3. China / Global / Industry 交叉判断
+<!-- MODULE:MARKET_AND_EVENT_DELTA -->
+## 3. 市场与事件增量
 
-### China
+本窗口的市场与事件增量由四条已经在核心信号中展开的变化构成：QatarEnergy转向多年美国LNG采购谈判、IEA进一步下修供应并确认库存快速去化、Gulf of Oman—中国VLCC运价升至极端水平，以及中国国有油企保供成本显性化。上述事实、传导和证据边界均沿用[E01]—[E04]，不增加新的事实主张。
+
+<!-- MODULE:PRICE_AND_SPREAD_DELTA -->
+## 4. 价格与价差增量
+
+本窗口可确认的新增价格/成本信号主要是Gulf of Oman—中国VLCC约Worldscale 450、折合约11.5美元/桶[E03](https://www.reuters.com/business/energy/oil-tanker-rates-hit-record-highs-following-iran-us-shipping-attacks-2026-09-11/)。JKM、TTF、CP/FEI、VLGC、LNGC等同窗完整可复核序列缺失，因此不构造其他基准价格或价差变化，也不使用历史值填充。
+
+<!-- MODULE:CHINA_CHAIN_DELTA -->
+## 5. 中国天然气 / LNG / LPG产业链增量
+
 中国的核心变量已从“是否能买到进口能源”升级为“以什么成本维持供应稳定”。国内上游增产、储备体系和国企保供责任构成第一层缓冲；海外来源多元化和航运能力构成第二层缓冲。当前 VLCC 风险溢价意味着来源多元化并非无成本，越依赖远距离替代，越可能通过运费和占船时间支付额外保险费。对中国炼化与城市燃气等经营主体，真正需要监测的是原料到岸成本、终端价格传导和政策性稳供责任之间的错配，而不是只看国际基准价格单边变化。[E03](https://www.reuters.com/business/energy/oil-tanker-rates-hit-record-highs-following-iran-us-shipping-attacks-2026-09-11/) [E04](https://www.reuters.com/business/energy/how-chinas-oil-majors-helped-beijing-prepare-an-energy-crisis-2026-09-11/)
 
-### Global
+<!-- MODULE:GLOBAL_ENERGY_DELTA -->
+## 6. 国际油气 / LNG增量
+
 全球能源市场正在出现典型的“供应链约束主导型高价”：需求已经受到高价格抑制，但供应恢复更慢，库存承担平衡功能，航运费率又把风险继续传导到到岸成本。卡塔尔寻求覆盖至2031年的美国 LNG 合同尤其重要，因为它把短期地缘冲击转化为长期贸易流重排。未来几年，美国 LNG 未签约产能、亚洲目的地灵活性和跨盆地航运资源的重要性都会提高。[E01](https://www.reuters.com/business/energy/qatarenergy-seeks-us-lng-deals-through-2031-sources-say-2026-09-11/) [E02](https://www.reuters.com/business/energy/global-2026-oil-supply-gap-deepen-delayed-return-normal-gulf-flows-iea-says-2026-09-11/)
 
-### INDUSTRY_CHAIN_AND_OPERATOR_EXPOSURE
-对产业链和经营主体而言，当前最重要的不是“押注油气价格继续上涨”，而是识别谁拥有可替代供应、可用运力、储备和合同灵活性。上游资源方受益于稀缺性，但若出口通道受阻，名义产能不能完全转化为现金流；贸易商和接收站若拥有多来源合同、船期调度能力和库存缓冲，组合价值上升；炼化和终端运营商则面临原料、运费和政策性稳价之间的利润挤压。对 LNG/LPG 经营主体，公开信息足以支持方向性结论：供应来源多元化、接收能力与船运可得性的重要性正在提升，但没有公开证据支持对任何具体企业的内部 margin、库存、船期或客户结构作定量判断。
-
-## 4. DATA_GAP 与证据边界
-
-DATA_GAP：本窗口没有取得可接受的、同一时间窗口内完整且可核验的 JKM、TTF、CP/FEI、VLGC、LNGC 价格与运费序列；也没有 QatarEnergy 多年采购谈判的最终合同价格和目的地条款，没有中国各经营主体完整库存与保供成本拆分。
-
-**证据边界：** 缺失数据包括同窗亚洲 LNG/LPG 基准价格、专用船运价、战争险附加费完整序列、QatarEnergy 最终合同条款，以及中国油气经营主体逐项政策性成本。可接受 proxy 仅包括 Reuters 报道的 VLCC 航线运价、IEA 库存与供需估算、公开资本开支与产量数据；这些 proxy 只能用于判断方向和传导链，不能替代 LNG/LPG 精确价格与企业内部经济性。对缺失的合同价、专用船运费和企业内部数据，**无可用替代**。因此禁止用昨日或历史值填充本窗口，禁止把 VLCC 运价外推为 LNGC/VLGC 运价，禁止把公开行业数据外推为任何具体企业的 margin、库存、客户、船期或融资状况。
-
-## 5. Next Verification
+<!-- MODULE:RESEARCH_TRIGGER_BOARD -->
+## 7. Research Trigger Board
 
 1. QatarEnergy 是否正式公布多年美国 LNG 合同、数量与期限；
 2. IEA 所述库存去化是否在后续周度数据继续，以及柴油/航煤裂解价差是否同步维持高位；
@@ -73,7 +77,28 @@ DATA_GAP：本窗口没有取得可接受的、同一时间窗口内完整且可
 4. 中国国有油企是否进一步调整成品油出口、炼厂负荷与国内保供政策；
 5. 若霍尔木兹或红海安全条件改善，观察运价、库存与跨盆地替代采购是否出现同步逆转。
 
-## 6. Source Register
+<!-- MODULE:INDUSTRY_CHAIN_AND_OPERATOR_EXPOSURE -->
+## 8. 产业链与经营主体影响（Public-safe）
+
+对产业链和经营主体而言，当前最重要的不是“押注油气价格继续上涨”，而是识别谁拥有可替代供应、可用运力、储备和合同灵活性。上游资源方受益于稀缺性，但若出口通道受阻，名义产能不能完全转化为现金流；贸易商和接收站若拥有多来源合同、船期调度能力和库存缓冲，组合价值上升；炼化和终端运营商则面临原料、运费和政策性稳价之间的利润挤压。对 LNG/LPG 经营主体，公开信息足以支持方向性结论：供应来源多元化、接收能力与船运可得性的重要性正在提升，但没有公开证据支持对任何具体企业的内部 margin、库存、船期或客户结构作定量判断。
+
+<!-- MODULE:EVIDENCE_AND_GAPS -->
+## 9. 证据、数据缺口、风险与反证
+
+DATA_GAP：本窗口没有取得可接受的、同一时间窗口内完整且可核验的 JKM、TTF、CP/FEI、VLGC、LNGC 价格与运费序列；也没有 QatarEnergy 多年采购谈判的最终合同价格和目的地条款，没有中国各经营主体完整库存与保供成本拆分。
+
+**证据边界：** 缺失数据包括同窗亚洲 LNG/LPG 基准价格、专用船运价、战争险附加费完整序列、QatarEnergy 最终合同条款，以及中国油气经营主体逐项政策性成本。可接受 proxy 仅包括 Reuters 报道的 VLCC 航线运价、IEA 库存与供需估算、公开资本开支与产量数据；这些 proxy 只能用于判断方向和传导链，不能替代 LNG/LPG 精确价格与企业内部经济性。对缺失的合同价、专用船运费和企业内部数据，**无可用替代**。因此禁止用昨日或历史值填充本窗口，禁止把 VLCC 运价外推为 LNGC/VLGC 运价，禁止把公开行业数据外推为任何具体企业的 margin、库存、客户、船期或融资状况。
+
+<!-- NEXT_VERIFICATION -->
+## 10. 下一窗口验证
+
+1. QatarEnergy 是否正式公布多年美国 LNG 合同、数量与期限；
+2. IEA 所述库存去化是否在后续周度数据继续，以及柴油/航煤裂解价差是否同步维持高位；
+3. Gulf of Oman—中国 VLCC 运价是否持续在极端水平，风险是否继续外溢到 LNGC/VLGC；
+4. 中国国有油企是否进一步调整成品油出口、炼厂负荷与国内保供政策；
+5. 若霍尔木兹或红海安全条件改善，观察运价、库存与跨盆地替代采购是否出现同步逆转。
+
+## Public Sources
 - [E01 Reuters｜QatarEnergy seeks US LNG deals through to 2031](https://www.reuters.com/business/energy/qatarenergy-seeks-us-lng-deals-through-2031-sources-say-2026-09-11/)
 - [E02 Reuters｜IEA warns 2026 oil supply gap will widen](https://www.reuters.com/business/energy/global-2026-oil-supply-gap-deepen-delayed-return-normal-gulf-flows-iea-says-2026-09-11/)
 - [E03 Reuters｜Oil tanker rates hit record highs](https://www.reuters.com/business/energy/oil-tanker-rates-hit-record-highs-following-iran-us-shipping-attacks-2026-09-11/)
