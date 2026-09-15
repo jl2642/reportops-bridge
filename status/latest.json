@@ -6,13 +6,7 @@
   "scheduled_run_status": "PASS",
   "scheduled_run_pass_claimed": true,
   "manual_recovery": false,
-  "correction_backlog": {
-    "status": "2026-09-12_TO_2026-09-14_PENDING_WORK_FULL_PREFLIGHT_NO_NEW_CHAT_CORRECTION_REQUIRED",
-    "chat_correction_required": false,
-    "research_repeated": false,
-    "evidence_changed": false,
-    "claim_semantics_changed": false
-  },
+  "correction_backlog": {"status":"2026-09-12_TO_2026-09-14_PENDING_WORK_FULL_PREFLIGHT_NO_NEW_CHAT_CORRECTION_REQUIRED","chat_correction_required":false,"research_repeated":false,"evidence_changed":false,"claim_semantics_changed":false},
   "source_identity_gate_status": "PASS_V2",
   "inline_citation_gate_status": "PASS_V2_SOURCE_LEVEL",
   "expert_signal_priority_gate_status": "PASS",
@@ -23,7 +17,7 @@
   "privacy_status": "PASS_PUBLIC_SAFE_SINGLE_SITE",
   "window_status": "PASS",
   "github_write_status": "PASS_PUBLIC_CORE_EVIDENCE_MANIFEST_STATUS",
-  "github_readback_status": "PENDING_FINAL_READBACK",
+  "github_readback_status": "PASS_PUBLIC_CORE_EVIDENCE_MANIFEST_STATUS",
   "single_site_product_complete": true,
   "private_layer_required": false,
   "unsupported_core_claims": 0,
@@ -37,8 +31,8 @@
   "failure_stage": null,
   "failure_reason": null,
   "next_action": "Work performs read-only non-short-circuit preflight across 2026-09-12 through 2026-09-15 and dependent higher-cycle candidates before mutation; if clean, reconcile oldest-first.",
-  "updated_at": "2026-09-15T10:25:00+08:00",
+  "updated_at": "2026-09-15T10:28:00+08:00",
   "work_public_reresearch_performed": false,
-  "eligible_unpublished_products": ["2026-09-12", "2026-09-13", "2026-09-14", "2026-09-15"],
-  "queue_remaining": ["2026-09-12", "2026-09-13", "2026-09-14", "2026-09-15"]
+  "eligible_unpublished_products": ["2026-09-12","2026-09-13","2026-09-14","2026-09-15"],
+  "queue_remaining": ["2026-09-12","2026-09-13","2026-09-14","2026-09-15"]
 }
