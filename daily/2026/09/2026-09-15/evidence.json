@@ -1,0 +1,93 @@
+{
+  "schema_version": "EVIDENCE_V1_2_SOURCE_IDENTITY_V2",
+  "target_date": "2026-09-15",
+  "window": "[2026-09-14 10:00,2026-09-15 10:00) Asia/Shanghai",
+  "mode": "STRICT_NEW_PUBLIC",
+  "records": [
+    {
+      "id": "E01",
+      "class": "CORE",
+      "support": "DIRECT",
+      "title": "Asian refiners, awaiting word on Saudi shipments, expect tighter supply",
+      "publisher": "Reuters",
+      "publication_time": "2026-09-14",
+      "url": "https://www.reuters.com/business/energy/asian-refiners-awaiting-word-saudi-shipments-expect-tighter-supply-2026-09-14/",
+      "url_identity_status": "PASS_V2",
+      "url_verified_date": "2026-09-15",
+      "source_identity_receipt": {
+        "verification_method": "SEARCH_RESULT_OBSERVED",
+        "observed_url": "https://www.reuters.com/business/energy/asian-refiners-awaiting-word-saudi-shipments-expect-tighter-supply-2026-09-14/",
+        "canonical_url": "https://www.reuters.com/business/energy/asian-refiners-awaiting-word-saudi-shipments-expect-tighter-supply-2026-09-14/",
+        "observed_title": "Asian refiners, awaiting word on Saudi shipments, expect tighter supply",
+        "observed_publisher": "Reuters",
+        "title_match_status": "EXACT",
+        "verified_at": "2026-09-15T10:20:00+08:00"
+      }
+    },
+    {
+      "id": "E02",
+      "class": "CORE",
+      "support": "DIRECT",
+      "title": "China Gas signs 20-year LNG import deal with US-based Venture Global",
+      "publisher": "Reuters",
+      "publication_time": "2026-09-14",
+      "url": "https://www.reuters.com/business/energy/china-gas-signs-20-year-lng-import-deal-with-us-based-venture-global-2026-09-14/",
+      "url_identity_status": "PASS_V2",
+      "url_verified_date": "2026-09-15",
+      "source_identity_receipt": {
+        "verification_method": "SEARCH_RESULT_OBSERVED",
+        "observed_url": "https://www.reuters.com/business/energy/china-gas-signs-20-year-lng-import-deal-with-us-based-venture-global-2026-09-14/",
+        "canonical_url": "https://www.reuters.com/business/energy/china-gas-signs-20-year-lng-import-deal-with-us-based-venture-global-2026-09-14/",
+        "observed_title": "China Gas signs 20-year LNG import deal with US-based Venture Global",
+        "observed_publisher": "Reuters",
+        "title_match_status": "EXACT",
+        "verified_at": "2026-09-15T10:20:00+08:00"
+      }
+    },
+    {
+      "id": "E03",
+      "class": "MATERIAL",
+      "support": "DIRECT",
+      "title": "ExxonMobil executive sees US accounting for 30% of global LNG market by 2030",
+      "publisher": "Reuters",
+      "publication_time": "2026-09-14",
+      "url": "https://www.reuters.com/business/energy/exxonmobil-executive-sees-us-accounting-30-global-lng-market-by-2030-2026-09-14/",
+      "url_identity_status": "PASS_V2",
+      "url_verified_date": "2026-09-15",
+      "source_identity_receipt": {
+        "verification_method": "SEARCH_RESULT_OBSERVED",
+        "observed_url": "https://www.reuters.com/business/energy/exxonmobil-executive-sees-us-accounting-30-global-lng-market-by-2030-2026-09-14/",
+        "canonical_url": "https://www.reuters.com/business/energy/exxonmobil-executive-sees-us-accounting-30-global-lng-market-by-2030-2026-09-14/",
+        "observed_title": "ExxonMobil executive sees US accounting for 30% of global LNG market by 2030",
+        "observed_publisher": "Reuters",
+        "title_match_status": "EXACT",
+        "verified_at": "2026-09-15T10:20:00+08:00"
+      }
+    },
+    {
+      "id": "E04",
+      "class": "CORE",
+      "support": "DIRECT",
+      "title": "Bangladesh's industrial growth hurt by high LNG prices, minister says",
+      "publisher": "Reuters",
+      "publication_time": "2026-09-14",
+      "url": "https://www.reuters.com/business/energy/bangladeshs-industrial-growth-hurt-by-high-lng-prices-minister-says-2026-09-14/",
+      "url_identity_status": "PASS_V2",
+      "url_verified_date": "2026-09-15",
+      "source_identity_receipt": {
+        "verification_method": "SEARCH_RESULT_OBSERVED",
+        "observed_url": "https://www.reuters.com/business/energy/bangladeshs-industrial-growth-hurt-by-high-lng-prices-minister-says-2026-09-14/",
+        "canonical_url": "https://www.reuters.com/business/energy/bangladeshs-industrial-growth-hurt-by-high-lng-prices-minister-says-2026-09-14/",
+        "observed_title": "Bangladesh's industrial growth hurt by high LNG prices, minister says",
+        "observed_publisher": "Reuters",
+        "title_match_status": "EXACT",
+        "verified_at": "2026-09-15T10:20:00+08:00"
+      }
+    }
+  ],
+  "source_identity_gate_status": "PASS_V2",
+  "unverified_external_source_count": 0,
+  "guessed_url_count": 0,
+  "unsupported_core_claims": 0,
+  "window_status": "PASS"
+}
