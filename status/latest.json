@@ -6,7 +6,13 @@
   "scheduled_run_status": "PASS",
   "scheduled_run_pass_claimed": true,
   "manual_recovery": false,
-  "correction_backlog": {"status":"2026-09-12_TO_2026-09-14_PENDING_WORK_FULL_PREFLIGHT_NO_NEW_CHAT_CORRECTION_REQUIRED","chat_correction_required":false,"research_repeated":false,"evidence_changed":false,"claim_semantics_changed":false},
+  "correction_backlog": {
+    "status": "2026_09_12_TO_2026_09_14_PROMOTED__2026_09_15_BOUNDED_CONTENT_CORRECTION_REQUIRED",
+    "chat_correction_required": true,
+    "research_repeated": false,
+    "evidence_changed": false,
+    "claim_semantics_changed": false
+  },
   "source_identity_gate_status": "PASS_V2",
   "inline_citation_gate_status": "PASS_V2_SOURCE_LEVEL",
   "expert_signal_priority_gate_status": "PASS",
@@ -23,16 +29,29 @@
   "unsupported_core_claims": 0,
   "failed_checks": [],
   "latest_contiguous_public_core_date": "2026-09-15",
-  "current_daily_public": "2026-09-11",
-  "formal_status": "PENDING_WORK_FULL_QUEUE_PREFLIGHT_THEN_RECONCILIATION_2026_09_12_13_14_15",
-  "canonical_promotion_performed": false,
-  "site_publication_performed": false,
+  "current_daily_public": "2026-09-14",
+  "formal_status": "BLOCKED_PRODUCT_LOCAL_2026_09_15_GLOBAL_ENERGY_DEPTH_118_LT_120",
+  "canonical_promotion_performed": true,
+  "site_publication_performed": true,
   "higher_cycle_authored": false,
-  "failure_stage": null,
-  "failure_reason": null,
-  "next_action": "Work performs read-only non-short-circuit preflight across 2026-09-12 through 2026-09-15 and dependent higher-cycle candidates before mutation; if clean, reconcile oldest-first.",
-  "updated_at": "2026-09-15T10:28:00+08:00",
+  "failure_stage": "PRODUCT_PREFLIGHT_2026_09_15",
+  "failure_reason": "GLOBAL_ENERGY_DELTA 118 CJK is below V4 hard minimum 120; Work substantive rewrite prohibited.",
+  "next_action": "Chat performs bounded non-research correction to the 2026-09-15 Global Energy module; next Work revalidates identity and promotes only 2026-09-15.",
+  "updated_at": "2026-09-15T13:39:00+08:00",
   "work_public_reresearch_performed": false,
-  "eligible_unpublished_products": ["2026-09-12","2026-09-13","2026-09-14","2026-09-15"],
-  "queue_remaining": ["2026-09-12","2026-09-13","2026-09-14","2026-09-15"]
+  "eligible_unpublished_products": [
+    "2026-09-15"
+  ],
+  "queue_remaining": [
+    "2026-09-15"
+  ],
+  "products_promoted": [
+    "2026-09-12",
+    "2026-09-13",
+    "2026-09-14",
+    "2026-W37"
+  ],
+  "public_site_version": 57,
+  "public_remote_readback": "PASS_REAL_REMOTE_CONTENT_V57",
+  "authority_package_sha256": "468c15e6c1d5afe14b812f18d0bdd5c52ae5aa58b19b07a6f19375f64f22dbe0"
 }
