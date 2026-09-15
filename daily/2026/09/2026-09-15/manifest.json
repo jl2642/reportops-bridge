@@ -40,7 +40,7 @@
   "window_status": "PASS",
   "unsupported_core_claims": 0,
   "github_write_status": "PASS_BOUNDED_CHAT_CORRECTION",
-  "github_readback_status": "PENDING_POST_WRITE_READBACK",
+  "github_readback_status": "PASS_POST_BOUNDED_CORRECTION_READBACK",
   "single_site_product_complete": true,
   "private_layer_required": false,
   "canonical_promotion_performed": false,
@@ -65,5 +65,5 @@
   },
   "created_at": "2026-09-15T10:24:00+08:00",
   "bounded_correction_at": "2026-09-15T13:47:00+08:00",
-  "readback_verified_at": "2026-09-15T10:27:00+08:00"
+  "readback_verified_at": "2026-09-15T13:48:00+08:00"
 }
