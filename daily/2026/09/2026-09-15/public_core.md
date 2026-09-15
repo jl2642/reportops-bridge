@@ -70,7 +70,7 @@ language: zh-CN
 <!-- MODULE:GLOBAL_ENERGY_DELTA -->
 ## 6. 国际油气 / LNG增量
 
-全球油气系统正在出现两个方向相反但可同时成立的变化：油市短期因中东运输与品质约束而更紧，LNG长期则因美国新增能力扩张而获得更多非中东供应选项。[E01](https://www.reuters.com/business/energy/asian-refiners-awaiting-word-saudi-shipments-expect-tighter-supply-2026-09-14/) [E03](https://www.reuters.com/business/energy/exxonmobil-executive-sees-us-accounting-30-global-lng-market-by-2030-2026-09-14/) 但新增LNG供应并不意味着任何价格都能被终端消化，孟加拉国样本显示高价已经触发真实经济层面的需求破坏。[E04](https://www.reuters.com/business/energy/bangladeshs-industrial-growth-hurt-by-high-lng-prices-minister-says-2026-09-14/)
+全球油气系统正在出现两个方向相反但可同时成立的变化：油市短期因中东运输与品质约束而更紧，LNG长期则因美国新增能力扩张而获得更多非中东供应选项。[E01](https://www.reuters.com/business/energy/asian-refiners-awaiting-word-saudi-shipments-expect-tighter-supply-2026-09-14/) [E03](https://www.reuters.com/business/energy/exxonmobil-executive-sees-us-accounting-30-global-lng-market-by-2030-2026-09-14/) 但新增LNG供应并不意味着任何价格都能被终端消化，孟加拉国样本显示高价已经触发真实经济层面的需求破坏。[E04](https://www.reuters.com/business/energy/bangladeshs-industrial-growth-hurt-by-high-lng-prices-minister-says-2026-09-14/) 因此供给扩张与需求承受力需要同时观察。
 
 <!-- MODULE:RESEARCH_TRIGGER_BOARD -->
 ## 7. Research Trigger Board
