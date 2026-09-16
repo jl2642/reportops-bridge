@@ -1,0 +1,93 @@
+{
+  "schema_version": "REPORTOPS_EVIDENCE_V1_2_SOURCE_IDENTITY_V2",
+  "target_date": "2026-09-16",
+  "fixed_window": "[2026-09-15 10:00,2026-09-16 10:00) Asia/Shanghai",
+  "mode": "STRICT_NEW_PUBLIC",
+  "guessed_url_count": 0,
+  "unverified_external_source_count": 0,
+  "records": [
+    {
+      "id": "E01",
+      "tier": "CORE",
+      "support": "DIRECT",
+      "publisher": "Reuters",
+      "title": "Saudi cancels some oil cargoes after pipeline hit, top buyer chasing alternatives",
+      "publication_time": "2026-09-15T10:41:00Z",
+      "url": "https://www.reuters.com/business/energy/polands-orlen-rushes-find-alternatives-saudi-oil-supply-traders-say-2026-09-15/",
+      "url_identity_status": "PASS",
+      "url_verified_date": "2026-09-16",
+      "source_identity_receipt": {
+        "verification_method": "OPENED_EXACT_DOCUMENT",
+        "observed_url": "https://www.reuters.com/business/energy/polands-orlen-rushes-find-alternatives-saudi-oil-supply-traders-say-2026-09-15/",
+        "canonical_url": "https://www.reuters.com/business/energy/polands-orlen-rushes-find-alternatives-saudi-oil-supply-traders-say-2026-09-15/",
+        "observed_title": "Saudi cancels some oil cargoes after pipeline hit, top buyer chasing alternatives",
+        "observed_publisher": "Reuters",
+        "title_match_status": "EXACT",
+        "verified_at": "2026-09-16T10:16:00+08:00"
+      }
+    },
+    {
+      "id": "E02",
+      "tier": "CORE",
+      "support": "DIRECT",
+      "publisher": "Reuters",
+      "title": "Some physical oil cargoes top $130 a barrel, nearing April's record, on Saudi disruptions",
+      "publication_time": "2026-09-15T18:53:00Z",
+      "url": "https://www.reuters.com/business/energy/some-physical-oil-cargoes-top-130-barrel-nearing-aprils-record-saudi-disruptions-2026-09-15/",
+      "url_identity_status": "PASS",
+      "url_verified_date": "2026-09-16",
+      "source_identity_receipt": {
+        "verification_method": "OPENED_EXACT_DOCUMENT",
+        "observed_url": "https://www.reuters.com/business/energy/some-physical-oil-cargoes-top-130-barrel-nearing-aprils-record-saudi-disruptions-2026-09-15/",
+        "canonical_url": "https://www.reuters.com/business/energy/some-physical-oil-cargoes-top-130-barrel-nearing-aprils-record-saudi-disruptions-2026-09-15/",
+        "observed_title": "Some physical oil cargoes top $130 a barrel, nearing April's record, on Saudi disruptions",
+        "observed_publisher": "Reuters",
+        "title_match_status": "EXACT",
+        "verified_at": "2026-09-16T10:16:00+08:00"
+      }
+    },
+    {
+      "id": "E03",
+      "tier": "CORE",
+      "support": "DIRECT",
+      "publisher": "Reuters",
+      "title": "LNG demand in China, India and Pakistan expected to rebound after US-Iran war ends",
+      "publication_time": "2026-09-15T02:17:00Z",
+      "url": "https://www.reuters.com/business/energy/lng-demand-china-india-expected-recover-when-mideast-war-ends-2026-09-15/",
+      "url_identity_status": "PASS",
+      "url_verified_date": "2026-09-16",
+      "source_identity_receipt": {
+        "verification_method": "OPENED_EXACT_DOCUMENT",
+        "observed_url": "https://www.reuters.com/business/energy/lng-demand-china-india-expected-recover-when-mideast-war-ends-2026-09-15/",
+        "canonical_url": "https://www.reuters.com/business/energy/lng-demand-china-india-expected-recover-when-mideast-war-ends-2026-09-15/",
+        "observed_title": "LNG demand in China, India and Pakistan expected to rebound after US-Iran war ends",
+        "observed_publisher": "Reuters",
+        "title_match_status": "EXACT",
+        "verified_at": "2026-09-16T10:16:00+08:00"
+      }
+    },
+    {
+      "id": "E04",
+      "tier": "CORE",
+      "support": "DIRECT",
+      "publisher": "Reuters",
+      "title": "China's August oil throughput rises as fuel exports rebound amid Iran war",
+      "publication_time": "2026-09-15T05:12:00Z",
+      "url": "https://www.reuters.com/world/asia-pacific/chinas-august-oil-throughput-rises-fuel-exports-rebound-amid-iran-war-2026-09-15/",
+      "url_identity_status": "PASS",
+      "url_verified_date": "2026-09-16",
+      "source_identity_receipt": {
+        "verification_method": "OPENED_EXACT_DOCUMENT",
+        "observed_url": "https://www.reuters.com/world/asia-pacific/chinas-august-oil-throughput-rises-fuel-exports-rebound-amid-iran-war-2026-09-15/",
+        "canonical_url": "https://www.reuters.com/world/asia-pacific/chinas-august-oil-throughput-rises-fuel-exports-rebound-amid-iran-war-2026-09-15/",
+        "observed_title": "China's August oil throughput rises as fuel exports rebound amid Iran war",
+        "observed_publisher": "Reuters",
+        "title_match_status": "EXACT",
+        "verified_at": "2026-09-16T10:16:00+08:00"
+      }
+    }
+  ],
+  "unsupported_core_claims": 0,
+  "source_identity_gate_status": "PASS_V2",
+  "window_status": "PASS"
+}
