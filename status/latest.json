@@ -2,12 +2,12 @@
   "schema_version": "REPORTOPS_R3_1_CHAT_STATUS_V1_5_SINGLE_SITE",
   "scheduled_date": "2026-09-15",
   "target_date": "2026-09-15",
-  "current_day_status": "PUBLIC_CORE_ACCEPTED_CHAT_CORRECTED_PENDING_WORK_REVALIDATION",
+  "current_day_status": "PUBLIC_CORE_ACCEPTED_CANONICAL",
   "scheduled_run_status": "PASS",
   "scheduled_run_pass_claimed": true,
   "manual_recovery": false,
   "correction_backlog": {
-    "status": "2026_09_15_BOUNDED_DEPTH_CORRECTION_APPLIED_PENDING_WORK_REVALIDATION",
+    "status": "CLOSED_WORK_REVALIDATED_PROMOTED",
     "chat_correction_required": false,
     "research_repeated": false,
     "evidence_changed": false,
@@ -15,13 +15,14 @@
     "prior_work_measured_global_energy_cjk": 118,
     "hard_minimum_cjk": 120,
     "added_cjk_count": 18,
-    "work_must_remeasure": true
+    "work_must_remeasure": false,
+    "actual_global_energy_cjk": 136
   },
   "source_identity_gate_status": "PASS_V2",
   "inline_citation_gate_status": "PASS_V2_SOURCE_LEVEL",
   "expert_signal_priority_gate_status": "PASS",
   "exact_v4_machine_structure_status": "PASS",
-  "v4_public_depth_gate_status": "CHAT_CORRECTED_PENDING_WORK_REVALIDATION",
+  "v4_public_depth_gate_status": "PASS",
   "data_gap_boundary_contract_status": "PASS",
   "evidence_status": "PASS_STRICT_NEW_PUBLIC_SOURCE_IDENTITY_V2",
   "privacy_status": "PASS_PUBLIC_SAFE_SINGLE_SITE",
@@ -33,31 +34,33 @@
   "unsupported_core_claims": 0,
   "failed_checks": [],
   "latest_contiguous_public_core_date": "2026-09-15",
-  "current_daily_public": "2026-09-14",
-  "formal_status": "PENDING_WORK_REVALIDATION_2026_09_15",
+  "current_daily_public": "2026-09-15",
+  "formal_status": "SUCCESS_CANONICAL_PROMOTED_SITE_REMOTE_VERIFIED",
   "canonical_promotion_performed": true,
   "site_publication_performed": true,
   "higher_cycle_authored": false,
   "failure_stage": null,
   "failure_reason": null,
-  "next_action": "Work revalidates the new 2026-09-15 candidate identity, remeasures GLOBAL_ENERGY_DELTA, and if all gates pass promotes only 2026-09-15; then refresh all stale Library Current-derived views and publish/read back the unique Public Site.",
-  "updated_at": "2026-09-15T13:49:00+08:00",
+  "next_action": "No manual intervention required; continue normal 10:15 Chat candidate and 12:30 Work consumer cycle.",
+  "updated_at": "2026-09-15T18:15:00-07:00",
   "work_public_reresearch_performed": false,
-  "eligible_unpublished_products": [
-    "2026-09-15"
-  ],
-  "queue_remaining": [
-    "2026-09-15"
-  ],
+  "eligible_unpublished_products": [],
+  "queue_remaining": [],
   "products_promoted": [
     "2026-09-12",
     "2026-09-13",
     "2026-09-14",
-    "2026-W37"
+    "2026-W37",
+    "2026-09-15"
   ],
-  "pending_product_public_core_sha": "1d6e4cf17818e5fe36d58e9d4ddc1fb57346e644",
-  "pending_product_manifest_sha": "694084eca966b1cd32d0d260039d56f3ec37001d",
-  "public_site_version": 57,
-  "public_remote_readback": "PASS_REAL_REMOTE_CONTENT_V57",
-  "authority_package_sha256": "468c15e6c1d5afe14b812f18d0bdd5c52ae5aa58b19b07a6f19375f64f22dbe0"
+  "pending_product_public_core_sha": null,
+  "pending_product_manifest_sha": null,
+  "public_site_version": 58,
+  "public_remote_readback": "PASS_REAL_REMOTE_CONTENT_V58",
+  "authority_package_sha256": "d5b9266c60e2d92ed88d3c0fb396e1888384e6696b4c1a9e37f596956f1414c0",
+  "stale_views": [],
+  "metadata_freshness": "PASS",
+  "runtime_sync_status": "PASS",
+  "reportops_status": "SUCCESS",
+  "manual_intervention_required": false
 }
