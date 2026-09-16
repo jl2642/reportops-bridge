@@ -14,12 +14,7 @@
   "signal_cards_with_inline_source": "4/4",
   "expert_signal_priority_gate_status": "PASS",
   "signal_card_count": 4,
-  "signal_priority": [
-    "SAUDI_YANBU_CARGO_CANCELLATION_AND_REPLACEMENT_BUYING",
-    "PHYSICAL_CRUDE_SCARCITY_PREMIUM_ABOVE_130",
-    "ASIA_LNG_DEMAND_DESTRUCTION_AND_REBOUND_OPTIONALITY",
-    "CHINA_REFINING_EXPORT_AND_INVENTORY_BUFFER"
-  ],
+  "signal_priority": ["SAUDI_YANBU_CARGO_CANCELLATION_AND_REPLACEMENT_BUYING","PHYSICAL_CRUDE_SCARCITY_PREMIUM_ABOVE_130","ASIA_LNG_DEMAND_DESTRUCTION_AND_REBOUND_OPTIONALITY","CHINA_REFINING_EXPORT_AND_INVENTORY_BUFFER"],
   "exact_v4_machine_structure_status": "PASS",
   "required_machine_markers_present": true,
   "required_signal_card_heading_grammar": true,
@@ -44,14 +39,14 @@
   "window_status": "PASS",
   "evidence_status": "PASS_STRICT_NEW_PUBLIC_SOURCE_IDENTITY_V2",
   "unsupported_core_claims": 0,
-  "github_write_status": "PASS_PENDING_READBACK",
-  "github_readback_status": "PENDING",
+  "github_write_status": "PASS_PUBLIC_CORE_EVIDENCE_MANIFEST",
+  "github_readback_status": "PASS_PUBLIC_CORE_EVIDENCE_MANIFEST",
   "single_site_product_complete": true,
   "private_layer_required": false,
   "higher_cycle_authored": false,
   "canonical_mutation_performed": false,
   "site_publication_performed": false,
-  "formal_status": "PUBLIC_CORE_ACCEPTED_PENDING_READBACK",
+  "formal_status": "PUBLIC_CORE_ACCEPTED",
   "failure_stage": null,
   "failure_reason": null
 }
