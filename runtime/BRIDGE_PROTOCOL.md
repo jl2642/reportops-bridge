@@ -57,6 +57,24 @@ After successful Canonical promotion, Work performs one public distribution buil
 
 Site failure never rolls back an accepted Canonical product; report `PACKAGE_SUCCESS_SITE_PENDING`.
 
+## Runtime sync hard invariant
+
+Before Work may report `runtime_sync_status=PASS`, `metadata_freshness=PASS`, `stale_views=[]` or overall `SUCCESS`, it must read back and cross-check all three GitHub runtime surfaces:
+
+1. `status/latest.json`
+2. `runtime/CURRENT_PUBLIC.json`
+3. `runtime/DEPLOYMENT_STATE.json`
+
+They must agree on every applicable current-state field, including at minimum:
+- current Daily / Weekly / Monthly / Quarterly;
+- Authority package SHA;
+- Public Site version and live topology;
+- real remote readback status;
+- queue / pending-product state;
+- metadata freshness / stale-view state.
+
+Any disagreement is `WORK_DETERMINISTIC_REPAIR` and must be repaired in the same Work transaction. A stale `DEPLOYMENT_STATE.json` must never be hidden by fresher `status/latest.json` or `CURRENT_PUBLIC.json`. If the three runtime surfaces still disagree at final readback, Work must not report `runtime_sync_status=PASS`, `stale_views=[]`, or overall `SUCCESS`.
+
 ## Work rejection feedback
 
 If Work rejects a bridge Daily, keep Canonical/Site fail-closed and report the complete preflight blocker matrix and exact correction class. Do not require one-layer-at-a-time Work debugging.
