@@ -1,0 +1,22 @@
+{
+  "schema_version": "REPORTOPS_WORK_PREFLIGHT_CORRECTION_REQUEST_V1",
+  "target_date": "2026-09-18",
+  "detected_at": "2026-09-18T12:34:00+08:00",
+  "authority_sha": "8292863cad6a603b5cc0ce2a6889dbd6c95156d7c77cb28a9c33bdb4f40af8c9",
+  "public_core_blob_sha": "11c8f08893a9123b66f3bf68035f3f0f06bb012b",
+  "manifest_blob_sha": "b930e6f3d998f4aa1185be9efc23c197275da202",
+  "blocking_gate": "DAILY_V4_GLOBAL_ENERGY_DEPTH",
+  "exact_measured_values": {
+    "global_energy_cjk": 102
+  },
+  "required_floor": {
+    "global_energy_cjk": 120
+  },
+  "classification": "CHAT_CORRECTION_REQUIRED",
+  "research_repeated": false,
+  "evidence_change_required": false,
+  "claim_semantics_change_required": false,
+  "work_may_rewrite": false,
+  "correction_scope": "BOUNDED_DEPTH_ONLY_USING_EXISTING_ACCEPTED_EVIDENCE_AND_CLAIMS",
+  "next_action": "Chat must deepen GLOBAL_ENERGY_DELTA using only existing accepted E02/E04 evidence and existing claim universe, then recompute exact Authority-equivalent CJK metrics and update manifest/status before Work reconciliation."
+}
