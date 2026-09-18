@@ -1,0 +1,25 @@
+{
+  "schema_version": "REPORTOPS_EVIDENCE_V1_2_SOURCE_IDENTITY_V2",
+  "target_date": "2026-09-18",
+  "window": "[2026-09-17 10:00,2026-09-18 10:00) Asia/Shanghai",
+  "mode": "STRICT_NEW_PUBLIC",
+  "guessed_url_count": 0,
+  "unverified_external_source_count": 0,
+  "records": [
+    {
+      "id":"E01","tier":"CORE","support":"DIRECT","url":"https://www.reuters.com/business/energy/three-pumping-stations-along-saudi-east-west-pipeline-were-hit-recent-attack-2026-09-17/","title":"Three pumping stations along Saudi East-West Pipeline were hit in recent attack, sources say","publisher":"Reuters","publication_time":"2026-09-17T16:18:00Z","url_identity_status":"PASS","url_verified_date":"2026-09-18","source_identity_receipt":{"verification_method":"OPENED_EXACT_DOCUMENT","observed_url":"https://www.reuters.com/business/energy/three-pumping-stations-along-saudi-east-west-pipeline-were-hit-recent-attack-2026-09-17/","canonical_url":"https://www.reuters.com/business/energy/three-pumping-stations-along-saudi-east-west-pipeline-were-hit-recent-attack-2026-09-17/","observed_title":"Three pumping stations along Saudi East-West Pipeline were hit in recent attack, sources say","observed_publisher":"Reuters","title_match_status":"EXACT","verified_at":"2026-09-18T10:12:00+08:00"}
+    },
+    {
+      "id":"E02","tier":"CORE","support":"DIRECT","url":"https://www.reuters.com/business/energy/global-lng-prices-could-spike-this-winter-low-european-gas-stocks-2026-09-17/","title":"Global LNG prices could spike this winter on low European gas stocks","publisher":"Reuters","publication_time":"2026-09-17T05:51:00Z","url_identity_status":"PASS","url_verified_date":"2026-09-18","source_identity_receipt":{"verification_method":"OPENED_EXACT_DOCUMENT","observed_url":"https://www.reuters.com/business/energy/global-lng-prices-could-spike-this-winter-low-european-gas-stocks-2026-09-17/","canonical_url":"https://www.reuters.com/business/energy/global-lng-prices-could-spike-this-winter-low-european-gas-stocks-2026-09-17/","observed_title":"Global LNG prices could spike this winter on low European gas stocks","observed_publisher":"Reuters","title_match_status":"EXACT","verified_at":"2026-09-18T10:12:00+08:00"}
+    },
+    {
+      "id":"E03","tier":"CORE","support":"DIRECT","url":"https://www.reuters.com/business/energy/asian-lng-demand-set-fall-second-year-war-shrinks-supply-2026-09-17/","title":"Asian LNG demand set to fall for second year as war shrinks supply","publisher":"Reuters","publication_time":"2026-09-17T04:29:00Z","url_identity_status":"PASS","url_verified_date":"2026-09-18","source_identity_receipt":{"verification_method":"OPENED_EXACT_DOCUMENT","observed_url":"https://www.reuters.com/business/energy/asian-lng-demand-set-fall-second-year-war-shrinks-supply-2026-09-17/","canonical_url":"https://www.reuters.com/business/energy/asian-lng-demand-set-fall-second-year-war-shrinks-supply-2026-09-17/","observed_title":"Asian LNG demand set to fall for second year as war shrinks supply","observed_publisher":"Reuters","title_match_status":"EXACT","verified_at":"2026-09-18T10:12:00+08:00"}
+    },
+    {
+      "id":"E04","tier":"MATERIAL","support":"DIRECT","url":"https://www.reuters.com/business/energy/us-iran-conflict-helps-drive-wave-supertanker-orders-2026-09-17/","title":"US-Iran conflict helps drive wave of supertanker orders","publisher":"Reuters","publication_time":"2026-09-17T13:08:00Z","url_identity_status":"PASS","url_verified_date":"2026-09-18","source_identity_receipt":{"verification_method":"OPENED_EXACT_DOCUMENT","observed_url":"https://www.reuters.com/business/energy/us-iran-conflict-helps-drive-wave-supertanker-orders-2026-09-17/","canonical_url":"https://www.reuters.com/business/energy/us-iran-conflict-helps-drive-wave-supertanker-orders-2026-09-17/","observed_title":"US-Iran conflict helps drive wave of supertanker orders","observed_publisher":"Reuters","title_match_status":"EXACT","verified_at":"2026-09-18T10:12:00+08:00"}
+    }
+  ],
+  "unsupported_core_claims": 0,
+  "source_identity_gate_status":"PASS_V2",
+  "window_status":"PASS"
+}
