@@ -70,7 +70,7 @@ LNG价格信号仍处高位：亚洲现货约26–30美元/MMBtu，显著高于�
 <!-- MODULE:GLOBAL_ENERGY_DELTA -->
 ## 6. 国际油气 / LNG增量
 
-全球层面的主线是冗余能力下降与跨盆地替代增强并存。欧洲低库存使冬季天然气系统更依赖外部LNG，而海湾受限使美国等非海湾来源的边际价值提高；原油端则因替代通道受损和长距离采购增加，推动油轮需求与新造船订单扩张。[E02](https://www.reuters.com/business/energy/global-lng-prices-could-spike-this-winter-low-european-gas-stocks-2026-09-17/) [E04](https://www.reuters.com/business/energy/us-iran-conflict-helps-drive-wave-supertanker-orders-2026-09-17/)
+全球层面的主线是冗余能力下降与跨盆地替代增强并存。欧洲低库存使冬季天然气系统更依赖外部LNG，而海湾受限使美国等非海湾来源的边际价值提高；原油端则因替代通道受损和长距离采购增加，推动油轮需求与新造船订单扩张。[E02](https://www.reuters.com/business/energy/global-lng-prices-could-spike-this-winter-low-european-gas-stocks-2026-09-17/) [E04](https://www.reuters.com/business/energy/us-iran-conflict-helps-drive-wave-supertanker-orders-2026-09-17/) 更重要的是，这两条链条共同把供应安全从资源储量问题转化为可交付性问题：天然气端需要同时观察欧洲补库速度、美国装船能力和跨盆地船期，原油端则需要观察替代港口、STS效率以及长航程占用的运力。即使全球名义供应没有进一步下降，只要运输节点和库存缓冲不足，区域现货仍可能维持显著稀缺溢价。
 
 <!-- MODULE:RESEARCH_TRIGGER_BOARD -->
 ## 7. Research Trigger Board
