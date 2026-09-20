@@ -20,62 +20,37 @@ Before new-day production, Chat compares `CURRENT_PUBLIC`, `status/latest` and r
 
 ## Source identity v2 acquisition-receipt gate — BLOCKING
 
-Apply `EVIDENCE_POLICY_PUBLIC v1.2`.
-
-Every external CORE/MATERIAL source URL must be an actually observed/canonical exact-document URL, never generated from a title. Each record must carry a complete source_identity_receipt matching observed URL/title/publisher and accepted canonical URL. Manifest requires `source_identity_gate_status=PASS_V2`, `unverified_external_source_count=0`, `guessed_url_count=0`.
+Apply `EVIDENCE_POLICY_PUBLIC v1.2`. Every external CORE/MATERIAL source URL must be an actually observed/canonical exact-document URL, never generated from a title.
 
 ## Inline clickable citation gate — BLOCKING
 
-Every external CORE/MATERIAL Evidence record used in narrative must have a clickable Markdown Evidence link adjacent to the supported fact. A bottom Sources appendix alone is insufficient. Every Signal Card must include at least one inline clickable source. Work must rerun citation validation against final Reader HTML.
+Every external CORE/MATERIAL Evidence record used in narrative must have a clickable Markdown Evidence link adjacent to the supported fact. Every Signal Card must include at least one inline clickable source.
 
 ## Expert signal-priority gate — BLOCKING
 
-Before selecting 3–5 cards, rank eligible evidence by physical/economic impact, magnitude, China/Asia relevance, incremental information and actionability. Lower-priority structural items must not displace materially more relevant same-window energy signals.
+Before selecting 3–5 cards, rank eligible evidence by physical/economic impact, magnitude, China/Asia relevance, incremental information and actionability.
 
 ## Exact V4 machine composition — BLOCKING
 
-The current `runtime/DAILY_TEMPLATE_PUBLIC.md` skeleton is normative, not illustrative.
+The current `runtime/DAILY_TEMPLATE_PUBLIC.md` skeleton is normative, not illustrative. Required MODULE markers, KEY_SIGNAL_CARDS marker, signal-card heading grammar and NEXT_VERIFICATION marker must be preserved exactly.
 
-Required tokens/grammar include:
-- `<!-- MODULE:EXECUTIVE_SIGNAL_SUMMARY -->`
-- `<!-- KEY_SIGNAL_CARDS:3-5 -->`
-- 3–5 card headings beginning `### 信号卡N` or `### Signal Card N`
-- `<!-- MODULE:MARKET_AND_EVENT_DELTA -->`
-- `<!-- MODULE:PRICE_AND_SPREAD_DELTA -->`
-- `<!-- MODULE:CHINA_CHAIN_DELTA -->`
-- `<!-- MODULE:GLOBAL_ENERGY_DELTA -->`
-- `<!-- MODULE:RESEARCH_TRIGGER_BOARD -->`
-- `<!-- MODULE:INDUSTRY_CHAIN_AND_OPERATOR_EXPOSURE -->`
-- `<!-- MODULE:EVIDENCE_AND_GAPS -->`
-- `<!-- NEXT_VERIFICATION -->`
+## Single numerical depth authority — BLOCKING
 
-Semantic similarity, English all-caps headings, merged sections, or numbered headings without the required machine marker/card prefix do **not** satisfy this gate.
+The public runtime must load all Daily numerical depth thresholds from `runtime/DAILY_PUBLIC_DEPTH_POLICY_V4.json`.
 
-`PUBLIC_CORE_ACCEPTED` and `v4_public_depth_gate_status=PASS` are forbidden unless the exact machine composition check passes first.
+That file is only a public-safe mirror of the machine Authority inside ReportOps:
+`scripts/product/PRODUCT_FINAL_COMPOSITION_POLICY_V4.json`.
 
-## Exact deterministic public-depth acceptance
+10:15 Chat must not maintain an independent governing threshold table in its prompt or prose. 12:30 Work must compute the public subset from the current Authority package and verify the mirror `public_contract_sha256`. Any mismatch is `RUNTIME_CONTRACT_VERSION_DRIFT` and is fail-closed until deterministically reconciled.
 
-Normal Daily requires:
-- 3–5 signal cards;
-- Executive ≥150 CJK;
-- 今日关键信号 ≥850 CJK;
-- every signal card ≥180 CJK;
-- China Chain ≥120 CJK;
-- Global Energy ≥120 CJK;
-- Industry/Operator Exposure ≥120 CJK;
-- explicit falsifier/counterevidence;
-- explicit next-verification/trigger set;
-- governed DATA_GAP boundary;
-- strong claims with evidence + boundary;
-- normal-day body ≥1,800 CJK;
-- 2,200–3,500 CJK reference band.
+Qualitative blocking requirements remain: explicit falsifier/counterevidence, explicit next-verification/trigger set, governed DATA_GAP boundary, strong claims with evidence + boundary, exact structure, privacy, Evidence and fixed-window compliance.
 
 ## Public-safe boundary — BLOCKING
 
-GitHub contains only public-safe generic operator/industry analysis. Public narrative must not include `JOVO` or `九丰` tokens or any specific-company non-public contract, margin, inventory, customer, vessel, financing or project information. Negative-form disclaimers naming a specific company also fail public-safe wording; use generic wording such as “任何特定公司的非公开信息”.
+GitHub contains only public-safe generic operator/industry analysis. Public narrative must not include `JOVO` or `九丰` tokens or any specific-company non-public contract, margin, inventory, customer, vessel, financing or project information.
 
 ## Acceptance metadata
 
-Before `PUBLIC_CORE_ACCEPTED`, manifest must show Source Identity PASS, Inline Citation PASS, Expert Signal Priority PASS, exact V4 machine structure PASS, V4 Depth PASS, privacy PASS, Evidence/window/write/readback PASS and unsupported CORE claims = 0.
+Before `PUBLIC_CORE_ACCEPTED`, manifest must show Source Identity PASS, Inline Citation PASS, Expert Signal Priority PASS, exact V4 machine structure PASS, V4 Depth PASS, privacy PASS, Evidence/window/write/readback PASS and unsupported CORE claims = 0. It must also record the depth-policy mirror identity used for deterministic measurement.
 
 GitHub is bridge durability, not Canonical Authority, and never publishes Sites. Current live distribution is single-site public; Private Site is retired from live operation.
