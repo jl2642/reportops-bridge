@@ -6,31 +6,28 @@
   "authority_sha_before": "8292863cad6a603b5cc0ce2a6889dbd6c95156d7c77cb28a9c33bdb4f40af8c9",
   "authority_sha_after": "be7a7a00a9fcae13b8726ca6441dcbd08cd48ac71a722d8e8ce2ef01d61206fd",
   "public_core_blob_sha": "be7c55fabc3b9d63f2579450dd8dedc8592e3897",
-  "manifest_blob_sha": "75898dceb3a5ec07fdd1356151abeff97d87d577",
+  "manifest_blob_sha_at_detection": "75898dceb3a5ec07fdd1356151abeff97d87d577",
   "blocking_gate": "MANIFEST_DETERMINISTIC_ACTUAL_METRICS",
   "exact_measured_values": {
     "cjk_characters_actual": 3040,
     "executive_cjk_actual": 242,
     "key_signal_cjk_actual": 1480,
-    "signal_card_cjk_actual": [
-      374,
-      372,
-      330,
-      337
-    ],
+    "signal_card_cjk_actual": [374,372,330,337],
     "china_chain_cjk_actual": 166,
     "global_energy_cjk_actual": 230,
     "industry_operator_cjk_actual": 178
   },
   "required_floor": {
     "total_cjk": 1800,
-    "executive_cjk": 160,
-    "key_signal_cjk": 420,
-    "signal_card_cjk_each": 90,
+    "executive_cjk": 150,
+    "key_signal_cjk": 850,
+    "signal_card_cjk_each": 180,
     "china_chain_cjk": 120,
     "global_energy_cjk": 120,
-    "industry_operator_cjk": 140
+    "industry_operator_cjk": 120
   },
+  "required_floor_source": "runtime/DAILY_PUBLIC_DEPTH_POLICY_V4.json derived from ReportOps scripts/product/PRODUCT_FINAL_COMPOSITION_POLICY_V4.json",
+  "depth_policy_public_contract_sha256": "64770bf24f1280d11060d6a905a659241d5e483109fc8c3e34195a8264fc48f6",
   "classification": "RESOLVED_BY_AUTHORITY_EQUIVALENT_CONSUMER_REMEASUREMENT",
   "research_repeated": false,
   "evidence_change_required": false,
@@ -38,5 +35,5 @@
   "work_may_rewrite": false,
   "consumer_gate_result": "PASS_ALL_TOUCHED_SCOPE_GATES",
   "canonical_promotion": "COMPLETE",
-  "next_action": "No Chat correction remains open; producer may consume the measured values and treat 2026-09-18 as formally reconciled."
+  "next_action": "No Chat correction remains open; product is formally reconciled."
 }
