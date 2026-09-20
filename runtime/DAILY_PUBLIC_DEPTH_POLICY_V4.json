@@ -1,0 +1,19 @@
+{
+  "schema_version": "DAILY_PUBLIC_DEPTH_POLICY_V4",
+  "cjk_hard_floor": 1800,
+  "cjk_target": [2200, 3500],
+  "signal_cards": [3, 5],
+  "executive_cjk_floor": 150,
+  "key_signal_cjk_floor": 850,
+  "signal_card_cjk_floor": 180,
+  "section_cjk_floors": {
+    "CHINA_CHAIN_DELTA": 120,
+    "GLOBAL_ENERGY_DELTA": 120,
+    "INDUSTRY_CHAIN_AND_OPERATOR_EXPOSURE": 120
+  },
+  "price_spread_cjk_warning_floor": 60,
+  "evidence_reference_warning_floor": 3,
+  "authority_policy_sha256": "ed69573e48d0daedd1b899ab2d6cf15880f37705f88b44b1a9d2ca26715f9905",
+  "public_contract_sha256": "64770bf24f1280d11060d6a905a659241d5e483109fc8c3e34195a8264fc48f6",
+  "generation_rule": "derived_from_authority_policy; non-governing mirror unless public_contract_sha256 matches Work-computed Authority subset hash"
+}
