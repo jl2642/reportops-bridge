@@ -25,8 +25,8 @@
   "unsupported_core_claims": 0,
   "single_site_product_complete": true,
   "private_layer_required": false,
-  "github_write_status": "PASS_PUBLIC_CORE_EVIDENCE_MANIFEST",
-  "github_readback_status": "PENDING_READBACK",
+  "github_write_status": "PASS_PUBLIC_CORE_EVIDENCE_MANIFEST_STATUS",
+  "github_readback_status": "PASS",
   "formal_status": "PENDING_WORK_RECONCILIATION_2026_09_20",
   "failure_stage": null,
   "failure_reason": null
