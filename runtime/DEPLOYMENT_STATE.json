@@ -26,7 +26,7 @@
   "current_weekly_public": "2026-W38",
   "current_monthly_public": "2026-08",
   "current_quarterly_public": "2026-Q2",
-  "authority_package_sha256": "de03df679f2987641efd6d83d72af1470cc9ae46a45ca823489a783f8aaea467",
+  "authority_package_sha256": "1469a657640516c3eccc8a62777d10fe2a051eab7da70236058055bb386bd818",
   "canonical_authority": "CHATGPT_LIBRARY:/能源周期报告/00_CURRENT/CURRENT_POINTER.json",
   "current_public_ref": "runtime/CURRENT_PUBLIC.json",
   "final_closure_status": "SUCCESS__FINAL_CLOSURE_PASS__QUEUE_EMPTY__STALE_VIEWS_EMPTY",
