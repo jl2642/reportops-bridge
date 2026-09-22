@@ -39,6 +39,6 @@
   "queue_remaining": [],
   "pending_product": null,
   "manual_intervention_required": false,
-  "authority_package_sha256": "de03df679f2987641efd6d83d72af1470cc9ae46a45ca823489a783f8aaea467",
+  "authority_package_sha256": "1469a657640516c3eccc8a62777d10fe2a051eab7da70236058055bb386bd818",
   "current_pointer_sha256": "33e93f535115dfbab1100e118003559ba5aa427615ccd713d14212ad2ad0e64e"
 }
