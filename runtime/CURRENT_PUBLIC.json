@@ -14,7 +14,7 @@
   "public_site_version": 64,
   "public_site_url": "https://energy-cycle-report-share.ljjx2020.chatgpt.site",
   "public_remote_readback": "PASS_REAL_REMOTE_CONTENT_V64",
-  "authority_package_sha256": "de03df679f2987641efd6d83d72af1470cc9ae46a45ca823489a783f8aaea467",
+  "authority_package_sha256": "1469a657640516c3eccc8a62777d10fe2a051eab7da70236058055bb386bd818",
   "github_role": "PUBLIC_SAFE_RUNTIME_BRIDGE_NOT_CANONICAL_AUTHORITY",
   "canonical_authority": "CHATGPT_LIBRARY",
   "daily_runtime_contract_current": "V1_5_FORMAL_AUTHORITY",
