@@ -39,7 +39,7 @@
   "public_site_status": "PASS_REMOTE_READBACK",
   "remote_readback_status": "PASS_REAL_REMOTE_CONTENT_V64",
   "daily_download_sha256": "9b983616037ee0191e2f207c9dffc75579d1ce6cc5158cd5f4414aee0eb0db9b",
-  "authority_package_sha256": "de03df679f2987641efd6d83d72af1470cc9ae46a45ca823489a783f8aaea467",
+  "authority_package_sha256": "1469a657640516c3eccc8a62777d10fe2a051eab7da70236058055bb386bd818",
   "failure_stage": null,
   "failure_reason": null,
   "consumer_reconciled_at": "2026-09-22T13:12:00+08:00",
