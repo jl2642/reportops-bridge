@@ -1,0 +1,33 @@
+{
+  "schema_version": "REPORTOPS_EVIDENCE_V1_2_STRICT_NEW_PUBLIC",
+  "target_date": "2026-09-23",
+  "window": {"start": "2026-09-22T10:00:00+08:00", "end": "2026-09-23T10:00:00+08:00", "timezone": "Asia/Shanghai"},
+  "guessed_url_count": 0,
+  "unsupported_core_claims": 0,
+  "records": [
+    {
+      "evidence_id": "E01", "claim_importance": "CORE", "direct_support": "DIRECT",
+      "title": "Saudi Arabia restarts East-West oil pipeline, sources say", "publisher": "Reuters", "publication_time": "2026-09-22", "url": "https://www.reuters.com/business/energy/saudi-arabia-restarts-east-west-oil-pipeline-resume-exports-yanbu-sources-say-2026-09-22/", "url_identity_status": "PASS", "url_verified_date": "2026-09-23",
+      "source_identity_receipt": {"verification_method": "SEARCH_RESULT_OBSERVED", "observed_url": "https://www.reuters.com/business/energy/saudi-arabia-restarts-east-west-oil-pipeline-resume-exports-yanbu-sources-say-2026-09-22/", "canonical_url": "https://www.reuters.com/business/energy/saudi-arabia-restarts-east-west-oil-pipeline-resume-exports-yanbu-sources-say-2026-09-22/", "observed_title": "Saudi Arabia restarts East-West oil pipeline, sources say", "observed_publisher": "Reuters", "title_match_status": "EXACT", "verified_at": "2026-09-23T10:16:00+08:00"},
+      "supported_claims": ["Saudi East-West pipeline restarted at reduced flow after September 11 attack", "Yanbu crude loadings are preparing to resume, including at least one China-bound cargo", "full restoration may take several weeks"]
+    },
+    {
+      "evidence_id": "E02", "claim_importance": "CORE", "direct_support": "DIRECT",
+      "title": "Hormuz vessel traffic falls to two, data shows", "publisher": "Reuters", "publication_time": "2026-09-22", "url": "https://www.reuters.com/world/middle-east/hormuz-vessel-traffic-falls-two-data-shows-2026-09-22/", "url_identity_status": "PASS", "url_verified_date": "2026-09-23",
+      "source_identity_receipt": {"verification_method": "SEARCH_RESULT_OBSERVED", "observed_url": "https://www.reuters.com/world/middle-east/hormuz-vessel-traffic-falls-two-data-shows-2026-09-22/", "canonical_url": "https://www.reuters.com/world/middle-east/hormuz-vessel-traffic-falls-two-data-shows-2026-09-22/", "observed_title": "Hormuz vessel traffic falls to two, data shows", "observed_publisher": "Reuters", "title_match_status": "EXACT", "verified_at": "2026-09-23T10:16:00+08:00"},
+      "supported_claims": ["Two trackable commodity vessels crossed Hormuz on Monday, down from ten the previous day", "A crude tanker and an LPG tanker were separately struck", "AIS-off traffic can make observable counts incomplete"]
+    },
+    {
+      "evidence_id": "E03", "claim_importance": "MATERIAL", "direct_support": "DIRECT",
+      "title": "Saudi Aramco plans reorganisation to create gas division, sources say", "publisher": "Reuters", "publication_time": "2026-09-22", "url": "https://www.reuters.com/business/energy/saudi-aramco-plans-reorganisation-create-gas-division-sources-say-2026-09-22/", "url_identity_status": "PASS", "url_verified_date": "2026-09-23",
+      "source_identity_receipt": {"verification_method": "SEARCH_RESULT_OBSERVED", "observed_url": "https://www.reuters.com/business/energy/saudi-aramco-plans-reorganisation-create-gas-division-sources-say-2026-09-22/", "canonical_url": "https://www.reuters.com/business/energy/saudi-aramco-plans-reorganisation-create-gas-division-sources-say-2026-09-22/", "observed_title": "Saudi Aramco plans reorganisation to create gas division, sources say", "observed_publisher": "Reuters", "title_match_status": "EXACT", "verified_at": "2026-09-23T10:16:00+08:00"},
+      "supported_claims": ["Aramco plans a separate gas division alongside upstream and downstream", "gas division scope includes domestic and international gas and LNG", "minority listing and asset financing are under consideration"]
+    },
+    {
+      "evidence_id": "E04", "claim_importance": "MATERIAL", "direct_support": "DIRECT",
+      "title": "Ban on US diesel exports would hurt, not help fuel markets, analysts say", "publisher": "Reuters", "publication_time": "2026-09-22", "url": "https://www.reuters.com/world/us/ban-us-diesel-exports-would-hurt-not-help-fuel-markets-analysts-say-2026-09-22/", "url_identity_status": "PASS", "url_verified_date": "2026-09-23",
+      "source_identity_receipt": {"verification_method": "SEARCH_RESULT_OBSERVED", "observed_url": "https://www.reuters.com/world/us/ban-us-diesel-exports-would-hurt-not-help-fuel-markets-analysts-say-2026-09-22/", "canonical_url": "https://www.reuters.com/world/us/ban-us-diesel-exports-would-hurt-not-help-fuel-markets-analysts-say-2026-09-22/", "observed_title": "Ban on US diesel exports would hurt, not help fuel markets, analysts say", "observed_publisher": "Reuters", "title_match_status": "EXACT", "verified_at": "2026-09-23T10:16:00+08:00"},
+      "supported_claims": ["US President backed consideration of a diesel export ban", "analysts warned such a ban may not lower domestic prices and could disrupt global supply", "no binding export ban was reported as in force"]
+    }
+  ]
+}
