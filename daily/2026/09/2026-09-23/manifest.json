@@ -28,7 +28,7 @@
   "public_core_write_status": "PASS",
   "evidence_write_status": "PASS",
   "manifest_write_status": "PASS",
-  "github_readback_status": "PENDING",
+  "github_readback_status": "PASS_PRODUCER_READBACK",
   "single_site_product_complete": true,
   "canonical_promotion_performed": false,
   "site_publication_performed": false,
