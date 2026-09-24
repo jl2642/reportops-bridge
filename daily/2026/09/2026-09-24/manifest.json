@@ -30,7 +30,7 @@
   "data_gap_boundary_status": "PASS",
   "unsupported_core_claims": 0,
   "signal_card_count": 4,
-  "authority_package_sha256": "3a37038b56ddd29c0fbf6433498a02360fd12c9ea4ab758a594c01d7d852f1ad",
+  "authority_package_sha256": "e4d982076315f7675d3df3d842c313aa4ba5b52599169491543ed1b52319fd0e",
   "canonical_current_daily_at_production": "2026-09-23",
   "canonical_mutation_performed": true,
   "site_mutation_performed": true,
@@ -60,4 +60,3 @@
   "manifest_reconciliation_status": "PASS_AUTHORITY_CONSUMER_ACTUALS_TOP_LEVEL_CURRENT",
   "substantive_content_changed_by_work": false
 }
-
