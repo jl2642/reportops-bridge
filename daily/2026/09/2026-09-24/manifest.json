@@ -15,7 +15,12 @@
   "cjk_characters_actual": 4200,
   "executive_cjk_actual": 274,
   "key_signal_cjk_actual": 1982,
-  "signal_card_cjk_actual": [499, 484, 508, 479],
+  "signal_card_cjk_actual": [
+    499,
+    484,
+    508,
+    479
+  ],
   "china_chain_cjk_actual": 203,
   "global_energy_cjk_actual": 193,
   "industry_operator_cjk_actual": 271,
@@ -25,13 +30,34 @@
   "data_gap_boundary_status": "PASS",
   "unsupported_core_claims": 0,
   "signal_card_count": 4,
-  "authority_package_sha256": "089a2fb59a0ff1c7fbe098addfe05ef18a5f39760cce80526a06c33c42c76efe",
+  "authority_package_sha256": "3a37038b56ddd29c0fbf6433498a02360fd12c9ea4ab758a594c01d7d852f1ad",
   "canonical_current_daily_at_production": "2026-09-23",
-  "canonical_mutation_performed": false,
-  "site_mutation_performed": false,
+  "canonical_mutation_performed": true,
+  "site_mutation_performed": true,
   "higher_cycle_write_performed": false,
-  "formal_status": "PENDING_WORK_RECONCILIATION_2026_09_24",
+  "formal_status": "FORMAL_CANONICAL_PUBLISHED",
   "failure_stage": null,
   "failure_reason": null,
-  "producer_completed_at": "2026-09-24T10:21:00+08:00"
+  "producer_completed_at": "2026-09-24T10:21:00+08:00",
+  "producer_manifest_provenance": {
+    "blob_sha": "aa067981da20f6ba5786c773558cbfe77486e6c0",
+    "producer_status": "PUBLIC_CORE_ACCEPTED",
+    "formal_status": "PENDING_WORK_RECONCILIATION_2026_09_24",
+    "failure_stage": null,
+    "failure_reason": null,
+    "producer_completed_at": "2026-09-24T10:21:00+08:00"
+  },
+  "product_status": "FORMAL_CANONICAL_PUBLISHED",
+  "canonical_promotion_performed": true,
+  "site_publication_performed": true,
+  "authority_policy_sha256": "ed69573e48d0daedd1b899ab2d6cf15880f37705f88b44b1a9d2ca26715f9905",
+  "public_contract_sha256": "64770bf24f1280d11060d6a905a659241d5e483109fc8c3e34195a8264fc48f6",
+  "public_site_version": 67,
+  "public_site_status": "PASS_REMOTE_READBACK",
+  "remote_readback_status": "PASS_REAL_REMOTE_CONTENT_V67",
+  "daily_download_sha256": "f64532c5c6aace4a48740d4a6a703ddc381399d6beac88ce5cad080c1f8001c6",
+  "consumer_reconciled_at": "2026-09-24T13:12:00+08:00",
+  "manifest_reconciliation_status": "PASS_AUTHORITY_CONSUMER_ACTUALS_TOP_LEVEL_CURRENT",
+  "substantive_content_changed_by_work": false
 }
+
