@@ -1,9 +1,9 @@
 {
   "schema_version": "REPORTOPS_R3_1_CHAT_STATUS_V1_5_SINGLE_SITE",
-  "scheduled_date": "2026-09-24",
-  "target_date": "2026-09-24",
-  "current_day_status": "FORMAL_CANONICAL_PUBLISHED",
-  "scheduled_run_status": "PASS",
+  "scheduled_date": "2026-09-25",
+  "target_date": null,
+  "current_day_status": "NO_NEW_ACCEPTED_DAILY__CURRENT_UNCHANGED",
+  "scheduled_run_status": "PASS_NO_NEW_PRODUCT__WORK_DETERMINISTIC_REPAIR_COMPLETE",
   "correction_backlog": {
     "status": "CLOSED",
     "chat_correction_required": false,
@@ -47,10 +47,16 @@
   "state_consistency_pointer_sha256": "befeb8a269f5948b81825f500547a1db957b8c3113a9af94de6fd9a9e458d987",
   "failure_stage": null,
   "failure_reason": null,
-  "next_action": "Only scan newer Chat-accepted products; unchanged version is idempotent.",
-  "updated_at": "2026-09-24T13:12:00+08:00",
+  "next_action": "Wait for the next accepted Daily or higher-cycle candidate; unchanged products remain idempotent.",
+  "updated_at": "2026-09-25T12:40:00+08:00",
   "queue_remaining": [],
   "pending_product": null,
   "manual_intervention_required": false,
-  "authority_package_sha256": "e4d982076315f7675d3df3d842c313aa4ba5b52599169491543ed1b52319fd0e"
+  "authority_package_sha256": "a242370a35aa401d9e4460af4d8cfd5905f6fd1ab928e9aba1da70d7aee8722c",
+  "queue_initial": [],
+  "products_preflighted": [],
+  "products_promoted": [],
+  "system_repairs": [
+    "state/energy/STATE_CONSISTENCY_VALIDATOR_LATEST.json__POINTER_PROVENANCE_REGENERATED"
+  ]
 }
