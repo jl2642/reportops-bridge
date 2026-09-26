@@ -1,0 +1,119 @@
+{
+  "schema_version": "REPORTOPS_EVIDENCE_V1_2_SOURCE_IDENTITY_V2",
+  "target_date": "2026-09-26",
+  "window": {
+    "start": "2026-09-25T10:00:00+08:00",
+    "end": "2026-09-26T10:00:00+08:00",
+    "timezone": "Asia/Shanghai"
+  },
+  "mode": "STRICT_NEW_PUBLIC",
+  "recovery_provenance": "BOUNDED_MANUAL_RECOVERY_20260926_FOR_MISSED_20260926_DAILY",
+  "guessed_url_count": 0,
+  "unsupported_core_claims": 0,
+  "records": [
+    {
+      "id": "E01",
+      "class": "CORE",
+      "support": "DIRECT",
+      "url": "https://www.marketscreener.com/news/oil-prices-slide-about-2-as-us-iran-explore-path-out-of-war-ce785adfd180f425",
+      "title": "Oil prices slide about 2% as US, Iran explore path out of war",
+      "publisher": "Reuters via MarketScreener",
+      "publication_time": "2026-09-25T15:29:00-04:00",
+      "url_identity_status": "PASS",
+      "url_verified_date": "2026-09-26",
+      "source_identity_receipt": {
+        "verification_method": "OPENED_EXACT_DOCUMENT",
+        "observed_url": "https://www.marketscreener.com/news/oil-prices-slide-about-2-as-us-iran-explore-path-out-of-war-ce785adfd180f425",
+        "canonical_url": "https://www.marketscreener.com/news/oil-prices-slide-about-2-as-us-iran-explore-path-out-of-war-ce785adfd180f425",
+        "observed_title": "Oil prices slide about 2% as US, Iran explore path out of war",
+        "observed_publisher": "Reuters via MarketScreener",
+        "title_match_status": "EXACT",
+        "verified_at": "2026-09-26T11:10:00+08:00"
+      }
+    },
+    {
+      "id": "E02",
+      "class": "CORE",
+      "support": "DIRECT",
+      "url": "https://bakerhughesrigcount.gcs-web.com/",
+      "title": "Rig Count Overview & Summary Count",
+      "publisher": "Baker Hughes",
+      "publication_time": "2026-09-25T12:00:00-05:00",
+      "url_identity_status": "PASS",
+      "url_verified_date": "2026-09-26",
+      "source_identity_receipt": {
+        "verification_method": "OPENED_EXACT_DOCUMENT",
+        "observed_url": "https://bakerhughesrigcount.gcs-web.com/",
+        "canonical_url": "https://bakerhughesrigcount.gcs-web.com/",
+        "observed_title": "Rig Count Overview & Summary Count",
+        "observed_publisher": "Baker Hughes",
+        "title_match_status": "EXACT",
+        "verified_at": "2026-09-26T11:10:00+08:00"
+      }
+    },
+    {
+      "id": "E03",
+      "class": "CORE",
+      "support": "DIRECT",
+      "url": "https://www.marketscreener.com/news/inpex-exercises-pre-emptive-rights-to-buy-jera-s-stake-in-ichthys-lng-project-ce785adfdd8ff221",
+      "title": "Inpex exercises pre-emptive rights to buy JERA's stake in Ichthys LNG project",
+      "publisher": "Reuters via MarketScreener",
+      "publication_time": "2026-09-25T05:12:00-04:00",
+      "url_identity_status": "PASS",
+      "url_verified_date": "2026-09-26",
+      "source_identity_receipt": {
+        "verification_method": "OPENED_EXACT_DOCUMENT",
+        "observed_url": "https://www.marketscreener.com/news/inpex-exercises-pre-emptive-rights-to-buy-jera-s-stake-in-ichthys-lng-project-ce785adfdd8ff221",
+        "canonical_url": "https://www.marketscreener.com/news/inpex-exercises-pre-emptive-rights-to-buy-jera-s-stake-in-ichthys-lng-project-ce785adfdd8ff221",
+        "observed_title": "Inpex exercises pre-emptive rights to buy JERA's stake in Ichthys LNG project",
+        "observed_publisher": "Reuters via MarketScreener",
+        "title_match_status": "EXACT",
+        "verified_at": "2026-09-26T11:10:00+08:00"
+      }
+    },
+    {
+      "id": "E04",
+      "class": "MATERIAL",
+      "support": "DIRECT",
+      "url": "https://www.eia.gov/todayinenergy/detail.php?id=68204",
+      "title": "Henry Hub natural gas prices this summer were 6% lower than last summer",
+      "publisher": "U.S. Energy Information Administration",
+      "publication_time": "2026-09-25",
+      "time_precision": "DATE_ONLY",
+      "window_use_boundary": "STRUCTURAL_CONTEXT_ONLY_NOT_SOLE_WINDOW_GATE",
+      "url_identity_status": "PASS",
+      "url_verified_date": "2026-09-26",
+      "source_identity_receipt": {
+        "verification_method": "OPENED_EXACT_DOCUMENT",
+        "observed_url": "https://www.eia.gov/todayinenergy/detail.php?id=68204",
+        "canonical_url": "https://www.eia.gov/todayinenergy/detail.php?id=68204",
+        "observed_title": "Henry Hub natural gas prices this summer were 6% lower than last summer",
+        "observed_publisher": "U.S. Energy Information Administration",
+        "title_match_status": "EXACT",
+        "verified_at": "2026-09-26T11:10:00+08:00"
+      }
+    },
+    {
+      "id": "E05",
+      "class": "MATERIAL",
+      "support": "DIRECT",
+      "url": "https://boereport.com/2026/09/25/us-energy-firms-add-rigs-for-third-week-to-highest-since-2024-says-baker-hughes/",
+      "title": "US energy firms add rigs for third week to highest since 2024, says Baker Hughes",
+      "publisher": "Reuters via BOE Report",
+      "publication_time": "2026-09-25T11:25:00",
+      "time_precision": "SITE_CLOCK_TIMEZONE_NOT_EXPOSED",
+      "window_use_boundary": "CORROBORATION_ONLY; E02 OFFICIAL SOURCE CONTROLS WINDOW GATE",
+      "url_identity_status": "PASS",
+      "url_verified_date": "2026-09-26",
+      "source_identity_receipt": {
+        "verification_method": "OPENED_EXACT_DOCUMENT",
+        "observed_url": "https://boereport.com/2026/09/25/us-energy-firms-add-rigs-for-third-week-to-highest-since-2024-says-baker-hughes/",
+        "canonical_url": "https://boereport.com/2026/09/25/us-energy-firms-add-rigs-for-third-week-to-highest-since-2024-says-baker-hughes/",
+        "observed_title": "US energy firms add rigs for third week to highest since 2024, says Baker Hughes",
+        "observed_publisher": "Reuters via BOE Report",
+        "title_match_status": "EXACT",
+        "verified_at": "2026-09-26T11:10:00+08:00"
+      }
+    }
+  ]
+}
