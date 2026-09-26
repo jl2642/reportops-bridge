@@ -17,7 +17,7 @@
       "support": "DIRECT",
       "url": "https://www.marketscreener.com/news/oil-prices-slide-about-2-as-us-iran-explore-path-out-of-war-ce785adfd180f425",
       "title": "Oil prices slide about 2% as US, Iran explore path out of war",
-      "publisher": "Reuters via MarketScreener",
+      "publisher": "MarketScreener",
       "publication_time": "2026-09-25T15:29:00-04:00",
       "url_identity_status": "PASS",
       "url_verified_date": "2026-09-26",
@@ -26,10 +26,11 @@
         "observed_url": "https://www.marketscreener.com/news/oil-prices-slide-about-2-as-us-iran-explore-path-out-of-war-ce785adfd180f425",
         "canonical_url": "https://www.marketscreener.com/news/oil-prices-slide-about-2-as-us-iran-explore-path-out-of-war-ce785adfd180f425",
         "observed_title": "Oil prices slide about 2% as US, Iran explore path out of war",
-        "observed_publisher": "Reuters via MarketScreener",
+        "observed_publisher": "MarketScreener",
         "title_match_status": "EXACT",
-        "verified_at": "2026-09-26T11:10:00+08:00"
-      }
+        "verified_at": "2026-09-26T14:08:00+08:00"
+      },
+      "content_origin_attribution": "Reuters"
     },
     {
       "id": "E02",
@@ -57,7 +58,7 @@
       "support": "DIRECT",
       "url": "https://www.marketscreener.com/news/inpex-exercises-pre-emptive-rights-to-buy-jera-s-stake-in-ichthys-lng-project-ce785adfdd8ff221",
       "title": "Inpex exercises pre-emptive rights to buy JERA's stake in Ichthys LNG project",
-      "publisher": "Reuters via MarketScreener",
+      "publisher": "MarketScreener",
       "publication_time": "2026-09-25T05:12:00-04:00",
       "url_identity_status": "PASS",
       "url_verified_date": "2026-09-26",
@@ -66,10 +67,11 @@
         "observed_url": "https://www.marketscreener.com/news/inpex-exercises-pre-emptive-rights-to-buy-jera-s-stake-in-ichthys-lng-project-ce785adfdd8ff221",
         "canonical_url": "https://www.marketscreener.com/news/inpex-exercises-pre-emptive-rights-to-buy-jera-s-stake-in-ichthys-lng-project-ce785adfdd8ff221",
         "observed_title": "Inpex exercises pre-emptive rights to buy JERA's stake in Ichthys LNG project",
-        "observed_publisher": "Reuters via MarketScreener",
+        "observed_publisher": "MarketScreener",
         "title_match_status": "EXACT",
-        "verified_at": "2026-09-26T11:10:00+08:00"
-      }
+        "verified_at": "2026-09-26T14:08:00+08:00"
+      },
+      "content_origin_attribution": "Reuters"
     },
     {
       "id": "E04",
@@ -99,7 +101,7 @@
       "support": "DIRECT",
       "url": "https://boereport.com/2026/09/25/us-energy-firms-add-rigs-for-third-week-to-highest-since-2024-says-baker-hughes/",
       "title": "US energy firms add rigs for third week to highest since 2024, says Baker Hughes",
-      "publisher": "Reuters via BOE Report",
+      "publisher": "BOE Report",
       "publication_time": "2026-09-25T11:25:00",
       "time_precision": "SITE_CLOCK_TIMEZONE_NOT_EXPOSED",
       "window_use_boundary": "CORROBORATION_ONLY; E02 OFFICIAL SOURCE CONTROLS WINDOW GATE",
@@ -110,10 +112,28 @@
         "observed_url": "https://boereport.com/2026/09/25/us-energy-firms-add-rigs-for-third-week-to-highest-since-2024-says-baker-hughes/",
         "canonical_url": "https://boereport.com/2026/09/25/us-energy-firms-add-rigs-for-third-week-to-highest-since-2024-says-baker-hughes/",
         "observed_title": "US energy firms add rigs for third week to highest since 2024, says Baker Hughes",
-        "observed_publisher": "Reuters via BOE Report",
+        "observed_publisher": "BOE Report",
         "title_match_status": "EXACT",
-        "verified_at": "2026-09-26T11:10:00+08:00"
-      }
+        "verified_at": "2026-09-26T14:08:00+08:00"
+      },
+      "content_origin_attribution": "Reuters"
     }
-  ]
+  ],
+  "correction_provenance": {
+    "corrected_at": "2026-09-26T14:08:00+08:00",
+    "correction_type": "SOURCE_IDENTITY_PUBLISHER_DOMAIN_ALIGNMENT",
+    "changed_records": [
+      "E01",
+      "E03",
+      "E05"
+    ],
+    "changed_fields": [
+      "publisher",
+      "source_identity_receipt.observed_publisher"
+    ],
+    "facts_or_urls_changed": false,
+    "narrative_changed": false,
+    "prior_consumer_failure": "FAIL__SOURCE_IDENTITY_CONFLICT__E01_E03_REUTERS_VIA_MARKETSCREENER_HOST_MARKETSCREENER_COM__E05_REUTERS_VIA_BOE_REPORT_HOST_BOEREPORT_COM",
+    "status": "CHAT_CORRECTION_APPLIED_PENDING_WORK_REVALIDATION"
+  }
 }
