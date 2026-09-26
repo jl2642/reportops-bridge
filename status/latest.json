@@ -2,28 +2,28 @@
   "schema_version": "REPORTOPS_R3_1_CHAT_STATUS_V1_5_SINGLE_SITE",
   "scheduled_date": "2026-09-26",
   "target_date": "2026-09-26",
-  "current_day_status": "BLOCKED_PRODUCT_LOCAL__SOURCE_IDENTITY_GATE_V2",
-  "scheduled_run_status": "PARTIAL_SUCCESS__DAILY_2026_09_25_PROMOTED_AND_PUBLISHED__DAILY_2026_09_26_FAIL_CLOSED",
+  "current_day_status": "PUBLIC_CORE_ACCEPTED_PENDING_WORK_REVALIDATION",
+  "scheduled_run_status": "CHAT_CORRECTION_APPLIED__DAILY_2026_09_26_PENDING_WORK_REVALIDATION",
   "correction_backlog": {
-    "status": "OPEN_CHAT_CORRECTION_REQUIRED",
-    "chat_correction_required": true,
-    "correction_dates": [
+    "status": "CHAT_CORRECTION_APPLIED_PENDING_WORK_REVALIDATION",
+    "chat_correction_required": false,
+    "correction_dates": [],
+    "resolved_dates": [
+      "2026-09-18",
       "2026-09-26"
     ],
-    "resolved_dates": [
-      "2026-09-18"
-    ],
-    "blocking_gate": "SOURCE_IDENTITY_GATE_V2",
+    "blocking_gate": null,
     "exact_measured_values": {
-      "E01": "PUBLISHER_DOMAIN_MISMATCH__www.marketscreener.com",
-      "E03": "PUBLISHER_DOMAIN_MISMATCH__www.marketscreener.com",
-      "E05": "PUBLISHER_DOMAIN_MISMATCH__boereport.com"
+      "E01": "CORRECTED_PUBLISHER=MarketScreener__HOST=www.marketscreener.com",
+      "E03": "CORRECTED_PUBLISHER=MarketScreener__HOST=www.marketscreener.com",
+      "E05": "CORRECTED_PUBLISHER=BOE Report__HOST=boereport.com"
     },
-    "research_review_required": true,
-    "evidence_change_required": true,
-    "work_may_rewrite": false
+    "research_review_required": false,
+    "evidence_change_required": false,
+    "work_may_rewrite": false,
+    "pending_consumer_revalidation": true
   },
-  "source_identity_gate_status": "FAIL_SOURCE_IDENTITY_GATE_V2__CONSUMER_MEASURED",
+  "source_identity_gate_status": "CHAT_CORRECTION_APPLIED_PENDING_CONSUMER_REVALIDATION",
   "inline_citation_gate_status": "PASS_V2_SOURCE_LEVEL",
   "signal_priority_status": "PASS",
   "exact_v4_machine_structure_status": "PASS",
@@ -41,13 +41,13 @@
   "global_energy_cjk_actual": 123,
   "industry_operator_cjk_actual": 177,
   "depth_policy_public_contract_sha256": "64770bf24f1280d11060d6a905a659241d5e483109fc8c3e34195a8264fc48f6",
-  "evidence_status": "FAIL_SOURCE_IDENTITY_CONFLICT__CHAT_REVIEW_REQUIRED",
+  "evidence_status": "CHAT_CORRECTION_APPLIED_PENDING_CONSUMER_REVALIDATION",
   "privacy_status": "PASS_PUBLIC_SAFE_SINGLE_SITE",
   "window_status": "PASS",
   "data_gap_boundary_status": "PASS",
   "current_daily_public": "2026-09-25",
   "current_weekly_public": "2026-W38",
-  "formal_status": "PARTIAL_SUCCESS__BLOCKED_LOCAL_REMAINS",
+  "formal_status": "PENDING_WORK_RECONCILIATION",
   "canonical_promotion_performed": true,
   "site_publication_performed": true,
   "public_site_version": 70,
@@ -55,10 +55,10 @@
   "manifest_reconciliation_status": "PASS_2026_09_25_FORMAL_CANONICAL_PUBLISHED__2026_09_26_CORRECTION_OPEN",
   "metadata_freshness": "PASS__13_CURRENT_DERIVED_VIEWS__POINTER_MATCH",
   "state_consistency_pointer_sha256": "792129c759ae6bd242d6fde7d5789a2598b7d40f7443dcc7f6e520700b5d997a",
-  "failure_stage": "DAILY_2026_09_26_SOURCE_IDENTITY_GATE",
-  "failure_reason": "Consumer Source Identity V2 measured publisher-domain mismatch for E01, E03, and E05; producer self-report PASS was not used to override Authority validation.",
-  "next_action": "Chat must correct/review 2026-09-26 Evidence/manifest source identity for E01/E03/E05; Work must not rewrite prose or Evidence.",
-  "updated_at": "2026-09-26T13:10:00+08:00",
+  "failure_stage": null,
+  "failure_reason": null,
+  "next_action": "12:30 Work revalidates corrected 2026-09-26 Evidence/manifest and promotes atomically if all gates pass.",
+  "updated_at": "2026-09-26T14:08:00+08:00",
   "queue_remaining": [
     "2026-09-26"
   ],
@@ -76,10 +76,10 @@
   "products_promoted": [
     "2026-09-25"
   ],
-  "products_blocked_local": [
+  "products_blocked_local": [],
+  "eligible_unpublished_products": [
     "2026-09-26"
   ],
-  "eligible_unpublished_products": [],
   "preflight_blocker_matrix": "PREFLIGHT_BLOCKER_MATRIX_20260926.json",
   "recovery_provenance": {
     "mode": "BOUNDED_MANUAL_RECOVERY_20260926",
@@ -94,5 +94,16 @@
   "download_sha_status": "PASS_REMOTE_SHA256_AND_UNZIP",
   "public_daily_2026_09_25_download_sha256": "b4a80928e9755db168822874115c2d40069f3d9ad919416291e739dee8db7e72",
   "public_weekly_2026_w38_download_sha256": "551496a55a54f77721bbb1a7d2f0dc584956e0a18c188c44c9b90ec1a0a6305a",
-  "higher_cycle_dependency_state": "W39_5_OF_7__NO_CHAT_ACCEPTED_HIGHER_CYCLE_CANDIDATE"
+  "higher_cycle_dependency_state": "W39_5_OF_7__NO_CHAT_ACCEPTED_HIGHER_CYCLE_CANDIDATE",
+  "correction_provenance": {
+    "corrected_at": "2026-09-26T14:08:00+08:00",
+    "changed_records": [
+      "E01",
+      "E03",
+      "E05"
+    ],
+    "substantive_content_changed": false,
+    "urls_changed": false,
+    "claims_changed": false
+  }
 }
