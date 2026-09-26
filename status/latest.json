@@ -2,18 +2,24 @@
   "schema_version": "REPORTOPS_R3_1_CHAT_STATUS_V1_5_SINGLE_SITE",
   "scheduled_date": "2026-09-26",
   "target_date": "2026-09-26",
-  "current_day_status": "PUBLIC_CORE_ACCEPTED_PENDING_WORK__RECOVERY_QUEUE_2",
-  "scheduled_run_status": "PASS_BOUNDED_RECOVERY__2026_09_25_AND_2026_09_26__AWAITING_WORK",
+  "current_day_status": "BLOCKED_PRODUCT_LOCAL__SOURCE_IDENTITY_GATE_V2",
+  "scheduled_run_status": "WORK_PREFLIGHT_COMPLETE__2026_09_25_READY__2026_09_26_BLOCKED_LOCAL",
   "correction_backlog": {
-    "status": "CLOSED",
-    "chat_correction_required": false,
-    "correction_dates": [],
-    "resolved_dates": [
-      "2026-09-18"
-    ],
-    "blocking_gate": null
+    "status": "OPEN_CHAT_CORRECTION_REQUIRED",
+    "chat_correction_required": true,
+    "correction_dates": ["2026-09-26"],
+    "resolved_dates": ["2026-09-18"],
+    "blocking_gate": "SOURCE_IDENTITY_GATE_V2",
+    "exact_measured_values": {
+      "E01": "PUBLISHER_DOMAIN_MISMATCH__www.marketscreener.com",
+      "E03": "PUBLISHER_DOMAIN_MISMATCH__www.marketscreener.com",
+      "E05": "PUBLISHER_DOMAIN_MISMATCH__boereport.com"
+    },
+    "research_review_required": true,
+    "evidence_change_required": true,
+    "work_may_rewrite": false
   },
-  "source_identity_gate_status": "PASS_V2",
+  "source_identity_gate_status": "FAIL_SOURCE_IDENTITY_GATE_V2__CONSUMER_MEASURED",
   "inline_citation_gate_status": "PASS_V2_SOURCE_LEVEL",
   "signal_priority_status": "PASS",
   "exact_v4_machine_structure_status": "PASS",
@@ -21,60 +27,42 @@
   "cjk_characters_actual": 3052,
   "executive_cjk_actual": 216,
   "key_signal_cjk_actual": 1456,
-  "signal_card_cjk_actual": [
-    394,
-    348,
-    372,
-    330
-  ],
+  "signal_card_cjk_actual": [394,348,372,330],
   "china_chain_cjk_actual": 138,
   "global_energy_cjk_actual": 123,
   "industry_operator_cjk_actual": 177,
   "depth_policy_public_contract_sha256": "64770bf24f1280d11060d6a905a659241d5e483109fc8c3e34195a8264fc48f6",
-  "evidence_status": "PASS_STRICT_NEW_PUBLIC_SOURCE_IDENTITY_V2",
+  "evidence_status": "FAIL_SOURCE_IDENTITY_CONFLICT__CHAT_REVIEW_REQUIRED",
   "privacy_status": "PASS_PUBLIC_SAFE_SINGLE_SITE",
   "window_status": "PASS",
   "data_gap_boundary_status": "PASS",
   "current_daily_public": "2026-09-24",
   "current_weekly_public": "2026-W38",
-  "formal_status": "PENDING_WORK_RECONCILIATION",
+  "formal_status": "PREFLIGHT_COMPLETE__PARTIAL_PROMOTION_PENDING",
   "canonical_promotion_performed": false,
   "site_publication_performed": false,
   "public_site_version": 67,
   "public_site_status": "PASS_REAL_REMOTE_CONTENT_V67",
-  "manifest_reconciliation_status": "PENDING_WORK_RECONCILIATION_FOR_2026_09_25_2026_09_26",
+  "manifest_reconciliation_status": "PENDING_2026_09_25_PROMOTION__2026_09_26_BLOCKED_LOCAL",
   "metadata_freshness": "PASS__13_CURRENT_DERIVED_VIEWS",
   "state_consistency_pointer_sha256": "befeb8a269f5948b81825f500547a1db957b8c3113a9af94de6fd9a9e458d987",
-  "failure_stage": null,
-  "failure_reason": null,
-  "next_action": "12:30 Work must consume 2026-09-25 then 2026-09-26 oldest-first, atomically promote each passing product, then publish/read back the single public site.",
-  "updated_at": "2026-09-26T11:15:00+08:00",
-  "queue_remaining": [
-    "2026-09-25",
-    "2026-09-26"
-  ],
+  "failure_stage": "DAILY_2026_09_26_SOURCE_IDENTITY_GATE",
+  "failure_reason": "Consumer Source Identity V2 measured publisher-domain mismatch for E01, E03, and E05; producer self-report PASS was not used to override Authority validation.",
+  "next_action": "Promote independent READY Daily 2026-09-25; hold 2026-09-26 for Chat-accepted Evidence/manifest correction, without Work rewriting prose or Evidence.",
+  "updated_at": "2026-09-26T12:44:00+08:00",
+  "queue_remaining": ["2026-09-25","2026-09-26"],
   "pending_product": "2026-09-25",
   "manual_intervention_required": false,
   "authority_package_sha256": "a242370a35aa401d9e4460af4d8cfd5905f6fd1ab928e9aba1da70d7aee8722c",
-  "queue_initial": [
-    "2026-09-25",
-    "2026-09-26"
-  ],
-  "products_preflighted": [],
+  "queue_initial": ["2026-09-25","2026-09-26"],
+  "products_preflighted": ["2026-09-25","2026-09-26"],
   "products_promoted": [],
-  "system_repairs": [
-    "state/energy/STATE_CONSISTENCY_VALIDATOR_LATEST.json__POINTER_PROVENANCE_REGENERATED"
-  ],
-  "eligible_unpublished_products": [
-    "2026-09-25",
-    "2026-09-26"
-  ],
+  "products_blocked_local": ["2026-09-26"],
+  "eligible_unpublished_products": ["2026-09-25"],
+  "preflight_blocker_matrix": "PREFLIGHT_BLOCKER_MATRIX_20260926.json",
   "recovery_provenance": {
     "mode": "BOUNDED_MANUAL_RECOVERY_20260926",
-    "recovered_dates": [
-      "2026-09-25",
-      "2026-09-26"
-    ],
+    "recovered_dates": ["2026-09-25","2026-09-26"],
     "original_scheduled_run_pass_claimed": false,
     "producer_automation_restored": true
   }
