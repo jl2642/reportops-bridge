@@ -1,9 +1,9 @@
 {
   "schema_version": "REPORTOPS_R3_1_CHAT_STATUS_V1_5_SINGLE_SITE",
-  "scheduled_date": "2026-09-25",
-  "target_date": null,
-  "current_day_status": "NO_NEW_ACCEPTED_DAILY__CURRENT_UNCHANGED",
-  "scheduled_run_status": "PASS_NO_NEW_PRODUCT__WORK_DETERMINISTIC_REPAIR_COMPLETE",
+  "scheduled_date": "2026-09-26",
+  "target_date": "2026-09-26",
+  "current_day_status": "PUBLIC_CORE_ACCEPTED_PENDING_WORK__RECOVERY_QUEUE_2",
+  "scheduled_run_status": "PASS_BOUNDED_RECOVERY__2026_09_25_AND_2026_09_26__AWAITING_WORK",
   "correction_backlog": {
     "status": "CLOSED",
     "chat_correction_required": false,
@@ -18,18 +18,18 @@
   "signal_priority_status": "PASS",
   "exact_v4_machine_structure_status": "PASS",
   "v4_public_depth_gate_status": "PASS",
-  "cjk_characters_actual": 4200,
-  "executive_cjk_actual": 274,
-  "key_signal_cjk_actual": 1982,
+  "cjk_characters_actual": 3052,
+  "executive_cjk_actual": 216,
+  "key_signal_cjk_actual": 1456,
   "signal_card_cjk_actual": [
-    499,
-    484,
-    508,
-    479
+    394,
+    348,
+    372,
+    330
   ],
-  "china_chain_cjk_actual": 203,
-  "global_energy_cjk_actual": 193,
-  "industry_operator_cjk_actual": 271,
+  "china_chain_cjk_actual": 138,
+  "global_energy_cjk_actual": 123,
+  "industry_operator_cjk_actual": 177,
   "depth_policy_public_contract_sha256": "64770bf24f1280d11060d6a905a659241d5e483109fc8c3e34195a8264fc48f6",
   "evidence_status": "PASS_STRICT_NEW_PUBLIC_SOURCE_IDENTITY_V2",
   "privacy_status": "PASS_PUBLIC_SAFE_SINGLE_SITE",
@@ -37,26 +37,45 @@
   "data_gap_boundary_status": "PASS",
   "current_daily_public": "2026-09-24",
   "current_weekly_public": "2026-W38",
-  "formal_status": "FORMAL_CANONICAL_PUBLISHED",
-  "canonical_promotion_performed": true,
-  "site_publication_performed": true,
+  "formal_status": "PENDING_WORK_RECONCILIATION",
+  "canonical_promotion_performed": false,
+  "site_publication_performed": false,
   "public_site_version": 67,
   "public_site_status": "PASS_REAL_REMOTE_CONTENT_V67",
-  "manifest_reconciliation_status": "PASS_AUTHORITY_CONSUMER_ACTUALS_TOP_LEVEL_CURRENT",
+  "manifest_reconciliation_status": "PENDING_WORK_RECONCILIATION_FOR_2026_09_25_2026_09_26",
   "metadata_freshness": "PASS__13_CURRENT_DERIVED_VIEWS",
   "state_consistency_pointer_sha256": "befeb8a269f5948b81825f500547a1db957b8c3113a9af94de6fd9a9e458d987",
   "failure_stage": null,
   "failure_reason": null,
-  "next_action": "Wait for the next accepted Daily or higher-cycle candidate; unchanged products remain idempotent.",
-  "updated_at": "2026-09-25T12:40:00+08:00",
-  "queue_remaining": [],
-  "pending_product": null,
+  "next_action": "12:30 Work must consume 2026-09-25 then 2026-09-26 oldest-first, atomically promote each passing product, then publish/read back the single public site.",
+  "updated_at": "2026-09-26T11:15:00+08:00",
+  "queue_remaining": [
+    "2026-09-25",
+    "2026-09-26"
+  ],
+  "pending_product": "2026-09-25",
   "manual_intervention_required": false,
   "authority_package_sha256": "a242370a35aa401d9e4460af4d8cfd5905f6fd1ab928e9aba1da70d7aee8722c",
-  "queue_initial": [],
+  "queue_initial": [
+    "2026-09-25",
+    "2026-09-26"
+  ],
   "products_preflighted": [],
   "products_promoted": [],
   "system_repairs": [
     "state/energy/STATE_CONSISTENCY_VALIDATOR_LATEST.json__POINTER_PROVENANCE_REGENERATED"
-  ]
+  ],
+  "eligible_unpublished_products": [
+    "2026-09-25",
+    "2026-09-26"
+  ],
+  "recovery_provenance": {
+    "mode": "BOUNDED_MANUAL_RECOVERY_20260926",
+    "recovered_dates": [
+      "2026-09-25",
+      "2026-09-26"
+    ],
+    "original_scheduled_run_pass_claimed": false,
+    "producer_automation_restored": true
+  }
 }
