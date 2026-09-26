@@ -1,0 +1,44 @@
+{
+  "schema_version": "REPORTOPS_WORK_PREFLIGHT_CORRECTION_REQUEST_V1",
+  "target_date": "2026-09-26",
+  "detected_at": "2026-09-26T12:42:00+08:00",
+  "authority_sha": "a242370a35aa401d9e4460af4d8cfd5905f6fd1ab928e9aba1da70d7aee8722c",
+  "public_core_blob_sha": "d81bfef3b502e8943974b6cf3ac186a5e689ab43",
+  "manifest_blob_sha": "5f634bef06d362d81ae5edbc1f9541d0572f6d1e",
+  "blocking_gate": "SOURCE_IDENTITY_GATE_V2",
+  "exact_measured_values": {
+    "external_records": 5,
+    "failed_records": [
+      {
+        "evidence_id": "E01",
+        "publisher": "Reuters via MarketScreener",
+        "canonical_host": "www.marketscreener.com",
+        "measured_issue": "PUBLISHER_DOMAIN_MISMATCH"
+      },
+      {
+        "evidence_id": "E03",
+        "publisher": "Reuters via MarketScreener",
+        "canonical_host": "www.marketscreener.com",
+        "measured_issue": "PUBLISHER_DOMAIN_MISMATCH"
+      },
+      {
+        "evidence_id": "E05",
+        "publisher": "Reuters via BOE Report",
+        "canonical_host": "boereport.com",
+        "measured_issue": "PUBLISHER_DOMAIN_MISMATCH"
+      }
+    ],
+    "consumer_status": "FAIL_SOURCE_IDENTITY_GATE_V2",
+    "producer_manifest_status": "PASS_V2"
+  },
+  "required_floor": {
+    "external_core_material_records": "each record must pass acquisition receipt, URL identity, publisher match, and publisher-domain identity under Authority Source Identity Gate V2",
+    "source": "Authority scripts/ops/source_identity_gate_v2.py"
+  },
+  "classification": "CHAT_CORRECTION_REQUIRED",
+  "research_repeated": false,
+  "evidence_change_required": true,
+  "research_review_required": true,
+  "work_may_rewrite": false,
+  "next_action": "Chat must review source attribution/canonical identity for E01, E03, and E05 and return a formally accepted corrected Evidence/manifest pair without Work changing prose or Evidence."
+}
