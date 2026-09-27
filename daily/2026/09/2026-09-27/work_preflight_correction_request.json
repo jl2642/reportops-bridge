@@ -1,0 +1,35 @@
+{
+  "schema_version": "REPORTOPS_WORK_PREFLIGHT_CORRECTION_REQUEST_V1",
+  "target_date": "2026-09-27",
+  "detected_at": "2026-09-27T12:42:00+08:00",
+  "authority_sha": "b573ff59b49711eb6da514b81a8fae093a8b2ed2881fa233948680190a8c9c33",
+  "public_core_blob_sha": "014454b265011a00349c230c5745e6f1f7ac66a7",
+  "manifest_blob_sha": "113dac5c734a21152888f88d67c07c652ae5efec",
+  "blocking_gate": "INLINE_CITATION_GATE_V2",
+  "exact_measured_values": {
+    "unique_external_source_urls": 4,
+    "external_evidence_records": 4,
+    "inline_markdown_links": 22,
+    "failed_urls": [
+      "https://www.theguardian.com/world/2026/sep/26/trump-dismiss-iran-seven-day-peace-deal-hormuz"
+    ],
+    "issues": [
+      {
+        "source_id": "E04",
+        "issue": "SOURCE_URL_NOT_INLINE_IN_NARRATIVE"
+      }
+    ]
+  },
+  "required_floor": {
+    "value": null,
+    "rule": "EVERY_EXTERNAL_SOURCE_URL_MUST_APPEAR_AS_CLICKABLE_INLINE_CITATION_IN_NARRATIVE",
+    "policy_source": "Authority scripts/product/PRODUCT_FINAL_COMPOSITION_POLICY_V4.json + verified INLINE_CITATION_GATE_V2",
+    "public_contract_sha256": "64770bf24f1280d11060d6a905a659241d5e483109fc8c3e34195a8264fc48f6"
+  },
+  "classification": "CHAT_CORRECTION_REQUIRED",
+  "research_repeated": false,
+  "evidence_change_required": false,
+  "research_review_required": false,
+  "work_may_rewrite": false,
+  "next_action": "Chat must place the existing E04 Guardian URL as a clickable inline citation in the relevant narrative sentence; preserve facts, claims, Evidence records, and source URLs."
+}
