@@ -2,40 +2,32 @@
   "schema_version": "REPORTOPS_R3_1_CHAT_STATUS_V1_5_SINGLE_SITE",
   "scheduled_date": "2026-09-27",
   "target_date": "2026-09-27",
-  "current_day_status": "BLOCKED_PRODUCT_LOCAL_CHAT_CORRECTION_REQUIRED",
+  "current_day_status": "PUBLIC_CORE_ACCEPTED_PENDING_WORK_REVALIDATION",
   "scheduled_run_status": "BOUNDED_MANUAL_RECOVERY_AFTER_TRIGGERED_RUN_NO_DURABLE_OUTPUT_AND_TASK_DISABLED",
   "correction_backlog": {
-    "status": "OPEN_CHAT_CORRECTION_REQUIRED",
-    "chat_correction_required": true,
-    "correction_dates": [
-      "2026-09-27"
-    ],
+    "status": "CHAT_CORRECTION_APPLIED_PENDING_WORK_REVALIDATION",
+    "chat_correction_required": false,
+    "correction_dates": [],
     "resolved_dates": [
       "2026-09-18",
-      "2026-09-26"
+      "2026-09-26",
+      "2026-09-27"
     ],
-    "blocking_gate": "INLINE_CITATION_GATE_V2",
+    "blocking_gate": null,
     "exact_measured_values": {
       "unique_external_source_urls": 4,
       "external_evidence_records": 4,
-      "inline_markdown_links": 22,
-      "failed_urls": [
-        "https://www.theguardian.com/world/2026/sep/26/trump-dismiss-iran-seven-day-peace-deal-hormuz"
-      ],
-      "issues": [
-        {
-          "source_id": "E04",
-          "issue": "SOURCE_URL_NOT_INLINE_IN_NARRATIVE"
-        }
-      ]
+      "inline_markdown_links_in_narrative": 23,
+      "failed_urls": [],
+      "issues": []
     },
     "research_review_required": false,
     "evidence_change_required": false,
     "work_may_rewrite": false,
-    "pending_consumer_revalidation": false
+    "pending_consumer_revalidation": true
   },
   "source_identity_gate_status": "PASS_V2_CONSUMER_MEASURED",
-  "inline_citation_gate_status": "FAIL_V2_CONSUMER_MEASURED",
+  "inline_citation_gate_status": "CHAT_CORRECTION_APPLIED_PENDING_CONSUMER_REVALIDATION",
   "signal_priority_status": "PASS",
   "exact_v4_machine_structure_status": "PASS_CONSUMER_MEASURED",
   "v4_public_depth_gate_status": "PASS_CONSUMER_MEASURED",
@@ -62,13 +54,13 @@
   "site_publication_performed": true,
   "public_site_version": 71,
   "public_site_status": "PASS_V71_REMOTE_READBACK",
-  "manifest_reconciliation_status": "PASS_2026_09_26_FORMAL_CANONICAL_PUBLISHED__2026_09_27_BLOCKED_PRODUCT_LOCAL_CONSUMER_MEASURED",
+  "manifest_reconciliation_status": "PASS_2026_09_26_FORMAL_CANONICAL_PUBLISHED__2026_09_27_CHAT_CORRECTED_PENDING_WORK_REVALIDATION",
   "metadata_freshness": "PASS__13_CURRENT_DERIVED_VIEWS__POINTER_MATCH",
   "state_consistency_pointer_sha256": "8489e520a17e3024c685a2defc3bb5690b1edb9f5689ae02edf496ad8d60464c",
-  "failure_stage": "DAILY_2026_09_27_INLINE_CITATION_GATE",
-  "failure_reason": "E04 Guardian source URL is not a clickable inline citation in narrative; consumer measurement overrides producer PASS.",
-  "next_action": "Chat must place the existing E04 Guardian URL inline in 2026-09-27 narrative without changing facts or Evidence; next Work run revalidates 2026-09-27 only.",
-  "updated_at": "2026-09-27T13:15:00+08:00",
+  "failure_stage": null,
+  "failure_reason": null,
+  "next_action": "Next 12:30 Work run revalidates corrected 2026-09-27 only; if all gates pass, promote Canonical, publish Site, sync runtime, then W39 becomes 7/7.",
+  "updated_at": "2026-09-27T22:50:00+08:00",
   "queue_remaining": [
     "2026-09-27"
   ],
@@ -86,9 +78,7 @@
   "products_promoted": [
     "2026-09-26"
   ],
-  "products_blocked_local": [
-    "2026-09-27"
-  ],
+  "products_blocked_local": [],
   "eligible_unpublished_products": [
     "2026-09-27"
   ],
@@ -124,5 +114,16 @@
     "2026-09-27__RESOLVED_AFTER_2026_09_26_PROMOTION"
   ],
   "public_daily_2026_09_26_download_sha256": "ea94ce1f2f69b3efa270295fb9f7b04c248280ea057a6a8721a7d3602522ba43",
-  "reportops_status": "PARTIAL_SUCCESS__DAILY_2026_09_26_PROMOTED_AND_PUBLISHED__DAILY_2026_09_27_FAIL_CLOSED"
+  "reportops_status": "PARTIAL_SUCCESS__DAILY_2026_09_26_FORMAL__DAILY_2026_09_27_CHAT_CORRECTED_PENDING_WORK_REVALIDATION",
+  "correction_provenance_2026_09_27": {
+    "corrected_at": "2026-09-27T22:50:00+08:00",
+    "correction_type": "INLINE_CITATION_PLACEMENT_ONLY",
+    "corrected_source_id": "E04",
+    "public_core_blob_sha": "1b45c823072f420eb42b4cae46890ef1ddc0899c",
+    "evidence_changed": false,
+    "research_repeated": false,
+    "urls_changed": false,
+    "claims_changed": false,
+    "inline_external_sources_after": "PASS_4_OF_4"
+  }
 }
