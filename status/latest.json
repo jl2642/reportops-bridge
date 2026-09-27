@@ -2,7 +2,7 @@
   "schema_version": "REPORTOPS_R3_1_CHAT_STATUS_V1_5_SINGLE_SITE",
   "scheduled_date": "2026-09-27",
   "target_date": "2026-09-27",
-  "current_day_status": "PUBLIC_CORE_ACCEPTED_PENDING_WORK",
+  "current_day_status": "BLOCKED_PRODUCT_LOCAL_CHAT_CORRECTION_REQUIRED",
   "scheduled_run_status": "BOUNDED_MANUAL_RECOVERY_AFTER_TRIGGERED_RUN_NO_DURABLE_OUTPUT_AND_TASK_DISABLED",
   "correction_backlog": {
     "status": "OPEN_CHAT_CORRECTION_REQUIRED",
@@ -34,11 +34,11 @@
     "work_may_rewrite": false,
     "pending_consumer_revalidation": false
   },
-  "source_identity_gate_status": "PASS_V2",
+  "source_identity_gate_status": "PASS_V2_CONSUMER_MEASURED",
   "inline_citation_gate_status": "FAIL_V2_CONSUMER_MEASURED",
   "signal_priority_status": "PASS",
-  "exact_v4_machine_structure_status": "PASS",
-  "v4_public_depth_gate_status": "PASS",
+  "exact_v4_machine_structure_status": "PASS_CONSUMER_MEASURED",
+  "v4_public_depth_gate_status": "PASS_CONSUMER_MEASURED",
   "cjk_characters_actual": 3354,
   "executive_cjk_actual": 357,
   "key_signal_cjk_actual": 1406,
@@ -55,43 +55,41 @@
   "privacy_status": "PASS_PUBLIC_SAFE_SINGLE_SITE",
   "window_status": "PASS",
   "data_gap_boundary_status": "PASS",
-  "current_daily_public": "2026-09-25",
+  "current_daily_public": "2026-09-26",
   "current_weekly_public": "2026-W38",
-  "formal_status": "PENDING_WORK_RECONCILIATION",
-  "canonical_promotion_performed": false,
-  "site_publication_performed": false,
-  "public_site_version": 70,
-  "public_site_status": "PASS_V70_REMOTE_READBACK",
-  "manifest_reconciliation_status": "PASS_2026_09_25_FORMAL_CANONICAL_PUBLISHED__2026_09_26_CORRECTION_PENDING_WORK_REVALIDATION__2026_09_27_CHAT_ACCEPTED_PENDING_WORK",
+  "formal_status": "PARTIAL_SUCCESS",
+  "canonical_promotion_performed": true,
+  "site_publication_performed": true,
+  "public_site_version": 71,
+  "public_site_status": "PASS_V71_REMOTE_READBACK",
+  "manifest_reconciliation_status": "PASS_2026_09_26_FORMAL_CANONICAL_PUBLISHED__2026_09_27_BLOCKED_PRODUCT_LOCAL_CONSUMER_MEASURED",
   "metadata_freshness": "PASS__13_CURRENT_DERIVED_VIEWS__POINTER_MATCH",
-  "state_consistency_pointer_sha256": "792129c759ae6bd242d6fde7d5789a2598b7d40f7443dcc7f6e520700b5d997a",
+  "state_consistency_pointer_sha256": "8489e520a17e3024c685a2defc3bb5690b1edb9f5689ae02edf496ad8d60464c",
   "failure_stage": "DAILY_2026_09_27_INLINE_CITATION_GATE",
   "failure_reason": "E04 Guardian source URL is not a clickable inline citation in narrative; consumer measurement overrides producer PASS.",
-  "next_action": "Work promotes independently ready 2026-09-26; Chat must place the existing E04 Guardian URL inline in 2026-09-27 narrative without changing facts or Evidence.",
-  "updated_at": "2026-09-27T12:45:00+08:00",
+  "next_action": "Chat must place the existing E04 Guardian URL inline in 2026-09-27 narrative without changing facts or Evidence; next Work run revalidates 2026-09-27 only.",
+  "updated_at": "2026-09-27T13:15:00+08:00",
   "queue_remaining": [
-    "2026-09-26",
     "2026-09-27"
   ],
-  "pending_product": "2026-09-26",
+  "pending_product": "2026-09-27",
   "manual_intervention_required": false,
-  "authority_package_sha256": "b573ff59b49711eb6da514b81a8fae093a8b2ed2881fa233948680190a8c9c33",
+  "authority_package_sha256": "1107c860eb5ef50bb254e7991435a60fdb58f5a7503c6713829b79bb429483cf",
   "queue_initial": [
-    "2026-09-25",
-    "2026-09-26"
+    "2026-09-26",
+    "2026-09-27"
   ],
   "products_preflighted": [
     "2026-09-26",
     "2026-09-27"
   ],
   "products_promoted": [
-    "2026-09-25"
+    "2026-09-26"
   ],
   "products_blocked_local": [
     "2026-09-27"
   ],
   "eligible_unpublished_products": [
-    "2026-09-26",
     "2026-09-27"
   ],
   "preflight_blocker_matrix": "PREFLIGHT_BLOCKER_MATRIX_20260927.json",
@@ -106,11 +104,11 @@
     "producer_automation_restored": true,
     "prior_2026_09_26_correction_preserved": true
   },
-  "real_remote_readback_status": "PASS_REAL_REMOTE_CONTENT_V70__12_REQUIRED_PAGES",
+  "real_remote_readback_status": "PASS_REAL_REMOTE_CONTENT_V71__12_REQUIRED_PAGES",
   "download_sha_status": "PASS_REMOTE_SHA256_AND_UNZIP",
   "public_daily_2026_09_25_download_sha256": "b4a80928e9755db168822874115c2d40069f3d9ad919416291e739dee8db7e72",
   "public_weekly_2026_w38_download_sha256": "551496a55a54f77721bbb1a7d2f0dc584956e0a18c188c44c9b90ec1a0a6305a",
-  "higher_cycle_dependency_state": "W39_5_OF_7__NO_CHAT_ACCEPTED_HIGHER_CYCLE_CANDIDATE",
+  "higher_cycle_dependency_state": "W39_6_OF_7__NO_CHAT_ACCEPTED_HIGHER_CYCLE_CANDIDATE",
   "correction_provenance": {
     "corrected_at": "2026-09-26T14:08:00+08:00",
     "changed_records": [
@@ -121,5 +119,10 @@
     "substantive_content_changed": false,
     "urls_changed": false,
     "claims_changed": false
-  }
+  },
+  "products_deferred_dependency": [
+    "2026-09-27__RESOLVED_AFTER_2026_09_26_PROMOTION"
+  ],
+  "public_daily_2026_09_26_download_sha256": "ea94ce1f2f69b3efa270295fb9f7b04c248280ea057a6a8721a7d3602522ba43",
+  "reportops_status": "PARTIAL_SUCCESS__DAILY_2026_09_26_PROMOTED_AND_PUBLISHED__DAILY_2026_09_27_FAIL_CLOSED"
 }
