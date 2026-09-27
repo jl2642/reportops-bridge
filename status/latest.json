@@ -1,9 +1,9 @@
 {
   "schema_version": "REPORTOPS_R3_1_CHAT_STATUS_V1_5_SINGLE_SITE",
-  "scheduled_date": "2026-09-26",
-  "target_date": "2026-09-26",
-  "current_day_status": "PUBLIC_CORE_ACCEPTED_PENDING_WORK_REVALIDATION",
-  "scheduled_run_status": "CHAT_CORRECTION_APPLIED__DAILY_2026_09_26_PENDING_WORK_REVALIDATION",
+  "scheduled_date": "2026-09-27",
+  "target_date": "2026-09-27",
+  "current_day_status": "PUBLIC_CORE_ACCEPTED_PENDING_WORK",
+  "scheduled_run_status": "BOUNDED_MANUAL_RECOVERY_AFTER_TRIGGERED_RUN_NO_DURABLE_OUTPUT_AND_TASK_DISABLED",
   "correction_backlog": {
     "status": "CHAT_CORRECTION_APPLIED_PENDING_WORK_REVALIDATION",
     "chat_correction_required": false,
@@ -13,54 +13,49 @@
       "2026-09-26"
     ],
     "blocking_gate": null,
-    "exact_measured_values": {
-      "E01": "CORRECTED_PUBLISHER=MarketScreener__HOST=www.marketscreener.com",
-      "E03": "CORRECTED_PUBLISHER=MarketScreener__HOST=www.marketscreener.com",
-      "E05": "CORRECTED_PUBLISHER=BOE Report__HOST=boereport.com"
-    },
     "research_review_required": false,
     "evidence_change_required": false,
     "work_may_rewrite": false,
     "pending_consumer_revalidation": true
   },
-  "source_identity_gate_status": "CHAT_CORRECTION_APPLIED_PENDING_CONSUMER_REVALIDATION",
+  "source_identity_gate_status": "PASS_V2",
   "inline_citation_gate_status": "PASS_V2_SOURCE_LEVEL",
   "signal_priority_status": "PASS",
   "exact_v4_machine_structure_status": "PASS",
   "v4_public_depth_gate_status": "PASS",
-  "cjk_characters_actual": 3052,
-  "executive_cjk_actual": 216,
-  "key_signal_cjk_actual": 1456,
+  "cjk_characters_actual": 3354,
+  "executive_cjk_actual": 357,
+  "key_signal_cjk_actual": 1406,
   "signal_card_cjk_actual": [
-    394,
-    348,
-    372,
-    330
+    476,
+    465,
+    456
   ],
-  "china_chain_cjk_actual": 138,
-  "global_energy_cjk_actual": 123,
+  "china_chain_cjk_actual": 158,
+  "global_energy_cjk_actual": 163,
   "industry_operator_cjk_actual": 177,
   "depth_policy_public_contract_sha256": "64770bf24f1280d11060d6a905a659241d5e483109fc8c3e34195a8264fc48f6",
-  "evidence_status": "CHAT_CORRECTION_APPLIED_PENDING_CONSUMER_REVALIDATION",
+  "evidence_status": "PASS",
   "privacy_status": "PASS_PUBLIC_SAFE_SINGLE_SITE",
   "window_status": "PASS",
   "data_gap_boundary_status": "PASS",
   "current_daily_public": "2026-09-25",
   "current_weekly_public": "2026-W38",
   "formal_status": "PENDING_WORK_RECONCILIATION",
-  "canonical_promotion_performed": true,
-  "site_publication_performed": true,
+  "canonical_promotion_performed": false,
+  "site_publication_performed": false,
   "public_site_version": 70,
   "public_site_status": "PASS_V70_REMOTE_READBACK",
-  "manifest_reconciliation_status": "PASS_2026_09_25_FORMAL_CANONICAL_PUBLISHED__2026_09_26_CORRECTION_OPEN",
+  "manifest_reconciliation_status": "PASS_2026_09_25_FORMAL_CANONICAL_PUBLISHED__2026_09_26_CORRECTION_PENDING_WORK_REVALIDATION__2026_09_27_CHAT_ACCEPTED_PENDING_WORK",
   "metadata_freshness": "PASS__13_CURRENT_DERIVED_VIEWS__POINTER_MATCH",
   "state_consistency_pointer_sha256": "792129c759ae6bd242d6fde7d5789a2598b7d40f7443dcc7f6e520700b5d997a",
   "failure_stage": null,
   "failure_reason": null,
-  "next_action": "12:30 Work revalidates corrected 2026-09-26 Evidence/manifest and promotes atomically if all gates pass.",
-  "updated_at": "2026-09-26T14:08:00+08:00",
+  "next_action": "12:30 Work processes oldest-first: revalidate corrected 2026-09-26, then consume 2026-09-27 if all gates pass.",
+  "updated_at": "2026-09-27T10:34:00+08:00",
   "queue_remaining": [
-    "2026-09-26"
+    "2026-09-26",
+    "2026-09-27"
   ],
   "pending_product": "2026-09-26",
   "manual_intervention_required": false,
@@ -78,17 +73,20 @@
   ],
   "products_blocked_local": [],
   "eligible_unpublished_products": [
-    "2026-09-26"
+    "2026-09-26",
+    "2026-09-27"
   ],
   "preflight_blocker_matrix": "PREFLIGHT_BLOCKER_MATRIX_20260926.json",
   "recovery_provenance": {
-    "mode": "BOUNDED_MANUAL_RECOVERY_20260926",
+    "mode": "BOUNDED_MANUAL_RECOVERY_20260927",
     "recovered_dates": [
-      "2026-09-25",
-      "2026-09-26"
+      "2026-09-27"
     ],
-    "original_scheduled_run_pass_claimed": false,
-    "producer_automation_restored": true
+    "original_scheduled_run_observed": true,
+    "original_scheduled_run_last_run_time": "2026-09-27T02:17:06.323907Z",
+    "original_scheduled_run_durable_output_found": false,
+    "producer_automation_restored": true,
+    "prior_2026_09_26_correction_preserved": true
   },
   "real_remote_readback_status": "PASS_REAL_REMOTE_CONTENT_V70__12_REQUIRED_PAGES",
   "download_sha_status": "PASS_REMOTE_SHA256_AND_UNZIP",
