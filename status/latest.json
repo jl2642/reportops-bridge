@@ -5,21 +5,37 @@
   "current_day_status": "PUBLIC_CORE_ACCEPTED_PENDING_WORK",
   "scheduled_run_status": "BOUNDED_MANUAL_RECOVERY_AFTER_TRIGGERED_RUN_NO_DURABLE_OUTPUT_AND_TASK_DISABLED",
   "correction_backlog": {
-    "status": "CHAT_CORRECTION_APPLIED_PENDING_WORK_REVALIDATION",
-    "chat_correction_required": false,
-    "correction_dates": [],
+    "status": "OPEN_CHAT_CORRECTION_REQUIRED",
+    "chat_correction_required": true,
+    "correction_dates": [
+      "2026-09-27"
+    ],
     "resolved_dates": [
       "2026-09-18",
       "2026-09-26"
     ],
-    "blocking_gate": null,
+    "blocking_gate": "INLINE_CITATION_GATE_V2",
+    "exact_measured_values": {
+      "unique_external_source_urls": 4,
+      "external_evidence_records": 4,
+      "inline_markdown_links": 22,
+      "failed_urls": [
+        "https://www.theguardian.com/world/2026/sep/26/trump-dismiss-iran-seven-day-peace-deal-hormuz"
+      ],
+      "issues": [
+        {
+          "source_id": "E04",
+          "issue": "SOURCE_URL_NOT_INLINE_IN_NARRATIVE"
+        }
+      ]
+    },
     "research_review_required": false,
     "evidence_change_required": false,
     "work_may_rewrite": false,
-    "pending_consumer_revalidation": true
+    "pending_consumer_revalidation": false
   },
   "source_identity_gate_status": "PASS_V2",
-  "inline_citation_gate_status": "PASS_V2_SOURCE_LEVEL",
+  "inline_citation_gate_status": "FAIL_V2_CONSUMER_MEASURED",
   "signal_priority_status": "PASS",
   "exact_v4_machine_structure_status": "PASS",
   "v4_public_depth_gate_status": "PASS",
@@ -49,10 +65,10 @@
   "manifest_reconciliation_status": "PASS_2026_09_25_FORMAL_CANONICAL_PUBLISHED__2026_09_26_CORRECTION_PENDING_WORK_REVALIDATION__2026_09_27_CHAT_ACCEPTED_PENDING_WORK",
   "metadata_freshness": "PASS__13_CURRENT_DERIVED_VIEWS__POINTER_MATCH",
   "state_consistency_pointer_sha256": "792129c759ae6bd242d6fde7d5789a2598b7d40f7443dcc7f6e520700b5d997a",
-  "failure_stage": null,
-  "failure_reason": null,
-  "next_action": "12:30 Work processes oldest-first: revalidate corrected 2026-09-26, then consume 2026-09-27 if all gates pass.",
-  "updated_at": "2026-09-27T10:34:00+08:00",
+  "failure_stage": "DAILY_2026_09_27_INLINE_CITATION_GATE",
+  "failure_reason": "E04 Guardian source URL is not a clickable inline citation in narrative; consumer measurement overrides producer PASS.",
+  "next_action": "Work promotes independently ready 2026-09-26; Chat must place the existing E04 Guardian URL inline in 2026-09-27 narrative without changing facts or Evidence.",
+  "updated_at": "2026-09-27T12:45:00+08:00",
   "queue_remaining": [
     "2026-09-26",
     "2026-09-27"
@@ -65,18 +81,20 @@
     "2026-09-26"
   ],
   "products_preflighted": [
-    "2026-09-25",
-    "2026-09-26"
+    "2026-09-26",
+    "2026-09-27"
   ],
   "products_promoted": [
     "2026-09-25"
   ],
-  "products_blocked_local": [],
+  "products_blocked_local": [
+    "2026-09-27"
+  ],
   "eligible_unpublished_products": [
     "2026-09-26",
     "2026-09-27"
   ],
-  "preflight_blocker_matrix": "PREFLIGHT_BLOCKER_MATRIX_20260926.json",
+  "preflight_blocker_matrix": "PREFLIGHT_BLOCKER_MATRIX_20260927.json",
   "recovery_provenance": {
     "mode": "BOUNDED_MANUAL_RECOVERY_20260927",
     "recovered_dates": [
