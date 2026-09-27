@@ -7,7 +7,7 @@
   "scheduled_run_status": "BOUNDED_MANUAL_RECOVERY_AFTER_TRIGGERED_RUN_NO_DURABLE_OUTPUT_AND_TASK_DISABLED",
   "source_identity_gate_status": "PASS_V2_CONSUMER_MEASURED",
   "guessed_url_count": 0,
-  "inline_citation_gate_status": "FAIL_V2_CONSUMER_MEASURED",
+  "inline_citation_gate_status": "CHAT_CORRECTION_APPLIED_PENDING_CONSUMER_REVALIDATION",
   "signal_priority_status": "PASS",
   "exact_v4_machine_structure_status": "PASS_CONSUMER_MEASURED",
   "v4_public_depth_gate_status": "PASS_CONSUMER_MEASURED",
@@ -36,8 +36,8 @@
   "canonical_mutation_performed": false,
   "site_mutation_performed": false,
   "higher_cycle_write_performed": false,
-  "formal_status": "BLOCKED_PRODUCT_LOCAL",
-  "product_status": "CHAT_CORRECTION_REQUIRED",
+  "formal_status": "PENDING_WORK_RECONCILIATION_2026_09_27",
+  "product_status": "PUBLIC_CORE_ACCEPTED_PENDING_WORK_REVALIDATION",
   "canonical_promotion_performed": false,
   "site_publication_performed": false,
   "authority_policy_sha256": "ed69573e48d0daedd1b899ab2d6cf15880f37705f88b44b1a9d2ca26715f9905",
@@ -53,8 +53,8 @@
     "automation_restored": true,
     "reason": "10:15 task triggered but produced no 2026-09-27 durable bridge artifacts and became disabled; fixed window was independently reconstructed without modifying 2026-09-26 correction"
   },
-  "failure_stage": "DAILY_2026_09_27_INLINE_CITATION_GATE",
-  "failure_reason": "E04 Guardian source URL is not a clickable inline citation in narrative; consumer measurement overrides producer PASS.",
+  "failure_stage": null,
+  "failure_reason": null,
   "producer_state_provenance": {
     "producer_status": "PUBLIC_CORE_ACCEPTED",
     "inline_citation_gate_status": "PASS_V2_SOURCE_LEVEL",
@@ -71,5 +71,21 @@
   "evidence_change_required": false,
   "research_review_required": false,
   "work_may_rewrite": false,
-  "correction_request_path": "daily/2026/09/2026-09-27/work_preflight_correction_request.json"
+  "correction_request_path": "daily/2026/09/2026-09-27/work_preflight_correction_request.json",
+  "correction_provenance": {
+    "corrected_at": "2026-09-27T22:50:00+08:00",
+    "correction_type": "INLINE_CITATION_PLACEMENT_ONLY",
+    "corrected_source_id": "E04",
+    "prior_consumer_failure_stage": "DAILY_2026_09_27_INLINE_CITATION_GATE",
+    "prior_consumer_failure_reason": "E04 Guardian source URL was not a clickable inline citation in narrative.",
+    "corrected_public_core_blob_sha": "1b45c823072f420eb42b4cae46890ef1ddc0899c",
+    "evidence_blob_sha_unchanged": "f797b6947fd70c1bfdb83af4fda4df5fc16537c2",
+    "evidence_changed": false,
+    "research_repeated": false,
+    "urls_changed": false,
+    "claims_changed": false,
+    "cjk_characters_unchanged": 3354,
+    "inline_external_sources_after": "PASS_4_OF_4",
+    "next_gate": "WORK_CONSUMER_REVALIDATION"
+  }
 }
