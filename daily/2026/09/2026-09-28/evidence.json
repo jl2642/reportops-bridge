@@ -1,0 +1,81 @@
+{
+  "schema_version": "REPORTOPS_EVIDENCE_V1_2",
+  "target_date": "2026-09-28",
+  "window_start": "2026-09-27T10:00:00+08:00",
+  "window_end": "2026-09-28T10:00:00+08:00",
+  "mode": "STRICT_NEW_PUBLIC",
+  "records": [
+    {
+      "id": "E01",
+      "claim_role": "CORE",
+      "support": "DIRECT",
+      "url": "https://www.reuters.com/business/energy/mideast-oil-exports-rebound-september-saudi-arabia-boosts-shipments-2026-09-28/",
+      "title": "Mideast oil exports rebound in September as Saudi Arabia boosts shipments",
+      "publisher": "Reuters",
+      "publication_time": "2026-09-28T00:17:00Z",
+      "url_identity_status": "PASS",
+      "url_verified_date": "2026-09-28",
+      "source_identity_receipt": {
+        "verification_method": "OPENED_EXACT_DOCUMENT",
+        "observed_url": "https://www.reuters.com/business/energy/mideast-oil-exports-rebound-september-saudi-arabia-boosts-shipments-2026-09-28/",
+        "canonical_url": "https://www.reuters.com/business/energy/mideast-oil-exports-rebound-september-saudi-arabia-boosts-shipments-2026-09-28/",
+        "observed_title": "Mideast oil exports rebound in September as Saudi Arabia boosts shipments",
+        "observed_publisher": "Reuters",
+        "title_match_status": "EXACT",
+        "verified_at": "2026-09-28T10:20:00+08:00"
+      }
+    },
+    {
+      "id": "E02",
+      "claim_role": "CORE",
+      "support": "DIRECT",
+      "url": "https://www.brecorder.com/news/40441372/crude-oil-exports-via-hormuz-at-337m-barrels",
+      "title": "Crude oil exports via Hormuz at 33.7m barrels",
+      "publisher": "Business Recorder / Reuters",
+      "publication_time": "2026-09-27T02:24:00+05:00",
+      "url_identity_status": "PASS",
+      "url_verified_date": "2026-09-28",
+      "source_identity_receipt": {
+        "verification_method": "OPENED_EXACT_DOCUMENT",
+        "observed_url": "https://www.brecorder.com/news/amp/40441372",
+        "canonical_url": "https://www.brecorder.com/news/40441372/crude-oil-exports-via-hormuz-at-337m-barrels",
+        "observed_title": "Crude oil exports via Hormuz at 33.7m barrels",
+        "observed_publisher": "Business Recorder / Reuters",
+        "title_match_status": "EXACT",
+        "verified_at": "2026-09-28T10:20:00+08:00"
+      }
+    },
+    {
+      "id": "E03",
+      "claim_role": "MATERIAL",
+      "support": "DIRECT",
+      "url": "https://lnginsights.com/",
+      "title": "September 27, 2026 — JKM at $25.42, TTF $24.08, Henry Hub $3.23",
+      "publisher": "LNGInsights",
+      "publication_time": "2026-09-27",
+      "url_identity_status": "PASS",
+      "url_verified_date": "2026-09-28",
+      "source_identity_receipt": {
+        "verification_method": "SEARCH_RESULT_OBSERVED",
+        "observed_url": "https://lnginsights.com/",
+        "canonical_url": "https://lnginsights.com/",
+        "observed_title": "September 27, 2026 — JKM at $25.42, TTF $24.08, Henry Hub $3.23",
+        "observed_publisher": "LNGInsights",
+        "title_match_status": "EXACT",
+        "verified_at": "2026-09-28T10:20:00+08:00"
+      },
+      "price_semantics": {
+        "basis": "published benchmark/indicative aggregation",
+        "observation_date": "2026-09-27",
+        "values": [
+          "JKM $25.42/MMBtu",
+          "TTF €72.07/MWh (~$24.08/MMBtu)",
+          "Henry Hub $3.23/MMBtu"
+        ],
+        "boundary": "not exchange settlement; indicative aggregation"
+      }
+    }
+  ],
+  "guessed_url_count": 0,
+  "unsupported_core_claims": 0
+}
