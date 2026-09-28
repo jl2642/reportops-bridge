@@ -26,10 +26,15 @@
     "policy_source": "Authority scripts/product/PRODUCT_FINAL_COMPOSITION_POLICY_V4.json + verified INLINE_CITATION_GATE_V2",
     "public_contract_sha256": "64770bf24f1280d11060d6a905a659241d5e483109fc8c3e34195a8264fc48f6"
   },
-  "classification": "CHAT_CORRECTION_REQUIRED",
+  "classification": "RESOLVED",
   "research_repeated": false,
   "evidence_change_required": false,
   "research_review_required": false,
   "work_may_rewrite": false,
-  "next_action": "Chat must place the existing E04 Guardian URL as a clickable inline citation in the relevant narrative sentence; preserve facts, claims, Evidence records, and source URLs."
+  "next_action": "NONE__FORMAL_CANONICAL_PUBLISHED",
+  "status": "RESOLVED_BY_CHAT_CORRECTION_AND_WORK_REVALIDATION",
+  "resolved_at": "2026-09-28T12:50:00+08:00",
+  "consumer_revalidation": "PASS",
+  "canonical_promotion_performed": true,
+  "site_publication_performed": true
 }
