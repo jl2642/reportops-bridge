@@ -26,26 +26,6 @@
       }
     },
     {
-      "id": "E02",
-      "claim_role": "CORE",
-      "support": "DIRECT",
-      "url": "https://www.brecorder.com/news/40441372/crude-oil-exports-via-hormuz-at-337m-barrels",
-      "title": "Crude oil exports via Hormuz at 33.7m barrels",
-      "publisher": "Business Recorder / Reuters",
-      "publication_time": "2026-09-27T02:24:00+05:00",
-      "url_identity_status": "PASS",
-      "url_verified_date": "2026-09-28",
-      "source_identity_receipt": {
-        "verification_method": "OPENED_EXACT_DOCUMENT",
-        "observed_url": "https://www.brecorder.com/news/amp/40441372",
-        "canonical_url": "https://www.brecorder.com/news/40441372/crude-oil-exports-via-hormuz-at-337m-barrels",
-        "observed_title": "Crude oil exports via Hormuz at 33.7m barrels",
-        "observed_publisher": "Business Recorder / Reuters",
-        "title_match_status": "EXACT",
-        "verified_at": "2026-09-28T10:20:00+08:00"
-      }
-    },
-    {
       "id": "E03",
       "claim_role": "MATERIAL",
       "support": "DIRECT",
@@ -77,5 +57,40 @@
     }
   ],
   "guessed_url_count": 0,
-  "unsupported_core_claims": 0
+  "unsupported_core_claims": 0,
+  "excluded_records": [
+    {
+      "id": "E02",
+      "claim_role": "CORE",
+      "support": "DIRECT",
+      "url": "https://www.brecorder.com/news/40441372/crude-oil-exports-via-hormuz-at-337m-barrels",
+      "title": "Crude oil exports via Hormuz at 33.7m barrels",
+      "publisher": "Business Recorder / Reuters",
+      "publication_time": "2026-09-27T02:24:00+05:00",
+      "url_identity_status": "PASS",
+      "url_verified_date": "2026-09-28",
+      "source_identity_receipt": {
+        "verification_method": "OPENED_EXACT_DOCUMENT",
+        "observed_url": "https://www.brecorder.com/news/amp/40441372",
+        "canonical_url": "https://www.brecorder.com/news/40441372/crude-oil-exports-via-hormuz-at-337m-barrels",
+        "observed_title": "Crude oil exports via Hormuz at 33.7m barrels",
+        "observed_publisher": "Business Recorder / Reuters",
+        "title_match_status": "EXACT",
+        "verified_at": "2026-09-28T10:20:00+08:00"
+      },
+      "exclusion_status": "OUT_OF_FIXED_WINDOW",
+      "exclusion_reason": "publication_time 2026-09-27T02:24:00+05:00 equals 2026-09-27T05:24:00+08:00, earlier than fixed window start 2026-09-27T10:00:00+08:00",
+      "excluded_at": "2026-09-28T13:00:00+08:00"
+    }
+  ],
+  "evidence_record_count": 2,
+  "correction_provenance": {
+    "correction_type": "WINDOW_BOUNDARY_CORRECTION_ONLY",
+    "corrected_at": "2026-09-28T13:00:00+08:00",
+    "research_repeated": false,
+    "removed_active_record_ids": [
+      "E02"
+    ],
+    "reason": "existing publication timestamp falls outside target fixed window after timezone normalization"
+  }
 }
