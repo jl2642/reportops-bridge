@@ -1,9 +1,9 @@
 {
   "schema_version": "REPORTOPS_R3_1_CHAT_STATUS_V1_5_SINGLE_SITE",
-  "scheduled_date": "2026-09-27",
-  "target_date": "2026-09-27",
-  "current_day_status": "FORMAL_CANONICAL_PUBLISHED",
-  "scheduled_run_status": "WORK_CONSUMER_RECONCILIATION_COMPLETE",
+  "scheduled_date": "2026-09-28",
+  "target_date": "2026-09-28",
+  "current_day_status": "PUBLIC_CORE_ACCEPTED_PENDING_WORK",
+  "scheduled_run_status": "BOUNDED_MANUAL_RECOVERY_AFTER_PARTIAL_SCHEDULED_RUN_AND_TASK_DISABLED",
   "correction_backlog": {
     "status": "CLOSED_NO_CHAT_CORRECTION_REQUIRED",
     "chat_correction_required": false,
@@ -15,10 +15,11 @@
     ],
     "blocking_gate": null,
     "exact_measured_values": {
-      "unique_external_source_urls": 4,
-      "external_evidence_records": 4,
-      "inline_markdown_links_in_narrative": 23,
-      "failed_urls": [],
+      "active_external_source_urls": 2,
+      "excluded_out_of_window_records": [
+        "E02"
+      ],
+      "inline_sources": "PASS_2_OF_2",
       "issues": []
     },
     "research_review_required": false,
@@ -26,56 +27,56 @@
     "work_may_rewrite": false,
     "pending_consumer_revalidation": false
   },
-  "source_identity_gate_status": "PASS_V2_CONSUMER_MEASURED",
-  "inline_citation_gate_status": "CHAT_CORRECTION_APPLIED_PENDING_CONSUMER_REVALIDATION",
+  "source_identity_gate_status": "PASS_V2_SOURCE_LEVEL",
+  "inline_citation_gate_status": "PASS_V2_SOURCE_LEVEL",
   "signal_priority_status": "PASS",
-  "exact_v4_machine_structure_status": "PASS_CONSUMER_MEASURED",
-  "v4_public_depth_gate_status": "PASS_CONSUMER_MEASURED",
-  "cjk_characters_actual": 3354,
-  "executive_cjk_actual": 357,
-  "key_signal_cjk_actual": 1406,
+  "exact_v4_machine_structure_status": "PASS",
+  "v4_public_depth_gate_status": "PASS",
+  "cjk_characters_actual": 3356,
+  "executive_cjk_actual": 296,
+  "key_signal_cjk_actual": 1368,
   "signal_card_cjk_actual": [
-    476,
-    465,
-    456
+    464,
+    448,
+    441
   ],
-  "china_chain_cjk_actual": 158,
-  "global_energy_cjk_actual": 163,
-  "industry_operator_cjk_actual": 177,
+  "china_chain_cjk_actual": 226,
+  "global_energy_cjk_actual": 186,
+  "industry_operator_cjk_actual": 213,
   "depth_policy_public_contract_sha256": "64770bf24f1280d11060d6a905a659241d5e483109fc8c3e34195a8264fc48f6",
-  "evidence_status": "PASS",
+  "evidence_status": "PASS_WITH_NONBLOCKING_LOW_SOURCE_COUNT_WARNING",
   "privacy_status": "PASS_PUBLIC_SAFE_SINGLE_SITE",
-  "window_status": "PASS",
+  "window_status": "PASS_AFTER_E02_OUT_OF_WINDOW_EXCLUSION",
   "data_gap_boundary_status": "PASS",
   "current_daily_public": "2026-09-27",
   "current_weekly_public": "2026-W38",
-  "formal_status": "SUCCESS",
-  "canonical_promotion_performed": true,
-  "site_publication_performed": true,
+  "formal_status": "PENDING_WORK_RECONCILIATION_2026_09_28",
+  "canonical_promotion_performed": false,
+  "site_publication_performed": false,
   "public_site_version": 72,
   "public_site_status": "PASS_V72_REMOTE_READBACK",
-  "manifest_reconciliation_status": "PASS_2026_09_27_FORMAL_CANONICAL_PUBLISHED",
+  "manifest_reconciliation_status": "2026_09_28_PENDING_WORK_RECONCILIATION",
   "metadata_freshness": "PASS__13_CURRENT_DERIVED_VIEWS__POINTER_MATCH",
   "state_consistency_pointer_sha256": "8c90b2a95479be578b61d58fbf9541b0e5b8af798fc71e7c4c4ce445999f8c19",
   "failure_stage": null,
   "failure_reason": null,
-  "next_action": "Scan only new Chat-accepted products; current version is idempotent.",
-  "updated_at": "2026-09-28T12:50:00+08:00",
-  "queue_remaining": [],
-  "pending_product": null,
+  "next_action": "Next 12:30 Work run validates and atomically promotes Daily 2026-09-28 if all consumer gates pass.",
+  "updated_at": "2026-09-28T12:49:00+08:00",
+  "queue_remaining": [
+    "2026-09-28"
+  ],
+  "pending_product": "2026-09-28",
   "manual_intervention_required": false,
   "authority_package_sha256": "f9c032e9f96c51d01d9ebcbc7f7fcce152b7f3c092224d9abc4d862f7b5dfa7b",
   "queue_initial": [
-    "2026-09-27"
+    "2026-09-28"
   ],
-  "products_preflighted": [
-    "2026-09-27"
-  ],
-  "products_promoted": [
-    "2026-09-27"
-  ],
+  "products_preflighted": [],
+  "products_promoted": [],
   "products_blocked_local": [],
-  "eligible_unpublished_products": [],
+  "eligible_unpublished_products": [
+    "2026-09-28"
+  ],
   "preflight_blocker_matrix": "PREFLIGHT_BLOCKER_MATRIX_20260928.json",
   "recovery_provenance": {
     "mode": "BOUNDED_MANUAL_RECOVERY_20260927",
@@ -92,7 +93,7 @@
   "download_sha_status": "PASS_REMOTE_SHA256_AND_UNZIP",
   "public_daily_2026_09_25_download_sha256": "b4a80928e9755db168822874115c2d40069f3d9ad919416291e739dee8db7e72",
   "public_weekly_2026_w38_download_sha256": "551496a55a54f77721bbb1a7d2f0dc584956e0a18c188c44c9b90ec1a0a6305a",
-  "higher_cycle_dependency_state": "W39_7_OF_7__NO_CHAT_ACCEPTED_HIGHER_CYCLE_CANDIDATE",
+  "higher_cycle_dependency_state": "W39_7_OF_7__W40_0_OF_7_CANONICAL__2026_09_28_PENDING_WORK",
   "correction_provenance": {
     "corrected_at": "2026-09-26T14:08:00+08:00",
     "changed_records": [
@@ -106,7 +107,7 @@
   },
   "products_deferred_dependency": [],
   "public_daily_2026_09_26_download_sha256": "ea94ce1f2f69b3efa270295fb9f7b04c248280ea057a6a8721a7d3602522ba43",
-  "reportops_status": "SUCCESS__FINAL_CLOSURE_PASS__DEVELOPMENT_FROZEN_LONG_TERM_OPERATION",
+  "reportops_status": "PARTIAL_SUCCESS__DAILY_2026_09_28_RECOVERED_PENDING_WORK",
   "correction_provenance_2026_09_27": {
     "corrected_at": "2026-09-27T22:50:00+08:00",
     "correction_type": "INLINE_CITATION_PLACEMENT_ONLY",
@@ -118,5 +119,20 @@
     "claims_changed": false,
     "inline_external_sources_after": "PASS_4_OF_4"
   },
-  "public_daily_2026_09_27_download_sha256": "73accf2ca087b3db8d8a742185de7f6aad91ab7adf8c062b0ba00e2f87524aaa"
+  "public_daily_2026_09_27_download_sha256": "73accf2ca087b3db8d8a742185de7f6aad91ab7adf8c062b0ba00e2f87524aaa",
+  "recovery_provenance_2026_09_28": {
+    "mode": "BOUNDED_MANUAL_RECOVERY",
+    "original_scheduled_run_observed": true,
+    "original_scheduled_run_last_run_time": "2026-09-28T02:14:53.749105Z",
+    "original_partial_output_found": true,
+    "partial_output": "evidence.json only",
+    "automation_was_disabled_after_run": true,
+    "research_repeated": false,
+    "existing_evidence_reused": true,
+    "evidence_window_correction_applied": true,
+    "excluded_record_ids": [
+      "E02"
+    ],
+    "reason": "Scheduled 10:15 run persisted Evidence but did not persist public_core/manifest/status and task became disabled. Recovery resumed from durable Evidence; one out-of-window record was excluded deterministically by its stored timestamp."
+  }
 }
