@@ -7,7 +7,7 @@
   "scheduled_run_status": "BOUNDED_MANUAL_RECOVERY_AFTER_TRIGGERED_RUN_NO_DURABLE_OUTPUT_AND_TASK_DISABLED",
   "source_identity_gate_status": "PASS_V2_CONSUMER_MEASURED",
   "guessed_url_count": 0,
-  "inline_citation_gate_status": "CHAT_CORRECTION_APPLIED_PENDING_CONSUMER_REVALIDATION",
+  "inline_citation_gate_status": "PASS_V2_CONSUMER_MEASURED",
   "signal_priority_status": "PASS",
   "exact_v4_machine_structure_status": "PASS_CONSUMER_MEASURED",
   "v4_public_depth_gate_status": "PASS_CONSUMER_MEASURED",
@@ -30,16 +30,16 @@
   "unsupported_core_claims": 0,
   "signal_card_count": 3,
   "evidence_record_count": 4,
-  "authority_package_sha256": "1107c860eb5ef50bb254e7991435a60fdb58f5a7503c6713829b79bb429483cf",
+  "authority_package_sha256": "f9c032e9f96c51d01d9ebcbc7f7fcce152b7f3c092224d9abc4d862f7b5dfa7b",
   "canonical_current_daily_at_production": "2026-09-26",
   "predecessor_bridge_status": "2026-09-26_PUBLIC_CORE_ACCEPTED_PENDING_WORK_REVALIDATION",
-  "canonical_mutation_performed": false,
-  "site_mutation_performed": false,
+  "canonical_mutation_performed": true,
+  "site_mutation_performed": true,
   "higher_cycle_write_performed": false,
-  "formal_status": "PENDING_WORK_RECONCILIATION_2026_09_27",
-  "product_status": "PUBLIC_CORE_ACCEPTED_PENDING_WORK_REVALIDATION",
-  "canonical_promotion_performed": false,
-  "site_publication_performed": false,
+  "formal_status": "FORMAL_CANONICAL_PUBLISHED",
+  "product_status": "FORMAL_CANONICAL_PUBLISHED",
+  "canonical_promotion_performed": true,
+  "site_publication_performed": true,
   "authority_policy_sha256": "ed69573e48d0daedd1b899ab2d6cf15880f37705f88b44b1a9d2ca26715f9905",
   "public_contract_sha256": "64770bf24f1280d11060d6a905a659241d5e483109fc8c3e34195a8264fc48f6",
   "producer_completed_at": "2026-09-27T10:29:40+08:00",
@@ -66,7 +66,7 @@
   "reader_status": "PASS_READER_DOM_V1_CONSUMER_MEASURED",
   "lineage_status": "PASS_CONSUMER_MEASURED",
   "state_identity_status": "PASS_CONSUMER_MEASURED",
-  "dependency_status": "PASS_AFTER_2026_09_26_PROMOTION",
+  "dependency_status": "PASS_CANONICAL_PREDECESSOR_2026_09_26",
   "consumer_measured_at": "2026-09-27T12:42:00+08:00",
   "evidence_change_required": false,
   "research_review_required": false,
@@ -87,5 +87,37 @@
     "cjk_characters_unchanged": 3354,
     "inline_external_sources_after": "PASS_4_OF_4",
     "next_gate": "WORK_CONSUMER_REVALIDATION"
-  }
+  },
+  "public_site_version": 72,
+  "public_site_status": "PASS_V72_REMOTE_READBACK",
+  "real_remote_readback_status": "PASS_REAL_REMOTE_CONTENT_V72__12_REQUIRED_PAGES",
+  "download_sha256": "73accf2ca087b3db8d8a742185de7f6aad91ab7adf8c062b0ba00e2f87524aaa",
+  "remote_download_sha256": "73accf2ca087b3db8d8a742185de7f6aad91ab7adf8c062b0ba00e2f87524aaa",
+  "remote_zip_integrity": "PASS_SHA256_AND_UNZIP",
+  "consumer_reconciled_at": "2026-09-28T12:50:00+08:00",
+  "consumer_reconciliation_status": "PASS_FORMAL_CANONICAL_PUBLISHED",
+  "consumer_actuals": {
+    "cjk_characters": 3354,
+    "executive_cjk": 357,
+    "key_signal_cjk": 1406,
+    "signal_card_cjk": [
+      476,
+      465,
+      456
+    ],
+    "china_chain_cjk": 158,
+    "global_energy_cjk": 163,
+    "industry_operator_cjk": 177,
+    "external_evidence_records": 4,
+    "inline_external_sources": "4/4"
+  },
+  "provenance_history": [
+    {
+      "recorded_at": "2026-09-28T12:50:00+08:00",
+      "type": "PRODUCER_TO_CONSUMER_STATE_TRANSITION",
+      "producer_formal_status": "PENDING_WORK_RECONCILIATION_2026_09_27",
+      "consumer_formal_status": "FORMAL_CANONICAL_PUBLISHED",
+      "prose_or_evidence_rewritten_by_work": false
+    }
+  ]
 }
