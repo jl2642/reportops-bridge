@@ -1,0 +1,103 @@
+{
+  "schema_version": "REPORTOPS_EVIDENCE_V1_2",
+  "target_date": "2026-09-29",
+  "window_start": "2026-09-28T10:00:00+08:00",
+  "window_end": "2026-09-29T10:00:00+08:00",
+  "mode": "STRICT_NEW_PUBLIC",
+  "records": [
+    {
+      "id": "E01",
+      "claim_role": "CORE",
+      "support": "DIRECT",
+      "url": "https://www.reuters.com/business/energy/qatar-linked-lng-traffic-through-hormuz-strait-picks-up-despite-conflict-2026-09-28/",
+      "title": "Qatar-linked LNG traffic through Hormuz strait picks up despite conflict",
+      "publisher": "Reuters",
+      "publication_time": "2026-09-28T09:30:00Z",
+      "url_identity_status": "PASS",
+      "url_verified_date": "2026-09-29",
+      "source_identity_receipt": {
+        "verification_method": "OPENED_EXACT_DOCUMENT",
+        "observed_url": "https://www.reuters.com/business/energy/qatar-linked-lng-traffic-through-hormuz-strait-picks-up-despite-conflict-2026-09-28/",
+        "canonical_url": "https://www.reuters.com/business/energy/qatar-linked-lng-traffic-through-hormuz-strait-picks-up-despite-conflict-2026-09-28/",
+        "observed_title": "Qatar-linked LNG traffic through Hormuz strait picks up despite conflict",
+        "observed_publisher": "Reuters",
+        "title_match_status": "EXACT",
+        "verified_at": "2026-09-29T10:15:00+08:00"
+      }
+    },
+    {
+      "id": "E02",
+      "claim_role": "CORE",
+      "support": "DIRECT",
+      "url": "https://www.reuters.com/business/energy/qatar-will-not-deliver-gas-european-client-edison-until-beginning-december-2026-09-28/",
+      "title": "Qatar extends force majeure notices on LNG supply to Edison, some Asian clients",
+      "publisher": "Reuters",
+      "publication_time": "2026-09-28T10:56:00Z",
+      "url_identity_status": "PASS",
+      "url_verified_date": "2026-09-29",
+      "source_identity_receipt": {
+        "verification_method": "OPENED_EXACT_DOCUMENT",
+        "observed_url": "https://www.reuters.com/business/energy/qatar-will-not-deliver-gas-european-client-edison-until-beginning-december-2026-09-28/",
+        "canonical_url": "https://www.reuters.com/business/energy/qatar-will-not-deliver-gas-european-client-edison-until-beginning-december-2026-09-28/",
+        "observed_title": "Qatar extends force majeure notices on LNG supply to Edison, some Asian clients",
+        "observed_publisher": "Reuters",
+        "title_match_status": "EXACT",
+        "verified_at": "2026-09-29T10:15:00+08:00"
+      }
+    },
+    {
+      "id": "E03",
+      "claim_role": "CORE",
+      "support": "DIRECT",
+      "url": "https://www.reuters.com/business/energy/saudi-aramco-considering-discounts-oman-sts-crude-counter-high-freight-rates-2026-09-28/",
+      "title": "Saudi Aramco considering discounts for Oman STS crude to counter high freight rates, sources say",
+      "publisher": "Reuters",
+      "publication_time": "2026-09-28T13:45:00Z",
+      "url_identity_status": "PASS",
+      "url_verified_date": "2026-09-29",
+      "source_identity_receipt": {
+        "verification_method": "OPENED_EXACT_DOCUMENT",
+        "observed_url": "https://www.reuters.com/business/energy/saudi-aramco-considering-discounts-oman-sts-crude-counter-high-freight-rates-2026-09-28/",
+        "canonical_url": "https://www.reuters.com/business/energy/saudi-aramco-considering-discounts-oman-sts-crude-counter-high-freight-rates-2026-09-28/",
+        "observed_title": "Saudi Aramco considering discounts for Oman STS crude to counter high freight rates, sources say",
+        "observed_publisher": "Reuters",
+        "title_match_status": "EXACT",
+        "verified_at": "2026-09-29T10:15:00+08:00"
+      }
+    },
+    {
+      "id": "E04",
+      "claim_role": "CORE",
+      "support": "DIRECT",
+      "url": "https://www.reuters.com/business/energy/oil-prices-rise-second-session-continued-middle-east-supply-concern-2026-09-29/",
+      "title": "Oil prices rise for second session on continued Middle East supply concern",
+      "publisher": "Reuters",
+      "publication_time": "2026-09-29T00:33:00Z",
+      "url_identity_status": "PASS",
+      "url_verified_date": "2026-09-29",
+      "source_identity_receipt": {
+        "verification_method": "OPENED_EXACT_DOCUMENT",
+        "observed_url": "https://www.reuters.com/business/energy/oil-prices-rise-second-session-continued-middle-east-supply-concern-2026-09-29/",
+        "canonical_url": "https://www.reuters.com/business/energy/oil-prices-rise-second-session-continued-middle-east-supply-concern-2026-09-29/",
+        "observed_title": "Oil prices rise for second session on continued Middle East supply concern",
+        "observed_publisher": "Reuters",
+        "title_match_status": "EXACT",
+        "verified_at": "2026-09-29T10:15:00+08:00"
+      },
+      "price_semantics": {
+        "basis": "live futures quote, not settlement",
+        "observation_time": "2026-09-29T00:02:00Z",
+        "values": [
+          "Brent $105.91/bbl",
+          "WTI $93.32/bbl"
+        ],
+        "currency": "USD",
+        "geography": "global benchmarks"
+      }
+    }
+  ],
+  "guessed_url_count": 0,
+  "unsupported_core_claims": 0,
+  "evidence_record_count": 4,
+  "excluded_records": []
+}
