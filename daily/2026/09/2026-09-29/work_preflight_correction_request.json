@@ -1,0 +1,50 @@
+{
+  "schema_version": "REPORTOPS_WORK_PREFLIGHT_CORRECTION_REQUEST_V1",
+  "target_date": "2026-09-29",
+  "detected_at": "2026-09-30T12:40:00+08:00",
+  "authority_sha": "8f49fcbfa23dafdcc036c4d71eae24a76365bd6b91f69993d12c5f549b1e64e1",
+  "authority_policy_sha256": "ed69573e48d0daedd1b899ab2d6cf15880f37705f88b44b1a9d2ca26715f9905",
+  "depth_policy_public_contract_sha256": "64770bf24f1280d11060d6a905a659241d5e483109fc8c3e34195a8264fc48f6",
+  "public_core_blob_sha": null,
+  "manifest_blob_sha": null,
+  "evidence_blob_sha": "ae14605ee2e3889060f9c09a1b798574701a317e",
+  "blocking_gate": "PRODUCER_ARTIFACT_COMPLETENESS__PUBLIC_CORE_AND_MANIFEST_MISSING",
+  "exact_measured_values": {
+    "durable_evidence_records": 4,
+    "source_identity_pass": 4,
+    "window_pass": 4,
+    "public_core_present": false,
+    "manifest_present": false,
+    "inline_citation_actual": null,
+    "exact_structure_actual": null,
+    "signal_card_count_actual": null,
+    "cjk_characters_actual": null
+  },
+  "required_floor": {
+    "cjk_hard_floor": 1800,
+    "cjk_target": [
+      2200,
+      3500
+    ],
+    "signal_cards": [
+      3,
+      5
+    ],
+    "executive_cjk_floor": 150,
+    "key_signal_cjk_floor": 850,
+    "signal_card_cjk_floor": 180,
+    "section_cjk_floors": {
+      "CHINA_CHAIN_DELTA": 120,
+      "GLOBAL_ENERGY_DELTA": 120,
+      "INDUSTRY_CHAIN_AND_OPERATOR_EXPOSURE": 120
+    },
+    "price_spread_cjk_warning_floor": 60,
+    "evidence_reference_warning_floor": 3
+  },
+  "classification": "CHAT_CORRECTION_REQUIRED",
+  "research_repeated": false,
+  "evidence_change_required": false,
+  "research_review_required": false,
+  "work_may_rewrite": false,
+  "next_action": "Resume from the durable accepted-format 2026-09-29 evidence without repeating research; produce and validate public_core.md and manifest.json under the verified policy contract, then update status/latest for Work revalidation."
+}
