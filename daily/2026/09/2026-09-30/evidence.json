@@ -1,0 +1,73 @@
+{
+  "schema_version": "REPORTOPS_EVIDENCE_V1_2",
+  "target_date": "2026-09-30",
+  "window_start": "2026-09-29T10:00:00+08:00",
+  "window_end": "2026-09-30T10:00:00+08:00",
+  "mode": "STRICT_NEW_PUBLIC",
+  "records": [
+    {
+      "id": "E01",
+      "claim_role": "CORE",
+      "support": "DIRECT",
+      "url": "https://www.reuters.com/business/energy/shell-led-lng-canada-greenlights-phase-2-expansion-doubling-export-capacity-2026-09-29/",
+      "title": "Shell-led LNG Canada greenlights Phase 2 expansion, doubling export capacity",
+      "publisher": "Reuters",
+      "publication_time": "2026-09-29T07:10:00Z",
+      "url_identity_status": "PASS",
+      "url_verified_date": "2026-10-01",
+      "source_identity_receipt": {
+        "verification_method": "OPENED_EXACT_DOCUMENT",
+        "observed_url": "https://www.reuters.com/business/energy/shell-led-lng-canada-greenlights-phase-2-expansion-doubling-export-capacity-2026-09-29/",
+        "canonical_url": "https://www.reuters.com/business/energy/shell-led-lng-canada-greenlights-phase-2-expansion-doubling-export-capacity-2026-09-29/",
+        "observed_title": "Shell-led LNG Canada greenlights Phase 2 expansion, doubling export capacity",
+        "observed_publisher": "Reuters",
+        "title_match_status": "EXACT",
+        "verified_at": "2026-10-01T11:10:00+08:00"
+      }
+    },
+    {
+      "id": "E02",
+      "claim_role": "CORE",
+      "support": "DIRECT",
+      "url": "https://www.reuters.com/business/energy/cheniere-signs-22-year-lng-supply-deal-with-petrobras-2026-09-29/",
+      "title": "Cheniere signs 22-year LNG supply deal with Petrobras",
+      "publisher": "Reuters",
+      "publication_time": "2026-09-29T13:07:00Z",
+      "url_identity_status": "PASS",
+      "url_verified_date": "2026-10-01",
+      "source_identity_receipt": {
+        "verification_method": "OPENED_EXACT_DOCUMENT",
+        "observed_url": "https://www.reuters.com/business/energy/cheniere-signs-22-year-lng-supply-deal-with-petrobras-2026-09-29/",
+        "canonical_url": "https://www.reuters.com/business/energy/cheniere-signs-22-year-lng-supply-deal-with-petrobras-2026-09-29/",
+        "observed_title": "Cheniere signs 22-year LNG supply deal with Petrobras",
+        "observed_publisher": "Reuters",
+        "title_match_status": "EXACT",
+        "verified_at": "2026-10-01T11:10:00+08:00"
+      }
+    },
+    {
+      "id": "E03",
+      "claim_role": "CORE",
+      "support": "DIRECT",
+      "url": "https://www.reuters.com/business/energy/what-are-europes-methane-emissions-rules-why-are-they-being-delayed-2026-09-29/",
+      "title": "Explainer: What are Europe's methane emissions rules and why are they being delayed?",
+      "publisher": "Reuters",
+      "publication_time": "2026-09-29T10:33:00Z",
+      "url_identity_status": "PASS",
+      "url_verified_date": "2026-10-01",
+      "source_identity_receipt": {
+        "verification_method": "OPENED_EXACT_DOCUMENT",
+        "observed_url": "https://www.reuters.com/business/energy/what-are-europes-methane-emissions-rules-why-are-they-being-delayed-2026-09-29/",
+        "canonical_url": "https://www.reuters.com/business/energy/what-are-europes-methane-emissions-rules-why-are-they-being-delayed-2026-09-29/",
+        "observed_title": "Explainer: What are Europe's methane emissions rules and why are they being delayed?",
+        "observed_publisher": "Reuters",
+        "title_match_status": "EXACT",
+        "verified_at": "2026-10-01T11:10:00+08:00"
+      }
+    }
+  ],
+  "guessed_url_count": 0,
+  "unsupported_core_claims": 0,
+  "evidence_record_count": 3,
+  "excluded_records": []
+}
