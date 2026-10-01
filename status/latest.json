@@ -3,7 +3,7 @@
   "scheduled_date": "2026-10-01",
   "target_date": "2026-10-01",
   "current_day_status": "PUBLIC_CORE_ACCEPTED_PENDING_WORK",
-  "scheduled_run_status": "SUCCESS__CONTINUITY_RECOVERY_COMPLETE__CONCURRENCY_RECONCILED",
+  "scheduled_run_status": "PRODUCER_SUCCESS__CANDIDATES_PENDING_WORK",
   "correction_backlog": {
     "status": "CLOSED_NO_CHAT_CORRECTION_REQUIRED",
     "chat_correction_required": false,
@@ -56,10 +56,14 @@
   "state_consistency_pointer_sha256": "513144223be9f8d4737a4f65bb85670d9dcc10fe7bf1b9650ce181f3d6962510",
   "failure_stage": null,
   "failure_reason": null,
-  "next_action": "12:30 Work consumes complete candidates oldest-first: 2026-09-29 -> 2026-09-30 -> 2026-10-01. Chat continuity queue is empty.",
-  "updated_at": "2026-10-01T11:05:00+08:00",
-  "queue_remaining": [],
-  "pending_product": null,
+  "next_action": "12:30 Work consumes 2026-09-29, 2026-09-30, 2026-10-01 oldest-first for formal reconciliation and publication.",
+  "updated_at": "2026-10-01T11:04:00+08:00",
+  "queue_remaining": [
+    "2026-09-29",
+    "2026-09-30",
+    "2026-10-01"
+  ],
+  "pending_product": "2026-09-29",
   "manual_intervention_required": false,
   "authority_package_sha256": "8f49fcbfa23dafdcc036c4d71eae24a76365bd6b91f69993d12c5f549b1e64e1",
   "queue_initial": [
@@ -69,10 +73,12 @@
     "2026-09-29"
   ],
   "products_promoted": [],
-  "products_blocked_local": [
-    "2026-09-29"
+  "products_blocked_local": [],
+  "eligible_unpublished_products": [
+    "2026-09-29",
+    "2026-09-30",
+    "2026-10-01"
   ],
-  "eligible_unpublished_products": [],
   "preflight_blocker_matrix": "PREFLIGHT_BLOCKER_MATRIX_20260930.json",
   "recovery_provenance": {
     "mode": "BOUNDED_MANUAL_RECOVERY_20260927",
@@ -103,7 +109,7 @@
   },
   "products_deferred_dependency": [],
   "public_daily_2026_09_26_download_sha256": "ea94ce1f2f69b3efa270295fb9f7b04c248280ea057a6a8721a7d3602522ba43",
-  "reportops_status": "PRODUCER_SUCCESS__CONTINUITY_QUEUE_EMPTY__PENDING_WORK_RECONCILIATION",
+  "reportops_status": "PRODUCER_SUCCESS__3_COMPLETE_CANDIDATES_PENDING_WORK__CANONICAL_UNCHANGED",
   "correction_provenance_2026_09_27": {
     "corrected_at": "2026-09-27T22:50:00+08:00",
     "correction_type": "INLINE_CITATION_PLACEMENT_ONLY",
@@ -142,28 +148,35 @@
     "2026-10-01"
   ],
   "continuity_inventory": {
-    "2026-09-29": "COMPLETE_CANDIDATE_PUBLIC_CORE_ACCEPTED",
-    "2026-09-30": "COMPLETE_CANDIDATE_PUBLIC_CORE_ACCEPTED",
-    "2026-10-01": "COMPLETE_CANDIDATE_PUBLIC_CORE_ACCEPTED"
+    "2026-09-29": "COMPLETE_CANDIDATE__PENDING_WORK",
+    "2026-09-30": "COMPLETE_CANDIDATE__PENDING_WORK",
+    "2026-10-01": "COMPLETE_CANDIDATE__PENDING_WORK"
   },
   "recovery_queue_initial": [
     "2026-09-29",
     "2026-09-30",
     "2026-10-01"
   ],
-  "oldest_pending_date": null,
+  "oldest_pending_date": "2026-09-29",
   "products_completed_this_run": [
     "2026-09-29",
     "2026-09-30",
     "2026-10-01"
   ],
-  "github_write_status": "PASS_3_PRODUCTS_ATOMIC_SEQUENCE",
-  "github_readback_status": "PASS_ALL_PRODUCT_ARTIFACTS_AND_STATUS",
+  "github_write_status": "PASS_3_PRODUCTS_COMPLETE_CANDIDATES",
+  "github_readback_status": "PASS_9_OF_9_PRODUCT_ARTIFACTS_PLUS_STATUS",
   "concurrency_reconciliation": {
     "detected": true,
     "issue": "LATE_HEARTBEAT_STALE_STATUS_OVERWRITE_FROM_IN_FLIGHT_10_15_RUN",
     "product_artifacts_affected": false,
     "guard_version": "v3.1",
     "reconciled_against_latest_artifacts": true
+  },
+  "producer_recovery_queue_remaining": [],
+  "oldest_producer_gap": null,
+  "continuity_inventory_at_start": {
+    "2026-09-29": "BLOCKED_CORRECTION__PARTIAL_DURABLE_EVIDENCE_ONLY",
+    "2026-09-30": "ZERO_ARTIFACT_MISSING_DATE",
+    "2026-10-01": "ZERO_ARTIFACT_MISSING_DATE"
   }
 }
