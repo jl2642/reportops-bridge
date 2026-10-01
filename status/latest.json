@@ -1,21 +1,21 @@
 {
   "schema_version": "REPORTOPS_R3_1_CHAT_STATUS_V1_5_SINGLE_SITE",
   "scheduled_date": "2026-10-01",
-  "target_date": "2026-09-29",
+  "target_date": "2026-09-30",
   "current_day_status": "PUBLIC_CORE_ACCEPTED_PENDING_WORK",
   "scheduled_run_status": "PARTIAL_SUCCESS_RECOVERY_QUEUE_REMAINS",
   "correction_backlog": {
     "status": "OPEN_CONTINUITY_RECOVERY",
     "chat_correction_required": true,
     "correction_dates": [
-      "2026-09-30",
       "2026-10-01"
     ],
     "resolved_dates": [
       "2026-09-18",
       "2026-09-26",
       "2026-09-27",
-      "2026-09-29"
+      "2026-09-29",
+      "2026-09-30"
     ],
     "blocking_gate": "PRODUCER_ARTIFACT_COMPLETENESS__PUBLIC_CORE_AND_MANIFEST_MISSING",
     "exact_measured_values": {
@@ -34,27 +34,26 @@
     "work_may_rewrite": false,
     "pending_consumer_revalidation": true
   },
-  "source_identity_gate_status": "PASS_4_OF_4",
-  "inline_citation_gate_status": "PASS_4_OF_4",
+  "source_identity_gate_status": "PASS_3_OF_3",
+  "inline_citation_gate_status": "PASS_3_OF_3",
   "signal_priority_status": "PASS",
   "exact_v4_machine_structure_status": "PASS",
   "v4_public_depth_gate_status": "PASS",
-  "cjk_characters_actual": 3038,
-  "executive_cjk_actual": 230,
-  "key_signal_cjk_actual": 1447,
+  "cjk_characters_actual": 2628,
+  "executive_cjk_actual": 192,
+  "key_signal_cjk_actual": 1111,
   "signal_card_cjk_actual": [
-    400,
-    372,
-    360,
-    309
+    354,
+    378,
+    373
   ],
-  "china_chain_cjk_actual": 169,
-  "global_energy_cjk_actual": 140,
-  "industry_operator_cjk_actual": 148,
+  "china_chain_cjk_actual": 171,
+  "global_energy_cjk_actual": 122,
+  "industry_operator_cjk_actual": 157,
   "depth_policy_public_contract_sha256": "64770bf24f1280d11060d6a905a659241d5e483109fc8c3e34195a8264fc48f6",
-  "evidence_status": "PASS_FORMAT_AND_IDENTITY_4_OF_4",
+  "evidence_status": "PASS_FORMAT_AND_IDENTITY_3_OF_3",
   "privacy_status": "PASS_PUBLIC_SAFE_SINGLE_SITE",
-  "window_status": "PASS_4_OF_4",
+  "window_status": "PASS_3_OF_3",
   "data_gap_boundary_status": "PASS",
   "current_daily_public": "2026-09-28",
   "current_weekly_public": "2026-W39",
@@ -68,10 +67,9 @@
   "state_consistency_pointer_sha256": "513144223be9f8d4737a4f65bb85670d9dcc10fe7bf1b9650ce181f3d6962510",
   "failure_stage": null,
   "failure_reason": null,
-  "next_action": "Continue oldest-first with zero-artifact Daily 2026-09-30, then 2026-10-01.",
-  "updated_at": "2026-10-01T11:06:00+08:00",
+  "next_action": "Continue oldest-first with zero-artifact Daily 2026-10-01.",
+  "updated_at": "2026-10-01T11:13:00+08:00",
   "queue_remaining": [
-    "2026-09-30",
     "2026-10-01"
   ],
   "pending_product": "2026-09-29",
@@ -158,7 +156,7 @@
   ],
   "continuity_inventory": {
     "2026-09-29": "PARTIAL_DURABLE_ORPHAN__EVIDENCE_ONLY",
-    "2026-09-30": "ZERO_ARTIFACT_MISSING_DATE",
+    "2026-09-30": "COMPLETE_CANDIDATE_PUBLIC_CORE_ACCEPTED",
     "2026-10-01": "ZERO_ARTIFACT_MISSING_DATE"
   },
   "recovery_queue_initial": [
@@ -166,8 +164,9 @@
     "2026-09-30",
     "2026-10-01"
   ],
-  "oldest_pending_date": "2026-09-30",
+  "oldest_pending_date": "2026-10-01",
   "products_completed_this_run": [
-    "2026-09-29"
+    "2026-09-29",
+    "2026-09-30"
   ]
 }
