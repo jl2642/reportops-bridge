@@ -57,11 +57,11 @@
   "failure_stage": null,
   "failure_reason": null,
   "next_action": "仅扫描新增或更新的 Chat-accepted 产品；本版本后续幂等跳过。",
-  "updated_at": "2026-10-01T12:52:00+08:00",
+  "updated_at": "2026-10-01T13:45:00+08:00",
   "queue_remaining": [],
   "pending_product": null,
   "manual_intervention_required": false,
-  "authority_package_sha256": "8f49fcbfa23dafdcc036c4d71eae24a76365bd6b91f69993d12c5f549b1e64e1",
+  "authority_package_sha256": "76e6ead0ac7ec19453fc2bd3a696178a1ff24d94cd94720a56001e09ad6e892b",
   "queue_initial": [
     "2026-09-29",
     "2026-09-30",
@@ -206,5 +206,12 @@
   },
   "public_daily_2026_09_29_download_sha256": "2837f387d8f1c1c048b1b53c0b03fd9ef3c972dacf3003c6bc0cec67795065f5",
   "public_daily_2026_09_30_download_sha256": "71b2b772dfc67f33d4d36903b11d1a1a5608af8bd0fe7bb1faf566232e009916",
-  "public_daily_2026_10_01_download_sha256": "f332e6a6ce7eecdce966954035d0306c03c12c6534e5960686a83177f6228ebd"
+  "public_daily_2026_10_01_download_sha256": "f332e6a6ce7eecdce966954035d0306c03c12c6534e5960686a83177f6228ebd",
+  "authority_sha_runtime_reconciliation": {
+    "reconciled_at": "2026-10-01T13:45:00+08:00",
+    "prior_runtime_sha256": "8f49fcbfa23dafdcc036c4d71eae24a76365bd6b91f69993d12c5f549b1e64e1",
+    "current_library_release_sha256": "76e6ead0ac7ec19453fc2bd3a696178a1ff24d94cd94720a56001e09ad6e892b",
+    "reason": "Post-rebuild Authority SHA was not propagated during 12:30 runtime sync; metadata-only correction after Library ZIP+sidecar+unzip verification."
+  },
+  "runtime_sync_status": "PASS_AFTER_BOUNDED_POST_REBUILD_AUTHORITY_SHA_RECONCILIATION"
 }
