@@ -31,7 +31,7 @@
   "signal_card_count": 3,
   "evidence_record_count": 3,
   "evidence_warning": null,
-  "authority_package_sha256": "8f49fcbfa23dafdcc036c4d71eae24a76365bd6b91f69993d12c5f549b1e64e1",
+  "authority_package_sha256": "76e6ead0ac7ec19453fc2bd3a696178a1ff24d94cd94720a56001e09ad6e892b",
   "canonical_current_daily_at_production": "2026-09-28",
   "predecessor_bridge_status": "2026-09-29_PUBLIC_CORE_ACCEPTED_PENDING_WORK",
   "canonical_mutation_performed": true,
@@ -106,5 +106,12 @@
   "download_zip_sha256": "71b2b772dfc67f33d4d36903b11d1a1a5608af8bd0fe7bb1faf566232e009916",
   "remote_download_zip_sha256": "71b2b772dfc67f33d4d36903b11d1a1a5608af8bd0fe7bb1faf566232e009916",
   "download_zip_integrity": "PASS_SHA256_AND_UNZIP",
-  "consumer_status": "PASS_FORMAL_CANONICAL_PUBLISHED"
+  "consumer_status": "PASS_FORMAL_CANONICAL_PUBLISHED",
+  "consumer_authority_sha_reconciliation": {
+    "reconciled_at": "2026-10-01T13:46:00+08:00",
+    "producer_or_pre_rebuild_authority_sha256": "8f49fcbfa23dafdcc036c4d71eae24a76365bd6b91f69993d12c5f549b1e64e1",
+    "consumer_post_rebuild_authority_sha256": "76e6ead0ac7ec19453fc2bd3a696178a1ff24d94cd94720a56001e09ad6e892b",
+    "substantive_content_changed": false,
+    "evidence_changed": false
+  }
 }
