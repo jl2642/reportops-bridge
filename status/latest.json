@@ -2,8 +2,8 @@
   "schema_version": "REPORTOPS_R3_1_CHAT_STATUS_V1_5_SINGLE_SITE",
   "scheduled_date": "2026-10-01",
   "target_date": "2026-10-01",
-  "current_day_status": "PUBLIC_CORE_ACCEPTED_PENDING_WORK",
-  "scheduled_run_status": "PRODUCER_SUCCESS__CANDIDATES_PENDING_WORK",
+  "current_day_status": "FORMAL_CANONICAL_PUBLISHED",
+  "scheduled_run_status": "WORK_SUCCESS__CANONICAL_SITE_RUNTIME_SYNC_COMPLETE",
   "correction_backlog": {
     "status": "CLOSED_NO_CHAT_CORRECTION_REQUIRED",
     "chat_correction_required": false,
@@ -20,7 +20,7 @@
     "research_review_required": false,
     "evidence_change_required": false,
     "work_may_rewrite": false,
-    "pending_consumer_revalidation": true
+    "pending_consumer_revalidation": false
   },
   "source_identity_gate_status": "PASS_5_OF_5",
   "inline_citation_gate_status": "PASS_5_OF_5",
@@ -44,26 +44,22 @@
   "privacy_status": "PASS_PUBLIC_SAFE_SINGLE_SITE",
   "window_status": "PASS_5_OF_5",
   "data_gap_boundary_status": "PASS",
-  "current_daily_public": "2026-09-28",
+  "current_daily_public": "2026-10-01",
   "current_weekly_public": "2026-W39",
-  "formal_status": "PENDING_WORK_RECONCILIATION",
-  "canonical_promotion_performed": false,
-  "site_publication_performed": false,
-  "public_site_version": 75,
-  "public_site_status": "PASS_V75_REMOTE_READBACK",
-  "manifest_reconciliation_status": "PASS_2026_09_28_FORMAL_CANONICAL_PUBLISHED_CONSUMER_ACTUALS",
-  "metadata_freshness": "PASS__CANONICAL_13_CURRENT_DERIVED_VIEWS_UNCHANGED__PENDING_QUEUE_EXPLICIT",
-  "state_consistency_pointer_sha256": "513144223be9f8d4737a4f65bb85670d9dcc10fe7bf1b9650ce181f3d6962510",
+  "formal_status": "FORMAL_CANONICAL_PUBLISHED",
+  "canonical_promotion_performed": true,
+  "site_publication_performed": true,
+  "public_site_version": 76,
+  "public_site_status": "PASS_V76_REMOTE_READBACK",
+  "manifest_reconciliation_status": "PASS_3_OF_3_FORMAL_CANONICAL_PUBLISHED_CONSUMER_ACTUALS_AND_SITE_FLAGS",
+  "metadata_freshness": "PASS__13_CURRENT_DERIVED_VIEWS__POINTER_MATCH",
+  "state_consistency_pointer_sha256": "9a0be0df5228b948c1375482919b5c54fa554ace560e426ea8ee335f08c4704e",
   "failure_stage": null,
   "failure_reason": null,
-  "next_action": "12:30 Work consumes 2026-09-29 → 2026-09-30 → 2026-10-01 oldest-first, runs consumer/Reader/Lineage/state gates, promotes eligible products atomically, rebuilds Authority/SHA, publishes the existing single Public Site, and performs remote/readback/download/freshness/runtime-sync acceptance.",
-  "updated_at": "2026-10-01T11:20:00+08:00",
-  "queue_remaining": [
-    "2026-09-29",
-    "2026-09-30",
-    "2026-10-01"
-  ],
-  "pending_product": "2026-09-29",
+  "next_action": "仅扫描新增或更新的 Chat-accepted 产品；本版本后续幂等跳过。",
+  "updated_at": "2026-10-01T12:52:00+08:00",
+  "queue_remaining": [],
+  "pending_product": null,
   "manual_intervention_required": false,
   "authority_package_sha256": "8f49fcbfa23dafdcc036c4d71eae24a76365bd6b91f69993d12c5f549b1e64e1",
   "queue_initial": [
@@ -76,14 +72,14 @@
     "2026-09-30",
     "2026-10-01"
   ],
-  "products_promoted": [],
-  "products_blocked_local": [],
-  "eligible_unpublished_products": [
+  "products_promoted": [
     "2026-09-29",
     "2026-09-30",
     "2026-10-01"
   ],
-  "preflight_blocker_matrix": null,
+  "products_blocked_local": [],
+  "eligible_unpublished_products": [],
+  "preflight_blocker_matrix": "Library:/能源周期报告/99_ARCHIVE/GOVERNANCE_SUPERSEDED/BACKLOG_CLOSURE_RUNTIME_FORMALIZATION_20260915/PREFLIGHT_BLOCKER_MATRIX_20261001.json",
   "recovery_provenance": {
     "mode": "BOUNDED_MANUAL_RECOVERY_20260927",
     "recovered_dates": [
@@ -95,11 +91,11 @@
     "producer_automation_restored": true,
     "prior_2026_09_26_correction_preserved": true
   },
-  "real_remote_readback_status": "PASS_REAL_REMOTE_CONTENT_V75__12_REQUIRED_PAGES",
-  "download_sha_status": "PASS_REMOTE_SHA256_AND_UNZIP",
+  "real_remote_readback_status": "PASS_REAL_REMOTE_CONTENT_V76__12_REQUIRED_PAGES",
+  "download_sha_status": "PASS_REMOTE_SHA256_AND_UNZIP__3_OF_3",
   "public_daily_2026_09_25_download_sha256": "b4a80928e9755db168822874115c2d40069f3d9ad919416291e739dee8db7e72",
   "public_weekly_2026_w38_download_sha256": "551496a55a54f77721bbb1a7d2f0dc584956e0a18c188c44c9b90ec1a0a6305a",
-  "higher_cycle_dependency_state": "W39_7_OF_7_PROMOTED__W40_1_OF_7_CANONICAL__2026_09_29_PENDING",
+  "higher_cycle_dependency_state": "W39_7_OF_7_PROMOTED__W40_4_OF_7_CANONICAL__NO_CHAT_ACCEPTED_HIGHER_CYCLE_CANDIDATE",
   "correction_provenance": {
     "corrected_at": "2026-09-26T14:08:00+08:00",
     "changed_records": [
@@ -111,9 +107,12 @@
     "urls_changed": false,
     "claims_changed": false
   },
-  "products_deferred_dependency": [],
+  "products_deferred_dependency": [
+    "2026-09-30__RESOLVED",
+    "2026-10-01__RESOLVED"
+  ],
   "public_daily_2026_09_26_download_sha256": "ea94ce1f2f69b3efa270295fb9f7b04c248280ea057a6a8721a7d3602522ba43",
-  "reportops_status": "PRODUCER_RECOVERY_PASS__3_VALIDATED_CANDIDATES_PENDING_12_30_WORK__CANONICAL_UNCHANGED",
+  "reportops_status": "SUCCESS__FINAL_CLOSURE_PASS__DEVELOPMENT_FROZEN_LONG_TERM_OPERATION",
   "correction_provenance_2026_09_27": {
     "corrected_at": "2026-09-27T22:50:00+08:00",
     "correction_type": "INLINE_CITATION_PLACEMENT_ONLY",
@@ -167,8 +166,8 @@
     "2026-09-30",
     "2026-10-01"
   ],
-  "github_write_status": "PASS_3_PRODUCTS_COMPLETE_CANDIDATES",
-  "github_readback_status": "PASS_9_OF_9_PRODUCT_ARTIFACTS_PLUS_STATUS",
+  "github_write_status": "PASS_3_MANIFESTS_AND_RUNTIME_STATE",
+  "github_readback_status": "PENDING_POST_WRITE_READBACK",
   "concurrency_reconciliation": {
     "detected": true,
     "issue": "LATE_HEARTBEAT_STALE_STATUS_OVERWRITE_FROM_IN_FLIGHT_10_15_RUN",
@@ -204,5 +203,8 @@
     ],
     "canonical_mutation_performed": false,
     "site_mutation_performed": false
-  }
+  },
+  "public_daily_2026_09_29_download_sha256": "2837f387d8f1c1c048b1b53c0b03fd9ef3c972dacf3003c6bc0cec67795065f5",
+  "public_daily_2026_09_30_download_sha256": "71b2b772dfc67f33d4d36903b11d1a1a5608af8bd0fe7bb1faf566232e009916",
+  "public_daily_2026_10_01_download_sha256": "f332e6a6ce7eecdce966954035d0306c03c12c6534e5960686a83177f6228ebd"
 }
