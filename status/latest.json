@@ -56,8 +56,8 @@
   "state_consistency_pointer_sha256": "513144223be9f8d4737a4f65bb85670d9dcc10fe7bf1b9650ce181f3d6962510",
   "failure_stage": null,
   "failure_reason": null,
-  "next_action": "12:30 Work consumes 2026-09-29, 2026-09-30, 2026-10-01 oldest-first for formal reconciliation and publication.",
-  "updated_at": "2026-10-01T11:06:00+08:00",
+  "next_action": "12:30 Work consumes 2026-09-29 → 2026-09-30 → 2026-10-01 oldest-first, runs consumer/Reader/Lineage/state gates, promotes eligible products atomically, rebuilds Authority/SHA, publishes the existing single Public Site, and performs remote/readback/download/freshness/runtime-sync acceptance.",
+  "updated_at": "2026-10-01T11:20:00+08:00",
   "queue_remaining": [
     "2026-09-29",
     "2026-09-30",
@@ -113,7 +113,7 @@
   },
   "products_deferred_dependency": [],
   "public_daily_2026_09_26_download_sha256": "ea94ce1f2f69b3efa270295fb9f7b04c248280ea057a6a8721a7d3602522ba43",
-  "reportops_status": "PRODUCER_SUCCESS__3_COMPLETE_CANDIDATES_PENDING_WORK__CANONICAL_UNCHANGED",
+  "reportops_status": "PRODUCER_RECOVERY_PASS__3_VALIDATED_CANDIDATES_PENDING_12_30_WORK__CANONICAL_UNCHANGED",
   "correction_provenance_2026_09_27": {
     "corrected_at": "2026-09-27T22:50:00+08:00",
     "correction_type": "INLINE_CITATION_PLACEMENT_ONLY",
@@ -183,5 +183,26 @@
     "2026-09-30": "ZERO_ARTIFACT_MISSING_DATE",
     "2026-10-01": "ZERO_ARTIFACT_MISSING_DATE"
   },
-  "last_work_preflight_blocker_matrix": "PREFLIGHT_BLOCKER_MATRIX_20260930.json"
+  "last_work_preflight_blocker_matrix": "PREFLIGHT_BLOCKER_MATRIX_20260930.json",
+  "post_repair_acceptance": {
+    "accepted_at": "2026-10-01T11:20:00+08:00",
+    "authority_package_sha256": "8f49fcbfa23dafdcc036c4d71eae24a76365bd6b91f69993d12c5f549b1e64e1",
+    "authority_policy_sha256": "ed69573e48d0daedd1b899ab2d6cf15880f37705f88b44b1a9d2ca26715f9905",
+    "formal_validator_logic_status": {
+      "2026-09-29": "PASS",
+      "2026-09-30": "PASS_AFTER_BOUNDED_GLOBAL_ENERGY_DEPTH_CORRECTION_116_TO_144",
+      "2026-10-01": "PASS"
+    },
+    "artifact_readback": "PASS_9_OF_9",
+    "evidence_window_and_source_identity": "PASS_ALL",
+    "inline_binding": "PASS_ALL",
+    "producer_recovery_queue_remaining": [],
+    "work_queue": [
+      "2026-09-29",
+      "2026-09-30",
+      "2026-10-01"
+    ],
+    "canonical_mutation_performed": false,
+    "site_mutation_performed": false
+  }
 }
