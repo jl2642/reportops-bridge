@@ -61,7 +61,7 @@ language: zh-CN
 <!-- MODULE:GLOBAL_ENERGY_DELTA -->
 ## 6. 国际油气 / LNG增量
 
-全球LNG正在同步强化“供给扩张”和“合同锁定”。加拿大通过大型二期扩建提高未来出口能力，美国出口商通过22年SPA支持棕地扩产，欧洲监管端则考虑给进口供应链更多合规缓冲。[E01](https://www.reuters.com/business/energy/shell-led-lng-canada-greenlights-phase-2-expansion-doubling-export-capacity-2026-09-29/) [E02](https://www.reuters.com/business/energy/cheniere-signs-22-year-lng-supply-deal-with-petrobras-2026-09-29/) [E03](https://www.reuters.com/business/energy/what-are-europes-methane-emissions-rules-why-are-they-being-delayed-2026-09-29/) 若类似FID和长期合同持续出现，2026年的供应危机可能加速2030年前后的LNG资本周期，但必须区分“已批准项目”与“已投产供给”。
+全球LNG正在同步强化“供给扩张”和“合同锁定”。加拿大通过大型二期扩建提高未来出口能力，美国出口商通过22年SPA支持棕地扩产，欧洲监管端则考虑给进口供应链更多合规缓冲。[E01](https://www.reuters.com/business/energy/shell-led-lng-canada-greenlights-phase-2-expansion-doubling-export-capacity-2026-09-29/) [E02](https://www.reuters.com/business/energy/cheniere-signs-22-year-lng-supply-deal-with-petrobras-2026-09-29/) [E03](https://www.reuters.com/business/energy/what-are-europes-methane-emissions-rules-why-are-they-being-delayed-2026-09-29/) 若类似FID和长期合同持续出现，2026年的供应危机可能加速2030年前后的LNG资本周期，但必须区分“已批准项目”与“已投产供给”。这一结构性变化仍需连续窗口验证，不能直接外推为全球现货宽松。
 
 <!-- MODULE:RESEARCH_TRIGGER_BOARD -->
 ## 7. Research Trigger Board
