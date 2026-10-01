@@ -26,12 +26,12 @@
   "current_weekly_public": "2026-W39",
   "current_monthly_public": "2026-08",
   "current_quarterly_public": "2026-Q2",
-  "authority_package_sha256": "8f49fcbfa23dafdcc036c4d71eae24a76365bd6b91f69993d12c5f549b1e64e1",
+  "authority_package_sha256": "76e6ead0ac7ec19453fc2bd3a696178a1ff24d94cd94720a56001e09ad6e892b",
   "canonical_authority": "CHATGPT_LIBRARY:/能源周期报告/00_CURRENT/CURRENT_POINTER.json",
   "current_public_ref": "runtime/CURRENT_PUBLIC.json",
   "final_closure_status": "SUCCESS__FINAL_CLOSURE_PASS__DEVELOPMENT_FROZEN_LONG_TERM_OPERATION",
   "pending_product": null,
-  "updated_at": "2026-10-01T12:52:00+08:00",
+  "updated_at": "2026-10-01T13:45:00+08:00",
   "metadata_freshness": "PASS__13_CURRENT_DERIVED_VIEWS__POINTER_MATCH",
   "state_consistency_pointer_sha256": "9a0be0df5228b948c1375482919b5c54fa554ace560e426ea8ee335f08c4704e",
   "real_remote_readback_status": "PASS_REAL_REMOTE_CONTENT_V76__12_REQUIRED_PAGES",
@@ -43,5 +43,11 @@
   "measurement_parity_status": "PASS_AUTHORITY_CONSUMER_ACTUALS",
   "derived_state_completeness_status": "PASS__13_CURRENT_DERIVED_VIEWS",
   "stable_operation_accepted": true,
-  "higher_cycle_dependency_state": "W39_7_OF_7_PROMOTED__W40_4_OF_7_CANONICAL__NO_CHAT_ACCEPTED_HIGHER_CYCLE_CANDIDATE"
+  "higher_cycle_dependency_state": "W39_7_OF_7_PROMOTED__W40_4_OF_7_CANONICAL__NO_CHAT_ACCEPTED_HIGHER_CYCLE_CANDIDATE",
+  "authority_sha_runtime_reconciliation": {
+    "reconciled_at": "2026-10-01T13:45:00+08:00",
+    "prior_runtime_sha256": "8f49fcbfa23dafdcc036c4d71eae24a76365bd6b91f69993d12c5f549b1e64e1",
+    "current_library_release_sha256": "76e6ead0ac7ec19453fc2bd3a696178a1ff24d94cd94720a56001e09ad6e892b",
+    "reason": "Post-rebuild Authority SHA was not propagated during 12:30 runtime sync; metadata-only correction after Library ZIP+sidecar+unzip verification."
+  }
 }
