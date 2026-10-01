@@ -57,7 +57,7 @@
   "failure_stage": null,
   "failure_reason": null,
   "next_action": "12:30 Work consumes 2026-09-29, 2026-09-30, 2026-10-01 oldest-first for formal reconciliation and publication.",
-  "updated_at": "2026-10-01T11:04:00+08:00",
+  "updated_at": "2026-10-01T11:06:00+08:00",
   "queue_remaining": [
     "2026-09-29",
     "2026-09-30",
@@ -67,10 +67,14 @@
   "manual_intervention_required": false,
   "authority_package_sha256": "8f49fcbfa23dafdcc036c4d71eae24a76365bd6b91f69993d12c5f549b1e64e1",
   "queue_initial": [
-    "2026-09-29"
+    "2026-09-29",
+    "2026-09-30",
+    "2026-10-01"
   ],
   "products_preflighted": [
-    "2026-09-29"
+    "2026-09-29",
+    "2026-09-30",
+    "2026-10-01"
   ],
   "products_promoted": [],
   "products_blocked_local": [],
@@ -79,7 +83,7 @@
     "2026-09-30",
     "2026-10-01"
   ],
-  "preflight_blocker_matrix": "PREFLIGHT_BLOCKER_MATRIX_20260930.json",
+  "preflight_blocker_matrix": null,
   "recovery_provenance": {
     "mode": "BOUNDED_MANUAL_RECOVERY_20260927",
     "recovered_dates": [
@@ -178,5 +182,6 @@
     "2026-09-29": "BLOCKED_CORRECTION__PARTIAL_DURABLE_EVIDENCE_ONLY",
     "2026-09-30": "ZERO_ARTIFACT_MISSING_DATE",
     "2026-10-01": "ZERO_ARTIFACT_MISSING_DATE"
-  }
+  },
+  "last_work_preflight_blocker_matrix": "PREFLIGHT_BLOCKER_MATRIX_20260930.json"
 }
