@@ -1,0 +1,123 @@
+{
+  "schema_version": "REPORTOPS_EVIDENCE_V1_2",
+  "target_date": "2026-10-01",
+  "window_start": "2026-09-30T10:00:00+08:00",
+  "window_end": "2026-10-01T10:00:00+08:00",
+  "mode": "STRICT_NEW_PUBLIC",
+  "records": [
+    {
+      "id": "E01",
+      "claim_role": "CORE",
+      "support": "DIRECT",
+      "url": "https://www.reuters.com/business/energy/analysts-raise-2026-oil-forecasts-prolonged-gulf-disruption-2026-09-30/",
+      "title": "Analysts raise 2026 oil forecasts on prolonged Gulf disruption: Reuters poll",
+      "publisher": "Reuters",
+      "publication_time": "2026-09-30T11:48:00Z",
+      "url_identity_status": "PASS",
+      "url_verified_date": "2026-10-01",
+      "source_identity_receipt": {
+        "verification_method": "OPENED_EXACT_DOCUMENT",
+        "observed_url": "https://www.reuters.com/business/energy/analysts-raise-2026-oil-forecasts-prolonged-gulf-disruption-2026-09-30/",
+        "canonical_url": "https://www.reuters.com/business/energy/analysts-raise-2026-oil-forecasts-prolonged-gulf-disruption-2026-09-30/",
+        "observed_title": "Analysts raise 2026 oil forecasts on prolonged Gulf disruption: Reuters poll",
+        "observed_publisher": "Reuters",
+        "title_match_status": "EXACT",
+        "verified_at": "2026-10-01T11:20:00+08:00"
+      }
+    },
+    {
+      "id": "E02",
+      "claim_role": "CORE",
+      "support": "DIRECT",
+      "url": "https://www.reuters.com/business/energy/opec-oil-producers-set-keep-output-targets-steady-sunday-meeting-sources-say-2026-09-30/",
+      "title": "OPEC+ oil producers set to keep output targets steady at Sunday meeting, sources say",
+      "publisher": "Reuters",
+      "publication_time": "2026-09-30T08:44:00Z",
+      "url_identity_status": "PASS",
+      "url_verified_date": "2026-10-01",
+      "source_identity_receipt": {
+        "verification_method": "OPENED_EXACT_DOCUMENT",
+        "observed_url": "https://www.reuters.com/business/energy/opec-oil-producers-set-keep-output-targets-steady-sunday-meeting-sources-say-2026-09-30/",
+        "canonical_url": "https://www.reuters.com/business/energy/opec-oil-producers-set-keep-output-targets-steady-sunday-meeting-sources-say-2026-09-30/",
+        "observed_title": "OPEC+ oil producers set to keep output targets steady at Sunday meeting, sources say",
+        "observed_publisher": "Reuters",
+        "title_match_status": "EXACT",
+        "verified_at": "2026-10-01T11:20:00+08:00"
+      }
+    },
+    {
+      "id": "E03",
+      "claim_role": "CORE",
+      "support": "DIRECT",
+      "url": "https://www.reuters.com/business/energy/kazakhstan-resumes-proceedings-52-billion-fine-against-kashagan-operator-2026-09-30/",
+      "title": "Kazakhstan resumes proceedings for $5.2 billion fine against Kashagan operator, Interfax reports",
+      "publisher": "Reuters",
+      "publication_time": "2026-09-30T06:18:00Z",
+      "url_identity_status": "PASS",
+      "url_verified_date": "2026-10-01",
+      "source_identity_receipt": {
+        "verification_method": "OPENED_EXACT_DOCUMENT",
+        "observed_url": "https://www.reuters.com/business/energy/kazakhstan-resumes-proceedings-52-billion-fine-against-kashagan-operator-2026-09-30/",
+        "canonical_url": "https://www.reuters.com/business/energy/kazakhstan-resumes-proceedings-52-billion-fine-against-kashagan-operator-2026-09-30/",
+        "observed_title": "Kazakhstan resumes proceedings for $5.2 billion fine against Kashagan operator, Interfax reports",
+        "observed_publisher": "Reuters",
+        "title_match_status": "EXACT",
+        "verified_at": "2026-10-01T11:20:00+08:00"
+      }
+    },
+    {
+      "id": "E04",
+      "claim_role": "CORE",
+      "support": "DIRECT",
+      "url": "https://www.reuters.com/business/energy/malaysias-petronas-says-songkhla-export-pipeline-temporarily-shut-after-routine-2026-10-01/",
+      "title": "Malaysia's Petronas says Songkhla export pipeline temporarily shut after routine check",
+      "publisher": "Reuters",
+      "publication_time": "2026-10-01T01:16:00Z",
+      "url_identity_status": "PASS",
+      "url_verified_date": "2026-10-01",
+      "source_identity_receipt": {
+        "verification_method": "OPENED_EXACT_DOCUMENT",
+        "observed_url": "https://www.reuters.com/business/energy/malaysias-petronas-says-songkhla-export-pipeline-temporarily-shut-after-routine-2026-10-01/",
+        "canonical_url": "https://www.reuters.com/business/energy/malaysias-petronas-says-songkhla-export-pipeline-temporarily-shut-after-routine-2026-10-01/",
+        "observed_title": "Malaysia's Petronas says Songkhla export pipeline temporarily shut after routine check",
+        "observed_publisher": "Reuters",
+        "title_match_status": "EXACT",
+        "verified_at": "2026-10-01T11:20:00+08:00"
+      }
+    },
+    {
+      "id": "E05",
+      "claim_role": "CORE",
+      "support": "DIRECT",
+      "url": "https://www.reuters.com/business/energy/oil-prices-barely-changed-investors-assess-us-iran-peace-talks-gulf-exports-2026-10-01/",
+      "title": "Oil prices barely changed as investors assess US-Iran peace talks and Gulf exports",
+      "publisher": "Reuters",
+      "publication_time": "2026-10-01T01:10:00Z",
+      "url_identity_status": "PASS",
+      "url_verified_date": "2026-10-01",
+      "source_identity_receipt": {
+        "verification_method": "OPENED_EXACT_DOCUMENT",
+        "observed_url": "https://www.reuters.com/business/energy/oil-prices-barely-changed-investors-assess-us-iran-peace-talks-gulf-exports-2026-10-01/",
+        "canonical_url": "https://www.reuters.com/business/energy/oil-prices-barely-changed-investors-assess-us-iran-peace-talks-gulf-exports-2026-10-01/",
+        "observed_title": "Oil prices barely changed as investors assess US-Iran peace talks and Gulf exports",
+        "observed_publisher": "Reuters",
+        "title_match_status": "EXACT",
+        "verified_at": "2026-10-01T11:20:00+08:00"
+      },
+      "price_semantics": {
+        "basis": "live futures quote, not settlement",
+        "observation_time": "2026-10-01T00:45:00Z",
+        "values": [
+          "Brent $98.15/bbl",
+          "WTI $90.35/bbl"
+        ],
+        "currency": "USD",
+        "geography": "global benchmarks"
+      }
+    }
+  ],
+  "guessed_url_count": 0,
+  "unsupported_core_claims": 0,
+  "evidence_record_count": 5,
+  "excluded_records": []
+}
