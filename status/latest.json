@@ -1,9 +1,9 @@
 {
   "schema_version": "REPORTOPS_R3_1_CHAT_STATUS_V1_5_SINGLE_SITE",
   "scheduled_date": "2026-10-01",
-  "target_date": "2026-09-29",
+  "target_date": "2026-10-01",
   "current_day_status": "PUBLIC_CORE_ACCEPTED_PENDING_WORK",
-  "scheduled_run_status": "RUN_STARTED_CONTINUITY_SCAN_COMPLETE__BOUNDED_RECOVERY_ACTIVE",
+  "scheduled_run_status": "SUCCESS__CONTINUITY_RECOVERY_COMPLETE__CONCURRENCY_RECONCILED",
   "correction_backlog": {
     "status": "CLOSED_NO_CHAT_CORRECTION_REQUIRED",
     "chat_correction_required": false,
@@ -16,18 +16,7 @@
       "2026-09-30",
       "2026-10-01"
     ],
-    "blocking_gate": "PRODUCER_ARTIFACT_COMPLETENESS__PUBLIC_CORE_AND_MANIFEST_MISSING",
-    "exact_measured_values": {
-      "durable_evidence_records": 4,
-      "source_identity_pass": 4,
-      "window_pass": 4,
-      "public_core_present": false,
-      "manifest_present": false,
-      "inline_citation_actual": null,
-      "exact_structure_actual": null,
-      "signal_card_count_actual": null,
-      "cjk_characters_actual": null
-    },
+    "blocking_gate": null,
     "research_review_required": false,
     "evidence_change_required": false,
     "work_may_rewrite": false,
@@ -67,14 +56,10 @@
   "state_consistency_pointer_sha256": "513144223be9f8d4737a4f65bb85670d9dcc10fe7bf1b9650ce181f3d6962510",
   "failure_stage": null,
   "failure_reason": null,
-  "next_action": "Oldest-first bounded recovery: complete 2026-09-29 from durable Evidence, then research/produce 2026-09-30 and 2026-10-01 fixed windows; leave complete candidates for 12:30 Work.",
-  "updated_at": "2026-10-01T10:53:00+08:00",
-  "queue_remaining": [
-    "2026-09-29",
-    "2026-09-30",
-    "2026-10-01"
-  ],
-  "pending_product": "2026-09-29",
+  "next_action": "12:30 Work consumes complete candidates oldest-first: 2026-09-29 -> 2026-09-30 -> 2026-10-01. Chat continuity queue is empty.",
+  "updated_at": "2026-10-01T11:05:00+08:00",
+  "queue_remaining": [],
+  "pending_product": null,
   "manual_intervention_required": false,
   "authority_package_sha256": "8f49fcbfa23dafdcc036c4d71eae24a76365bd6b91f69993d12c5f549b1e64e1",
   "queue_initial": [
@@ -118,7 +103,7 @@
   },
   "products_deferred_dependency": [],
   "public_daily_2026_09_26_download_sha256": "ea94ce1f2f69b3efa270295fb9f7b04c248280ea057a6a8721a7d3602522ba43",
-  "reportops_status": "DEGRADED__DAILY_CONTINUITY_RECOVERY_IN_PROGRESS",
+  "reportops_status": "PRODUCER_SUCCESS__CONTINUITY_QUEUE_EMPTY__PENDING_WORK_RECONCILIATION",
   "correction_provenance_2026_09_27": {
     "corrected_at": "2026-09-27T22:50:00+08:00",
     "correction_type": "INLINE_CITATION_PLACEMENT_ONLY",
@@ -157,17 +142,28 @@
     "2026-10-01"
   ],
   "continuity_inventory": {
-    "2026-09-29": "BLOCKED_CORRECTION__PARTIAL_DURABLE_EVIDENCE_ONLY",
-    "2026-09-30": "ZERO_ARTIFACT_MISSING_DATE",
-    "2026-10-01": "ZERO_ARTIFACT_MISSING_DATE"
+    "2026-09-29": "COMPLETE_CANDIDATE_PUBLIC_CORE_ACCEPTED",
+    "2026-09-30": "COMPLETE_CANDIDATE_PUBLIC_CORE_ACCEPTED",
+    "2026-10-01": "COMPLETE_CANDIDATE_PUBLIC_CORE_ACCEPTED"
   },
   "recovery_queue_initial": [
     "2026-09-29",
     "2026-09-30",
     "2026-10-01"
   ],
-  "oldest_pending_date": "2026-09-29",
-  "products_completed_this_run": [],
+  "oldest_pending_date": null,
+  "products_completed_this_run": [
+    "2026-09-29",
+    "2026-09-30",
+    "2026-10-01"
+  ],
   "github_write_status": "PASS_3_PRODUCTS_ATOMIC_SEQUENCE",
-  "github_readback_status": "PASS_ALL_PRODUCT_ARTIFACTS_AND_STATUS"
+  "github_readback_status": "PASS_ALL_PRODUCT_ARTIFACTS_AND_STATUS",
+  "concurrency_reconciliation": {
+    "detected": true,
+    "issue": "LATE_HEARTBEAT_STALE_STATUS_OVERWRITE_FROM_IN_FLIGHT_10_15_RUN",
+    "product_artifacts_affected": false,
+    "guard_version": "v3.1",
+    "reconciled_against_latest_artifacts": true
+  }
 }
