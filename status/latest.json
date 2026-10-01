@@ -2,18 +2,20 @@
   "schema_version": "REPORTOPS_R3_1_CHAT_STATUS_V1_5_SINGLE_SITE",
   "scheduled_date": "2026-10-01",
   "target_date": "2026-09-29",
-  "current_day_status": "PARTIAL_EVIDENCE_ONLY__CHAT_CORRECTION_REQUIRED",
-  "scheduled_run_status": "RUN_STARTED_CONTINUITY_SCAN_COMPLETE__BOUNDED_REPAIR_VALIDATION",
+  "current_day_status": "PUBLIC_CORE_ACCEPTED_PENDING_WORK",
+  "scheduled_run_status": "PARTIAL_SUCCESS_RECOVERY_QUEUE_REMAINS",
   "correction_backlog": {
-    "status": "OPEN_CHAT_CORRECTION_REQUIRED",
+    "status": "OPEN_CONTINUITY_RECOVERY",
     "chat_correction_required": true,
     "correction_dates": [
-      "2026-09-29"
+      "2026-09-30",
+      "2026-10-01"
     ],
     "resolved_dates": [
       "2026-09-18",
       "2026-09-26",
-      "2026-09-27"
+      "2026-09-27",
+      "2026-09-29"
     ],
     "blocking_gate": "PRODUCER_ARTIFACT_COMPLETENESS__PUBLIC_CORE_AND_MANIFEST_MISSING",
     "exact_measured_values": {
@@ -32,26 +34,31 @@
     "work_may_rewrite": false,
     "pending_consumer_revalidation": true
   },
-  "source_identity_gate_status": "PASS_4_OF_4_DURABLE_EVIDENCE",
-  "inline_citation_gate_status": "NOT_EVALUABLE__PUBLIC_CORE_MISSING",
-  "signal_priority_status": "NOT_EVALUABLE__PUBLIC_CORE_MISSING",
-  "exact_v4_machine_structure_status": "FAIL__PUBLIC_CORE_MISSING",
-  "v4_public_depth_gate_status": "NOT_EVALUABLE__PUBLIC_CORE_MISSING__POLICY_IDENTITY_PASS",
-  "cjk_characters_actual": null,
-  "executive_cjk_actual": null,
-  "key_signal_cjk_actual": null,
-  "signal_card_cjk_actual": null,
-  "china_chain_cjk_actual": null,
-  "global_energy_cjk_actual": null,
-  "industry_operator_cjk_actual": null,
+  "source_identity_gate_status": "PASS_4_OF_4",
+  "inline_citation_gate_status": "PASS_4_OF_4",
+  "signal_priority_status": "PASS",
+  "exact_v4_machine_structure_status": "PASS",
+  "v4_public_depth_gate_status": "PASS",
+  "cjk_characters_actual": 3038,
+  "executive_cjk_actual": 230,
+  "key_signal_cjk_actual": 1447,
+  "signal_card_cjk_actual": [
+    400,
+    372,
+    360,
+    309
+  ],
+  "china_chain_cjk_actual": 169,
+  "global_energy_cjk_actual": 140,
+  "industry_operator_cjk_actual": 148,
   "depth_policy_public_contract_sha256": "64770bf24f1280d11060d6a905a659241d5e483109fc8c3e34195a8264fc48f6",
   "evidence_status": "PASS_FORMAT_AND_IDENTITY_4_OF_4",
-  "privacy_status": "NOT_EVALUABLE__PUBLIC_CORE_MISSING",
+  "privacy_status": "PASS_PUBLIC_SAFE_SINGLE_SITE",
   "window_status": "PASS_4_OF_4",
-  "data_gap_boundary_status": "NOT_EVALUABLE__PUBLIC_CORE_MISSING",
+  "data_gap_boundary_status": "PASS",
   "current_daily_public": "2026-09-28",
   "current_weekly_public": "2026-W39",
-  "formal_status": "PENDING_CHAT_CORRECTION",
+  "formal_status": "PENDING_WORK_RECONCILIATION",
   "canonical_promotion_performed": false,
   "site_publication_performed": false,
   "public_site_version": 75,
@@ -59,12 +66,11 @@
   "manifest_reconciliation_status": "PASS_2026_09_28_FORMAL_CANONICAL_PUBLISHED_CONSUMER_ACTUALS",
   "metadata_freshness": "PASS__CANONICAL_13_CURRENT_DERIVED_VIEWS_UNCHANGED__PENDING_QUEUE_EXPLICIT",
   "state_consistency_pointer_sha256": "513144223be9f8d4737a4f65bb85670d9dcc10fe7bf1b9650ce181f3d6962510",
-  "failure_stage": "DAILY_2026_09_29_PRODUCER_ARTIFACT_COMPLETENESS",
-  "failure_reason": "Bridge contains evidence.json only; public_core.md and manifest.json are absent. Work did not author or rewrite the Daily product.",
-  "next_action": "Scheduled Chat resumes from durable 2026-09-29 Evidence, produces and validates public_core.md and manifest.json under the verified depth policy, then leaves the candidate for Work revalidation.",
-  "updated_at": "2026-10-01T10:55:00+08:00",
+  "failure_stage": null,
+  "failure_reason": null,
+  "next_action": "Continue oldest-first with zero-artifact Daily 2026-09-30, then 2026-10-01.",
+  "updated_at": "2026-10-01T11:06:00+08:00",
   "queue_remaining": [
-    "2026-09-29",
     "2026-09-30",
     "2026-10-01"
   ],
@@ -160,6 +166,8 @@
     "2026-09-30",
     "2026-10-01"
   ],
-  "oldest_pending_date": "2026-09-29",
-  "products_completed_this_run": []
+  "oldest_pending_date": "2026-09-30",
+  "products_completed_this_run": [
+    "2026-09-29"
+  ]
 }
