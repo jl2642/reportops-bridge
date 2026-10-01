@@ -1,9 +1,9 @@
 {
   "schema_version": "REPORTOPS_R3_1_CHAT_STATUS_V1_5_SINGLE_SITE",
-  "scheduled_date": "2026-09-29",
+  "scheduled_date": "2026-10-01",
   "target_date": "2026-09-29",
   "current_day_status": "PARTIAL_EVIDENCE_ONLY__CHAT_CORRECTION_REQUIRED",
-  "scheduled_run_status": "PARTIAL_PRODUCER_OUTPUT__EVIDENCE_ONLY__WORK_FAIL_CLOSED",
+  "scheduled_run_status": "RUN_STARTED_CONTINUITY_SCAN_COMPLETE__BOUNDED_REPAIR_VALIDATION",
   "correction_backlog": {
     "status": "OPEN_CHAT_CORRECTION_REQUIRED",
     "chat_correction_required": true,
@@ -62,9 +62,11 @@
   "failure_stage": "DAILY_2026_09_29_PRODUCER_ARTIFACT_COMPLETENESS",
   "failure_reason": "Bridge contains evidence.json only; public_core.md and manifest.json are absent. Work did not author or rewrite the Daily product.",
   "next_action": "Scheduled Chat resumes from durable 2026-09-29 Evidence, produces and validates public_core.md and manifest.json under the verified depth policy, then leaves the candidate for Work revalidation.",
-  "updated_at": "2026-09-30T12:42:00+08:00",
+  "updated_at": "2026-10-01T10:55:00+08:00",
   "queue_remaining": [
-    "2026-09-29"
+    "2026-09-29",
+    "2026-09-30",
+    "2026-10-01"
   ],
   "pending_product": "2026-09-29",
   "manual_intervention_required": false,
@@ -139,5 +141,25 @@
     "reason": "Scheduled 10:15 run persisted Evidence but did not persist public_core/manifest/status and task became disabled. Recovery resumed from durable Evidence; one out-of-window record was excluded deterministically by its stored timestamp."
   },
   "public_daily_2026_09_28_download_sha256": "13648b23cbe0a4868122c6479aa38d0eb0570e6ddc24034e2bab192b913a1beb",
-  "public_weekly_2026_w39_download_sha256": "c53c17bfa92fec458434d62e07364ae173cea0904aa5dbfdeac24e39921d9b0f"
+  "public_weekly_2026_w39_download_sha256": "c53c17bfa92fec458434d62e07364ae173cea0904aa5dbfdeac24e39921d9b0f",
+  "run_started_at": "2026-10-01T10:55:00+08:00",
+  "continuity_scan_status": "PASS",
+  "current_daily_public_at_start": "2026-09-28",
+  "expected_dates": [
+    "2026-09-29",
+    "2026-09-30",
+    "2026-10-01"
+  ],
+  "continuity_inventory": {
+    "2026-09-29": "PARTIAL_DURABLE_ORPHAN__EVIDENCE_ONLY",
+    "2026-09-30": "ZERO_ARTIFACT_MISSING_DATE",
+    "2026-10-01": "ZERO_ARTIFACT_MISSING_DATE"
+  },
+  "recovery_queue_initial": [
+    "2026-09-29",
+    "2026-09-30",
+    "2026-10-01"
+  ],
+  "oldest_pending_date": "2026-09-29",
+  "products_completed_this_run": []
 }
