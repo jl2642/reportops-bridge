@@ -1,9 +1,9 @@
 {
   "schema_version": "REPORTOPS_R3_1_CHAT_STATUS_V1_5_SINGLE_SITE",
-  "scheduled_date": "2026-10-01",
-  "target_date": "2026-10-01",
-  "current_day_status": "FORMAL_CANONICAL_PUBLISHED",
-  "scheduled_run_status": "WORK_SUCCESS__CANONICAL_SITE_RUNTIME_SYNC_COMPLETE",
+  "scheduled_date": "2026-10-02",
+  "target_date": "2026-10-02",
+  "current_day_status": "PUBLIC_CORE_ACCEPTED_PENDING_WORK",
+  "scheduled_run_status": "BOUNDED_INTERACTIVE_RECOVERY_SUCCESS__CANDIDATE_PENDING_WORK",
   "correction_backlog": {
     "status": "CLOSED_NO_CHAT_CORRECTION_REQUIRED",
     "chat_correction_required": false,
@@ -27,18 +27,18 @@
   "signal_priority_status": "PASS",
   "exact_v4_machine_structure_status": "PASS",
   "v4_public_depth_gate_status": "PASS",
-  "cjk_characters_actual": 3014,
-  "executive_cjk_actual": 229,
-  "key_signal_cjk_actual": 1423,
+  "cjk_characters_actual": 3377,
+  "executive_cjk_actual": 232,
+  "key_signal_cjk_actual": 1573,
   "signal_card_cjk_actual": [
-    386,
-    329,
-    369,
-    333
+    371,
+    362,
+    429,
+    405
   ],
-  "china_chain_cjk_actual": 156,
-  "global_energy_cjk_actual": 126,
-  "industry_operator_cjk_actual": 187,
+  "china_chain_cjk_actual": 155,
+  "global_energy_cjk_actual": 133,
+  "industry_operator_cjk_actual": 208,
   "depth_policy_public_contract_sha256": "64770bf24f1280d11060d6a905a659241d5e483109fc8c3e34195a8264fc48f6",
   "evidence_status": "PASS_FORMAT_AND_IDENTITY_5_OF_5",
   "privacy_status": "PASS_PUBLIC_SAFE_SINGLE_SITE",
@@ -46,9 +46,9 @@
   "data_gap_boundary_status": "PASS",
   "current_daily_public": "2026-10-01",
   "current_weekly_public": "2026-W39",
-  "formal_status": "FORMAL_CANONICAL_PUBLISHED",
-  "canonical_promotion_performed": true,
-  "site_publication_performed": true,
+  "formal_status": "PENDING_WORK_RECONCILIATION_2026_10_02",
+  "canonical_promotion_performed": false,
+  "site_publication_performed": false,
   "public_site_version": 76,
   "public_site_status": "PASS_V76_REMOTE_READBACK",
   "manifest_reconciliation_status": "PASS_3_OF_3_FORMAL_CANONICAL_PUBLISHED_CONSUMER_ACTUALS_AND_SITE_FLAGS",
@@ -56,10 +56,12 @@
   "state_consistency_pointer_sha256": "9a0be0df5228b948c1375482919b5c54fa554ace560e426ea8ee335f08c4704e",
   "failure_stage": null,
   "failure_reason": null,
-  "next_action": "仅扫描新增或更新的 Chat-accepted 产品；本版本后续幂等跳过。",
-  "updated_at": "2026-10-01T13:45:00+08:00",
-  "queue_remaining": [],
-  "pending_product": null,
+  "next_action": "2026-10-02 Daily is PUBLIC_CORE_ACCEPTED_PENDING_WORK; next Work consumer should preflight, atomically promote, publish, remote-readback, and reconcile runtime state.",
+  "updated_at": "2026-10-02T17:36:00+08:00",
+  "queue_remaining": [
+    "2026-10-02"
+  ],
+  "pending_product": "2026-10-02",
   "manual_intervention_required": false,
   "authority_package_sha256": "76e6ead0ac7ec19453fc2bd3a696178a1ff24d94cd94720a56001e09ad6e892b",
   "queue_initial": [
@@ -78,7 +80,9 @@
     "2026-10-01"
   ],
   "products_blocked_local": [],
-  "eligible_unpublished_products": [],
+  "eligible_unpublished_products": [
+    "2026-10-02"
+  ],
   "preflight_blocker_matrix": "Library:/能源周期报告/99_ARCHIVE/GOVERNANCE_SUPERSEDED/BACKLOG_CLOSURE_RUNTIME_FORMALIZATION_20260915/PREFLIGHT_BLOCKER_MATRIX_20261001.json",
   "recovery_provenance": {
     "mode": "BOUNDED_MANUAL_RECOVERY_20260927",
@@ -162,12 +166,10 @@
   ],
   "oldest_pending_date": "2026-09-29",
   "products_completed_this_run": [
-    "2026-09-29",
-    "2026-09-30",
-    "2026-10-01"
+    "2026-10-02"
   ],
-  "github_write_status": "PASS_3_MANIFESTS_AND_RUNTIME_STATE",
-  "github_readback_status": "PASS_3_MANIFESTS_STATUS_CURRENT_PUBLIC_DEPLOYMENT_STATE",
+  "github_write_status": "PASS_2026_10_02_PUBLIC_CORE_EVIDENCE_MANIFEST",
+  "github_readback_status": "PASS_2026_10_02_PUBLIC_CORE_EVIDENCE_MANIFEST",
   "concurrency_reconciliation": {
     "detected": true,
     "issue": "LATE_HEARTBEAT_STALE_STATUS_OVERWRITE_FROM_IN_FLIGHT_10_15_RUN",
@@ -213,5 +215,18 @@
     "current_library_release_sha256": "76e6ead0ac7ec19453fc2bd3a696178a1ff24d94cd94720a56001e09ad6e892b",
     "reason": "Post-rebuild Authority SHA was not propagated during 12:30 runtime sync; metadata-only correction after Library ZIP+sidecar+unzip verification."
   },
-  "runtime_sync_status": "PASS_AFTER_BOUNDED_POST_REBUILD_AUTHORITY_SHA_RECONCILIATION"
+  "runtime_sync_status": "PASS_AFTER_BOUNDED_POST_REBUILD_AUTHORITY_SHA_RECONCILIATION",
+  "recovery_provenance_2026_10_02": {
+    "mode": "BOUNDED_INTERACTIVE_CONTINUITY_RECOVERY",
+    "original_scheduled_run_observed": true,
+    "original_scheduled_run_last_run_time": "2026-10-02T02:17:49.251532Z",
+    "original_durable_output_found": false,
+    "fixed_window": "[2026-10-01 10:00, 2026-10-02 10:00) Asia/Shanghai",
+    "public_core_blob_sha": "166ca1a605a95ced0c8b25e27b62344cb9242730",
+    "evidence_blob_sha": "08aa04780fa4e6a1129f94f2554ac1252555a696",
+    "manifest_blob_sha": "2566e9d68d348140ea6044dce8ba68122c3ab2a5",
+    "research_reconstructed": true,
+    "canonical_mutation_performed": false,
+    "site_mutation_performed": false
+  }
 }
