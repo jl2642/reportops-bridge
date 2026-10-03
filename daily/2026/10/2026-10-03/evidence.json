@@ -1,0 +1,118 @@
+{
+  "schema_version": "REPORTOPS_EVIDENCE_V1_2",
+  "target_date": "2026-10-03",
+  "window_start": "2026-10-02T10:00:00+08:00",
+  "window_end": "2026-10-03T10:00:00+08:00",
+  "mode": "STRICT_NEW_PUBLIC",
+  "records": [
+    {
+      "id": "E01",
+      "claim_role": "CORE",
+      "support": "DIRECT",
+      "url": "https://www.reuters.com/business/energy/g7-release-100-million-barrels-diesel-other-reserves-through-iea-2026-10-02/",
+      "title": "G7 to release 100 million barrels of diesel and other reserves through IEA",
+      "publisher": "Reuters",
+      "publication_time": "2026-10-02T14:38:00Z",
+      "data_period": "2026-10-02 G7 coordinated emergency-stock decision",
+      "url_identity_status": "PASS",
+      "url_verified_date": "2026-10-03",
+      "source_identity_receipt": {
+        "verification_method": "OPENED_EXACT_DOCUMENT",
+        "observed_url": "https://www.reuters.com/business/energy/g7-release-100-million-barrels-diesel-other-reserves-through-iea-2026-10-02/",
+        "canonical_url": "https://www.reuters.com/business/energy/g7-release-100-million-barrels-diesel-other-reserves-through-iea-2026-10-02/",
+        "observed_title": "G7 to release 100 million barrels of diesel and other reserves through IEA",
+        "observed_publisher": "Reuters",
+        "title_match_status": "EXACT",
+        "verified_at": "2026-10-03T15:30:34+08:00"
+      },
+      "boundary": "100 million barrels covers diesel and other reserves over four months; exact country/product split not yet disclosed.",
+      "independent_cross_check": "G7 leaders statement and IEA participation notice observed separately; active evidence uses the timestamped Reuters exact document."
+    },
+    {
+      "id": "E02",
+      "claim_role": "CORE",
+      "support": "DIRECT",
+      "url": "https://www.reuters.com/business/energy/china-fuel-export-suspension-choke-supplies-asia-2026-10-02/",
+      "title": "China fuel export suspension to choke supplies in Asia",
+      "publisher": "Reuters",
+      "publication_time": "2026-10-02T08:59:00Z",
+      "data_period": "2026-10 Asia refined-products market response",
+      "url_identity_status": "PASS",
+      "url_verified_date": "2026-10-03",
+      "source_identity_receipt": {
+        "verification_method": "OPENED_EXACT_DOCUMENT",
+        "observed_url": "https://www.reuters.com/business/energy/china-fuel-export-suspension-choke-supplies-asia-2026-10-02/",
+        "canonical_url": "https://www.reuters.com/business/energy/china-fuel-export-suspension-choke-supplies-asia-2026-10-02/",
+        "observed_title": "China fuel export suspension to choke supplies in Asia",
+        "observed_publisher": "Reuters",
+        "title_match_status": "EXACT",
+        "verified_at": "2026-10-03T15:30:34+08:00"
+      },
+      "price_semantics": {
+        "basis": "Reuters-reported Asian refinery margins / market spreads using LSEG and market data",
+        "observation_time": "2026-10-02",
+        "values": [
+          "gasoline refining margin >$50/bbl over Brent",
+          "diesel margin about $67/bbl"
+        ],
+        "currency": "USD",
+        "geography": "Asia"
+      },
+      "boundary": "Export suspension may be dynamically adjusted; Kpler/LSEG market data do not prove China domestic end-demand strength."
+    },
+    {
+      "id": "E03",
+      "claim_role": "CORE",
+      "support": "DIRECT",
+      "url": "https://www.reuters.com/business/energy/september-lng-shipments-through-hormuz-hit-highest-since-start-us-iran-war-2026-10-02/",
+      "title": "September LNG shipments through Hormuz hit highest since start of US-Iran war",
+      "publisher": "Reuters",
+      "publication_time": "2026-10-02T07:47:00Z",
+      "data_period": "2026-09 LNG cargo transits / late-September vessel observations",
+      "url_identity_status": "PASS",
+      "url_verified_date": "2026-10-03",
+      "source_identity_receipt": {
+        "verification_method": "OPENED_EXACT_DOCUMENT",
+        "observed_url": "https://www.reuters.com/business/energy/september-lng-shipments-through-hormuz-hit-highest-since-start-us-iran-war-2026-10-02/",
+        "canonical_url": "https://www.reuters.com/business/energy/september-lng-shipments-through-hormuz-hit-highest-since-start-us-iran-war-2026-10-02/",
+        "observed_title": "September LNG shipments through Hormuz hit highest since start of US-Iran war",
+        "observed_publisher": "Reuters",
+        "title_match_status": "EXACT",
+        "verified_at": "2026-10-03T15:30:34+08:00"
+      },
+      "boundary": "S&P Global Energy counted 19 September cargoes while Kpler counted 21; AIS-dark transits make visible-vessel data incomplete."
+    },
+    {
+      "id": "E04",
+      "claim_role": "CORE",
+      "support": "DIRECT",
+      "url": "https://www.reuters.com/business/energy/opec-delays-oil-capacity-review-after-iran-war-disrupts-expansion-plans-sources-2026-10-02/",
+      "title": "OPEC+ delays oil capacity review after Iran war disrupts expansion plans, sources say",
+      "publisher": "Reuters",
+      "publication_time": "2026-10-02T11:15:00Z",
+      "data_period": "2026 OPEC+ MSC review / 2027 quota baseline process",
+      "url_identity_status": "PASS",
+      "url_verified_date": "2026-10-03",
+      "source_identity_receipt": {
+        "verification_method": "OPENED_EXACT_DOCUMENT",
+        "observed_url": "https://www.reuters.com/business/energy/opec-delays-oil-capacity-review-after-iran-war-disrupts-expansion-plans-sources-2026-10-02/",
+        "canonical_url": "https://www.reuters.com/business/energy/opec-delays-oil-capacity-review-after-iran-war-disrupts-expansion-plans-sources-2026-10-02/",
+        "observed_title": "OPEC+ delays oil capacity review after Iran war disrupts expansion plans, sources say",
+        "observed_publisher": "Reuters",
+        "title_match_status": "EXACT",
+        "verified_at": "2026-10-03T15:30:34+08:00"
+      },
+      "boundary": "Sources-based report; OPEC had not immediately commented. Review delay does not itself mean current sustainable capacity fell or final quotas will tighten."
+    }
+  ],
+  "guessed_url_count": 0,
+  "unsupported_core_claims": 0,
+  "evidence_record_count": 4,
+  "excluded_records": [
+    {
+      "reason": "WINDOW_EXCLUSION",
+      "source": "Reuters oil settlement article published 2026-10-02T01:10:00Z",
+      "detail": "Published 50 minutes before fixed-window start 2026-10-02T02:00:00Z; not used as active evidence."
+    }
+  ]
+}
