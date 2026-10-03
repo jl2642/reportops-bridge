@@ -28,62 +28,52 @@
   "exact_v4_machine_structure_status": "PASS",
   "v4_public_depth_gate_status": "PASS",
   "cjk_characters_actual": 3377,
-  "executive_cjk_actual": 232,
-  "key_signal_cjk_actual": 1573,
+  "executive_cjk_actual": 226,
+  "key_signal_cjk_actual": 1567,
   "signal_card_cjk_actual": [
-    371,
-    362,
-    429,
-    405
+    368,
+    359,
+    426,
+    402
   ],
-  "china_chain_cjk_actual": 155,
-  "global_energy_cjk_actual": 133,
-  "industry_operator_cjk_actual": 208,
+  "china_chain_cjk_actual": 145,
+  "global_energy_cjk_actual": 127,
+  "industry_operator_cjk_actual": 198,
   "depth_policy_public_contract_sha256": "64770bf24f1280d11060d6a905a659241d5e483109fc8c3e34195a8264fc48f6",
   "evidence_status": "PASS_FORMAT_AND_IDENTITY_5_OF_5",
   "privacy_status": "PASS_PUBLIC_SAFE_SINGLE_SITE",
   "window_status": "PASS_5_OF_5",
   "data_gap_boundary_status": "PASS",
-  "current_daily_public": "2026-10-01",
+  "current_daily_public": "2026-10-02",
   "current_weekly_public": "2026-W39",
-  "formal_status": "PENDING_WORK_RECONCILIATION_2026_10_02",
-  "canonical_promotion_performed": false,
-  "site_publication_performed": false,
-  "public_site_version": 76,
-  "public_site_status": "PASS_V76_REMOTE_READBACK",
-  "manifest_reconciliation_status": "PASS_3_OF_3_FORMAL_CANONICAL_PUBLISHED_CONSUMER_ACTUALS_AND_SITE_FLAGS",
+  "formal_status": "FORMAL_CANONICAL_PUBLISHED_2026_10_02",
+  "canonical_promotion_performed": true,
+  "site_publication_performed": true,
+  "public_site_version": 77,
+  "public_site_status": "PASS_V77_REMOTE_READBACK",
+  "manifest_reconciliation_status": "PASS__2026_10_02_FORMAL_CANONICAL_PUBLISHED__CONSUMER_ACTUALS_AND_SITE_FLAGS",
   "metadata_freshness": "PASS__13_CURRENT_DERIVED_VIEWS__POINTER_MATCH",
-  "state_consistency_pointer_sha256": "9a0be0df5228b948c1375482919b5c54fa554ace560e426ea8ee335f08c4704e",
+  "state_consistency_pointer_sha256": "12155d34a18d028f635feb40078e91a315843ae99ac1c812f76709529cfc830e",
   "failure_stage": null,
   "failure_reason": null,
   "next_action": "Produce 2026-10-03 from fixed window [2026-10-02 10:00, 2026-10-03 10:00) Asia/Shanghai; preserve 2026-10-02 COMPLETE_CANDIDATE for Work.",
   "updated_at": "2026-10-03T10:14:00+08:00",
-  "queue_remaining": [
-    "2026-10-02"
-  ],
-  "pending_product": "2026-10-02",
+  "queue_remaining": [],
+  "pending_product": null,
   "manual_intervention_required": false,
-  "authority_package_sha256": "76e6ead0ac7ec19453fc2bd3a696178a1ff24d94cd94720a56001e09ad6e892b",
+  "authority_package_sha256": "9fdb99eeb521a6d8beb22383c777345f89d8d6b2b224ebd7a8bd2d8508038393",
   "queue_initial": [
-    "2026-09-29",
-    "2026-09-30",
-    "2026-10-01"
+    "2026-10-02"
   ],
   "products_preflighted": [
-    "2026-09-29",
-    "2026-09-30",
-    "2026-10-01"
-  ],
-  "products_promoted": [
-    "2026-09-29",
-    "2026-09-30",
-    "2026-10-01"
-  ],
-  "products_blocked_local": [],
-  "eligible_unpublished_products": [
     "2026-10-02"
   ],
-  "preflight_blocker_matrix": "Library:/能源周期报告/99_ARCHIVE/GOVERNANCE_SUPERSEDED/BACKLOG_CLOSURE_RUNTIME_FORMALIZATION_20260915/PREFLIGHT_BLOCKER_MATRIX_20261001.json",
+  "products_promoted": [
+    "2026-10-02"
+  ],
+  "products_blocked_local": [],
+  "eligible_unpublished_products": [],
+  "preflight_blocker_matrix": "Library:/能源周期报告/99_ARCHIVE/GOVERNANCE_SUPERSEDED/BACKLOG_CLOSURE_RUNTIME_FORMALIZATION_20260915/PREFLIGHT_BLOCKER_MATRIX_20261003.json",
   "recovery_provenance": {
     "mode": "BOUNDED_MANUAL_RECOVERY_20260927",
     "recovered_dates": [
@@ -95,11 +85,11 @@
     "producer_automation_restored": true,
     "prior_2026_09_26_correction_preserved": true
   },
-  "real_remote_readback_status": "PASS_REAL_REMOTE_CONTENT_V76__12_REQUIRED_PAGES",
-  "download_sha_status": "PASS_REMOTE_SHA256_AND_UNZIP__3_OF_3",
+  "real_remote_readback_status": "PASS_REAL_REMOTE_CONTENT_V77__12_REQUIRED_PAGES",
+  "download_sha_status": "PASS_REMOTE_SHA256_AND_UNZIP__DAILY_2026_10_02__WEEKLY_W39",
   "public_daily_2026_09_25_download_sha256": "b4a80928e9755db168822874115c2d40069f3d9ad919416291e739dee8db7e72",
   "public_weekly_2026_w38_download_sha256": "551496a55a54f77721bbb1a7d2f0dc584956e0a18c188c44c9b90ec1a0a6305a",
-  "higher_cycle_dependency_state": "W39_7_OF_7_PROMOTED__W40_4_OF_7_CANONICAL__NO_CHAT_ACCEPTED_HIGHER_CYCLE_CANDIDATE",
+  "higher_cycle_dependency_state": "W39_7_OF_7_PROMOTED__W40_5_OF_7_CANONICAL__NO_CHAT_ACCEPTED_HIGHER_CYCLE_CANDIDATE",
   "correction_provenance": {
     "corrected_at": "2026-09-26T14:08:00+08:00",
     "changed_records": [
@@ -111,10 +101,7 @@
     "urls_changed": false,
     "claims_changed": false
   },
-  "products_deferred_dependency": [
-    "2026-09-30__RESOLVED",
-    "2026-10-01__RESOLVED"
-  ],
+  "products_deferred_dependency": [],
   "public_daily_2026_09_26_download_sha256": "ea94ce1f2f69b3efa270295fb9f7b04c248280ea057a6a8721a7d3602522ba43",
   "reportops_status": "SUCCESS__FINAL_CLOSURE_PASS__DEVELOPMENT_FROZEN_LONG_TERM_OPERATION",
   "correction_provenance_2026_09_27": {
@@ -145,7 +132,7 @@
     "reason": "Scheduled 10:15 run persisted Evidence but did not persist public_core/manifest/status and task became disabled. Recovery resumed from durable Evidence; one out-of-window record was excluded deterministically by its stored timestamp."
   },
   "public_daily_2026_09_28_download_sha256": "13648b23cbe0a4868122c6479aa38d0eb0570e6ddc24034e2bab192b913a1beb",
-  "public_weekly_2026_w39_download_sha256": "c53c17bfa92fec458434d62e07364ae173cea0904aa5dbfdeac24e39921d9b0f",
+  "public_weekly_2026_w39_download_sha256": "be47b58e77a5ea3ed6b08c3eff25bacb3f5ca35ab9cd419395e5197464ebe6ad",
   "run_started_at": "2026-10-03T10:13:51+08:00",
   "continuity_scan_status": "PASS",
   "current_daily_public_at_start": "2026-10-01",
@@ -208,12 +195,13 @@
   "public_daily_2026_09_30_download_sha256": "71b2b772dfc67f33d4d36903b11d1a1a5608af8bd0fe7bb1faf566232e009916",
   "public_daily_2026_10_01_download_sha256": "f332e6a6ce7eecdce966954035d0306c03c12c6534e5960686a83177f6228ebd",
   "authority_sha_runtime_reconciliation": {
-    "reconciled_at": "2026-10-01T13:45:00+08:00",
-    "prior_runtime_sha256": "8f49fcbfa23dafdcc036c4d71eae24a76365bd6b91f69993d12c5f549b1e64e1",
-    "current_library_release_sha256": "76e6ead0ac7ec19453fc2bd3a696178a1ff24d94cd94720a56001e09ad6e892b",
-    "reason": "Post-rebuild Authority SHA was not propagated during 12:30 runtime sync; metadata-only correction after Library ZIP+sidecar+unzip verification."
+    "reconciled_at": "2026-10-03T13:02:00+08:00",
+    "prior_runtime_sha256": "76e6ead0ac7ec19453fc2bd3a696178a1ff24d94cd94720a56001e09ad6e892b",
+    "current_library_release_sha256": "9fdb99eeb521a6d8beb22383c777345f89d8d6b2b224ebd7a8bd2d8508038393",
+    "library_sidecar_sha256": "9fdb99eeb521a6d8beb22383c777345f89d8d6b2b224ebd7a8bd2d8508038393",
+    "reason": "Post-rebuild final Authority ZIP SHA propagated after Library ZIP, sidecar, and unzip integrity verification."
   },
-  "runtime_sync_status": "PASS_AFTER_BOUNDED_POST_REBUILD_AUTHORITY_SHA_RECONCILIATION",
+  "runtime_sync_status": "PASS__POST_REBUILD_AUTHORITY_SHA_FOUR_WAY_RECONCILED",
   "recovery_provenance_2026_10_02": {
     "mode": "BOUNDED_INTERACTIVE_CONTINUITY_RECOVERY",
     "original_scheduled_run_observed": true,
@@ -229,5 +217,22 @@
   },
   "producer_recovery_queue_initial": [
     "2026-10-03"
-  ]
+  ],
+  "producer_measurement_provenance_2026_10_02": {
+    "source": "producer_manifest_before_consumer_reconciliation",
+    "cjk_characters_actual": 3377,
+    "executive_cjk_actual": 232,
+    "key_signal_cjk_actual": 1573,
+    "signal_card_cjk_actual": [
+      371,
+      362,
+      429,
+      405
+    ],
+    "china_chain_cjk_actual": 155,
+    "global_energy_cjk_actual": 133,
+    "industry_operator_cjk_actual": 208
+  },
+  "public_daily_2026_10_02_download_sha256": "d2939f2bcc654a268bea060b4715dd00fb05f7a7707db1daa7fed393c7a61262",
+  "last_work_reconciled_at": "2026-10-03T13:02:00+08:00"
 }
