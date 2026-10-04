@@ -49,7 +49,7 @@
   "public_core_blob_sha": "a0a7024529cf13b23a3ed352e50b2b67dd2326e7",
   "evidence_blob_sha": "2f8a32265dbe6f67b054e8dee5672c83898cb42f",
   "reader_status": "PENDING_WORK_RECONCILIATION",
-  "lineage_status": "PENDING_WORK_RECONCILIATION",
+  "lineage_status": "PASS__DRY_RUN_COMMIT_AND_CANONICAL_VALIDATION_IN_ISOLATED_STAGING",
   "dependency_status": "PASS__PREDECESSOR_2026-10-03_ATOMIC_CHECKPOINT",
   "evidence_change_required": false,
   "research_review_required": false,
@@ -57,9 +57,17 @@
   "failure_stage": null,
   "failure_reason": null,
   "strict_v2_ledger_status": "AVAILABLE_AND_LOCALLY_VALIDATED",
-  "strict_v2_ledger_blob_sha": "cd178cfbd3b9fb3b74d87da3186f4b74881e9527",
+  "strict_v2_ledger_blob_sha": "de305422814dda262037eba67743c5c4faa01efd",
   "strict_v2_ledger_bridge_path": "daily/2026/10/2026-10-04/evidence_ledger_v2_2026-10-04.csv",
   "evidence_governance_v2_status": "PASS__4_RECORDS__4_CLAIMS__0_BLOCKING__0_WARNINGS",
   "lineage_dry_run_status": "PASS__REPORT_DAILY_2026-10-04",
-  "lineage_required_work_action": "Stage this accepted STRICT_NEW v2 ledger into the canonical ReportOps tree at an existing product-gate candidate path, then rerun the existing lineage product gate. Do not synthesize a ledger from prose."
+  "lineage_required_work_action": "Stage this accepted STRICT_NEW v2 ledger into the canonical ReportOps tree at an existing product-gate candidate path, then rerun the existing lineage product gate. Do not synthesize a ledger from prose.",
+  "strict_v2_ledger_sha256": "93b313db8f455f151528c6efcea58788c6925fd56411d28c1bc4b3b8df7115c5",
+  "github_ledger_mirror_status": "PASS__RAW_STRICT_V2__NO_SHEET_WRAPPER__NO_SYNTHETIC_INDEX_COLUMN",
+  "recovery_identity_handoff": {
+    "library_path": "/能源周期报告/10_GOVERNANCE/DAILY_20261004_LINEAGE_REPAIR/RECOVERY_SOURCE_IDENTITY_20261004.json",
+    "handoff_path": "/能源周期报告/10_GOVERNANCE/DAILY_20261004_LINEAGE_REPAIR/REPORTOPS_CHAT_RECOVERY_HANDOFF_20261004.md",
+    "daily_2026_10_03_sha_reconciliation": "PASS__CHECKPOINT_SHA_EQUALS_GITHUB_FETCH_TEXT_PLUS_ONE_TERMINAL_LF",
+    "monthly_2026_09_exact_library_source": "PASS__CHAT_FINAL_R3_PRESERVED"
+  }
 }
