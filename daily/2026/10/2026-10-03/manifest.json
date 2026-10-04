@@ -40,10 +40,10 @@
   "canonical_mutation_performed": false,
   "site_mutation_performed": false,
   "higher_cycle_write_performed": false,
-  "formal_status": "PENDING_WORK_RECONCILIATION_2026_10_03",
-  "product_status": "PUBLIC_CORE_ACCEPTED_PENDING_WORK",
-  "canonical_promotion_performed": false,
-  "site_publication_performed": false,
+  "formal_status": "ATOMIC_PROMOTION_CHECKPOINT_PRESERVED__AUTHORITY_UNIFIED_CLOSURE_PENDING",
+  "product_status": "ATOMIC_PROMOTED_SITE_VISIBLE__AUTHORITY_CLOSURE_PENDING",
+  "canonical_promotion_performed": true,
+  "site_publication_performed": true,
   "producer_completed_at": "2026-10-03T15:32:45+08:00",
   "recovery_provenance": {
     "mode": "BOUNDED_INTERACTIVE_CONTINUITY_RECOVERY",
@@ -67,5 +67,14 @@
   "research_review_required": false,
   "work_may_rewrite": false,
   "failure_stage": null,
-  "failure_reason": null
+  "failure_reason": null,
+  "site_status": "PASS_VISIBLE_ON_SITE_V80",
+  "consumer_checkpoint": {
+    "checkpoint": "ATOMIC_PROMOTION_CHECKPOINT_DAILY_2026-10-03.json",
+    "current_before": "2026-10-02",
+    "current_after": "2026-10-03",
+    "public_core_sha256_normalized_final_lf": "ea00e48178e31d146808c72a6d220458fdf77753a6057114287293b7bcb85005",
+    "evidence_sha256_normalized_final_lf": "44043ecaff639c73eef934224cb7fda7b961487e881affb1953f75518b77f4dc",
+    "source_drift_status": "PASS__NO_SUBSTANTIVE_DRIFT__TERMINAL_LF_NORMALIZATION_ONLY"
+  }
 }
