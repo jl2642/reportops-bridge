@@ -1,7 +1,7 @@
 {
   "schema_version": "REPORTOPS_R3_1_CHAT_STATUS_V1_5_SINGLE_SITE",
-  "scheduled_date": "2026-10-03",
-  "target_date": "2026-10-03",
+  "scheduled_date": "2026-10-04",
+  "target_date": "2026-10-04",
   "current_day_status": "PUBLIC_CORE_ACCEPTED_PENDING_WORK",
   "scheduled_run_status": "BOUNDED_INTERACTIVE_CONTINUITY_RECOVERY_SUCCESS",
   "correction_backlog": {
@@ -27,41 +27,41 @@
   "signal_priority_status": "PASS",
   "exact_v4_machine_structure_status": "PASS__10_OF_10_MODULES",
   "v4_public_depth_gate_status": "PASS",
-  "cjk_characters_actual": 3220,
-  "executive_cjk_actual": 266,
-  "key_signal_cjk_actual": 1587,
+  "cjk_characters_actual": 3079,
+  "executive_cjk_actual": 316,
+  "key_signal_cjk_actual": 1463,
   "signal_card_cjk_actual": [
-    385,
-    426,
-    399,
-    365
+    368,
+    357,
+    371,
+    361
   ],
-  "china_chain_cjk_actual": 170,
-  "global_energy_cjk_actual": 128,
-  "industry_operator_cjk_actual": 165,
+  "china_chain_cjk_actual": 141,
+  "global_energy_cjk_actual": 149,
+  "industry_operator_cjk_actual": 203,
   "depth_policy_public_contract_sha256": "64770bf24f1280d11060d6a905a659241d5e483109fc8c3e34195a8264fc48f6",
   "evidence_status": "PASS_FORMAT_AND_IDENTITY_4_OF_4",
   "privacy_status": "PASS_PUBLIC_SAFE_SINGLE_SITE",
   "window_status": "PASS_4_OF_4",
   "data_gap_boundary_status": "PASS",
-  "current_daily_public": "2026-10-02",
+  "current_daily_public": "2026-10-03",
   "current_weekly_public": "2026-W39",
-  "formal_status": "FORMAL_CANONICAL_PUBLISHED_2026_10_02",
+  "formal_status": "ATOMIC_PROMOTIONS_COMPLETE__UNIFIED_PUBLICATION_RUNTIME_SYNC_PENDING",
   "canonical_promotion_performed": true,
-  "site_publication_performed": true,
+  "site_publication_performed": false,
   "public_site_version": 77,
-  "public_site_status": "PASS_V77_REMOTE_READBACK",
+  "public_site_status": "PENDING_UNIFIED_PUBLICATION_FROM_2026_10_04_WORK",
   "manifest_reconciliation_status": "PASS__2026_10_02_FORMAL_CANONICAL_PUBLISHED__CONSUMER_ACTUALS_AND_SITE_FLAGS",
   "metadata_freshness": "PASS__13_CURRENT_DERIVED_VIEWS__POINTER_MATCH",
   "state_consistency_pointer_sha256": "12155d34a18d028f635feb40078e91a315843ae99ac1c812f76709529cfc830e",
   "failure_stage": null,
   "failure_reason": null,
-  "next_action": "12:30 Work Universal Reconciler consumes Daily 2026-10-03 oldest-first; Chat recovery is complete and must not mutate Canonical/Site.",
-  "updated_at": "2026-10-03T15:32:45+08:00",
+  "next_action": "Resume 12:30 Work from persisted atomic promotion checkpoints; finalize Authority rebuild, Current-derived views, sole Public Site, remote readback, Download SHA, and runtime sync; then consume 2026-10-04 Daily on the next eligible Work reconciliation without rewriting prose.",
+  "updated_at": "2026-10-04T13:45:00+08:00",
   "queue_remaining": [
-    "2026-10-03"
+    "2026-10-04"
   ],
-  "pending_product": "2026-10-03",
+  "pending_product": "2026-10-04",
   "manual_intervention_required": false,
   "authority_package_sha256": "9fdb99eeb521a6d8beb22383c777345f89d8d6b2b224ebd7a8bd2d8508038393",
   "queue_initial": [
@@ -75,7 +75,7 @@
   ],
   "products_blocked_local": [],
   "eligible_unpublished_products": [
-    "2026-10-03"
+    "2026-10-04"
   ],
   "preflight_blocker_matrix": "Library:/能源周期报告/99_ARCHIVE/GOVERNANCE_SUPERSEDED/BACKLOG_CLOSURE_RUNTIME_FORMALIZATION_20260915/PREFLIGHT_BLOCKER_MATRIX_20261003.json",
   "recovery_provenance": {
@@ -93,7 +93,7 @@
   "download_sha_status": "PASS_REMOTE_SHA256_AND_UNZIP__DAILY_2026_10_02__WEEKLY_W39",
   "public_daily_2026_09_25_download_sha256": "b4a80928e9755db168822874115c2d40069f3d9ad919416291e739dee8db7e72",
   "public_weekly_2026_w38_download_sha256": "551496a55a54f77721bbb1a7d2f0dc584956e0a18c188c44c9b90ec1a0a6305a",
-  "higher_cycle_dependency_state": "W39_7_OF_7_PROMOTED__W40_5_OF_7_CANONICAL__NO_CHAT_ACCEPTED_HIGHER_CYCLE_CANDIDATE",
+  "higher_cycle_dependency_state": "DAILY_2026_10_03_AND_MONTHLY_2026_09_ATOMIC_PROMOTED__UNIFIED_PUBLICATION_PENDING__W40_NOT_YET_NATURALLY_CLOSED__Q3_READY_FOR_MANUAL_ROUND1A_AFTER_WORK_CLOSURE",
   "correction_provenance": {
     "corrected_at": "2026-09-26T14:08:00+08:00",
     "changed_records": [
@@ -156,10 +156,10 @@
   ],
   "oldest_pending_date": "2026-09-29",
   "products_completed_this_run": [
-    "2026-10-03"
+    "2026-10-04"
   ],
-  "github_write_status": "PASS_2026_10_03_PUBLIC_CORE_EVIDENCE_MANIFEST",
-  "github_readback_status": "PASS_2026_10_03_PUBLIC_CORE_EVIDENCE_MANIFEST",
+  "github_write_status": "PASS_2026_10_04_PUBLIC_CORE_EVIDENCE_MANIFEST",
+  "github_readback_status": "PASS_2026_10_04_PUBLIC_CORE_EVIDENCE_MANIFEST",
   "concurrency_reconciliation": {
     "detected": true,
     "issue": "LATE_HEARTBEAT_STALE_STATUS_OVERWRITE_FROM_IN_FLIGHT_10_15_RUN",
@@ -205,7 +205,7 @@
     "library_sidecar_sha256": "9fdb99eeb521a6d8beb22383c777345f89d8d6b2b224ebd7a8bd2d8508038393",
     "reason": "Post-rebuild final Authority ZIP SHA propagated after Library ZIP, sidecar, and unzip integrity verification."
   },
-  "runtime_sync_status": "PASS__POST_REBUILD_AUTHORITY_SHA_FOUR_WAY_RECONCILED",
+  "runtime_sync_status": "PENDING_WORK_UNIFIED_CLOSURE",
   "recovery_provenance_2026_10_02": {
     "mode": "BOUNDED_INTERACTIVE_CONTINUITY_RECOVERY",
     "original_scheduled_run_observed": true,
@@ -258,6 +258,27 @@
     "fixed_window": "[2026-10-02 10:00, 2026-10-03 10:00) Asia/Shanghai",
     "research_reconstructed": true,
     "excluded_window_source": "Reuters oil settlement article at 2026-10-02T01:10:00Z",
+    "canonical_mutation_performed": false,
+    "site_mutation_performed": false
+  },
+  "current_monthly_public": "2026-09",
+  "candidate_2026_10_04": {
+    "product_status": "PUBLIC_CORE_ACCEPTED_PENDING_WORK",
+    "formal_status": "PENDING_WORK_RECONCILIATION_2026_10_04",
+    "canonical_promotion_performed": false,
+    "site_publication_performed": false,
+    "public_core_blob_sha": "a0a7024529cf13b23a3ed352e50b2b67dd2326e7",
+    "evidence_blob_sha": "2f8a32265dbe6f67b054e8dee5672c83898cb42f",
+    "manifest_blob_sha": "92fa22bbd707a18f234876af878cf021a7fe11e5",
+    "public_contract_sha256": "64770bf24f1280d11060d6a905a659241d5e483109fc8c3e34195a8264fc48f6"
+  },
+  "recovery_provenance_2026_10_04": {
+    "mode": "BOUNDED_INTERACTIVE_CONTINUITY_RECOVERY",
+    "original_scheduled_run_observed": true,
+    "original_scheduled_run_last_run_time": "2026-10-04T02:14:23.630491Z",
+    "original_durable_output_found": false,
+    "fixed_window": "[2026-10-03 10:00, 2026-10-04 10:00) Asia/Shanghai",
+    "research_reconstructed": true,
     "canonical_mutation_performed": false,
     "site_mutation_performed": false
   }
