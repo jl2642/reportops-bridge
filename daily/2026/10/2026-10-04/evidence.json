@@ -1,0 +1,101 @@
+{
+  "schema_version": "REPORTOPS_EVIDENCE_V1_2",
+  "target_date": "2026-10-04",
+  "window_start": "2026-10-03T10:00:00+08:00",
+  "window_end": "2026-10-04T10:00:00+08:00",
+  "mode": "STRICT_NEW_PUBLIC",
+  "records": [
+    {
+      "id": "E01",
+      "claim_role": "CORE",
+      "support": "DIRECT",
+      "url": "https://www.reuters.com/business/energy/fire-smoke-seen-near-aramco-facility-riyadh-witness-says-2026-10-03/",
+      "title": "Reuters report on claimed attack near Aramco facility in Riyadh",
+      "publisher": "Reuters",
+      "publication_time": "2026-10-03T11:48:00Z",
+      "url_identity_status": "PASS",
+      "url_verified_date": "2026-10-04",
+      "source_identity_receipt": {
+        "verification_method": "OPENED_EXACT_DOCUMENT",
+        "observed_url": "https://www.reuters.com/business/energy/fire-smoke-seen-near-aramco-facility-riyadh-witness-says-2026-10-03/",
+        "canonical_url": "https://www.reuters.com/business/energy/fire-smoke-seen-near-aramco-facility-riyadh-witness-says-2026-10-03/",
+        "observed_title": "Yemen's Houthis say they attacked Aramco facility in Riyadh with missiles, drones",
+        "observed_publisher": "Reuters",
+        "title_match_status": "EXACT",
+        "verified_at": "2026-10-04T13:45:00+08:00"
+      },
+      "boundary": "Claimed incident plus witness observation; no immediate official confirmation of facility damage or production loss."
+    },
+    {
+      "id": "E02",
+      "claim_role": "CORE",
+      "support": "DIRECT",
+      "url": "https://www.reuters.com/business/energy/iraq-says-it-transported-2-million-barrels-crude-through-strait-hormuz-2026-10-03/",
+      "title": "Iraq says it transported 2 million barrels of crude through Strait of Hormuz",
+      "publisher": "Reuters",
+      "publication_time": "2026-10-03T20:24:00Z",
+      "url_identity_status": "PASS",
+      "url_verified_date": "2026-10-04",
+      "source_identity_receipt": {
+        "verification_method": "OPENED_EXACT_DOCUMENT",
+        "observed_url": "https://www.reuters.com/business/energy/iraq-says-it-transported-2-million-barrels-crude-through-strait-hormuz-2026-10-03/",
+        "canonical_url": "https://www.reuters.com/business/energy/iraq-says-it-transported-2-million-barrels-crude-through-strait-hormuz-2026-10-03/",
+        "observed_title": "Iraq says it transported 2 million barrels of crude through Strait of Hormuz",
+        "observed_publisher": "Reuters",
+        "title_match_status": "EXACT",
+        "verified_at": "2026-10-04T13:45:00+08:00"
+      },
+      "boundary": "Single VLCC operation; not proof of full normalization of Hormuz transit."
+    },
+    {
+      "id": "E03",
+      "claim_role": "CORE",
+      "support": "DIRECT",
+      "url": "https://www.reuters.com/business/aerospace-defense/ukraine-will-hit-russian-refineries-response-moscows-new-doctrine-airstrikes-2026-10-03/",
+      "title": "Ukraine says it will continue targeting Russian refineries",
+      "publisher": "Reuters",
+      "publication_time": "2026-10-03T16:03:00Z",
+      "url_identity_status": "PASS",
+      "url_verified_date": "2026-10-04",
+      "source_identity_receipt": {
+        "verification_method": "OPENED_EXACT_DOCUMENT",
+        "observed_url": "https://www.reuters.com/business/aerospace-defense/ukraine-will-hit-russian-refineries-response-moscows-new-doctrine-airstrikes-2026-10-03/",
+        "canonical_url": "https://www.reuters.com/business/aerospace-defense/ukraine-will-hit-russian-refineries-response-moscows-new-doctrine-airstrikes-2026-10-03/",
+        "observed_title": "Ukraine will hit Russian refineries in response to Moscow's 'new doctrine' of airstrikes, Zelenskiy says",
+        "observed_publisher": "Reuters",
+        "title_match_status": "EXACT",
+        "verified_at": "2026-10-04T13:45:00+08:00"
+      },
+      "boundary": "Policy statement; not evidence of a newly realized refinery outage in the same window."
+    },
+    {
+      "id": "E04",
+      "claim_role": "CORE",
+      "support": "DIRECT",
+      "url": "https://www.reuters.com/legal/litigation/us-lend-42-billion-vistra-boost-nuclear-power-output-source-says-2026-10-03/",
+      "title": "US to lend $4.2 billion to Vistra to boost nuclear power output, source says",
+      "publisher": "Reuters",
+      "publication_time": "2026-10-03T13:34:00Z",
+      "url_identity_status": "PASS",
+      "url_verified_date": "2026-10-04",
+      "source_identity_receipt": {
+        "verification_method": "OPENED_EXACT_DOCUMENT",
+        "observed_url": "https://www.reuters.com/legal/litigation/us-lend-42-billion-vistra-boost-nuclear-power-output-source-says-2026-10-03/",
+        "canonical_url": "https://www.reuters.com/legal/litigation/us-lend-42-billion-vistra-boost-nuclear-power-output-source-says-2026-10-03/",
+        "observed_title": "US to lend $4.2 billion to Vistra to boost nuclear power output, source says",
+        "observed_publisher": "Reuters",
+        "title_match_status": "EXACT",
+        "verified_at": "2026-10-04T13:45:00+08:00"
+      },
+      "boundary": "Source-based report before formal DOE/Vistra announcement; financing and resulting uprate scope are not yet realized facts."
+    }
+  ],
+  "guessed_url_count": 0,
+  "unsupported_core_claims": 0,
+  "evidence_record_count": 4,
+  "excluded_records": [],
+  "data_gap_notes": [
+    "No same-window same-basis oil/gas/LPG price set accepted.",
+    "No same-window China official LNG/LPG volume-price update accepted."
+  ]
+}
