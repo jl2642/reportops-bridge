@@ -49,20 +49,20 @@
   "formal_status": "ATOMIC_PROMOTIONS_COMPLETE__UNIFIED_PUBLICATION_RUNTIME_SYNC_PENDING",
   "canonical_promotion_performed": true,
   "site_publication_performed": false,
-  "public_site_version": 77,
-  "public_site_status": "PENDING_UNIFIED_PUBLICATION_FROM_2026_10_04_WORK",
+  "public_site_version": 80,
+  "public_site_status": "PASS_VISIBLE_DAILY_2026_10_03_MONTHLY_2026_09__NO_2026_10_04_PUBLICATION",
   "manifest_reconciliation_status": "PASS__2026_10_02_FORMAL_CANONICAL_PUBLISHED__CONSUMER_ACTUALS_AND_SITE_FLAGS",
-  "metadata_freshness": "PASS__13_CURRENT_DERIVED_VIEWS__POINTER_MATCH",
+  "metadata_freshness": "FAIL__AUTHORITY_POINTER_AND_CURRENT_DERIVED_VIEWS_STALE_PENDING_NEXT_WORK_UNIFIED_CLOSURE",
   "state_consistency_pointer_sha256": "12155d34a18d028f635feb40078e91a315843ae99ac1c812f76709529cfc830e",
-  "failure_stage": null,
+  "failure_stage": "WAIT_NEXT_SCHEDULED_WORK_BOUNDED_RECOVERY",
   "failure_reason": null,
-  "next_action": "Work resumes from FINAL_REPORTOPS_CHECKPOINT_20261004, stages the accepted 2026-10-04 STRICT_NEW v2 ledger, reruns the existing lineage gate, promotes Daily 2026-10-04 if PASS, then completes unified Authority/Current/Site/Download/runtime closure without reauthoring accepted products.",
+  "next_action": "Do not spend additional Work quota today. Next 12:30 Work should read the Chat recovery handoff, treat the 10/3 SHA mismatch as terminal-LF normalization (not drift), restore preserved 10/3 Daily and Sep Monthly canonical directories into staging, then promote 10/4 if dependency gates pass and complete one unified Authority/Current/Site/Download/runtime closure.",
   "updated_at": "2026-10-04T13:45:00+08:00",
   "queue_remaining": [
     "2026-10-04"
   ],
   "pending_product": "2026-10-04",
-  "manual_intervention_required": true,
+  "manual_intervention_required": false,
   "authority_package_sha256": "9fdb99eeb521a6d8beb22383c777345f89d8d6b2b224ebd7a8bd2d8508038393",
   "queue_initial": [
     "2026-10-02"
@@ -205,7 +205,7 @@
     "library_sidecar_sha256": "9fdb99eeb521a6d8beb22383c777345f89d8d6b2b224ebd7a8bd2d8508038393",
     "reason": "Post-rebuild final Authority ZIP SHA propagated after Library ZIP, sidecar, and unzip integrity verification."
   },
-  "runtime_sync_status": "PENDING_WORK_UNIFIED_CLOSURE",
+  "runtime_sync_status": "PENDING_NEXT_12_30_WORK_UNIFIED_CLOSURE",
   "recovery_provenance_2026_10_02": {
     "mode": "BOUNDED_INTERACTIVE_CONTINUITY_RECOVERY",
     "original_scheduled_run_observed": true,
@@ -282,8 +282,25 @@
     "canonical_mutation_performed": false,
     "site_mutation_performed": false
   },
-  "strict_v2_ledger_status_2026_10_04": "AVAILABLE_AND_LOCALLY_VALIDATED",
-  "strict_v2_ledger_blob_sha_2026_10_04": "cd178cfbd3b9fb3b74d87da3186f4b74881e9527",
+  "strict_v2_ledger_status_2026_10_04": "PASS__RAW_LIBRARY_AND_GITHUB_MIRROR_RECONCILED",
+  "strict_v2_ledger_blob_sha_2026_10_04": "de305422814dda262037eba67743c5c4faa01efd",
   "evidence_governance_v2_2026_10_04": "PASS__4_RECORDS__4_CLAIMS__0_BLOCKING__0_WARNINGS",
-  "lineage_dry_run_2026_10_04": "PASS__REPORT_DAILY_2026-10-04"
+  "lineage_dry_run_2026_10_04": "PASS__REPORT_DAILY_2026-10-04",
+  "strict_v2_ledger_sha256_2026_10_04": "93b313db8f455f151528c6efcea58788c6925fd56411d28c1bc4b3b8df7115c5",
+  "lineage_commit_2026_10_04": "PASS__COMMITTED_IN_ISOLATED_STAGING_TREE",
+  "canonical_lineage_validation_2026_10_04": "PASS__0_BLOCKING__0_WARNINGS",
+  "daily_2026_10_03_source_identity_reconciliation": {
+    "status": "PASS__NO_SUBSTANTIVE_DRIFT",
+    "normalization": "GITHUB_FETCH_TEXT_PLUS_ONE_TERMINAL_LF",
+    "public_core_normalized_sha256": "ea00e48178e31d146808c72a6d220458fdf77753a6057114287293b7bcb85005",
+    "evidence_normalized_sha256": "44043ecaff639c73eef934224cb7fda7b961487e881affb1953f75518b77f4dc",
+    "manifest_normalized_sha256": "b6d080a0da44db0475d7e20b272c4cb5088b5b1f1eba8e5d645798d024265292",
+    "historical_rule_cross_check": "PASS__2026-09-27_AND_2026-09-28_USE_SAME_TERMINAL_LF_NORMALIZATION"
+  },
+  "monthly_2026_09_exact_source_status": "PASS__LIBRARY_CHAT_FINAL_R3_PRESERVED",
+  "chat_recovery_handoff": {
+    "status": "READY_FOR_NEXT_12_30_WORK",
+    "handoff_path": "/能源周期报告/10_GOVERNANCE/DAILY_20261004_LINEAGE_REPAIR/REPORTOPS_CHAT_RECOVERY_HANDOFF_20261004.md",
+    "identity_path": "/能源周期报告/10_GOVERNANCE/DAILY_20261004_LINEAGE_REPAIR/RECOVERY_SOURCE_IDENTITY_20261004.json"
+  }
 }
