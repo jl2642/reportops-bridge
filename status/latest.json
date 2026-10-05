@@ -56,7 +56,7 @@
   "state_consistency_pointer_sha256": "12ff77fe9d69b2e24f1919209246dc8109470ca360874891d271ec5bc32cff74",
   "failure_stage": "SITES_PROJECT_ACCESS_UNAVAILABLE",
   "failure_reason": "Sites connector returned no editable project for the sole public site; canonical promotion and Authority rebuild remain valid.",
-  "next_action": "Next Work reconciliation should validate and promote Daily 2026-10-05 if gates pass; W40 Round1 and Q3 Round1A are being produced manually in Chat because the 13:30 scheduled run left no durable higher-cycle output.",
+  "next_action": "Next Work should validate/promote Daily 2026-10-05 and retry pending Site publication. Higher-cycle Chat next actions: W40 Round2 and Q3 Round1B; do not depend on 13:30 automation for these manual continuations.",
   "updated_at": "2026-10-05T13:15:00+08:00",
   "queue_remaining": [
     "2026-10-05"
@@ -323,5 +323,25 @@
     "canonical_promotion_performed": false,
     "site_publication_performed": false,
     "public_core_blob_sha": "fc097e4e10b45b827b784a3f478e56a02b3069bf"
+  },
+  "higher_cycle_manual_recovery_2026_10_05": {
+    "scheduled_13_30_result": "TRIGGERED_NO_DURABLE_OUTPUT",
+    "weekly_2026_W40": {
+      "round1_status": "PASS_ROUND1_READY_FOR_EXPERT_REFINEMENT",
+      "formal_daily_pool": "7_OF_7",
+      "cjk_characters": 4043,
+      "source_register_count": 15,
+      "library_path": "/能源周期报告/20_PRODUCTS/WEEKLY/2026-W40/ROUND1/",
+      "current_mutated": false,
+      "next_action": "W40 Round2 Expert Refinement + Final Acceptance"
+    },
+    "quarterly_2026_Q3": {
+      "round1a_status": "PASS_R1A_INPUT_AUDIT_READY_FOR_ROUND1B_RESEARCH_SYNTHESIS",
+      "quarter_cutoff": "2026-09-30",
+      "thesis_count": 7,
+      "library_path": "/能源周期报告/20_PRODUCTS/QUARTERLY/2026-Q3/ROUND1A/",
+      "current_mutated": false,
+      "next_action": "2026-Q3 Round1B Quarterly Research Synthesis"
+    }
   }
 }
