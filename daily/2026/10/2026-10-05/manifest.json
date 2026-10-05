@@ -10,14 +10,14 @@
   "signal_priority_status": "PASS",
   "exact_v4_machine_structure_status": "PASS__10_OF_10_MODULES",
   "v4_public_depth_gate_status": "PASS_DYNAMIC_V4",
-  "cjk_characters_actual": 2589,
-  "executive_cjk_actual": 236,
-  "key_signal_cjk_actual": 1264,
+  "cjk_characters_actual": 2715,
+  "executive_cjk_actual": 275,
+  "key_signal_cjk_actual": 1312,
   "signal_card_cjk_actual": [
     318,
     336,
     319,
-    285
+    333
   ],
   "china_chain_cjk_actual": 149,
   "global_energy_cjk_actual": 128,
@@ -38,12 +38,14 @@
   "product_status": "PUBLIC_CORE_ACCEPTED_PENDING_WORK",
   "canonical_promotion_performed": false,
   "site_publication_performed": false,
-  "public_core_blob_sha": "fc097e4e10b45b827b784a3f478e56a02b3069bf",
-  "evidence_blob_sha": "2e70f33150460aac690afbc6a4608d4e03530a11",
-  "strict_v2_ledger_blob_sha": "46dda2c4ae952ef6351e980350ce49a1616275f6",
+  "public_core_blob_sha": "011b914937b1e7f638d3759dacf6e82a16c109bd",
+  "evidence_blob_sha": "8abf200b6432340b4e95ead4007d4a38018de482",
+  "strict_v2_ledger_blob_sha": "460cf66d0ba4b88bda0724b7458b979177c1f938",
   "strict_v2_ledger_status": "AVAILABLE_RAW_STRICT_V2",
   "reader_status": "PENDING_WORK_RECONCILIATION",
-  "lineage_status": "PENDING_WORK_RECONCILIATION",
+  "lineage_status": "PENDING_FINAL_READBACK_REVALIDATION",
   "dependency_status": "PASS__PREDECESSOR_2026-10-04_CANONICAL",
-  "work_may_rewrite": false
+  "work_may_rewrite": false,
+  "temporal_integrity_status": "PASS__POST_CUTOFF_INTRADAY_PRICE_REMOVED__E04_REPLACED_WITH_IN_WINDOW_SAUDI_OSP_FREIGHT_SIGNAL",
+  "evidence_governance_v2_status": "PENDING_FINAL_READBACK_REVALIDATION"
 }
