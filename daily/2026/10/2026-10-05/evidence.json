@@ -43,18 +43,18 @@
       "claim_role": "CORE",
       "support": "DIRECT",
       "publisher": "Reuters",
-      "publication_time": "2026-10-04T22:17:00Z",
-      "title": "Oil slips as Middle East crude exports rise, G7 to release stocks",
-      "url": "https://www.reuters.com/business/energy/oil-climbs-after-yemeni-houthis-attack-saudi-aramco-sites-2026-10-04/",
+      "publication_time": "2026-10-04T23:50:10Z",
+      "title": "Saudi Arabia unexpectedly cuts November oil prices to Asia to 6-year lows",
+      "url": "https://www.reuters.com/business/energy/saudi-arabia-unexpectedly-cuts-oil-prices-asia-2026-10-04/",
       "url_identity_status": "PASS",
-      "boundary": "Quoted Brent/WTI values are intraday observations, not full-day settlement prices."
+      "boundary": "November Asia OSP and observed tanker-rate evidence; not an in-window spot crude settlement or proof that every buyer receives the same delivered-cost reduction."
     }
   ],
   "guessed_url_count": 0,
   "unsupported_core_claims": 0,
   "evidence_record_count": 4,
   "data_gap_notes": [
-    "No same-window high-quality China LNG/LPG official volume-price update accepted.",
-    "No same-basis JKM/TTF/CP/FEI/VLGC price set accepted."
+    "No strictly in-window same-basis Brent/WTI/JKM/TTF/CP/FEI/VLGC instantaneous price set accepted.",
+    "No same-window high-quality China LNG/LPG official volume-price update accepted."
   ]
 }
