@@ -1,0 +1,60 @@
+{
+  "schema_version": "REPORTOPS_EVIDENCE_V1_2",
+  "target_date": "2026-10-05",
+  "window_start": "2026-10-04T10:00:00+08:00",
+  "window_end": "2026-10-05T10:00:00+08:00",
+  "mode": "STRICT_NEW_PUBLIC",
+  "records": [
+    {
+      "id": "E01",
+      "claim_role": "CORE",
+      "support": "DIRECT",
+      "publisher": "Reuters",
+      "publication_time": "2026-10-04T10:25:00Z",
+      "title": "OPEC+ agrees to keep November oil output targets steady",
+      "url": "https://www.reuters.com/business/energy/opec-agrees-principle-keep-november-oil-output-targets-steady-sources-say-2026-10-04/",
+      "url_identity_status": "PASS",
+      "boundary": "November targets steady; August actual output cited is lagged and should not be treated as October actual output."
+    },
+    {
+      "id": "E02",
+      "claim_role": "CORE",
+      "support": "DIRECT",
+      "publisher": "Reuters",
+      "publication_time": "2026-10-05T01:09:00Z",
+      "title": "Middle East crude oil exports exceed pre-war levels but tanker attacks increase",
+      "url": "https://www.reuters.com/business/energy/middle-east-crude-oil-exports-exceed-pre-war-levels-tanker-attacks-increase-2026-10-05/",
+      "url_identity_status": "PASS",
+      "boundary": "Kpler shipping estimates and reported attacks; higher traffic does not imply normalized security or costs."
+    },
+    {
+      "id": "E03",
+      "claim_role": "CORE",
+      "support": "DIRECT",
+      "publisher": "Reuters",
+      "publication_time": "2026-10-04T07:59:00Z",
+      "title": "Iran says Strait of Hormuz will not reopen until conditions are met",
+      "url": "https://www.reuters.com/world/middle-east/iran-says-strait-hormuz-will-not-reopen-until-conditions-are-met-2026-10-04/",
+      "url_identity_status": "PASS",
+      "boundary": "Public negotiating position; does not mean zero commercial transits."
+    },
+    {
+      "id": "E04",
+      "claim_role": "CORE",
+      "support": "DIRECT",
+      "publisher": "Reuters",
+      "publication_time": "2026-10-04T22:17:00Z",
+      "title": "Oil slips as Middle East crude exports rise, G7 to release stocks",
+      "url": "https://www.reuters.com/business/energy/oil-climbs-after-yemeni-houthis-attack-saudi-aramco-sites-2026-10-04/",
+      "url_identity_status": "PASS",
+      "boundary": "Quoted Brent/WTI values are intraday observations, not full-day settlement prices."
+    }
+  ],
+  "guessed_url_count": 0,
+  "unsupported_core_claims": 0,
+  "evidence_record_count": 4,
+  "data_gap_notes": [
+    "No same-window high-quality China LNG/LPG official volume-price update accepted.",
+    "No same-basis JKM/TTF/CP/FEI/VLGC price set accepted."
+  ]
+}
