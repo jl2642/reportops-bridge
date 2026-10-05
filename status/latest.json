@@ -56,7 +56,7 @@
   "state_consistency_pointer_sha256": "12ff77fe9d69b2e24f1919209246dc8109470ca360874891d271ec5bc32cff74",
   "failure_stage": "SITES_PROJECT_ACCESS_UNAVAILABLE",
   "failure_reason": "Sites connector returned no editable project for the sole public site; canonical promotion and Authority rebuild remain valid.",
-  "next_action": "Next Work should validate/promote Daily 2026-10-05 and retry pending Site publication. Higher-cycle Chat next actions: W40 Round2 and Q3 Round1B; do not depend on 13:30 automation for these manual continuations.",
+  "next_action": "Next 12:30 Work: validate/promote Daily 2026-10-05, consume W40 Chat Final R2 if gates pass, and retry pending Public Site publication. Chat quarterly next action is Q3 Round2 full integrated production from frozen Round1B research; do not reopen broad research.",
   "updated_at": "2026-10-05T13:15:00+08:00",
   "queue_remaining": [
     "2026-10-05"
@@ -327,21 +327,26 @@
   "higher_cycle_manual_recovery_2026_10_05": {
     "scheduled_13_30_result": "TRIGGERED_NO_DURABLE_OUTPUT",
     "weekly_2026_W40": {
-      "round1_status": "PASS_ROUND1_READY_FOR_EXPERT_REFINEMENT",
+      "round1_status": "PASS_ROUND1",
+      "final_status": "CHAT_FINAL_R2_ACCEPTED_READY_FOR_WORK_PROMOTION",
       "formal_daily_pool": "7_OF_7",
-      "cjk_characters": 4043,
-      "source_register_count": 15,
-      "library_path": "/能源周期报告/20_PRODUCTS/WEEKLY/2026-W40/ROUND1/",
+      "cjk_characters": 4421,
+      "registered_sources": 15,
+      "evidence_claims": 6,
+      "library_path": "/能源周期报告/20_PRODUCTS/WEEKLY/2026-W40/CHAT_FINAL/",
       "current_mutated": false,
-      "next_action": "W40 Round2 Expert Refinement + Final Acceptance"
+      "ready_for_work_promotion": true
     },
     "quarterly_2026_Q3": {
-      "round1a_status": "PASS_R1A_INPUT_AUDIT_READY_FOR_ROUND1B_RESEARCH_SYNTHESIS",
-      "quarter_cutoff": "2026-09-30",
+      "round1a_status": "PASS_R1A",
+      "round1b_status": "PASS_R1B_RESEARCH_SYNTHESIS_READY_FOR_FULL_QUARTERLY_PRODUCTION",
+      "regime": "EXECUTION_RISK__DELIVERABILITY_SCARCITY__HIGH_COST_PARTIAL_RESTORATION",
+      "registered_sources": 24,
+      "evidence_claims": 12,
       "thesis_count": 7,
-      "library_path": "/能源周期报告/20_PRODUCTS/QUARTERLY/2026-Q3/ROUND1A/",
+      "library_path": "/能源周期报告/20_PRODUCTS/QUARTERLY/2026-Q3/ROUND1B/",
       "current_mutated": false,
-      "next_action": "2026-Q3 Round1B Quarterly Research Synthesis"
+      "next_action": "2026-Q3 Round2 Full Integrated Quarterly Production + Expert Refinement"
     }
   }
 }
