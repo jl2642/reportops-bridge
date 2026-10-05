@@ -11,7 +11,7 @@ language: zh-CN
 <!-- MODULE:EXECUTIVE_SIGNAL_SUMMARY -->
 ## 1. 今日一屏结论
 
-本窗口最重要的变化不是单一价格涨跌，而是**中东有效供给继续恢复、但通行与基础设施风险并未同步正常化**。OPEC+决定维持11月产量目标不变，说明当前约束仍主要来自实际可生产、可运输能力，而非名义配额继续上调；Reuters援引数据称，中东原油出口在9月最后一周部分日期已超过战前水平，但Hormuz及周边船舶袭击事件同步增加。与此同时，伊朗仍明确把Hormuz“恢复正常通行”与七项条件绑定，意味着当前出现的是高成本、受约束的恢复，而非制度性正常化。油价因此呈现典型的“双向定价”：G7库存释放与中东出口回升压低短期供应焦虑，但安全风险和低效率运输继续维持风险溢价。
+本窗口最重要的变化不是单一价格涨跌，而是**中东有效供给继续恢复、但通行与基础设施风险并未同步正常化**。OPEC+决定维持11月产量目标不变，说明当前约束仍主要来自实际可生产、可运输能力，而非名义配额继续上调；Reuters援引数据称，中东原油出口在9月最后一周部分日期已超过战前水平，但Hormuz及周边船舶袭击事件同步增加。与此同时，伊朗仍明确把Hormuz“恢复正常通行”与七项条件绑定，意味着当前出现的是高成本、受约束的恢复，而非制度性正常化。沙特同时将11月销往亚洲的Arab Light OSP意外下调至Oman/Dubai均价下方5美元/桶，并把更重质等级下调5美元/桶；Reuters援引LSEG称海湾至中国VLCC日租已升至约120万美元、而一年前约8万美元。这说明恢复成本已经直接进入商业定价，而不是只停留在地缘风险叙事。
 
 <!-- KEY_SIGNAL_CARDS:3-5 -->
 ## 2. 今日关键信号
@@ -43,14 +43,14 @@ language: zh-CN
 - 下一步验证：卡塔尔斡旋、美国回应、护航安排以及商业航次数量。
 - 反证条件：若双方达成可执行协议并持续恢复正常商业通行，则政治风险溢价应快速下修。
 
-### 信号卡4｜G7库存释放与出口恢复共同压低短期供应焦虑
-- 事实摘要：Reuters报道，Brent在10月5日亚洲早盘跌至约101.59美元/桶、WTI约90.12美元/桶；G7此前同意释放1亿桶柴油和原油战略库存，同时中东出口回升。[E04](https://www.reuters.com/business/energy/oil-climbs-after-yemeni-houthis-attack-saudi-aramco-sites-2026-10-04/)
-- 为什么重要：政策库存释放开始与物理出口恢复形成合力，说明极端短缺定价正在被部分对冲。
-- 价格/供需/产业链传导：战略库存释放 + 出口恢复 → 近端现货焦虑缓解 → 原油价格和裂解高点受压；但若安全事件升级，风险溢价仍可能重新抬头。
-- 影响对象：原油、柴油、炼厂、库存运营商与贸易商。
-- 证据边界：价格为单一观察时点，不代表完整日结；战略库存释放的节奏、地区和油品结构仍决定实际效果。
-- 下一步验证：Brent/WTI收盘、柴油裂解、各国释放执行进度与区域库存。
-- 反证条件：若新的重大设施或航运中断抵消库存释放，则价格回落可能很快逆转。
+### 信号卡4｜沙特用OSP折价对冲高运费，恢复成本进入商业条款
+- 事实摘要：Saudi Aramco将11月Arab Light对亚洲OSP下调3美元至Oman/Dubai均价下方5美元/桶，为2020年6月以来最大折价；Arab Medium和Arab Heavy对亚洲OSP均下调5美元/桶。Reuters援引LSEG数据称，海湾至中国、可载约200万桶的VLCC日租约120万美元，而一年前约8万美元。[E04](https://www.reuters.com/business/energy/saudi-arabia-unexpectedly-cuts-oil-prices-asia-2026-10-04/)
+- 为什么重要：这提供了“量恢复、成本不恢复”的直接商业证据：供应商需要通过OSP折价补偿买方承担的运费、等待和路线摩擦。
+- 价格/供需/产业链传导：高运费/等待时间 → 到岸成本上升 → 供应商下调OSP维护亚洲市场份额 → 基准油价与真实到岸成本可能继续脱钩。
+- 影响对象：亚洲炼厂、Saudi Aramco原油销售、VLCC船东、STS服务、贸易与库存运营商。
+- 证据边界：OSP是11月合同定价、不是10月5日现货价格；日租为Reuters报道中的市场观察值，不能直接等同所有航次实际运费。
+- 下一步验证：11月OSP成交执行、VLCC运费、STS数量、等待时间和亚洲炼厂采购变化。
+- 反证条件：若航运成本迅速恢复、等待时间下降且后续OSP折价收窄，则“高成本恢复进入商业条款”的强度应下调。
 
 <!-- MODULE:MARKET_AND_EVENT_DELTA -->
 ## 3. 市场与事件增量
@@ -60,7 +60,7 @@ language: zh-CN
 <!-- MODULE:PRICE_AND_SPREAD_DELTA -->
 ## 4. 价格与价差增量
 
-窗口内可验证即时价格显示，Brent约101.59美元/桶、WTI约90.12美元/桶，受到G7库存释放和中东出口增加压制。[E04](https://www.reuters.com/business/energy/oil-climbs-after-yemeni-houthis-attack-saudi-aramco-sites-2026-10-04/) 但该数据是亚洲早盘时点，不作为完整结算价序列。JKM、TTF、CP、FEI、VLGC等同口径即时价格本窗口缺少足够高质量的新数据，继续标记为 `DATA_GAP`。
+本窗口没有取得严格落在10:00截止前、且可按同一观察口径进入STRICT_NEW的Brent/WTI/JKM/TTF/CP/FEI/VLGC即时价格组合，因此价格层继续标记为 `DATA_GAP`，不使用截止后盘中报价倒灌本窗口。可验证的商业定价增量来自Saudi Aramco 11月亚洲OSP大幅下调，它反映的是高运费和路线摩擦进入合同定价，而不是现货油价本身。[E04](https://www.reuters.com/business/energy/saudi-arabia-unexpectedly-cuts-oil-prices-asia-2026-10-04/)
 
 <!-- MODULE:CHINA_CHAIN_DELTA -->
 ## 5. 中国天然气 / LNG / LPG产业链增量
@@ -81,7 +81,7 @@ language: zh-CN
 | Hormuz船舶安全 | 风险上升 | 船损/战争险/护航 | 判断恢复成本是否继续高企 |
 | OPEC+实际产量 | 仍低于配额 | 10月产量 | 判断“纸面增产”何时兑现 |
 | 伊朗谈判条件 | 仍是硬门槛 | 美伊/卡塔尔斡旋 | 判断制度性通行正常化概率 |
-| G7库存释放 | 已进入市场预期 | 实际投放节奏 | 判断短期价格缓冲强度 |
+| 沙特亚洲OSP/运费 | 折价显著扩大 | 11月执行价、VLCC运费 | 判断高物流成本是否持续进入商业定价 |
 
 <!-- MODULE:INDUSTRY_CHAIN_AND_OPERATOR_EXPOSURE -->
 ## 8. 产业链与经营主体影响（Public-safe）
@@ -91,7 +91,7 @@ language: zh-CN
 <!-- MODULE:EVIDENCE_AND_GAPS -->
 ## 9. 证据、数据缺口、风险与反证
 
-本窗口4条CORE证据均来自Reuters精确文档，发布时间分别为2026-10-04 10:25 UTC、2026-10-05 01:09 UTC、2026-10-04 07:59 UTC和2026-10-04 22:17 UTC，均处于固定窗口内。主要边界：中东出口数据包含船运跟踪估算；伊朗立场是政治条件而非海上绝对封锁事实；油价为窗口内即时盘而非完整结算；OPEC+实际产量引用8月数据。中国LNG/LPG与同口径全球天然气/LPG价格序列继续保留 `DATA_GAP`。
+本窗口4条CORE证据均来自Reuters精确文档，发布时间分别为2026-10-04 10:25 UTC、2026-10-05 01:09 UTC、2026-10-04 07:59 UTC和2026-10-04 23:50 UTC，均处于固定窗口内。主要边界：中东出口数据包含船运跟踪估算；伊朗立场是政治条件而非海上绝对封锁事实；Saudi OSP是11月合同定价而非即时现货价；OPEC+实际产量引用8月数据。中国LNG/LPG与同口径全球油气/LPG即时价格序列继续保留 `DATA_GAP`。
 
 <!-- NEXT_VERIFICATION -->
 ## 10. 下一窗口验证
@@ -100,7 +100,7 @@ language: zh-CN
 2. Hormuz及周边船舶袭击频率、战争险和VLCC/LNG船运价。
 3. OPEC+核心成员10月实际产量与配额兑现率。
 4. 美伊经卡塔尔斡旋是否出现可执行通行协议。
-5. G7战略库存的实际释放量、地区与油品结构。
+5. Saudi 11月亚洲OSP折价是否兑现为更低到岸成本，以及VLCC运费/等待时间是否回落。
 6. Brent/WTI/柴油裂解以及JKM/TTF是否出现与“量恢复、成本仍高”一致的定价。
 
 ## Public Sources
@@ -108,4 +108,4 @@ language: zh-CN
 - [E01 — Reuters｜OPEC+ agrees to keep November oil output targets steady](https://www.reuters.com/business/energy/opec-agrees-principle-keep-november-oil-output-targets-steady-sources-say-2026-10-04/)
 - [E02 — Reuters｜Middle East crude oil exports exceed pre-war levels but tanker attacks increase](https://www.reuters.com/business/energy/middle-east-crude-oil-exports-exceed-pre-war-levels-tanker-attacks-increase-2026-10-05/)
 - [E03 — Reuters｜Iran says Strait of Hormuz will not reopen until conditions are met](https://www.reuters.com/world/middle-east/iran-says-strait-hormuz-will-not-reopen-until-conditions-are-met-2026-10-04/)
-- [E04 — Reuters｜Oil slips as Middle East crude exports rise, G7 to release stocks](https://www.reuters.com/business/energy/oil-climbs-after-yemeni-houthis-attack-saudi-aramco-sites-2026-10-04/)
+- [E04 — Reuters｜Saudi Arabia unexpectedly cuts November oil prices to Asia to 6-year lows](https://www.reuters.com/business/energy/saudi-arabia-unexpectedly-cuts-oil-prices-asia-2026-10-04/)
