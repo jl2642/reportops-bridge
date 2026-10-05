@@ -56,7 +56,7 @@
   "state_consistency_pointer_sha256": "12ff77fe9d69b2e24f1919209246dc8109470ca360874891d271ec5bc32cff74",
   "failure_stage": "SITES_PROJECT_ACCESS_UNAVAILABLE",
   "failure_reason": "Sites connector returned no editable project for the sole public site; canonical promotion and Authority rebuild remain valid.",
-  "next_action": "Next Work reconciliation: validate/promote Daily 2026-10-05, W40 Chat Final gate-repaired, and Q3 Chat Final if dependency/state gates pass; retry Public Site publication. Work must not reopen Q3 research or rewrite Daily/Weekly/Quarterly prose.",
+  "next_action": "Next Work reconciliation: use Q3 CHAT_FINAL R3 handoff as sole quarterly authority; validate/promote Daily 2026-10-05, W40 gate-repaired Chat Final, and Q3 Chat Final R3 if dependency/state gates pass; retry Public Site publication. Do not reopen research or rewrite prose.",
   "updated_at": "2026-10-05T13:15:00+08:00",
   "queue_remaining": [
     "2026-10-05"
@@ -353,7 +353,7 @@
       "round1a_status": "PASS_R1A",
       "round1b_status": "PASS_R1B",
       "round2_status": "PASS_ROUND2_FULL_INTEGRATED_PRODUCT",
-      "final_status": "CHAT_FINAL_ACCEPTED_READY_FOR_WORK_PROMOTION",
+      "final_status": "CHAT_FINAL_R3_ACCEPTED_READY_FOR_WORK_PROMOTION",
       "regime": "EXECUTION_RISK__DELIVERABILITY_SCARCITY__HIGH_COST_PARTIAL_RESTORATION",
       "cjk_characters": 18241,
       "required_modules": "11_OF_11",
@@ -368,14 +368,19 @@
       "reader_status": "PASS__READER_DOM_V1",
       "reader_content_status": "PASS__73_EXTERNAL_LINKS__0_SECURITY_FAILURES__0_PROCESS_LANGUAGE_HITS",
       "library_path": "/能源周期报告/20_PRODUCTS/QUARTERLY/2026-Q3/CHAT_FINAL/",
-      "report_sha256": "e3a2caa36876fb5dd138667a7cafa6a71c16a81243999190605ef8c9f120ffa4",
+      "report_sha256": "2813785227d175833808f878e02e51c5fa9cd13538a7c5493e7e3f3418915bf2",
       "sources_md_sha256": "20b360c88a5219dd6bad5af4ded8b74eebdd428973048a84f39b58c29d00855a",
       "sources_csv_sha256": "03bb16d4f145bad80eb1041480a8fd4164d45cc21b540e787add025a89453ea6",
       "ledger_sha256": "8040be3d8b1e79303199791a3999fd2e54f1d15e1fb4fa95302565de22a16684",
-      "reader_html_sha256": "83e63e63523b9651e4691541aeaef89de8b58f89e66c8009ad2fb41cb4a49467",
+      "reader_html_sha256": "93c54801e554cac8fb24576028c512ec7cd399d378b4e6eab0bc9974ba2eee1c",
       "current_mutated": false,
       "site_mutated": false,
-      "ready_for_work_promotion": true
+      "ready_for_work_promotion": true,
+      "authoritative_chat_final": "/能源周期报告/20_PRODUCTS/QUARTERLY/2026-Q3/CHAT_FINAL/energy_quarterly_2026-Q3_chat_final_R3.md",
+      "authoritative_handoff": "/能源周期报告/20_PRODUCTS/QUARTERLY/2026-Q3/CHAT_FINAL/Q3_FINAL_CHAT_HANDOFF_R3.md",
+      "authoritative_acceptance": "/能源周期报告/20_PRODUCTS/QUARTERLY/2026-Q3/CHAT_FINAL/Q3_FINAL_ACCEPTANCE_R3.json",
+      "reader_integrity": "PASS__0_BROKEN_ANCHORS__0_INSECURE_EXTERNAL_LINKS__24_SOURCE_BUTTONS__0_FORBIDDEN_VISIBLE_HITS",
+      "authoritative_selection_note": "R3 body is byte-identical after frontmatter stripping to the parallel chat_final compatibility copy; R3 is the sole Work handoff authority."
     }
   },
   "prepublication_audit_2026_10_05": "DAILY_2026-10-05_PRODUCER_GATES_PASS__W40_GATE_REPAIRED_AND_PASS__MONTHLY_2026-09_PUBLISHED_WITH_LEGACY_LEDGER_COMPATIBILITY_DEBT"
