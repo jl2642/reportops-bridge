@@ -56,7 +56,7 @@
   "state_consistency_pointer_sha256": "12ff77fe9d69b2e24f1919209246dc8109470ca360874891d271ec5bc32cff74",
   "failure_stage": "SITES_PROJECT_ACCESS_UNAVAILABLE",
   "failure_reason": "Sites connector returned no editable project for the sole public site; canonical promotion and Authority rebuild remain valid.",
-  "next_action": "Next 12:30 Work should consume audited Daily 2026-10-05 and repaired W40 Chat Final, validate Work-only Reader/render/state/dependency gates, atomically promote if PASS, and retry the pending sole Public Site publication. Do not rewrite accepted prose/evidence absent a specific new gate defect.",
+  "next_action": "Next Work: render/validate/promote Daily 2026-10-05 and W40 from gate-repaired Chat Final assets, retry Site publication. Monthly 2026-09 is already canonical and live on Site v80; do not rewrite monthly prose.",
   "updated_at": "2026-10-05T13:15:00+08:00",
   "queue_remaining": [
     "2026-10-05"
@@ -322,20 +322,32 @@
     "formal_status": "PENDING_WORK_RECONCILIATION_2026_10_05",
     "canonical_promotion_performed": false,
     "site_publication_performed": false,
-    "public_core_blob_sha": "fc097e4e10b45b827b784a3f478e56a02b3069bf"
+    "public_core_blob_sha": "fc097e4e10b45b827b784a3f478e56a02b3069bf",
+    "product_v4_status": "PASS__0_BLOCKERS__0_WARNINGS",
+    "cjk_characters_actual": 2715,
+    "evidence_governance_v2_status": "PASS__4_RECORDS__4_CLAIMS__0_BLOCKING__0_WARNINGS",
+    "lineage_status": "PASS__DRY_RUN_VALIDATED__REPORT_DAILY_2026-10-05",
+    "reader_status": "PENDING_WORK_RENDER"
   },
   "higher_cycle_manual_recovery_2026_10_05": {
     "scheduled_13_30_result": "TRIGGERED_NO_DURABLE_OUTPUT",
     "weekly_2026_W40": {
       "round1_status": "PASS_ROUND1",
-      "final_status": "CHAT_FINAL_R2_ACCEPTED_READY_FOR_WORK_PROMOTION",
+      "final_status": "CHAT_FINAL_R2_GATE_REPAIRED_READY_FOR_WORK_PROMOTION",
       "formal_daily_pool": "7_OF_7",
-      "cjk_characters": 4421,
-      "registered_sources": 15,
+      "cjk_characters": 5028,
+      "registered_sources": 18,
       "evidence_claims": 6,
       "library_path": "/能源周期报告/20_PRODUCTS/WEEKLY/2026-W40/CHAT_FINAL/",
       "current_mutated": false,
-      "ready_for_work_promotion": true
+      "ready_for_work_promotion": true,
+      "required_modules": "10_OF_10",
+      "used_source_ids": 16,
+      "evidence_v2_records": 9,
+      "product_v4_status": "PASS__0_BLOCKERS__0_WARNINGS",
+      "evidence_governance_v2_status": "PASS__0_BLOCKERS__0_WARNINGS",
+      "lineage_dry_run_status": "PASS__REPORT_WEEKLY_2026-W40",
+      "reader_status": "PENDING_WORK_RENDER"
     },
     "quarterly_2026_Q3": {
       "round1a_status": "PASS_R1A",
@@ -349,50 +361,5 @@
       "next_action": "2026-Q3 Round2 Full Integrated Quarterly Production + Expert Refinement"
     }
   },
-  "prepublication_audit_2026_10_05": {
-    "status": "PASS_AFTER_BOUNDED_REPAIRS",
-    "daily_2026_10_05": {
-      "status": "PASS__NO_KNOWN_CONTENT_EVIDENCE_LINEAGE_BLOCKER",
-      "repairs": [
-        "Removed post-cutoff 10:40 BJT Brent/WTI observation",
-        "Replaced E04 with in-window Saudi November Asia OSP/freight evidence published 07:50 BJT"
-      ],
-      "v4": "PASS_DYNAMIC_V4__2715_CJK__ALL_FLOORS_PASS",
-      "source_identity": "PASS_4_OF_4",
-      "temporal_integrity": "PASS_4_OF_4",
-      "evidence_governance": "PASS__4_RECORDS__4_CLAIMS__0_BLOCKING__0_WARNINGS",
-      "lineage": "PASS__DRY_RUN_VALIDATED__REPORT_DAILY_2026-10-05",
-      "reader": "PENDING_WORK_RENDER_VALIDATION",
-      "canonical_promotion_performed": false,
-      "site_publication_performed": false
-    },
-    "weekly_2026_W40": {
-      "status": "PASS__READY_FOR_WORK_PROMOTION_AFTER_REPAIR",
-      "repairs": [
-        "Added 10 exact Weekly V4 machine-module markers and Daily Signal Disposition section",
-        "Expanded from 4421 CJK to 5027 CJK target range",
-        "Rebuilt full STRICT_NEW Evidence Schema v2 ledger",
-        "Corrected S13 Reuters canonical URL",
-        "Retained S10 full Reuters source article rather than VIEW page"
-      ],
-      "v4": "PASS__5027_CJK__10_OF_10_MODULES__0_BLOCKERS__0_WARNINGS",
-      "source_identity": "PASS__13_USED__15_REGISTERED__0_UNKNOWN",
-      "evidence_governance": "PASS__6_RECORDS__6_CLAIMS__0_BLOCKING__0_WARNINGS",
-      "lineage": "PASS__DRY_RUN_VALIDATED__REPORT_WEEKLY_2026-W40",
-      "reader": "PENDING_WORK_RENDER_VALIDATION",
-      "canonical_promotion_performed": false,
-      "site_publication_performed": false
-    },
-    "monthly_2026_09": {
-      "status": "FORMAL_CANONICAL_CURRENT_AND_SITE_VISIBLE",
-      "v4": "PASS__11254_CJK__11_OF_11_MODULES__0_BLOCKERS__0_WARNINGS",
-      "reader": "PASS",
-      "evidence_binding": "PASS__20_CLAIMS__23_OF_23_SOURCE_IDENTITIES",
-      "legacy_ledger_note": "Published/frozen monthly ledger predates current STRICT_NEW full schema; do not retroactively rewrite. Treat only as compatibility technical debt for future Quarterly lineage."
-    },
-    "known_remaining_blockers": [
-      "SITES_PROJECT_ACCESS_UNAVAILABLE blocks latest unified public-site advancement",
-      "Daily 2026-10-05 and Weekly 2026-W40 still require Work-only Reader/render/state/atomic-promotion gates"
-    ]
-  }
+  "prepublication_audit_2026_10_05": "DAILY_2026-10-05_PRODUCER_GATES_PASS__W40_GATE_REPAIRED_AND_PASS__MONTHLY_2026-09_PUBLISHED_WITH_LEGACY_LEDGER_COMPATIBILITY_DEBT"
 }
