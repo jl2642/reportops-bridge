@@ -1,9 +1,9 @@
 {
   "schema_version": "REPORTOPS_R3_1_CHAT_STATUS_V1_5_SINGLE_SITE",
-  "scheduled_date": "2026-10-05",
-  "target_date": "2026-10-05",
-  "current_day_status": "BLOCKED_PRODUCT_LOCAL_SOURCE_IDENTITY_V2",
-  "scheduled_run_status": "BOUNDED_INTERACTIVE_RECOVERY_AFTER_10_15_ZERO_DURABLE_OUTPUT",
+  "scheduled_date": "2026-10-06",
+  "target_date": "2026-10-06",
+  "current_day_status": "PUBLIC_CORE_ACCEPTED_PENDING_WORK",
+  "scheduled_run_status": "INTERACTIVE_BOUNDED_RECOVERY_COMPLETED_AFTER_SCHEDULED_ZERO_ARTIFACT",
   "correction_backlog": {
     "status": "OPEN_PRODUCT_LOCAL_CORRECTION_REQUIRED",
     "chat_correction_required": true,
@@ -58,10 +58,11 @@
   "state_consistency_pointer_sha256": "3a05be90693a429787ca1fbea846909c9515444a4a5ce7affba98d5bc50ced88",
   "failure_stage": "PRODUCT_LOCAL_SOURCE_IDENTITY_BLOCKERS",
   "failure_reason": "Daily 2026-10-05 lacks Authority-compatible E01-E04 acquisition receipts; Weekly W40 S13 URL conflicts between register/report and ledger.",
-  "next_action": "Await Chat-accepted Source Identity corrections for Daily 2026-10-05 and Weekly 2026-W40; Work must not research or rewrite prose/Evidence.",
+  "next_action": "Next 12:30 Work: oldest-first re-preflight and promote Daily 2026-10-05, then Daily 2026-10-06, then Weekly 2026-W40 if all consumer gates pass. Monthly 2026-09 and Quarterly 2026-Q3 are already formal/current. No further Chat product repair is currently queued.",
   "updated_at": "2026-10-06T13:20:00+08:00",
   "queue_remaining": [
     "Daily 2026-10-05",
+    "Daily 2026-10-06",
     "Weekly 2026-W40"
   ],
   "pending_product": null,
@@ -83,7 +84,9 @@
     "Weekly 2026-W40"
   ],
   "eligible_unpublished_products": [
-    "2026-10-05"
+    "Daily 2026-10-05",
+    "Daily 2026-10-06",
+    "Weekly 2026-W40"
   ],
   "preflight_blocker_matrix": "Authority:state/energy/backlog_closure_20261006/PREFLIGHT_BLOCKER_MATRIX.json",
   "recovery_provenance": {
@@ -164,7 +167,9 @@
   ],
   "oldest_pending_date": "2026-09-29",
   "products_completed_this_run": [
-    "2026-10-05"
+    "Daily 2026-10-05 Source Identity correction",
+    "Weekly 2026-W40 S13 Source Identity correction",
+    "Daily 2026-10-06 bounded recovery"
   ],
   "github_write_status": "PASS_2026_10_05_PUBLIC_CORE_EVIDENCE_LEDGER_MANIFEST",
   "github_readback_status": "PASS_2026_10_05_ARTIFACT_SET",
@@ -322,17 +327,10 @@
   "library_sidecar_sha256": "c3dc69a78b00fac91c20bab5708bd8629f3df3641e2a5385fd44c66145d6c85a",
   "stale_views": [],
   "candidate_2026_10_05": {
-    "product_status": "BLOCKED_PRODUCT_LOCAL",
-    "formal_status": "BLOCKED_PRODUCT_LOCAL",
-    "canonical_promotion_performed": false,
-    "site_publication_performed": false,
-    "public_core_blob_sha": "fc097e4e10b45b827b784a3f478e56a02b3069bf",
-    "product_v4_status": "PASS__0_BLOCKERS__0_WARNINGS",
-    "cjk_characters_actual": 2715,
-    "evidence_governance_v2_status": "PASS__4_RECORDS__4_CLAIMS__0_BLOCKING__0_WARNINGS",
-    "lineage_status": "PASS__DRY_RUN_VALIDATED__REPORT_DAILY_2026-10-05",
-    "reader_status": "PASS_AUTHORITY_CONSUMER_DETERMINISTIC_RENDER",
-    "source_identity_status": "FAIL_MISSING_ACQUISITION_RECEIPTS_E01_E04"
+    "product_status": "PUBLIC_CORE_ACCEPTED_PENDING_WORK",
+    "source_identity_status": "PASS__E01_E04_AUTHORITY_COMPATIBLE_ACQUISITION_RECEIPTS_ADDED",
+    "correction_status": "READY_FOR_WORK_PREFLIGHT_RETRY",
+    "canonical_promotion_performed": false
   },
   "higher_cycle_manual_recovery_2026_10_05": {
     "scheduled_13_30_result": "TRIGGERED_NO_DURABLE_OUTPUT",
@@ -389,5 +387,21 @@
       "content_qa": "PASS__0_TEMPLATE_RESIDUE__0_UNKNOWN_SOURCE__0_UNUSED_SOURCE"
     }
   },
-  "prepublication_audit_2026_10_05": "DAILY_2026-10-05_PRODUCER_GATES_PASS__W40_GATE_REPAIRED_AND_PASS__Q3_R4_EXPERT_POLISH_ACCEPTED__MONTHLY_2026-09_PUBLISHED"
+  "prepublication_audit_2026_10_05": "DAILY_2026-10-05_PRODUCER_GATES_PASS__W40_GATE_REPAIRED_AND_PASS__Q3_R4_EXPERT_POLISH_ACCEPTED__MONTHLY_2026-09_PUBLISHED",
+  "candidate_2026_10_06": {
+    "product_status": "PUBLIC_CORE_ACCEPTED_PENDING_WORK",
+    "formal_status": "PENDING_WORK_RECONCILIATION_2026_10_06",
+    "product_v4_status": "PASS_DYNAMIC_V4__2631_CJK__ALL_FLOORS_PASS",
+    "source_identity_status": "PASS_4_OF_4__ACQUISITION_RECEIPTS",
+    "window_status": "PASS_4_OF_4",
+    "post_run_self_audit_status": "PASS__DURABLE_READBACK",
+    "canonical_promotion_performed": false
+  },
+  "weekly_2026_W40_correction": {
+    "source_identity_status": "PASS__S13_CANONICAL_URL_UNIFIED",
+    "cross_surface_binding_check": "PASS__16_REPORT_SOURCE_IDS__0_URL_MISMATCH",
+    "research_changed": false,
+    "prose_changed": false,
+    "next_status": "READY_FOR_WORK_PREFLIGHT_RETRY"
+  }
 }
