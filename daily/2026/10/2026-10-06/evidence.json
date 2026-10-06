@@ -1,0 +1,101 @@
+{
+  "schema_version": "REPORTOPS_EVIDENCE_V1_2",
+  "target_date": "2026-10-06",
+  "window_start": "2026-10-05T10:00:00+08:00",
+  "window_end": "2026-10-06T10:00:00+08:00",
+  "mode": "STRICT_NEW_PUBLIC",
+  "records": [
+    {
+      "id": "E01",
+      "claim_role": "CORE",
+      "support": "DIRECT",
+      "publisher": "Reuters",
+      "publication_time": "2026-10-05T08:14:00Z",
+      "title": "More Qatari LNG cargoes transit Strait of Hormuz despite ongoing risks",
+      "url": "https://www.reuters.com/business/energy/more-qatari-lng-cargoes-transit-strait-hormuz-despite-ongoing-risks-2026-10-05/",
+      "url_identity_status": "PASS",
+      "url_verified_date": "2026-10-06",
+      "source_identity_receipt": {
+        "verification_method": "OPENED_EXACT_DOCUMENT",
+        "observed_url": "https://www.reuters.com/business/energy/more-qatari-lng-cargoes-transit-strait-hormuz-despite-ongoing-risks-2026-10-05/",
+        "canonical_url": "https://www.reuters.com/business/energy/more-qatari-lng-cargoes-transit-strait-hormuz-despite-ongoing-risks-2026-10-05/",
+        "observed_title": "More Qatari LNG cargoes transit Strait of Hormuz despite ongoing risks",
+        "observed_publisher": "Reuters",
+        "title_match_status": "EXACT",
+        "verified_at": "2026-10-06T13:50:00+08:00"
+      },
+      "boundary": "Ship-tracking evidence of individual cargoes; not proof that total Qatari LNG exports have normalized."
+    },
+    {
+      "id": "E02",
+      "claim_role": "CORE",
+      "support": "DIRECT",
+      "publisher": "Reuters",
+      "publication_time": "2026-10-05T12:30:00Z",
+      "title": "Freeport LNG in Texas to take more natgas on Monday after unit shut on Friday, LSEG data shows",
+      "url": "https://www.reuters.com/business/energy/freeport-lng-texas-take-more-natgas-monday-after-unit-shut-friday-lseg-data-2026-10-05/",
+      "url_identity_status": "PASS",
+      "url_verified_date": "2026-10-06",
+      "source_identity_receipt": {
+        "verification_method": "OPENED_EXACT_DOCUMENT",
+        "observed_url": "https://www.reuters.com/business/energy/freeport-lng-texas-take-more-natgas-monday-after-unit-shut-friday-lseg-data-2026-10-05/",
+        "canonical_url": "https://www.reuters.com/business/energy/freeport-lng-texas-take-more-natgas-monday-after-unit-shut-friday-lseg-data-2026-10-05/",
+        "observed_title": "Freeport LNG in Texas to take more natgas on Monday after unit shut on Friday, LSEG data shows",
+        "observed_publisher": "Reuters",
+        "title_match_status": "EXACT",
+        "verified_at": "2026-10-06T13:50:00+08:00"
+      },
+      "boundary": "LSEG inlet-flow estimate; not proof of full train utilization or realized LNG loadings."
+    },
+    {
+      "id": "E03",
+      "claim_role": "CORE",
+      "support": "DIRECT",
+      "publisher": "Reuters",
+      "publication_time": "2026-10-05T16:16:00Z",
+      "title": "Trump expands access to tax-exempt diesel fuel",
+      "url": "https://www.reuters.com/business/energy/us-expected-unveil-plan-ease-limits-red-dyed-diesel-monday-sources-say-2026-10-05/",
+      "url_identity_status": "PASS",
+      "url_verified_date": "2026-10-06",
+      "source_identity_receipt": {
+        "verification_method": "OPENED_EXACT_DOCUMENT",
+        "observed_url": "https://www.reuters.com/business/energy/us-expected-unveil-plan-ease-limits-red-dyed-diesel-monday-sources-say-2026-10-05/",
+        "canonical_url": "https://www.reuters.com/business/energy/us-expected-unveil-plan-ease-limits-red-dyed-diesel-monday-sources-say-2026-10-05/",
+        "observed_title": "Trump expands access to tax-exempt diesel fuel",
+        "observed_publisher": "Reuters",
+        "title_match_status": "EXACT",
+        "verified_at": "2026-10-06T13:50:00+08:00"
+      },
+      "boundary": "Tax and usage-policy relief does not create incremental refinery capacity or physical diesel supply."
+    },
+    {
+      "id": "E04",
+      "claim_role": "CORE",
+      "support": "DIRECT",
+      "publisher": "Reuters",
+      "publication_time": "2026-10-05T10:08:00Z",
+      "title": "Canada's Cenovus strike $4 billion deal to buy Athabasca Oil, expand production",
+      "url": "https://www.reuters.com/business/energy/cenovus-buy-athabasca-oil-57-billion-cash-and-stock-deal-2026-10-05/",
+      "url_identity_status": "PASS",
+      "url_verified_date": "2026-10-06",
+      "source_identity_receipt": {
+        "verification_method": "OPENED_EXACT_DOCUMENT",
+        "observed_url": "https://www.reuters.com/business/energy/cenovus-buy-athabasca-oil-57-billion-cash-and-stock-deal-2026-10-05/",
+        "canonical_url": "https://www.reuters.com/business/energy/cenovus-buy-athabasca-oil-57-billion-cash-and-stock-deal-2026-10-05/",
+        "observed_title": "Canada's Cenovus strike $4 billion deal to buy Athabasca Oil, expand production",
+        "observed_publisher": "Reuters",
+        "title_match_status": "EXACT",
+        "verified_at": "2026-10-06T13:50:00+08:00"
+      },
+      "boundary": "Announced transaction and expansion plans; future production, pipeline and CCS outcomes are not realized facts."
+    }
+  ],
+  "guessed_url_count": 0,
+  "unsupported_core_claims": 0,
+  "evidence_record_count": 4,
+  "excluded_records": [],
+  "data_gap_notes": [
+    "No strictly in-window same-basis Brent/WTI/JKM/TTF/CP/FEI/VLGC full price set accepted.",
+    "No same-window China official LNG/LPG volume-price update accepted."
+  ]
+}
