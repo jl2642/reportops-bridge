@@ -58,7 +58,7 @@
   "state_consistency_pointer_sha256": "3a05be90693a429787ca1fbea846909c9515444a4a5ce7affba98d5bc50ced88",
   "failure_stage": "PRODUCT_LOCAL_SOURCE_IDENTITY_BLOCKERS",
   "failure_reason": "Daily 2026-10-05 lacks Authority-compatible E01-E04 acquisition receipts; Weekly W40 S13 URL conflicts between register/report and ledger.",
-  "next_action": "Next 12:30 Work: oldest-first re-preflight and promote Daily 2026-10-05, then Daily 2026-10-06, then Weekly 2026-W40 if all consumer gates pass. Monthly 2026-09 and Quarterly 2026-Q3 are already formal/current. No further Chat product repair is currently queued.",
+  "next_action": "Next 12:30 Work should revalidate and consume oldest-first: Daily 2026-10-05, Daily 2026-10-06, then Weekly 2026-W40. Source Identity corrections are durable. Monthly 2026-09 and Quarterly 2026-Q3 are already formal/current. No further Chat product rewrite is required.",
   "updated_at": "2026-10-06T13:20:00+08:00",
   "queue_remaining": [
     "Daily 2026-10-05",
@@ -413,5 +413,39 @@
     "current_monthly": "2026-09",
     "current_quarterly": "2026-Q3",
     "public_site_status": "PASS_V82_REMOTE_READBACK"
+  },
+  "bounded_repair_2026_10_06": {
+    "daily_2026_10_05": {
+      "previous_blocker": "MISSING_AUTHORITY_COMPATIBLE_SOURCE_IDENTITY_ACQUISITION_RECEIPTS",
+      "repair_status": "REPAIRED_READY_FOR_WORK_RETRY",
+      "source_identity_receipts": "4_OF_4",
+      "prose_changed": false,
+      "research_changed": false
+    },
+    "weekly_2026_W40": {
+      "previous_blocker": "S13_CANONICAL_URL_IDENTITY_MISMATCH",
+      "repair_status": "REPAIRED_READY_FOR_WORK_RETRY",
+      "source_id": "S13",
+      "url_mismatch_after": 0,
+      "prose_changed": false,
+      "research_changed": false
+    },
+    "daily_2026_10_06": {
+      "recovery_status": "PUBLIC_CORE_ACCEPTED_PENDING_WORK",
+      "continuity_classification": "ZERO_ARTIFACT_MISSING_DATE_RECOVERED",
+      "cjk_characters_actual": 2631,
+      "signal_card_count": 4,
+      "source_identity_receipts": "4_OF_4",
+      "window_status": "PASS_4_OF_4",
+      "inline_citation_status": "PASS_4_OF_4",
+      "v4_depth_status": "PASS_DYNAMIC_V4",
+      "post_run_self_audit": "PASS"
+    },
+    "new_automation_created": false,
+    "next_work_order": [
+      "Daily 2026-10-05",
+      "Daily 2026-10-06",
+      "Weekly 2026-W40"
+    ]
   }
 }
