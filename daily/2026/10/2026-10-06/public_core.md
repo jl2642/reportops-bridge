@@ -65,7 +65,7 @@ language: zh-CN
 <!-- MODULE:CHINA_CHAIN_DELTA -->
 ## 5. 中国天然气 / LNG / LPG产业链增量
 
-本窗口没有新的中国官方LNG/LPG进口、库存、终端价或开工数据可用于正式更新，因此中国实物链维持 DATA_GAP。但卡塔尔货流中至少一艘LNG船Al Gattara显示目的地为浙江，说明Hormuz恢复已开始对应到中国方向的具体船货信号。[E01](https://www.reuters.com/business/energy/more-qatari-lng-cargoes-transit-strait-hormuz-despite-ongoing-risks-2026-10-05/) 这一船次只能证明交付通道存在，不能外推中国总进口量或需求趋势。
+本窗口没有新的中国官方LNG/LPG进口、库存、终端价或开工数据可用于正式更新，因此中国实物链维持 DATA_GAP。但卡塔尔货流中至少一艘LNG船Al Gattara显示目的地为浙江，说明Hormuz恢复已开始对应到中国方向的具体船货信号。[E01](https://www.reuters.com/business/energy/more-qatari-lng-cargoes-transit-strait-hormuz-despite-ongoing-risks-2026-10-05/) 这一船次只能证明交付通道存在，不能外推中国总进口量或需求趋势。对中国买方而言，更合理的观察指标仍是连续到港、现货采购活跃度、终端库存和国内价格，而不是单一航次。
 
 <!-- MODULE:GLOBAL_ENERGY_DELTA -->
 ## 6. 国际油气 / LNG增量
