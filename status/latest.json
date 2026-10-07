@@ -1,8 +1,8 @@
 {
   "schema_version": "REPORTOPS_R3_1_CHAT_STATUS_V1_5_SINGLE_SITE",
-  "scheduled_date": "2026-10-06",
-  "target_date": "2026-10-06",
-  "current_day_status": "PUBLIC_CORE_ACCEPTED_PENDING_WORK",
+  "scheduled_date": "2026-10-07",
+  "target_date": "2026-10-07",
+  "current_day_status": "NO_NEW_2026_10_07_CANDIDATE",
   "scheduled_run_status": "INTERACTIVE_BOUNDED_RECOVERY_COMPLETED_AFTER_SCHEDULED_ZERO_ARTIFACT",
   "correction_backlog": {
     "status": "OPEN_PRODUCT_LOCAL_CORRECTION_REQUIRED",
@@ -47,48 +47,45 @@
   "window_status": "PASS_4_OF_4",
   "data_gap_boundary_status": "PASS",
   "current_daily_public": "2026-10-04",
-  "current_weekly_public": "2026-W39",
-  "formal_status": "PENDING_WORK_RECONCILIATION_2026_10_06",
+  "current_weekly_public": "2026-W40",
+  "formal_status": "PARTIAL_SUCCESS_WEEKLY_W40_FORMAL_CANONICAL_PUBLISHED",
   "canonical_promotion_performed": true,
   "site_publication_performed": true,
-  "public_site_version": 82,
-  "public_site_status": "PASS_V82_REMOTE_READBACK",
-  "manifest_reconciliation_status": "PASS__Q3_FORMAL_CANONICAL_PUBLISHED_AND_SITE_VISIBLE__DAILY_BLOCKER_STATE_RECONCILED",
+  "public_site_version": 84,
+  "public_site_status": "PASS_V84_REMOTE_READBACK",
+  "manifest_reconciliation_status": "PASS__W40_FORMAL_CANONICAL_PUBLISHED_SITE_VISIBLE__DAILY_BLOCKER_AND_DEFERRED_STATE_RECONCILED",
   "metadata_freshness": "PASS__13_CURRENT_DERIVED_VIEWS__POINTER_MATCH",
-  "state_consistency_pointer_sha256": "3a05be90693a429787ca1fbea846909c9515444a4a5ce7affba98d5bc50ced88",
-  "failure_stage": "PRODUCT_LOCAL_SOURCE_IDENTITY_BLOCKERS",
-  "failure_reason": "Daily 2026-10-05 lacks Authority-compatible E01-E04 acquisition receipts; Weekly W40 S13 URL conflicts between register/report and ledger.",
-  "next_action": "Next 12:30 Work should revalidate and consume oldest-first: Daily 2026-10-05, Daily 2026-10-06, then Weekly 2026-W40. Source Identity corrections are durable. Monthly 2026-09 and Quarterly 2026-Q3 are already formal/current. No further Chat product rewrite is required.",
-  "updated_at": "2026-10-06T13:20:00+08:00",
+  "state_consistency_pointer_sha256": "f9378c071962796e076ddffeb63a91a524a6b86d5c88802d40728a6ad1042cad",
+  "failure_stage": "DAILY_2026_10_05_SOURCE_IDENTITY_V2_RECEIPT_ENUM",
+  "failure_reason": "Daily 2026-10-05 E01-E04 receipts use title_match_status=EXACT_OR_EDITORIALLY_EQUIVALENT, outside the Authority accepted enum; Daily 2026-10-06 is deferred only by predecessor dependency.",
+  "next_action": "Chat corrects only Daily 2026-10-05 receipt enum after verification; next Work revalidates 10/05 then 10/06 oldest-first.",
+  "updated_at": "2026-10-07T12:50:00+08:00",
   "queue_remaining": [
     "Daily 2026-10-05",
-    "Daily 2026-10-06",
-    "Weekly 2026-W40"
+    "Daily 2026-10-06"
   ],
-  "pending_product": null,
+  "pending_product": "Daily 2026-10-05",
   "manual_intervention_required": false,
-  "authority_package_sha256": "c3dc69a78b00fac91c20bab5708bd8629f3df3641e2a5385fd44c66145d6c85a",
+  "authority_package_sha256": "df258b15a04174ca643261402afe739078773ece0e02639863655ba9573e0a48",
   "queue_initial": [
     "2026-10-02"
   ],
   "products_preflighted": [
     "Daily 2026-10-05",
-    "Weekly 2026-W40",
-    "Quarterly 2026-Q3"
-  ],
-  "products_promoted": [
-    "Quarterly 2026-Q3"
-  ],
-  "products_blocked_local": [
-    "Daily 2026-10-05",
-    "Weekly 2026-W40"
-  ],
-  "eligible_unpublished_products": [
-    "Daily 2026-10-05",
     "Daily 2026-10-06",
     "Weekly 2026-W40"
   ],
-  "preflight_blocker_matrix": "Authority:state/energy/backlog_closure_20261006/PREFLIGHT_BLOCKER_MATRIX.json",
+  "products_promoted": [
+    "Weekly 2026-W40"
+  ],
+  "products_blocked_local": [
+    "Daily 2026-10-05"
+  ],
+  "eligible_unpublished_products": [
+    "Daily 2026-10-05",
+    "Daily 2026-10-06"
+  ],
+  "preflight_blocker_matrix": "Authority:state/energy/backlog_closure_20261007/PREFLIGHT_BLOCKER_MATRIX.json",
   "recovery_provenance": {
     "mode": "BOUNDED_MANUAL_RECOVERY_20260927",
     "recovered_dates": [
@@ -100,11 +97,11 @@
     "producer_automation_restored": true,
     "prior_2026_09_26_correction_preserved": true
   },
-  "real_remote_readback_status": "PASS_REAL_REMOTE_CONTENT_V82__16_REQUIRED_PAGES",
-  "download_sha_status": "PASS_LIBRARY_REPORTOPS_ZIP_SHA256_AND_UNZIP__c3dc69a78b00fac91c20bab5708bd8629f3df3641e2a5385fd44c66145d6c85a",
+  "real_remote_readback_status": "PASS_REAL_REMOTE_CONTENT_V84__15_REQUIRED_PAGES",
+  "download_sha_status": "PASS_REMOTE_ZIP_SHA256_AND_UNZIP__Daily_2026-10-04=90bfb728e8a27c5ab3e0ba67d98013c78be2b63d246e5c5e16c86ee6c4337529__Weekly_2026-W40=68c5b95617d1d7ff486d377b753af71743710ba22b838c0802c5a5bd902f5faf",
   "public_daily_2026_09_25_download_sha256": "b4a80928e9755db168822874115c2d40069f3d9ad919416291e739dee8db7e72",
   "public_weekly_2026_w38_download_sha256": "551496a55a54f77721bbb1a7d2f0dc584956e0a18c188c44c9b90ec1a0a6305a",
-  "higher_cycle_dependency_state": "W40 7/7; Weekly W40 BLOCKED_PRODUCT_LOCAL(S13 identity); Quarterly Q3 FORMAL_CANONICAL_PUBLISHED",
+  "higher_cycle_dependency_state": "W40 Canonical Daily Pool 7/7; Weekly W40 FORMAL_CANONICAL_PUBLISHED; W41 Daily Pool 1/7; no other Chat-accepted higher-cycle candidate",
   "correction_provenance": {
     "corrected_at": "2026-09-26T14:08:00+08:00",
     "changed_records": [
@@ -116,9 +113,11 @@
     "urls_changed": false,
     "claims_changed": false
   },
-  "products_deferred_dependency": [],
+  "products_deferred_dependency": [
+    "Daily 2026-10-06"
+  ],
   "public_daily_2026_09_26_download_sha256": "ea94ce1f2f69b3efa270295fb9f7b04c248280ea057a6a8721a7d3602522ba43",
-  "reportops_status": "PARTIAL_SUCCESS__Q3_PROMOTED_PUBLISHED__DAILY_2026_10_05_AND_WEEKLY_W40_FAIL_CLOSED",
+  "reportops_status": "PARTIAL_SUCCESS__W40_PROMOTED_PUBLISHED__DAILY_2026_10_05_BLOCKED__DAILY_2026_10_06_DEFERRED",
   "correction_provenance_2026_09_27": {
     "corrected_at": "2026-09-27T22:50:00+08:00",
     "correction_type": "INLINE_CITATION_PLACEMENT_ONLY",
@@ -211,12 +210,16 @@
   "public_daily_2026_09_30_download_sha256": "71b2b772dfc67f33d4d36903b11d1a1a5608af8bd0fe7bb1faf566232e009916",
   "public_daily_2026_10_01_download_sha256": "f332e6a6ce7eecdce966954035d0306c03c12c6534e5960686a83177f6228ebd",
   "authority_sha_runtime_reconciliation": {
-    "authority_sha_before": "b2dc42a81e68f62a978ce0b0258ddae0348927069e7ba04ade1318c140826df6",
-    "authority_sha_after": "c3dc69a78b00fac91c20bab5708bd8629f3df3641e2a5385fd44c66145d6c85a",
-    "library_sidecar_sha256": "c3dc69a78b00fac91c20bab5708bd8629f3df3641e2a5385fd44c66145d6c85a",
-    "runtime_authority_sha256": "c3dc69a78b00fac91c20bab5708bd8629f3df3641e2a5385fd44c66145d6c85a",
+    "authority_sha_before": "c3dc69a78b00fac91c20bab5708bd8629f3df3641e2a5385fd44c66145d6c85a",
+    "authority_sha_after": "df258b15a04174ca643261402afe739078773ece0e02639863655ba9573e0a48",
+    "library_sidecar_sha256": "df258b15a04174ca643261402afe739078773ece0e02639863655ba9573e0a48",
+    "runtime_authority_sha256": "df258b15a04174ca643261402afe739078773ece0e02639863655ba9573e0a48",
+    "manifest_authority_sha256": {
+      "daily_2026_10_05": "df258b15a04174ca643261402afe739078773ece0e02639863655ba9573e0a48",
+      "daily_2026_10_06": "df258b15a04174ca643261402afe739078773ece0e02639863655ba9573e0a48"
+    },
     "status": "PASS_POST_REBUILD_AUTHORITY_SHA_FOUR_WAY_MATCH",
-    "reconciled_at": "2026-10-06T13:20:00+08:00"
+    "reconciled_at": "2026-10-07T12:50:00+08:00"
   },
   "runtime_sync_status": "PASS_POST_REBUILD_AUTHORITY_SHA_FOUR_WAY_MATCH",
   "recovery_provenance_2026_10_02": {
@@ -324,7 +327,7 @@
   },
   "current_daily_canonical": "2026-10-04",
   "current_quarterly_public": "2026-Q3",
-  "library_sidecar_sha256": "c3dc69a78b00fac91c20bab5708bd8629f3df3641e2a5385fd44c66145d6c85a",
+  "library_sidecar_sha256": "df258b15a04174ca643261402afe739078773ece0e02639863655ba9573e0a48",
   "stale_views": [],
   "candidate_2026_10_05": {
     "product_status": "PUBLIC_CORE_ACCEPTED_PENDING_WORK",
@@ -447,5 +450,7 @@
       "Daily 2026-10-06",
       "Weekly 2026-W40"
     ]
-  }
+  },
+  "public_weekly_2026_w40_download_sha256": "68c5b95617d1d7ff486d377b753af71743710ba22b838c0802c5a5bd902f5faf",
+  "public_daily_2026_10_04_download_sha256": "90bfb728e8a27c5ab3e0ba67d98013c78be2b63d246e5c5e16c86ee6c4337529"
 }
