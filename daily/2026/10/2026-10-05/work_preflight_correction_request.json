@@ -1,7 +1,7 @@
 {
   "schema_version": "REPORTOPS_DAILY_CORRECTION_REQUEST_V1",
   "target_date": "2026-10-05",
-  "classification": "BLOCKED_PRODUCT_LOCAL",
+  "classification": "RESOLVED_BY_CHAT_CORRECTION",
   "blocking_gate": "SOURCE_IDENTITY_V2",
   "created_at": "2026-10-07T12:50:00+08:00",
   "work_may_research": false,
@@ -18,7 +18,7 @@
         "EXACT",
         "SAME_DOCUMENT_UPDATED_TITLE"
       ],
-      "status": "OPEN"
+      "status": "RESOLVED"
     },
     {
       "evidence_id": "E02",
@@ -29,7 +29,7 @@
         "EXACT",
         "SAME_DOCUMENT_UPDATED_TITLE"
       ],
-      "status": "OPEN"
+      "status": "RESOLVED"
     },
     {
       "evidence_id": "E03",
@@ -40,7 +40,7 @@
         "EXACT",
         "SAME_DOCUMENT_UPDATED_TITLE"
       ],
-      "status": "OPEN"
+      "status": "RESOLVED"
     },
     {
       "evidence_id": "E04",
@@ -51,7 +51,7 @@
         "EXACT",
         "SAME_DOCUMENT_UPDATED_TITLE"
       ],
-      "status": "OPEN"
+      "status": "RESOLVED"
     }
   ],
   "verified_policy_identity": {
@@ -159,5 +159,8 @@
     "corrected_evidence_blob_sha": "cdb1b015c8c7adf091c6bb62689ed0b8fc3a066e",
     "next_action": "WORK_REPREFLIGHT_SOURCE_IDENTITY_V2"
   },
-  "next_action": "CHAT_PRODUCER_SOURCE_IDENTITY_RECEIPT_ENUM_CORRECTION_THEN_WORK_REPREFLIGHT"
+  "next_action": "WORK_REPREFLIGHT_SOURCE_IDENTITY_V2_THEN_PROMOTE_2026_10_05_AND_2026_10_06_OLDEST_FIRST",
+  "resolved_at": "2026-10-07T13:05:00+08:00",
+  "resolution_status": "PASS__AUTHORITY_ENUMS_VERIFIED_AND_APPLIED",
+  "corrected_evidence_blob_sha": "d9713c28f4526d279cfdeb0236a3473e1e627f2f"
 }
