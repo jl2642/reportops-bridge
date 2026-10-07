@@ -15,15 +15,15 @@
       "url": "https://www.reuters.com/business/energy/opec-agrees-principle-keep-november-oil-output-targets-steady-sources-say-2026-10-04/",
       "url_identity_status": "PASS",
       "boundary": "November targets steady; August actual output cited is lagged and should not be treated as October actual output.",
-      "url_verified_date": "2026-10-06",
+      "url_verified_date": "2026-10-07",
       "source_identity_receipt": {
         "verification_method": "OPENED_EXACT_DOCUMENT",
         "observed_url": "https://www.reuters.com/business/energy/opec-agrees-principle-keep-november-oil-output-targets-steady-sources-say-2026-10-04/",
         "canonical_url": "https://www.reuters.com/business/energy/opec-agrees-principle-keep-november-oil-output-targets-steady-sources-say-2026-10-04/",
         "observed_title": "OPEC+ agrees to keep November oil output targets steady",
         "observed_publisher": "Reuters",
-        "title_match_status": "EXACT_OR_EDITORIALLY_EQUIVALENT",
-        "verified_at": "2026-10-06T13:40:00+08:00"
+        "title_match_status": "EXACT",
+        "verified_at": "2026-10-07T13:05:00+08:00"
       }
     },
     {
@@ -36,15 +36,15 @@
       "url": "https://www.reuters.com/business/energy/middle-east-crude-oil-exports-exceed-pre-war-levels-tanker-attacks-increase-2026-10-05/",
       "url_identity_status": "PASS",
       "boundary": "Kpler shipping estimates and reported attacks; higher traffic does not imply normalized security or costs.",
-      "url_verified_date": "2026-10-06",
+      "url_verified_date": "2026-10-07",
       "source_identity_receipt": {
         "verification_method": "OPENED_EXACT_DOCUMENT",
         "observed_url": "https://www.reuters.com/business/energy/middle-east-crude-oil-exports-exceed-pre-war-levels-tanker-attacks-increase-2026-10-05/",
         "canonical_url": "https://www.reuters.com/business/energy/middle-east-crude-oil-exports-exceed-pre-war-levels-tanker-attacks-increase-2026-10-05/",
         "observed_title": "Middle East oil exports top pre-war levels for part of September but tanker attacks increase",
         "observed_publisher": "Reuters",
-        "title_match_status": "EXACT_OR_EDITORIALLY_EQUIVALENT",
-        "verified_at": "2026-10-06T13:40:00+08:00"
+        "title_match_status": "SAME_DOCUMENT_UPDATED_TITLE",
+        "verified_at": "2026-10-07T13:05:00+08:00"
       }
     },
     {
@@ -57,15 +57,15 @@
       "url": "https://www.reuters.com/world/middle-east/iran-says-strait-hormuz-will-not-reopen-until-conditions-are-met-2026-10-04/",
       "url_identity_status": "PASS",
       "boundary": "Public negotiating position; does not mean zero commercial transits.",
-      "url_verified_date": "2026-10-06",
+      "url_verified_date": "2026-10-07",
       "source_identity_receipt": {
         "verification_method": "OPENED_EXACT_DOCUMENT",
         "observed_url": "https://www.reuters.com/world/middle-east/iran-says-strait-hormuz-will-not-reopen-until-conditions-are-met-2026-10-04/",
         "canonical_url": "https://www.reuters.com/world/middle-east/iran-says-strait-hormuz-will-not-reopen-until-conditions-are-met-2026-10-04/",
         "observed_title": "Iran says Strait of Hormuz will not reopen until conditions are met",
         "observed_publisher": "Reuters",
-        "title_match_status": "EXACT_OR_EDITORIALLY_EQUIVALENT",
-        "verified_at": "2026-10-06T13:40:00+08:00"
+        "title_match_status": "EXACT",
+        "verified_at": "2026-10-07T13:05:00+08:00"
       }
     },
     {
@@ -78,15 +78,15 @@
       "url": "https://www.reuters.com/business/energy/saudi-arabia-unexpectedly-cuts-oil-prices-asia-2026-10-04/",
       "url_identity_status": "PASS",
       "boundary": "November Asia OSP and observed tanker-rate evidence; not an in-window spot crude settlement or proof that every buyer receives the same delivered-cost reduction.",
-      "url_verified_date": "2026-10-06",
+      "url_verified_date": "2026-10-07",
       "source_identity_receipt": {
         "verification_method": "OPENED_EXACT_DOCUMENT",
         "observed_url": "https://www.reuters.com/business/energy/saudi-arabia-unexpectedly-cuts-oil-prices-asia-2026-10-04/",
         "canonical_url": "https://www.reuters.com/business/energy/saudi-arabia-unexpectedly-cuts-oil-prices-asia-2026-10-04/",
         "observed_title": "Saudi Arabia unexpectedly cuts November oil prices to Asia to 6-year lows",
         "observed_publisher": "Reuters",
-        "title_match_status": "EXACT_OR_EDITORIALLY_EQUIVALENT",
-        "verified_at": "2026-10-06T13:40:00+08:00"
+        "title_match_status": "EXACT",
+        "verified_at": "2026-10-07T13:05:00+08:00"
       }
     }
   ],
