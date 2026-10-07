@@ -1,37 +1,57 @@
 {
   "schema_version": "REPORTOPS_DAILY_CORRECTION_REQUEST_V1",
   "target_date": "2026-10-05",
-  "classification": "RESOLVED_BY_CHAT_CORRECTION",
+  "classification": "BLOCKED_PRODUCT_LOCAL",
   "blocking_gate": "SOURCE_IDENTITY_V2",
-  "created_at": "2026-10-06T13:05:00+08:00",
+  "created_at": "2026-10-07T12:50:00+08:00",
   "work_may_research": false,
   "work_may_rewrite_prose": false,
   "work_may_modify_evidence": false,
-  "required_correction": "Chat producer must supply Authority-compatible acquisition receipts for E01-E04, binding each receipt URL and publisher to its Evidence record; substantive research/prose remains producer-owned.",
+  "required_correction": "Chat producer must replace title_match_status=EXACT_OR_EDITORIALLY_EQUIVALENT in E01-E04 acquisition receipts with an Authority Source Identity V2 accepted enum value, after producer verification: EXACT or SAME_DOCUMENT_UPDATED_TITLE. Work must not infer or rewrite this identity field.",
   "issues": [
     {
       "evidence_id": "E01",
-      "code": "MISSING_ACQUISITION_RECEIPT",
-      "detail": "acquisition receipt fields absent; receipt URL/publisher cannot be verified",
-      "status": "RESOLVED"
+      "code": "SOURCE_ACQUISITION_RECEIPT_INCOMPLETE",
+      "field": "title_match_status",
+      "actual": "EXACT_OR_EDITORIALLY_EQUIVALENT",
+      "accepted": [
+        "EXACT",
+        "SAME_DOCUMENT_UPDATED_TITLE"
+      ],
+      "status": "OPEN"
     },
     {
       "evidence_id": "E02",
-      "code": "MISSING_ACQUISITION_RECEIPT",
-      "detail": "acquisition receipt fields absent; receipt URL/publisher cannot be verified",
-      "status": "RESOLVED"
+      "code": "SOURCE_ACQUISITION_RECEIPT_INCOMPLETE",
+      "field": "title_match_status",
+      "actual": "EXACT_OR_EDITORIALLY_EQUIVALENT",
+      "accepted": [
+        "EXACT",
+        "SAME_DOCUMENT_UPDATED_TITLE"
+      ],
+      "status": "OPEN"
     },
     {
       "evidence_id": "E03",
-      "code": "MISSING_ACQUISITION_RECEIPT",
-      "detail": "acquisition receipt fields absent; receipt URL/publisher cannot be verified",
-      "status": "RESOLVED"
+      "code": "SOURCE_ACQUISITION_RECEIPT_INCOMPLETE",
+      "field": "title_match_status",
+      "actual": "EXACT_OR_EDITORIALLY_EQUIVALENT",
+      "accepted": [
+        "EXACT",
+        "SAME_DOCUMENT_UPDATED_TITLE"
+      ],
+      "status": "OPEN"
     },
     {
       "evidence_id": "E04",
-      "code": "MISSING_ACQUISITION_RECEIPT",
-      "detail": "acquisition receipt fields absent; receipt URL/publisher cannot be verified",
-      "status": "RESOLVED"
+      "code": "SOURCE_ACQUISITION_RECEIPT_INCOMPLETE",
+      "field": "title_match_status",
+      "actual": "EXACT_OR_EDITORIALLY_EQUIVALENT",
+      "accepted": [
+        "EXACT",
+        "SAME_DOCUMENT_UPDATED_TITLE"
+      ],
+      "status": "OPEN"
     }
   ],
   "verified_policy_identity": {
@@ -66,8 +86,78 @@
     "industry_operator_delta_cjk": 173
   },
   "nonblocking_gates": "Inline Citation, V4 structure/depth, privacy, window, Evidence governance, Reader, Lineage, state/identity/dependency PASS.",
-  "resolved_at": "2026-10-06T13:40:00+08:00",
-  "resolution_status": "PASS__E01_E04_AUTHORITY_COMPATIBLE_ACQUISITION_RECEIPTS_ADDED",
-  "corrected_evidence_blob_sha": "cdb1b015c8c7adf091c6bb62689ed0b8fc3a066e",
-  "next_action": "WORK_REPREFLIGHT_SOURCE_IDENTITY_V2"
+  "previous_correction_receipt_provenance": {
+    "schema_version": "REPORTOPS_DAILY_CORRECTION_REQUEST_V1",
+    "target_date": "2026-10-05",
+    "classification": "RESOLVED_BY_CHAT_CORRECTION",
+    "blocking_gate": "SOURCE_IDENTITY_V2",
+    "created_at": "2026-10-06T13:05:00+08:00",
+    "work_may_research": false,
+    "work_may_rewrite_prose": false,
+    "work_may_modify_evidence": false,
+    "required_correction": "Chat producer must supply Authority-compatible acquisition receipts for E01-E04, binding each receipt URL and publisher to its Evidence record; substantive research/prose remains producer-owned.",
+    "issues": [
+      {
+        "evidence_id": "E01",
+        "code": "MISSING_ACQUISITION_RECEIPT",
+        "detail": "acquisition receipt fields absent; receipt URL/publisher cannot be verified",
+        "status": "RESOLVED"
+      },
+      {
+        "evidence_id": "E02",
+        "code": "MISSING_ACQUISITION_RECEIPT",
+        "detail": "acquisition receipt fields absent; receipt URL/publisher cannot be verified",
+        "status": "RESOLVED"
+      },
+      {
+        "evidence_id": "E03",
+        "code": "MISSING_ACQUISITION_RECEIPT",
+        "detail": "acquisition receipt fields absent; receipt URL/publisher cannot be verified",
+        "status": "RESOLVED"
+      },
+      {
+        "evidence_id": "E04",
+        "code": "MISSING_ACQUISITION_RECEIPT",
+        "detail": "acquisition receipt fields absent; receipt URL/publisher cannot be verified",
+        "status": "RESOLVED"
+      }
+    ],
+    "verified_policy_identity": {
+      "authority_policy_sha256": "ed69573e48d0daedd1b899ab2d6cf15880f37705f88b44b1a9d2ca26715f9905",
+      "public_contract_sha256": "64770bf24f1280d11060d6a905a659241d5e483109fc8c3e34195a8264fc48f6"
+    },
+    "required_floor": {
+      "total_cjk_min": 1800,
+      "total_cjk_target_min": 2200,
+      "total_cjk_target_max": 3500,
+      "signal_cards_min": 3,
+      "signal_cards_max": 5,
+      "executive_summary_cjk_min": 150,
+      "key_signal_section_cjk_min": 850,
+      "per_signal_card_cjk_min": 180,
+      "china_chain_delta_cjk_min": 120,
+      "global_energy_delta_cjk_min": 120,
+      "industry_operator_delta_cjk_min": 120
+    },
+    "measured_actuals": {
+      "total_cjk": 2715,
+      "executive_summary_cjk": 269,
+      "key_signal_section_cjk": 1306,
+      "signal_cards": [
+        315,
+        333,
+        316,
+        330
+      ],
+      "china_chain_delta_cjk": 139,
+      "global_energy_delta_cjk": 122,
+      "industry_operator_delta_cjk": 173
+    },
+    "nonblocking_gates": "Inline Citation, V4 structure/depth, privacy, window, Evidence governance, Reader, Lineage, state/identity/dependency PASS.",
+    "resolved_at": "2026-10-06T13:40:00+08:00",
+    "resolution_status": "PASS__E01_E04_AUTHORITY_COMPATIBLE_ACQUISITION_RECEIPTS_ADDED",
+    "corrected_evidence_blob_sha": "cdb1b015c8c7adf091c6bb62689ed0b8fc3a066e",
+    "next_action": "WORK_REPREFLIGHT_SOURCE_IDENTITY_V2"
+  },
+  "next_action": "CHAT_PRODUCER_SOURCE_IDENTITY_RECEIPT_ENUM_CORRECTION_THEN_WORK_REPREFLIGHT"
 }
