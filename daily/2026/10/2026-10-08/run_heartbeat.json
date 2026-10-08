@@ -2,5 +2,17 @@
   "target_date": "2026-10-08",
   "scheduled_for": "10:15 Asia/Shanghai",
   "run_started_at": "2026-10-08T10:14:50+08:00",
-  "status": "RUN_STARTED_BEFORE_PREFLIGHT"
+  "status": "FAILED",
+  "products_repaired_or_produced": [],
+  "producer_recovery_queue_remaining": [
+    "2026-10-07",
+    "2026-10-08"
+  ],
+  "queue_for_12_30_work": [
+    "Daily 2026-10-05",
+    "Daily 2026-10-06"
+  ],
+  "post_run_self_audit_status": "NOT_REACHED",
+  "failure_stage": "2026-10-07/public_core.md PERSISTENCE",
+  "failure_reason": "GitHub create_file rejected by safety checks after deterministic Producer preflight passed; 2026-10-07 candidate not durably persisted. 2026-10-08 not attempted (oldest-first fail-closed)."
 }
