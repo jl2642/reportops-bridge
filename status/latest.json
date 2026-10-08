@@ -1,9 +1,9 @@
 {
   "schema_version": "REPORTOPS_R3_1_CHAT_STATUS_V1_5_SINGLE_SITE",
-  "scheduled_date": "2026-10-07",
-  "target_date": "2026-10-07",
-  "current_day_status": "NO_NEW_2026_10_07_CANDIDATE",
-  "scheduled_run_status": "INTERACTIVE_BOUNDED_RECOVERY_COMPLETED_AFTER_SCHEDULED_ZERO_ARTIFACT",
+  "scheduled_date": "2026-10-08",
+  "target_date": "2026-10-08",
+  "current_day_status": "PUBLIC_CORE_ACCEPTED_PENDING_WORK",
+  "scheduled_run_status": "FAILED",
   "correction_backlog": {
     "status": "OPEN_PRODUCT_LOCAL_CORRECTION_REQUIRED",
     "chat_correction_required": true,
@@ -49,20 +49,22 @@
   "current_daily_public": "2026-10-04",
   "current_weekly_public": "2026-W40",
   "formal_status": "PARTIAL_SUCCESS_WEEKLY_W40_FORMAL_CANONICAL_PUBLISHED",
-  "canonical_promotion_performed": true,
-  "site_publication_performed": true,
+  "canonical_promotion_performed": false,
+  "site_publication_performed": false,
   "public_site_version": 84,
   "public_site_status": "PASS_V84_REMOTE_READBACK",
   "manifest_reconciliation_status": "PASS__W40_FORMAL_CANONICAL_PUBLISHED_SITE_VISIBLE__DAILY_BLOCKER_AND_DEFERRED_STATE_RECONCILED",
   "metadata_freshness": "PASS__13_CURRENT_DERIVED_VIEWS__POINTER_MATCH",
   "state_consistency_pointer_sha256": "f9378c071962796e076ddffeb63a91a524a6b86d5c88802d40728a6ad1042cad",
-  "failure_stage": "SCHEDULED_CHAT_PRE_FIRST_DURABLE_WRITE",
-  "failure_reason": "Daily 2026-10-05 Source Identity enum blocker is corrected. Remaining active runtime issue: the 2026-10-07 10:15 Scheduled Chat run terminated before its first durable product/heartbeat write, so no 2026-10-07 candidate exists.",
+  "failure_stage": "2026-10-07/public_core.md PERSISTENCE",
+  "failure_reason": "Original 2026-10-08 10:15 scheduled run failed on GitHub create_file safety rejection and was disabled; 2026-10-07 and 2026-10-08 candidate files were subsequently written in this interactive bounded recovery and independently read back. Scheduled-run failure provenance remains intact; exact cause of original safety rejection not determined.",
   "next_action": "Observe the frozen 10:15 Producer on the next run. It must first write daily/YYYY/MM/YYYY-MM-DD/run_heartbeat.json before any preflight. Then recover 2026-10-07 oldest-first and produce the scheduled target if within the 3-action bound. Next 12:30 Work should revalidate/promote 2026-10-05 then 2026-10-06 oldest-first; W40/Monthly 2026-09/Quarterly 2026-Q3 are already formal.",
-  "updated_at": "2026-10-07T12:50:00+08:00",
+  "updated_at": "2026-10-08T03:03:12.853Z",
   "queue_remaining": [
     "Daily 2026-10-05",
-    "Daily 2026-10-06"
+    "Daily 2026-10-06",
+    "Daily 2026-10-07",
+    "Daily 2026-10-08"
   ],
   "pending_product": "Daily 2026-10-05",
   "manual_intervention_required": false,
@@ -83,7 +85,9 @@
   ],
   "eligible_unpublished_products": [
     "Daily 2026-10-05",
-    "Daily 2026-10-06"
+    "Daily 2026-10-06",
+    "Daily 2026-10-07",
+    "Daily 2026-10-08"
   ],
   "preflight_blocker_matrix": "Authority:state/energy/backlog_closure_20261007/PREFLIGHT_BLOCKER_MATRIX.json",
   "recovery_provenance": {
@@ -117,7 +121,7 @@
     "Daily 2026-10-06"
   ],
   "public_daily_2026_09_26_download_sha256": "ea94ce1f2f69b3efa270295fb9f7b04c248280ea057a6a8721a7d3602522ba43",
-  "reportops_status": "PARTIAL_SUCCESS__W40_FORMAL__DAILY_2026_10_05_CORRECTED_PENDING_WORK__DAILY_2026_10_06_DEFERRED__DAILY_2026_10_07_MISSING",
+  "reportops_status": "PARTIAL_SUCCESS__CANDIDATES_RECOVERED_10_07_10_08_PENDING_WORK",
   "correction_provenance_2026_09_27": {
     "corrected_at": "2026-09-27T22:50:00+08:00",
     "correction_type": "INLINE_CITATION_PLACEMENT_ONLY",
@@ -165,12 +169,11 @@
   ],
   "oldest_pending_date": "2026-09-29",
   "products_completed_this_run": [
-    "Daily 2026-10-05 Source Identity correction",
-    "Weekly 2026-W40 S13 Source Identity correction",
-    "Daily 2026-10-06 bounded recovery"
+    "Daily 2026-10-07 bounded interactive candidate recovery",
+    "Daily 2026-10-08 bounded interactive candidate recovery"
   ],
-  "github_write_status": "PASS_2026_10_06_PUBLIC_CORE_EVIDENCE_LEDGER_MANIFEST",
-  "github_readback_status": "PASS_2026_10_06_POST_RUN_SELF_AUDIT",
+  "github_write_status": "PASS__2026_10_07_AND_2026_10_08_CANDIDATE_FILES",
+  "github_readback_status": "PASS__4_OF_4_EACH_DATE__STRICT_LEDGER_42_COLUMNS",
   "concurrency_reconciliation": {
     "detected": true,
     "issue": "LATE_HEARTBEAT_STALE_STATUS_OVERWRITE_FROM_IN_FLIGHT_10_15_RUN",
@@ -178,9 +181,7 @@
     "guard_version": "v3.1",
     "reconciled_against_latest_artifacts": true
   },
-  "producer_recovery_queue_remaining": [
-    "Daily 2026-10-07 ZERO_ARTIFACT_MISSING_DATE"
-  ],
+  "producer_recovery_queue_remaining": [],
   "oldest_producer_gap": null,
   "continuity_inventory_at_start": {
     "2026-10-02": "COMPLETE_CANDIDATE__PENDING_WORK",
