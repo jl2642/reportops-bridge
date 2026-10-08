@@ -1,0 +1,102 @@
+{
+  "schema_version": "REPORTOPS_EVIDENCE_V1_2",
+  "target_date": "2026-10-08",
+  "window_start": "2026-10-07T10:00:00+08:00",
+  "window_end": "2026-10-08T10:00:00+08:00",
+  "mode": "STRICT_NEW_PUBLIC",
+  "records": [
+    {
+      "id": "E01",
+      "claim_role": "CORE",
+      "support": "DIRECT",
+      "publisher": "Reuters",
+      "publication_time": "2026-10-07T06:07:00Z",
+      "title": "Shell expects record refining margins as Iran war boosts fuel markets",
+      "url": "https://www.reuters.com/business/energy/shell-raises-q3-gas-output-forecast-2026-10-07/",
+      "url_identity_status": "PASS",
+      "url_verified_date": "2026-10-08",
+      "source_identity_receipt": {
+        "verification_method": "OPENED_EXACT_DOCUMENT",
+        "observed_url": "https://www.reuters.com/business/energy/shell-raises-q3-gas-output-forecast-2026-10-07/",
+        "canonical_url": "https://www.reuters.com/business/energy/shell-raises-q3-gas-output-forecast-2026-10-07/",
+        "observed_title": "Shell expects record refining margins as Iran war boosts fuel markets",
+        "observed_publisher": "Reuters",
+        "title_match_status": "EXACT",
+        "verified_at": "2026-10-08T03:01:46.270Z"
+      },
+      "boundary": "Quarterly company indicator is neither worldwide refining net profit nor a crude benchmark price."
+    },
+    {
+      "id": "E02",
+      "claim_role": "CORE",
+      "support": "DIRECT",
+      "publisher": "Reuters",
+      "publication_time": "2026-10-07T07:09:00Z",
+      "title": "IEA to accelerate oil reserve release, says 100 million barrels still to come",
+      "url": "https://www.reuters.com/business/energy/iea-meet-wednesday-over-proposed-release-reserves-say-two-eu-diplomats-2026-10-07/",
+      "url_identity_status": "PASS",
+      "url_verified_date": "2026-10-08",
+      "source_identity_receipt": {
+        "verification_method": "OPENED_EXACT_DOCUMENT",
+        "observed_url": "https://www.reuters.com/business/energy/iea-meet-wednesday-over-proposed-release-reserves-say-two-eu-diplomats-2026-10-07/",
+        "canonical_url": "https://www.reuters.com/business/energy/iea-meet-wednesday-over-proposed-release-reserves-say-two-eu-diplomats-2026-10-07/",
+        "observed_title": "IEA to accelerate oil reserve release, says 100 million barrels still to come",
+        "observed_publisher": "Reuters",
+        "title_match_status": "EXACT",
+        "verified_at": "2026-10-08T03:01:46.270Z"
+      },
+      "boundary": "The 100 million barrels is remaining volume within the March plan, not verified incremental commitment."
+    },
+    {
+      "id": "E03",
+      "claim_role": "CORE",
+      "support": "DIRECT",
+      "publisher": "Reuters",
+      "publication_time": "2026-10-07T08:19:00Z",
+      "title": "Europe's LNG demand, growing fleet size to pressure shipping rates in winter",
+      "url": "https://www.reuters.com/business/energy/europes-lng-demand-growing-fleet-size-pressure-shipping-rates-winter-2026-10-07/",
+      "url_identity_status": "PASS",
+      "url_verified_date": "2026-10-08",
+      "source_identity_receipt": {
+        "verification_method": "OPENED_EXACT_DOCUMENT",
+        "observed_url": "https://www.reuters.com/business/energy/europes-lng-demand-growing-fleet-size-pressure-shipping-rates-winter-2026-10-07/",
+        "canonical_url": "https://www.reuters.com/business/energy/europes-lng-demand-growing-fleet-size-pressure-shipping-rates-winter-2026-10-07/",
+        "observed_title": "Europe's LNG demand, growing fleet size to pressure shipping rates in winter",
+        "observed_publisher": "Reuters",
+        "title_match_status": "EXACT",
+        "verified_at": "2026-10-08T03:01:46.270Z"
+      },
+      "boundary": "Single vessel segment and regional assessment; not all vessel types, insurance costs or delivery charges."
+    },
+    {
+      "id": "E04",
+      "claim_role": "CORE",
+      "support": "DIRECT",
+      "publisher": "Reuters",
+      "publication_time": "2026-10-07T12:37:00Z",
+      "title": "QatarEnergy's LNG expansion project poised to start operations in November, sources say",
+      "url": "https://www.reuters.com/business/energy/first-lng-train-qatarenergys-nfe-project-is-ready-start-two-sources-say-2026-10-07/",
+      "url_identity_status": "PASS",
+      "url_verified_date": "2026-10-08",
+      "source_identity_receipt": {
+        "verification_method": "OPENED_EXACT_DOCUMENT",
+        "observed_url": "https://www.reuters.com/business/energy/first-lng-train-qatarenergys-nfe-project-is-ready-start-two-sources-say-2026-10-07/",
+        "canonical_url": "https://www.reuters.com/business/energy/first-lng-train-qatarenergys-nfe-project-is-ready-start-two-sources-say-2026-10-07/",
+        "observed_title": "QatarEnergy's LNG expansion project poised to start operations in November, sources say",
+        "observed_publisher": "Reuters",
+        "title_match_status": "EXACT",
+        "verified_at": "2026-10-08T03:01:46.270Z"
+      },
+      "boundary": "Not confirmed by QatarEnergy; not first cargo or immediately available committed LNG volumes."
+    }
+  ],
+  "guessed_url_count": 0,
+  "unsupported_core_claims": 0,
+  "evidence_record_count": 4,
+  "excluded_records": [],
+  "data_gap_notes": [
+    "No complete comparable fixed-window Brent/WTI JKM/TTF CP/FEI price series accepted.",
+    "No same-window China official LNG or LPG import/terminal/price data used.",
+    "Specific LNG shipping price is defined by vessel type, date, ocean basin and assessment basis."
+  ]
+}
