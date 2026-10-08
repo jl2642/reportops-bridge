@@ -1,0 +1,101 @@
+{
+  "schema_version": "REPORTOPS_EVIDENCE_V1_2",
+  "target_date": "2026-10-07",
+  "window_start": "2026-10-06T10:00:00+08:00",
+  "window_end": "2026-10-07T10:00:00+08:00",
+  "mode": "STRICT_NEW_PUBLIC",
+  "records": [
+    {
+      "id": "E01",
+      "claim_role": "CORE",
+      "support": "DIRECT",
+      "publisher": "Reuters",
+      "publication_time": "2026-10-06T16:06:00Z",
+      "title": "US EIA hikes oil price forecasts again as Iran war drains global stockpile",
+      "url": "https://www.reuters.com/business/energy/us-eia-hikes-oil-price-forecasts-again-iran-war-drains-global-stockpile-2026-10-06/",
+      "url_identity_status": "PASS",
+      "url_verified_date": "2026-10-08",
+      "source_identity_receipt": {
+        "verification_method": "OPENED_EXACT_DOCUMENT",
+        "observed_url": "https://www.reuters.com/business/energy/us-eia-hikes-oil-price-forecasts-again-iran-war-drains-global-stockpile-2026-10-06/",
+        "canonical_url": "https://www.reuters.com/business/energy/us-eia-hikes-oil-price-forecasts-again-iran-war-drains-global-stockpile-2026-10-06/",
+        "observed_title": "US EIA hikes oil price forecasts again as Iran war drains global stockpile",
+        "observed_publisher": "Reuters",
+        "title_match_status": "EXACT",
+        "verified_at": "2026-10-08T03:00:09.673Z"
+      },
+      "boundary": "EIA forecast is conditional and not an observed market price."
+    },
+    {
+      "id": "E02",
+      "claim_role": "CORE",
+      "support": "DIRECT",
+      "publisher": "Reuters",
+      "publication_time": "2026-10-06T15:53:00Z",
+      "title": "Venture Global in talks to sell US LNG to Chinese buyers, Bloomberg News reports",
+      "url": "https://www.reuters.com/business/energy/venture-global-talks-sell-us-lng-chinese-buyers-bloomberg-news-reports-2026-10-06/",
+      "url_identity_status": "PASS",
+      "url_verified_date": "2026-10-08",
+      "source_identity_receipt": {
+        "verification_method": "OPENED_EXACT_DOCUMENT",
+        "observed_url": "https://www.reuters.com/business/energy/venture-global-talks-sell-us-lng-chinese-buyers-bloomberg-news-reports-2026-10-06/",
+        "canonical_url": "https://www.reuters.com/business/energy/venture-global-talks-sell-us-lng-chinese-buyers-bloomberg-news-reports-2026-10-06/",
+        "observed_title": "Venture Global in talks to sell US LNG to Chinese buyers, Bloomberg News reports",
+        "observed_publisher": "Reuters",
+        "title_match_status": "EXACT",
+        "verified_at": "2026-10-08T03:00:09.673Z"
+      },
+      "boundary": "Secondary Bloomberg-sourced report; negotiations are not executed agreements."
+    },
+    {
+      "id": "E03",
+      "claim_role": "CORE",
+      "support": "DIRECT",
+      "publisher": "Reuters",
+      "publication_time": "2026-10-06T13:06:00Z",
+      "title": "IEA to decide on details of diesel stocks release next week, sources say, as market confusion grows",
+      "url": "https://www.reuters.com/business/energy/iea-decide-details-g7-diesel-oil-stocks-release-october-14-15-sources-say-2026-10-06/",
+      "url_identity_status": "PASS",
+      "url_verified_date": "2026-10-08",
+      "source_identity_receipt": {
+        "verification_method": "OPENED_EXACT_DOCUMENT",
+        "observed_url": "https://www.reuters.com/business/energy/iea-decide-details-g7-diesel-oil-stocks-release-october-14-15-sources-say-2026-10-06/",
+        "canonical_url": "https://www.reuters.com/business/energy/iea-decide-details-g7-diesel-oil-stocks-release-october-14-15-sources-say-2026-10-06/",
+        "observed_title": "IEA to decide on details of diesel stocks release next week, sources say, as market confusion grows",
+        "observed_publisher": "Reuters",
+        "title_match_status": "EXACT",
+        "verified_at": "2026-10-08T03:00:09.673Z"
+      },
+      "boundary": "Policy headline is not proof of incremental deliveries or net new 100m barrel release."
+    },
+    {
+      "id": "E04",
+      "claim_role": "CORE",
+      "support": "DIRECT",
+      "publisher": "Reuters",
+      "publication_time": "2026-10-06T14:30:00Z",
+      "title": "EU to delay methane emissions rules for one year and no more, energy chief says",
+      "url": "https://www.reuters.com/business/energy/eu-delay-methane-emissions-rules-one-year-no-more-energy-chief-says-2026-10-06/",
+      "url_identity_status": "PASS",
+      "url_verified_date": "2026-10-08",
+      "source_identity_receipt": {
+        "verification_method": "OPENED_EXACT_DOCUMENT",
+        "observed_url": "https://www.reuters.com/business/energy/eu-delay-methane-emissions-rules-one-year-no-more-energy-chief-says-2026-10-06/",
+        "canonical_url": "https://www.reuters.com/business/energy/eu-delay-methane-emissions-rules-one-year-no-more-energy-chief-says-2026-10-06/",
+        "observed_title": "EU to delay methane emissions rules for one year and no more, energy chief says",
+        "observed_publisher": "Reuters",
+        "title_match_status": "EXACT",
+        "verified_at": "2026-10-08T03:00:09.673Z"
+      },
+      "boundary": "Potential EU rule change pending formal legislative approval, not an enacted delay."
+    }
+  ],
+  "guessed_url_count": 0,
+  "unsupported_core_claims": 0,
+  "evidence_record_count": 4,
+  "excluded_records": [],
+  "data_gap_notes": [
+    "No same-window comparable comprehensive Brent/WTI JKM/TTF CP/FEI VLGC price set established.",
+    "No same-window official China LNG or LPG import and terminal data used."
+  ]
+}
