@@ -4,10 +4,18 @@
   "run_started_at": "2026-10-09T02:44:20.363Z",
   "run_mode": "BOUNDED_MANUAL_RECOVERY_AFTER_SCHEDULED_FAILURE",
   "original_scheduled_run_status": "TRIGGERED_BUT_NO_DURABLE_OUTPUT",
-  "status": "RUN_STARTED_BEFORE_PREFLIGHT",
-  "producer_recovery_queue_remaining": [
-    "2026-10-09"
-  ],
+  "status": "PRODUCER_SUCCESS_CANDIDATES_PENDING_WORK",
+  "producer_recovery_queue_remaining": [],
   "failure_stage": null,
-  "failure_reason": null
+  "failure_reason": null,
+  "products_repaired_or_produced": [
+    "Daily 2026-10-09"
+  ],
+  "queue_for_12_30_work": [
+    "Daily 2026-10-09"
+  ],
+  "post_run_self_audit_status": "PASS__GITHUB_BYTE_EQUIVALENT_READBACK__DEPTH_SOURCE_WINDOW_INLINE_LEDGER",
+  "github_write_status": "PASS",
+  "github_readback_status": "PASS",
+  "finished_at": "2026-10-09T02:50:38.834Z"
 }
