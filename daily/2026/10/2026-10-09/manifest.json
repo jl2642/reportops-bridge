@@ -43,9 +43,15 @@
   "strict_v2_ledger_status": "PASS__RAW_STRICT_V2__5_RECORDS",
   "reader_status": "PENDING_WORK_RENDER",
   "lineage_status": "PENDING_WORK_CONSUMER_VALIDATION",
-  "post_run_self_audit_status": "PENDING_READBACK",
+  "post_run_self_audit_status": "PASS__GITHUB_BYTE_EQUIVALENT_READBACK__DEPTH_SOURCE_WINDOW_INLINE_LEDGER",
   "work_may_rewrite": false,
-  "consumer_status": "PENDING_WORK",
+  "consumer_status": "PENDING_12_30_WORK_RECONCILIATION",
   "blocking_reason": null,
-  "original_scheduled_run_observed": true
+  "original_scheduled_run_observed": true,
+  "public_core_blob_sha": "e651d0efbea2daa3d10283d0de527fa17e2312d4",
+  "evidence_blob_sha": "4c439940f63f1655366c8a7cb698777a940402af",
+  "strict_v2_ledger_blob_sha": "bf889e9e970ae839e05e77e8623a1ed63c89163b",
+  "post_run_self_audit_at": "2026-10-09T02:50:36.356Z",
+  "github_write_status": "PASS__FOUR_ARTIFACTS_MAIN",
+  "github_readback_status": "PASS__4_OF_4"
 }
