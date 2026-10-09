@@ -2,7 +2,7 @@
   "schema_version": "REPORTOPS_R3_1_CHAT_STATUS_V1_5_SINGLE_SITE",
   "scheduled_date": "2026-10-09",
   "target_date": "2026-10-09",
-  "current_day_status": "PUBLIC_CORE_ACCEPTED_PENDING_WORK",
+  "current_day_status": "BLOCKED_PRODUCT_LOCAL",
   "scheduled_run_status": "BOUNDED_INTERACTIVE_RECOVERY_AFTER_10_15_GITHUB_PERSISTENCE_FAILURE",
   "correction_backlog": {
     "status": "RESOLVED_BY_CHAT_CORRECTION",
@@ -47,7 +47,7 @@
   "data_gap_boundary_status": "PASS",
   "current_daily_public": "2026-10-08",
   "current_weekly_public": "2026-W40",
-  "formal_status": "PENDING_WORK_RECONCILIATION_2026_10_09",
+  "formal_status": "BLOCKED_PRODUCT_LOCAL_EVIDENCE_GOVERNANCE_V2",
   "canonical_promotion_performed": false,
   "site_publication_performed": false,
   "public_site_version": 86,
@@ -55,10 +55,10 @@
   "manifest_reconciliation_status": "PASS__FOUR_DAILY_TOP_LEVEL_FORMAL_CANONICAL_PUBLISHED__CONSUMER_ACTUALS_AND_CANONICAL_SITE_FLAGS_READBACK",
   "metadata_freshness": "PASS__13_CURRENT_DERIVED_VIEWS__POINTER_MATCH",
   "state_consistency_pointer_sha256": "5d98b76a6cf46e3f319014df8fde4f9ed3ae1f98111c9d5ecd9fc83121a69215",
-  "failure_stage": null,
-  "failure_reason": null,
-  "next_action": "12:30 Work must independently validate and atomically promote Daily 2026-10-09 if all consumer gates PASS; no automatic site publication claimed by producer.",
-  "updated_at": "2026-10-09T02:50:52.497Z",
+  "failure_stage": "DAILY_2026_10_09_EVIDENCE_GOVERNANCE_V2",
+  "failure_reason": "Evidence Governance V2: E04 / D20261009-C004 has 1 independent evidence group; verified policy/validator requires 2 when CORE cross_check_required=true.",
+  "next_action": "Chat must provide an accepted Evidence/ledger correction for E04 cross-check sufficiency; next Work run revalidates without researching or rewriting prose/Evidence.",
+  "updated_at": "2026-10-09T12:29:18+08:00",
   "queue_remaining": [
     "Daily 2026-10-09"
   ],
@@ -68,80 +68,32 @@
   "queue_initial": [
     "Daily 2026-10-09"
   ],
-  "products_preflighted": [],
+  "products_preflighted": [
+    "Daily 2026-10-09"
+  ],
   "products_promoted": [],
-  "products_blocked_local": [],
+  "products_blocked_local": [
+    "Daily 2026-10-09"
+  ],
   "eligible_unpublished_products": [
     "Daily 2026-10-09"
   ],
   "preflight_blocker_matrix": [
     {
-      "product": "Daily 2026-10-05",
-      "classification_at_full_queue_preflight": "READY_FOR_ATOMIC_PROMOTION",
-      "final_classification": "READY_FOR_ATOMIC_PROMOTION",
-      "source_identity": "PASS",
-      "inline_citation": "PASS",
-      "exact_structure": "PASS",
-      "dynamic_v4_depth": "PASS",
-      "privacy": "PASS",
-      "window": "PASS",
-      "evidence": "PASS",
-      "reader": "PASS",
-      "lineage": "PASS",
+      "product": "Daily 2026-10-09",
+      "classification": "BLOCKED_PRODUCT_LOCAL",
+      "source_identity": "PASS_5_OF_5",
+      "inline_citation": "PASS_5_OF_5",
+      "exact_structure": "PASS_10_OF_10_MODULES",
+      "dynamic_v4_depth": "PASS_3464_CJK_ALL_FLOORS",
+      "privacy": "PASS_PUBLIC_SAFE_SINGLE_SITE",
+      "window": "PASS_4_CORE_1_DATE_LEVEL_CORROBORATIVE",
+      "evidence": "FAIL_CORE_CROSS_CHECK_INSUFFICIENT_E04",
+      "reader": "PASS_READER_DOM_V1",
+      "lineage": "PASS_DRY_RUN_VALIDATED",
       "state_identity": "PASS",
-      "dependency": "PASS",
-      "blocking_reason": null
-    },
-    {
-      "product": "Daily 2026-10-06",
-      "classification_at_full_queue_preflight": "DEFERRED_NON_BLOCKING_DEPENDENCY",
-      "final_classification": "READY_FOR_ATOMIC_PROMOTION",
-      "source_identity": "PASS",
-      "inline_citation": "PASS",
-      "exact_structure": "PASS",
-      "dynamic_v4_depth": "PASS",
-      "privacy": "PASS",
-      "window": "PASS",
-      "evidence": "PASS",
-      "reader": "PASS",
-      "lineage": "PASS",
-      "state_identity": "PASS",
-      "dependency": "RESOLVED_AFTER_PREDECESSOR_PROMOTION",
-      "blocking_reason": null
-    },
-    {
-      "product": "Daily 2026-10-07",
-      "classification_at_full_queue_preflight": "DEFERRED_NON_BLOCKING_DEPENDENCY",
-      "final_classification": "READY_FOR_ATOMIC_PROMOTION",
-      "source_identity": "PASS",
-      "inline_citation": "PASS",
-      "exact_structure": "PASS",
-      "dynamic_v4_depth": "PASS",
-      "privacy": "PASS",
-      "window": "PASS",
-      "evidence": "PASS",
-      "reader": "PASS",
-      "lineage": "PASS",
-      "state_identity": "PASS",
-      "dependency": "RESOLVED_AFTER_PREDECESSOR_PROMOTION",
-      "blocking_reason": null
-    },
-    {
-      "product": "Daily 2026-10-08",
-      "classification_at_full_queue_preflight": "DEFERRED_NON_BLOCKING_DEPENDENCY",
-      "final_classification": "READY_FOR_ATOMIC_PROMOTION",
-      "source_identity": "PASS",
-      "inline_citation": "PASS",
-      "exact_structure": "PASS",
-      "dynamic_v4_depth": "PASS",
-      "privacy": "PASS",
-      "window": "PASS",
-      "evidence": "PASS",
-      "reader": "PASS",
-      "lineage": "PASS",
-      "state_identity": "PASS",
-      "dependency": "RESOLVED_AFTER_PREDECESSOR_PROMOTION",
-      "blocking_reason": null
+      "dependency": "PASS_PREDECESSOR_2026_10_08_CANONICAL",
+      "blocking_reason": "Evidence Governance V2: E04 / D20261009-C004 has 1 independent evidence group; verified policy/validator requires 2 when CORE cross_check_required=true."
     }
   ],
   "recovery_provenance": {
@@ -171,13 +123,9 @@
     "urls_changed": false,
     "claims_changed": false
   },
-  "products_deferred_dependency": [
-    "Daily 2026-10-06__RESOLVED",
-    "Daily 2026-10-07__RESOLVED",
-    "Daily 2026-10-08__RESOLVED"
-  ],
+  "products_deferred_dependency": [],
   "public_daily_2026_09_26_download_sha256": "ea94ce1f2f69b3efa270295fb9f7b04c248280ea057a6a8721a7d3602522ba43",
-  "reportops_status": "PRODUCER_SUCCESS_CANDIDATES_PENDING_WORK",
+  "reportops_status": "FAIL_CLOSED__DAILY_2026_10_09_EVIDENCE_GOVERNANCE_V2__NO_CANONICAL_MUTATION",
   "correction_provenance_2026_09_27": {
     "corrected_at": "2026-09-27T22:50:00+08:00",
     "correction_type": "INLINE_CITATION_PLACEMENT_ONLY",
@@ -243,7 +191,7 @@
     "2026-10-02": "COMPLETE_CANDIDATE__PENDING_WORK",
     "2026-10-03": "ZERO_ARTIFACT_MISSING_DATE"
   },
-  "last_work_preflight_blocker_matrix": "PREFLIGHT_BLOCKER_MATRIX_20260930.json",
+  "last_work_preflight_blocker_matrix": "PREFLIGHT_BLOCKER_MATRIX_20261009.json",
   "post_repair_acceptance": {
     "accepted_at": "2026-10-01T11:20:00+08:00",
     "authority_package_sha256": "8f49fcbfa23dafdcc036c4d71eae24a76365bd6b91f69993d12c5f549b1e64e1",
@@ -282,7 +230,7 @@
     },
     "reconciled_at": "2026-10-08T13:30:00+08:00"
   },
-  "runtime_sync_status": "PASS__POST_REBUILD_AUTHORITY_SHA_FOUR_WAY_MATCH",
+  "runtime_sync_status": "PASS_GITHUB_CORRECTION_STATE_READBACK__NO_CANONICAL_MUTATION",
   "recovery_provenance_2026_10_02": {
     "mode": "BOUNDED_INTERACTIVE_CONTINUITY_RECOVERY",
     "original_scheduled_run_observed": true,
@@ -316,7 +264,7 @@
     "industry_operator_cjk_actual": 208
   },
   "public_daily_2026_10_02_download_sha256": "d2939f2bcc654a268bea060b4715dd00fb05f7a7707db1daa7fed393c7a61262",
-  "last_work_reconciled_at": "2026-10-08T13:30:00+08:00",
+  "last_work_reconciled_at": "2026-10-09T12:29:18+08:00",
   "candidate_2026_10_03": {
     "product_status": "ATOMIC_PROMOTED_SITE_VISIBLE__AUTHORITY_CLOSURE_PENDING",
     "formal_status": "ATOMIC_PROMOTION_CHECKPOINT_PRESERVED__AUTHORITY_UNIFIED_CLOSURE_PENDING",
@@ -527,5 +475,6 @@
   "public_daily_2026_10_06_download_sha256": "e9d6021b286931bbd995e88897c4507b415c8aed23d934e067be9356337eace9",
   "public_daily_2026_10_07_download_sha256": "32c68d8dfcc668e572a66098556070f1601fa786c79d91669ccffd39d21127f6",
   "public_daily_2026_10_08_download_sha256": "1a52da0a7c7f7003a17ee2f5597b3066af5050a26e7d7d8becffe99b35de70d2",
-  "post_run_self_audit_status": "PASS__GITHUB_BYTE_EQUIVALENT_READBACK__DEPTH_SOURCE_WINDOW_INLINE_LEDGER"
+  "post_run_self_audit_status": "PASS__GITHUB_BYTE_EQUIVALENT_READBACK__DEPTH_SOURCE_WINDOW_INLINE_LEDGER",
+  "correction_request_path": "daily/2026/10/2026-10-09/correction_request.json"
 }
