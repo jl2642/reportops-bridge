@@ -46,11 +46,11 @@
   "post_run_self_audit_status": "PASS__GITHUB_BYTE_EQUIVALENT_READBACK__DEPTH_SOURCE_WINDOW_INLINE_LEDGER",
   "work_may_rewrite": false,
   "consumer_status": "BLOCKED_PRODUCT_LOCAL",
-  "blocking_reason": "Evidence Governance V2: E04 / D20261009-C004 has 1 independent evidence group; verified policy/validator requires 2 when CORE cross_check_required=true.",
+  "blocking_reason": "Historical Work block retained pending new Work consumer revalidation after Chat E04/C004 bounded evidence-ledger association correction.",
   "original_scheduled_run_observed": true,
   "public_core_blob_sha": "e651d0efbea2daa3d10283d0de527fa17e2312d4",
-  "evidence_blob_sha": "4c439940f63f1655366c8a7cb698777a940402af",
-  "strict_v2_ledger_blob_sha": "bf889e9e970ae839e05e77e8623a1ed63c89163b",
+  "evidence_blob_sha": "6949341c25fa519386b3fc76601ffed535189dcc",
+  "strict_v2_ledger_blob_sha": "e878ae09f1d7ff5fc590150c56b7092343263c43",
   "post_run_self_audit_at": "2026-10-09T02:50:36.356Z",
   "github_write_status": "PASS__FOUR_ARTIFACTS_MAIN",
   "github_readback_status": "PASS__4_OF_4",
@@ -116,5 +116,18 @@
   "consumer_blocking_code": "CORE_CROSS_CHECK_INSUFFICIENT",
   "consumer_blocking_record_id": "E2-D20261009-004",
   "correction_request_path": "daily/2026/10/2026-10-09/correction_request.json",
-  "authority_package_sha256_at_preflight": "1ef908726896f26f53a28d5c2c71120b09547af0219003e9fc9fba6970cb77cd"
+  "authority_package_sha256_at_preflight": "1ef908726896f26f53a28d5c2c71120b09547af0219003e9fc9fba6970cb77cd",
+  "bounded_chat_correction": {
+    "date": "2026-10-09",
+    "scope": "E04_C004_INDEPENDENT_CROSS_CHECK_ASSOCIATION_ONLY",
+    "independent_groups": [
+      "REUTERS",
+      "US_TREASURY"
+    ],
+    "original_blocking_code": "CORE_CROSS_CHECK_INSUFFICIENT",
+    "correction_validated_locally": true,
+    "formal_consumer_revalidated": false,
+    "original_work_blocked_state_preserved": true,
+    "prose_changed": false
+  }
 }
