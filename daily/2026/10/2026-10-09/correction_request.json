@@ -1,0 +1,35 @@
+{
+  "schema_version": "REPORTOPS_DAILY_CORRECTION_REQUEST_V1_5",
+  "target_date": "2026-10-09",
+  "product": "Daily 2026-10-09",
+  "classification": "BLOCKED_PRODUCT_LOCAL",
+  "gate": "EVIDENCE_GOVERNANCE_V2",
+  "blocking_code": "CORE_CROSS_CHECK_INSUFFICIENT",
+  "record_id": "E2-D20261009-004",
+  "claim_id": "D20261009-C004",
+  "source_id": "E04",
+  "observed_actual": {
+    "independent_evidence_groups": 1
+  },
+  "required_floor": {
+    "independent_evidence_groups": 2,
+    "policy_path": "runtime/config/evidence_governance_policy_v2.json",
+    "policy_sha256": "f62b88e5d98ea7484a504fcf07fe6538e660b90126cfd73f12f5de48203dc4b6",
+    "policy_key": "core_requirements.cross_check_default",
+    "policy_value": true,
+    "validator_rule": "cross_check_required => at least 2 independent evidence groups"
+  },
+  "depth_policy_identity": {
+    "authority_policy_sha256": "ed69573e48d0daedd1b899ab2d6cf15880f37705f88b44b1a9d2ca26715f9905",
+    "public_contract_sha256": "64770bf24f1280d11060d6a905a659241d5e483109fc8c3e34195a8264fc48f6",
+    "status": "PASS_NO_DEPTH_CORRECTION_REQUIRED"
+  },
+  "research_review_required": true,
+  "evidence_change_required": true,
+  "prose_change_required": false,
+  "work_may_research_or_rewrite": false,
+  "canonical_mutation_performed": false,
+  "site_mutation_performed": false,
+  "requested_action": "Chat must supply an accepted Evidence/ledger correction that either provides a second independent supporting evidence group for E04 or changes the cross_check_required classification with evidence-authority justification. Work must only revalidate.",
+  "created_at": "2026-10-09T12:29:18+08:00"
+}
