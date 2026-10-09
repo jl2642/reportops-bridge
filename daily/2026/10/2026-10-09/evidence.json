@@ -1,0 +1,123 @@
+{
+  "schema_version": "REPORTOPS_EVIDENCE_V1_2",
+  "target_date": "2026-10-09",
+  "window_start": "2026-10-08T10:00:00+08:00",
+  "window_end": "2026-10-09T10:00:00+08:00",
+  "mode": "STRICT_NEW_PUBLIC",
+  "records": [
+    {
+      "id": "E01",
+      "claim_role": "CORE",
+      "support": "DIRECT",
+      "publisher": "Reuters",
+      "publication_time": "2026-10-08T03:39:00Z",
+      "title": "Hormuz transits at lowest in over two months after attacks, data shows",
+      "url": "https://www.reuters.com/business/energy/hormuz-transits-lowest-over-two-months-after-attacks-data-shows-2026-10-08/",
+      "url_identity_status": "PASS",
+      "url_verified_date": "2026-10-09",
+      "source_identity_receipt": {
+        "verification_method": "OPENED_EXACT_DOCUMENT",
+        "observed_url": "https://www.reuters.com/business/energy/hormuz-transits-lowest-over-two-months-after-attacks-data-shows-2026-10-08/",
+        "canonical_url": "https://www.reuters.com/business/energy/hormuz-transits-lowest-over-two-months-after-attacks-data-shows-2026-10-08/",
+        "observed_title": "Hormuz transits at lowest in over two months after attacks, data shows",
+        "observed_publisher": "Reuters",
+        "title_match_status": "EXACT",
+        "verified_at": "2026-10-09T02:49:10.015Z"
+      },
+      "boundary": "AIS-off vessels and different statistical scopes; crude not gas cargo."
+    },
+    {
+      "id": "E02",
+      "claim_role": "CORE",
+      "support": "DIRECT",
+      "publisher": "Reuters",
+      "publication_time": "2026-10-08T11:47:00Z",
+      "title": "Venture Global breached LNG supply deal with Galp, tribunal rules",
+      "url": "https://www.reuters.com/business/venture-global-breached-lng-supply-deal-with-galp-tribunal-rules-2026-10-08/",
+      "url_identity_status": "PASS",
+      "url_verified_date": "2026-10-09",
+      "source_identity_receipt": {
+        "verification_method": "OPENED_EXACT_DOCUMENT",
+        "observed_url": "https://www.reuters.com/business/venture-global-breached-lng-supply-deal-with-galp-tribunal-rules-2026-10-08/",
+        "canonical_url": "https://www.reuters.com/business/venture-global-breached-lng-supply-deal-with-galp-tribunal-rules-2026-10-08/",
+        "observed_title": "Venture Global breached LNG supply deal with Galp, tribunal rules",
+        "observed_publisher": "Reuters",
+        "title_match_status": "EXACT",
+        "verified_at": "2026-10-09T02:49:10.015Z"
+      },
+      "boundary": "Tribunal decision applies to specific SPA; damages to be determined."
+    },
+    {
+      "id": "E03",
+      "claim_role": "CORE",
+      "support": "DIRECT",
+      "publisher": "Reuters",
+      "publication_time": "2026-10-08T15:23:00Z",
+      "title": "Shell partially restarts Pearl gas-to-liquids plant in Qatar",
+      "url": "https://www.reuters.com/business/energy/shell-partially-restarts-pearl-gas-to-liquids-plant-qatar-2026-10-08/",
+      "url_identity_status": "PASS",
+      "url_verified_date": "2026-10-09",
+      "source_identity_receipt": {
+        "verification_method": "OPENED_EXACT_DOCUMENT",
+        "observed_url": "https://www.reuters.com/business/energy/shell-partially-restarts-pearl-gas-to-liquids-plant-qatar-2026-10-08/",
+        "canonical_url": "https://www.reuters.com/business/energy/shell-partially-restarts-pearl-gas-to-liquids-plant-qatar-2026-10-08/",
+        "observed_title": "Shell partially restarts Pearl gas-to-liquids plant in Qatar",
+        "observed_publisher": "Reuters",
+        "title_match_status": "EXACT",
+        "verified_at": "2026-10-09T02:49:10.015Z"
+      },
+      "boundary": "Partial restart, capacity and tender not verified cargo shipped."
+    },
+    {
+      "id": "E04",
+      "claim_role": "CORE",
+      "support": "DIRECT",
+      "publisher": "Reuters",
+      "publication_time": "2026-10-08T16:58:00Z",
+      "title": "US imposes fresh sanctions on Iran's shadow fleet",
+      "url": "https://www.reuters.com/world/middle-east/us-imposes-fresh-iran-related-sanctions-2026-10-08/",
+      "url_identity_status": "PASS",
+      "url_verified_date": "2026-10-09",
+      "source_identity_receipt": {
+        "verification_method": "OPENED_EXACT_DOCUMENT",
+        "observed_url": "https://www.reuters.com/world/middle-east/us-imposes-fresh-iran-related-sanctions-2026-10-08/",
+        "canonical_url": "https://www.reuters.com/world/middle-east/us-imposes-fresh-iran-related-sanctions-2026-10-08/",
+        "observed_title": "US imposes fresh sanctions on Iran's shadow fleet",
+        "observed_publisher": "Reuters",
+        "title_match_status": "EXACT",
+        "verified_at": "2026-10-09T02:49:10.015Z"
+      },
+      "boundary": "Designations are legal measures, not verified spot price changes."
+    },
+    {
+      "id": "E05",
+      "claim_role": "MATERIAL",
+      "support": "DIRECT",
+      "publisher": "U.S. Department of the Treasury",
+      "publication_time": "2026-10-08",
+      "title": "Operation Economic Outcast Neutralizes Iranian Regime’s Remaining Shadow Fleet Network",
+      "url": "https://home.treasury.gov/news/press-releases/sb0653",
+      "url_identity_status": "PASS",
+      "url_verified_date": "2026-10-09",
+      "source_identity_receipt": {
+        "verification_method": "OPENED_EXACT_DOCUMENT",
+        "observed_url": "https://home.treasury.gov/news/press-releases/sb0653",
+        "canonical_url": "https://home.treasury.gov/news/press-releases/sb0653",
+        "observed_title": "Operation Economic Outcast Neutralizes Iranian Regime’s Remaining Shadow Fleet Network",
+        "observed_publisher": "U.S. Department of the Treasury",
+        "title_match_status": "EXACT",
+        "verified_at": "2026-10-09T02:49:10.015Z"
+      },
+      "boundary": "Official release date only, no exact publication hour; supplementary official corroboration."
+    }
+  ],
+  "guessed_url_count": 0,
+  "unsupported_core_claims": 0,
+  "evidence_record_count": 5,
+  "excluded_records": [],
+  "data_gap_notes": [
+    "No same-window complete commodity prices with comparable basis.",
+    "No same-window China LNG LPG physical chain statistics.",
+    "Official Treasury release lacks precise publication hour; material corroboration only."
+  ]
+}
