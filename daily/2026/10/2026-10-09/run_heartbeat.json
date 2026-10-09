@@ -1,0 +1,13 @@
+{
+  "target_date": "2026-10-09",
+  "scheduled_for": "2026-10-09T10:15:00+08:00",
+  "run_started_at": "2026-10-09T02:44:20.363Z",
+  "run_mode": "BOUNDED_MANUAL_RECOVERY_AFTER_SCHEDULED_FAILURE",
+  "original_scheduled_run_status": "TRIGGERED_BUT_NO_DURABLE_OUTPUT",
+  "status": "RUN_STARTED_BEFORE_PREFLIGHT",
+  "producer_recovery_queue_remaining": [
+    "2026-10-09"
+  ],
+  "failure_stage": null,
+  "failure_reason": null
+}
