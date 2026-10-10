@@ -1,7 +1,7 @@
 {
   "schema_version": "REPORTOPS_DEPLOYMENT_STATE_V1",
   "document_class": "MUTABLE_DEPLOYMENT_AND_ACTIVATION_STATE",
-  "status": "FINAL_CLOSURE_PASS__DEVELOPMENT_FROZEN_LONG_TERM_OPERATION",
+  "status": "PACKAGE_SUCCESS_SITE_PENDING",
   "topology": "SINGLE_SITE_V4",
   "formal_cutover": true,
   "library_cutover": true,
@@ -29,12 +29,12 @@
   "authority_package_sha256": "57aba3bf4a1bc903e60832c3692510ec884211ef3740e16f444a21bd408f434c",
   "canonical_authority": "CHATGPT_LIBRARY:/能源周期报告/00_CURRENT/CURRENT_POINTER.json",
   "current_public_ref": "runtime/CURRENT_PUBLIC.json",
-  "final_closure_status": "PASS",
+  "final_closure_status": "PACKAGE_SUCCESS_SITE_PENDING",
   "pending_product": null,
   "updated_at": "2026-10-10T13:02:00+08:00",
   "metadata_freshness": "PASS__13_CURRENT_DERIVED_VIEWS__POINTER_MATCH",
   "state_consistency_pointer_sha256": "59dfae757326634671d68e90301a68f41fb7fd26a885480cac09acaba0e9df2a",
-  "real_remote_readback_status": "PASS_REAL_REMOTE_CONTENT_V88__16_REQUIRED_PAGES",
+  "real_remote_readback_status": "CONTRADICTED_BY_USER_SCREENSHOT__RECHECK_PENDING",
   "site_only_corrective_republish_required": false,
   "private_site_dependency_removed": true,
   "queue_remaining": [],
@@ -58,12 +58,12 @@
   },
   "current_daily_canonical": "2026-10-10",
   "current_package_site_publication_performed": true,
-  "public_remote_readback": "PASS_REAL_REMOTE_CONTENT_V88__16_REQUIRED_PAGES",
+  "public_remote_readback": "CONTRADICTED_BY_USER_SCREENSHOT__RECHECK_PENDING",
   "library_sidecar_sha256": "57aba3bf4a1bc903e60832c3692510ec884211ef3740e16f444a21bd408f434c",
   "runtime_sync_status": "PASS__POST_REBUILD_AUTHORITY_SHA_FOUR_WAY_MATCH",
   "manual_intervention_required": false,
-  "failure_stage": null,
-  "failure_reason": null,
+  "failure_stage": "PUBLIC_SITE_HOME_CURRENT_STALE_OR_CACHE",
+  "failure_reason": "User sees daily 2026-10-08 on live homepage while Canonical and final public site build contain 2026-10-10; prior Work V88 readback is contradicted.",
   "prepublication_recovery_receipt": {
     "scope": "DAILY_2026_10_09_AND_2026_10_10",
     "queue_for_work": [
@@ -83,5 +83,26 @@
     "failure_reason": "Evidence Governance V2: E04 / D20261009-C004 has 1 independent evidence group; verified policy/validator requires 2 when CORE cross_check_required=true.",
     "source": "2026-10-09 Work preflight; immutable Library checkpoint retained",
     "was_before_chat_ledger_correction": true
+  },
+  "live_site_publication_discrepancy": {
+    "classification": "PACKAGE_SUCCESS_SITE_PENDING",
+    "evidence": "User supplied live public homepage screenshot showing daily card 2026-10-08, while Authority Current and site source index.html have 2026-10-10",
+    "observed_live_home_daily": "2026-10-08",
+    "expected_canonical_daily": "2026-10-10",
+    "correct_public_site_source": "outputs/energy/public_distribution/site/",
+    "expected_public_home_index_sha256": "6ac3f8c78f1afc5410fe34c7ce2c6a8db8b028fdb078c1c5aae4ede67b6f8c53",
+    "previous_public_home_index_sha256": "7cace166dce36ca19e9cb21dd05cf436821f601779335f84f5aeb877210d13b2",
+    "publication_evidence_conflict": true,
+    "action": "Existing single Public Site only: republish exact current Authority public_distribution/site build; remote browser open '/', '/daily/', '/daily/2026-10-09/', '/daily/2026-10-10/', '/downloads/' and verify content, not HTTP 200; cache-bust; then report real origin/readback and current pointer parity. Do not rebuild/rewrite any Daily, mutate Canonical, or create Site/Phase/Validator.",
+    "previous_work_claim_preserved": {
+      "reported_at": "2026-10-10T13:02:00+08:00",
+      "public_site_version": 88,
+      "public_site_status": "FINAL_CLOSURE_PASS__DEVELOPMENT_FROZEN_LONG_TERM_OPERATION",
+      "real_remote_readback_status": "PASS_REAL_REMOTE_CONTENT_V88__16_REQUIRED_PAGES",
+      "site_publication_performed": true,
+      "reportops_status": null,
+      "stable_operation_accepted": false
+    },
+    "independent_external_origin_readback": "NOT_AVAILABLE_IN_THIS_CHAT"
   }
 }
