@@ -44,7 +44,7 @@
   "manifest_reconciliation_status": "PASS__FOUR_DAILY_TOP_LEVEL_FORMAL_CANONICAL_PUBLISHED__CONSUMER_ACTUALS_AND_CANONICAL_SITE_FLAGS_READBACK",
   "measurement_parity_status": "PASS_AUTHORITY_CONSUMER_ACTUALS",
   "derived_state_completeness_status": "PASS__13_CURRENT_DERIVED_VIEWS",
-  "stable_operation_accepted": true,
+  "stable_operation_accepted": false,
   "higher_cycle_dependency_state": "W40 published; W41 Canonical Daily pool remains 4/7; no new Chat-accepted higher-cycle candidate",
   "authority_sha_runtime_reconciliation": {
     "status": "PASS__POST_REBUILD_AUTHORITY_SHA_FOUR_WAY_MATCH",
