@@ -1,6 +1,6 @@
 {
   "schema_version": "REPORTOPS_PUBLIC_RUNTIME_CURRENT_V1",
-  "status": "CURRENT_UNCHANGED__PRODUCT_LOCAL_BLOCKER",
+  "status": "CURRENT_UNCHANGED__PENDING_WORK_RECONCILIATION",
   "current_daily_public": "2026-10-08",
   "current_weekly_public": "2026-W40",
   "current_monthly_public": "2026-09",
@@ -22,9 +22,9 @@
   "formal_authority_bridge_protocol_active": "V1_5",
   "source_identity_policy_current": "EVIDENCE_POLICY_PUBLIC_V1_2",
   "pending_work_runtime_formalization": true,
-  "final_closure_status": "PARTIAL_SUCCESS__PRODUCT_LOCAL_BLOCKER__CANONICAL_UNCHANGED",
+  "final_closure_status": "PENDING_WORK_RECONCILIATION__CANONICAL_UNCHANGED",
   "pending_product": "Daily 2026-10-09",
-  "last_updated": "2026-10-09T12:29:18+08:00",
+  "last_updated": "2026-10-10T03:53:06.239Z",
   "deployment_state_ref": "runtime/DEPLOYMENT_STATE.json",
   "metadata_freshness": "PASS__13_CURRENT_DERIVED_VIEWS__POINTER_MATCH",
   "state_consistency_pointer_sha256": "5d98b76a6cf46e3f319014df8fde4f9ed3ae1f98111c9d5ecd9fc83121a69215",
@@ -37,7 +37,7 @@
     "Daily 2026-10-09",
     "Daily 2026-10-10"
   ],
-  "correction_backlog_status": "OPEN_PRODUCT_LOCAL_EVIDENCE_CORRECTION_REQUIRED",
+  "correction_backlog_status": "RESOLVED_BY_CHAT_CORRECTION__WORK_REVALIDATION_PENDING",
   "manifest_reconciliation_status": "PASS__FOUR_DAILY_TOP_LEVEL_FORMAL_CANONICAL_PUBLISHED__CONSUMER_ACTUALS_AND_CANONICAL_SITE_FLAGS_READBACK",
   "measurement_parity_status": "PASS_AUTHORITY_CONSUMER_ACTUALS",
   "derived_state_completeness_status": "PASS__13_CURRENT_DERIVED_VIEWS",
@@ -71,11 +71,11 @@
   "current_package_site_publication_performed": true,
   "runtime_sync_status": "PASS_GITHUB_CORRECTION_STATE_READBACK__NO_CANONICAL_MUTATION",
   "stable": false,
-  "updated_at": "2026-10-09T12:29:18+08:00",
+  "updated_at": "2026-10-10T03:53:06.239Z",
   "public_weekly_2026_w40_download_sha256": "68c5b95617d1d7ff486d377b753af71743710ba22b838c0802c5a5bd902f5faf",
   "public_daily_2026_10_04_download_sha256": "90bfb728e8a27c5ab3e0ba67d98013c78be2b63d246e5c5e16c86ee6c4337529",
-  "failure_stage": "DAILY_2026_10_09_EVIDENCE_GOVERNANCE_V2",
-  "failure_reason": "Evidence Governance V2: E04 / D20261009-C004 has 1 independent evidence group; verified policy/validator requires 2 when CORE cross_check_required=true.",
+  "failure_stage": null,
+  "failure_reason": null,
   "manual_intervention_required": false,
   "prepublication_recovery_receipt": {
     "scope": "DAILY_2026_10_09_AND_2026_10_10",
@@ -88,5 +88,13 @@
     "historical_work_failure_preserved": true,
     "no_canonical_or_site_mutation": true,
     "recorded_at": "2026-10-10T03:50:37.161Z"
+  },
+  "previous_work_failure": {
+    "status": "CURRENT_UNCHANGED__PRODUCT_LOCAL_BLOCKER",
+    "final_closure_status": "PARTIAL_SUCCESS__PRODUCT_LOCAL_BLOCKER__CANONICAL_UNCHANGED",
+    "failure_stage": "DAILY_2026_10_09_EVIDENCE_GOVERNANCE_V2",
+    "failure_reason": "Evidence Governance V2: E04 / D20261009-C004 has 1 independent evidence group; verified policy/validator requires 2 when CORE cross_check_required=true.",
+    "source": "2026-10-09 Work preflight; immutable Library checkpoint retained",
+    "was_before_chat_ledger_correction": true
   }
 }
