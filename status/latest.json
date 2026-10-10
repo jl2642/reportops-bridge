@@ -58,9 +58,10 @@
   "failure_stage": "DAILY_2026_10_09_EVIDENCE_GOVERNANCE_V2",
   "failure_reason": "Evidence Governance V2: E04 / D20261009-C004 has 1 independent evidence group; verified policy/validator requires 2 when CORE cross_check_required=true.",
   "next_action": "Chat must provide an accepted Evidence/ledger correction for E04 cross-check sufficiency; next Work run revalidates without researching or rewriting prose/Evidence.",
-  "updated_at": "2026-10-09T12:29:18+08:00",
+  "updated_at": "2026-10-10T03:43:08.075Z",
   "queue_remaining": [
-    "Daily 2026-10-09"
+    "Daily 2026-10-09",
+    "Daily 2026-10-10"
   ],
   "pending_product": "Daily 2026-10-09",
   "manual_intervention_required": false,
@@ -76,7 +77,8 @@
     "Daily 2026-10-09"
   ],
   "eligible_unpublished_products": [
-    "Daily 2026-10-09"
+    "Daily 2026-10-09",
+    "Daily 2026-10-10"
   ],
   "preflight_blocker_matrix": [
     {
@@ -476,5 +478,15 @@
   "public_daily_2026_10_07_download_sha256": "32c68d8dfcc668e572a66098556070f1601fa786c79d91669ccffd39d21127f6",
   "public_daily_2026_10_08_download_sha256": "1a52da0a7c7f7003a17ee2f5597b3066af5050a26e7d7d8becffe99b35de70d2",
   "post_run_self_audit_status": "PASS__GITHUB_BYTE_EQUIVALENT_READBACK__DEPTH_SOURCE_WINDOW_INLINE_LEDGER",
-  "correction_request_path": "daily/2026/10/2026-10-09/correction_request.json"
+  "correction_request_path": "daily/2026/10/2026-10-09/correction_request.json",
+  "producer_recovery_latest": {
+    "date": "2026-10-10",
+    "status": "PUBLIC_CORE_ACCEPTED_PENDING_WORK",
+    "mode": "BOUNDED_INTERACTIVE_RECOVERY_NOT_ORIGINAL_SCHEDULED_SUCCESS",
+    "candidate_path": "daily/2026/10/2026-10-10/manifest.json",
+    "strict_v2_evidence_status": "PASS_8_RECORDS_7_CLAIMS_0_BLOCKERS",
+    "github_artifacts_readback": "PASS_4_OF_4",
+    "formal_status": "PENDING_WORK_RECONCILIATION",
+    "checked_at": "2026-10-10T03:43:08.075Z"
+  }
 }
