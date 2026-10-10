@@ -31,5 +31,25 @@
   "canonical_mutation_performed": false,
   "site_mutation_performed": false,
   "requested_action": "Chat must supply an accepted Evidence/ledger correction that either provides a second independent supporting evidence group for E04 or changes the cross_check_required classification with evidence-authority justification. Work must only revalidate.",
-  "created_at": "2026-10-09T12:29:18+08:00"
+  "created_at": "2026-10-09T12:29:18+08:00",
+  "chat_bounded_correction_receipt": {
+    "correction_supplied": true,
+    "record_id": "E2-D20261009-004",
+    "claim_id": "D20261009-C004",
+    "cross_check_groups_after": [
+      "REUTERS",
+      "US_TREASURY"
+    ],
+    "evidence_ledger_sha_after": "e878ae09f1d7ff5fc590150c56b7092343263c43",
+    "authority_evidence_governance_validator_status": "PASS",
+    "actual_records": 5,
+    "actual_claims": 4,
+    "blocking_issues": 0,
+    "warnings": 0,
+    "prose_changed": false,
+    "formal_work_consumer_revalidation": "PENDING",
+    "site_publication_performed": false,
+    "original_work_correction_request_preserved": true,
+    "recorded_at": "2026-10-10T03:52:00.246Z"
+  }
 }
