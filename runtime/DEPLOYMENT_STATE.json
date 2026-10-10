@@ -38,7 +38,8 @@
   "site_only_corrective_republish_required": false,
   "private_site_dependency_removed": true,
   "queue_remaining": [
-    "Daily 2026-10-09"
+    "Daily 2026-10-09",
+    "Daily 2026-10-10"
   ],
   "stale_views": [],
   "manifest_reconciliation_status": "PASS__FOUR_DAILY_TOP_LEVEL_FORMAL_CANONICAL_PUBLISHED__CONSUMER_ACTUALS_AND_CANONICAL_SITE_FLAGS_READBACK",
@@ -67,5 +68,17 @@
   "runtime_sync_status": "PASS_GITHUB_CORRECTION_STATE_READBACK__NO_CANONICAL_MUTATION",
   "manual_intervention_required": false,
   "failure_stage": "DAILY_2026_10_09_EVIDENCE_GOVERNANCE_V2",
-  "failure_reason": "Evidence Governance V2: E04 / D20261009-C004 has 1 independent evidence group; verified policy/validator requires 2 when CORE cross_check_required=true."
+  "failure_reason": "Evidence Governance V2: E04 / D20261009-C004 has 1 independent evidence group; verified policy/validator requires 2 when CORE cross_check_required=true.",
+  "prepublication_recovery_receipt": {
+    "scope": "DAILY_2026_10_09_AND_2026_10_10",
+    "queue_for_work": [
+      "Daily 2026-10-09",
+      "Daily 2026-10-10"
+    ],
+    "october_09": "EXISTING_CORE_UNCHANGED__CORRECTED_LEDGER_FORMAL_V2_PASS__WORK_CONSUMER_PENDING",
+    "october_10": "BOUNDED_INTERACTIVE_CORE_AND_EVIDENCE_ACCEPTED__FORMAL_V4_PASS_WITH_NONBLOCKING_LENGTH_WARNING__WORK_CONSUMER_PENDING",
+    "historical_work_failure_preserved": true,
+    "no_canonical_or_site_mutation": true,
+    "recorded_at": "2026-10-10T03:50:41.085Z"
+  }
 }
