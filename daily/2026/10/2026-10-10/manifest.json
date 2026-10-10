@@ -64,7 +64,23 @@
       "blocking": 0,
       "warnings": 0
     },
-    "original_scheduled_run_success": false
+    "original_scheduled_run_success": false,
+    "pre_work_local_preflight": {
+      "product_validator": "PASS_WITH_WARNINGS",
+      "product_validator_blocking_issues": 0,
+      "product_validator_warning": [
+        "cjk_target_band:4033 vs [2200, 3500]"
+      ],
+      "source_identity_gate_v2": "PASS__8_OF_8",
+      "inline_citation_gate_v2": "PASS__8_OF_8__34_CLICKABLE_LINKS",
+      "evidence_governance_v2": "PASS__8_RECORDS_7_CLAIMS_0_BLOCKERS",
+      "reader_local_render": "PASS__READER_DOM_V1_PREVIEW_ONLY",
+      "reader_site_publication": "NOT_ATTEMPTED",
+      "formal_work_consumer_revalidated": false,
+      "formal_work_promotion_pending": true,
+      "window": "2026-10-09T10:00:00+08:00/2026-10-10T10:00:00+08:00",
+      "recorded_at": "2026-10-10T03:51:40.484Z"
+    }
   },
   "post_run_self_audit_at": "2026-10-10T03:42:42.108Z"
 }
