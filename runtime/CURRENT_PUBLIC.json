@@ -1,6 +1,6 @@
 {
   "schema_version": "REPORTOPS_PUBLIC_RUNTIME_CURRENT_V1",
-  "status": "FINAL_CLOSURE_PASS__DEVELOPMENT_FROZEN_LONG_TERM_OPERATION",
+  "status": "PACKAGE_SUCCESS_SITE_PENDING",
   "current_daily_public": "2026-10-10",
   "current_weekly_public": "2026-W40",
   "current_monthly_public": "2026-09",
@@ -13,7 +13,7 @@
   "private_site_status": "RETIRED_FROM_LIVE_OPERATION",
   "public_site_version": 88,
   "public_site_url": "https://energy-cycle-report-share.ljjx2020.chatgpt.site",
-  "public_remote_readback": "PASS_REAL_REMOTE_CONTENT_V88__16_REQUIRED_PAGES",
+  "public_remote_readback": "CONTRADICTED_BY_USER_SCREENSHOT__RECHECK_PENDING",
   "authority_package_sha256": "57aba3bf4a1bc903e60832c3692510ec884211ef3740e16f444a21bd408f434c",
   "github_role": "PUBLIC_SAFE_RUNTIME_BRIDGE_NOT_CANONICAL_AUTHORITY",
   "canonical_authority": "CHATGPT_LIBRARY",
@@ -22,7 +22,7 @@
   "formal_authority_bridge_protocol_active": "V1_5",
   "source_identity_policy_current": "EVIDENCE_POLICY_PUBLIC_V1_2",
   "pending_work_runtime_formalization": true,
-  "final_closure_status": "PENDING_WORK_RECONCILIATION__CANONICAL_UNCHANGED",
+  "final_closure_status": "PACKAGE_SUCCESS_SITE_PENDING",
   "pending_product": null,
   "last_updated": "2026-10-10T13:02:00+08:00",
   "deployment_state_ref": "runtime/DEPLOYMENT_STATE.json",
@@ -35,7 +35,7 @@
   "manifest_reconciliation_status": "PASS__TWO_DAILY_TOP_LEVEL_FORMAL_CANONICAL_PUBLISHED__CONSUMER_ACTUALS_AND_CANONICAL_SITE_FLAGS_READBACK",
   "measurement_parity_status": "PASS_AUTHORITY_CONSUMER_ACTUALS",
   "derived_state_completeness_status": "PASS__13_CURRENT_DERIVED_VIEWS",
-  "stable_operation_accepted": true,
+  "stable_operation_accepted": false,
   "public_weekly_2026_w38_download_sha256": "551496a55a54f77721bbb1a7d2f0dc584956e0a18c188c44c9b90ec1a0a6305a",
   "higher_cycle_dependency_state": "W40 published; W41 Canonical Daily pool 6/7; no Chat-accepted higher-cycle candidate",
   "public_daily_2026_09_26_download_sha256": "ea94ce1f2f69b3efa270295fb9f7b04c248280ea057a6a8721a7d3602522ba43",
@@ -62,12 +62,12 @@
   "library_sidecar_sha256": "57aba3bf4a1bc903e60832c3692510ec884211ef3740e16f444a21bd408f434c",
   "current_package_site_publication_performed": true,
   "runtime_sync_status": "PASS__POST_REBUILD_AUTHORITY_SHA_FOUR_WAY_MATCH",
-  "stable": true,
+  "stable": false,
   "updated_at": "2026-10-10T13:02:00+08:00",
   "public_weekly_2026_w40_download_sha256": "68c5b95617d1d7ff486d377b753af71743710ba22b838c0802c5a5bd902f5faf",
   "public_daily_2026_10_04_download_sha256": "90bfb728e8a27c5ab3e0ba67d98013c78be2b63d246e5c5e16c86ee6c4337529",
-  "failure_stage": null,
-  "failure_reason": null,
+  "failure_stage": "PUBLIC_SITE_HOME_CURRENT_STALE_OR_CACHE",
+  "failure_reason": "User sees daily 2026-10-08 on live homepage while Canonical and final public site build contain 2026-10-10; prior Work V88 readback is contradicted.",
   "manual_intervention_required": false,
   "prepublication_recovery_receipt": {
     "scope": "DAILY_2026_10_09_AND_2026_10_10",
@@ -88,5 +88,26 @@
     "failure_reason": "Evidence Governance V2: E04 / D20261009-C004 has 1 independent evidence group; verified policy/validator requires 2 when CORE cross_check_required=true.",
     "source": "2026-10-09 Work preflight; immutable Library checkpoint retained",
     "was_before_chat_ledger_correction": true
+  },
+  "live_site_publication_discrepancy": {
+    "classification": "PACKAGE_SUCCESS_SITE_PENDING",
+    "evidence": "User supplied live public homepage screenshot showing daily card 2026-10-08, while Authority Current and site source index.html have 2026-10-10",
+    "observed_live_home_daily": "2026-10-08",
+    "expected_canonical_daily": "2026-10-10",
+    "correct_public_site_source": "outputs/energy/public_distribution/site/",
+    "expected_public_home_index_sha256": "6ac3f8c78f1afc5410fe34c7ce2c6a8db8b028fdb078c1c5aae4ede67b6f8c53",
+    "previous_public_home_index_sha256": "7cace166dce36ca19e9cb21dd05cf436821f601779335f84f5aeb877210d13b2",
+    "publication_evidence_conflict": true,
+    "action": "Existing single Public Site only: republish exact current Authority public_distribution/site build; remote browser open '/', '/daily/', '/daily/2026-10-09/', '/daily/2026-10-10/', '/downloads/' and verify content, not HTTP 200; cache-bust; then report real origin/readback and current pointer parity. Do not rebuild/rewrite any Daily, mutate Canonical, or create Site/Phase/Validator.",
+    "previous_work_claim_preserved": {
+      "reported_at": "2026-10-10T13:02:00+08:00",
+      "public_site_version": 88,
+      "public_site_status": "FINAL_CLOSURE_PASS__DEVELOPMENT_FROZEN_LONG_TERM_OPERATION",
+      "real_remote_readback_status": "PASS_REAL_REMOTE_CONTENT_V88__16_REQUIRED_PAGES",
+      "site_publication_performed": true,
+      "reportops_status": null,
+      "stable_operation_accepted": true
+    },
+    "independent_external_origin_readback": "NOT_AVAILABLE_IN_THIS_CHAT"
   }
 }
