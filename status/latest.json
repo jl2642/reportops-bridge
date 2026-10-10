@@ -2,7 +2,7 @@
   "schema_version": "REPORTOPS_R3_1_CHAT_STATUS_V1_5_SINGLE_SITE",
   "scheduled_date": "2026-10-09",
   "target_date": "2026-10-09",
-  "current_day_status": "BLOCKED_PRODUCT_LOCAL",
+  "current_day_status": "PUBLIC_CORE_ACCEPTED_PENDING_WORK",
   "scheduled_run_status": "BOUNDED_INTERACTIVE_RECOVERY_AFTER_10_15_GITHUB_PERSISTENCE_FAILURE",
   "correction_backlog": {
     "status": "RESOLVED_BY_CHAT_CORRECTION",
@@ -15,13 +15,14 @@
       "2026-09-29",
       "2026-09-30",
       "2026-10-01",
-      "2026-10-05"
+      "2026-10-05",
+      "2026-10-09"
     ],
     "blocking_gate": null,
     "research_review_required": false,
     "evidence_change_required": false,
     "work_may_rewrite": false,
-    "pending_consumer_revalidation": false
+    "pending_consumer_revalidation": true
   },
   "source_identity_gate_status": "PASS_5_OF_5__ONE_OFFICIAL_DATE_ONLY_CROSSCHECK",
   "inline_citation_gate_status": "PASS_5_OF_5",
@@ -47,7 +48,7 @@
   "data_gap_boundary_status": "PASS",
   "current_daily_public": "2026-10-08",
   "current_weekly_public": "2026-W40",
-  "formal_status": "BLOCKED_PRODUCT_LOCAL_EVIDENCE_GOVERNANCE_V2",
+  "formal_status": "PENDING_WORK_RECONCILIATION",
   "canonical_promotion_performed": false,
   "site_publication_performed": false,
   "public_site_version": 86,
@@ -55,10 +56,10 @@
   "manifest_reconciliation_status": "PASS__FOUR_DAILY_TOP_LEVEL_FORMAL_CANONICAL_PUBLISHED__CONSUMER_ACTUALS_AND_CANONICAL_SITE_FLAGS_READBACK",
   "metadata_freshness": "PASS__13_CURRENT_DERIVED_VIEWS__POINTER_MATCH",
   "state_consistency_pointer_sha256": "5d98b76a6cf46e3f319014df8fde4f9ed3ae1f98111c9d5ecd9fc83121a69215",
-  "failure_stage": "DAILY_2026_10_09_EVIDENCE_GOVERNANCE_V2",
-  "failure_reason": "Evidence Governance V2: E04 / D20261009-C004 has 1 independent evidence group; verified policy/validator requires 2 when CORE cross_check_required=true.",
-  "next_action": "Chat must provide an accepted Evidence/ledger correction for E04 cross-check sufficiency; next Work run revalidates without researching or rewriting prose/Evidence.",
-  "updated_at": "2026-10-10T03:43:08.075Z",
+  "failure_stage": null,
+  "failure_reason": null,
+  "next_action": "12:30 Work must re-run formal consumer validation for corrected Daily 2026-10-09 STRICT_NEW ledger; if gates PASS, promote 10-09 atomically then re-evaluate dependent Daily 2026-10-10; no Chat rewrite or new research required. Publish existing single Site only after Canonical promotions and verify remote readback/SHA.",
+  "updated_at": "2026-10-10T03:52:49.414Z",
   "queue_remaining": [
     "Daily 2026-10-09",
     "Daily 2026-10-10"
@@ -127,7 +128,7 @@
   },
   "products_deferred_dependency": [],
   "public_daily_2026_09_26_download_sha256": "ea94ce1f2f69b3efa270295fb9f7b04c248280ea057a6a8721a7d3602522ba43",
-  "reportops_status": "FAIL_CLOSED__DAILY_2026_10_09_EVIDENCE_GOVERNANCE_V2__NO_CANONICAL_MUTATION",
+  "reportops_status": "PENDING_WORK_RECONCILIATION",
   "correction_provenance_2026_09_27": {
     "corrected_at": "2026-09-27T22:50:00+08:00",
     "correction_type": "INLINE_CITATION_PLACEMENT_ONLY",
@@ -488,5 +489,38 @@
     "github_artifacts_readback": "PASS_4_OF_4",
     "formal_status": "PENDING_WORK_RECONCILIATION",
     "checked_at": "2026-10-10T03:43:08.075Z"
+  },
+  "last_work_blocked_preflight_provenance": {
+    "formal_status": "BLOCKED_PRODUCT_LOCAL_EVIDENCE_GOVERNANCE_V2",
+    "current_day_status": "BLOCKED_PRODUCT_LOCAL",
+    "reportops_status": "FAIL_CLOSED__DAILY_2026_10_09_EVIDENCE_GOVERNANCE_V2__NO_CANONICAL_MUTATION",
+    "failure_stage": "DAILY_2026_10_09_EVIDENCE_GOVERNANCE_V2",
+    "failure_reason": "Evidence Governance V2: E04 / D20261009-C004 has 1 independent evidence group; verified policy/validator requires 2 when CORE cross_check_required=true.",
+    "next_action": "Chat must provide an accepted Evidence/ledger correction for E04 cross-check sufficiency; next Work run revalidates without researching or rewriting prose/Evidence.",
+    "work_preflight_checkpoint": "/能源周期报告/90_RELEASES/CURRENT/FINAL_REPORTOPS_CHECKPOINT_20261009.json",
+    "last_formal_work_run_date": "2026-10-09",
+    "historical_failure_preserved": true
+  },
+  "pre_work_audit": {
+    "checked_on": "2026-10-10",
+    "validated_candidates": [
+      "Daily 2026-10-09",
+      "Daily 2026-10-10"
+    ],
+    "oct09_evidence": "STRICT_NEW_PASS_5_RECORDS_4_CLAIMS_0_BLOCKERS",
+    "oct09_body_and_reader": "UNCHANGED_FROM_2026_10_09_WORK_PRECHECK_PASS",
+    "oct10_evidence": "STRICT_NEW_PASS_8_RECORDS_7_CLAIMS_0_BLOCKERS",
+    "oct10_source_identity": "PASS_8_OF_8",
+    "oct10_inline_citation": "PASS_8_OF_8",
+    "oct10_product": "PASS_WITH_WARNINGS__4033_CJK_OVER_3500_TARGET_ONLY",
+    "oct10_reader": "PASS_LOCAL_RENDER_ONLY",
+    "original_work_blocker_historical_only": true,
+    "work_formal_revalidation": "PENDING",
+    "canonical_promotion_performed": false,
+    "site_publication_performed": false,
+    "queue_for_work": [
+      "Daily 2026-10-09",
+      "Daily 2026-10-10"
+    ]
   }
 }
