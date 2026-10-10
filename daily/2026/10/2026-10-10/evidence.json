@@ -1,0 +1,187 @@
+{
+  "schema_version": "REPORTOPS_EVIDENCE_V1_2",
+  "target_date": "2026-10-10",
+  "window_start": "2026-10-09T10:00:00+08:00",
+  "window_end": "2026-10-10T10:00:00+08:00",
+  "mode": "STRICT_NEW_PUBLIC",
+  "records": [
+    {
+      "id": "E01",
+      "claim_role": "CORE",
+      "support": "DIRECT",
+      "publisher": "Reuters",
+      "publication_time": "2026-10-09T18:11:00Z",
+      "title": "US Gulf producers shut in more oil and gas as Isaias nears landfall",
+      "url": "https://www.reuters.com/business/energy/us-gulf-producers-shut-more-oil-gas-isaias-nears-landfall-2026-10-09/",
+      "url_identity_status": "PASS",
+      "url_verified_date": "2026-10-10",
+      "source_identity_receipt": {
+        "verification_method": "OPENED_EXACT_DOCUMENT",
+        "observed_url": "https://www.reuters.com/business/energy/us-gulf-producers-shut-more-oil-gas-isaias-nears-landfall-2026-10-09/",
+        "canonical_url": "https://www.reuters.com/business/energy/us-gulf-producers-shut-more-oil-gas-isaias-nears-landfall-2026-10-09/",
+        "observed_title": "US Gulf producers shut in more oil and gas as Isaias nears landfall",
+        "observed_publisher": "Reuters",
+        "title_match_status": "EXACT",
+        "verified_at": "2026-10-10T03:39:52Z"
+      },
+      "boundary": "Single authoritative MMA daily production status as quoted by Reuters; physical capacity not actual cargo production."
+    },
+    {
+      "id": "E02",
+      "claim_role": "CORE",
+      "support": "DIRECT",
+      "publisher": "Reuters",
+      "publication_time": "2026-10-09T05:25:00Z",
+      "title": "Soaring freight rates threaten Asia's appetite for US crude",
+      "url": "https://www.reuters.com/business/energy/soaring-freight-rates-threaten-asias-appetite-us-crude-2026-10-09/",
+      "url_identity_status": "PASS",
+      "url_verified_date": "2026-10-10",
+      "source_identity_receipt": {
+        "verification_method": "OPENED_EXACT_DOCUMENT",
+        "observed_url": "https://www.reuters.com/business/energy/soaring-freight-rates-threaten-asias-appetite-us-crude-2026-10-09/",
+        "canonical_url": "https://www.reuters.com/business/energy/soaring-freight-rates-threaten-asias-appetite-us-crude-2026-10-09/",
+        "observed_title": "Soaring freight rates threaten Asia's appetite for US crude",
+        "observed_publisher": "Reuters",
+        "title_match_status": "EXACT",
+        "verified_at": "2026-10-10T03:39:52Z"
+      },
+      "boundary": "SSY via LSEG single freight quote for November loading; not a universal freight index."
+    },
+    {
+      "id": "E03",
+      "claim_role": "CORE",
+      "support": "DIRECT",
+      "publisher": "Reuters",
+      "publication_time": "2026-10-09T15:43:00Z",
+      "title": "Trump says Russia to supply diesel to US and global markets",
+      "url": "https://www.reuters.com/business/energy/trump-big-announcement-coming-up-diesel-2026-10-09/",
+      "url_identity_status": "PASS",
+      "url_verified_date": "2026-10-10",
+      "source_identity_receipt": {
+        "verification_method": "OPENED_EXACT_DOCUMENT",
+        "observed_url": "https://www.reuters.com/business/energy/trump-big-announcement-coming-up-diesel-2026-10-09/",
+        "canonical_url": "https://www.reuters.com/business/energy/trump-big-announcement-coming-up-diesel-2026-10-09/",
+        "observed_title": "Trump says Russia to supply diesel to US and global markets",
+        "observed_publisher": "Reuters",
+        "title_match_status": "EXACT",
+        "verified_at": "2026-10-10T03:39:52Z"
+      },
+      "boundary": "Reuters reports license issued; announced 300k tons is future intended supply, not delivered."
+    },
+    {
+      "id": "E04",
+      "claim_role": "MATERIAL",
+      "support": "DIRECT",
+      "publisher": "Reuters",
+      "publication_time": "2026-10-09T03:28:00Z",
+      "title": "China to resume October fuel exports after holiday pause, sources say",
+      "url": "https://www.reuters.com/business/energy/china-resume-october-fuel-exports-after-brief-halt-four-trade-sources-say-2026-10-09/",
+      "url_identity_status": "PASS",
+      "url_verified_date": "2026-10-10",
+      "source_identity_receipt": {
+        "verification_method": "OPENED_EXACT_DOCUMENT",
+        "observed_url": "https://www.reuters.com/business/energy/china-resume-october-fuel-exports-after-brief-halt-four-trade-sources-say-2026-10-09/",
+        "canonical_url": "https://www.reuters.com/business/energy/china-resume-october-fuel-exports-after-brief-halt-four-trade-sources-say-2026-10-09/",
+        "observed_title": "China to resume October fuel exports after holiday pause, sources say",
+        "observed_publisher": "Reuters",
+        "title_match_status": "EXACT",
+        "verified_at": "2026-10-10T03:39:52Z"
+      },
+      "boundary": "Reported by multiple industry participants; not official shipping/customs data; no independently published regulator confirmation."
+    },
+    {
+      "id": "E05",
+      "claim_role": "MATERIAL",
+      "support": "DIRECT",
+      "publisher": "Reuters",
+      "publication_time": "2026-10-09T11:20:00Z",
+      "title": "Fewer cars hit the road during China's Golden Week",
+      "url": "https://www.reuters.com/world/asia-pacific/fewer-cars-hit-road-during-chinas-golden-week-2026-10-09/",
+      "url_identity_status": "PASS",
+      "url_verified_date": "2026-10-10",
+      "source_identity_receipt": {
+        "verification_method": "OPENED_EXACT_DOCUMENT",
+        "observed_url": "https://www.reuters.com/world/asia-pacific/fewer-cars-hit-road-during-chinas-golden-week-2026-10-09/",
+        "canonical_url": "https://www.reuters.com/world/asia-pacific/fewer-cars-hit-road-during-chinas-golden-week-2026-10-09/",
+        "observed_title": "Fewer cars hit the road during China's Golden Week",
+        "observed_publisher": "Reuters",
+        "title_match_status": "EXACT",
+        "verified_at": "2026-10-10T03:39:52Z"
+      },
+      "boundary": "Government mobility data quoted by Reuters; not a direct LPG or LNG demand measure."
+    },
+    {
+      "id": "E06",
+      "claim_role": "MATERIAL",
+      "support": "DIRECT",
+      "publisher": "Reuters",
+      "publication_time": "2026-10-09T02:28:00Z",
+      "title": "Oil prices settle higher as more production shut ahead of hurricane",
+      "url": "https://www.reuters.com/business/energy/oil-falls-trump-comments-iran-talks-ease-supply-concerns-2026-10-09/",
+      "url_identity_status": "PASS",
+      "url_verified_date": "2026-10-10",
+      "source_identity_receipt": {
+        "verification_method": "OPENED_EXACT_DOCUMENT",
+        "observed_url": "https://www.reuters.com/business/energy/oil-falls-trump-comments-iran-talks-ease-supply-concerns-2026-10-09/",
+        "canonical_url": "https://www.reuters.com/business/energy/oil-falls-trump-comments-iran-talks-ease-supply-concerns-2026-10-09/",
+        "observed_title": "Oil prices settle higher as more production shut ahead of hurricane",
+        "observed_publisher": "Reuters",
+        "title_match_status": "EXACT",
+        "verified_at": "2026-10-10T03:39:52Z"
+      },
+      "boundary": "Reuters page initial timestamp, article subsequently updated with settlement; settlement values are dated October 9."
+    },
+    {
+      "id": "E07",
+      "claim_role": "MATERIAL",
+      "support": "DIRECT",
+      "publisher": "Office of Foreign Assets Control, U.S. Treasury",
+      "publication_time": "2026-10-09",
+      "title": "Issuance of Russia-related General License",
+      "url": "https://ofac.treasury.gov/recent-actions/20261009_33",
+      "url_identity_status": "PASS",
+      "url_verified_date": "2026-10-10",
+      "source_identity_receipt": {
+        "verification_method": "OPENED_EXACT_DOCUMENT",
+        "observed_url": "https://ofac.treasury.gov/recent-actions/20261009_33",
+        "canonical_url": "https://ofac.treasury.gov/recent-actions/20261009_33",
+        "observed_title": "Issuance of Russia-related General License",
+        "observed_publisher": "Office of Foreign Assets Control, U.S. Treasury",
+        "title_match_status": "EXACT",
+        "verified_at": "2026-10-10T03:39:52Z"
+      },
+      "boundary": "Official date-only publication, no exact UTC time; supports existence and purpose of GL135, not diesel shipment."
+    },
+    {
+      "id": "E08",
+      "claim_role": "MATERIAL",
+      "support": "DIRECT",
+      "publisher": "Reuters",
+      "publication_time": "2026-10-09T15:30:00Z",
+      "title": "Germany to release up to 15 million barrels of oil under G7 plan",
+      "url": "https://www.reuters.com/business/energy/germany-release-up-15-million-barrels-oil-under-g7-plan-2026-10-09/",
+      "url_identity_status": "PASS",
+      "url_verified_date": "2026-10-10",
+      "source_identity_receipt": {
+        "verification_method": "OPENED_EXACT_DOCUMENT",
+        "observed_url": "https://www.reuters.com/business/energy/germany-release-up-15-million-barrels-oil-under-g7-plan-2026-10-09/",
+        "canonical_url": "https://www.reuters.com/business/energy/germany-release-up-15-million-barrels-oil-under-g7-plan-2026-10-09/",
+        "observed_title": "Germany to release up to 15 million barrels of oil under G7 plan",
+        "observed_publisher": "Reuters",
+        "title_match_status": "EXACT",
+        "verified_at": "2026-10-10T03:39:52Z"
+      },
+      "boundary": "Planned upper bound, split and timing undisclosed; not delivered or realized stock release."
+    }
+  ],
+  "guessed_url_count": 0,
+  "unsupported_core_claims": 0,
+  "evidence_record_count": 8,
+  "excluded_records": [],
+  "data_gap_notes": [
+    "Window: date-only OFAC E07 is corroborative, no exact time verified.",
+    "No same-window comparable Asia spot LNG/LPG and China terminal/harbor statistics verified.",
+    "China refined fuel export 3.7m tonnes reported by traders, not delivered volume.",
+    "Hurricane production shut-ins are instantaneous rates, not permanently lost quantity."
+  ]
+}
