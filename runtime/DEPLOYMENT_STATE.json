@@ -1,7 +1,7 @@
 {
   "schema_version": "REPORTOPS_DEPLOYMENT_STATE_V1",
   "document_class": "MUTABLE_DEPLOYMENT_AND_ACTIVATION_STATE",
-  "status": "CURRENT_UNCHANGED__PRODUCT_LOCAL_BLOCKER",
+  "status": "CURRENT_UNCHANGED__PENDING_WORK_RECONCILIATION",
   "topology": "SINGLE_SITE_V4",
   "formal_cutover": true,
   "library_cutover": true,
@@ -29,9 +29,9 @@
   "authority_package_sha256": "1ef908726896f26f53a28d5c2c71120b09547af0219003e9fc9fba6970cb77cd",
   "canonical_authority": "CHATGPT_LIBRARY:/能源周期报告/00_CURRENT/CURRENT_POINTER.json",
   "current_public_ref": "runtime/CURRENT_PUBLIC.json",
-  "final_closure_status": "PARTIAL_SUCCESS__PRODUCT_LOCAL_BLOCKER__CANONICAL_UNCHANGED",
+  "final_closure_status": "PENDING_WORK_RECONCILIATION__CANONICAL_UNCHANGED",
   "pending_product": "Daily 2026-10-09",
-  "updated_at": "2026-10-09T12:29:18+08:00",
+  "updated_at": "2026-10-10T03:53:09.349Z",
   "metadata_freshness": "PASS__13_CURRENT_DERIVED_VIEWS__POINTER_MATCH",
   "state_consistency_pointer_sha256": "5d98b76a6cf46e3f319014df8fde4f9ed3ae1f98111c9d5ecd9fc83121a69215",
   "real_remote_readback_status": "PASS_REAL_REMOTE_CONTENT_V86__17_REQUIRED_PAGES",
@@ -67,8 +67,8 @@
   "library_sidecar_sha256": "1ef908726896f26f53a28d5c2c71120b09547af0219003e9fc9fba6970cb77cd",
   "runtime_sync_status": "PASS_GITHUB_CORRECTION_STATE_READBACK__NO_CANONICAL_MUTATION",
   "manual_intervention_required": false,
-  "failure_stage": "DAILY_2026_10_09_EVIDENCE_GOVERNANCE_V2",
-  "failure_reason": "Evidence Governance V2: E04 / D20261009-C004 has 1 independent evidence group; verified policy/validator requires 2 when CORE cross_check_required=true.",
+  "failure_stage": null,
+  "failure_reason": null,
   "prepublication_recovery_receipt": {
     "scope": "DAILY_2026_10_09_AND_2026_10_10",
     "queue_for_work": [
@@ -80,5 +80,13 @@
     "historical_work_failure_preserved": true,
     "no_canonical_or_site_mutation": true,
     "recorded_at": "2026-10-10T03:50:41.085Z"
+  },
+  "previous_work_failure": {
+    "status": "CURRENT_UNCHANGED__PRODUCT_LOCAL_BLOCKER",
+    "final_closure_status": "PARTIAL_SUCCESS__PRODUCT_LOCAL_BLOCKER__CANONICAL_UNCHANGED",
+    "failure_stage": "DAILY_2026_10_09_EVIDENCE_GOVERNANCE_V2",
+    "failure_reason": "Evidence Governance V2: E04 / D20261009-C004 has 1 independent evidence group; verified policy/validator requires 2 when CORE cross_check_required=true.",
+    "source": "2026-10-09 Work preflight; immutable Library checkpoint retained",
+    "was_before_chat_ledger_correction": true
   }
 }
