@@ -2,5 +2,15 @@
   "target_date": "2026-10-10",
   "scheduled_for": "10:15 Asia/Shanghai",
   "run_started_at": "2026-10-10T10:17:44+08:00",
-  "status": "RUN_STARTED_BEFORE_PREFLIGHT"
+  "status": "FAILED",
+  "products_repaired_or_produced": [],
+  "producer_recovery_queue_remaining": [
+    "2026-10-10"
+  ],
+  "queue_for_12_30_work": [
+    "Daily 2026-10-09"
+  ],
+  "post_run_self_audit_status": "NOT_REACHED",
+  "failure_stage": "PUBLIC_CORE_CREATE",
+  "failure_reason": "GitHub create_file blocked by OpenAI safety checks after candidate preflight passed; no product files were persisted."
 }
