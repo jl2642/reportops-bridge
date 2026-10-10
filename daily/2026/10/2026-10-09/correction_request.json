@@ -51,5 +51,12 @@
     "site_publication_performed": false,
     "original_work_correction_request_preserved": true,
     "recorded_at": "2026-10-10T03:52:00.246Z"
-  }
+  },
+  "status": "RESOLVED_BY_CHAT_CORRECTION_AND_WORK_REVALIDATION",
+  "resolved_at": "2026-10-10T13:02:00+08:00",
+  "consumer_revalidation_status": "PASS",
+  "canonical_promotion_performed": true,
+  "site_publication_performed": true,
+  "authority_package_sha256": "57aba3bf4a1bc903e60832c3692510ec884211ef3740e16f444a21bd408f434c",
+  "historical_blocker_preserved": true
 }
