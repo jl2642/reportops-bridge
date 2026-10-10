@@ -36,8 +36,8 @@
   "dependency_status": "PASS",
   "canonical_mutation_performed": false,
   "site_mutation_performed": false,
-  "formal_status": "BLOCKED_PRODUCT_LOCAL_EVIDENCE_GOVERNANCE_V2",
-  "product_status": "PUBLIC_CORE_ACCEPTED_BLOCKED_PRODUCT_LOCAL",
+  "formal_status": "PENDING_WORK_RECONCILIATION",
+  "product_status": "PUBLIC_CORE_ACCEPTED_PENDING_WORK",
   "canonical_promotion_performed": false,
   "site_publication_performed": false,
   "strict_v2_ledger_status": "PASS__RAW_STRICT_V2__5_RECORDS",
@@ -45,8 +45,8 @@
   "lineage_status": "PENDING_WORK_CONSUMER_VALIDATION",
   "post_run_self_audit_status": "PASS__GITHUB_BYTE_EQUIVALENT_READBACK__DEPTH_SOURCE_WINDOW_INLINE_LEDGER",
   "work_may_rewrite": false,
-  "consumer_status": "BLOCKED_PRODUCT_LOCAL",
-  "blocking_reason": "Historical Work block retained pending new Work consumer revalidation after Chat E04/C004 bounded evidence-ledger association correction.",
+  "consumer_status": "PENDING_12_30_WORK_RECONCILIATION",
+  "blocking_reason": null,
   "original_scheduled_run_observed": true,
   "public_core_blob_sha": "e651d0efbea2daa3d10283d0de527fa17e2312d4",
   "evidence_blob_sha": "6949341c25fa519386b3fc76601ffed535189dcc",
@@ -111,10 +111,6 @@
     "github_write_status": "PASS__FOUR_ARTIFACTS_MAIN",
     "github_readback_status": "PASS__4_OF_4"
   },
-  "consumer_preflighted_at": "2026-10-09T12:29:18+08:00",
-  "consumer_blocking_gate": "EVIDENCE_GOVERNANCE_V2",
-  "consumer_blocking_code": "CORE_CROSS_CHECK_INSUFFICIENT",
-  "consumer_blocking_record_id": "E2-D20261009-004",
   "correction_request_path": "daily/2026/10/2026-10-09/correction_request.json",
   "authority_package_sha256_at_preflight": "1ef908726896f26f53a28d5c2c71120b09547af0219003e9fc9fba6970cb77cd",
   "bounded_chat_correction": {
@@ -128,6 +124,28 @@
     "correction_validated_locally": true,
     "formal_consumer_revalidated": false,
     "original_work_blocked_state_preserved": true,
-    "prose_changed": false
+    "prose_changed": false,
+    "original_work_preflight": {
+      "formal_status": "BLOCKED_PRODUCT_LOCAL_EVIDENCE_GOVERNANCE_V2",
+      "product_status": "PUBLIC_CORE_ACCEPTED_BLOCKED_PRODUCT_LOCAL",
+      "consumer_status": "BLOCKED_PRODUCT_LOCAL",
+      "blocking_reason": "Historical Work block retained pending new Work consumer revalidation after Chat E04/C004 bounded evidence-ledger association correction.",
+      "consumer_preflighted_at": "2026-10-09T12:29:18+08:00",
+      "consumer_blocking_gate": "EVIDENCE_GOVERNANCE_V2",
+      "consumer_blocking_code": "CORE_CROSS_CHECK_INSUFFICIENT",
+      "consumer_blocking_record_id": "E2-D20261009-004"
+    },
+    "formal_authority_validator_result": {
+      "status": "PASS",
+      "mode": "STRICT_NEW",
+      "records": 5,
+      "claims": 4,
+      "blocking": 0,
+      "warnings": 0,
+      "checked_after_ledger_correction": true,
+      "validator": "scripts/evidence/evidence_governance_validator.py",
+      "product_publish_authorized": false,
+      "formal_consumer_revalidated": false
+    }
   }
 }
