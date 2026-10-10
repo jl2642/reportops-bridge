@@ -43,15 +43,15 @@
   "site_publication_performed": false,
   "reader_status": "PENDING_WORK_RENDER",
   "lineage_status": "PENDING_WORK_CONSUMER_VALIDATION",
-  "post_run_self_audit_status": "PASS__GITHUB_CORE_EVIDENCE_LEDGER_READBACK__MANIFEST_TO_VERIFY",
+  "post_run_self_audit_status": "PASS__GITHUB_BYTE_EQUIVALENT_READBACK__DEPTH_SOURCE_WINDOW_INLINE_LEDGER",
   "work_may_rewrite": false,
   "consumer_status": "PENDING_12_30_WORK_RECONCILIATION",
   "blocking_reason": null,
   "public_core_blob_sha": "9440421e0c87c8f241998a76be59ff8b5bdea0d4",
   "evidence_blob_sha": "668424b0a79a988e9a948dcb8055b3a4c7579f71",
   "strict_v2_ledger_blob_sha": "b08d6a7e5c6558d81acc3b0af859a98071c5a14e",
-  "github_write_status": "PASS__THREE_OF_FOUR_AT_MANIFEST_CREATE",
-  "github_readback_status": "PASS__3_OF_3__MANIFEST_NEXT",
+  "github_write_status": "PASS__FOUR_ARTIFACTS_MAIN",
+  "github_readback_status": "PASS__4_OF_4",
   "bounded_recovery_provenance": {
     "original_heartbeat": "daily/2026/10/2026-10-10/run_heartbeat.json",
     "original_failure_stage": "PUBLIC_CORE_CREATE",
@@ -66,5 +66,5 @@
     },
     "original_scheduled_run_success": false
   },
-  "post_run_self_audit_at": "2026-10-10T03:42:17.705Z"
+  "post_run_self_audit_at": "2026-10-10T03:42:42.108Z"
 }
