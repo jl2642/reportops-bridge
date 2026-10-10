@@ -52,13 +52,13 @@
   "canonical_promotion_performed": true,
   "site_publication_performed": true,
   "public_site_version": 88,
-  "public_site_status": "PASS_V88_REMOTE_READBACK",
+  "public_site_status": "PACKAGE_SUCCESS_SITE_PENDING",
   "manifest_reconciliation_status": "PASS__TWO_DAILY_TOP_LEVEL_FORMAL_CANONICAL_PUBLISHED__CONSUMER_ACTUALS_AND_CANONICAL_SITE_FLAGS_READBACK",
   "metadata_freshness": "PASS__13_CURRENT_DERIVED_VIEWS__POINTER_MATCH",
   "state_consistency_pointer_sha256": "59dfae757326634671d68e90301a68f41fb7fd26a885480cac09acaba0e9df2a",
-  "failure_stage": null,
-  "failure_reason": null,
-  "next_action": "Scan only new Chat-accepted products; idempotently skip these closed versions.",
+  "failure_stage": "PUBLIC_SITE_HOME_CURRENT_STALE_OR_CACHE",
+  "failure_reason": "User sees daily 2026-10-08 on live homepage while Canonical and final public site build contain 2026-10-10; prior Work V88 readback is contradicted.",
+  "next_action": "Re-publish existing SINGLE_SITE_V4 using exact current ReportOps.zip outputs/energy/public_distribution/site/; verify live homepage Daily 2026-10-10, both 10-09 and 10-10 reports, archive, downloads, site origin content and SHA before SUCCESS. Do not re-produce or re-promote.",
   "updated_at": "2026-10-10T13:02:00+08:00",
   "queue_remaining": [],
   "pending_product": null,
@@ -125,7 +125,7 @@
     "producer_automation_restored": true,
     "prior_2026_09_26_correction_preserved": true
   },
-  "real_remote_readback_status": "PASS_REAL_REMOTE_CONTENT_V88__16_REQUIRED_PAGES",
+  "real_remote_readback_status": "CONTRADICTED_BY_USER_SCREENSHOT__RECHECK_PENDING",
   "download_sha_status": "PASS_REMOTE_ZIP_SHA256_AND_UNZIP__2_PROMOTED_DAILIES_AND_WEEKLY_W40",
   "public_daily_2026_09_25_download_sha256": "b4a80928e9755db168822874115c2d40069f3d9ad919416291e739dee8db7e72",
   "public_weekly_2026_w38_download_sha256": "551496a55a54f77721bbb1a7d2f0dc584956e0a18c188c44c9b90ec1a0a6305a",
@@ -145,7 +145,7 @@
     "Daily 2026-10-10__RESOLVED"
   ],
   "public_daily_2026_09_26_download_sha256": "ea94ce1f2f69b3efa270295fb9f7b04c248280ea057a6a8721a7d3602522ba43",
-  "reportops_status": "SUCCESS__FINAL_CLOSURE_PASS__DEVELOPMENT_FROZEN_LONG_TERM_OPERATION",
+  "reportops_status": "PACKAGE_SUCCESS_SITE_PENDING",
   "correction_provenance_2026_09_27": {
     "corrected_at": "2026-09-27T22:50:00+08:00",
     "correction_type": "INLINE_CITATION_PLACEMENT_ONLY",
@@ -539,5 +539,26 @@
     ]
   },
   "public_daily_2026_10_09_download_sha256": "a1d691a9333715c62a56bf6007d60ca5c6a524ba4e85ed3d9265165c8f276244",
-  "public_daily_2026_10_10_download_sha256": "ce79ca50d57079d0f6f64f394db34db9f5c1733505e2734703bac7334fcb3640"
+  "public_daily_2026_10_10_download_sha256": "ce79ca50d57079d0f6f64f394db34db9f5c1733505e2734703bac7334fcb3640",
+  "live_site_publication_discrepancy": {
+    "classification": "PACKAGE_SUCCESS_SITE_PENDING",
+    "evidence": "User supplied live public homepage screenshot showing daily card 2026-10-08, while Authority Current and site source index.html have 2026-10-10",
+    "observed_live_home_daily": "2026-10-08",
+    "expected_canonical_daily": "2026-10-10",
+    "correct_public_site_source": "outputs/energy/public_distribution/site/",
+    "expected_public_home_index_sha256": "6ac3f8c78f1afc5410fe34c7ce2c6a8db8b028fdb078c1c5aae4ede67b6f8c53",
+    "previous_public_home_index_sha256": "7cace166dce36ca19e9cb21dd05cf436821f601779335f84f5aeb877210d13b2",
+    "publication_evidence_conflict": true,
+    "action": "Existing single Public Site only: republish exact current Authority public_distribution/site build; remote browser open '/', '/daily/', '/daily/2026-10-09/', '/daily/2026-10-10/', '/downloads/' and verify content, not HTTP 200; cache-bust; then report real origin/readback and current pointer parity. Do not rebuild/rewrite any Daily, mutate Canonical, or create Site/Phase/Validator.",
+    "previous_work_claim_preserved": {
+      "reported_at": "2026-10-10T13:02:00+08:00",
+      "public_site_version": 88,
+      "public_site_status": "PASS_V88_REMOTE_READBACK",
+      "real_remote_readback_status": "PASS_REAL_REMOTE_CONTENT_V88__16_REQUIRED_PAGES",
+      "site_publication_performed": true,
+      "reportops_status": "SUCCESS__FINAL_CLOSURE_PASS__DEVELOPMENT_FROZEN_LONG_TERM_OPERATION",
+      "stable_operation_accepted": null
+    },
+    "independent_external_origin_readback": "NOT_AVAILABLE_IN_THIS_CHAT"
+  }
 }
