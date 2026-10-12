@@ -9,8 +9,21 @@
   "original_scheduled_run_last_run_time": "2026-10-11T02:18:54.984857Z",
   "original_producer_success": false,
   "recovery_started_at": "2026-10-12T01:09:01.649Z",
-  "status": "RUN_STARTED_BEFORE_PREFLIGHT",
+  "status": "PRODUCER_SUCCESS_CANDIDATES_PENDING_WORK",
   "canonical_mutation_performed": false,
   "site_mutation_performed": false,
-  "notes": "Historical 10:15 scheduled run not claimed successful. Recovery creates new durable provenance and must pass product gates before Work consumption."
+  "notes": "Historical 10:15 scheduled run not claimed successful. Recovery creates new durable provenance and must pass product gates before Work consumption.",
+  "finished_at": "2026-10-12T01:12:20.314Z",
+  "products_repaired_or_produced": [
+    "Daily 2026-10-11"
+  ],
+  "producer_recovery_queue_remaining": [],
+  "queue_for_12_30_work": [
+    "Daily 2026-10-11"
+  ],
+  "post_run_self_audit_status": "PASS__DURABLE_FOUR_ARTIFACT_READBACK__FORMAL_WORK_VALIDATOR_PENDING",
+  "failure_stage": null,
+  "failure_reason": null,
+  "github_write_status": "PASS",
+  "github_readback_status": "PASS"
 }
