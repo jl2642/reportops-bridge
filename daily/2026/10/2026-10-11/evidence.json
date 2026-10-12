@@ -1,0 +1,103 @@
+{
+  "schema_version": "REPORTOPS_EVIDENCE_V1_2",
+  "target_date": "2026-10-11",
+  "window_start": "2026-10-10T10:00:00+08:00",
+  "window_end": "2026-10-11T10:00:00+08:00",
+  "mode": "STRICT_NEW_PUBLIC",
+  "records": [
+    {
+      "id": "E01",
+      "claim_role": "CORE",
+      "support": "DIRECT",
+      "publisher": "Shell U.S.",
+      "publication_time": "2026-10-10T15:00:00Z",
+      "title": "Hurricane Isaias Update #4",
+      "url": "https://www.shell.us/about-us/news-and-insights/media/us-storm-center/shell-us-storm-updates/2026-storm-updates/hurricane-isaias-update-4.html",
+      "url_identity_status": "PASS",
+      "url_verified_date": "2026-10-12",
+      "source_identity_receipt": {
+        "verification_method": "OPENED_EXACT_DOCUMENT",
+        "observed_url": "https://www.shell.us/about-us/news-and-insights/media/us-storm-center/shell-us-storm-updates/2026-storm-updates/hurricane-isaias-update-4.html",
+        "canonical_url": "https://www.shell.us/about-us/news-and-insights/media/us-storm-center/shell-us-storm-updates/2026-storm-updates/hurricane-isaias-update-4.html",
+        "observed_title": "Hurricane Isaias Update #4",
+        "observed_publisher": "Shell U.S.",
+        "title_match_status": "EXACT",
+        "verified_at": "2026-10-12T01:11:45.088Z"
+      },
+      "boundary": "Shell primary statement describes personnel redeployment only; not production restart, output level or LNG cargo recovery."
+    },
+    {
+      "id": "E02",
+      "claim_role": "CORE",
+      "support": "DIRECT",
+      "publisher": "Chevron",
+      "publication_time": "2026-10-10T15:38:00Z",
+      "title": "Hurricane Isaias — Final Update",
+      "url": "https://www.chevron.com/newsroom/2026/q4/october-2026-severe-weather-updates",
+      "url_identity_status": "PASS",
+      "url_verified_date": "2026-10-12",
+      "source_identity_receipt": {
+        "verification_method": "SEARCH_RESULT_OBSERVED",
+        "observed_url": "https://www.chevron.com/newsroom/2026/q4/october-2026-severe-weather-updates",
+        "canonical_url": "https://www.chevron.com/newsroom/2026/q4/october-2026-severe-weather-updates",
+        "observed_title": "Hurricane Isaias — Final Update",
+        "observed_publisher": "Chevron",
+        "title_match_status": "EXACT",
+        "verified_at": "2026-10-12T01:11:45.088Z"
+      },
+      "boundary": "Search-observed company page (403 on independent open); counts are Chevron-operated platforms, not total Gulf oil production. CDT local 10:38am."
+    },
+    {
+      "id": "E03",
+      "claim_role": "MATERIAL",
+      "support": "DIRECT",
+      "publisher": "Reuters",
+      "publication_time": "2026-10-10T11:32:00Z",
+      "title": "Major Saudi conferences to proceed, organisers say, despite deadly airport attack",
+      "url": "https://www.reuters.com/business/energy/major-saudi-conferences-proceed-organisers-say-despite-deadly-airport-attack-2026-10-10/",
+      "url_identity_status": "PASS",
+      "url_verified_date": "2026-10-12",
+      "source_identity_receipt": {
+        "verification_method": "OPENED_EXACT_DOCUMENT",
+        "observed_url": "https://www.reuters.com/business/energy/major-saudi-conferences-proceed-organisers-say-despite-deadly-airport-attack-2026-10-10/",
+        "canonical_url": "https://www.reuters.com/business/energy/major-saudi-conferences-proceed-organisers-say-despite-deadly-airport-attack-2026-10-10/",
+        "observed_title": "Major Saudi conferences to proceed, organisers say, despite deadly airport attack",
+        "observed_publisher": "Reuters",
+        "title_match_status": "EXACT",
+        "verified_at": "2026-10-12T01:11:45.088Z"
+      },
+      "boundary": "Conference continuity and aviation disruption do not prove Saudi oil field damage or changes to oil/LNG shipments."
+    },
+    {
+      "id": "E04",
+      "claim_role": "MATERIAL",
+      "support": "DIRECT",
+      "publisher": "U.S. Department of Energy",
+      "publication_time": "2026-10-10",
+      "title": "Energy Department Authorizes Strategic Petroleum Reserve Exchange to Address Supply Disruptions Due to Hurricane",
+      "url": "https://www.energy.gov/articles/energy-department-authorizes-strategic-petroleum-reserve-exchange-address-supply",
+      "url_identity_status": "PASS",
+      "url_verified_date": "2026-10-12",
+      "source_identity_receipt": {
+        "verification_method": "OPENED_EXACT_DOCUMENT",
+        "observed_url": "https://www.energy.gov/articles/energy-department-authorizes-strategic-petroleum-reserve-exchange-address-supply",
+        "canonical_url": "https://www.energy.gov/articles/energy-department-authorizes-strategic-petroleum-reserve-exchange-address-supply",
+        "observed_title": "Energy Department Authorizes Strategic Petroleum Reserve Exchange to Address Supply Disruptions Due to Hurricane",
+        "observed_publisher": "U.S. Department of Energy",
+        "title_match_status": "EXACT",
+        "verified_at": "2026-10-12T01:11:45.088Z"
+      },
+      "boundary": "Official page is date-only; precise publication time is unverified. Authorization/maximum exchange is not physical release, nor a new crude market quote."
+    }
+  ],
+  "guessed_url_count": 0,
+  "unsupported_core_claims": 0,
+  "evidence_record_count": 4,
+  "excluded_records": [],
+  "data_gap_notes": [
+    "E04 U.S. DOE official page has date only; no precise publication time verified; therefore corroborative only.",
+    "Chevron company page identity visible in search result; direct page access 403.",
+    "No verified contemporaneous comparable spot LNG/LPG quotes or China LNG terminal volumes.",
+    "No assumption that crew redeployment equals production restoration."
+  ]
+}
