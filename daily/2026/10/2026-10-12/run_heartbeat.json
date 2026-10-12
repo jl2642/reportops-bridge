@@ -1,0 +1,14 @@
+{
+  "schema_version": "REPORTOPS_RECOVERY_HEARTBEAT_V1",
+  "target_date": "2026-10-12",
+  "scheduled_for": "10:15 Asia/Shanghai",
+  "scheduled_last_run_time": "2026-10-12T02:19:00.470914Z",
+  "scheduled_run_status": "FAILED_NO_DURABLE_HEARTBEAT_OR_PRODUCT",
+  "original_scheduled_heartbeat_found": false,
+  "mode": "BOUNDED_INTERACTIVE_RECOVERY__NOT_SCHEDULED_SUCCESS",
+  "recovery_started_at": "2026-10-12T03:33:42.870Z",
+  "status": "INTERACTIVE_RECOVERY_STARTED",
+  "canonical_mutation_performed": false,
+  "site_mutation_performed": false,
+  "notes": "Post-hoc recovery heartbeat. The scheduled run produced NO durable heartbeat; this file is created only by the interactive recovery. Scheduler is_disabled=true and root cause unknown."
+}
