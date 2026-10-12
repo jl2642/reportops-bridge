@@ -2,7 +2,7 @@
   "schema_version": "REPORTOPS_R3_1_CHAT_STATUS_V1_5_SINGLE_SITE",
   "scheduled_date": "2026-10-12",
   "target_date": "2026-10-12",
-  "current_day_status": "PUBLIC_CORE_ACCEPTED_PENDING_WORK__2026_10_12_BOUNDED_INTERACTIVE_RECOVERY",
+  "current_day_status": "FORMAL_CANONICAL_PUBLISHED__INTERACTIVE_RECOVERY",
   "scheduled_run_status": "ORIGINAL_10_15_FAILED__BOUNDED_INTERACTIVE_RECOVERY_CANDIDATE",
   "correction_backlog": {
     "status": "RESOLVED_BY_CHAT_CORRECTION",
@@ -45,38 +45,38 @@
   "privacy_status": "PASS_PUBLIC_SAFE_SINGLE_SITE",
   "window_status": "PASS_4_TIMED_SOURCES_IN_WINDOW",
   "data_gap_boundary_status": "PASS__NO_UNVERIFIED_PRICE_VALUE",
-  "current_daily_public": "2026-10-10",
+  "current_daily_public": "2026-10-12",
   "current_weekly_public": "2026-W40",
-  "formal_status": "PENDING_WORK_RECONCILIATION_2026_10_11_AND_2026_10_12",
-  "canonical_promotion_performed": false,
-  "site_publication_performed": false,
-  "public_site_version": 90,
-  "public_site_status": "PASS_V90_REMOTE_READBACK",
-  "manifest_reconciliation_status": "NOT_APPLICABLE__NO_PRODUCT_PROMOTION",
+  "formal_status": "FORMAL_CANONICAL_PUBLISHED",
+  "canonical_promotion_performed": true,
+  "site_publication_performed": true,
+  "public_site_version": 92,
+  "public_site_status": "PACKAGE_SUCCESS_SITE_PENDING",
+  "manifest_reconciliation_status": "PASS_GITHUB_MANIFESTS_POST_REBUILD_SHA",
   "metadata_freshness": "PASS__13_CURRENT_DERIVED_VIEWS__POINTER_MATCH",
-  "state_consistency_pointer_sha256": "59dfae757326634671d68e90301a68f41fb7fd26a885480cac09acaba0e9df2a",
-  "failure_stage": "SCHEDULED_10_15_FAILED_BEFORE_DURABLE_HEARTBEAT",
-  "failure_reason": "Original scheduled task became disabled at 2026-10-12 10:20 Asia/Shanghai after no durable heartbeat/product; exact unattended cause unavailable. Interactive bounded recovery produced full candidate without claiming scheduler repair.",
-  "next_action": "12:30 Work validate and promote Daily 2026-10-11 then 2026-10-12 oldest-first; independently inspect Scheduled Previous runs to diagnose why 10:15 task paused before re-enabling.",
-  "updated_at": "2026-10-12T03:37:59.485Z",
-  "queue_remaining": [
-    "Daily 2026-10-11",
-    "Daily 2026-10-12"
-  ],
-  "pending_product": "Daily 2026-10-11, Daily 2026-10-12",
+  "state_consistency_pointer_sha256": "257d4ce2d72a14ca8fabcfb630170572c35d532119b4dfb2296463df2c355b15",
+  "failure_stage": "PUBLIC_SITE_REMOTE_READBACK_UNAVAILABLE",
+  "failure_reason": "Canonical and local distribution artifacts validated, GitHub runtime reconciled; independent live Site content/download endpoint readback unavailable to this Chat. Site v92 success reported only in Authority, with future-dated receipt times, and not treated as confirmed.",
+  "next_action": "Use existing single Site deployment workflow to independently verify live homepage/current, 2026-10-11/12 Daily pages, download endpoints+SHA and resolve future-dated provenance; no Daily regeneration.",
+  "updated_at": "2026-10-12T04:57:38.779Z",
+  "queue_remaining": [],
+  "pending_product": null,
   "manual_intervention_required": false,
-  "authority_package_sha256": "57aba3bf4a1bc903e60832c3692510ec884211ef3740e16f444a21bd408f434c",
+  "authority_package_sha256": "75c2ff93381e56ceeeeb33f74a9e2b5b121312152b8c50e2e2ad7ad0991a396b",
   "queue_initial": [
     "Daily 2026-10-09",
     "Daily 2026-10-10"
   ],
-  "products_preflighted": [],
-  "products_promoted": [],
-  "products_blocked_local": [],
-  "eligible_unpublished_products": [
+  "products_preflighted": [
     "Daily 2026-10-11",
     "Daily 2026-10-12"
   ],
+  "products_promoted": [
+    "Daily 2026-10-11",
+    "Daily 2026-10-12"
+  ],
+  "products_blocked_local": [],
+  "eligible_unpublished_products": [],
   "preflight_blocker_matrix": [],
   "recovery_provenance": {
     "mode": "BOUNDED_MANUAL_RECOVERY_20260927",
@@ -89,8 +89,8 @@
     "producer_automation_restored": true,
     "prior_2026_09_26_correction_preserved": true
   },
-  "real_remote_readback_status": "PASS_REAL_REMOTE_CONTENT_V90__16_REQUIRED_PAGES",
-  "download_sha_status": "PASS_REMOTE_ZIP_SHA256_AND_UNZIP__Daily_2026-10-10=ce79ca50d57079d0f6f64f394db34db9f5c1733505e2734703bac7334fcb3640__Weekly_2026-W40=5a1bdc5e712f84cb8970aff63e079b193ba2a9eef4ca7e83bfdeb22b8137adc7",
+  "real_remote_readback_status": "NOT_INDEPENDENTLY_VERIFIED__WORK_RECEIPT_CLAIMS_V92",
+  "download_sha_status": "PASS_AUTHORITY_DOWNLOAD_SHA_LOCAL__LIVE_ENDPOINT_NOT_VERIFIED",
   "public_daily_2026_09_25_download_sha256": "b4a80928e9755db168822874115c2d40069f3d9ad919416291e739dee8db7e72",
   "public_weekly_2026_w38_download_sha256": "551496a55a54f77721bbb1a7d2f0dc584956e0a18c188c44c9b90ec1a0a6305a",
   "higher_cycle_dependency_state": "W40 published; W41 Canonical Daily pool 6/7; no Chat-accepted higher-cycle candidate",
@@ -107,7 +107,7 @@
   },
   "products_deferred_dependency": [],
   "public_daily_2026_09_26_download_sha256": "ea94ce1f2f69b3efa270295fb9f7b04c248280ea057a6a8721a7d3602522ba43",
-  "reportops_status": "UPSTREAM_RECOVERED_INTERACTIVELY__DAILY_2026_10_11_AND_2026_10_12_CANDIDATES_PENDING_WORK__SCHEDULED_PRODUCER_DISABLED",
+  "reportops_status": "PACKAGE_SUCCESS_SITE_PENDING",
   "correction_provenance_2026_09_27": {
     "corrected_at": "2026-09-27T22:50:00+08:00",
     "correction_type": "INLINE_CITATION_PLACEMENT_ONLY",
@@ -159,7 +159,7 @@
     "Daily 2026-10-08 bounded interactive candidate recovery"
   ],
   "github_write_status": "PASS__FOUR_FILES_2026_10_12_INTERACTIVE",
-  "github_readback_status": "PASS__FOUR_FILES_PLUS_HEARTBEAT_2026_10_12",
+  "github_readback_status": "PASS__INTERACTIVE_GITHUB_PRODUCER_ARTIFACTS_AND_CONSUMER_MANIFEST",
   "concurrency_reconciliation": {
     "detected": true,
     "issue": "LATE_HEARTBEAT_STALE_STATUS_OVERWRITE_FROM_IN_FLIGHT_10_15_RUN",
@@ -199,15 +199,15 @@
   "public_daily_2026_09_30_download_sha256": "71b2b772dfc67f33d4d36903b11d1a1a5608af8bd0fe7bb1faf566232e009916",
   "public_daily_2026_10_01_download_sha256": "f332e6a6ce7eecdce966954035d0306c03c12c6534e5960686a83177f6228ebd",
   "authority_sha_runtime_reconciliation": {
-    "status": "PASS__UNCHANGED_AUTHORITY_SHA_FOUR_WAY_MATCH",
+    "status": "PASS_POST_REBUILD_AUTHORITY_SHA_GITHUB_MIRROR",
     "authority_sha_before": "57aba3bf4a1bc903e60832c3692510ec884211ef3740e16f444a21bd408f434c",
-    "authority_sha_after": "57aba3bf4a1bc903e60832c3692510ec884211ef3740e16f444a21bd408f434c",
-    "library_sidecar_sha256": "57aba3bf4a1bc903e60832c3692510ec884211ef3740e16f444a21bd408f434c",
-    "runtime_authority_sha256": "57aba3bf4a1bc903e60832c3692510ec884211ef3740e16f444a21bd408f434c",
-    "manifest_authority_sha256": "NOT_APPLICABLE__NO_PROMOTION",
-    "reconciled_at": "2026-10-11T12:45:00+08:00"
+    "authority_sha_after": "75c2ff93381e56ceeeeb33f74a9e2b5b121312152b8c50e2e2ad7ad0991a396b",
+    "library_sidecar_sha256": "75c2ff93381e56ceeeeb33f74a9e2b5b121312152b8c50e2e2ad7ad0991a396b",
+    "runtime_authority_sha256": "75c2ff93381e56ceeeeb33f74a9e2b5b121312152b8c50e2e2ad7ad0991a396b",
+    "manifest_authority_sha256": "75c2ff93381e56ceeeeb33f74a9e2b5b121312152b8c50e2e2ad7ad0991a396b",
+    "reconciled_at": "2026-10-12T04:57:38.779Z"
   },
-  "runtime_sync_status": "PASS__UNCHANGED_AUTHORITY_SHA_FOUR_WAY_MATCH",
+  "runtime_sync_status": "PASS_POST_REBUILD_SHA_GITHUB_MIRROR",
   "recovery_provenance_2026_10_02": {
     "mode": "BOUNDED_INTERACTIVE_CONTINUITY_RECOVERY",
     "original_scheduled_run_observed": true,
@@ -311,9 +311,9 @@
     "handoff_path": "/能源周期报告/10_GOVERNANCE/DAILY_20261004_LINEAGE_REPAIR/REPORTOPS_CHAT_RECOVERY_HANDOFF_20261004.md",
     "identity_path": "/能源周期报告/10_GOVERNANCE/DAILY_20261004_LINEAGE_REPAIR/RECOVERY_SOURCE_IDENTITY_20261004.json"
   },
-  "current_daily_canonical": "2026-10-10",
+  "current_daily_canonical": "2026-10-12",
   "current_quarterly_public": "2026-Q3",
-  "library_sidecar_sha256": "57aba3bf4a1bc903e60832c3692510ec884211ef3740e16f444a21bd408f434c",
+  "library_sidecar_sha256": "75c2ff93381e56ceeeeb33f74a9e2b5b121312152b8c50e2e2ad7ad0991a396b",
   "stale_views": [],
   "candidate_2026_10_05": {
     "product_status": "PUBLIC_CORE_ACCEPTED_PENDING_WORK",
@@ -545,5 +545,10 @@
     "canonical_mutation_performed": false,
     "site_mutation_performed": false,
     "root_cause": "UNKNOWN__SCHEDULED_RUN_HISTORY_UNAVAILABLE"
-  }
+  },
+  "current_annual_public": "NO_FORMAL_2026_PRODUCT",
+  "last_updated": "2026-10-12T04:57:38.779Z",
+  "final_closure_status": "PACKAGE_SUCCESS_SITE_PENDING",
+  "status": "PACKAGE_SUCCESS_SITE_PENDING",
+  "public_site_publication_receipt_status": "WORK_REPORTED_V92__NO_INDEPENDENT_REMOTE_READBACK"
 }
