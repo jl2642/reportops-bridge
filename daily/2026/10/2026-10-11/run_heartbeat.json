@@ -1,29 +1,35 @@
 {
-  "schema_version": "REPORTOPS_RECOVERY_HEARTBEAT_V1",
   "target_date": "2026-10-11",
-  "window_start": "2026-10-10T10:00:00+08:00",
-  "window_end": "2026-10-11T10:00:00+08:00",
-  "mode": "BOUNDED_INTERACTIVE_RECOVERY",
-  "original_scheduled_run_observed": true,
-  "original_scheduled_run_artifacts_found": false,
-  "original_scheduled_run_last_run_time": "2026-10-11T02:18:54.984857Z",
-  "original_producer_success": false,
-  "recovery_started_at": "2026-10-12T01:09:01.649Z",
-  "status": "PRODUCER_SUCCESS_CANDIDATES_PENDING_WORK",
-  "canonical_mutation_performed": false,
-  "site_mutation_performed": false,
-  "notes": "Historical 10:15 scheduled run not claimed successful. Recovery creates new durable provenance and must pass product gates before Work consumption.",
-  "finished_at": "2026-10-12T01:12:20.314Z",
-  "products_repaired_or_produced": [
-    "Daily 2026-10-11"
+  "scheduled_for": "10:15 Asia/Shanghai",
+  "run_started_at": null,
+  "status": "FAILED",
+  "products_repaired_or_produced": [],
+  "producer_recovery_queue_remaining": [
+    "2026-10-11"
   ],
-  "producer_recovery_queue_remaining": [],
-  "queue_for_12_30_work": [
-    "Daily 2026-10-11"
-  ],
-  "post_run_self_audit_status": "PASS__DURABLE_FOUR_ARTIFACT_READBACK__FORMAL_WORK_VALIDATOR_PENDING",
-  "failure_stage": null,
-  "failure_reason": null,
-  "github_write_status": "PASS",
-  "github_readback_status": "PASS"
+  "queue_for_12_30_work": [],
+  "post_run_self_audit_status": "NOT_REACHED",
+  "failure_stage": "NO_DURABLE_SCHEDULED_ARTIFACT",
+  "failure_reason": "The 2026-10-11 scheduled 10:15 task has a recorded run but no original run_heartbeat/public_core/evidence/manifest was persisted. Exact internal cause is unknown.",
+  "bounded_interactive_recovery": {
+    "status": "PRODUCER_SUCCESS_CANDIDATES_PENDING_WORK",
+    "recovery_mode": "INTERACTIVE_MANUAL_AFTER_SCHEDULED_FAILURE",
+    "recovered_date": "2026-10-11",
+    "recovered_files": [
+      "public_core.md",
+      "evidence.json",
+      "evidence_ledger_v2_2026-10-11.csv",
+      "manifest.json"
+    ],
+    "source_identity_status": "PASS_4_OF_4_WITH_ONE_DATE_ONLY",
+    "inline_citations_status": "PASS_4_OF_4",
+    "evidence_governance_v2_status": "PRODUCER_SCHEMA_CHECK_PASS__FORMAL_WORK_VALIDATOR_PENDING",
+    "github_write_status": "PASS_4_OF_4",
+    "github_readback_status": "PASS_4_OF_4",
+    "canonical_promotion_performed": false,
+    "site_publication_performed": false,
+    "original_scheduled_task_failure_preserved": true,
+    "original_scheduled_run_last_run_time": "2026-10-11T02:18:54.984857Z",
+    "completed_at": "2026-10-12T01:12:20.314Z"
+  }
 }
