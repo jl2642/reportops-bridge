@@ -1,0 +1,16 @@
+{
+  "schema_version": "REPORTOPS_RECOVERY_HEARTBEAT_V1",
+  "target_date": "2026-10-11",
+  "window_start": "2026-10-10T10:00:00+08:00",
+  "window_end": "2026-10-11T10:00:00+08:00",
+  "mode": "BOUNDED_INTERACTIVE_RECOVERY",
+  "original_scheduled_run_observed": true,
+  "original_scheduled_run_artifacts_found": false,
+  "original_scheduled_run_last_run_time": "2026-10-11T02:18:54.984857Z",
+  "original_producer_success": false,
+  "recovery_started_at": "2026-10-12T01:09:01.649Z",
+  "status": "RUN_STARTED_BEFORE_PREFLIGHT",
+  "canonical_mutation_performed": false,
+  "site_mutation_performed": false,
+  "notes": "Historical 10:15 scheduled run not claimed successful. Recovery creates new durable provenance and must pass product gates before Work consumption."
+}
