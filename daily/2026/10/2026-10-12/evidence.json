@@ -1,0 +1,103 @@
+{
+  "schema_version": "REPORTOPS_EVIDENCE_V1_2",
+  "target_date": "2026-10-12",
+  "window_start": "2026-10-11T10:00:00+08:00",
+  "window_end": "2026-10-12T10:00:00+08:00",
+  "mode": "STRICT_NEW_PUBLIC",
+  "records": [
+    {
+      "id": "E01",
+      "claim_role": "CORE",
+      "support": "DIRECT",
+      "publisher": "上海石油天然气交易中心",
+      "publication_time": "2026-10-11T15:15:51+08:00",
+      "title": "中海石油气电集团有限责任公司江苏分公司关于2026年10月10日LNG交易挂牌价公告",
+      "url": "https://www.shpgx.com/html/hyzq/20261011/10079.html",
+      "url_identity_status": "PASS",
+      "url_verified_date": "2026-10-12",
+      "source_identity_receipt": {
+        "verification_method": "OFFICIAL_DOCUMENT_LISTING",
+        "observed_url": "https://www.shpgx.com/html/hyzq/20261011/10079.html",
+        "canonical_url": "https://www.shpgx.com/html/hyzq/20261011/10079.html",
+        "observed_title": "中海石油气电集团有限责任公司江苏分公司关于2026年10月10日LNG交易挂牌价公告",
+        "observed_publisher": "上海石油天然气交易中心",
+        "title_match_status": "EXACT",
+        "verified_at": "2026-10-12T03:35:49.474Z"
+      },
+      "boundary": "Official announcement exists, but no independently verified price number or executed transaction; listing business date is 2026-10-10."
+    },
+    {
+      "id": "E02",
+      "claim_role": "MATERIAL",
+      "support": "DIRECT",
+      "publisher": "Reuters",
+      "publication_time": "2026-10-11T17:07:00Z",
+      "title": "Iran says US response to its proposal to reopen Hormuz was 'insufficient'",
+      "url": "https://www.reuters.com/world/middle-east/iran-says-us-response-its-proposal-reopen-hormuz-was-insufficient-2026-10-11/",
+      "url_identity_status": "PASS",
+      "url_verified_date": "2026-10-12",
+      "source_identity_receipt": {
+        "verification_method": "OPENED_EXACT_DOCUMENT",
+        "observed_url": "https://www.reuters.com/world/middle-east/iran-says-us-response-its-proposal-reopen-hormuz-was-insufficient-2026-10-11/",
+        "canonical_url": "https://www.reuters.com/world/middle-east/iran-says-us-response-its-proposal-reopen-hormuz-was-insufficient-2026-10-11/",
+        "observed_title": "Iran says US response to its proposal to reopen Hormuz was 'insufficient'",
+        "observed_publisher": "Reuters",
+        "title_match_status": "EXACT",
+        "verified_at": "2026-10-12T03:35:49.474Z"
+      },
+      "boundary": "Iranian unilateral response; not a joint reopening schedule, nor proof all ships stopped."
+    },
+    {
+      "id": "E03",
+      "claim_role": "MATERIAL",
+      "support": "DIRECT",
+      "publisher": "Reuters",
+      "publication_time": "2026-10-11T15:58:00Z",
+      "title": "US Republicans, Democrats want Trump to reverse course on Russia diesel",
+      "url": "https://www.reuters.com/business/energy/prominent-republican-senator-says-trumps-russian-diesel-deal-may-be-illegal-2026-10-11/",
+      "url_identity_status": "PASS",
+      "url_verified_date": "2026-10-12",
+      "source_identity_receipt": {
+        "verification_method": "OPENED_EXACT_DOCUMENT",
+        "observed_url": "https://www.reuters.com/business/energy/prominent-republican-senator-says-trumps-russian-diesel-deal-may-be-illegal-2026-10-11/",
+        "canonical_url": "https://www.reuters.com/business/energy/prominent-republican-senator-says-trumps-russian-diesel-deal-may-be-illegal-2026-10-11/",
+        "observed_title": "US Republicans, Democrats want Trump to reverse course on Russia diesel",
+        "observed_publisher": "Reuters",
+        "title_match_status": "EXACT",
+        "verified_at": "2026-10-12T03:35:49.474Z"
+      },
+      "boundary": "Legislative objection is not legal judgment, executed diesel trade volume, or confirmed cancellation."
+    },
+    {
+      "id": "E04",
+      "claim_role": "MATERIAL",
+      "support": "DIRECT",
+      "publisher": "Reuters",
+      "publication_time": "2026-10-11T04:54:00Z",
+      "title": "All 22 Indian crew rescued and safe after incident off UAE coast, consulate says",
+      "url": "https://www.reuters.com/world/india/all-22-indian-crew-rescued-safe-after-incident-off-uae-coast-consulate-says-2026-10-11/",
+      "url_identity_status": "PASS",
+      "url_verified_date": "2026-10-12",
+      "source_identity_receipt": {
+        "verification_method": "OPENED_EXACT_DOCUMENT",
+        "observed_url": "https://www.reuters.com/world/india/all-22-indian-crew-rescued-safe-after-incident-off-uae-coast-consulate-says-2026-10-11/",
+        "canonical_url": "https://www.reuters.com/world/india/all-22-indian-crew-rescued-safe-after-incident-off-uae-coast-consulate-says-2026-10-11/",
+        "observed_title": "All 22 Indian crew rescued and safe after incident off UAE coast, consulate says",
+        "observed_publisher": "Reuters",
+        "title_match_status": "EXACT",
+        "verified_at": "2026-10-12T03:35:49.474Z"
+      },
+      "boundary": "Incident cause undisclosed; cannot label as attack or quantified commodity supply disruption."
+    }
+  ],
+  "guessed_url_count": 0,
+  "unsupported_core_claims": 0,
+  "evidence_record_count": 4,
+  "excluded_records": [],
+  "data_gap_notes": [
+    "SHPGX image-based numeric LNG listing price not transcribed; business date differs from publication date.",
+    "No exact comparable Sunday new spot JKM/TTF/Brent/WTI/China LPG trades.",
+    "Hormuz proposal is unilateral Iran statement, not verified completed agreement.",
+    "UAE tanker rescue has undisclosed event cause."
+  ]
+}
