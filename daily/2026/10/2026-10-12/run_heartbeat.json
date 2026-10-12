@@ -7,8 +7,23 @@
   "original_scheduled_heartbeat_found": false,
   "mode": "BOUNDED_INTERACTIVE_RECOVERY__NOT_SCHEDULED_SUCCESS",
   "recovery_started_at": "2026-10-12T03:33:42.870Z",
-  "status": "INTERACTIVE_RECOVERY_STARTED",
+  "status": "PRODUCER_SUCCESS_CANDIDATES_PENDING_WORK",
   "canonical_mutation_performed": false,
   "site_mutation_performed": false,
-  "notes": "Post-hoc recovery heartbeat. The scheduled run produced NO durable heartbeat; this file is created only by the interactive recovery. Scheduler is_disabled=true and root cause unknown."
+  "notes": "Post-hoc recovery heartbeat. The scheduled run produced NO durable heartbeat; this file is created only by the interactive recovery. Scheduler is_disabled=true and root cause unknown.",
+  "products_repaired_or_produced": [
+    "2026-10-12"
+  ],
+  "producer_recovery_queue_remaining": [],
+  "queue_for_12_30_work": [
+    "Daily 2026-10-11",
+    "Daily 2026-10-12"
+  ],
+  "post_run_self_audit_status": "PASS__GITHUB_FOUR_ARTIFACTS_READBACK__DYNAMIC_V4_SOURCE_WINDOW_INLINE_LEDGER",
+  "github_write_status": "PASS__4_OF_4",
+  "github_readback_status": "PASS__4_OF_4",
+  "formal_work_validator": "PENDING",
+  "recovery_completed_at": "2026-10-12T03:37:30.322Z",
+  "failure_stage": "HISTORICAL_SCHEDULED_RUN_NO_DURABLE_OUTPUT",
+  "failure_reason": "Original 10:15 scheduled run triggered then was disabled; no original heartbeat/product was found. Internal platform/tool cause remains unknown. Current product was produced only by bounded interactive recovery."
 }
