@@ -16,13 +16,13 @@
       "url_identity_status": "PASS",
       "url_verified_date": "2026-10-12",
       "source_identity_receipt": {
-        "verification_method": "OFFICIAL_DOCUMENT_LISTING",
+        "verification_method": "OPENED_EXACT_DOCUMENT",
         "observed_url": "https://www.shpgx.com/html/hyzq/20261011/10079.html",
         "canonical_url": "https://www.shpgx.com/html/hyzq/20261011/10079.html",
         "observed_title": "中海石油气电集团有限责任公司江苏分公司关于2026年10月10日LNG交易挂牌价公告",
         "observed_publisher": "上海石油天然气交易中心",
         "title_match_status": "EXACT",
-        "verified_at": "2026-10-12T03:35:49.474Z"
+        "verified_at": "2026-10-12T03:42:37.591Z"
       },
       "boundary": "Official announcement exists, but no independently verified price number or executed transaction; listing business date is 2026-10-10."
     },
@@ -37,13 +37,13 @@
       "url_identity_status": "PASS",
       "url_verified_date": "2026-10-12",
       "source_identity_receipt": {
-        "verification_method": "OPENED_EXACT_DOCUMENT",
+        "verification_method": "SEARCH_RESULT_OBSERVED",
         "observed_url": "https://www.reuters.com/world/middle-east/iran-says-us-response-its-proposal-reopen-hormuz-was-insufficient-2026-10-11/",
         "canonical_url": "https://www.reuters.com/world/middle-east/iran-says-us-response-its-proposal-reopen-hormuz-was-insufficient-2026-10-11/",
         "observed_title": "Iran says US response to its proposal to reopen Hormuz was 'insufficient'",
         "observed_publisher": "Reuters",
         "title_match_status": "EXACT",
-        "verified_at": "2026-10-12T03:35:49.474Z"
+        "verified_at": "2026-10-12T03:42:37.594Z"
       },
       "boundary": "Iranian unilateral response; not a joint reopening schedule, nor proof all ships stopped."
     },
@@ -58,13 +58,13 @@
       "url_identity_status": "PASS",
       "url_verified_date": "2026-10-12",
       "source_identity_receipt": {
-        "verification_method": "OPENED_EXACT_DOCUMENT",
+        "verification_method": "SEARCH_RESULT_OBSERVED",
         "observed_url": "https://www.reuters.com/business/energy/prominent-republican-senator-says-trumps-russian-diesel-deal-may-be-illegal-2026-10-11/",
         "canonical_url": "https://www.reuters.com/business/energy/prominent-republican-senator-says-trumps-russian-diesel-deal-may-be-illegal-2026-10-11/",
         "observed_title": "US Republicans, Democrats want Trump to reverse course on Russia diesel",
         "observed_publisher": "Reuters",
         "title_match_status": "EXACT",
-        "verified_at": "2026-10-12T03:35:49.474Z"
+        "verified_at": "2026-10-12T03:42:37.594Z"
       },
       "boundary": "Legislative objection is not legal judgment, executed diesel trade volume, or confirmed cancellation."
     },
@@ -79,13 +79,13 @@
       "url_identity_status": "PASS",
       "url_verified_date": "2026-10-12",
       "source_identity_receipt": {
-        "verification_method": "OPENED_EXACT_DOCUMENT",
+        "verification_method": "SEARCH_RESULT_OBSERVED",
         "observed_url": "https://www.reuters.com/world/india/all-22-indian-crew-rescued-safe-after-incident-off-uae-coast-consulate-says-2026-10-11/",
         "canonical_url": "https://www.reuters.com/world/india/all-22-indian-crew-rescued-safe-after-incident-off-uae-coast-consulate-says-2026-10-11/",
         "observed_title": "All 22 Indian crew rescued and safe after incident off UAE coast, consulate says",
         "observed_publisher": "Reuters",
         "title_match_status": "EXACT",
-        "verified_at": "2026-10-12T03:35:49.474Z"
+        "verified_at": "2026-10-12T03:42:37.594Z"
       },
       "boundary": "Incident cause undisclosed; cannot label as attack or quantified commodity supply disruption."
     }
