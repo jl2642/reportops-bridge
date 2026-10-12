@@ -42,7 +42,7 @@
   "site_publication_performed": false,
   "reader_status": "PENDING_WORK_RENDER",
   "lineage_status": "PENDING_WORK_CONSUMER_VALIDATION",
-  "post_run_self_audit_status": "PENDING_DURABLE_READBACK",
+  "post_run_self_audit_status": "PASS__GITHUB_FOUR_FILES_READBACK__DYNAMIC_DEPTH_STRUCTURE_SOURCE_BOUNDARIES",
   "work_may_rewrite": false,
   "consumer_status": "PENDING_12_30_WORK_RECONCILIATION",
   "blocking_reason": null,
@@ -54,5 +54,7 @@
     "no_canonical_mutation": true,
     "no_site_mutation": true
   },
-  "manual_intervention_required": false
+  "manual_intervention_required": false,
+  "github_write_status": "PASS__FOUR_ARTIFACTS_MAIN",
+  "github_readback_status": "PASS__4_OF_4"
 }
