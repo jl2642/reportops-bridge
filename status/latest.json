@@ -2,8 +2,8 @@
   "schema_version": "REPORTOPS_R3_1_CHAT_STATUS_V1_5_SINGLE_SITE",
   "scheduled_date": "2026-10-11",
   "target_date": "2026-10-11",
-  "current_day_status": "NO_NEW_CHAT_ACCEPTED_PRODUCT__SITE_CORRECTION_COMPLETED",
-  "scheduled_run_status": "SUCCESS__CONSUMER_PROMOTION_AND_PUBLICATION",
+  "current_day_status": "PUBLIC_CORE_ACCEPTED_PENDING_WORK__2026_10_11_BOUNDED_RECOVERY",
+  "scheduled_run_status": "ORIGINAL_10_15_FAILED__BOUNDED_INTERACTIVE_RECOVERY_CANDIDATE",
   "correction_backlog": {
     "status": "RESOLVED_BY_CHAT_CORRECTION",
     "chat_correction_required": false,
@@ -48,9 +48,9 @@
   "data_gap_boundary_status": "PASS",
   "current_daily_public": "2026-10-10",
   "current_weekly_public": "2026-W40",
-  "formal_status": "NO_NEW_PRODUCT__SITE_ONLY_CORRECTIVE_REPUBLISH_PASS",
+  "formal_status": "PENDING_WORK_RECONCILIATION_2026_10_11",
   "canonical_promotion_performed": false,
-  "site_publication_performed": true,
+  "site_publication_performed": false,
   "public_site_version": 90,
   "public_site_status": "PASS_V90_REMOTE_READBACK",
   "manifest_reconciliation_status": "NOT_APPLICABLE__NO_PRODUCT_PROMOTION",
@@ -59,9 +59,11 @@
   "failure_stage": null,
   "failure_reason": null,
   "next_action": "Scan only new Chat-accepted products; idempotently skip closed versions.",
-  "updated_at": "2026-10-11T12:45:00+08:00",
-  "queue_remaining": [],
-  "pending_product": null,
+  "updated_at": "2026-10-12T01:12:37.482Z",
+  "queue_remaining": [
+    "Daily 2026-10-11"
+  ],
+  "pending_product": "Daily 2026-10-11",
   "manual_intervention_required": false,
   "authority_package_sha256": "57aba3bf4a1bc903e60832c3692510ec884211ef3740e16f444a21bd408f434c",
   "queue_initial": [
@@ -71,7 +73,9 @@
   "products_preflighted": [],
   "products_promoted": [],
   "products_blocked_local": [],
-  "eligible_unpublished_products": [],
+  "eligible_unpublished_products": [
+    "Daily 2026-10-11"
+  ],
   "preflight_blocker_matrix": [],
   "recovery_provenance": {
     "mode": "BOUNDED_MANUAL_RECOVERY_20260927",
@@ -102,7 +106,7 @@
   },
   "products_deferred_dependency": [],
   "public_daily_2026_09_26_download_sha256": "ea94ce1f2f69b3efa270295fb9f7b04c248280ea057a6a8721a7d3602522ba43",
-  "reportops_status": "SUCCESS__SITE_CORRECTION_PASS__NO_PRODUCT_QUEUE",
+  "reportops_status": "UPSTREAM_RECOVERED__2026_10_11_CANDIDATE_PENDING_WORK",
   "correction_provenance_2026_09_27": {
     "corrected_at": "2026-09-27T22:50:00+08:00",
     "correction_type": "INLINE_CITATION_PLACEMENT_ONLY",
@@ -521,5 +525,13 @@
   "preflight_status": "PASS__READ_ONLY_NON_SHORT_CIRCUIT_FULL_QUEUE__EMPTY_QUEUE",
   "policy_identity_status": "PASS__AUTHORITY_GITHUB_MIRROR_MATCH",
   "public_contract_sha256": "64770bf24f1280d11060d6a905a659241d5e483109fc8c3e34195a8264fc48f6",
-  "authority_policy_sha256": "ed69573e48d0daedd1b899ab2d6cf15880f37705f88b44b1a9d2ca26715f9905"
+  "authority_policy_sha256": "ed69573e48d0daedd1b899ab2d6cf15880f37705f88b44b1a9d2ca26715f9905",
+  "recovery_provenance_2026_10_11": {
+    "mode": "BOUNDED_INTERACTIVE_RECOVERY",
+    "original_scheduled_run_success": false,
+    "github_artifact_readback": "PASS_4_OF_4",
+    "formal_work_validator": "PENDING",
+    "canonical_mutation_performed": false,
+    "site_mutation_performed": false
+  }
 }
