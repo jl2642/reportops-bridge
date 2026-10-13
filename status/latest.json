@@ -253,7 +253,7 @@
     "industry_operator_cjk_actual": 208
   },
   "public_daily_2026_10_02_download_sha256": "d2939f2bcc654a268bea060b4715dd00fb05f7a7707db1daa7fed393c7a61262",
-  "last_work_reconciled_at": "2026-10-13T05:50:00Z",
+  "last_work_reconciled_at": "2026-10-13T13:05:00+08:00",
   "candidate_2026_10_03": {
     "product_status": "ATOMIC_PROMOTED_SITE_VISIBLE__AUTHORITY_CLOSURE_PENDING",
     "formal_status": "ATOMIC_PROMOTION_CHECKPOINT_PRESERVED__AUTHORITY_UNIFIED_CLOSURE_PENDING",
@@ -323,7 +323,7 @@
     "handoff_path": "/能源周期报告/10_GOVERNANCE/DAILY_20261004_LINEAGE_REPAIR/REPORTOPS_CHAT_RECOVERY_HANDOFF_20261004.md",
     "identity_path": "/能源周期报告/10_GOVERNANCE/DAILY_20261004_LINEAGE_REPAIR/RECOVERY_SOURCE_IDENTITY_20261004.json"
   },
-  "current_daily_canonical": "2026-10-12",
+  "current_daily_canonical": "2026-10-13",
   "current_quarterly_public": "2026-Q3",
   "library_sidecar_sha256": "a05978ae8372b5d7ad6071c08aab4fe87fcee76d829413b6634e064696d88313",
   "stale_views": [],
@@ -405,7 +405,7 @@
     "prose_changed": false,
     "next_status": "READY_FOR_WORK_PREFLIGHT_RETRY"
   },
-  "last_consumer_checkpoint": "FINAL_REPORTOPS_CHECKPOINT_20261010.json",
+  "last_consumer_checkpoint": "FINAL_REPORTOPS_CHECKPOINT_20261013.json",
   "bounded_repair_2026_10_06": {
     "daily_2026_10_05": {
       "previous_blocker": "MISSING_AUTHORITY_COMPATIBLE_SOURCE_IDENTITY_ACQUISITION_RECEIPTS",
@@ -535,7 +535,7 @@
     "resolved_at": "2026-10-11T12:45:00+08:00",
     "resolution": "PASS_V90_REAL_ORIGIN_READBACK__HOME_CURRENT_DAILY_2026_10_10"
   },
-  "preflight_status": "PASS__READ_ONLY_NON_SHORT_CIRCUIT_FULL_QUEUE__EMPTY_QUEUE",
+  "preflight_status": "PASS__READ_ONLY_NON_SHORT_CIRCUIT_FULL_QUEUE__TWO_PRODUCTS_PROMOTED",
   "policy_identity_status": "PASS__AUTHORITY_GITHUB_MIRROR_MATCH",
   "public_contract_sha256": "64770bf24f1280d11060d6a905a659241d5e483109fc8c3e34195a8264fc48f6",
   "authority_policy_sha256": "ed69573e48d0daedd1b899ab2d6cf15880f37705f88b44b1a9d2ca26715f9905",
@@ -562,7 +562,7 @@
   "last_updated": "2026-10-13T05:50:00Z",
   "final_closure_status": "SUCCESS",
   "status": "FORMAL_CANONICAL_PUBLISHED",
-  "public_site_publication_receipt_status": "WORK_REPORTED_V92__NO_INDEPENDENT_REMOTE_READBACK",
+  "public_site_publication_receipt_status": "PASS_V93_REAL_REMOTE_READBACK",
   "public_daily_2026_10_13_download_sha256": "9f208040c99e46ce8752577be3b77387592d25776f3fb89940e91f727add246d",
   "public_weekly_2026_w41_download_sha256": "0ca240b7f1102418c24175b6385ae1e989731f4364536837638563363e80b68c",
   "upstream_producer_status": "RECOVERED_COMPLETE_CANDIDATE__10_15_AUTOMATION_ENABLED__ORIGINAL_WRITE_FAILED__UNATTENDED_STABILITY_NOT_PROVEN",
