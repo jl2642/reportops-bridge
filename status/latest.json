@@ -24,8 +24,8 @@
     "work_may_rewrite": false,
     "pending_consumer_revalidation": false
   },
-  "source_identity_gate_status": "PASS_8_OF_8__ACQUISITION_RECEIPTS",
-  "inline_citation_gate_status": "PASS_8_OF_8__EXACT_URL_BINDINGS",
+  "source_identity_gate_status": "PASS_9_OF_9_ATOMIC_CLAIMS__8_RECONCILED_ACQUISITION_RECEIPTS",
+  "inline_citation_gate_status": "PASS_9_OF_9_ATOMIC_CLAIMS__8_EXACT_SOURCE_URLS",
   "signal_priority_status": "PASS_QATAR_LNG_ASIA_DEMAND_EU_STORAGE_FREIGHT",
   "exact_v4_machine_structure_status": "PASS__8_MODULES_4_SIGNAL_CARDS",
   "v4_public_depth_gate_status": "PASS_DYNAMIC_V4__ALL_FLOORS",
@@ -42,9 +42,9 @@
   "global_energy_cjk_actual": 166,
   "industry_operator_cjk_actual": 227,
   "depth_policy_public_contract_sha256": "64770bf24f1280d11060d6a905a659241d5e483109fc8c3e34195a8264fc48f6",
-  "evidence_status": "8_RECORDS__ONE_OFFICIAL_DATE_ONLY_WITH_TIMED_CORROBORATION",
+  "evidence_status": "9_ATOMIC_CLAIMS_8_DISTINCT_SOURCES__BRENT_WTI_ATOMIC_SPLIT",
   "privacy_status": "PASS_PUBLIC_SAFE_SINGLE_SITE",
-  "window_status": "PASS_7_EXACT_TIMED__E05_DATE_ONLY_WITH_TIMED_CORROBORATION",
+  "window_status": "PASS_WITH_PROVENANCE_WARNINGS__E01_E02_E06_ORIGIN_MINUTE_UNVERIFIED",
   "data_gap_boundary_status": "PASS__CHINA_PRICE_IMAGE_NOT_EXTRACTED",
   "current_daily_public": "2026-10-12",
   "current_weekly_public": "2026-W40",
@@ -59,7 +59,7 @@
   "failure_stage": "ORIGINAL_SCHEDULED_PUBLIC_CORE_CREATE_BLOCKED__RESOLVED_IN_INTERACTIVE_RECOVERY_ONLY",
   "failure_reason": "Scheduled 10:15 run failed GitHub public_core.md create due to safety checks. New user-authorized bounded interactive recovery wrote and read back 4 product files via the same GitHub connector. Scheduled writer's future stability not proven.",
   "next_action": "12:30 Work: independently validate 2026-10-13 full Daily candidate for atomic Canonical promotion; check existing PACKAGE_SUCCESS_SITE_PENDING remote readback. Do not redo research or overwrite accepted prose.",
-  "updated_at": "2026-10-13T02:33:28.428Z",
+  "updated_at": "2026-10-13T02:51:19.938Z",
   "queue_remaining": [
     "Daily 2026-10-13"
   ],
@@ -163,8 +163,8 @@
     "Daily 2026-10-07 bounded interactive candidate recovery",
     "Daily 2026-10-08 bounded interactive candidate recovery"
   ],
-  "github_write_status": "PASS__INTERACTIVE_2026_10_13_FOUR_PRODUCT_ASSETS",
-  "github_readback_status": "PASS__INTERACTIVE_2026_10_13_FOUR_PRODUCT_ASSETS",
+  "github_write_status": "PASS__INTERACTIVE_BOUNDED_AUDIT_2026_10_13",
+  "github_readback_status": "PASS__RECONCILED_FOUR_PRODUCT_ASSETS",
   "concurrency_reconciliation": {
     "detected": true,
     "issue": "LATE_HEARTBEAT_STALE_STATUS_OVERWRITE_FROM_IN_FLIGHT_10_15_RUN",
@@ -457,7 +457,7 @@
   "public_daily_2026_10_06_download_sha256": "e9d6021b286931bbd995e88897c4507b415c8aed23d934e067be9356337eace9",
   "public_daily_2026_10_07_download_sha256": "32c68d8dfcc668e572a66098556070f1601fa786c79d91669ccffd39d21127f6",
   "public_daily_2026_10_08_download_sha256": "1a52da0a7c7f7003a17ee2f5597b3066af5050a26e7d7d8becffe99b35de70d2",
-  "post_run_self_audit_status": "PASS__INTERACTIVE_2026_10_13__DEPTH_SOURCE_WINDOW_INLINE_LEDGER",
+  "post_run_self_audit_status": "PASS_WITH_PROVENANCE_WARNINGS__CURRENT_FOUR_PRODUCT_ASSETS_READBACK__2026_10_13",
   "correction_request_path": "daily/2026/10/2026-10-09/correction_request.json",
   "producer_recovery_latest": {
     "date": "2026-10-10",
