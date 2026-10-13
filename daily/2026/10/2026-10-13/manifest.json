@@ -9,8 +9,8 @@
   "scheduled_run_status": "ORIGINAL_10_15_FAILED__BOUNDED_INTERACTIVE_RECOVERY",
   "continuity_classification": "ZERO_PRODUCT_ARTIFACT_RECOVERED_INTERACTIVELY",
   "mode": "BOUNDED_INTERACTIVE_RECONSTRUCTION_NOT_SCHEDULED_SUCCESS",
-  "source_identity_gate_status": "PASS_8_OF_8__ACQUISITION_RECEIPTS",
-  "inline_citation_gate_status": "PASS_8_OF_8__EXACT_URL_BINDINGS",
+  "source_identity_gate_status": "PASS_9_OF_9_ATOMIC_CLAIMS__8_RECONCILED_ACQUISITION_RECEIPTS",
+  "inline_citation_gate_status": "PASS_9_OF_9_ATOMIC_CLAIMS__8_EXACT_SOURCE_URLS",
   "signal_priority_status": "PASS_QATAR_LNG_SOUTHEAST_ASIA_DEMAND_EU_STORAGE_FREIGHT",
   "exact_v4_machine_structure_status": "PASS__8_MODULE_MARKERS_4_SIGNAL_CARDS",
   "v4_public_depth_gate_status": "PASS_DYNAMIC_V4__ALL_FLOORS",
@@ -27,13 +27,13 @@
   "global_energy_cjk_actual": 210,
   "industry_operator_cjk_actual": 216,
   "privacy_status": "PASS_PUBLIC_SAFE_SINGLE_SITE",
-  "window_status": "PASS_7_MINUTE_TIMED_SOURCES__E05_OFFICIAL_DATE_ONLY_CROSS_REFERENCED_TO_TIMED_REUTERS",
-  "evidence_status": "8_RECORDS__ONE_DATE_ONLY_RELEASE__FORECAST_AND_COMMENTARY_BOUNDED",
-  "strict_v2_ledger_status": "PRODUCER_SCHEMA_AND_READBACK_PASS__FORMAL_VALIDATOR_PENDING_WORK",
+  "window_status": "PASS_WITH_PROVENANCE_WARNINGS__E01_E02_E06_MINUTE_NOT_ORIGIN_VERIFIED",
+  "evidence_status": "9_ATOMIC_CLAIMS_8_DISTINCT_SOURCES__PRICE_SPLIT__TIMESTAMP_PROVENANCE_BOUNDED",
+  "strict_v2_ledger_status": "PRODUCER_RECONCILED_9_ATOMIC_CLAIMS__FORMAL_VALIDATOR_PENDING_WORK",
   "data_gap_boundary_status": "PASS__NO_UNVERIFIED_CHINA_LNG_LPG_PRICE_VALUES",
   "unsupported_core_claims": 0,
   "signal_card_count": 4,
-  "evidence_record_count": 8,
+  "evidence_record_count": 9,
   "public_contract_sha256": "64770bf24f1280d11060d6a905a659241d5e483109fc8c3e34195a8264fc48f6",
   "authority_policy_sha256": "ed69573e48d0daedd1b899ab2d6cf15880f37705f88b44b1a9d2ca26715f9905",
   "predecessor_daily": "2026-10-12",
@@ -44,13 +44,13 @@
   "site_publication_performed": false,
   "work_may_rewrite": false,
   "formal_work_validator": "PENDING__12_30_WORK",
-  "post_run_self_audit_status": "PASS__FOUR_FILES_READBACK__DYNAMIC_DEPTH_SOURCE_WINDOW_INLINE_LEDGER",
+  "post_run_self_audit_status": "PASS_WITH_DISCLOSED_PROVENANCE_WARNINGS__FOUR_ASSET_READBACK__PRICE_ATOMICITY",
   "github_write_status": "PASS__FOUR_OF_FOUR_RECOVERED_PRODUCT_ASSETS",
   "github_readback_status": "PASS__FOUR_OF_FOUR_RECOVERED_PRODUCT_ASSETS",
   "source_file_blob_sha": {
-    "public_core_md": "fa43b0313c065d4668b6959817f5563d40418d00",
-    "evidence_json": "d85533f77a167d96fe9d2246b1a5664f4d6560eb",
-    "ledger_csv": "6f952aa107aef8382605c521e159572fcd6ebde1"
+    "public_core_md": "c53654803e46f55efe2a2c63711e0e5f7884521d",
+    "evidence_json": "30cfe80d8cc08210b59cb2ecfcd395b86f6d9067",
+    "ledger_csv": "dc2d9bbfb850b0e79e53abdb51a12f0ac22a3257"
   },
   "recovery_notes": "Original scheduled run retained as failed; new candidate independently researched using exactly the fixed window, no Canonical or Site modification. OPEC official source E05 exposes calendar date only; time-specific corroboration observed in Reuters 2026-10-12 19:11 UTC. Work must independently validate time, Evidence Governance, Reader and Lineage.",
   "producer_checks": {
@@ -66,7 +66,17 @@
     "ledger": true,
     "privacy": true,
     "evidence_receipts": true,
-    "window": true
+    "window": true,
+    "atomic_price_claims": true,
+    "receipt_methods_reconciled": true,
+    "inline_evidence_nine": true
   },
-  "producer_acceptance_completed_at": "2026-10-13T02:32:34.042Z"
+  "producer_acceptance_completed_at": "2026-10-13T02:32:34.042Z",
+  "source_url_count_distinct": 8,
+  "warnings": [
+    "DAILY_CJK_TARGET_BAND_EXCEEDED_NON_BLOCKING__3850_GT_3500",
+    "REUTERS_DIRECT_OPEN_UNAVAILABLE_SEARCH_RESULT_IDENTITY_RECONCILED",
+    "E01_E02_E06_PUBLISHED_MINUTE_NOT_FULLY_ORIGIN_VERIFIED__WORK_TIME_AUDIT_RECOMMENDED"
+  ],
+  "bounded_audit_correction_completed_at": "2026-10-13T02:47:44.419Z"
 }
