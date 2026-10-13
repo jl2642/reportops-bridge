@@ -43,10 +43,10 @@
   "canonical_promotion_performed": false,
   "site_publication_performed": false,
   "work_may_rewrite": false,
-  "formal_work_validator": "PENDING",
-  "post_run_self_audit_status": "PENDING_MANIFEST_READBACK",
-  "github_write_status": "PASS__3_PRODUCT_ASSETS__MANIFEST_PENDING",
-  "github_readback_status": "PASS__3_PRODUCT_ASSETS__MANIFEST_PENDING",
+  "formal_work_validator": "PENDING__12_30_WORK",
+  "post_run_self_audit_status": "PASS__FOUR_FILES_READBACK__DYNAMIC_DEPTH_SOURCE_WINDOW_INLINE_LEDGER",
+  "github_write_status": "PASS__FOUR_OF_FOUR_RECOVERED_PRODUCT_ASSETS",
+  "github_readback_status": "PASS__FOUR_OF_FOUR_RECOVERED_PRODUCT_ASSETS",
   "source_file_blob_sha": {
     "public_core_md": "fa43b0313c065d4668b6959817f5563d40418d00",
     "evidence_json": "d85533f77a167d96fe9d2246b1a5664f4d6560eb",
@@ -67,5 +67,6 @@
     "privacy": true,
     "evidence_receipts": true,
     "window": true
-  }
+  },
+  "producer_acceptance_completed_at": "2026-10-13T02:32:34.042Z"
 }
