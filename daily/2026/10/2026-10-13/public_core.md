@@ -54,7 +54,7 @@
 <!-- MODULE:PRICE_AND_SPREAD_DELTA -->
 ## 4. 价格与价差增量
 
-路透10月13日00:25 UTC刊载的开盘报道，记录截至00:00 GMT时Brent期货约106.04美元/桶、WTI期货约93.27美元/桶，分别是具体时点的期货报价，非10月13日收盘价；该报道同时提到Brent周一结算约106.65美元/桶。[E08](https://www.reuters.com/business/energy/oil-ticks-lower-russia-diesel-supply-prospects-counter-gulf-supply-risks-2026-10-13/) 美洲到亚洲油轮每桶约40美元的运费估算属于指定运输路径和计费场景，不应和Brent主力期货直接相加冒充任何原油的成交CIF报价。[E04](https://www.reuters.com/business/energy/americas-have-glut-heavy-oil-due-freight-squeeze-asia-europe-scramble-barrels-2026-10-12/) **DATA_GAP**：本轮没有同一时间的JKM/TTF、华南LPG及中国LNG成交价组合，不能计算完整的跨商品价差，也不能据此宣布天然气贸易毛利改善或恶化。
+路透10月13日00:25 UTC刊载的开盘报道，记录截至00:00 GMT时Brent期货约106.04美元/桶、WTI期货约93.27美元/桶，分别是具体时点的期货报价，非10月13日收盘价；该报道同时提到Brent周一结算约106.65美元/桶。[E08](https://www.reuters.com/business/energy/oil-ticks-lower-russia-diesel-supply-prospects-counter-gulf-supply-risks-2026-10-13/) [E09](https://www.reuters.com/business/energy/oil-ticks-lower-russia-diesel-supply-prospects-counter-gulf-supply-risks-2026-10-13/) 美洲到亚洲油轮每桶约40美元的运费估算属于指定运输路径和计费场景，不应和Brent主力期货直接相加冒充任何原油的成交CIF报价。[E04](https://www.reuters.com/business/energy/americas-have-glut-heavy-oil-due-freight-squeeze-asia-europe-scramble-barrels-2026-10-12/) **DATA_GAP**：本轮没有同一时间的JKM/TTF、华南LPG及中国LNG成交价组合，不能计算完整的跨商品价差，也不能据此宣布天然气贸易毛利改善或恶化。
 
 <!-- MODULE:CHINA_CHAIN_DELTA -->
 ## 5. 中国天然气 / LNG / LPG产业链增量
