@@ -11,27 +11,27 @@
       "claim_role": "MATERIAL",
       "support": "DIRECT",
       "publisher": "Reuters",
-      "publication_time": "2026-10-12T06:00:00Z",
+      "publication_time": "2026-10-12T10:00:00Z",
       "title": "Middle East LNG industry remains hostage of Iran war: Bousso",
       "url": "https://www.reuters.com/commentary/reuters-open-interest/middle-east-lng-industry-remains-hostage-iran-war-bousso-2026-10-12/",
       "url_identity_status": "PASS",
       "url_verified_date": "2026-10-13",
       "source_identity_receipt": {
-        "verification_method": "OPENED_EXACT_DOCUMENT",
+        "verification_method": "SEARCH_RESULT_OBSERVED",
         "observed_url": "https://www.reuters.com/commentary/reuters-open-interest/middle-east-lng-industry-remains-hostage-iran-war-bousso-2026-10-12/",
         "canonical_url": "https://www.reuters.com/commentary/reuters-open-interest/middle-east-lng-industry-remains-hostage-iran-war-bousso-2026-10-12/",
         "observed_title": "Middle East LNG industry remains hostage of Iran war: Bousso",
         "observed_publisher": "Reuters",
         "title_match_status": "EXACT",
-        "verified_at": "2026-10-13T02:29:52.968Z"
+        "verified_at": "2026-10-13T02:47:44.419Z"
       },
       "claim_id": "D20261013-C001",
       "claim": "Reuters commentary using Kpler: Qatar September LNG exports estimated 1.6Mt, under one-quarter prewar levels; October 0.6Mt estimate is a forecast.",
       "claim_type": "SUPPLY",
       "data_period_start": "2026-09-01",
       "data_period_end": "2026-10-31",
-      "publication_time_precision": "MINUTE",
-      "boundary": "Qatar estimates from a named industry-data vendor as presented in a Reuters COLUMN; estimates and October forward expectation are not official final export statistics."
+      "publication_time_precision": "MIRROR_FIRST_OBSERVED__ORIGINAL_EXACT_TIME_NOT_INDEPENDENTLY_VERIFIED",
+      "boundary": "Qatar estimates from a named industry-data vendor as presented in a Reuters COLUMN; estimates and October forward expectation are not official final export statistics. Published-mirror timestamp 10:00 UTC is evidence of availability, not attested Reuters original precise publish time."
     },
     {
       "id": "E02",
@@ -44,21 +44,21 @@
       "url_identity_status": "PASS",
       "url_verified_date": "2026-10-13",
       "source_identity_receipt": {
-        "verification_method": "OPENED_EXACT_DOCUMENT",
+        "verification_method": "SEARCH_RESULT_OBSERVED",
         "observed_url": "https://www.reuters.com/business/energy/emerging-asias-power-driven-lng-demand-risk-renewables-gain-ground-2026-10-12/",
         "canonical_url": "https://www.reuters.com/business/energy/emerging-asias-power-driven-lng-demand-risk-renewables-gain-ground-2026-10-12/",
         "observed_title": "Emerging Asia's power-driven LNG demand at risk as renewables gain ground",
         "observed_publisher": "Reuters",
         "title_match_status": "EXACT",
-        "verified_at": "2026-10-13T02:29:52.968Z"
+        "verified_at": "2026-10-13T02:47:44.419Z"
       },
       "claim_id": "D20261013-C002",
       "claim": "Wood Mackenzie estimate reported by Reuters: 14.9GW of planned Southeast Asian 53GW gas-fired project pipeline likely online by 2030; forecast 2028 LNG consumption 39Mt versus 27Mt in 2025.",
       "claim_type": "DEMAND",
       "data_period_start": "2025-01-01",
       "data_period_end": "2030-12-31",
-      "publication_time_precision": "MINUTE",
-      "boundary": "Forward-looking consultant estimates not projects already built, FID reached, or contracted LNG volumes."
+      "publication_time_precision": "PRODUCER_SUPPLIED_MINUTE__ORIGINAL_MINUTE_NOT_REOBSERVED",
+      "boundary": "Forward-looking consultant estimates not projects already built, FID reached, or contracted LNG volumes. Exact publication minute was not independently reverified in the independent audit."
     },
     {
       "id": "E03",
@@ -71,20 +71,20 @@
       "url_identity_status": "PASS",
       "url_verified_date": "2026-10-13",
       "source_identity_receipt": {
-        "verification_method": "OPENED_EXACT_DOCUMENT",
+        "verification_method": "SEARCH_RESULT_OBSERVED",
         "observed_url": "https://www.reuters.com/business/energy/europe-set-another-year-high-gas-prices-reserves-hit-lows-2026-10-12/",
         "canonical_url": "https://www.reuters.com/business/energy/europe-set-another-year-high-gas-prices-reserves-hit-lows-2026-10-12/",
         "observed_title": "Europe set for another year of high gas prices as reserves hit lows",
         "observed_publisher": "Reuters",
         "title_match_status": "EXACT",
-        "verified_at": "2026-10-13T02:29:52.968Z"
+        "verified_at": "2026-10-13T02:47:44.419Z"
       },
       "claim_id": "D20261013-C003",
       "claim": "Reuters reports analysts expect European gas storage at 75-78% on 1 November, roughly 10pp below five-year average.",
       "claim_type": "INVENTORY",
       "data_period_start": "2026-10-12",
       "data_period_end": "2027-04-01",
-      "publication_time_precision": "MINUTE",
+      "publication_time_precision": "CORROBORATED_SECONDARY_INDEX_UTC_13_08",
       "boundary": "Nov 1 storage fill is analysts' forecast, not a current GIE daily actual; contingent on weather and arrivals."
     },
     {
@@ -92,27 +92,27 @@
       "claim_role": "MATERIAL",
       "support": "DIRECT",
       "publisher": "Reuters",
-      "publication_time": "2026-10-12T18:46:00Z",
+      "publication_time": "2026-10-12T18:44:00Z",
       "title": "Americas have glut of heavy oil due to freight squeeze; Asia, Europe scramble for barrels",
       "url": "https://www.reuters.com/business/energy/americas-have-glut-heavy-oil-due-freight-squeeze-asia-europe-scramble-barrels-2026-10-12/",
       "url_identity_status": "PASS",
       "url_verified_date": "2026-10-13",
       "source_identity_receipt": {
-        "verification_method": "OPENED_EXACT_DOCUMENT",
+        "verification_method": "SEARCH_RESULT_OBSERVED",
         "observed_url": "https://www.reuters.com/business/energy/americas-have-glut-heavy-oil-due-freight-squeeze-asia-europe-scramble-barrels-2026-10-12/",
         "canonical_url": "https://www.reuters.com/business/energy/americas-have-glut-heavy-oil-due-freight-squeeze-asia-europe-scramble-barrels-2026-10-12/",
         "observed_title": "Americas have glut of heavy oil due to freight squeeze; Asia, Europe scramble for barrels",
         "observed_publisher": "Reuters",
         "title_match_status": "EXACT",
-        "verified_at": "2026-10-13T02:29:52.968Z"
+        "verified_at": "2026-10-13T02:47:44.419Z"
       },
       "claim_id": "D20261013-C004",
       "claim": "Reuters reports Americas-to-Asia supertanker transport estimated above USD80m or USD40/bbl last week, with regional heavy crude discount widening.",
       "claim_type": "FREIGHT",
       "data_period_start": "2026-10-05",
       "data_period_end": "2026-10-12",
-      "publication_time_precision": "MINUTE",
-      "boundary": "Freight is quoted route-specific estimate, not universal LNG rate; prior-week quote disclosed in current-window article."
+      "publication_time_precision": "REUTERS_MARKETSCREENER_MIRROR_MINUTE",
+      "boundary": "Freight is quoted route-specific estimate, not universal LNG rate; prior-week quote disclosed in current-window article. Reuters partner MarketScreener timestamps the item at 18:44 UTC."
     },
     {
       "id": "E05",
@@ -125,13 +125,13 @@
       "url_identity_status": "PASS",
       "url_verified_date": "2026-10-13",
       "source_identity_receipt": {
-        "verification_method": "OPENED_EXACT_DOCUMENT",
+        "verification_method": "OFFICIAL_DOCUMENT_LISTING",
         "observed_url": "https://www.opec.org/pr-detail/619-12-october-2026.html",
         "canonical_url": "https://www.opec.org/pr-detail/619-12-october-2026.html",
         "observed_title": "Energy and Oil ministers of countries participating in the Declaration of Cooperation (DoC) held a meeting on the sidelines of the 17th IEF ministerial meeting and the 25th WPC Energy Congress in Riyadh",
         "observed_publisher": "Organization of the Petroleum Exporting Countries",
         "title_match_status": "EXACT",
-        "verified_at": "2026-10-13T02:29:52.968Z"
+        "verified_at": "2026-10-13T02:47:44.419Z"
       },
       "claim_id": "D20261013-C005",
       "claim": "OPEC official Oct 12 press release says shipping and insurance costs reached unprecedented levels above one-third of commodity value in disrupted flows.",
@@ -152,21 +152,21 @@
       "url_identity_status": "PASS",
       "url_verified_date": "2026-10-13",
       "source_identity_receipt": {
-        "verification_method": "OPENED_EXACT_DOCUMENT",
+        "verification_method": "SEARCH_RESULT_OBSERVED",
         "observed_url": "https://www.reuters.com/business/energy/opec-cuts-2026-oil-demand-growth-forecast-400000-bpd-sees-pent-up-demand-2027-2026-10-12/",
         "canonical_url": "https://www.reuters.com/business/energy/opec-cuts-2026-oil-demand-growth-forecast-400000-bpd-sees-pent-up-demand-2027-2026-10-12/",
         "observed_title": "OPEC cuts 2026 oil demand growth forecast to 400,000 bpd, sees pent-up demand in 2027",
         "observed_publisher": "Reuters",
         "title_match_status": "EXACT",
-        "verified_at": "2026-10-13T02:29:52.968Z"
+        "verified_at": "2026-10-13T02:47:44.419Z"
       },
       "claim_id": "D20261013-C006",
       "claim": "Reuters quotes OPEC Secretary General revising 2026 oil demand growth forecast to 0.4mbpd from initial 1.4mbpd.",
       "claim_type": "FORECAST",
       "data_period_start": "2026-01-01",
       "data_period_end": "2026-12-31",
-      "publication_time_precision": "MINUTE",
-      "boundary": "Forecast revision is not observed demand contraction or automatic production-cut decision."
+      "publication_time_precision": "PRODUCER_SUPPLIED_MINUTE__ORIGINAL_MINUTE_NOT_REOBSERVED",
+      "boundary": "Forecast revision is not observed demand contraction or automatic production-cut decision. Exact publication minute was not independently reverified in the independent audit."
     },
     {
       "id": "E07",
@@ -185,7 +185,7 @@
         "observed_title": "SHPGX价格简讯（2026年10月12日）",
         "observed_publisher": "上海石油天然气交易中心",
         "title_match_status": "EXACT",
-        "verified_at": "2026-10-13T02:29:52.968Z"
+        "verified_at": "2026-10-13T02:47:44.419Z"
       },
       "claim_id": "D20261013-C007",
       "claim": "SHPGX published the October 12 price brief at 10:13:53 Beijing; numeric content appears in an image.",
@@ -206,16 +206,16 @@
       "url_identity_status": "PASS",
       "url_verified_date": "2026-10-13",
       "source_identity_receipt": {
-        "verification_method": "OPENED_EXACT_DOCUMENT",
+        "verification_method": "SEARCH_RESULT_OBSERVED",
         "observed_url": "https://www.reuters.com/business/energy/oil-ticks-lower-russia-diesel-supply-prospects-counter-gulf-supply-risks-2026-10-13/",
         "canonical_url": "https://www.reuters.com/business/energy/oil-ticks-lower-russia-diesel-supply-prospects-counter-gulf-supply-risks-2026-10-13/",
         "observed_title": "Oil ticks lower as Russia diesel supply prospects counter Gulf supply risks",
         "observed_publisher": "Reuters",
         "title_match_status": "EXACT",
-        "verified_at": "2026-10-13T02:29:52.968Z"
+        "verified_at": "2026-10-13T02:47:44.419Z"
       },
       "claim_id": "D20261013-C008",
-      "claim": "Reuters early Oct 13 report records Brent futures USD106.04/bbl and WTI USD93.27/bbl at 00:00 UTC, not closing values.",
+      "claim": "Reuters 13 Oct opening quote puts ICE Brent futures at USD 106.04/bbl as of 00:00 UTC.",
       "claim_type": "PRICE",
       "data_period_start": "2026-10-13",
       "data_period_end": "2026-10-13",
@@ -228,7 +228,37 @@
           "unit": "USD/bbl",
           "product": "ICE Brent futures",
           "basis": "intraday 00:00 UTC"
-        },
+        }
+      ]
+    },
+    {
+      "id": "E09",
+      "claim_role": "MATERIAL",
+      "support": "DIRECT",
+      "publisher": "Reuters",
+      "publication_time": "2026-10-13T00:25:00Z",
+      "title": "Oil ticks lower as Russia diesel supply prospects counter Gulf supply risks",
+      "url": "https://www.reuters.com/business/energy/oil-ticks-lower-russia-diesel-supply-prospects-counter-gulf-supply-risks-2026-10-13/",
+      "url_identity_status": "PASS",
+      "url_verified_date": "2026-10-13",
+      "source_identity_receipt": {
+        "verification_method": "SEARCH_RESULT_OBSERVED",
+        "observed_url": "https://www.reuters.com/business/energy/oil-ticks-lower-russia-diesel-supply-prospects-counter-gulf-supply-risks-2026-10-13/",
+        "canonical_url": "https://www.reuters.com/business/energy/oil-ticks-lower-russia-diesel-supply-prospects-counter-gulf-supply-risks-2026-10-13/",
+        "observed_title": "Oil ticks lower as Russia diesel supply prospects counter Gulf supply risks",
+        "observed_publisher": "Reuters",
+        "title_match_status": "EXACT",
+        "verified_at": "2026-10-13T02:47:44.419Z"
+      },
+      "claim_id": "D20261013-C009",
+      "claim": "Reuters 13 Oct opening quote puts NYMEX WTI futures at USD 93.27/bbl as of 00:00 UTC.",
+      "claim_type": "PRICE",
+      "data_period_start": "2026-10-13",
+      "data_period_end": "2026-10-13",
+      "publication_time_precision": "MINUTE",
+      "boundary": "Precisely timed futures market observations; not physical FOB/CIF price, LNG price or full-session settlement.",
+      "price_observation_time": "2026-10-13T00:00:00Z",
+      "price_quotes": [
         {
           "value": 93.27,
           "unit": "USD/bbl",
@@ -240,14 +270,17 @@
   ],
   "guessed_url_count": 0,
   "unsupported_core_claims": 0,
-  "evidence_record_count": 8,
+  "evidence_record_count": 9,
   "excluded_records": [],
   "data_gap_notes": [
     "OPEC official release E05 carries a date but no minute-resolution publication time; the precise time of the official posting is unverified; claim independently timed by Reuters report on Oct 12.",
     "SHPGX Oct 12 price brief is image-based; no numeric Chinese LNG/LPG price is asserted.",
     "Asia gas-power plant and Europe storage numbers are forecasts, not actual events observed on Oct 12.",
     "Reuters commentary E01 is interpretation based on Kpler, not a QatarEnergy official statement.",
-    "Oil futures E08 are instantaneous USD/bbl quotes at 00:00 UTC, not same-day settlements."
+    "Oil futures E08 are instantaneous USD/bbl quotes at 00:00 UTC, not same-day settlements.",
+    "2026-10-13 independent audit corrected acquisition method: Reuters sources were observed as indexed exact URLs (SEARCH_RESULT_OBSERVED), not directly opened Reuters documents. OPEC was official listing; SHPGX exact page directly opened.",
+    "Brent and WTI prices are now two atomic price claims with separate value, benchmark, observation timestamp, and matching inline citations; same Reuters document supports both."
   ],
-  "producer_evidence_gate": "PROVISIONAL_PENDING_FORMAL_WORK_VALIDATION"
+  "producer_evidence_gate": "PASS_AFTER_BOUNDED_INDEPENDENT_PROVENANCE_RECONCILIATION__FORMAL_WORK_PENDING",
+  "source_url_count_distinct": 8
 }
