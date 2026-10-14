@@ -5,7 +5,7 @@
 <!-- MODULE:EXECUTIVE_SIGNAL_SUMMARY -->
 ## 1. 今日一屏结论
 
-**事实**：本期天然气产业链的关键变量是“真实到港、上游可供气、签约供气、拟议储备”四种性质完全不同的供应。E-Gas于10月13日10:00:07披露中国10月5—11日LNG到港估计20船、约125万吨，对本周预计14船、约97万吨；后者不是已到港实际。[E01](https://www.shpgx.com/html/xyzx/20261013/10096.html) 路透同日称圭亚那油田回注需求可能令原拟600万吨/年FLNG缩为初期最多300万吨/年，这仍是未决定方案。[E02](https://www.reuters.com/business/energy/guyana-may-scale-back-lng-plans-exxon-needs-more-gas-its-wells-sources-say-2026-10-13/) 欧洲挪威Equinor与荷兰Eneco签订五年天然气供货合同，德国24TWh战略储备尚为草案。[E04](https://www.reuters.com/business/energy/equinor-eneco-sign-five-year-gas-delivery-deal-2026-10-13/) [E05](https://www.reuters.com/business/energy/germany-fund-new-emergency-gas-reserve-via-consumer-levy-draft-says-2026-10-13/) **判断**：气源可分配量、物流、商业合同和行政储备之间不能互相替代。原油方面，OPEC+九月增产与高保险及物流风险并存，不能以产量推断到岸供应已恢复。[E03](https://www.reuters.com/business/energy/opec-raises-2027-oil-demand-view-citing-need-rebuild-stocks-2026-10-13/) **建议**：投资分析优先拆解可交付实物量、价格基准、投资建设状态和下游信用，暂不把未落地预测当作项目现金流。
+**事实**：本期天然气产业链的关键变量是“真实到港、上游可供气、签约供气、拟议储备”四种性质完全不同的供应。E-Gas于10月13日10:00:07披露中国10月5—11日LNG到港估计20船、约125万吨，对本周预计14船、约97万吨；后者不是已到港实际。[E01](https://www.shpgx.com/html/xyzx/20261013/10096.html) 路透同日称圭亚那油田回注需求可能令原拟600万吨/年FLNG缩为初期最多300万吨/年，这仍是未决定方案。[E02](https://www.reuters.com/business/energy/guyana-may-scale-back-lng-plans-exxon-needs-more-gas-its-wells-sources-say-2026-10-13/) 欧洲挪威Equinor与荷兰Eneco签订五年天然气供货合同，德国24TWh战略储备尚为草案。[E04](https://www.equinor.com/news/20261013-eneco-five-year-gas-agreement) [E05](https://www.reuters.com/business/energy/germany-fund-new-emergency-gas-reserve-via-consumer-levy-draft-says-2026-10-13/) **判断**：气源可分配量、物流、商业合同和行政储备之间不能互相替代。原油方面，OPEC+九月增产与高保险及物流风险并存，不能以产量推断到岸供应已恢复。[E03](https://www.reuters.com/business/energy/opec-raises-2027-oil-demand-view-citing-need-rebuild-stocks-2026-10-13/) **建议**：投资分析优先拆解可交付实物量、价格基准、投资建设状态和下游信用，暂不把未落地预测当作项目现金流。
 
 <!-- KEY_SIGNAL_CARDS:3-5 -->
 ## 2. 今日关键信号
@@ -29,7 +29,7 @@
 - **反证条件**：若完成独立储量认证、签署可靠长期供气，并取得最终投资决议，缩量风险可显著下调。
 
 ### 信号卡3｜欧洲气源安全：已执行合同与拟议储备分属两类
-- **事实摘要**：挪威Equinor与荷兰Eneco签订五年供气协议，年量约9TWh、折约9亿立方米，10月1日起交付；商业价格未披露。德国另拟24TWh国家应急天然气储备，法律草案估算十年成本最多30.8亿欧元、家庭年征费最多7.20欧元，拟2027年10月开始首个征费期。[E04](https://www.reuters.com/business/energy/equinor-eneco-sign-five-year-gas-delivery-deal-2026-10-13/) [E05](https://www.reuters.com/business/energy/germany-fund-new-emergency-gas-reserve-via-consumer-levy-draft-says-2026-10-13/)
+- **事实摘要**：挪威Equinor与荷兰Eneco签订五年供气协议，年量约9TWh、折约9亿立方米，10月1日起交付；商业价格未披露。德国另拟24TWh国家应急天然气储备，法律草案估算十年成本最多30.8亿欧元、家庭年征费最多7.20欧元，拟2027年10月开始首个征费期。[E04](https://www.equinor.com/news/20261013-eneco-five-year-gas-agreement) [E05](https://www.reuters.com/business/energy/germany-fund-new-emergency-gas-reserve-via-consumer-levy-draft-says-2026-10-13/)
 - **为什么重要**：签约并开始供气是商业履约事实；德国储备仍属立法提议，尚非已经储入库的24TWh。两者不可在“欧洲新增已保障气量”中求和。
 - **价格/供需/产业链传导**：中期合同锁量可降低买方数量不确定性，但未披露定价公式和灵活度，无法计算实际采购优势。未来政策储备若通过，则改变储气服务需求和资金成本，但须独立建模。
 - **影响对象**：欧洲公用事业、挪威上游及管输公司、储气运营商、现货LNG供应商。
@@ -49,7 +49,7 @@
 <!-- MODULE:MARKET_AND_EVENT_DELTA -->
 ## 3. 市场与事件增量
 
-本轮确定的机制链条依次为：中国LNG上周到港统计及本周预测揭示交付节奏；圭亚那拟议FLNG因气藏回注竞争而可能缩减规模；欧洲长期供气合同新增可见商业量但政府应急储备仍在政策酝酿期；OPEC+恢复部分油田产量，同时航运风险和套保需求未消失。[E01](https://www.shpgx.com/html/xyzx/20261013/10096.html) [E02](https://www.reuters.com/business/energy/guyana-may-scale-back-lng-plans-exxon-needs-more-gas-its-wells-sources-say-2026-10-13/) [E03](https://www.reuters.com/business/energy/opec-raises-2027-oil-demand-view-citing-need-rebuild-stocks-2026-10-13/) [E04](https://www.reuters.com/business/energy/equinor-eneco-sign-five-year-gas-delivery-deal-2026-10-13/) [E05](https://www.reuters.com/business/energy/germany-fund-new-emergency-gas-reserve-via-consumer-levy-draft-says-2026-10-13/) [E06](https://www.reuters.com/business/energy/investors-traded-record-volume-ice-brent-options-third-quarter-2026-10-13/) 从投资角度，船期、储量、合同与政策不是同一种数据，不能因都涉及“天然气供给”而纳入同一时间序列。相邻日报中涉及油需增长的不同预测值也必须先核对报告版本、时间与统计方法，再解释变动，避免人为拼出趋势。
+本轮确定的机制链条依次为：中国LNG上周到港统计及本周预测揭示交付节奏；圭亚那拟议FLNG因气藏回注竞争而可能缩减规模；欧洲长期供气合同新增可见商业量但政府应急储备仍在政策酝酿期；OPEC+恢复部分油田产量，同时航运风险和套保需求未消失。[E01](https://www.shpgx.com/html/xyzx/20261013/10096.html) [E02](https://www.reuters.com/business/energy/guyana-may-scale-back-lng-plans-exxon-needs-more-gas-its-wells-sources-say-2026-10-13/) [E03](https://www.reuters.com/business/energy/opec-raises-2027-oil-demand-view-citing-need-rebuild-stocks-2026-10-13/) [E04](https://www.equinor.com/news/20261013-eneco-five-year-gas-agreement) [E05](https://www.reuters.com/business/energy/germany-fund-new-emergency-gas-reserve-via-consumer-levy-draft-says-2026-10-13/) [E06](https://www.reuters.com/business/energy/investors-traded-record-volume-ice-brent-options-third-quarter-2026-10-13/) 从投资角度，船期、储量、合同与政策不是同一种数据，不能因都涉及“天然气供给”而纳入同一时间序列。相邻日报中涉及油需增长的不同预测值也必须先核对报告版本、时间与统计方法，再解释变动，避免人为拼出趋势。
 
 <!-- MODULE:PRICE_AND_SPREAD_DELTA -->
 ## 4. 价格与价差增量
@@ -64,7 +64,7 @@
 <!-- MODULE:GLOBAL_ENERGY_DELTA -->
 ## 6. 国际油气 / LNG增量
 
-圭亚那案例说明FLNG的可建设装置规模首先服从油田回注及可出口气量，而不只是矿权资源储量和市场远景，初始6Mtpa方案可能转为3Mtpa上限。[E02](https://www.reuters.com/business/energy/guyana-may-scale-back-lng-plans-exxon-needs-more-gas-its-wells-sources-say-2026-10-13/) 挪威向荷兰的五年供气合同是实际商业锁量，德国24TWh储备尚属拟议政策，分别影响现实供应和潜在未来季节性采购。[E04](https://www.reuters.com/business/energy/equinor-eneco-sign-five-year-gas-delivery-deal-2026-10-13/) [E05](https://www.reuters.com/business/energy/germany-fund-new-emergency-gas-reserve-via-consumer-levy-draft-says-2026-10-13/) OPEC+九月增产需要与出海路径作交叉核验，因油井产量不能证明下游港口卸货与运输保险已恢复。[E03](https://www.reuters.com/business/energy/opec-raises-2027-oil-demand-view-citing-need-rebuild-stocks-2026-10-13/) 国际油价高波动也不等同于LNG长期合同价格立即变化。[E08](https://www.reuters.com/business/energy/oil-prices-climb-traders-weigh-saudi-supply-risk-russian-diesel-flow-2026-10-14/)
+圭亚那案例说明FLNG的可建设装置规模首先服从油田回注及可出口气量，而不只是矿权资源储量和市场远景，初始6Mtpa方案可能转为3Mtpa上限。[E02](https://www.reuters.com/business/energy/guyana-may-scale-back-lng-plans-exxon-needs-more-gas-its-wells-sources-say-2026-10-13/) 挪威向荷兰的五年供气合同是实际商业锁量，德国24TWh储备尚属拟议政策，分别影响现实供应和潜在未来季节性采购。[E04](https://www.equinor.com/news/20261013-eneco-five-year-gas-agreement) [E05](https://www.reuters.com/business/energy/germany-fund-new-emergency-gas-reserve-via-consumer-levy-draft-says-2026-10-13/) OPEC+九月增产需要与出海路径作交叉核验，因油井产量不能证明下游港口卸货与运输保险已恢复。[E03](https://www.reuters.com/business/energy/opec-raises-2027-oil-demand-view-citing-need-rebuild-stocks-2026-10-13/) 国际油价高波动也不等同于LNG长期合同价格立即变化。[E08](https://www.reuters.com/business/energy/oil-prices-climb-traders-weigh-saudi-supply-risk-russian-diesel-flow-2026-10-14/)
 
 <!-- MODULE:RESEARCH_TRIGGER_BOARD -->
 ## 7. Research Trigger Board
@@ -80,12 +80,12 @@
 <!-- MODULE:INDUSTRY_CHAIN_AND_OPERATOR_EXPOSURE -->
 ## 8. 产业链与经营主体影响（Public-safe）
 
-**LNG进口及接收站**：需将船期、实际卸货、库存、外输和贸易价格拆解建模，不能按单周到港估算反推进口毛利。[E01](https://www.shpgx.com/html/xyzx/20261013/10096.html) **FLNG投资项目**：应增加原料气分配优先级、回注保留量和最小供气条件三个尽调门槛；如方案从6Mtpa调整到3Mtpa，固定运营成本及融资契约需重新压力测试。[E02](https://www.reuters.com/business/energy/guyana-may-scale-back-lng-plans-exxon-needs-more-gas-its-wells-sources-say-2026-10-13/) **欧洲天然气交易**：长期协议真实减少部分气量不确定性，但未披露价格不能证明获得低价；政府储备草案则只能放在政策情景而非已生效基准现金流。[E04](https://www.reuters.com/business/energy/equinor-eneco-sign-five-year-gas-delivery-deal-2026-10-13/) [E05](https://www.reuters.com/business/energy/germany-fund-new-emergency-gas-reserve-via-consumer-levy-draft-says-2026-10-13/) **原油航运及炼化**：油田增产与可经济送达并不等价，应对航线运费、保险、信用期限和套保成本分别测算，不能从期权放量直接得出投资方向。[E03](https://www.reuters.com/business/energy/opec-raises-2027-oil-demand-view-citing-need-rebuild-stocks-2026-10-13/) [E06](https://www.reuters.com/business/energy/investors-traded-record-volume-ice-brent-options-third-quarter-2026-10-13/)
+**LNG进口及接收站**：需将船期、实际卸货、库存、外输和贸易价格拆解建模，不能按单周到港估算反推进口毛利。[E01](https://www.shpgx.com/html/xyzx/20261013/10096.html) **FLNG投资项目**：应增加原料气分配优先级、回注保留量和最小供气条件三个尽调门槛；如方案从6Mtpa调整到3Mtpa，固定运营成本及融资契约需重新压力测试。[E02](https://www.reuters.com/business/energy/guyana-may-scale-back-lng-plans-exxon-needs-more-gas-its-wells-sources-say-2026-10-13/) **欧洲天然气交易**：长期协议真实减少部分气量不确定性，但未披露价格不能证明获得低价；政府储备草案则只能放在政策情景而非已生效基准现金流。[E04](https://www.equinor.com/news/20261013-eneco-five-year-gas-agreement) [E05](https://www.reuters.com/business/energy/germany-fund-new-emergency-gas-reserve-via-consumer-levy-draft-says-2026-10-13/) **原油航运及炼化**：油田增产与可经济送达并不等价，应对航线运费、保险、信用期限和套保成本分别测算，不能从期权放量直接得出投资方向。[E03](https://www.reuters.com/business/energy/opec-raises-2027-oil-demand-view-citing-need-rebuild-stocks-2026-10-13/) [E06](https://www.reuters.com/business/energy/investors-traded-record-volume-ice-brent-options-third-quarter-2026-10-13/)
 
 <!-- MODULE:EVIDENCE_AND_GAPS -->
 ## 9. 证据、数据缺口、风险与反证
 
-本轮八项准确来源包括上海石油天然气交易中心两项公开文件和六项路透文章，来源内容为E-Gas运输估计、知情人士项目讨论、OPEC/ICE披露、商业合同、法律草案及油价快照。[E01](https://www.shpgx.com/html/xyzx/20261013/10096.html) [E02](https://www.reuters.com/business/energy/guyana-may-scale-back-lng-plans-exxon-needs-more-gas-its-wells-sources-say-2026-10-13/) [E03](https://www.reuters.com/business/energy/opec-raises-2027-oil-demand-view-citing-need-rebuild-stocks-2026-10-13/) [E04](https://www.reuters.com/business/energy/equinor-eneco-sign-five-year-gas-delivery-deal-2026-10-13/) [E05](https://www.reuters.com/business/energy/germany-fund-new-emergency-gas-reserve-via-consumer-levy-draft-says-2026-10-13/) [E06](https://www.reuters.com/business/energy/investors-traded-record-volume-ice-brent-options-third-quarter-2026-10-13/) [E07](https://www.shpgx.com/html/hyzq/20261013/10101.html) [E08](https://www.reuters.com/business/energy/oil-prices-climb-traders-weigh-saudi-supply-risk-russian-diesel-flow-2026-10-14/) 其发布时间均落在本日报窗口内；统计期未必落在本窗口内，故不可把“本日披露”描述成“本日实际发生”。核心缺口包括JKM/TTF同期基准、LPG价格、中国挂牌图片可核验数值、圭亚那气源最终认证、欧洲供气合同价格和德国法案状态。公开研究不含特定公司的非公开经营信息。本文如通过Producer质量门槛，仍只属于待Work正式验证的候选，不等于Canonical或网站成功发布。
+本轮八项准确来源包括上海石油天然气交易中心两项公开文件和六项路透文章，来源内容为E-Gas运输估计、知情人士项目讨论、OPEC/ICE披露、商业合同、法律草案及油价快照。[E01](https://www.shpgx.com/html/xyzx/20261013/10096.html) [E02](https://www.reuters.com/business/energy/guyana-may-scale-back-lng-plans-exxon-needs-more-gas-its-wells-sources-say-2026-10-13/) [E03](https://www.reuters.com/business/energy/opec-raises-2027-oil-demand-view-citing-need-rebuild-stocks-2026-10-13/) [E04](https://www.equinor.com/news/20261013-eneco-five-year-gas-agreement) [E05](https://www.reuters.com/business/energy/germany-fund-new-emergency-gas-reserve-via-consumer-levy-draft-says-2026-10-13/) [E06](https://www.reuters.com/business/energy/investors-traded-record-volume-ice-brent-options-third-quarter-2026-10-13/) [E07](https://www.shpgx.com/html/hyzq/20261013/10101.html) [E08](https://www.reuters.com/business/energy/oil-prices-climb-traders-weigh-saudi-supply-risk-russian-diesel-flow-2026-10-14/) 其发布时间均落在本日报窗口内；统计期未必落在本窗口内，故不可把“本日披露”描述成“本日实际发生”。核心缺口包括JKM/TTF同期基准、LPG价格、中国挂牌图片可核验数值、圭亚那气源最终认证、欧洲供气合同价格和德国法案状态。公开研究不含特定公司的非公开经营信息。本文如通过Producer质量门槛，仍只属于待Work正式验证的候选，不等于Canonical或网站成功发布。
 
 <!-- NEXT_VERIFICATION -->
 ## 10. 下一窗口验证
@@ -100,7 +100,7 @@
 - [E01｜SHPGX E-Gas中国LNG到港](https://www.shpgx.com/html/xyzx/20261013/10096.html)
 - [E02｜Reuters 圭亚那FLNG](https://www.reuters.com/business/energy/guyana-may-scale-back-lng-plans-exxon-needs-more-gas-its-wells-sources-say-2026-10-13/)
 - [E03｜Reuters OPEC+月报](https://www.reuters.com/business/energy/opec-raises-2027-oil-demand-view-citing-need-rebuild-stocks-2026-10-13/)
-- [E04｜Reuters Equinor-Eneco供气](https://www.reuters.com/business/energy/equinor-eneco-sign-five-year-gas-delivery-deal-2026-10-13/)
+- [E04｜Reuters Equinor-Eneco供气](https://www.equinor.com/news/20261013-eneco-five-year-gas-agreement)
 - [E05｜Reuters 德国储备草案](https://www.reuters.com/business/energy/germany-fund-new-emergency-gas-reserve-via-consumer-levy-draft-says-2026-10-13/)
 - [E06｜Reuters ICE Brent期权](https://www.reuters.com/business/energy/investors-traded-record-volume-ice-brent-options-third-quarter-2026-10-13/)
 - [E07｜SHPGX 广东LNG挂牌](https://www.shpgx.com/html/hyzq/20261013/10101.html)
