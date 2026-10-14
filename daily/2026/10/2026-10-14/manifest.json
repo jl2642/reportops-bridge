@@ -28,8 +28,8 @@
   "industry_operator_cjk_actual": 229,
   "privacy_status": "PASS_PUBLIC_SAFE_SINGLE_SITE",
   "window_status": "PASS_WITH_REUTERS_PUBLICATION_MINUTE_PROVENANCE_WARNING",
-  "evidence_status": "PASS_12_ATOMIC_CLAIMS_8_DISTINCT_SOURCES__RECEIPT_RECONCILED",
-  "strict_v2_ledger_status": "PRODUCER_RECONCILED_12_ATOMIC_CLAIMS__FORMAL_VALIDATOR_PENDING_WORK",
+  "evidence_status": "PASS_12_ATOMIC_CLAIMS_8_SOURCES__SCHEMA_AND_CROSS_FILE_RECONCILED",
+  "strict_v2_ledger_status": "PASS_STRICT_V2_SCHEMA_ENUM_AND_12_ATOMIC_CLAIMS__FORMAL_WORK_VALIDATOR_PENDING",
   "data_gap_boundary_status": "PASS__NO_UNVERIFIED_LNG_LPG_PRICES",
   "unsupported_core_claims": 0,
   "signal_card_count": 4,
@@ -45,15 +45,15 @@
   "site_publication_performed": false,
   "work_may_rewrite": false,
   "formal_work_validator": "PENDING__12_30_WORK",
-  "post_run_self_audit_status": "PASS__FOUR_PRODUCT_ASSETS_READBACK__ATOMIC_LEDGER__DYNAMIC_V4__SOURCE_WINDOW",
+  "post_run_self_audit_status": "PASS__FOUR_ASSETS_READBACK__STRICT_V2_ENUM_AND_12_CLAIM_RECONCILIATION__DYNAMIC_V4",
   "github_write_status": "PASS__FOUR_OF_FOUR_PRODUCT_ASSETS",
   "github_readback_status": "PASS__FOUR_OF_FOUR_PRODUCT_ASSETS",
   "source_file_blob_sha": {
     "public_core_md": "953930e0a015b4e0c03f4dbb092aace8840e877f",
     "evidence_json": "588676b6193db183aeb3f32daccabdf4f6b7b3e1",
-    "ledger_csv": "e5065118dfb783982336b7ed7f7ee0fdb995c7e8"
+    "ledger_csv": "8d39b18aa1708afd8cad87de665f28e07c5bc2c4"
   },
-  "recovery_notes": "Original scheduled 10:15 remains FAILED safety-blocked at PUBLIC_CORE_CREATE; interactive 2026-10-14 recovery completed missing strict v2 ledger after correcting Equinor source to its official announcement. One first strict-v2 ledger commit was blocked by OpenAI safety checks; corrected same-channel submission succeeded. This does not prove unattended scheduler writing. Library Current/Canonical/Site untouched. Work consumer validator required. Final Producer self-audit passed 4-file readback, separate from Formal Work.",
+  "recovery_notes": "Original scheduled 10:15 remains FAILED safety-blocked at PUBLIC_CORE_CREATE; interactive 2026-10-14 recovery completed missing strict v2 ledger after correcting Equinor source to its official announcement. One first strict-v2 ledger commit was blocked by OpenAI safety checks; corrected same-channel submission succeeded. This does not prove unattended scheduler writing. Library Current/Canonical/Site untouched. Work consumer validator required. Final Producer self-audit passed 4-file readback, separate from Formal Work. Pre-Work 2026-10-14 audit: corrected 30 invalid Evidence V2 ledger enum/price-basis entries in-place and synchronized E04 official Equinor title/publisher/URL; reconciled new ledger blob SHA and readback all 12 atomic rows. Original scheduled Producer failure retained. Formal Work Reader/Lineage/Authority and Site validation remain pending.",
   "producer_checks": {
     "title": true,
     "executive": true,
@@ -76,6 +76,8 @@
   "producer_acceptance_completed_at": "2026-10-14T02:42:49.927Z",
   "warnings": [
     "REUTERS_DIRECT_OPEN_UNAVAILABLE__SEARCH_RESULT_IDENTITY_OBSERVED__ORIGINAL_PUBLICATION_MINUTES_NOT_FULLY_REVERIFIED",
-    "UNATTENDED_GITHUB_WRITER_STABILITY_UNPROVEN"
+    "UNATTENDED_GITHUB_WRITER_STABILITY_UNPROVEN",
+    "ORIGINAL_PREWORK_LEDGER_SCHEMA_ENUM_DRIFT_CORRECTED_IN_PLACE__HISTORICAL_DEFECT_RETAINED_IN_PROVENANCE",
+    "WORK_FORMAL_VALIDATOR_READER_LINEAGE_AND_LIVE_SITE_READBACK_PENDING"
   ]
 }
