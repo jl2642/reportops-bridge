@@ -1,6 +1,29 @@
 {
+  "schema_version": "REPORTOPS_RECOVERY_HEARTBEAT_V1",
   "target_date": "2026-10-14",
   "scheduled_for": "10:15 Asia/Shanghai",
   "run_started_at": "2026-10-14T02:16:46.353Z",
-  "status": "RUN_STARTED_BEFORE_PREFLIGHT"
+  "original_scheduled_status": "FAILED_PUBLIC_CORE_CREATE_BLOCKED_BY_OPENAI_SAFETY_CHECKS",
+  "original_scheduled_failure_stage": "PUBLIC_CORE_CREATE",
+  "original_scheduled_heartbeat_found": true,
+  "original_scheduled_initial_heartbeat_status": "RUN_STARTED_BEFORE_PREFLIGHT",
+  "original_scheduled_product_persisted": false,
+  "mode": "BOUNDED_INTERACTIVE_RECOVERY__NOT_SCHEDULED_SUCCESS",
+  "recovery_completed_at": "2026-10-14T02:42:52.558Z",
+  "status": "PRODUCER_SUCCESS_CANDIDATES_PENDING_WORK",
+  "products_repaired_or_produced": [
+    "2026-10-14"
+  ],
+  "producer_recovery_queue_remaining": [],
+  "queue_for_12_30_work": [
+    "Daily 2026-10-14"
+  ],
+  "post_run_self_audit_status": "PASS__FOUR_PRODUCT_ASSETS_READBACK__ATOMIC_LEDGER__DYNAMIC_V4__SOURCE_WINDOW",
+  "github_write_status": "PASS__FOUR_PRODUCT_ASSETS",
+  "github_readback_status": "PASS__FOUR_PRODUCT_ASSETS",
+  "canonical_mutation_performed": false,
+  "site_mutation_performed": false,
+  "formal_work_validator": "PENDING",
+  "manual_intervention_required": false,
+  "notes": "Original unattended 10:15 failed with platform security block at public_core create; interactive recovery completed via same GitHub connector. Initial interactive strict ledger create also blocked once, later corrected write succeeded. Trigger of platform security filtering unknown; unattended stability NOT proven."
 }
