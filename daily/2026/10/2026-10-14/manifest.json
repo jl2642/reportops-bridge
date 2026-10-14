@@ -15,17 +15,17 @@
   "exact_v4_machine_structure_status": "PASS__8_MODULE_MARKERS_4_SIGNAL_CARDS",
   "v4_public_depth_gate_status": "PASS_DYNAMIC_V4__ALL_FLOORS",
   "cjk_characters_actual": 3222,
-  "executive_cjk_actual": 258,
-  "key_signal_cjk_actual": 1442,
+  "executive_cjk_actual": 252,
+  "key_signal_cjk_actual": 1436,
   "signal_card_cjk_actual": [
     351,
     390,
     349,
     346
   ],
-  "china_chain_cjk_actual": 189,
-  "global_energy_cjk_actual": 168,
-  "industry_operator_cjk_actual": 229,
+  "china_chain_cjk_actual": 179,
+  "global_energy_cjk_actual": 162,
+  "industry_operator_cjk_actual": 219,
   "privacy_status": "PASS_PUBLIC_SAFE_SINGLE_SITE",
   "window_status": "PASS_WITH_REUTERS_PUBLICATION_MINUTE_PROVENANCE_WARNING",
   "evidence_status": "PASS_12_ATOMIC_CLAIMS_8_DISTINCT_SOURCES__RECEIPT_RECONCILED",
@@ -53,7 +53,7 @@
     "evidence_json": "588676b6193db183aeb3f32daccabdf4f6b7b3e1",
     "ledger_csv": "8d39b18aa1708afd8cad87de665f28e07c5bc2c4"
   },
-  "recovery_notes": "Original scheduled 10:15 remains FAILED safety-blocked at PUBLIC_CORE_CREATE; interactive 2026-10-14 recovery completed missing strict v2 ledger after correcting Equinor source to its official announcement. One first strict-v2 ledger commit was blocked by OpenAI safety checks; corrected same-channel submission succeeded. This does not prove unattended scheduler writing. Library Current/Canonical/Site untouched. Work consumer validator required. Final Producer self-audit passed 4-file readback, separate from Formal Work. Pre-Work 2026-10-14 audit: corrected 30 invalid Evidence V2 ledger enum/price-basis entries in-place and synchronized E04 official Equinor title/publisher/URL; reconciled new ledger blob SHA and readback all 12 atomic rows. Original scheduled Producer failure retained. Formal Work Reader/Lineage/Authority and Site validation remain pending.",
+  "recovery_notes": "Original scheduled 10:15 remains FAILED safety-blocked at PUBLIC_CORE_CREATE; interactive 2026-10-14 recovery completed missing strict v2 ledger after correcting Equinor source to its official announcement. One first strict-v2 ledger commit was blocked by OpenAI safety checks; corrected same-channel submission succeeded. This does not prove unattended scheduler writing. Library Current/Canonical/Site untouched. Work consumer validator required. Final Producer self-audit passed 4-file readback, separate from Formal Work. Pre-Work 2026-10-14 audit: corrected 30 invalid Evidence V2 ledger enum/price-basis entries in-place and synchronized E04 official Equinor title/publisher/URL; reconciled new ledger blob SHA and readback all 12 atomic rows. Original scheduled Producer failure retained. Formal Work Reader/Lineage/Authority and Site validation remain pending. Additional pre-Work official V4 counting parity repair: five section CJK values previously included H2 heading characters; reconciled to validator H2-body-only measured actuals (Executive 252, Signals 1436, China 179, Global 162, Operator 219). Entire core 3222 and 4 card metrics unchanged; all governing floors pass.",
   "producer_checks": {
     "title": true,
     "executive": true,
@@ -78,6 +78,7 @@
     "REUTERS_DIRECT_OPEN_UNAVAILABLE__SEARCH_RESULT_IDENTITY_OBSERVED__ORIGINAL_PUBLICATION_MINUTES_NOT_FULLY_REVERIFIED",
     "UNATTENDED_GITHUB_WRITER_STABILITY_UNPROVEN",
     "ORIGINAL_PREWORK_LEDGER_SCHEMA_ENUM_DRIFT_CORRECTED_IN_PLACE__HISTORICAL_DEFECT_RETAINED_IN_PROVENANCE",
-    "WORK_FORMAL_VALIDATOR_READER_LINEAGE_AND_LIVE_SITE_READBACK_PENDING"
+    "WORK_FORMAL_VALIDATOR_READER_LINEAGE_AND_LIVE_SITE_READBACK_PENDING",
+    "V4_METRIC_HEADING_COUNT_DRIFT_CORRECTED_IN_MANIFEST__OFFICIAL_H2_BODY_PARITY"
   ]
 }
