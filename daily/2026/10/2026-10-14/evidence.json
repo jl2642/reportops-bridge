@@ -25,11 +25,11 @@
         "title_match_status": "EXACT",
         "verified_at": "2026-10-14T02:30:21.282Z"
       },
-      "claim_id": "D20261014-S01",
-      "claim": "Chinese coastal LNG import arrivals estimated 20 ships, 1.25Mt, for October 5-11 2026. | E-Gas forecast 14 ships and approximately 0.97Mt of Chinese LNG imports for October 12-18 2026.",
+      "claim_id": "D20261014-C001",
+      "claim": "Chinese coastal LNG import arrivals estimated 20 ships, 1.25Mt, for October 5-11 2026.",
       "claim_type": "CHINA_LNG",
       "data_period_start": "2026-10-05",
-      "data_period_end": "2026-10-18",
+      "data_period_end": "2026-10-11",
       "publication_time_precision": "ORIGINAL_PUBLISHER_PAGE_TIMESTAMP",
       "boundary": "Historical weekly ship-tracking estimate, not customs final import volume. Forward weekly vessel-arrival estimate, not realized cargo unloading."
     },
@@ -52,8 +52,8 @@
         "title_match_status": "EXACT",
         "verified_at": "2026-10-14T02:30:21.282Z"
       },
-      "claim_id": "D20261014-S02",
-      "claim": "Exxon-led Guyana consortium expects roughly 2 billion cubic feet per day of gas for oilfield reinjection. | Guyana is considering scaling planned FLNG export capacity from 6Mtpa to initial capacity up to 3Mtpa.",
+      "claim_id": "D20261014-C003",
+      "claim": "Exxon-led Guyana consortium expects roughly 2 billion cubic feet per day of gas for oilfield reinjection.",
       "claim_type": "FLNG",
       "data_period_start": "2026-10-13",
       "data_period_end": "2026-10-13",
@@ -79,11 +79,11 @@
         "title_match_status": "EXACT",
         "verified_at": "2026-10-14T02:30:21.282Z"
       },
-      "claim_id": "D20261014-S03",
-      "claim": "OPEC secondary-source data estimates OPEC+ September 2026 oil output at 39.07 million bpd, up about 0.9 million bpd from August. | OPEC forecasts world oil demand growth of 0.18 million bpd in 2026 and 2.55 million bpd in 2027.",
+      "claim_id": "D20261014-C005",
+      "claim": "OPEC secondary-source data estimates OPEC+ September 2026 oil output at 39.07 million bpd, up about 0.9 million bpd from August.",
       "claim_type": "OIL_SUPPLY",
       "data_period_start": "2026-09-01",
-      "data_period_end": "2027-12-31",
+      "data_period_end": "2026-09-30",
       "publication_time_precision": "ORIGINAL_PUBLISHER_PAGE_TIMESTAMP",
       "boundary": "Monthly production data, not exported barrels. Two forecast horizons, not observed change in demand."
     },
@@ -106,7 +106,7 @@
         "title_match_status": "EXACT",
         "verified_at": "2026-10-14T02:37:07.000Z"
       },
-      "claim_id": "D20261014-S04",
+      "claim_id": "D20261014-C007",
       "claim": "Equinor says it agreed to deliver about 9TWh or 0.9bcm annually to Eneco for five years, with delivery commencing October 1.",
       "claim_type": "EU_GAS_CONTRACT",
       "data_period_start": "2026-10-01",
@@ -133,7 +133,7 @@
         "title_match_status": "EXACT",
         "verified_at": "2026-10-14T02:30:21.282Z"
       },
-      "claim_id": "D20261014-S05",
+      "claim_id": "D20261014-C008",
       "claim": "Draft German legislation proposes 24TWh emergency gas reserve with ten-year costs of up to EUR3.08bn.",
       "claim_type": "EU_STORAGE_POLICY",
       "data_period_start": "2026-10-13",
@@ -160,7 +160,7 @@
         "title_match_status": "EXACT",
         "verified_at": "2026-10-14T02:30:21.282Z"
       },
-      "claim_id": "D20261014-S06",
+      "claim_id": "D20261014-C009",
       "claim": "ICE disclosed Q3 2026 Brent options volume of roughly 28m contracts, average 437200 daily, up 63% year on year.",
       "claim_type": "OPTIONS",
       "data_period_start": "2026-07-01",
@@ -187,7 +187,7 @@
         "title_match_status": "EXACT",
         "verified_at": "2026-10-14T02:30:21.282Z"
       },
-      "claim_id": "D20261014-S07",
+      "claim_id": "D20261014-C010",
       "claim": "SHPGX posted CNOOC Gas & Power Guangdong division LNG listing-price notice for October 13-31 at 15:26 Beijing October 13.",
       "claim_type": "CHINA_PRICE_NOTICE",
       "data_period_start": "2026-10-13",
@@ -214,18 +214,144 @@
         "title_match_status": "EXACT",
         "verified_at": "2026-10-14T02:30:21.282Z"
       },
-      "claim_id": "D20261014-S08",
-      "claim": "Reuters October 14 report quotes Brent futures 106.58 USD/bbl as of 00:30 UTC October 14. | Reuters October 14 report quotes WTI futures 94.94 USD/bbl as of 00:30 UTC October 14.",
-      "claim_type": "OIL_PRICE",
+      "claim_id": "D20261014-C011",
+      "claim": "Reuters October 14 report quotes Brent futures 106.58 USD/bbl as of 00:30 UTC October 14.",
+      "claim_type": "PRICE",
       "data_period_start": "2026-10-14",
       "data_period_end": "2026-10-14",
       "publication_time_precision": "ORIGINAL_PUBLISHER_PAGE_TIMESTAMP",
-      "boundary": "Time-stamped crude futures quote, not close, spot LNG, or physical CIF price. Time-stamped WTI futures quote; not a settlement or physical product quote."
+      "boundary": "Time-stamped crude futures quote, not close, spot LNG, or physical CIF price. Time-stamped WTI futures quote; not a settlement or physical product quote.",
+      "price_observation_time": "2026-10-14T00:30:00Z",
+      "price_quotes": [
+        {
+          "value": 106.58,
+          "unit": "USD/bbl",
+          "product": "ICE Brent futures",
+          "basis": "Intraday 00:30 UTC; not settlement"
+        }
+      ]
+    },
+    {
+      "id": "E09",
+      "claim_role": "MATERIAL",
+      "support": "DIRECT",
+      "publisher": "上海石油天然气交易中心（来源：新华财经）",
+      "publication_time": "2026-10-13T10:00:07+08:00",
+      "title": "E-Gas系统：10月5日-10月11日当周中国LNG进口量约125万吨",
+      "url": "https://www.shpgx.com/html/xyzx/20261013/10096.html",
+      "url_identity_status": "PASS",
+      "url_verified_date": "2026-10-14",
+      "source_identity_receipt": {
+        "verification_method": "OFFICIAL_DOCUMENT_LISTING",
+        "observed_url": "https://www.shpgx.com/html/xyzx/20261013/10096.html",
+        "canonical_url": "https://www.shpgx.com/html/xyzx/20261013/10096.html",
+        "observed_title": "E-Gas系统：10月5日-10月11日当周中国LNG进口量约125万吨",
+        "observed_publisher": "上海石油天然气交易中心（来源：新华财经）",
+        "title_match_status": "EXACT",
+        "verified_at": "2026-10-14T02:30:21.282Z"
+      },
+      "claim_id": "D20261014-C002",
+      "claim": "E-Gas forecast 14 ships and approximately 0.97Mt of Chinese LNG imports for October 12-18 2026.",
+      "claim_type": "CHINA_LNG",
+      "data_period_start": "2026-10-12",
+      "data_period_end": "2026-10-18",
+      "publication_time_precision": "ORIGINAL_PUBLISHER_PAGE_TIMESTAMP",
+      "boundary": "Historical weekly ship-tracking estimate, not customs final import volume. Forward weekly vessel-arrival estimate, not realized cargo unloading."
+    },
+    {
+      "id": "E10",
+      "claim_role": "MATERIAL",
+      "support": "DIRECT",
+      "publisher": "Reuters",
+      "publication_time": "2026-10-13T18:15:00Z",
+      "title": "Guyana may scale back LNG plans as Exxon needs more gas for its wells, sources say",
+      "url": "https://www.reuters.com/business/energy/guyana-may-scale-back-lng-plans-exxon-needs-more-gas-its-wells-sources-say-2026-10-13/",
+      "url_identity_status": "PASS",
+      "url_verified_date": "2026-10-14",
+      "source_identity_receipt": {
+        "verification_method": "OPENED_EXACT_DOCUMENT",
+        "observed_url": "https://www.reuters.com/business/energy/guyana-may-scale-back-lng-plans-exxon-needs-more-gas-its-wells-sources-say-2026-10-13/",
+        "canonical_url": "https://www.reuters.com/business/energy/guyana-may-scale-back-lng-plans-exxon-needs-more-gas-its-wells-sources-say-2026-10-13/",
+        "observed_title": "Guyana may scale back LNG plans as Exxon needs more gas for its wells, sources say",
+        "observed_publisher": "Reuters",
+        "title_match_status": "EXACT",
+        "verified_at": "2026-10-14T02:30:21.282Z"
+      },
+      "claim_id": "D20261014-C004",
+      "claim": "Guyana is considering scaling planned FLNG export capacity from 6Mtpa to initial capacity up to 3Mtpa.",
+      "claim_type": "FLNG",
+      "data_period_start": "2026-10-13",
+      "data_period_end": "2026-10-13",
+      "publication_time_precision": "ORIGINAL_PUBLISHER_PAGE_TIMESTAMP",
+      "boundary": "Reuters reporting citing people close to negotiations; estimated reservoir need. Undecided option, not approved investment or signed export contract."
+    },
+    {
+      "id": "E11",
+      "claim_role": "MATERIAL",
+      "support": "DIRECT",
+      "publisher": "Reuters",
+      "publication_time": "2026-10-13T12:02:00Z",
+      "title": "Saudi leads jump in OPEC+ oil output in September, despite Iran war disruption",
+      "url": "https://www.reuters.com/business/energy/opec-raises-2027-oil-demand-view-citing-need-rebuild-stocks-2026-10-13/",
+      "url_identity_status": "PASS",
+      "url_verified_date": "2026-10-14",
+      "source_identity_receipt": {
+        "verification_method": "OPENED_EXACT_DOCUMENT",
+        "observed_url": "https://www.reuters.com/business/energy/opec-raises-2027-oil-demand-view-citing-need-rebuild-stocks-2026-10-13/",
+        "canonical_url": "https://www.reuters.com/business/energy/opec-raises-2027-oil-demand-view-citing-need-rebuild-stocks-2026-10-13/",
+        "observed_title": "Saudi leads jump in OPEC+ oil output in September, despite Iran war disruption",
+        "observed_publisher": "Reuters",
+        "title_match_status": "EXACT",
+        "verified_at": "2026-10-14T02:30:21.282Z"
+      },
+      "claim_id": "D20261014-C006",
+      "claim": "OPEC forecasts world oil demand growth of 0.18 million bpd in 2026 and 2.55 million bpd in 2027.",
+      "claim_type": "FORECAST",
+      "data_period_start": "2026-01-01",
+      "data_period_end": "2027-12-31",
+      "publication_time_precision": "ORIGINAL_PUBLISHER_PAGE_TIMESTAMP",
+      "boundary": "Monthly production data, not exported barrels. Two forecast horizons, not observed change in demand."
+    },
+    {
+      "id": "E12",
+      "claim_role": "MATERIAL",
+      "support": "DIRECT",
+      "publisher": "Reuters",
+      "publication_time": "2026-10-14T01:27:00Z",
+      "title": "Oil prices climb as traders weigh Saudi supply risk, Russian diesel flow",
+      "url": "https://www.reuters.com/business/energy/oil-prices-climb-traders-weigh-saudi-supply-risk-russian-diesel-flow-2026-10-14/",
+      "url_identity_status": "PASS",
+      "url_verified_date": "2026-10-14",
+      "source_identity_receipt": {
+        "verification_method": "OPENED_EXACT_DOCUMENT",
+        "observed_url": "https://www.reuters.com/business/energy/oil-prices-climb-traders-weigh-saudi-supply-risk-russian-diesel-flow-2026-10-14/",
+        "canonical_url": "https://www.reuters.com/business/energy/oil-prices-climb-traders-weigh-saudi-supply-risk-russian-diesel-flow-2026-10-14/",
+        "observed_title": "Oil prices climb as traders weigh Saudi supply risk, Russian diesel flow",
+        "observed_publisher": "Reuters",
+        "title_match_status": "EXACT",
+        "verified_at": "2026-10-14T02:30:21.282Z"
+      },
+      "claim_id": "D20261014-C012",
+      "claim": "Reuters October 14 report quotes WTI futures 94.94 USD/bbl as of 00:30 UTC October 14.",
+      "claim_type": "PRICE",
+      "data_period_start": "2026-10-14",
+      "data_period_end": "2026-10-14",
+      "publication_time_precision": "ORIGINAL_PUBLISHER_PAGE_TIMESTAMP",
+      "boundary": "Time-stamped crude futures quote, not close, spot LNG, or physical CIF price. Time-stamped WTI futures quote; not a settlement or physical product quote.",
+      "price_observation_time": "2026-10-14T00:30:00Z",
+      "price_quotes": [
+        {
+          "value": 94.94,
+          "unit": "USD/bbl",
+          "product": "NYMEX WTI futures",
+          "basis": "Intraday 00:30 UTC; not settlement"
+        }
+      ]
     }
   ],
   "guessed_url_count": 0,
   "unsupported_core_claims": 0,
-  "evidence_record_count": 8,
+  "evidence_record_count": 12,
   "source_url_count_distinct": 8,
   "excluded_records": [
     {
@@ -238,6 +364,6 @@
     "No matched JKM/TTF/China LNG/LPG physical price series",
     "Guyana FLNG shrinkage and German reserve remain proposed not final"
   ],
-  "producer_evidence_gate": "SOURCE_IDENTITY_ACQUISITION_RECEIPTS_COMPLETE__FORMAL_WORK_PENDING",
+  "producer_evidence_gate": "ATOMIZED_SOURCE_IDENTITY_READBACK_FORMAL_WORK_PENDING",
   "claim_count_atomic_in_ledger": 12
 }
