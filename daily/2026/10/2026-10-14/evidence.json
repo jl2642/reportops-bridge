@@ -44,20 +44,20 @@
       "url_identity_status": "PASS",
       "url_verified_date": "2026-10-14",
       "source_identity_receipt": {
-        "verification_method": "OPENED_EXACT_DOCUMENT",
+        "verification_method": "SEARCH_RESULT_OBSERVED",
         "observed_url": "https://www.reuters.com/business/energy/guyana-may-scale-back-lng-plans-exxon-needs-more-gas-its-wells-sources-say-2026-10-13/",
         "canonical_url": "https://www.reuters.com/business/energy/guyana-may-scale-back-lng-plans-exxon-needs-more-gas-its-wells-sources-say-2026-10-13/",
         "observed_title": "Guyana may scale back LNG plans as Exxon needs more gas for its wells, sources say",
         "observed_publisher": "Reuters",
         "title_match_status": "EXACT",
-        "verified_at": "2026-10-14T02:30:21.282Z"
+        "verified_at": "2026-10-14T02:40:38.665Z"
       },
       "claim_id": "D20261014-C003",
       "claim": "Exxon-led Guyana consortium expects roughly 2 billion cubic feet per day of gas for oilfield reinjection.",
       "claim_type": "FLNG",
       "data_period_start": "2026-10-13",
       "data_period_end": "2026-10-13",
-      "publication_time_precision": "ORIGINAL_PUBLISHER_PAGE_TIMESTAMP",
+      "publication_time_precision": "REUTERS_SEARCH_RESULT_PUBLICATION_DAY_WITH_RECORDED_TIME__MINUTE_NOT_ORIGIN_VERIFIED",
       "boundary": "Reuters reporting citing people close to negotiations; estimated reservoir need. Undecided option, not approved investment or signed export contract."
     },
     {
@@ -71,20 +71,20 @@
       "url_identity_status": "PASS",
       "url_verified_date": "2026-10-14",
       "source_identity_receipt": {
-        "verification_method": "OPENED_EXACT_DOCUMENT",
+        "verification_method": "SEARCH_RESULT_OBSERVED",
         "observed_url": "https://www.reuters.com/business/energy/opec-raises-2027-oil-demand-view-citing-need-rebuild-stocks-2026-10-13/",
         "canonical_url": "https://www.reuters.com/business/energy/opec-raises-2027-oil-demand-view-citing-need-rebuild-stocks-2026-10-13/",
         "observed_title": "Saudi leads jump in OPEC+ oil output in September, despite Iran war disruption",
         "observed_publisher": "Reuters",
         "title_match_status": "EXACT",
-        "verified_at": "2026-10-14T02:30:21.282Z"
+        "verified_at": "2026-10-14T02:40:38.665Z"
       },
       "claim_id": "D20261014-C005",
       "claim": "OPEC secondary-source data estimates OPEC+ September 2026 oil output at 39.07 million bpd, up about 0.9 million bpd from August.",
       "claim_type": "OIL_SUPPLY",
       "data_period_start": "2026-09-01",
       "data_period_end": "2026-09-30",
-      "publication_time_precision": "ORIGINAL_PUBLISHER_PAGE_TIMESTAMP",
+      "publication_time_precision": "REUTERS_SEARCH_RESULT_PUBLICATION_DAY_WITH_RECORDED_TIME__MINUTE_NOT_ORIGIN_VERIFIED",
       "boundary": "Monthly production data, not exported barrels. Two forecast horizons, not observed change in demand."
     },
     {
@@ -125,20 +125,20 @@
       "url_identity_status": "PASS",
       "url_verified_date": "2026-10-14",
       "source_identity_receipt": {
-        "verification_method": "OPENED_EXACT_DOCUMENT",
+        "verification_method": "SEARCH_RESULT_OBSERVED",
         "observed_url": "https://www.reuters.com/business/energy/germany-fund-new-emergency-gas-reserve-via-consumer-levy-draft-says-2026-10-13/",
         "canonical_url": "https://www.reuters.com/business/energy/germany-fund-new-emergency-gas-reserve-via-consumer-levy-draft-says-2026-10-13/",
         "observed_title": "Germany to fund new emergency gas reserve via consumer levy, draft says",
         "observed_publisher": "Reuters",
         "title_match_status": "EXACT",
-        "verified_at": "2026-10-14T02:30:21.282Z"
+        "verified_at": "2026-10-14T02:40:38.665Z"
       },
       "claim_id": "D20261014-C008",
       "claim": "Draft German legislation proposes 24TWh emergency gas reserve with ten-year costs of up to EUR3.08bn.",
       "claim_type": "EU_STORAGE_POLICY",
       "data_period_start": "2026-10-13",
       "data_period_end": "2027-10-01",
-      "publication_time_precision": "ORIGINAL_PUBLISHER_PAGE_TIMESTAMP",
+      "publication_time_precision": "REUTERS_SEARCH_RESULT_PUBLICATION_DAY_WITH_RECORDED_TIME__MINUTE_NOT_ORIGIN_VERIFIED",
       "boundary": "Reuters saw draft; not enacted and no stock already procured."
     },
     {
@@ -152,20 +152,20 @@
       "url_identity_status": "PASS",
       "url_verified_date": "2026-10-14",
       "source_identity_receipt": {
-        "verification_method": "OPENED_EXACT_DOCUMENT",
+        "verification_method": "SEARCH_RESULT_OBSERVED",
         "observed_url": "https://www.reuters.com/business/energy/investors-traded-record-volume-ice-brent-options-third-quarter-2026-10-13/",
         "canonical_url": "https://www.reuters.com/business/energy/investors-traded-record-volume-ice-brent-options-third-quarter-2026-10-13/",
         "observed_title": "Investors traded a record volume of ICE Brent options in third quarter",
         "observed_publisher": "Reuters",
         "title_match_status": "EXACT",
-        "verified_at": "2026-10-14T02:30:21.282Z"
+        "verified_at": "2026-10-14T02:40:38.665Z"
       },
       "claim_id": "D20261014-C009",
       "claim": "ICE disclosed Q3 2026 Brent options volume of roughly 28m contracts, average 437200 daily, up 63% year on year.",
       "claim_type": "OPTIONS",
       "data_period_start": "2026-07-01",
       "data_period_end": "2026-09-30",
-      "publication_time_precision": "ORIGINAL_PUBLISHER_PAGE_TIMESTAMP",
+      "publication_time_precision": "REUTERS_SEARCH_RESULT_PUBLICATION_DAY_WITH_RECORDED_TIME__MINUTE_NOT_ORIGIN_VERIFIED",
       "boundary": "Exchange trading statistics, not directional forecast or implied volatility measure."
     },
     {
@@ -206,20 +206,20 @@
       "url_identity_status": "PASS",
       "url_verified_date": "2026-10-14",
       "source_identity_receipt": {
-        "verification_method": "OPENED_EXACT_DOCUMENT",
+        "verification_method": "SEARCH_RESULT_OBSERVED",
         "observed_url": "https://www.reuters.com/business/energy/oil-prices-climb-traders-weigh-saudi-supply-risk-russian-diesel-flow-2026-10-14/",
         "canonical_url": "https://www.reuters.com/business/energy/oil-prices-climb-traders-weigh-saudi-supply-risk-russian-diesel-flow-2026-10-14/",
         "observed_title": "Oil prices climb as traders weigh Saudi supply risk, Russian diesel flow",
         "observed_publisher": "Reuters",
         "title_match_status": "EXACT",
-        "verified_at": "2026-10-14T02:30:21.282Z"
+        "verified_at": "2026-10-14T02:40:38.665Z"
       },
       "claim_id": "D20261014-C011",
       "claim": "Reuters October 14 report quotes Brent futures 106.58 USD/bbl as of 00:30 UTC October 14.",
       "claim_type": "PRICE",
       "data_period_start": "2026-10-14",
       "data_period_end": "2026-10-14",
-      "publication_time_precision": "ORIGINAL_PUBLISHER_PAGE_TIMESTAMP",
+      "publication_time_precision": "REUTERS_SEARCH_RESULT_PUBLICATION_DAY_WITH_RECORDED_TIME__MINUTE_NOT_ORIGIN_VERIFIED",
       "boundary": "Time-stamped crude futures quote, not close, spot LNG, or physical CIF price. Time-stamped WTI futures quote; not a settlement or physical product quote.",
       "price_observation_time": "2026-10-14T00:30:00Z",
       "price_quotes": [
@@ -269,20 +269,20 @@
       "url_identity_status": "PASS",
       "url_verified_date": "2026-10-14",
       "source_identity_receipt": {
-        "verification_method": "OPENED_EXACT_DOCUMENT",
+        "verification_method": "SEARCH_RESULT_OBSERVED",
         "observed_url": "https://www.reuters.com/business/energy/guyana-may-scale-back-lng-plans-exxon-needs-more-gas-its-wells-sources-say-2026-10-13/",
         "canonical_url": "https://www.reuters.com/business/energy/guyana-may-scale-back-lng-plans-exxon-needs-more-gas-its-wells-sources-say-2026-10-13/",
         "observed_title": "Guyana may scale back LNG plans as Exxon needs more gas for its wells, sources say",
         "observed_publisher": "Reuters",
         "title_match_status": "EXACT",
-        "verified_at": "2026-10-14T02:30:21.282Z"
+        "verified_at": "2026-10-14T02:40:38.665Z"
       },
       "claim_id": "D20261014-C004",
       "claim": "Guyana is considering scaling planned FLNG export capacity from 6Mtpa to initial capacity up to 3Mtpa.",
       "claim_type": "FLNG",
       "data_period_start": "2026-10-13",
       "data_period_end": "2026-10-13",
-      "publication_time_precision": "ORIGINAL_PUBLISHER_PAGE_TIMESTAMP",
+      "publication_time_precision": "REUTERS_SEARCH_RESULT_PUBLICATION_DAY_WITH_RECORDED_TIME__MINUTE_NOT_ORIGIN_VERIFIED",
       "boundary": "Reuters reporting citing people close to negotiations; estimated reservoir need. Undecided option, not approved investment or signed export contract."
     },
     {
@@ -296,20 +296,20 @@
       "url_identity_status": "PASS",
       "url_verified_date": "2026-10-14",
       "source_identity_receipt": {
-        "verification_method": "OPENED_EXACT_DOCUMENT",
+        "verification_method": "SEARCH_RESULT_OBSERVED",
         "observed_url": "https://www.reuters.com/business/energy/opec-raises-2027-oil-demand-view-citing-need-rebuild-stocks-2026-10-13/",
         "canonical_url": "https://www.reuters.com/business/energy/opec-raises-2027-oil-demand-view-citing-need-rebuild-stocks-2026-10-13/",
         "observed_title": "Saudi leads jump in OPEC+ oil output in September, despite Iran war disruption",
         "observed_publisher": "Reuters",
         "title_match_status": "EXACT",
-        "verified_at": "2026-10-14T02:30:21.282Z"
+        "verified_at": "2026-10-14T02:40:38.665Z"
       },
       "claim_id": "D20261014-C006",
       "claim": "OPEC forecasts world oil demand growth of 0.18 million bpd in 2026 and 2.55 million bpd in 2027.",
       "claim_type": "FORECAST",
       "data_period_start": "2026-01-01",
       "data_period_end": "2027-12-31",
-      "publication_time_precision": "ORIGINAL_PUBLISHER_PAGE_TIMESTAMP",
+      "publication_time_precision": "REUTERS_SEARCH_RESULT_PUBLICATION_DAY_WITH_RECORDED_TIME__MINUTE_NOT_ORIGIN_VERIFIED",
       "boundary": "Monthly production data, not exported barrels. Two forecast horizons, not observed change in demand."
     },
     {
@@ -323,20 +323,20 @@
       "url_identity_status": "PASS",
       "url_verified_date": "2026-10-14",
       "source_identity_receipt": {
-        "verification_method": "OPENED_EXACT_DOCUMENT",
+        "verification_method": "SEARCH_RESULT_OBSERVED",
         "observed_url": "https://www.reuters.com/business/energy/oil-prices-climb-traders-weigh-saudi-supply-risk-russian-diesel-flow-2026-10-14/",
         "canonical_url": "https://www.reuters.com/business/energy/oil-prices-climb-traders-weigh-saudi-supply-risk-russian-diesel-flow-2026-10-14/",
         "observed_title": "Oil prices climb as traders weigh Saudi supply risk, Russian diesel flow",
         "observed_publisher": "Reuters",
         "title_match_status": "EXACT",
-        "verified_at": "2026-10-14T02:30:21.282Z"
+        "verified_at": "2026-10-14T02:40:38.665Z"
       },
       "claim_id": "D20261014-C012",
       "claim": "Reuters October 14 report quotes WTI futures 94.94 USD/bbl as of 00:30 UTC October 14.",
       "claim_type": "PRICE",
       "data_period_start": "2026-10-14",
       "data_period_end": "2026-10-14",
-      "publication_time_precision": "ORIGINAL_PUBLISHER_PAGE_TIMESTAMP",
+      "publication_time_precision": "REUTERS_SEARCH_RESULT_PUBLICATION_DAY_WITH_RECORDED_TIME__MINUTE_NOT_ORIGIN_VERIFIED",
       "boundary": "Time-stamped crude futures quote, not close, spot LNG, or physical CIF price. Time-stamped WTI futures quote; not a settlement or physical product quote.",
       "price_observation_time": "2026-10-14T00:30:00Z",
       "price_quotes": [
