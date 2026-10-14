@@ -18,10 +18,10 @@
   "executive_cjk_actual": 252,
   "key_signal_cjk_actual": 1436,
   "signal_card_cjk_actual": [
-    351,
-    390,
-    349,
-    346
+    348,
+    387,
+    346,
+    343
   ],
   "china_chain_cjk_actual": 179,
   "global_energy_cjk_actual": 162,
@@ -53,7 +53,7 @@
     "evidence_json": "588676b6193db183aeb3f32daccabdf4f6b7b3e1",
     "ledger_csv": "8d39b18aa1708afd8cad87de665f28e07c5bc2c4"
   },
-  "recovery_notes": "Original scheduled 10:15 remains FAILED safety-blocked at PUBLIC_CORE_CREATE; interactive 2026-10-14 recovery completed missing strict v2 ledger after correcting Equinor source to its official announcement. One first strict-v2 ledger commit was blocked by OpenAI safety checks; corrected same-channel submission succeeded. This does not prove unattended scheduler writing. Library Current/Canonical/Site untouched. Work consumer validator required. Final Producer self-audit passed 4-file readback, separate from Formal Work. Pre-Work 2026-10-14 audit: corrected 30 invalid Evidence V2 ledger enum/price-basis entries in-place and synchronized E04 official Equinor title/publisher/URL; reconciled new ledger blob SHA and readback all 12 atomic rows. Original scheduled Producer failure retained. Formal Work Reader/Lineage/Authority and Site validation remain pending. Additional pre-Work official V4 counting parity repair: five section CJK values previously included H2 heading characters; reconciled to validator H2-body-only measured actuals (Executive 252, Signals 1436, China 179, Global 162, Operator 219). Entire core 3222 and 4 card metrics unchanged; all governing floors pass.",
+  "recovery_notes": "Original scheduled 10:15 remains FAILED safety-blocked at PUBLIC_CORE_CREATE; interactive 2026-10-14 recovery completed missing strict v2 ledger after correcting Equinor source to its official announcement. One first strict-v2 ledger commit was blocked by OpenAI safety checks; corrected same-channel submission succeeded. This does not prove unattended scheduler writing. Library Current/Canonical/Site untouched. Work consumer validator required. Final Producer self-audit passed 4-file readback, separate from Formal Work. Pre-Work 2026-10-14 audit: corrected 30 invalid Evidence V2 ledger enum/price-basis entries in-place and synchronized E04 official Equinor title/publisher/URL; reconciled new ledger blob SHA and readback all 12 atomic rows. Original scheduled Producer failure retained. Formal Work Reader/Lineage/Authority and Site validation remain pending. Additional pre-Work official V4 counting parity repair: five section CJK values previously included H2 heading characters; reconciled to validator H2-body-only measured actuals (Executive 252, Signals 1436, China 179, Global 162, Operator 219). Entire core 3222 and 4 card metrics unchanged; all governing floors pass. Official SIGNAL_HEADING_RE measures each card from after the matched '信号卡' heading prefix; reconciled signal_card_cjk_actual to actual validator values 348,387,346,343.",
   "producer_checks": {
     "title": true,
     "executive": true,
