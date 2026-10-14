@@ -45,15 +45,15 @@
   "site_publication_performed": false,
   "work_may_rewrite": false,
   "formal_work_validator": "PENDING__12_30_WORK",
-  "post_run_self_audit_status": "PASS_PRECOMMIT_THREE_ASSETS__MANIFEST_READBACK_PENDING",
-  "github_write_status": "PASS__THREE_PRODUCT_ASSETS__MANIFEST_PENDING",
-  "github_readback_status": "PASS__THREE_PRODUCT_ASSETS__MANIFEST_PENDING",
+  "post_run_self_audit_status": "PASS__FOUR_PRODUCT_ASSETS_READBACK__ATOMIC_LEDGER__DYNAMIC_V4__SOURCE_WINDOW",
+  "github_write_status": "PASS__FOUR_OF_FOUR_PRODUCT_ASSETS",
+  "github_readback_status": "PASS__FOUR_OF_FOUR_PRODUCT_ASSETS",
   "source_file_blob_sha": {
     "public_core_md": "953930e0a015b4e0c03f4dbb092aace8840e877f",
     "evidence_json": "588676b6193db183aeb3f32daccabdf4f6b7b3e1",
     "ledger_csv": "e5065118dfb783982336b7ed7f7ee0fdb995c7e8"
   },
-  "recovery_notes": "Original scheduled 10:15 remains FAILED safety-blocked at PUBLIC_CORE_CREATE; interactive 2026-10-14 recovery completed missing strict v2 ledger after correcting Equinor source to its official announcement. One first strict-v2 ledger commit was blocked by OpenAI safety checks; corrected same-channel submission succeeded. This does not prove unattended scheduler writing. Library Current/Canonical/Site untouched. Work consumer validator required.",
+  "recovery_notes": "Original scheduled 10:15 remains FAILED safety-blocked at PUBLIC_CORE_CREATE; interactive 2026-10-14 recovery completed missing strict v2 ledger after correcting Equinor source to its official announcement. One first strict-v2 ledger commit was blocked by OpenAI safety checks; corrected same-channel submission succeeded. This does not prove unattended scheduler writing. Library Current/Canonical/Site untouched. Work consumer validator required. Final Producer self-audit passed 4-file readback, separate from Formal Work.",
   "producer_checks": {
     "title": true,
     "executive": true,
@@ -70,9 +70,10 @@
     "window": true,
     "atomic_price_claims": true,
     "receipt_methods_reconciled": true,
-    "inline_evidence_twelve": true
+    "inline_evidence_twelve": true,
+    "final_manifest_readback": true
   },
-  "producer_acceptance_completed_at": "2026-10-14T02:41:52.213Z",
+  "producer_acceptance_completed_at": "2026-10-14T02:42:49.927Z",
   "warnings": [
     "REUTERS_DIRECT_OPEN_UNAVAILABLE__SEARCH_RESULT_IDENTITY_OBSERVED__ORIGINAL_PUBLICATION_MINUTES_NOT_FULLY_REVERIFIED",
     "UNATTENDED_GITHUB_WRITER_STABILITY_UNPROVEN"
