@@ -1,0 +1,13 @@
+{
+  "schema_version": "REPORTOPS_RECOVERY_HEARTBEAT_V1",
+  "target_date": "2026-10-15",
+  "scheduled_for": "10:15 Asia/Shanghai",
+  "run_started_at": "2026-10-15T02:15:26.959Z",
+  "status": "RUN_STARTED_BEFORE_PREFLIGHT",
+  "mode": "BOUNDED_INTERACTIVE_RECOVERY__NOT_SCHEDULED_SUCCESS",
+  "original_scheduled_status": "FAILED_INITIAL_HEARTBEAT_CREATE_BLOCKED_BY_OPENAI_SAFETY_CHECKS",
+  "window_start": "2026-10-14T10:00:00+08:00",
+  "window_end": "2026-10-15T10:00:00+08:00",
+  "canonical_mutation_performed": false,
+  "site_mutation_performed": false
+}
