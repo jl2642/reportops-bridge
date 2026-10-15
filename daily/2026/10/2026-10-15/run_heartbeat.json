@@ -3,11 +3,28 @@
   "target_date": "2026-10-15",
   "scheduled_for": "10:15 Asia/Shanghai",
   "run_started_at": "2026-10-15T02:15:26.959Z",
-  "status": "RUN_STARTED_BEFORE_PREFLIGHT",
+  "status": "PRODUCER_SUCCESS_CANDIDATES_PENDING_WORK",
   "mode": "BOUNDED_INTERACTIVE_RECOVERY__NOT_SCHEDULED_SUCCESS",
   "original_scheduled_status": "FAILED_INITIAL_HEARTBEAT_CREATE_BLOCKED_BY_OPENAI_SAFETY_CHECKS",
   "window_start": "2026-10-14T10:00:00+08:00",
   "window_end": "2026-10-15T10:00:00+08:00",
   "canonical_mutation_performed": false,
-  "site_mutation_performed": false
+  "site_mutation_performed": false,
+  "original_scheduled_failure_stage": "INITIAL_HEARTBEAT_CREATE",
+  "original_scheduled_heartbeat_found": false,
+  "original_scheduled_product_persisted": false,
+  "recovery_completed_at": "2026-10-15T02:24:35.063Z",
+  "products_repaired_or_produced": [
+    "2026-10-15"
+  ],
+  "producer_recovery_queue_remaining": [],
+  "queue_for_12_30_work": [
+    "Daily 2026-10-15"
+  ],
+  "post_run_self_audit_status": "PASS__FOUR_PRODUCT_ASSETS_READBACK__ATOMIC_LEDGER__DYNAMIC_V4__SOURCE_WINDOW",
+  "github_write_status": "PASS__FOUR_PRODUCT_ASSETS",
+  "github_readback_status": "PASS__FOUR_PRODUCT_ASSETS",
+  "manual_intervention_required": false,
+  "formal_work_validator": "PENDING",
+  "notes": "Original unattended scheduled run FAILED platform safety check at INITIAL_HEARTBEAT_CREATE. User-authorized bounded interactive recovery completed same connector with all four product assets read back. This does NOT prove unattended scheduler writer stability; Work must independently validate and atomically promote/publish."
 }
