@@ -46,9 +46,9 @@
   "site_publication_performed": false,
   "work_may_rewrite": false,
   "formal_work_validator": "PENDING__12_30_WORK",
-  "post_run_self_audit_status": "PASS_PRODUCER_GATES__FOUR_FILE_REMOTE_READBACK_TO_CONFIRM",
-  "github_write_status": "PASS__THREE_PRODUCT_ASSETS",
-  "github_readback_status": "PASS__THREE_PRODUCT_ASSETS",
+  "post_run_self_audit_status": "PASS__FOUR_PRODUCT_ASSETS_READBACK__ATOMIC_LEDGER__DYNAMIC_V4__SOURCE_WINDOW",
+  "github_write_status": "PASS__FOUR_PRODUCT_ASSETS",
+  "github_readback_status": "PASS__FOUR_PRODUCT_ASSETS",
   "source_file_blob_sha": {
     "public_core_md": "46e2a5ee807cf977d0e8b073a600f8e4f1250df7",
     "evidence_json": "2585494d3147528a507c9255705fe9ab9e914b8b",
@@ -72,7 +72,7 @@
     "atomic_price_claims": true,
     "receipt_methods_reconciled": true,
     "inline_evidence_thirteen": true,
-    "final_manifest_readback": false
+    "final_manifest_readback": true
   },
   "producer_acceptance_completed_at": "2026-10-15T02:23:53.546Z",
   "warnings": [
