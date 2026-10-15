@@ -86,14 +86,14 @@
   "state_identity_status": "PASS_GITHUB_BLOB_IDENTITY",
   "consumer_preflighted_at": "2026-10-15T12:45:00+08:00",
   "consumer_reconciled_at": "2026-10-15T12:52:00+08:00",
-  "public_site_version": 98,
-  "public_site_status": "PASS_V98_REMOTE_READBACK",
-  "real_remote_readback_status": "PASS_REAL_REMOTE_CONTENT_V98__12_REQUIRED_PAGES",
-  "daily_download_sha256": "ae68ab9100c54a33c86fd16c71092a688a0a4b0a30518c46a458814b4717d14a",
+  "public_site_version": 99,
+  "public_site_status": "PASS_V99_LIVE_CONTENT_READBACK__ZIP_SHA_UNVERIFIED",
+  "real_remote_readback_status": "PASS_V99_CACHE_BUSTED_HOME_DAILY_ARCHIVE_1015_REPORT_DOWNLOAD_CENTER_AND_HTML__REMOTE_ZIP_SHA_UNVERIFIED",
+  "daily_download_sha256": "f1d224161f3e274e833b372d98462deb62b7730f967607b4dfee7160842dc6c9",
   "weekly_download_sha256": "0b3789baeea763a875fba5e616b72cc429950646becc1629ce04267df5d84cd9",
   "authority_package_sha256_at_preflight": "5694c96be8e5e400479a11bc8da09a287c7b9b7770ad2b09dcf6bc1c011f1a45",
-  "authority_package_sha256": "25b376589e65f3cdb02b3f6a13a102b2fc750d06b3f34f136f71cdb7f1c208a2",
-  "library_sidecar_sha256": "25b376589e65f3cdb02b3f6a13a102b2fc750d06b3f34f136f71cdb7f1c208a2",
+  "authority_package_sha256": "f911a4dfff19420aac4f9349ddaa5370c2f50bec0db80045395c471ef4db3c52",
+  "library_sidecar_sha256": "f911a4dfff19420aac4f9349ddaa5370c2f50bec0db80045395c471ef4db3c52",
   "blocking_reason": null,
   "substantive_content_changed_by_work": false,
   "evidence_changed_by_work": false,
@@ -181,12 +181,44 @@
     ]
   },
   "authority_sha_runtime_reconciliation": {
-    "status": "PASS_POST_REBUILD_AUTHORITY_SHA_FOUR_WAY",
-    "authority_sha_before": "5694c96be8e5e400479a11bc8da09a287c7b9b7770ad2b09dcf6bc1c011f1a45",
-    "authority_sha_after": "25b376589e65f3cdb02b3f6a13a102b2fc750d06b3f34f136f71cdb7f1c208a2",
-    "library_sidecar_sha256": "25b376589e65f3cdb02b3f6a13a102b2fc750d06b3f34f136f71cdb7f1c208a2",
-    "runtime_authority_sha256": "25b376589e65f3cdb02b3f6a13a102b2fc750d06b3f34f136f71cdb7f1c208a2",
-    "manifest_authority_sha256": "25b376589e65f3cdb02b3f6a13a102b2fc750d06b3f34f136f71cdb7f1c208a2",
-    "reconciled_at": "2026-10-15T04:52:00Z"
+    "status": "PASS_POST_REBUILD_AUTHORITY_SHA_FOUR_WAY__SITE_ZIP_SHA_PENDING",
+    "authority_sha_before": "25b376589e65f3cdb02b3f6a13a102b2fc750d06b3f34f136f71cdb7f1c208a2",
+    "authority_sha_after": "f911a4dfff19420aac4f9349ddaa5370c2f50bec0db80045395c471ef4db3c52",
+    "library_sidecar_sha256": "f911a4dfff19420aac4f9349ddaa5370c2f50bec0db80045395c471ef4db3c52",
+    "runtime_authority_sha256": "f911a4dfff19420aac4f9349ddaa5370c2f50bec0db80045395c471ef4db3c52",
+    "manifest_authority_sha256": "f911a4dfff19420aac4f9349ddaa5370c2f50bec0db80045395c471ef4db3c52",
+    "reconciled_at": "2026-10-15T09:20:00Z"
+  },
+  "download_sha_status": "BLOCKED_REMOTE_ZIP_SHA_READBACK",
+  "failure_stage": "PUBLIC_SITE_V99_REMOTE_DOWNLOAD_ZIP_SHA_READBACK",
+  "failure_reason": "The live v99 report and download HTML were cache-busted and read back. Remote download ZIP SHA-256 could not be verified: browser security policy blocked chrome://downloads, and direct external retrieval returned HTTP 403. No ZIP hash is claimed as a live-origin readback.",
+  "reportops_status": "PACKAGE_SUCCESS_SITE_PENDING_REMOTE_ZIP_SHA",
+  "presentation_only_correction": {
+    "status": "PACKAGE_SUCCESS_SITE_PENDING_REMOTE_ZIP_SHA",
+    "correction_type": "PRESENTATION_STATUS_WORDING_ONLY",
+    "site_version": 99,
+    "site_commit_sha": "65095b4cfb3063279194dd1095b5bd36f1348de6",
+    "deployment_id": "appgdep_6ad09859bce8819180517a4746a22836",
+    "replacement_A": {
+      "old": "本篇为交互式补跑的公开安全候选，须经后续Work正式验证。",
+      "new": "本篇已完成正式审核并发布；相关补跑来源及验证记录保留于运行档案。"
+    },
+    "replacement_B": {
+      "old": "所有分析限于公开安全信息；结论为候选，须经Work正式Gate与Authority验证。",
+      "new": "所有分析限于公开安全信息；结论仍受上述数据缺口、证据边界与不确定性约束。"
+    },
+    "producer_payload_sha_blobs_unchanged": true,
+    "source_identity": "PASS_13_OF_13",
+    "evidence": "PASS_13_RECORDS_13_CLAIMS",
+    "reader": "PASS_READER_DOM_V1",
+    "lineage": "PASS_DRY_RUN_VALIDATED_AND_COMMITTED",
+    "product_composition": "PASS_WITH_WARNINGS__4271_CJK__ALL_HARD_FLOORS_PASS",
+    "live_origin_readback": "PASS_V99_CACHE_BUSTED_HOME_DAILY_ARCHIVE_1015_REPORT_DOWNLOAD_CENTER_AND_HTML__REMOTE_ZIP_SHA_UNVERIFIED",
+    "live_zip_sha256": "f1d224161f3e274e833b372d98462deb62b7730f967607b4dfee7160842dc6c9",
+    "live_zip_sha256_status": "UNVERIFIED_REMOTE_READBACK",
+    "failure_stage": "PUBLIC_SITE_V99_REMOTE_DOWNLOAD_ZIP_SHA_READBACK",
+    "failure_reason": "The live v99 report and download HTML were cache-busted and read back. Remote download ZIP SHA-256 could not be verified: browser security policy blocked chrome://downloads, and direct external retrieval returned HTTP 403. No ZIP hash is claimed as a live-origin readback.",
+    "formal_promotion_repeated": false,
+    "research_reperformed": false
   }
 }
