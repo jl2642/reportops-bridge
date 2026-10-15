@@ -14,7 +14,7 @@
   "public_site_version": 99,
   "public_site_url": "https://energy-cycle-report-share.ljjx2020.chatgpt.site",
   "public_remote_readback": "PASS_V99_CACHE_BUSTED_HOME_DAILY_ARCHIVE_1015_REPORT_DOWNLOAD_CENTER_AND_HTML__REMOTE_ZIP_SHA_UNVERIFIED",
-  "authority_package_sha256": "f911a4dfff19420aac4f9349ddaa5370c2f50bec0db80045395c471ef4db3c52",
+  "authority_package_sha256": "6820dde8c82b8359236eb81afb5a9d8100bb4292cbaafb0da3732d740098359c",
   "github_role": "PUBLIC_SAFE_RUNTIME_BRIDGE_NOT_CANONICAL_AUTHORITY",
   "canonical_authority": "CHATGPT_LIBRARY",
   "daily_runtime_contract_current": "V1_5_FORMAL_AUTHORITY",
@@ -24,7 +24,7 @@
   "pending_work_runtime_formalization": false,
   "final_closure_status": "PACKAGE_SUCCESS_SITE_PENDING_REMOTE_ZIP_SHA",
   "pending_product": null,
-  "last_updated": "2026-10-15T09:20:00Z",
+  "last_updated": "2026-10-15T09:25:00Z",
   "deployment_state_ref": "runtime/DEPLOYMENT_STATE.json",
   "metadata_freshness": "PASS__13_CURRENT_DERIVED_VIEWS__POINTER_MATCH",
   "state_consistency_pointer_sha256": "52ea70f932e268ba7b474b9e63046f2de99ada0a1f2f870adb98071a0e536ce4",
@@ -48,19 +48,19 @@
   "authority_sha_runtime_reconciliation": {
     "status": "PASS_POST_REBUILD_AUTHORITY_SHA_FOUR_WAY__SITE_ZIP_SHA_PENDING",
     "authority_sha_before": "25b376589e65f3cdb02b3f6a13a102b2fc750d06b3f34f136f71cdb7f1c208a2",
-    "authority_sha_after": "f911a4dfff19420aac4f9349ddaa5370c2f50bec0db80045395c471ef4db3c52",
-    "library_sidecar_sha256": "f911a4dfff19420aac4f9349ddaa5370c2f50bec0db80045395c471ef4db3c52",
-    "runtime_authority_sha256": "f911a4dfff19420aac4f9349ddaa5370c2f50bec0db80045395c471ef4db3c52",
-    "manifest_authority_sha256": "f911a4dfff19420aac4f9349ddaa5370c2f50bec0db80045395c471ef4db3c52",
-    "reconciled_at": "2026-10-15T09:20:00Z"
+    "authority_sha_after": "6820dde8c82b8359236eb81afb5a9d8100bb4292cbaafb0da3732d740098359c",
+    "library_sidecar_sha256": "6820dde8c82b8359236eb81afb5a9d8100bb4292cbaafb0da3732d740098359c",
+    "runtime_authority_sha256": "6820dde8c82b8359236eb81afb5a9d8100bb4292cbaafb0da3732d740098359c",
+    "manifest_authority_sha256": "6820dde8c82b8359236eb81afb5a9d8100bb4292cbaafb0da3732d740098359c",
+    "reconciled_at": "2026-10-15T09:25:00Z"
   },
   "public_daily_2026_10_02_download_sha256": "d2939f2bcc654a268bea060b4715dd00fb05f7a7707db1daa7fed393c7a61262",
   "current_daily_canonical": "2026-10-15",
-  "library_sidecar_sha256": "f911a4dfff19420aac4f9349ddaa5370c2f50bec0db80045395c471ef4db3c52",
+  "library_sidecar_sha256": "6820dde8c82b8359236eb81afb5a9d8100bb4292cbaafb0da3732d740098359c",
   "current_package_site_publication_performed": true,
   "runtime_sync_status": "PASS_POST_REBUILD_AUTHORITY_SHA_FOUR_WAY_READBACK",
   "stable": false,
-  "updated_at": "2026-10-15T09:20:00Z",
+  "updated_at": "2026-10-15T09:25:00Z",
   "public_weekly_2026_w40_download_sha256": "5a1bdc5e712f84cb8970aff63e079b193ba2a9eef4ca7e83bfdeb22b8137adc7",
   "public_daily_2026_10_04_download_sha256": "90bfb728e8a27c5ab3e0ba67d98013c78be2b63d246e5c5e16c86ee6c4337529",
   "failure_stage": "PUBLIC_SITE_V99_REMOTE_DOWNLOAD_ZIP_SHA_READBACK",
@@ -146,5 +146,6 @@
     }
   ],
   "last_work_reconciled_at": "2026-10-14T12:45:00+08:00",
-  "public_daily_2026_10_15_download_sha256": "f1d224161f3e274e833b372d98462deb62b7730f967607b4dfee7160842dc6c9"
+  "public_daily_2026_10_15_download_sha256": "f1d224161f3e274e833b372d98462deb62b7730f967607b4dfee7160842dc6c9",
+  "current_derived_views_status": "PASS_13_OF_13__CURRENT_METADATA_FRESHNESS_VALIDATOR"
 }

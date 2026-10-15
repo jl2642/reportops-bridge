@@ -60,11 +60,11 @@
   "failure_stage": "PUBLIC_SITE_V99_REMOTE_DOWNLOAD_ZIP_SHA_READBACK",
   "failure_reason": "The live v99 report and download HTML were cache-busted and read back. Remote download ZIP SHA-256 could not be verified: browser security policy blocked chrome://downloads, and direct external retrieval returned HTTP 403. No ZIP hash is claimed as a live-origin readback.",
   "next_action": "Complete a permitted live-origin download ZIP SHA-256 readback; then update closure status without changing Current periods.",
-  "updated_at": "2026-10-15T09:20:00Z",
+  "updated_at": "2026-10-15T09:25:00Z",
   "queue_remaining": [],
   "pending_product": null,
   "manual_intervention_required": false,
-  "authority_package_sha256": "f911a4dfff19420aac4f9349ddaa5370c2f50bec0db80045395c471ef4db3c52",
+  "authority_package_sha256": "6820dde8c82b8359236eb81afb5a9d8100bb4292cbaafb0da3732d740098359c",
   "queue_initial": [
     "Daily 2026-10-15"
   ],
@@ -206,11 +206,11 @@
   "authority_sha_runtime_reconciliation": {
     "status": "PASS_POST_REBUILD_AUTHORITY_SHA_FOUR_WAY__SITE_ZIP_SHA_PENDING",
     "authority_sha_before": "25b376589e65f3cdb02b3f6a13a102b2fc750d06b3f34f136f71cdb7f1c208a2",
-    "authority_sha_after": "f911a4dfff19420aac4f9349ddaa5370c2f50bec0db80045395c471ef4db3c52",
-    "library_sidecar_sha256": "f911a4dfff19420aac4f9349ddaa5370c2f50bec0db80045395c471ef4db3c52",
-    "runtime_authority_sha256": "f911a4dfff19420aac4f9349ddaa5370c2f50bec0db80045395c471ef4db3c52",
-    "manifest_authority_sha256": "f911a4dfff19420aac4f9349ddaa5370c2f50bec0db80045395c471ef4db3c52",
-    "reconciled_at": "2026-10-15T09:20:00Z"
+    "authority_sha_after": "6820dde8c82b8359236eb81afb5a9d8100bb4292cbaafb0da3732d740098359c",
+    "library_sidecar_sha256": "6820dde8c82b8359236eb81afb5a9d8100bb4292cbaafb0da3732d740098359c",
+    "runtime_authority_sha256": "6820dde8c82b8359236eb81afb5a9d8100bb4292cbaafb0da3732d740098359c",
+    "manifest_authority_sha256": "6820dde8c82b8359236eb81afb5a9d8100bb4292cbaafb0da3732d740098359c",
+    "reconciled_at": "2026-10-15T09:25:00Z"
   },
   "runtime_sync_status": "PASS_POST_REBUILD_AUTHORITY_SHA_FOUR_WAY_READBACK",
   "recovery_provenance_2026_10_02": {
@@ -318,7 +318,7 @@
   },
   "current_daily_canonical": "2026-10-14",
   "current_quarterly_public": "2026-Q3",
-  "library_sidecar_sha256": "f911a4dfff19420aac4f9349ddaa5370c2f50bec0db80045395c471ef4db3c52",
+  "library_sidecar_sha256": "6820dde8c82b8359236eb81afb5a9d8100bb4292cbaafb0da3732d740098359c",
   "stale_views": [],
   "candidate_2026_10_05": {
     "product_status": "PUBLIC_CORE_ACCEPTED_PENDING_WORK",
@@ -552,7 +552,7 @@
     "root_cause": "UNKNOWN__SCHEDULED_RUN_HISTORY_UNAVAILABLE"
   },
   "current_annual_public": "NO_FORMAL_2026_PRODUCT",
-  "last_updated": "2026-10-15T09:20:00Z",
+  "last_updated": "2026-10-15T09:25:00Z",
   "final_closure_status": "PACKAGE_SUCCESS_SITE_PENDING_REMOTE_ZIP_SHA",
   "status": "SUCCESS",
   "public_site_publication_receipt_status": "DEPLOYED_V99_LIVE_CONTENT_READBACK__ZIP_SHA_UNVERIFIED",
@@ -577,5 +577,7 @@
     "failure_reason": "The live v99 report and download HTML were cache-busted and read back. Remote download ZIP SHA-256 could not be verified: browser security policy blocked chrome://downloads, and direct external retrieval returned HTTP 403. No ZIP hash is claimed as a live-origin readback.",
     "formal_promotion_repeated": false,
     "research_reperformed": false
-  }
+  },
+  "authority_sha_runtime_reconciliation_status": "PASS",
+  "current_derived_views_status": "PASS_13_OF_13__CURRENT_METADATA_FRESHNESS_VALIDATOR"
 }

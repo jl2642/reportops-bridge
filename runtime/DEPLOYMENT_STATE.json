@@ -26,12 +26,12 @@
   "current_weekly_public": "2026-W41",
   "current_monthly_public": "2026-09",
   "current_quarterly_public": "2026-Q3",
-  "authority_package_sha256": "f911a4dfff19420aac4f9349ddaa5370c2f50bec0db80045395c471ef4db3c52",
+  "authority_package_sha256": "6820dde8c82b8359236eb81afb5a9d8100bb4292cbaafb0da3732d740098359c",
   "canonical_authority": "CHATGPT_LIBRARY:/能源周期报告/00_CURRENT/CURRENT_POINTER.json",
   "current_public_ref": "runtime/CURRENT_PUBLIC.json",
   "final_closure_status": "PACKAGE_SUCCESS_SITE_PENDING_REMOTE_ZIP_SHA",
   "pending_product": null,
-  "updated_at": "2026-10-15T09:20:00Z",
+  "updated_at": "2026-10-15T09:25:00Z",
   "metadata_freshness": "PASS__13_CURRENT_DERIVED_VIEWS__POINTER_MATCH",
   "state_consistency_pointer_sha256": "52ea70f932e268ba7b474b9e63046f2de99ada0a1f2f870adb98071a0e536ce4",
   "real_remote_readback_status": "PASS_V99_CACHE_BUSTED_HOME_DAILY_ARCHIVE_1015_REPORT_DOWNLOAD_CENTER_AND_HTML__REMOTE_ZIP_SHA_UNVERIFIED",
@@ -47,16 +47,16 @@
   "authority_sha_runtime_reconciliation": {
     "status": "PASS_POST_REBUILD_AUTHORITY_SHA_FOUR_WAY__SITE_ZIP_SHA_PENDING",
     "authority_sha_before": "25b376589e65f3cdb02b3f6a13a102b2fc750d06b3f34f136f71cdb7f1c208a2",
-    "authority_sha_after": "f911a4dfff19420aac4f9349ddaa5370c2f50bec0db80045395c471ef4db3c52",
-    "library_sidecar_sha256": "f911a4dfff19420aac4f9349ddaa5370c2f50bec0db80045395c471ef4db3c52",
-    "runtime_authority_sha256": "f911a4dfff19420aac4f9349ddaa5370c2f50bec0db80045395c471ef4db3c52",
-    "manifest_authority_sha256": "f911a4dfff19420aac4f9349ddaa5370c2f50bec0db80045395c471ef4db3c52",
-    "reconciled_at": "2026-10-15T09:20:00Z"
+    "authority_sha_after": "6820dde8c82b8359236eb81afb5a9d8100bb4292cbaafb0da3732d740098359c",
+    "library_sidecar_sha256": "6820dde8c82b8359236eb81afb5a9d8100bb4292cbaafb0da3732d740098359c",
+    "runtime_authority_sha256": "6820dde8c82b8359236eb81afb5a9d8100bb4292cbaafb0da3732d740098359c",
+    "manifest_authority_sha256": "6820dde8c82b8359236eb81afb5a9d8100bb4292cbaafb0da3732d740098359c",
+    "reconciled_at": "2026-10-15T09:25:00Z"
   },
   "current_daily_canonical": "2026-10-15",
   "current_package_site_publication_performed": true,
   "public_remote_readback": "PASS_V99_CACHE_BUSTED_HOME_DAILY_ARCHIVE_1015_REPORT_DOWNLOAD_CENTER_AND_HTML__REMOTE_ZIP_SHA_UNVERIFIED",
-  "library_sidecar_sha256": "f911a4dfff19420aac4f9349ddaa5370c2f50bec0db80045395c471ef4db3c52",
+  "library_sidecar_sha256": "6820dde8c82b8359236eb81afb5a9d8100bb4292cbaafb0da3732d740098359c",
   "runtime_sync_status": "PASS_POST_REBUILD_AUTHORITY_SHA_FOUR_WAY_READBACK",
   "manual_intervention_required": false,
   "failure_stage": "PUBLIC_SITE_V99_REMOTE_DOWNLOAD_ZIP_SHA_READBACK",
@@ -110,7 +110,7 @@
   "canonical_promotion_performed": true,
   "public_site_status": "PASS_V99_LIVE_CONTENT_READBACK__ZIP_SHA_UNVERIFIED",
   "download_sha_status": "BLOCKED_REMOTE_ZIP_SHA_READBACK",
-  "last_updated": "2026-10-15T09:20:00Z",
+  "last_updated": "2026-10-15T09:25:00Z",
   "reportops_status": "PACKAGE_SUCCESS_SITE_PENDING_REMOTE_ZIP_SHA",
   "public_site_publication_receipt_status": "DEPLOYED_V99_LIVE_CONTENT_READBACK__ZIP_SHA_UNVERIFIED",
   "next_action": "Scan due dates independently; consume the oldest complete Chat-accepted product; never infer no gap from an empty status queue.",
@@ -138,5 +138,6 @@
     }
   ],
   "last_work_reconciled_at": "2026-10-14T12:45:00+08:00",
-  "public_daily_2026_10_15_download_sha256": "f1d224161f3e274e833b372d98462deb62b7730f967607b4dfee7160842dc6c9"
+  "public_daily_2026_10_15_download_sha256": "f1d224161f3e274e833b372d98462deb62b7730f967607b4dfee7160842dc6c9",
+  "current_derived_views_status": "PASS_13_OF_13__CURRENT_METADATA_FRESHNESS_VALIDATOR"
 }
