@@ -87,8 +87,8 @@
   "consumer_preflighted_at": "2026-10-15T12:45:00+08:00",
   "consumer_reconciled_at": "2026-10-15T12:52:00+08:00",
   "public_site_version": 99,
-  "public_site_status": "PASS_V99_LIVE_CONTENT_READBACK__ZIP_SHA_UNVERIFIED",
-  "real_remote_readback_status": "PASS_V99_CACHE_BUSTED_HOME_DAILY_ARCHIVE_1015_REPORT_DOWNLOAD_CENTER_AND_HTML__REMOTE_ZIP_SHA_UNVERIFIED",
+  "public_site_status": "PASS_V99_REAL_REMOTE_READBACK",
+  "real_remote_readback_status": "PASS_REAL_REMOTE_CONTENT_V99__12_REQUIRED_PAGES",
   "daily_download_sha256": "f1d224161f3e274e833b372d98462deb62b7730f967607b4dfee7160842dc6c9",
   "weekly_download_sha256": "0b3789baeea763a875fba5e616b72cc429950646becc1629ce04267df5d84cd9",
   "authority_package_sha256_at_preflight": "5694c96be8e5e400479a11bc8da09a287c7b9b7770ad2b09dcf6bc1c011f1a45",
@@ -189,10 +189,10 @@
     "manifest_authority_sha256": "6820dde8c82b8359236eb81afb5a9d8100bb4292cbaafb0da3732d740098359c",
     "reconciled_at": "2026-10-15T09:25:00Z"
   },
-  "download_sha_status": "BLOCKED_REMOTE_ZIP_SHA_READBACK",
-  "failure_stage": "PUBLIC_SITE_V99_REMOTE_DOWNLOAD_ZIP_SHA_READBACK",
-  "failure_reason": "The live v99 report and download HTML were cache-busted and read back. Remote download ZIP SHA-256 could not be verified: browser security policy blocked chrome://downloads, and direct external retrieval returned HTTP 403. No ZIP hash is claimed as a live-origin readback.",
-  "reportops_status": "PACKAGE_SUCCESS_SITE_PENDING_REMOTE_ZIP_SHA",
+  "download_sha_status": "PASS_REMOTE_ZIP_SHA256_AND_UNZIP__DAILY_2026_10_15_AND_WEEKLY_2026_W41",
+  "failure_stage": null,
+  "failure_reason": null,
+  "reportops_status": "FORMAL_CANONICAL_PUBLISHED",
   "presentation_only_correction": {
     "status": "PACKAGE_SUCCESS_SITE_PENDING_REMOTE_ZIP_SHA",
     "correction_type": "PRESENTATION_STATUS_WORDING_ONLY",
@@ -228,5 +228,13 @@
       "quarterly": "2026-Q3"
     }
   },
-  "current_derived_views_status": "PASS_13_OF_13__CURRENT_METADATA_FRESHNESS_VALIDATOR"
+  "current_derived_views_status": "PASS_13_OF_13__CURRENT_METADATA_FRESHNESS_VALIDATOR",
+  "remote_download_reconciliation_2026_10_16": {
+    "status": "PASS_REMOTE_ZIP_SHA256_AND_UNZIP",
+    "verified_at": "2026-10-16T12:38:00+08:00",
+    "daily_sha256": "f1d224161f3e274e833b372d98462deb62b7730f967607b4dfee7160842dc6c9",
+    "weekly_sha256": "0b3789baeea763a875fba5e616b72cc429950646becc1629ce04267df5d84cd9",
+    "canonical_or_prose_changed": false,
+    "authority_package_sha256": "6820dde8c82b8359236eb81afb5a9d8100bb4292cbaafb0da3732d740098359c"
+  }
 }
