@@ -46,9 +46,9 @@
   "site_publication_performed": false,
   "work_may_rewrite": false,
   "formal_work_validator": "PENDING__12_30_WORK",
-  "post_run_self_audit_status": "PENDING_MANIFEST_FOUR_FILE_READBACK",
-  "github_write_status": "PASS__THREE_PRODUCT_ASSETS__MANIFEST_WRITE_PENDING",
-  "github_readback_status": "PASS__THREE_PRODUCT_ASSETS__MANIFEST_READBACK_PENDING",
+  "post_run_self_audit_status": "PASS__FOUR_PRODUCT_ASSETS_READBACK__ATOMIC_LEDGER__DYNAMIC_V4__SOURCE_WINDOW",
+  "github_write_status": "PASS__FOUR_PRODUCT_ASSETS",
+  "github_readback_status": "PASS__FOUR_PRODUCT_ASSETS",
   "source_file_blob_sha": {
     "public_core_md": "558b93607929e0c5cb014bc1295c9d9d99169efd",
     "evidence_json": "95d4aacbf7741a28e7da8d54f1b4908e22156678",
@@ -72,7 +72,7 @@
     "atomic_price_claims": true,
     "receipt_methods_reconciled": true,
     "inline_evidence_twelve": true,
-    "final_manifest_readback": false
+    "final_manifest_readback": true
   },
   "warnings": [
     "CJK_ABOVE_SOFT_TARGET__NONBLOCKING",
