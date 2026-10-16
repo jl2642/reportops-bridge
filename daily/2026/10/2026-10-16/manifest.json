@@ -13,16 +13,16 @@
   "inline_citation_gate_status": "PASS_12_OF_12__7_DISTINCT_SOURCE_URLS",
   "signal_priority_status": "PASS_IEA_DIESEL_RELEASE__GULF_INFRASTRUCTURE__TOTALENERGIES__GERMAN_STORAGE__CHINA_LNG",
   "exact_v4_machine_structure_status": "PASS__8_MODULE_MARKERS_5_SIGNAL_CARDS",
-  "v4_public_depth_gate_status": "PASS_DYNAMIC_V4__ALL_HARD_FLOORS__SOFT_TARGET_WARNING",
+  "v4_public_depth_gate_status": "PASS_DYNAMIC_V4__OFFICIAL_SIGNAL_HEADING_RE_METRIC_PARITY__ALL_HARD_FLOORS__SOFT_TARGET_WARNING",
   "cjk_characters_actual": 4534,
   "executive_cjk_actual": 355,
   "key_signal_cjk_actual": 2164,
   "signal_card_cjk_actual": [
-    420,
-    420,
-    413,
-    376,
-    413
+    441,
+    442,
+    436,
+    396,
+    434
   ],
   "china_chain_cjk_actual": 195,
   "global_energy_cjk_actual": 185,
@@ -46,7 +46,7 @@
   "site_publication_performed": false,
   "work_may_rewrite": false,
   "formal_work_validator": "PENDING__12_30_WORK",
-  "post_run_self_audit_status": "PASS__FOUR_PRODUCT_ASSETS_READBACK__ATOMIC_LEDGER__DYNAMIC_V4__SOURCE_WINDOW",
+  "post_run_self_audit_status": "PASS__FOUR_PRODUCT_ASSETS_READBACK__OFFICIAL_V4_METRIC_PARITY__ATOMIC_LEDGER__SOURCE_WINDOW",
   "github_write_status": "PASS__FOUR_PRODUCT_ASSETS",
   "github_readback_status": "PASS__FOUR_PRODUCT_ASSETS",
   "source_file_blob_sha": {
@@ -54,7 +54,7 @@
     "evidence_json": "95d4aacbf7741a28e7da8d54f1b4908e22156678",
     "ledger_csv": "a16d195edfa2e704acdc0fdc27ea37e7869c6473"
   },
-  "recovery_notes": "Original scheduled 2026-10-16 10:15 did not persist any heartbeat nor candidate. User-authorized interactive GitHub operation successfully persisted a separate heartbeat and a complete public-safe V4 candidate. Successful interactive writes do not establish unattended scheduler reliability. The original 12:30 Work run correctly reported upstream producer missing before this recovery. Formal Work Validator, Reader, Lineage, canonical promotion, Authority ZIP/SHA, Site and real-origin download integrity remain Work-only and not attempted in this recovery.",
+  "recovery_notes": "Original scheduled 2026-10-16 10:15 did not persist any heartbeat nor candidate. User-authorized interactive GitHub operation successfully persisted a separate heartbeat and a complete public-safe V4 candidate. Successful interactive writes do not establish unattended scheduler reliability. The original 12:30 Work run correctly reported upstream producer missing before this recovery. Formal Work Validator, Reader, Lineage, canonical promotion, Authority ZIP/SHA, Site and real-origin download integrity remain Work-only and not attempted in this recovery. Pre-Work 2026-10-16 metadata-only correction: reconciled five signal-card CJK metrics with the current Authority's SIGNAL_HEADING_RE (starts counting immediately after the '信号卡' prefix, includes heading-tail text); no change to public_core, evidence, or ledger.",
   "producer_checks": {
     "title": true,
     "executive": true,
@@ -72,7 +72,8 @@
     "atomic_price_claims": true,
     "receipt_methods_reconciled": true,
     "inline_evidence_twelve": true,
-    "final_manifest_readback": true
+    "final_manifest_readback": true,
+    "formal_validator_metric_parity": true
   },
   "warnings": [
     "CJK_ABOVE_SOFT_TARGET__NONBLOCKING",
@@ -80,7 +81,8 @@
     "SINA_SHPGX_OFFICIAL_DATA_REPRINT__T3_TRACEABLE_SECONDARY",
     "ORIGINAL_10_16_UNATTENDED_RUN_NO_ARTIFACT__ROOT_CAUSE_UNCONFIRMED",
     "INTERACTIVE_GITHUB_WRITER_SUCCESS_DOES_NOT_PROVE_UNATTENDED_STABILITY",
-    "FORMAL_WORK_VALIDATOR_AND_SITE_PUBLICATION_PENDING"
+    "FORMAL_WORK_VALIDATOR_AND_SITE_PUBLICATION_PENDING",
+    "2026_10_16_PREWORK_MANIFEST_SIGNAL_CARD_METRICS_CORRECTED_TO_OFFICIAL_VALIDATOR_MEASUREMENT_420_420_413_376_413_TO_441_442_436_396_434"
   ],
   "next_work_action": "Re-read original Library Authority/Current. Independently detect Daily 2026-10-16 candidate even if status/latest reflects the pre-recovery 12:30 check. Run current Authority policy identity gate, Source Identity, Inline Citation, Evidence Governance V2, V4 depth, Reader/Lineage and state identity. Only after all PASS, promote atomically, rebuild SHA and publish existing single site. Do not re-research or rewrite accepted producer prose; correction request only if necessary.",
   "producer_acceptance_completed_at": "2026-10-16T13:00:00+08:00"
