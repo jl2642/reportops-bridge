@@ -1,0 +1,22 @@
+{
+  "schema_version": "REPORTOPS_CHAT_PREWORK_HANDOFF_V1",
+  "target_date": "2026-10-16",
+  "status": "PREWORK_ARTIFACTS_READY__NOT_FORMAL",
+  "authority_sha256": "6820dde8c82b8359236eb81afb5a9d8100bb4292cbaafb0da3732d740098359c",
+  "library_bundle_path": "/能源周期报告/10_GOVERNANCE/DAILY_20261016_CHAT_PREWORK/ReportOps_20261016_ChatPrework_V4Compat.zip",
+  "bundle_sha256": "73a835238ef054bb49efeb259eb609698e0e4e8869d01ccb6a123f9162bfb770",
+  "code_findings": [
+    "Existing strict-new finalizer requires V3 manifest, absent for already-published V4 single-site daily 2026-10-15.",
+    "Existing finalizer chooses private V4 surface, which demands JOVO module absent by design from public V4 single-site product.",
+    "Missing new daily native quality/attempt state cannot be resolved by changing Current alone."
+  ],
+  "prework_test_result": "PASS__SIX_ISOLATED_REGRESSION_CASES__PYTHON_SYNTAX__PATCH_DRY_RUN",
+  "proposed_patch_status": "STAGING_ONLY_NOT_APPLIED_TO_AUTHORITY__REQUIRES_FORMAL_WORK_REVIEW",
+  "do_not": [
+    "Do not invent a V3 quality manifest or a JOVO module for public-only V4.",
+    "Do not copy the predecessor score/grade into the new daily.",
+    "Do not claim canonical promotion/site publication.",
+    "Do not repeat research or rewrite accepted report."
+  ],
+  "next_action": "Use the successful 2026-10-15 formal V4 public consumer flow, or formally review the staged version-routing patch with existing strong gates. Materialize native quality + attempt using actual validators, execute atomic promotion only after staging passes, then publish and verify."
+}
