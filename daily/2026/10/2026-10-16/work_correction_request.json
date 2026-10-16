@@ -1,0 +1,55 @@
+{
+  "schema_version": "REPORTOPS_WORK_CORRECTION_REQUEST_V1",
+  "target_date": "2026-10-16",
+  "created_at": "2026-10-16T13:10:00+08:00",
+  "request_type": "FORMAL_WORK_CONSUMER_RECONCILIATION",
+  "priority": "HIGH",
+  "candidate_location": "daily/2026/10/2026-10-16/",
+  "heartbeat_filename": "run_heartbeat.json",
+  "stale_snapshot_warning": "Do not use the 2026-10-16 12:38 runtime/CURRENT_PUBLIC.json or status/latest.json producer-gap snapshot to conclude that the candidate directory is missing. The directory and all five required files were read back from main after that snapshot; run_heartbeat.json is the canonical heartbeat filename.",
+  "authority_precondition": {
+    "current_daily": "2026-10-15",
+    "current_weekly": "2026-W41",
+    "current_monthly": "2026-09",
+    "current_quarterly": "2026-Q3",
+    "authority_sha256": "6820dde8c82b8359236eb81afb5a9d8100bb4292cbaafb0da3732d740098359c",
+    "pointer_matches": true,
+    "sidecar_matches": true
+  },
+  "candidate_readback": {
+    "heartbeat_blob_sha": "6fb9024d12114eb83476c81ec4f60856cec70ce4",
+    "public_core_blob_sha": "558b93607929e0c5cb014bc1295c9d9d99169efd",
+    "evidence_blob_sha": "95d4aacbf7741a28e7da8d54f1b4908e22156678",
+    "strict_v2_ledger_blob_sha": "a16d195edfa2e704acdc0fdc27ea37e7869c6473",
+    "manifest_blob_sha": "dddaa14d57ab209f2e1cc55b6c36f6299f04c796"
+  },
+  "completed_read_only_checks": {
+    "source_identity": "PASS_12_OF_12",
+    "inline_citation": "PASS_12_OF_12__7_DISTINCT_URLS",
+    "evidence_governance_v2": "PASS_STRICT_NEW__12_RECORDS_12_CLAIMS__0_BLOCKING",
+    "dynamic_v4": "PASS_WITH_WARNINGS__4534_CJK__0_BLOCKING",
+    "manifest_actuals_parity": "PASS__12_EVIDENCE__12_LEDGER_ROWS__12_UNIQUE_CLAIMS__7_URLS__V4_METRICS_MATCH",
+    "candidate_lineage": "DRY_RUN_VALIDATED__REPORT_DAILY_2026_10_16",
+    "existing_lineage_registry": "PASS",
+    "existing_reader_portal_baseline": "PASS_37_CHECKS",
+    "existing_state_baseline": "PASS__CURRENT_DAILY_2026_10_15"
+  },
+  "outstanding_work": {
+    "reason": "Candidate-specific formal Reader acceptance and post-promotion State Gate were not established by baseline validators; no canonical mutation was performed.",
+    "required_steps": [
+      "Run the existing candidate-specific formal Reader gate and complete all remaining Work consumer gates against the exact read-back candidate.",
+      "If all blocking gates pass, commit the already validated Daily 2026-10-16 lineage within the existing atomic promotion transaction; do not rerun or duplicate a completed promotion.",
+      "Atomically promote Daily 2026-10-16 and update only the single Authority, its SHA sidecar, CURRENT_POINTER, required derived views, GitHub manifest/runtime metadata, and existing SINGLE_SITE_V4 public Site.",
+      "Reconcile the bounded publication-status sentence in the rendered/public deliverable under the existing presentation-only closure protocol; do not research or rewrite substantive report content.",
+      "Read back the live homepage, daily archive, 2026-10-16 body, download center, remote ZIP SHA/integrity, and all 13 Current-derived views.",
+      "If any gate fails, preserve successful candidate assets, leave Current and the Site unchanged, and return the precise failing gate and correction receipt."
+    ]
+  },
+  "hard_constraints": [
+    "Do not re-research or rewrite substantive report content.",
+    "Do not relax gates.",
+    "Do not create another Site or scheduled task.",
+    "Do not claim scheduled-run success; the candidate is an interactive recovery.",
+    "Do not use the stale 12:38 snapshot as a producer-missing determination."
+  ]
+}
