@@ -2,10 +2,30 @@
   "target_date": "2026-10-16",
   "scheduled_for": "10:15 Asia/Shanghai",
   "run_started_at": "2026-10-16T12:52:02+08:00",
-  "status": "RUN_STARTED_BEFORE_PREFLIGHT",
-  "execution_mode": "USER_AUTHORIZED_INTERACTIVE_RECOVERY",
-  "original_scheduled_run_status": "NO_DURABLE_HEARTBEAT_FOUND__NOT_SCHEDULED_SUCCESS",
+  "status": "PRODUCER_SUCCESS_CANDIDATES_PENDING_WORK",
+  "execution_mode": "USER_AUTHORIZED_INTERACTIVE_RECOVERY_NOT_SCHEDULED_RUN",
+  "original_scheduled_run_status": "FAILED_NO_DURABLE_OUTPUT__ROOT_CAUSE_UNCONFIRMED",
   "window_start": "2026-10-15T10:00:00+08:00",
   "window_end": "2026-10-16T10:00:00+08:00",
-  "notes": "Original 10:15 scheduled run left no durable assets. This is a separate user-authorized interactive recovery, not proof that unattended scheduling is reliable."
+  "notes": "Original 10:15 scheduled run left no durable assets. This is a separate user-authorized interactive recovery, not proof that unattended scheduling is reliable.",
+  "products_repaired_or_produced": [
+    "Daily 2026-10-16"
+  ],
+  "producer_recovery_queue_remaining": [],
+  "queue_for_12_30_work": [
+    "Daily 2026-10-16"
+  ],
+  "post_run_self_audit_status": "PASS__FOUR_PRODUCT_ASSETS_READBACK__ATOMIC_LEDGER__DYNAMIC_V4__SOURCE_WINDOW",
+  "github_write_status": "PASS__HEARTBEAT_AND_FOUR_PRODUCT_ASSETS",
+  "github_readback_status": "PASS__FOUR_PRODUCT_ASSETS_AND_HEARTBEAT",
+  "producer_candidate_manifest_blob_sha": "474601478e85c66b8d1268ebfd3f66b0b8e3337c",
+  "canonical_promotion_performed": false,
+  "site_publication_performed": false,
+  "formal_status": "PENDING_WORK_RECONCILIATION",
+  "consumer_checkpoint": "2026-10-16 12:30 Work ran before interactive recovery; original consumer outcome was BLOCKED__UPSTREAM_PRODUCER_MISSING",
+  "failure_stage": null,
+  "failure_reason": null,
+  "unattended_root_cause": "UNCONFIRMED__NO_ORIGINAL_SCHEDULED_LOG_AVAILABLE",
+  "manual_intervention_required_for_producer_recovery": false,
+  "updated_at": "2026-10-16T13:03:00+08:00"
 }
