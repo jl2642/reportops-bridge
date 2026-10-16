@@ -15,10 +15,10 @@
   "queue_for_12_30_work": [
     "Daily 2026-10-16"
   ],
-  "post_run_self_audit_status": "PASS__FOUR_PRODUCT_ASSETS_READBACK__ATOMIC_LEDGER__DYNAMIC_V4__SOURCE_WINDOW",
+  "post_run_self_audit_status": "PASS__FOUR_PRODUCT_ASSETS_READBACK__OFFICIAL_V4_METRIC_PARITY__ATOMIC_LEDGER__SOURCE_WINDOW",
   "github_write_status": "PASS__HEARTBEAT_AND_FOUR_PRODUCT_ASSETS",
   "github_readback_status": "PASS__FOUR_PRODUCT_ASSETS_AND_HEARTBEAT",
-  "producer_candidate_manifest_blob_sha": "474601478e85c66b8d1268ebfd3f66b0b8e3337c",
+  "producer_candidate_manifest_blob_sha": "dddaa14d57ab209f2e1cc55b6c36f6299f04c796",
   "canonical_promotion_performed": false,
   "site_publication_performed": false,
   "formal_status": "PENDING_WORK_RECONCILIATION",
@@ -27,5 +27,6 @@
   "failure_reason": null,
   "unattended_root_cause": "UNCONFIRMED__NO_ORIGINAL_SCHEDULED_LOG_AVAILABLE",
   "manual_intervention_required_for_producer_recovery": false,
-  "updated_at": "2026-10-16T13:03:00+08:00"
+  "updated_at": "2026-10-16T13:03:00+08:00",
+  "consumer_handoff_note": "Candidate complete; pre-Work metadata-only V4 card metrics parity corrected; run_heartbeat.json is the canonical producer heartbeat filename; an old Work blocker display referring to heartbeat.json is a stale path label. Require Authority consumer gates before publishing."
 }
