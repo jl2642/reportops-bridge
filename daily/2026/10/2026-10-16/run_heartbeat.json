@@ -1,0 +1,11 @@
+{
+  "target_date": "2026-10-16",
+  "scheduled_for": "10:15 Asia/Shanghai",
+  "run_started_at": "2026-10-16T12:52:02+08:00",
+  "status": "RUN_STARTED_BEFORE_PREFLIGHT",
+  "execution_mode": "USER_AUTHORIZED_INTERACTIVE_RECOVERY",
+  "original_scheduled_run_status": "NO_DURABLE_HEARTBEAT_FOUND__NOT_SCHEDULED_SUCCESS",
+  "window_start": "2026-10-15T10:00:00+08:00",
+  "window_end": "2026-10-16T10:00:00+08:00",
+  "notes": "Original 10:15 scheduled run left no durable assets. This is a separate user-authorized interactive recovery, not proof that unattended scheduling is reliable."
+}
