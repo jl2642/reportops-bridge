@@ -21,7 +21,7 @@
   "post_run_self_audit_status": "PASS__FOUR_PRODUCT_ASSETS_READBACK__CJK_V4__INLINE_SOURCE_IDENTITY__STRICT_V2_LEDGER__SHA_CONSISTENCY",
   "github_write_status": "PASS__INTERACTIVE_RECOVERY_PRODUCT_ASSETS",
   "github_readback_status": "PASS__FOUR_PRODUCT_ASSETS",
-  "producer_candidate_manifest_blob_sha": "e9621b9af89367e9df22b11fdfe706d9d23c5e07",
+  "producer_candidate_manifest_blob_sha": "9ef7f03d52a397edb91dc7ec46f10ffdec2845e8",
   "canonical_promotion_performed": false,
   "site_publication_performed": false,
   "formal_status": "PENDING_WORK_RECONCILIATION",
@@ -30,5 +30,6 @@
   "unattended_root_cause": "OPENAI_SAFETY_CHECKS_BLOCKED_PUBLIC_CORE_CREATE__PRECISE_TRIGGER_UNCONFIRMED",
   "manual_intervention_required_for_producer_recovery": false,
   "recovery_completed_at": "2026-10-17T02:46:17.250Z",
-  "notes": "Original 10:15 unattended attempt failed after heartbeat and research. Interactive recovery independently recreated a compliant public candidate and verified persistence; this is not proof that scheduled writing has recovered. 2026-10-16 predecessor is still pending separate formal promotion."
+  "notes": "Original 10:15 unattended attempt failed after heartbeat and research. Interactive recovery independently recreated a compliant public candidate and verified persistence; this is not proof that scheduled writing has recovered. 2026-10-16 predecessor is still pending separate formal promotion.",
+  "updated_at": "2026-10-17T02:47:06.018Z"
 }
