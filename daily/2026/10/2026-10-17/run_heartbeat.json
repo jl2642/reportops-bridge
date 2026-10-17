@@ -2,5 +2,33 @@
   "target_date": "2026-10-17",
   "scheduled_for": "10:15 Asia/Shanghai",
   "run_started_at": "2026-10-17T10:17:26+08:00",
-  "status": "RUN_STARTED_BEFORE_PREFLIGHT"
+  "status": "PRODUCER_SUCCESS_CANDIDATES_PENDING_WORK",
+  "scheduled_run_status": "FAILED__PUBLIC_CORE_CREATE_OPENAI_SAFETY_CHECKS",
+  "original_scheduled_run_status": "FAILED_FAIL_CLOSED",
+  "original_scheduled_failure_stage": "PUBLIC_CORE_CREATE",
+  "original_scheduled_failure_reason": "This tool call was blocked by OpenAI's safety checks. Please double check what you are sending.",
+  "execution_mode": "USER_AUTHORIZED_INTERACTIVE_RECOVERY_NOT_SCHEDULED_RUN",
+  "window_start": "2026-10-16T10:00:00+08:00",
+  "window_end": "2026-10-17T10:00:00+08:00",
+  "products_repaired_or_produced": [
+    "Daily 2026-10-17 interactive recovery"
+  ],
+  "producer_recovery_queue_remaining": [],
+  "queue_for_12_30_work": [
+    "Daily 2026-10-16",
+    "Daily 2026-10-17"
+  ],
+  "post_run_self_audit_status": "PASS__FOUR_PRODUCT_ASSETS_READBACK__CJK_V4__INLINE_SOURCE_IDENTITY__STRICT_V2_LEDGER__SHA_CONSISTENCY",
+  "github_write_status": "PASS__INTERACTIVE_RECOVERY_PRODUCT_ASSETS",
+  "github_readback_status": "PASS__FOUR_PRODUCT_ASSETS",
+  "producer_candidate_manifest_blob_sha": "e9621b9af89367e9df22b11fdfe706d9d23c5e07",
+  "canonical_promotion_performed": false,
+  "site_publication_performed": false,
+  "formal_status": "PENDING_WORK_RECONCILIATION",
+  "failure_stage": null,
+  "failure_reason": null,
+  "unattended_root_cause": "OPENAI_SAFETY_CHECKS_BLOCKED_PUBLIC_CORE_CREATE__PRECISE_TRIGGER_UNCONFIRMED",
+  "manual_intervention_required_for_producer_recovery": false,
+  "recovery_completed_at": "2026-10-17T02:46:17.250Z",
+  "notes": "Original 10:15 unattended attempt failed after heartbeat and research. Interactive recovery independently recreated a compliant public candidate and verified persistence; this is not proof that scheduled writing has recovered. 2026-10-16 predecessor is still pending separate formal promotion."
 }
