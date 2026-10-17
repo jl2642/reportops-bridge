@@ -80,5 +80,6 @@
     "PREDECESSOR_DAILY_2026_10_16_PENDING_FORMAL_PROMOTION"
   ],
   "next_work_action": "Consume Daily 2026-10-16 first if its separate formal promotion is complete, then independently validate this Daily 2026-10-17 public core, evidence and strict V2 ledger under current Authority. Do not re-research or rewrite accepted public-safe content unless a bounded formal gate defect requires correction. Only Work can materialize native quality/attempt records, promote Canonical, update Authority SHA and publish the original single Site.",
-  "producer_acceptance_completed_at": "2026-10-17T02:45:45.369Z"
+  "producer_acceptance_completed_at": "2026-10-17T02:45:45.369Z",
+  "signal_priority_status": "PASS__IRAN_LPG_FLOW__PETROCHINA_TRADING__BUNKER_LNG__REFINING_VLCC__EU_GAS_STORAGE"
 }
