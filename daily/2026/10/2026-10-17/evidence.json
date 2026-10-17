@@ -10,7 +10,7 @@
       "claim_type": "COMPANY",
       "claim_role": "MATERIAL",
       "publisher": "Reuters",
-      "title": "EXCLUSIVE: PetroChina set for record trading profit as war upends market, sources say",
+      "title": "PetroChina set for record trading profit as war upends market, sources say",
       "url": "https://www.reuters.com/business/energy/petrochina-set-record-trading-profit-war-upends-market-sources-say-2026-10-16/",
       "publication_time": "2026-10-16T07:27:00Z",
       "data_period_start": "2026-10-16",
@@ -24,7 +24,7 @@
         "verification_method": "OPENED_EXACT_DOCUMENT",
         "observed_url": "https://www.reuters.com/business/energy/petrochina-set-record-trading-profit-war-upends-market-sources-say-2026-10-16/",
         "canonical_url": "https://www.reuters.com/business/energy/petrochina-set-record-trading-profit-war-upends-market-sources-say-2026-10-16/",
-        "observed_title": "EXCLUSIVE: PetroChina set for record trading profit as war upends market, sources say",
+        "observed_title": "PetroChina set for record trading profit as war upends market, sources say",
         "observed_publisher": "Reuters",
         "title_match_status": "EXACT",
         "verified_at": "2026-10-17T02:41:04.082Z"
