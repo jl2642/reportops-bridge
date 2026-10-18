@@ -14,11 +14,11 @@
       "publisher": "UKMTO",
       "title": "UKMTO WARNING 176-26 - ATTACK",
       "url": "https://www.ukmto.org/-/media/ukmto/products/20261017-ukmto_warning-176-26.pdf?rev=cf7fcdff0894496eae79223763711c23",
-      "publication_time": "2026-10-17T10:30:00Z",
+      "publication_time": null,
       "data_period_start": "2026-10-17",
       "data_period_end": "2026-10-17",
       "claim": "UKMTO WARNING 176-26 reports an LNG tanker was approached by a skiff of seven people about 140 nautical miles southwest of Al Mukalla at 10:30 UTC October 17; two shots were fired at the tanker and the vessel security team fired two warning shots.",
-      "boundary": "Official vessel-master account; no confirmed cargo loss, casualties, boarding, or shipping disruption.",
+      "boundary": "Official vessel-master account; no confirmed cargo loss, casualties, boarding, or shipping disruption. Incident timestamp is not the publication timestamp.",
       "support": "DIRECT",
       "url_identity_status": "PASS",
       "url_verified_date": "2026-10-18",
@@ -31,7 +31,8 @@
         "title_match_status": "EXACT",
         "verified_at": "2026-10-18T08:54:46.037Z"
       },
-      "publication_time_precision": "INCIDENT_TIME_UTC;PUBLICATION_DATE_2026_10_17"
+      "publication_time_precision": "OFFICIAL_WARNING_DATED_2026_10_17__EXACT_RELEASE_TIME_UNSTATED",
+      "event_time": "2026-10-17T10:30:00Z"
     },
     {
       "id": "E02",
