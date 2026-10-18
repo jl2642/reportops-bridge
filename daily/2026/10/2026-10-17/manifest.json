@@ -92,7 +92,14 @@
       "authority_policy_sha256": "ed69573e48d0daedd1b899ab2d6cf15880f37705f88b44b1a9d2ca26715f9905",
       "public_contract_sha256": "64770bf24f1280d11060d6a905a659241d5e483109fc8c3e34195a8264fc48f6"
     },
-    "pre_rebuild_authority_sha256": "6820dde8c82b8359236eb81afb5a9d8100bb4292cbaafb0da3732d740098359c"
+    "pre_rebuild_authority_sha256": "6820dde8c82b8359236eb81afb5a9d8100bb4292cbaafb0da3732d740098359c",
+    "post_rebuild_authority_sha_history": [
+      {
+        "authority_package_sha256": "a230aab68f64b7f3a668146f3526ea0ed439fae37a12464ece1f61250ddedf53",
+        "reconciled_at": "2026-10-17T12:55:00+08:00",
+        "reason": "previous_post_rebuild_authority_identity"
+      }
+    ]
   },
   "consumer_actuals": {
     "source_identity": "PASS_9_OF_9",
@@ -122,14 +129,15 @@
     "quality_grade": "B_PLUS_FORMAL_BASELINE"
   },
   "consumer_authority_identity": {
-    "authority_package_sha256": "a230aab68f64b7f3a668146f3526ea0ed439fae37a12464ece1f61250ddedf53",
-    "library_sidecar_sha256": "a230aab68f64b7f3a668146f3526ea0ed439fae37a12464ece1f61250ddedf53",
+    "authority_package_sha256": "766798b169d46edbf82c2f020ec5b9b2e6fff3b208cf4437fb509939d8a6fdd5",
+    "library_sidecar_sha256": "766798b169d46edbf82c2f020ec5b9b2e6fff3b208cf4437fb509939d8a6fdd5",
     "post_rebuild": true,
     "readback_status": "PASS",
-    "reconciled_at": "2026-10-17T12:55:00+08:00"
+    "reconciled_at": "2026-10-18T12:45:00+08:00",
+    "change_class": "METADATA_ONLY_CURRENT_DERIVED_VIEW_RECONCILIATION"
   },
   "public_site_version": 101,
   "public_site_status": "PASS_V101_REAL_REMOTE_READBACK",
-  "updated_at": "2026-10-17T12:55:00+08:00",
+  "updated_at": "2026-10-18T12:45:00+08:00",
   "work_reconciliation_status": "PASS__FORMAL_CANONICAL_AND_SITE_PUBLISHED"
 }
