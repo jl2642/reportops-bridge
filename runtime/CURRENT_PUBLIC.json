@@ -24,7 +24,7 @@
   "pending_work_runtime_formalization": false,
   "final_closure_status": "PARTIAL_SUCCESS__DETERMINISTIC_METADATA_REPAIR_COMPLETE__UPSTREAM_PRODUCER_MISSING",
   "pending_product": "Daily 2026-10-18",
-  "last_updated": "2026-10-18T09:03:17.970Z",
+  "last_updated": "2026-10-18T09:18:01.853Z",
   "deployment_state_ref": "runtime/DEPLOYMENT_STATE.json",
   "metadata_freshness": "PASS__13_CURRENT_DERIVED_VIEWS__POINTER_MATCH",
   "state_consistency_pointer_sha256": "e509c0f0dc640a01a1f86f560a9d00a801101729747bff315485fd1c1e068beb",
@@ -32,7 +32,9 @@
   "queue_remaining": [
     "Daily 2026-10-18"
   ],
-  "eligible_unpublished_products": [],
+  "eligible_unpublished_products": [
+    "Daily 2026-10-18"
+  ],
   "correction_backlog_status": "FORMAL_CANONICAL_PUBLISHED",
   "manifest_reconciliation_status": "PASS__NO_NEW_PROMOTION__2026_10_16_AND_2026_10_17_AUTHORITY_IDENTITY_METADATA_RECONCILED",
   "measurement_parity_status": "PASS_AUTHORITY_CONSUMER_ACTUALS",
@@ -121,24 +123,11 @@
   "reportops_status": "PARTIAL_SUCCESS__DETERMINISTIC_METADATA_REPAIR_COMPLETE__UPSTREAM_PRODUCER_MISSING",
   "site_publication_performed": true,
   "public_site_publication_receipt_status": "DEPLOYED_V101_LIVE_CONTENT_AND_REMOTE_ZIP_INTEGRITY_PASS",
-  "next_action": "Continue scheduled continuity scan; do not treat interactive recovery as proof that the 10:15 unattended producer is fixed.",
+  "next_action": "2026-10-18 Daily candidate is present and accepted by Chat; scheduled 12:30 Work must formally validate Source Identity, Evidence V2, date-only publication provenance, Reader, Lineage and Canonical before promotion; scheduled 10:15 reliability remains UNRESOLVED.",
   "public_daily_2026_10_13_download_sha256": "9f208040c99e46ce8752577be3b77387592d25776f3fb89940e91f727add246d",
   "public_weekly_2026_w41_download_sha256": "cc05e865be0ca86e17d9ca1c83a5f5a77d67b9f176a8058edf5482921f911fc0",
-  "upstream_producer_status": "UPSTREAM_PRODUCER_MISSING",
-  "producer_gap": [
-    {
-      "date": "2026-10-18",
-      "present_files": [
-        "run_heartbeat.json"
-      ],
-      "missing_files": [
-        "public_core.md",
-        "evidence.json",
-        "evidence_ledger_v2_2026-10-18.csv",
-        "manifest.json"
-      ]
-    }
-  ],
+  "upstream_producer_status": "PUBLIC_CORE_ACCEPTED_PENDING_WORK",
+  "producer_gap": [],
   "scheduled_date": "2026-10-16",
   "target_date": "2026-10-16",
   "current_day_status": "FORMAL_CANONICAL_PUBLISHED",
