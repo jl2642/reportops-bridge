@@ -1,9 +1,9 @@
 {
   "schema_version": "REPORTOPS_R3_1_CHAT_STATUS_V1_5_SINGLE_SITE",
-  "scheduled_date": "2026-10-17",
-  "target_date": "2026-10-17",
-  "current_day_status": "FORMAL_CANONICAL_PUBLISHED",
-  "scheduled_run_status": "NO_CONSUMABLE_2026_10_16_CANDIDATE_OBSERVED_AT_WORK_PREFLIGHT",
+  "scheduled_date": "2026-10-18",
+  "target_date": "2026-10-18",
+  "current_day_status": "UPSTREAM_PRODUCER_MISSING",
+  "scheduled_run_status": "RUN_STARTED_BEFORE_PREFLIGHT__NO_CONSUMABLE_CANDIDATE_ASSETS",
   "correction_backlog": {
     "status": "RESOLVED_BY_CHAT_CORRECTION",
     "chat_correction_required": false,
@@ -49,34 +49,32 @@
   "data_gap_boundary_status": "PASS__CHINA_PRICE_IMAGE_NOT_EXTRACTED",
   "current_daily_public": "2026-10-17",
   "current_weekly_public": "2026-W41",
-  "formal_status": "FORMAL_CANONICAL_PUBLISHED",
-  "canonical_promotion_performed": true,
-  "site_publication_performed": true,
+  "formal_status": "BLOCKED_UPSTREAM_PRODUCER_MISSING",
+  "canonical_promotion_performed": false,
+  "site_publication_performed": false,
   "public_site_version": 101,
-  "public_site_status": "PASS_V101_REAL_REMOTE_READBACK",
-  "manifest_reconciliation_status": "PASS__2026_10_16_AND_2026_10_17_FORMAL_CANONICAL_PUBLISHED__CONSUMER_ACTUALS_AND_FINAL_AUTHORITY_SHA_READBACK",
+  "public_site_status": "PASS_V101_REAL_REMOTE_READBACK__UNCHANGED",
+  "manifest_reconciliation_status": "PASS__NO_NEW_PROMOTION__2026_10_16_AND_2026_10_17_AUTHORITY_IDENTITY_METADATA_RECONCILED",
   "metadata_freshness": "PASS__13_CURRENT_DERIVED_VIEWS__POINTER_MATCH",
   "state_consistency_pointer_sha256": "e509c0f0dc640a01a1f86f560a9d00a801101729747bff315485fd1c1e068beb",
-  "failure_stage": "NONE",
-  "failure_reason": "NONE",
-  "next_action": "Continue scheduled continuity scan; do not treat interactive recovery as proof that the 10:15 unattended producer is fixed.",
+  "failure_stage": "UPSTREAM_PRODUCER_MISSING",
+  "failure_reason": "Daily 2026-10-18 has only run_heartbeat.json; public_core.md, evidence.json, evidence_ledger_v2_2026-10-18.csv and manifest.json are absent.",
+  "next_action": "Existing 10:15 Chat continuity must resume oldest-first production for 2026-10-18; Work must not author or research the missing Daily.",
   "updated_at": "2026-10-17T12:55:00+08:00",
-  "queue_remaining": [],
+  "queue_remaining": [
+    "Daily 2026-10-18"
+  ],
   "pending_product": null,
   "manual_intervention_required": false,
-  "authority_package_sha256": "a230aab68f64b7f3a668146f3526ea0ed439fae37a12464ece1f61250ddedf53",
+  "authority_package_sha256": "766798b169d46edbf82c2f020ec5b9b2e6fff3b208cf4437fb509939d8a6fdd5",
   "queue_initial": [
     "Daily 2026-10-16",
     "Daily 2026-10-17"
   ],
   "products_preflighted": [
-    "Daily 2026-10-16",
-    "Daily 2026-10-17"
+    "Daily 2026-10-18"
   ],
-  "products_promoted": [
-    "Daily 2026-10-16",
-    "Daily 2026-10-17"
-  ],
+  "products_promoted": [],
   "products_blocked_local": [],
   "eligible_unpublished_products": [],
   "preflight_blocker_matrix": [
@@ -124,11 +122,11 @@
     "producer_automation_restored": true,
     "prior_2026_09_26_correction_preserved": true
   },
-  "real_remote_readback_status": "PASS_REAL_REMOTE_CONTENT_V101__10_REQUIRED_PAGES",
-  "download_sha_status": "PASS_REMOTE_ZIP_SHA256_AND_UNZIP__DAILY_2026_10_16_2026_10_17_AND_WEEKLY_2026_W41",
+  "real_remote_readback_status": "PASS_REAL_REMOTE_CONTENT_V101__7_CHECKED_PAGES",
+  "download_sha_status": "PASS_REMOTE_ZIP_SHA256_AND_UNZIP__2026_10_16_2026_10_17_W41",
   "public_daily_2026_09_25_download_sha256": "b4a80928e9755db168822874115c2d40069f3d9ad919416291e739dee8db7e72",
   "public_weekly_2026_w38_download_sha256": "551496a55a54f77721bbb1a7d2f0dc584956e0a18c188c44c9b90ec1a0a6305a",
-  "higher_cycle_dependency_state": "W41 published; W42 Canonical Daily pool 4/7 to 6/7; no Chat-accepted W42 candidate",
+  "higher_cycle_dependency_state": "W41 published; W42 Canonical Daily pool 6/7; 2026-10-18 missing; no Chat-accepted W42 candidate",
   "correction_provenance": {
     "corrected_at": "2026-09-26T14:08:00+08:00",
     "changed_records": [
@@ -140,11 +138,9 @@
     "urls_changed": false,
     "claims_changed": false
   },
-  "products_deferred_dependency": [
-    "Daily 2026-10-17__RESOLVED_AFTER_2026-10-16"
-  ],
+  "products_deferred_dependency": [],
   "public_daily_2026_09_26_download_sha256": "ea94ce1f2f69b3efa270295fb9f7b04c248280ea057a6a8721a7d3602522ba43",
-  "reportops_status": "SUCCESS__FINAL_CLOSURE_PASS__PRODUCER_RELIABILITY_UNRESOLVED",
+  "reportops_status": "PARTIAL_SUCCESS__DETERMINISTIC_METADATA_REPAIR_COMPLETE__UPSTREAM_PRODUCER_MISSING",
   "correction_provenance_2026_09_27": {
     "corrected_at": "2026-09-27T22:50:00+08:00",
     "correction_type": "INLINE_CITATION_PLACEMENT_ONLY",
@@ -244,7 +240,7 @@
     "manifest_authority_sha256": "a230aab68f64b7f3a668146f3526ea0ed439fae37a12464ece1f61250ddedf53",
     "reconciled_at": "2026-10-17T12:55:00+08:00"
   },
-  "runtime_sync_status": "PASS_POST_REBUILD_AUTHORITY_SHA_FOUR_WAY_READBACK",
+  "runtime_sync_status": "PASS_POST_REBUILD_AUTHORITY_SHA_RUNTIME_AND_MANIFEST_READBACK",
   "recovery_provenance_2026_10_02": {
     "mode": "BOUNDED_INTERACTIVE_CONTINUITY_RECOVERY",
     "original_scheduled_run_observed": true,
@@ -584,14 +580,28 @@
     "root_cause": "UNKNOWN__SCHEDULED_RUN_HISTORY_UNAVAILABLE"
   },
   "current_annual_public": "NO_FORMAL_2026_PRODUCT",
-  "last_updated": "2026-10-17T12:55:00+08:00",
+  "last_updated": "2026-10-18T12:45:00+08:00",
   "final_closure_status": "SUCCESS__TRANSACTION_COMPLETE__PRODUCER_RELIABILITY_UNRESOLVED",
   "status": "SUCCESS",
   "public_site_publication_receipt_status": "DEPLOYED_V101_LIVE_CONTENT_AND_REMOTE_ZIP_INTEGRITY_PASS",
   "public_daily_2026_10_13_download_sha256": "9f208040c99e46ce8752577be3b77387592d25776f3fb89940e91f727add246d",
   "public_weekly_2026_w41_download_sha256": "cc05e865be0ca86e17d9ca1c83a5f5a77d67b9f176a8058edf5482921f911fc0",
-  "upstream_producer_status": "CANDIDATES_CONSUMED__UNATTENDED_RELIABILITY_UNRESOLVED",
-  "producer_gap": [],
+  "upstream_producer_status": "UPSTREAM_PRODUCER_MISSING",
+  "producer_gap": [
+    {
+      "date": "2026-10-18",
+      "present_files": [
+        "run_heartbeat.json"
+      ],
+      "missing_files": [
+        "public_core.md",
+        "evidence.json",
+        "evidence_ledger_v2_2026-10-18.csv",
+        "manifest.json"
+      ],
+      "heartbeat_status": "RUN_STARTED_BEFORE_PREFLIGHT"
+    }
+  ],
   "stable_operation_accepted": false,
   "public_remote_readback": "PASS_REAL_REMOTE_CONTENT_V101__10_REQUIRED_PAGES",
   "download_integrity": "PASS_REMOTE_ZIP_SHA256_AND_UNZIP",
