@@ -10,7 +10,7 @@
   "original_scheduled_run_status": "FAILED_FAIL_CLOSED",
   "continuity_classification": "ZERO_COMPLETE_PRODUCT_FROM_SCHEDULED_RUN__INTERACTIVE_RECOVERY",
   "mode": "BOUNDED_USER_AUTHORIZED_INTERACTIVE_RECOVERY_NOT_SCHEDULED_SUCCESS",
-  "source_identity_gate_status": "PASS_9_OF_9__OPENED_EXACT_DOCUMENT_RECEIPTS",
+  "source_identity_gate_status": "PASS_READONLY_SOURCE_IDENTITY_V2_RULE_CHECK__9_OF_9__FORMAL_WORK_PENDING",
   "inline_citation_gate_status": "PASS_9_OF_9__4_DISTINCT_SOURCE_URLS",
   "signal_priority_status": "PASS__UKMTO_LNG__JUBAIL_LATE_DISCLOSURE__EUROPE_POLICY__US_LNG_FEEDGAS",
   "exact_v4_machine_structure_status": "PASS__8_MODULE_MARKERS_4_SIGNAL_CARDS",
@@ -28,9 +28,9 @@
   "global_energy_cjk_actual": 185,
   "industry_operator_cjk_actual": 274,
   "privacy_status": "PASS_PUBLIC_SAFE_SINGLE_SITE",
-  "window_status": "PASS_WITH_SOURCE_TIME_WARNINGS__UKMTO_INCIDENT_TIME_KNOWN_RELEASE_TIME_UNSTATED__ENERCAST_GAS_DAY_ONLY",
+  "window_status": "PASS_DATE_ONLY_SOURCE_IDENTIFIERS_WITH_CLOCK_TIME_UNVERIFIED__FORMAL_WORK_WINDOW_GATE_PENDING",
   "evidence_status": "PASS_9_RECORDS_9_ATOMIC_CLAIMS",
-  "strict_v2_ledger_status": "PASS_CHAT_STRUCTURAL_PREFLIGHT__PENDING_FORMAL_WORK_VALIDATOR",
+  "strict_v2_ledger_status": "PASS_READONLY_AUTHORITY_FIELD_CHECK__FORMAL_WORK_VALIDATOR_PENDING",
   "data_gap_boundary_status": "PASS__UNVERIFIED_SPOT_PRICES_AND_MEASURED_FLOWS_NOT_ASSERTED",
   "unsupported_core_claims": 0,
   "signal_card_count": 4,
@@ -47,12 +47,12 @@
   "work_may_rewrite": false,
   "source_file_blob_sha": {
     "public_core_md": "d3ce09b2e3264711ed2443bc15066c8ee1868dd6",
-    "evidence_json": "76dcd42c05b87f669c0a3a6a9c30787b0ee38be4",
-    "ledger_csv": "06e83c3252e7c7cdce1b23ee44324b891a5ac001"
+    "evidence_json": "d318e05107b8bd593f6566b98cbc19561cd63dc5",
+    "ledger_csv": "7527fa4f7e9760ee2e0a31f18667dfe211c00f56"
   },
-  "post_run_self_audit_status": "PASS__FOUR_PRODUCT_ASSETS_READBACK__INLINE_SOURCE_IDENTITY__STRICT_V2_ATOMIC_LEDGER__SHA_CONSISTENCY",
+  "post_run_self_audit_status": "PASS_FOUR_ASSETS_READBACK_AFTER_BOUNDED_SOURCE_REPAIR__FORMAL_WORK_PENDING",
   "github_write_status": "PASS__FOUR_PRODUCT_ASSETS",
-  "github_readback_status": "PASS__FOUR_PRODUCT_ASSETS",
+  "github_readback_status": "PASS__FOUR_PRODUCT_ASSETS_AFTER_SOURCE_REPAIR",
   "producer_checks": {
     "date": true,
     "structure": true,
@@ -69,15 +69,42 @@
     "citations": true,
     "final_readback": true,
     "ledger_43_columns": true,
-    "ledger_atomic_claim_alignment": true
+    "ledger_atomic_claim_alignment": true,
+    "corrected_outlet_host_identity": true,
+    "corrected_source_type_enums": true,
+    "date_only_source_precision_disclosed": true,
+    "formal_window_gate": false,
+    "formal_evidence_validator": false,
+    "formal_reader_gate": false
   },
   "warnings": [
     "ORIGINAL_SCHEDULED_WRITE_SAFETY_BLOCK_UNRESOLVED",
     "CJK_ABOVE_SOFT_TARGET__NONBLOCKING",
     "EXACT_RELEASE_TIME_UNSTATED_FOR_UKMTO_AND_ENERCAST",
-    "FORMAL_WORK_VALIDATOR_NOT_ATTEMPTED"
+    "FORMAL_WORK_VALIDATOR_NOT_ATTEMPTED",
+    "DATE_ONLY_SOURCE_PUBLICATION_IDENTIFIERS_REQUIRE_FORMAL_WINDOW_REVIEW",
+    "INTERACTIVE_RECOVERY_DOES_NOT_PROVE_UNATTENDED_SCHEDULED_WRITER"
   ],
-  "next_work_action": "FORMAL_CONSUMER_PREFLIGHT_DAILY_2026_10_18__PROMOTE_ONLY_AFTER_AUTHORITY_GATES_PASS",
+  "next_work_action": "RUN_OFFICIAL_V2_EVIDENCE_AND_SOURCE_IDENTITY_VALIDATORS_THEN_FORMAL_CONSUMER_PREFLIGHT_DAILY_2026_10_18; FAIL_CLOSED_ON_ANY_WINDOW_TIME_ISSUE",
   "producer_acceptance_completed_at": "2026-10-18T08:58:02.565Z",
-  "producer_readback_completed_at": "2026-10-18T08:59:05.376Z"
+  "producer_readback_completed_at": "2026-10-18T08:59:05.376Z",
+  "bounded_correction_receipt": {
+    "reason": "Prepublication audit found Authority STRICT_NEW source_type, source domain, and publication_time hard blockers; corrected existing data only",
+    "before_source_blobs": {
+      "public_core_md": "d3ce09b2e3264711ed2443bc15066c8ee1868dd6",
+      "evidence_json": "76dcd42c05b87f669c0a3a6a9c30787b0ee38be4",
+      "ledger_csv": "06e83c3252e7c7cdce1b23ee44324b891a5ac001"
+    },
+    "after_source_blobs": {
+      "public_core_md": "d3ce09b2e3264711ed2443bc15066c8ee1868dd6",
+      "evidence_json": "d318e05107b8bd593f6566b98cbc19561cd63dc5",
+      "ledger_csv": "7527fa4f7e9760ee2e0a31f18667dfe211c00f56"
+    },
+    "no_price_or_claim_change": true,
+    "no_canonical_or_site_change": true,
+    "formal_quality_verdict": "PENDING_WORK_OFFICIAL_VALIDATORS",
+    "publisher_time_boundary": "UKMTO official product dated 2026-10-17; Enercast page dated gas day 2026-10-17; no precise release clock times claimed",
+    "checked_at": "2026-10-18T09:16:57.754Z"
+  },
+  "updated_at": "2026-10-18T09:16:57.757Z"
 }
