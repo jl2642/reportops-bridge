@@ -1,7 +1,7 @@
 {
   "schema_version": "REPORTOPS_DEPLOYMENT_STATE_V1",
   "document_class": "MUTABLE_DEPLOYMENT_AND_ACTIVATION_STATE",
-  "status": "SUCCESS",
+  "status": "PARTIAL_SUCCESS__UPSTREAM_PRODUCER_MISSING",
   "topology": "SINGLE_SITE_V4",
   "formal_cutover": true,
   "library_cutover": true,
@@ -26,24 +26,26 @@
   "current_weekly_public": "2026-W41",
   "current_monthly_public": "2026-09",
   "current_quarterly_public": "2026-Q3",
-  "authority_package_sha256": "a230aab68f64b7f3a668146f3526ea0ed439fae37a12464ece1f61250ddedf53",
+  "authority_package_sha256": "766798b169d46edbf82c2f020ec5b9b2e6fff3b208cf4437fb509939d8a6fdd5",
   "canonical_authority": "CHATGPT_LIBRARY:/能源周期报告/00_CURRENT/CURRENT_POINTER.json",
   "current_public_ref": "runtime/CURRENT_PUBLIC.json",
-  "final_closure_status": "SUCCESS__TRANSACTION_COMPLETE__PRODUCER_RELIABILITY_UNRESOLVED",
-  "pending_product": null,
-  "updated_at": "2026-10-17T12:55:00+08:00",
+  "final_closure_status": "PARTIAL_SUCCESS__DETERMINISTIC_METADATA_REPAIR_COMPLETE__UPSTREAM_PRODUCER_MISSING",
+  "pending_product": "Daily 2026-10-18",
+  "updated_at": "2026-10-18T12:45:00+08:00",
   "metadata_freshness": "PASS__13_CURRENT_DERIVED_VIEWS__POINTER_MATCH",
   "state_consistency_pointer_sha256": "e509c0f0dc640a01a1f86f560a9d00a801101729747bff315485fd1c1e068beb",
-  "real_remote_readback_status": "PASS_REAL_REMOTE_CONTENT_V101__10_REQUIRED_PAGES",
+  "real_remote_readback_status": "PASS_REAL_REMOTE_CONTENT_V101__7_CHECKED_PAGES",
   "site_only_corrective_republish_required": false,
   "private_site_dependency_removed": true,
-  "queue_remaining": [],
+  "queue_remaining": [
+    "Daily 2026-10-18"
+  ],
   "stale_views": [],
-  "manifest_reconciliation_status": "PASS__2026_10_16_AND_2026_10_17_FORMAL_CANONICAL_PUBLISHED__CONSUMER_ACTUALS_AND_FINAL_AUTHORITY_SHA_READBACK",
+  "manifest_reconciliation_status": "PASS__NO_NEW_PROMOTION__2026_10_16_AND_2026_10_17_AUTHORITY_IDENTITY_METADATA_RECONCILED",
   "measurement_parity_status": "PASS_AUTHORITY_CONSUMER_ACTUALS",
   "derived_state_completeness_status": "PASS__13_CURRENT_DERIVED_VIEWS",
   "stable_operation_accepted": false,
-  "higher_cycle_dependency_state": "W41 published; W42 Canonical Daily pool 4/7 to 6/7; no Chat-accepted W42 candidate",
+  "higher_cycle_dependency_state": "W41 published; W42 Canonical Daily pool 6/7; 2026-10-18 missing; no Chat-accepted W42 candidate",
   "authority_sha_runtime_reconciliation": {
     "status": "PASS_POST_REBUILD_AUTHORITY_SHA_FOUR_WAY",
     "authority_sha_before": "6820dde8c82b8359236eb81afb5a9d8100bb4292cbaafb0da3732d740098359c",
@@ -108,14 +110,27 @@
   "current_annual_public": "NO_FORMAL_2026_PRODUCT",
   "eligible_unpublished_products": [],
   "canonical_promotion_performed": true,
-  "public_site_status": "PASS_V101_REAL_REMOTE_READBACK",
+  "public_site_status": "PASS_V101_REAL_REMOTE_READBACK__UNCHANGED",
   "download_sha_status": "PASS_REMOTE_ZIP_SHA256_AND_UNZIP__DAILY_2026_10_16_2026_10_17_AND_WEEKLY_2026_W41",
   "last_updated": "2026-10-17T12:55:00+08:00",
   "reportops_status": "SUCCESS__FINAL_CLOSURE_PASS__PRODUCER_RELIABILITY_UNRESOLVED",
   "public_site_publication_receipt_status": "DEPLOYED_V101_LIVE_CONTENT_AND_REMOTE_ZIP_INTEGRITY_PASS",
   "next_action": "Continue scheduled continuity scan; do not treat interactive recovery as proof that the 10:15 unattended producer is fixed.",
-  "upstream_producer_status": "CANDIDATES_CONSUMED__UNATTENDED_RELIABILITY_UNRESOLVED",
-  "producer_gap": [],
+  "upstream_producer_status": "UPSTREAM_PRODUCER_MISSING",
+  "producer_gap": [
+    {
+      "date": "2026-10-18",
+      "present_files": [
+        "run_heartbeat.json"
+      ],
+      "missing_files": [
+        "public_core.md",
+        "evidence.json",
+        "evidence_ledger_v2_2026-10-18.csv",
+        "manifest.json"
+      ]
+    }
+  ],
   "scheduled_date": "2026-10-16",
   "target_date": "2026-10-16",
   "current_day_status": "FORMAL_CANONICAL_PUBLISHED",
