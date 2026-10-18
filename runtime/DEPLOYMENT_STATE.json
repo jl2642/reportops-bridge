@@ -108,29 +108,18 @@
     "resolution": "PASS_V90_REAL_ORIGIN_READBACK__HOME_CURRENT_DAILY_2026_10_10"
   },
   "current_annual_public": "NO_FORMAL_2026_PRODUCT",
-  "eligible_unpublished_products": [],
+  "eligible_unpublished_products": [
+    "Daily 2026-10-18"
+  ],
   "canonical_promotion_performed": true,
   "public_site_status": "PASS_V101_REAL_REMOTE_READBACK__UNCHANGED",
   "download_sha_status": "PASS_REMOTE_ZIP_SHA256_AND_UNZIP__DAILY_2026_10_16_2026_10_17_AND_WEEKLY_2026_W41",
-  "last_updated": "2026-10-18T09:03:20.795Z",
+  "last_updated": "2026-10-18T09:18:04.954Z",
   "reportops_status": "PARTIAL_SUCCESS__DETERMINISTIC_METADATA_REPAIR_COMPLETE__UPSTREAM_PRODUCER_MISSING",
   "public_site_publication_receipt_status": "DEPLOYED_V101_LIVE_CONTENT_AND_REMOTE_ZIP_INTEGRITY_PASS",
-  "next_action": "Continue scheduled continuity scan; do not treat interactive recovery as proof that the 10:15 unattended producer is fixed.",
-  "upstream_producer_status": "UPSTREAM_PRODUCER_MISSING",
-  "producer_gap": [
-    {
-      "date": "2026-10-18",
-      "present_files": [
-        "run_heartbeat.json"
-      ],
-      "missing_files": [
-        "public_core.md",
-        "evidence.json",
-        "evidence_ledger_v2_2026-10-18.csv",
-        "manifest.json"
-      ]
-    }
-  ],
+  "next_action": "2026-10-18 Daily candidate is present and accepted by Chat; scheduled 12:30 Work must formally validate Source Identity, Evidence V2, date-only publication provenance, Reader, Lineage and Canonical before promotion; scheduled 10:15 reliability remains UNRESOLVED.",
+  "upstream_producer_status": "PUBLIC_CORE_ACCEPTED_PENDING_WORK",
+  "producer_gap": [],
   "scheduled_date": "2026-10-16",
   "target_date": "2026-10-16",
   "current_day_status": "FORMAL_CANONICAL_PUBLISHED",
