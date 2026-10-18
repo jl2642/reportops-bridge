@@ -46,7 +46,7 @@ language: zh-CN
 - 反证条件：若政治表态不转化为措施执行，且冬季基础设施及进出口流量维持稳定，则不应抬高供给中断的基准情景概率。
 
 ### 信号卡4｜美国LNG接收气管网提名：供应端有动态，切忌错当装船量
-- 事实摘要：Enercast的10月17日天然气日快照显示，其跟踪的LNG Feedgas管网提名量合计19.998 Bcf/日；网站另列按相同提名周期比较的日变动+0.791 Bcf/日（+4.1%）。[E06](https://enercast.com/daily-summary/2026/10/17/) 站点列示Plaquemines的Gator Express交付点4.244 Bcf/日[E07]、Corpus Christi LNG接收点2.790 Bcf/日[E09](https://enercast.com/daily-summary/2026/10/17/)
+- 事实摘要：Enercast的10月17日天然气日快照显示，其跟踪的LNG Feedgas管网提名量合计19.998 Bcf/日；网站另列按相同提名周期比较的日变动+0.791 Bcf/日（+4.1%）。[E06](https://enercast.com/daily-summary/2026/10/17/) 站点列示Plaquemines的Gator Express交付点4.244 Bcf/日[E07](https://enercast.com/daily-summary/2026/10/17/)、Corpus Christi LNG接收点2.790 Bcf/日[E09](https://enercast.com/daily-summary/2026/10/17/)(https://enercast.com/daily-summary/2026/10/17/)
 - 为什么重要：在全球LNG供给安全受到关注时，北美出口终端进气可用作液化利用率的高频线索，但终端进气、液化加工、罐存及实际装船存在时间差，无法一一对应。
 - 价格/供需/产业链传导：若多日终端进气持续提高且装船同步兑现，可能增加未来海运供应弹性；若仅为管道提名波动或检修后恢复，则不能直接增加全球可交付LNG供给估计。
 - 影响对象：美国液化终端、管道输气商、LNG买卖双方和短期货物流向观察者。
