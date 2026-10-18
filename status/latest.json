@@ -59,7 +59,7 @@
   "failure_stage": null,
   "failure_reason": null,
   "next_action": "Daily 2026-10-18 candidate persisted; existing 12:30 Work to perform independent full Authority consumer gates and formal promotion/site publication on next scheduled run. Unattended 10:15 safety-check failure remains unresolved.",
-  "updated_at": "2026-10-17T12:55:00+08:00",
+  "updated_at": "2026-10-18T09:03:23.772Z",
   "queue_remaining": [
     "Daily 2026-10-18"
   ],
@@ -233,13 +233,13 @@
   "public_daily_2026_09_30_download_sha256": "71b2b772dfc67f33d4d36903b11d1a1a5608af8bd0fe7bb1faf566232e009916",
   "public_daily_2026_10_01_download_sha256": "f332e6a6ce7eecdce966954035d0306c03c12c6534e5960686a83177f6228ebd",
   "authority_sha_runtime_reconciliation": {
-    "status": "PASS_POST_REBUILD_AUTHORITY_SHA_FOUR_WAY",
-    "authority_sha_before": "6820dde8c82b8359236eb81afb5a9d8100bb4292cbaafb0da3732d740098359c",
-    "authority_sha_after": "a230aab68f64b7f3a668146f3526ea0ed439fae37a12464ece1f61250ddedf53",
-    "library_sidecar_sha256": "a230aab68f64b7f3a668146f3526ea0ed439fae37a12464ece1f61250ddedf53",
-    "runtime_authority_sha256": "a230aab68f64b7f3a668146f3526ea0ed439fae37a12464ece1f61250ddedf53",
-    "manifest_authority_sha256": "a230aab68f64b7f3a668146f3526ea0ed439fae37a12464ece1f61250ddedf53",
-    "reconciled_at": "2026-10-17T12:55:00+08:00"
+    "status": "PASS_POST_REBUILD_AUTHORITY_SHA_FOUR_WAY__2026_10_18_METADATA_RECONCILED",
+    "authority_sha_before": "a230aab68f64b7f3a668146f3526ea0ed439fae37a12464ece1f61250ddedf53",
+    "authority_sha_after": "766798b169d46edbf82c2f020ec5b9b2e6fff3b208cf4437fb509939d8a6fdd5",
+    "library_sidecar_sha256": "766798b169d46edbf82c2f020ec5b9b2e6fff3b208cf4437fb509939d8a6fdd5",
+    "runtime_authority_sha256": "766798b169d46edbf82c2f020ec5b9b2e6fff3b208cf4437fb509939d8a6fdd5",
+    "manifest_authority_sha256": "766798b169d46edbf82c2f020ec5b9b2e6fff3b208cf4437fb509939d8a6fdd5",
+    "reconciled_at": "2026-10-18T09:03:23.772Z"
   },
   "runtime_sync_status": "PASS_POST_REBUILD_AUTHORITY_SHA_RUNTIME_AND_MANIFEST_READBACK",
   "recovery_provenance_2026_10_02": {
@@ -347,7 +347,7 @@
   },
   "current_daily_canonical": "2026-10-17",
   "current_quarterly_public": "2026-Q3",
-  "library_sidecar_sha256": "a230aab68f64b7f3a668146f3526ea0ed439fae37a12464ece1f61250ddedf53",
+  "library_sidecar_sha256": "766798b169d46edbf82c2f020ec5b9b2e6fff3b208cf4437fb509939d8a6fdd5",
   "stale_views": [],
   "candidate_2026_10_05": {
     "product_status": "PUBLIC_CORE_ACCEPTED_PENDING_WORK",
@@ -581,7 +581,7 @@
     "root_cause": "UNKNOWN__SCHEDULED_RUN_HISTORY_UNAVAILABLE"
   },
   "current_annual_public": "NO_FORMAL_2026_PRODUCT",
-  "last_updated": "2026-10-18T09:00:44.417Z",
+  "last_updated": "2026-10-18T09:03:23.772Z",
   "final_closure_status": "SUCCESS__TRANSACTION_COMPLETE__PRODUCER_RELIABILITY_UNRESOLVED",
   "status": "SUCCESS",
   "public_site_publication_receipt_status": "DEPLOYED_V101_LIVE_CONTENT_AND_REMOTE_ZIP_INTEGRITY_PASS",
@@ -607,7 +607,7 @@
     "formal_promotion_repeated": false,
     "research_reperformed": false
   },
-  "authority_sha_runtime_reconciliation_status": "PASS",
+  "authority_sha_runtime_reconciliation_status": "PASS_POST_REBUILD_SHA_CONFIRMED",
   "current_derived_views_status": "PASS__13_OF_13",
   "producer_automation_status": "UNRESOLVED__INTERACTIVE_RECOVERY_DOES_NOT_PROVE_10_15_UNATTENDED_RELIABILITY",
   "public_daily_2026_10_16_download_sha256": "a4f370e6392cbdcb575b528ff11b60d5ca40978bb96b798b4ee8a1bf86eb0040",
