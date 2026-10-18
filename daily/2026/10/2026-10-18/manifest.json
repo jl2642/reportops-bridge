@@ -50,9 +50,9 @@
     "evidence_json": "76dcd42c05b87f669c0a3a6a9c30787b0ee38be4",
     "ledger_csv": "06e83c3252e7c7cdce1b23ee44324b891a5ac001"
   },
-  "post_run_self_audit_status": "PENDING_FINAL_READBACK",
-  "github_write_status": "PASS__THREE_PRODUCT_ASSETS__MANIFEST_PENDING_READBACK",
-  "github_readback_status": "PENDING_MANIFEST_AND_FINAL_AUDIT",
+  "post_run_self_audit_status": "PASS__FOUR_PRODUCT_ASSETS_READBACK__INLINE_SOURCE_IDENTITY__STRICT_V2_ATOMIC_LEDGER__SHA_CONSISTENCY",
+  "github_write_status": "PASS__FOUR_PRODUCT_ASSETS",
+  "github_readback_status": "PASS__FOUR_PRODUCT_ASSETS",
   "producer_checks": {
     "date": true,
     "structure": true,
@@ -66,7 +66,10 @@
     "privacy": true,
     "evidence": true,
     "ledger": true,
-    "citations": true
+    "citations": true,
+    "final_readback": true,
+    "ledger_43_columns": true,
+    "ledger_atomic_claim_alignment": true
   },
   "warnings": [
     "ORIGINAL_SCHEDULED_WRITE_SAFETY_BLOCK_UNRESOLVED",
@@ -75,5 +78,6 @@
     "FORMAL_WORK_VALIDATOR_NOT_ATTEMPTED"
   ],
   "next_work_action": "FORMAL_CONSUMER_PREFLIGHT_DAILY_2026_10_18__PROMOTE_ONLY_AFTER_AUTHORITY_GATES_PASS",
-  "producer_acceptance_completed_at": "2026-10-18T08:58:02.565Z"
+  "producer_acceptance_completed_at": "2026-10-18T08:58:02.565Z",
+  "producer_readback_completed_at": "2026-10-18T08:59:05.376Z"
 }
