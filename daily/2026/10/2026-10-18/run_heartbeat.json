@@ -2,5 +2,39 @@
   "target_date": "2026-10-18",
   "scheduled_for": "10:15 Asia/Shanghai",
   "run_started_at": "2026-10-18T02:15:58.318Z",
-  "status": "RUN_STARTED_BEFORE_PREFLIGHT"
+  "status": "PRODUCER_SUCCESS_CANDIDATES_PENDING_WORK",
+  "original_scheduled_run_status": "FAILED_FAIL_CLOSED",
+  "original_scheduled_failure_stage": "PUBLIC_CORE_CREATE",
+  "original_scheduled_failure_reason": "This tool call was blocked by OpenAI's safety checks. Please double check what you are sending.",
+  "scheduled_run_status": "FAILED__PUBLIC_CORE_CREATE_OPENAI_SAFETY_CHECKS",
+  "execution_mode": "USER_AUTHORIZED_INTERACTIVE_RECOVERY_NOT_SCHEDULED_RUN",
+  "window_start": "2026-10-17T10:00:00+08:00",
+  "window_end": "2026-10-18T10:00:00+08:00",
+  "products_repaired_or_produced": [
+    "Daily 2026-10-18 interactive recovery"
+  ],
+  "producer_recovery_queue_remaining": [],
+  "queue_for_12_30_work": [
+    "Daily 2026-10-18"
+  ],
+  "post_run_self_audit_status": "PASS__FOUR_PRODUCT_ASSETS_READBACK__STRICT_V2_LEDGER__INLINE_SOURCE_IDENTITY__SHA_CONSISTENCY",
+  "github_write_status": "PASS__INTERACTIVE_RECOVERY_PRODUCT_ASSETS",
+  "github_readback_status": "PASS__FOUR_PRODUCT_ASSETS",
+  "producer_candidate_manifest_blob_sha": "bd63b1dd8c7cbadd069eb6b32212ec653b59f422",
+  "canonical_promotion_performed": false,
+  "site_publication_performed": false,
+  "formal_status": "PENDING_WORK_RECONCILIATION",
+  "unattended_root_cause": "OPENAI_SAFETY_CHECKS_BLOCKED_PUBLIC_CORE_CREATE__PRECISE_TRIGGER_UNCONFIRMED",
+  "producer_automation_status": "UNRESOLVED__INTERACTIVE_RECOVERY_DOES_NOT_PROVE_SCHEDULED_SUCCESS",
+  "failure_stage": null,
+  "failure_reason": null,
+  "manual_intervention_required_for_producer_recovery": false,
+  "warnings": [
+    "UKMTO_RELEASE_TIMESTAMP_UNSTATED__INCIDENT_TIME_CONFIRMED",
+    "ENERCAST_EXACT_PUBLICATION_TIME_UNSTATED__DATED_GAS_DAY",
+    "ORIGINAL_10_15_UNATTENDED_FAILURE_UNRESOLVED"
+  ],
+  "notes": "Original unattended 10:15 execution failed after heartbeat and research. Later separate user-authorized interactive reconstruction using existing normal GitHub connector produced four complete public-safe candidate assets with verified readbacks. This is not proof of unattended auto writer recovery and does not perform Canonical/Site publication.",
+  "recovery_completed_at": "2026-10-18T08:59:39.146Z",
+  "updated_at": "2026-10-18T08:59:39.146Z"
 }
