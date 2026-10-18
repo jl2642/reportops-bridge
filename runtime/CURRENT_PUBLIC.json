@@ -118,7 +118,7 @@
   "public_site_status": "PASS_V101_REAL_REMOTE_READBACK",
   "real_remote_readback_status": "PASS_REAL_REMOTE_CONTENT_V101__10_REQUIRED_PAGES",
   "download_sha_status": "PASS_REMOTE_ZIP_SHA256_AND_UNZIP__DAILY_2026_10_16_2026_10_17_AND_WEEKLY_2026_W41",
-  "reportops_status": "SUCCESS__FINAL_CLOSURE_PASS__PRODUCER_RELIABILITY_UNRESOLVED",
+  "reportops_status": "PARTIAL_SUCCESS__DETERMINISTIC_METADATA_REPAIR_COMPLETE__UPSTREAM_PRODUCER_MISSING",
   "site_publication_performed": true,
   "public_site_publication_receipt_status": "DEPLOYED_V101_LIVE_CONTENT_AND_REMOTE_ZIP_INTEGRITY_PASS",
   "next_action": "Continue scheduled continuity scan; do not treat interactive recovery as proof that the 10:15 unattended producer is fixed.",
