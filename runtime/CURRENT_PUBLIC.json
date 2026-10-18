@@ -1,6 +1,6 @@
 {
   "schema_version": "REPORTOPS_PUBLIC_RUNTIME_CURRENT_V1",
-  "status": "SUCCESS",
+  "status": "PARTIAL_SUCCESS__UPSTREAM_PRODUCER_MISSING",
   "current_daily_public": "2026-10-17",
   "current_weekly_public": "2026-W41",
   "current_monthly_public": "2026-09",
@@ -13,8 +13,8 @@
   "private_site_status": "RETIRED_FROM_LIVE_OPERATION",
   "public_site_version": 101,
   "public_site_url": "https://energy-cycle-report-share.ljjx2020.chatgpt.site",
-  "public_remote_readback": "PASS_REAL_REMOTE_CONTENT_V101__10_REQUIRED_PAGES",
-  "authority_package_sha256": "a230aab68f64b7f3a668146f3526ea0ed439fae37a12464ece1f61250ddedf53",
+  "public_remote_readback": "PASS_REAL_REMOTE_CONTENT_V101__7_CHECKED_PAGES",
+  "authority_package_sha256": "766798b169d46edbf82c2f020ec5b9b2e6fff3b208cf4437fb509939d8a6fdd5",
   "github_role": "PUBLIC_SAFE_RUNTIME_BRIDGE_NOT_CANONICAL_AUTHORITY",
   "canonical_authority": "CHATGPT_LIBRARY",
   "daily_runtime_contract_current": "V1_5_FORMAL_AUTHORITY",
@@ -22,22 +22,24 @@
   "formal_authority_bridge_protocol_active": "V1_5",
   "source_identity_policy_current": "EVIDENCE_POLICY_PUBLIC_V1_2",
   "pending_work_runtime_formalization": false,
-  "final_closure_status": "SUCCESS__TRANSACTION_COMPLETE__PRODUCER_RELIABILITY_UNRESOLVED",
-  "pending_product": null,
-  "last_updated": "2026-10-17T12:55:00+08:00",
+  "final_closure_status": "PARTIAL_SUCCESS__DETERMINISTIC_METADATA_REPAIR_COMPLETE__UPSTREAM_PRODUCER_MISSING",
+  "pending_product": "Daily 2026-10-18",
+  "last_updated": "2026-10-18T12:45:00+08:00",
   "deployment_state_ref": "runtime/DEPLOYMENT_STATE.json",
   "metadata_freshness": "PASS__13_CURRENT_DERIVED_VIEWS__POINTER_MATCH",
   "state_consistency_pointer_sha256": "e509c0f0dc640a01a1f86f560a9d00a801101729747bff315485fd1c1e068beb",
   "stale_views": [],
-  "queue_remaining": [],
+  "queue_remaining": [
+    "Daily 2026-10-18"
+  ],
   "eligible_unpublished_products": [],
   "correction_backlog_status": "FORMAL_CANONICAL_PUBLISHED",
-  "manifest_reconciliation_status": "PASS__2026_10_16_AND_2026_10_17_FORMAL_CANONICAL_PUBLISHED__CONSUMER_ACTUALS_AND_FINAL_AUTHORITY_SHA_READBACK",
+  "manifest_reconciliation_status": "PASS__NO_NEW_PROMOTION__2026_10_16_AND_2026_10_17_AUTHORITY_IDENTITY_METADATA_RECONCILED",
   "measurement_parity_status": "PASS_AUTHORITY_CONSUMER_ACTUALS",
   "derived_state_completeness_status": "PASS__13_CURRENT_DERIVED_VIEWS",
   "stable_operation_accepted": false,
   "public_weekly_2026_w38_download_sha256": "551496a55a54f77721bbb1a7d2f0dc584956e0a18c188c44c9b90ec1a0a6305a",
-  "higher_cycle_dependency_state": "W41 published; W42 Canonical Daily pool 4/7 to 6/7; no Chat-accepted W42 candidate",
+  "higher_cycle_dependency_state": "W41 published; W42 Canonical Daily pool 6/7; 2026-10-18 missing; no Chat-accepted W42 candidate",
   "public_daily_2026_09_26_download_sha256": "ea94ce1f2f69b3efa270295fb9f7b04c248280ea057a6a8721a7d3602522ba43",
   "public_daily_2026_09_27_download_sha256": "73accf2ca087b3db8d8a742185de7f6aad91ab7adf8c062b0ba00e2f87524aaa",
   "public_daily_2026_09_28_download_sha256": "13648b23cbe0a4868122c6479aa38d0eb0570e6ddc24034e2bab192b913a1beb",
@@ -122,8 +124,21 @@
   "next_action": "Continue scheduled continuity scan; do not treat interactive recovery as proof that the 10:15 unattended producer is fixed.",
   "public_daily_2026_10_13_download_sha256": "9f208040c99e46ce8752577be3b77387592d25776f3fb89940e91f727add246d",
   "public_weekly_2026_w41_download_sha256": "cc05e865be0ca86e17d9ca1c83a5f5a77d67b9f176a8058edf5482921f911fc0",
-  "upstream_producer_status": "CANDIDATES_CONSUMED__UNATTENDED_RELIABILITY_UNRESOLVED",
-  "producer_gap": [],
+  "upstream_producer_status": "UPSTREAM_PRODUCER_MISSING",
+  "producer_gap": [
+    {
+      "date": "2026-10-18",
+      "present_files": [
+        "run_heartbeat.json"
+      ],
+      "missing_files": [
+        "public_core.md",
+        "evidence.json",
+        "evidence_ledger_v2_2026-10-18.csv",
+        "manifest.json"
+      ]
+    }
+  ],
   "scheduled_date": "2026-10-16",
   "target_date": "2026-10-16",
   "current_day_status": "FORMAL_CANONICAL_PUBLISHED",
