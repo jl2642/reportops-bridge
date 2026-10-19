@@ -103,6 +103,11 @@
         "authority_package_sha256": "a230aab68f64b7f3a668146f3526ea0ed439fae37a12464ece1f61250ddedf53",
         "reconciled_at": "2026-10-17T12:55:00+08:00",
         "reason": "previous_post_rebuild_authority_identity"
+      },
+      {
+        "authority_package_sha256": "766798b169d46edbf82c2f020ec5b9b2e6fff3b208cf4437fb509939d8a6fdd5",
+        "reconciled_at": "2026-10-18T12:45:00+08:00",
+        "reason": "previous_post_rebuild_authority_identity"
       }
     ]
   },
@@ -134,15 +139,15 @@
     "quality_grade": "B_PLUS_FORMAL_BASELINE"
   },
   "consumer_authority_identity": {
-    "authority_package_sha256": "766798b169d46edbf82c2f020ec5b9b2e6fff3b208cf4437fb509939d8a6fdd5",
-    "library_sidecar_sha256": "766798b169d46edbf82c2f020ec5b9b2e6fff3b208cf4437fb509939d8a6fdd5",
+    "authority_package_sha256": "c0bf993ef2e55776acbce428543c74755e1025597ebe1a2d6f3bea9679947895",
+    "library_sidecar_sha256": "c0bf993ef2e55776acbce428543c74755e1025597ebe1a2d6f3bea9679947895",
     "post_rebuild": true,
     "readback_status": "PASS",
-    "reconciled_at": "2026-10-18T12:45:00+08:00",
-    "change_class": "METADATA_ONLY_CURRENT_DERIVED_VIEW_RECONCILIATION"
+    "reconciled_at": "2026-10-19T12:33:36+08:00",
+    "change_class": "METADATA_ONLY_POST_REBUILD_AUTHORITY_IDENTITY_RECONCILIATION"
   },
-  "public_site_version": 101,
-  "public_site_status": "PASS_V101_REAL_REMOTE_READBACK",
-  "updated_at": "2026-10-18T12:45:00+08:00",
+  "public_site_version": 102,
+  "public_site_status": "PASS_V102_REAL_REMOTE_READBACK",
+  "updated_at": "2026-10-19T12:33:36+08:00",
   "work_reconciliation_status": "PASS__FORMAL_CANONICAL_AND_SITE_PUBLISHED"
 }
