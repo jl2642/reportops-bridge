@@ -1,0 +1,13 @@
+{
+  "schema_version": "REPORTOPS_DAILY_RUN_HEARTBEAT_V1",
+  "target_date": "2026-10-19",
+  "scheduled_for": "2026-10-19T10:15:00+08:00",
+  "run_started_at": "2026-10-19T05:05:48.615Z",
+  "status": "INTERACTIVE_RECOVERY_STARTED_BEFORE_PREFLIGHT",
+  "execution_mode": "BOUNDED_USER_AUTHORIZED_INTERACTIVE_RECOVERY_NOT_SCHEDULED_RUN",
+  "original_scheduled_run_status": "NO_DURABLE_HEARTBEAT_FOUND_AT_CHECK",
+  "fixed_window_start": "2026-10-18T10:00:00+08:00",
+  "fixed_window_end": "2026-10-19T10:00:00+08:00",
+  "canonical_mutation_performed": false,
+  "site_mutation_performed": false
+}
