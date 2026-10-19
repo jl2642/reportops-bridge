@@ -15,30 +15,31 @@
   "site_publication_performed": true,
   "live_site_mode": "SINGLE_SITE_V4_PUBLIC",
   "private_site_status": "RETIRED_FROM_LIVE_OPERATION",
-  "public_site_version": 101,
+  "public_site_version": 102,
   "public_site_url": "https://energy-cycle-report-share.ljjx2020.chatgpt.site",
   "download_integrity": "PASS_REMOTE_ZIP_SHA256_AND_UNZIP",
   "v4_runtime_assets_in_authority": "PASS",
   "daily_runtime_contract_active": "V1_5_FORMAL_AUTHORITY",
   "bridge_protocol_active": "V1_5_FORMAL_AUTHORITY",
   "source_identity_policy_active": "EVIDENCE_POLICY_PUBLIC_V1_2",
-  "current_daily_public": "2026-10-17",
+  "current_daily_public": "2026-10-18",
   "current_weekly_public": "2026-W41",
   "current_monthly_public": "2026-09",
   "current_quarterly_public": "2026-Q3",
-  "authority_package_sha256": "766798b169d46edbf82c2f020ec5b9b2e6fff3b208cf4437fb509939d8a6fdd5",
+  "authority_package_sha256": "c0bf993ef2e55776acbce428543c74755e1025597ebe1a2d6f3bea9679947895",
   "canonical_authority": "CHATGPT_LIBRARY:/能源周期报告/00_CURRENT/CURRENT_POINTER.json",
   "current_public_ref": "runtime/CURRENT_PUBLIC.json",
   "final_closure_status": "PARTIAL_SUCCESS__DETERMINISTIC_METADATA_REPAIR_COMPLETE__UPSTREAM_PRODUCER_MISSING",
   "pending_product": "Daily 2026-10-18",
-  "updated_at": "2026-10-18T09:03:20.795Z",
+  "updated_at": "2026-10-19T12:33:36+08:00",
   "metadata_freshness": "PASS__13_CURRENT_DERIVED_VIEWS__POINTER_MATCH",
-  "state_consistency_pointer_sha256": "e509c0f0dc640a01a1f86f560a9d00a801101729747bff315485fd1c1e068beb",
+  "state_consistency_pointer_sha256": "0ae3deaec325ab58bf0c6679cd06374a752dcfb589eba8527c9adc920b0732c8",
   "real_remote_readback_status": "PASS_REAL_REMOTE_CONTENT_V101__7_CHECKED_PAGES",
   "site_only_corrective_republish_required": false,
   "private_site_dependency_removed": true,
   "queue_remaining": [
-    "Daily 2026-10-18"
+    "Daily 2026-10-19",
+    "Weekly 2026-W42"
   ],
   "stale_views": [],
   "manifest_reconciliation_status": "PASS__NO_NEW_PROMOTION__2026_10_16_AND_2026_10_17_AUTHORITY_IDENTITY_METADATA_RECONCILED",
@@ -55,11 +56,11 @@
     "manifest_authority_sha256": "766798b169d46edbf82c2f020ec5b9b2e6fff3b208cf4437fb509939d8a6fdd5",
     "reconciled_at": "2026-10-18T09:03:20.795Z"
   },
-  "current_daily_canonical": "2026-10-17",
+  "current_daily_canonical": "2026-10-18",
   "current_package_site_publication_performed": true,
   "public_remote_readback": "PASS_REAL_REMOTE_CONTENT_V101__10_REQUIRED_PAGES",
-  "library_sidecar_sha256": "766798b169d46edbf82c2f020ec5b9b2e6fff3b208cf4437fb509939d8a6fdd5",
-  "runtime_sync_status": "PASS_POST_REBUILD_AUTHORITY_SHA_FOUR_WAY_READBACK",
+  "library_sidecar_sha256": "c0bf993ef2e55776acbce428543c74755e1025597ebe1a2d6f3bea9679947895",
+  "runtime_sync_status": "PASS_POST_REBUILD_AUTHORITY_SHA_RUNTIME_AND_MANIFEST_READBACK",
   "manual_intervention_required": false,
   "failure_stage": "NONE",
   "failure_reason": "NONE",
@@ -112,14 +113,27 @@
     "Daily 2026-10-18"
   ],
   "canonical_promotion_performed": true,
-  "public_site_status": "PASS_V101_REAL_REMOTE_READBACK__UNCHANGED",
+  "public_site_status": "PASS_V102_REAL_REMOTE_READBACK",
   "download_sha_status": "PASS_REMOTE_ZIP_SHA256_AND_UNZIP__DAILY_2026_10_16_2026_10_17_AND_WEEKLY_2026_W41",
   "last_updated": "2026-10-18T09:18:04.954Z",
-  "reportops_status": "PARTIAL_SUCCESS__DETERMINISTIC_METADATA_REPAIR_COMPLETE__UPSTREAM_PRODUCER_MISSING",
+  "reportops_status": "PARTIAL_SUCCESS__DAILY_2026_10_18_PROMOTED__UPSTREAM_PRODUCER_MISSING_2026_10_19",
   "public_site_publication_receipt_status": "DEPLOYED_V101_LIVE_CONTENT_AND_REMOTE_ZIP_INTEGRITY_PASS",
   "next_action": "2026-10-18 Daily candidate is present and accepted by Chat; scheduled 12:30 Work must formally validate Source Identity, Evidence V2, date-only publication provenance, Reader, Lineage and Canonical before promotion; scheduled 10:15 reliability remains UNRESOLVED.",
   "upstream_producer_status": "PUBLIC_CORE_ACCEPTED_PENDING_WORK",
-  "producer_gap": [],
+  "producer_gap": {
+    "status": "UPSTREAM_PRODUCER_MISSING",
+    "dates": [
+      "2026-10-19"
+    ],
+    "missing_files": [
+      "run_heartbeat.json",
+      "public_core.md",
+      "evidence.json",
+      "evidence_ledger_v2_2026-10-19.csv",
+      "manifest.json"
+    ],
+    "producer_reliability_status": "UNRESOLVED__NO_HEARTBEAT__DO_NOT_INFER_RECOVERY"
+  },
   "scheduled_date": "2026-10-16",
   "target_date": "2026-10-16",
   "current_day_status": "FORMAL_CANONICAL_PUBLISHED",
@@ -178,5 +192,7 @@
   "producer_automation_status": "UNRESOLVED__INTERACTIVE_RECOVERY_DOES_NOT_PROVE_10_15_UNATTENDED_RELIABILITY",
   "public_daily_2026_10_16_download_sha256": "a4f370e6392cbdcb575b528ff11b60d5ca40978bb96b798b4ee8a1bf86eb0040",
   "public_daily_2026_10_17_download_sha256": "7c777d8bf41779e3bd1c384f3cd197edd0316bdb406795e5f582dd2bdaabcb06",
-  "stable": false
+  "stable": false,
+  "current_daily": "2026-10-18",
+  "current_weekly": "2026-W41"
 }
