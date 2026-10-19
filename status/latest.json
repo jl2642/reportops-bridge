@@ -66,7 +66,7 @@
   ],
   "pending_product": "Daily 2026-10-19",
   "manual_intervention_required": false,
-  "authority_package_sha256": "c0bf993ef2e55776acbce428543c74755e1025597ebe1a2d6f3bea9679947895",
+  "authority_package_sha256": "f9d9d8c5980341b321cc973c697deee07008fe6b5aa741e81e6c7ea72616095f",
   "queue_initial": [
     "Daily 2026-10-18",
     "Daily 2026-10-19",
@@ -259,10 +259,11 @@
   "authority_sha_runtime_reconciliation": {
     "status": "PASS_POST_REBUILD_AUTHORITY_SHA_FOUR_WAY",
     "authority_sha_before": "766798b169d46edbf82c2f020ec5b9b2e6fff3b208cf4437fb509939d8a6fdd5",
-    "authority_sha_after": "c0bf993ef2e55776acbce428543c74755e1025597ebe1a2d6f3bea9679947895",
-    "library_sidecar_sha256": "c0bf993ef2e55776acbce428543c74755e1025597ebe1a2d6f3bea9679947895",
-    "runtime_authority_sha256": "c0bf993ef2e55776acbce428543c74755e1025597ebe1a2d6f3bea9679947895",
-    "manifest_authority_sha256": "c0bf993ef2e55776acbce428543c74755e1025597ebe1a2d6f3bea9679947895",
+    "intermediate_authority_sha": "c0bf993ef2e55776acbce428543c74755e1025597ebe1a2d6f3bea9679947895",
+    "authority_sha_after": "f9d9d8c5980341b321cc973c697deee07008fe6b5aa741e81e6c7ea72616095f",
+    "library_sidecar_sha256": "f9d9d8c5980341b321cc973c697deee07008fe6b5aa741e81e6c7ea72616095f",
+    "runtime_authority_sha256": "f9d9d8c5980341b321cc973c697deee07008fe6b5aa741e81e6c7ea72616095f",
+    "manifest_authority_sha256": "f9d9d8c5980341b321cc973c697deee07008fe6b5aa741e81e6c7ea72616095f",
     "reconciled_at": "2026-10-19T12:33:36+08:00"
   },
   "runtime_sync_status": "PASS_POST_REBUILD_AUTHORITY_SHA_RUNTIME_AND_MANIFEST_READBACK",
@@ -371,7 +372,7 @@
   },
   "current_daily_canonical": "2026-10-18",
   "current_quarterly_public": "2026-Q3",
-  "library_sidecar_sha256": "c0bf993ef2e55776acbce428543c74755e1025597ebe1a2d6f3bea9679947895",
+  "library_sidecar_sha256": "f9d9d8c5980341b321cc973c697deee07008fe6b5aa741e81e6c7ea72616095f",
   "stale_views": [],
   "candidate_2026_10_05": {
     "product_status": "PUBLIC_CORE_ACCEPTED_PENDING_WORK",
