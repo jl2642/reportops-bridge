@@ -2,8 +2,8 @@
   "schema_version": "REPORTOPS_R3_1_CHAT_STATUS_V1_5_SINGLE_SITE",
   "scheduled_date": "2026-10-19",
   "target_date": "2026-10-19",
-  "current_day_status": "UPSTREAM_PRODUCER_MISSING",
-  "scheduled_run_status": "NO_HEARTBEAT_OR_CANDIDATE_ASSETS",
+  "current_day_status": "PUBLIC_CORE_ACCEPTED_PENDING_WORK",
+  "scheduled_run_status": "ORIGINAL_10_15_NO_DURABLE_OUTPUT__BOUNDED_INTERACTIVE_RECOVERY_SUCCESS",
   "correction_backlog": {
     "status": "RESOLVED_BY_CHAT_CORRECTION",
     "chat_correction_required": false,
@@ -24,31 +24,32 @@
     "work_may_rewrite": false,
     "pending_consumer_revalidation": false
   },
-  "source_identity_gate_status": "PASS_9_OF_9__EXACT_DOCUMENT_RECEIPTS",
-  "inline_citation_gate_status": "PASS_9_OF_9__4_DISTINCT_SOURCE_URLS",
+  "source_identity_gate_status": "PASS_PRODUCER_12_OF_12",
+  "inline_citation_gate_status": "PASS_PRODUCER_12_OF_12__5_DISTINCT_URLS",
   "signal_priority_status": "PASS_IEA_LPG_OIL__QATAR_LNG__HORMUZ_FREIGHT__CHINA_AUCTION__MARINE_LNG",
-  "exact_v4_machine_structure_status": "PASS__8_MODULE_MARKERS_4_SIGNAL_CARDS",
-  "v4_public_depth_gate_status": "PASS_DYNAMIC_V4__3971_CJK__ALL_HARD_FLOORS_PASS__NONBLOCKING_TARGET_WARNING",
-  "cjk_characters_actual": 3971,
-  "executive_cjk_actual": 350,
-  "key_signal_cjk_actual": 1788,
+  "exact_v4_machine_structure_status": "PASS_PRODUCER__8_MODULES_5_CARDS",
+  "v4_public_depth_gate_status": "PASS_PRODUCER_DYNAMIC_V4__4444_CJK__NONBLOCKING_TARGET_WARNING",
+  "cjk_characters_actual": 4444,
+  "executive_cjk_actual": 381,
+  "key_signal_cjk_actual": 2053,
   "signal_card_cjk_actual": [
-    428,
-    436,
-    414,
-    407
+    409,
+    439,
+    391,
+    413,
+    401
   ],
-  "china_chain_cjk_actual": 217,
-  "global_energy_cjk_actual": 185,
-  "industry_operator_cjk_actual": 274,
+  "china_chain_cjk_actual": 300,
+  "global_energy_cjk_actual": 205,
+  "industry_operator_cjk_actual": 290,
   "depth_policy_public_contract_sha256": "64770bf24f1280d11060d6a905a659241d5e483109fc8c3e34195a8264fc48f6",
-  "evidence_status": "PASS_9_RECORDS_9_CLAIMS",
+  "evidence_status": "PASS_PRODUCER_12_ATOMIC_CLAIMS",
   "privacy_status": "PASS_PUBLIC_SAFE_SINGLE_SITE",
-  "window_status": "PASS_WITH_TIME_PROVENANCE_WARNINGS__UKMTO_PUBLICATION_TIME_UNSTATED__ENERCAST_GAS_DAY_ONLY",
-  "data_gap_boundary_status": "PASS__CHINA_PRICE_IMAGE_NOT_EXTRACTED",
+  "window_status": "PASS_WITH_DATE_ONLY_TIME_PRECISION_WARNINGS",
+  "data_gap_boundary_status": "PASS",
   "current_daily_public": "2026-10-18",
   "current_weekly_public": "2026-W41",
-  "formal_status": "PARTIAL_SUCCESS_UPSTREAM_PRODUCER_GAP",
+  "formal_status": "PENDING_WORK_FORMAL_VALIDATION_FOR_DAILY_2026_10_19",
   "canonical_promotion_performed": true,
   "site_publication_performed": true,
   "public_site_version": 102,
@@ -56,10 +57,10 @@
   "manifest_reconciliation_status": "PASS__2026_10_18_FORMAL_TOP_LEVEL_AND_CONSUMER_ACTUALS__2026_10_16_17_IDENTITY_REFRESH",
   "metadata_freshness": "PASS__13_CURRENT_DERIVED_VIEWS__POINTER_MATCH",
   "state_consistency_pointer_sha256": "0ae3deaec325ab58bf0c6679cd06374a752dcfb589eba8527c9adc920b0732c8",
-  "failure_stage": "UPSTREAM_PRODUCER_2026_10_19",
-  "failure_reason": "No run_heartbeat.json or complete Daily 2026-10-19 producer candidate exists.",
-  "next_action": "Existing 10:15 Chat continuity chain must produce Daily 2026-10-19 oldest-first; Work will consume without researching or rewriting. Unattended producer reliability remains unresolved.",
-  "updated_at": "2026-10-19T12:33:36+08:00",
+  "failure_stage": "NONE__INTERACTIVE_PRODUCER_RECOVERY_COMPLETED",
+  "failure_reason": "Original scheduled 10:15 attempt produced no durable heartbeat; unattended failure cause not observable from GitHub. Full formal Work acceptance pending.",
+  "next_action": "Daily 2026-10-19 is Chat-accepted on GitHub; next 12:30 Work must perform full formal official gates and only then Canonical/Site publication. Original 10:15 unattended reliability remains unproven.",
+  "updated_at": "2026-10-19T05:17:35.424Z",
   "queue_remaining": [
     "Daily 2026-10-19",
     "Weekly 2026-W42"
@@ -83,7 +84,9 @@
   "products_blocked_local": [
     "Daily 2026-10-19"
   ],
-  "eligible_unpublished_products": [],
+  "eligible_unpublished_products": [
+    "Daily 2026-10-19"
+  ],
   "preflight_blocker_matrix": [
     {
       "product": "Daily 2026-10-18",
@@ -165,7 +168,7 @@
     "Weekly 2026-W42"
   ],
   "public_daily_2026_09_26_download_sha256": "ea94ce1f2f69b3efa270295fb9f7b04c248280ea057a6a8721a7d3602522ba43",
-  "reportops_status": "PARTIAL_SUCCESS__DAILY_2026_10_18_PROMOTED__UPSTREAM_PRODUCER_MISSING_2026_10_19",
+  "reportops_status": "PARTIAL_SUCCESS__DAILY_2026_10_19_CHAT_CANDIDATE_PENDING_WORK__UNATTENDED_RELIABILITY_UNRESOLVED",
   "correction_provenance_2026_09_27": {
     "corrected_at": "2026-09-27T22:50:00+08:00",
     "correction_type": "INLINE_CITATION_PLACEMENT_ONLY",
@@ -614,18 +617,10 @@
   "public_weekly_2026_w41_download_sha256": "cc05e865be0ca86e17d9ca1c83a5f5a77d67b9f176a8058edf5482921f911fc0",
   "upstream_producer_status": "PUBLIC_CORE_ACCEPTED_PENDING_WORK",
   "producer_gap": {
-    "status": "UPSTREAM_PRODUCER_MISSING",
-    "dates": [
-      "2026-10-19"
-    ],
-    "missing_files": [
-      "run_heartbeat.json",
-      "public_core.md",
-      "evidence.json",
-      "evidence_ledger_v2_2026-10-19.csv",
-      "manifest.json"
-    ],
-    "producer_reliability_status": "UNRESOLVED__NO_HEARTBEAT__DO_NOT_INFER_RECOVERY"
+    "status": "CANDIDATE_RECOVERED_INTERACTIVELY__UNATTENDED_BUG_REMAINS",
+    "dates": [],
+    "missing_files": [],
+    "producer_reliability_status": "UNRESOLVED__ORIGINAL_SCHEDULED_10_15_FAILED"
   },
   "stable_operation_accepted": false,
   "public_remote_readback": "PASS_REAL_REMOTE_CONTENT_V101__10_REQUIRED_PAGES",
@@ -651,5 +646,26 @@
   "public_daily_2026_10_16_download_sha256": "a4f370e6392cbdcb575b528ff11b60d5ca40978bb96b798b4ee8a1bf86eb0040",
   "public_daily_2026_10_17_download_sha256": "7c777d8bf41779e3bd1c384f3cd197edd0316bdb406795e5f582dd2bdaabcb06",
   "current_package_site_publication_performed": true,
-  "stable": false
+  "stable": false,
+  "producer_recovery_2026_10_19": {
+    "original_10_15_snapshot": {
+      "current_day_status": "UPSTREAM_PRODUCER_MISSING",
+      "scheduled_run_status": "NO_HEARTBEAT_OR_CANDIDATE_ASSETS",
+      "failure_stage": "UPSTREAM_PRODUCER_2026_10_19",
+      "failure_reason": "No run_heartbeat.json or complete Daily 2026-10-19 producer candidate exists.",
+      "updated_at": "2026-10-19T12:33:36+08:00"
+    },
+    "mode": "BOUNDED_USER_AUTHORIZED_INTERACTIVE_RECOVERY_NOT_SCHEDULED_SUCCESS",
+    "bridge_complete": true,
+    "manifest_path": "daily/2026/10/2026-10-19/manifest.json",
+    "source_identity_status": "PASS_12_OF_12",
+    "inline_citation_status": "PASS_12_OF_12",
+    "depth_status": "PASS_DYNAMIC_V4_4444_CJK",
+    "strict_ledger_status": "PRODUCER_PREFLIGHT_PASS__WORK_VALIDATOR_PENDING",
+    "scheduled_producer_reliability": "UNRESOLVED",
+    "official_work_consumer": "NOT_RUN_FOR_DAILY_2026_10_19",
+    "canonical_mutation_performed": false,
+    "site_mutation_performed": false,
+    "completed_at": "2026-10-19T05:17:35.424Z"
+  }
 }
