@@ -3,11 +3,24 @@
   "target_date": "2026-10-19",
   "scheduled_for": "2026-10-19T10:15:00+08:00",
   "run_started_at": "2026-10-19T05:05:48.615Z",
-  "status": "INTERACTIVE_RECOVERY_STARTED_BEFORE_PREFLIGHT",
+  "status": "PRODUCER_SUCCESS_CANDIDATES_PENDING_WORK",
   "execution_mode": "BOUNDED_USER_AUTHORIZED_INTERACTIVE_RECOVERY_NOT_SCHEDULED_RUN",
   "original_scheduled_run_status": "NO_DURABLE_HEARTBEAT_FOUND_AT_CHECK",
   "fixed_window_start": "2026-10-18T10:00:00+08:00",
   "fixed_window_end": "2026-10-19T10:00:00+08:00",
   "canonical_mutation_performed": false,
-  "site_mutation_performed": false
+  "site_mutation_performed": false,
+  "products_repaired_or_produced": [
+    "Daily 2026-10-19__USER_AUTHORIZED_INTERACTIVE_RECOVERY"
+  ],
+  "producer_recovery_queue_remaining": [],
+  "queue_for_12_30_work": [
+    "Daily 2026-10-19"
+  ],
+  "post_run_self_audit_status": "PASS__EXACT_SOURCE_IDENTITY_12_OF_12__INLINE_LINKS_12_OF_12__DYNAMIC_V4__READBACK",
+  "failure_stage": null,
+  "failure_reason": null,
+  "run_finished_at": "2026-10-19T05:16:23.221Z",
+  "scheduled_unattended_reliability": "UNRESOLVED__ORIGINAL_10_15_NO_DURABLE_OUTPUT",
+  "formal_work_status": "NOT_RUN"
 }
