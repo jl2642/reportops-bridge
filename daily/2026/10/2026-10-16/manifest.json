@@ -108,6 +108,11 @@
         "authority_package_sha256": "766798b169d46edbf82c2f020ec5b9b2e6fff3b208cf4437fb509939d8a6fdd5",
         "reconciled_at": "2026-10-18T12:45:00+08:00",
         "reason": "previous_post_rebuild_authority_identity"
+      },
+      {
+        "authority_package_sha256": "c0bf993ef2e55776acbce428543c74755e1025597ebe1a2d6f3bea9679947895",
+        "reconciled_at": "2026-10-19T12:33:36+08:00",
+        "reason": "intermediate_pre_remote_receipt_package_identity"
       }
     ]
   },
@@ -139,8 +144,8 @@
     "quality_grade": "B_PLUS_FORMAL_BASELINE"
   },
   "consumer_authority_identity": {
-    "authority_package_sha256": "c0bf993ef2e55776acbce428543c74755e1025597ebe1a2d6f3bea9679947895",
-    "library_sidecar_sha256": "c0bf993ef2e55776acbce428543c74755e1025597ebe1a2d6f3bea9679947895",
+    "authority_package_sha256": "f9d9d8c5980341b321cc973c697deee07008fe6b5aa741e81e6c7ea72616095f",
+    "library_sidecar_sha256": "f9d9d8c5980341b321cc973c697deee07008fe6b5aa741e81e6c7ea72616095f",
     "post_rebuild": true,
     "readback_status": "PASS",
     "reconciled_at": "2026-10-19T12:33:36+08:00",
