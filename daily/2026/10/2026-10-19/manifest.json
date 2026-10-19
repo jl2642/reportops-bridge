@@ -47,9 +47,9 @@
   "site_publication_performed": false,
   "work_may_rewrite": false,
   "formal_work_validator": "NOT_RUN_WORK_ONLY",
-  "post_run_self_audit_status": "PENDING_FINAL_MANIFEST_AND_HEARTBEAT_READBACK",
-  "github_write_status": "PASS_CORE_EVIDENCE_LEDGER__MANIFEST_PENDING",
-  "github_readback_status": "PASS_CORE_EVIDENCE_LEDGER__MANIFEST_PENDING",
+  "post_run_self_audit_status": "PASS__FIVE_DURABLE_ASSETS_READBACK__12_LINKS__SOURCE_RECEIPTS__V4_DEPTH__ATOMIC_LEDGER",
+  "github_write_status": "PASS__FIVE_RECOVERY_ASSETS",
+  "github_readback_status": "PASS__FIVE_RECOVERY_ASSETS",
   "source_file_blob_sha": {
     "public_core_md": "2f995b61c19b096e87033ff29632b907f7e05307",
     "evidence_json": "ed6ffd0c5402042f6a23219680644d2f49747971",
@@ -83,5 +83,6 @@
     "UKRAINE_76_ATTACKS_ATTRIBUTED_TO_PARTY_NOT_INDEPENDENTLY_VERIFIED"
   ],
   "next_work_action": "WORK_CONSUMER_FULL_FORMAL_GATES_OLD_FIRST__DAILY_2026_10_19",
-  "producer_acceptance_completed_at": "2026-10-19T05:15:07.234Z"
+  "producer_acceptance_completed_at": "2026-10-19T05:16:08.314Z",
+  "producer_readback_completed_at": "2026-10-19T05:16:08.314Z"
 }
