@@ -214,5 +214,6 @@
   "current_weekly": "2026-W42",
   "public_daily_2026_10_20_download_sha256": "eff0aea490394b68ccc6b197b849765dea9b89705a11b10f628999002742381d",
   "public_weekly_2026_w42_download_sha256": "caf7348837bc8f59c98ca2c22ae629cbacbfa95572940441fc6d3eb555682548",
-  "github_role": "PUBLIC_SAFE_BRIDGE"
+  "github_role": "PUBLIC_SAFE_BRIDGE",
+  "github_readback_status": "PASS_FINAL_POST_REBUILD_AUTHORITY_SHA_READBACK"
 }
