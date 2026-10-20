@@ -23,13 +23,13 @@
       "url_identity_status": "PASS",
       "url_verified_date": "2026-10-20",
       "source_identity_receipt": {
-        "verification_method": "OPENED_EXACT_DOCUMENT",
+        "verification_method": "SEARCH_RESULT_OBSERVED",
         "observed_url": "https://www.reuters.com/world/middle-east/gulf-bourses-subdued-regional-worries-weigh-2026-10-19/",
         "canonical_url": "https://www.reuters.com/world/middle-east/gulf-bourses-subdued-regional-worries-weigh-2026-10-19/",
         "observed_title": "Gulf bourses subdued as regional worries weigh",
         "observed_publisher": "Reuters",
         "title_match_status": "EXACT",
-        "verified_at": "2026-10-20T12:17:00+08:00"
+        "verified_at": "2026-10-20T12:27:29+08:00"
       },
       "publication_time_precision": "PUBLISHER_STATED_UTC",
       "price": {
@@ -58,13 +58,13 @@
       "url_identity_status": "PASS",
       "url_verified_date": "2026-10-20",
       "source_identity_receipt": {
-        "verification_method": "OPENED_EXACT_DOCUMENT",
+        "verification_method": "SEARCH_RESULT_OBSERVED",
         "observed_url": "https://www.reuters.com/world/middle-east/gulf-bourses-subdued-regional-worries-weigh-2026-10-19/",
         "canonical_url": "https://www.reuters.com/world/middle-east/gulf-bourses-subdued-regional-worries-weigh-2026-10-19/",
         "observed_title": "Gulf bourses subdued as regional worries weigh",
         "observed_publisher": "Reuters",
         "title_match_status": "EXACT",
-        "verified_at": "2026-10-20T12:17:00+08:00"
+        "verified_at": "2026-10-20T12:27:29+08:00"
       },
       "publication_time_precision": "PUBLISHER_STATED_UTC"
     },
@@ -85,13 +85,13 @@
       "url_identity_status": "PASS",
       "url_verified_date": "2026-10-20",
       "source_identity_receipt": {
-        "verification_method": "OPENED_EXACT_DOCUMENT",
+        "verification_method": "SEARCH_RESULT_OBSERVED",
         "observed_url": "https://www.reuters.com/business/energy/qatari-electricity-lifeline-lebanon-includes-two-power-plants-lng-supply-deal-2026-10-19/",
         "canonical_url": "https://www.reuters.com/business/energy/qatari-electricity-lifeline-lebanon-includes-two-power-plants-lng-supply-deal-2026-10-19/",
         "observed_title": "Qatari electricity lifeline for Lebanon includes two power plants, LNG supply deal",
         "observed_publisher": "Reuters",
         "title_match_status": "EXACT",
-        "verified_at": "2026-10-20T12:17:00+08:00"
+        "verified_at": "2026-10-20T12:27:29+08:00"
       },
       "publication_time_precision": "PUBLISHER_STATED_UTC"
     },
@@ -112,13 +112,13 @@
       "url_identity_status": "PASS",
       "url_verified_date": "2026-10-20",
       "source_identity_receipt": {
-        "verification_method": "OPENED_EXACT_DOCUMENT",
+        "verification_method": "SEARCH_RESULT_OBSERVED",
         "observed_url": "https://www.reuters.com/business/energy/qatari-electricity-lifeline-lebanon-includes-two-power-plants-lng-supply-deal-2026-10-19/",
         "canonical_url": "https://www.reuters.com/business/energy/qatari-electricity-lifeline-lebanon-includes-two-power-plants-lng-supply-deal-2026-10-19/",
         "observed_title": "Qatari electricity lifeline for Lebanon includes two power plants, LNG supply deal",
         "observed_publisher": "Reuters",
         "title_match_status": "EXACT",
-        "verified_at": "2026-10-20T12:17:00+08:00"
+        "verified_at": "2026-10-20T12:27:29+08:00"
       },
       "publication_time_precision": "PUBLISHER_STATED_UTC"
     },
@@ -139,13 +139,13 @@
       "url_identity_status": "PASS",
       "url_verified_date": "2026-10-20",
       "source_identity_receipt": {
-        "verification_method": "OPENED_EXACT_DOCUMENT",
+        "verification_method": "SEARCH_RESULT_OBSERVED",
         "observed_url": "https://www.reuters.com/business/energy/qatari-electricity-lifeline-lebanon-includes-two-power-plants-lng-supply-deal-2026-10-19/",
         "canonical_url": "https://www.reuters.com/business/energy/qatari-electricity-lifeline-lebanon-includes-two-power-plants-lng-supply-deal-2026-10-19/",
         "observed_title": "Qatari electricity lifeline for Lebanon includes two power plants, LNG supply deal",
         "observed_publisher": "Reuters",
         "title_match_status": "EXACT",
-        "verified_at": "2026-10-20T12:17:00+08:00"
+        "verified_at": "2026-10-20T12:27:29+08:00"
       },
       "publication_time_precision": "PUBLISHER_STATED_UTC"
     },
@@ -166,13 +166,13 @@
       "url_identity_status": "PASS",
       "url_verified_date": "2026-10-20",
       "source_identity_receipt": {
-        "verification_method": "OPENED_EXACT_DOCUMENT",
+        "verification_method": "SEARCH_RESULT_OBSERVED",
         "observed_url": "https://www.reuters.com/business/energy/oil-stocks-us-strategic-petroleum-reserve-fall-lowest-level-since-1982-2026-10-19/",
         "canonical_url": "https://www.reuters.com/business/energy/oil-stocks-us-strategic-petroleum-reserve-fall-lowest-level-since-1982-2026-10-19/",
         "observed_title": "Oil stocks in US strategic petroleum reserve fall to lowest level since 1982",
         "observed_publisher": "Reuters",
         "title_match_status": "EXACT",
-        "verified_at": "2026-10-20T12:17:00+08:00"
+        "verified_at": "2026-10-20T12:27:29+08:00"
       },
       "publication_time_precision": "PUBLISHER_STATED_UTC"
     },
@@ -193,13 +193,13 @@
       "url_identity_status": "PASS",
       "url_verified_date": "2026-10-20",
       "source_identity_receipt": {
-        "verification_method": "OPENED_EXACT_DOCUMENT",
+        "verification_method": "SEARCH_RESULT_OBSERVED",
         "observed_url": "https://www.reuters.com/business/energy/oil-stocks-us-strategic-petroleum-reserve-fall-lowest-level-since-1982-2026-10-19/",
         "canonical_url": "https://www.reuters.com/business/energy/oil-stocks-us-strategic-petroleum-reserve-fall-lowest-level-since-1982-2026-10-19/",
         "observed_title": "Oil stocks in US strategic petroleum reserve fall to lowest level since 1982",
         "observed_publisher": "Reuters",
         "title_match_status": "EXACT",
-        "verified_at": "2026-10-20T12:17:00+08:00"
+        "verified_at": "2026-10-20T12:27:29+08:00"
       },
       "publication_time_precision": "PUBLISHER_STATED_UTC"
     },
@@ -226,7 +226,7 @@
         "observed_title": "2026年9月份能源生产情况",
         "observed_publisher": "国家统计局",
         "title_match_status": "EXACT",
-        "verified_at": "2026-10-20T12:17:00+08:00"
+        "verified_at": "2026-10-20T12:27:29+08:00"
       },
       "publication_time_precision": "OFFICIAL_POSTED_LOCAL_TIME"
     },
@@ -253,7 +253,7 @@
         "observed_title": "2026年9月份能源生产情况",
         "observed_publisher": "国家统计局",
         "title_match_status": "EXACT",
-        "verified_at": "2026-10-20T12:17:00+08:00"
+        "verified_at": "2026-10-20T12:27:29+08:00"
       },
       "publication_time_precision": "OFFICIAL_POSTED_LOCAL_TIME"
     },
@@ -280,7 +280,7 @@
         "observed_title": "2026年9月份能源生产情况",
         "observed_publisher": "国家统计局",
         "title_match_status": "EXACT",
-        "verified_at": "2026-10-20T12:17:00+08:00"
+        "verified_at": "2026-10-20T12:27:29+08:00"
       },
       "publication_time_precision": "OFFICIAL_POSTED_LOCAL_TIME"
     },
@@ -307,7 +307,7 @@
         "observed_title": "2026年三季度全国规模以上工业产能利用率为73.1%",
         "observed_publisher": "国家统计局",
         "title_match_status": "EXACT",
-        "verified_at": "2026-10-20T12:17:00+08:00"
+        "verified_at": "2026-10-20T12:27:29+08:00"
       },
       "publication_time_precision": "OFFICIAL_POSTED_LOCAL_TIME"
     },
@@ -334,7 +334,7 @@
         "observed_title": "2026年三季度全国规模以上工业产能利用率为73.1%",
         "observed_publisher": "国家统计局",
         "title_match_status": "EXACT",
-        "verified_at": "2026-10-20T12:17:00+08:00"
+        "verified_at": "2026-10-20T12:27:29+08:00"
       },
       "publication_time_precision": "OFFICIAL_POSTED_LOCAL_TIME"
     }
