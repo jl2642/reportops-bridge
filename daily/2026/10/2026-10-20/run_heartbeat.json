@@ -3,11 +3,28 @@
   "target_date": "2026-10-20",
   "scheduled_for": "2026-10-20T10:15:00+08:00",
   "run_started_at": "2026-10-20T12:13:08+08:00",
-  "status": "RUN_STARTED_BEFORE_PREFLIGHT",
+  "status": "PRODUCER_SUCCESS_CANDIDATES_PENDING_WORK",
   "execution_mode": "BOUNDED_INTERACTIVE_RECOVERY_NOT_SCHEDULED_RUN",
   "original_scheduled_run_status": "NO_DURABLE_OUTPUT_FOUND_AT_12_12_ASIA_SHANGHAI",
   "fixed_window_start": "2026-10-19T10:00:00+08:00",
   "fixed_window_end": "2026-10-20T10:00:00+08:00",
   "canonical_mutation_performed": false,
-  "site_mutation_performed": false
+  "site_mutation_performed": false,
+  "products_repaired_or_produced": [
+    "Daily 2026-10-20__USER_AUTHORIZED_INTERACTIVE_RECOVERY"
+  ],
+  "producer_recovery_queue_remaining": [],
+  "queue_for_12_30_work": [
+    "Daily 2026-10-19",
+    "Daily 2026-10-20",
+    "Weekly 2026-W42"
+  ],
+  "post_run_self_audit_status": "PASS__SOURCE_IDENTITY_12_OF_12__INLINE_CITATION_48_OF_48__DYNAMIC_V4__STRICT_V2_LEDGER_12_OF_12__GITHUB_FIVE_FILES_READBACK",
+  "github_write_status": "PASS",
+  "github_readback_status": "PASS",
+  "failure_stage": null,
+  "failure_reason": null,
+  "run_finished_at": "2026-10-20T12:20:39+08:00",
+  "scheduled_unattended_reliability": "UNRESOLVED__ORIGINAL_10_15_NO_DURABLE_OUTPUT",
+  "formal_work_status": "NOT_RUN"
 }
