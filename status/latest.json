@@ -24,7 +24,7 @@
     "work_may_rewrite": false,
     "pending_consumer_revalidation": false
   },
-  "source_identity_gate_status": "PASS_PRODUCER_12_OF_12",
+  "source_identity_gate_status": "PASS_PRODUCER_12_OF_12__ACQUISITION_METHODS_RECONCILED",
   "inline_citation_gate_status": "PASS_PRODUCER_48_OF_48__5_DISTINCT_URLS",
   "signal_priority_status": "PASS_IEA_LPG_OIL__QATAR_LNG__HORMUZ_FREIGHT__CHINA_AUCTION__MARINE_LNG",
   "exact_v4_machine_structure_status": "PASS_PRODUCER__8_MODULES_5_CARDS",
@@ -60,7 +60,7 @@
   "failure_stage": "NONE__INTERACTIVE_RECOVERY_COMPLETED",
   "failure_reason": "Original 10:15 scheduled run has no durable files; interactive recovery completed and read back. Unattended failure mechanism unobserved; Work formal consumer gate NOT RUN.",
   "next_action": "Existing 12:30 Work oldest-first: Daily 2026-10-19, Daily 2026-10-20, Weekly 2026-W42; full formal gates, promote only independently eligible products.",
-  "updated_at": "2026-10-20T12:20:39+08:00",
+  "updated_at": "2026-10-20T12:27:29+08:00",
   "queue_remaining": [
     "Daily 2026-10-19",
     "Daily 2026-10-20",
@@ -222,7 +222,7 @@
     "Daily 2026-10-08 bounded interactive candidate recovery"
   ],
   "github_write_status": "PASS__INTERACTIVE_RECOVERY_PRODUCT_ASSETS",
-  "github_readback_status": "PASS__FIVE_RECOVERY_ASSETS",
+  "github_readback_status": "PASS__FIVE_RECOVERY_ASSETS__RECEIPTS_RECONCILED",
   "concurrency_reconciliation": {
     "detected": true,
     "issue": "LATE_HEARTBEAT_STALE_STATUS_OVERWRITE_FROM_IN_FLIGHT_10_15_RUN",
@@ -676,7 +676,7 @@
     "producer_status": "PUBLIC_CORE_ACCEPTED_PENDING_WORK",
     "heartbeat_sha": "9de6061f86a1d088d61a0ad9f7a308e2039e4d47",
     "public_core_blob_sha": "a204043092203a0024779865e122c4c70cfe71f7",
-    "evidence_json_blob_sha": "9864f7f209bdabd0aaa0829cced47a13a51fba96",
+    "evidence_json_blob_sha": "f87da40ed29827d0d3cbcaaa09f85c81e0655d37",
     "ledger_blob_sha": "536855401361805cda888ee59d84f08e645d78ad",
     "manifest_blob_sha": "1be94ea09b05b699c536b225eb60cf961691a312",
     "files": 5,
