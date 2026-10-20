@@ -59,7 +59,7 @@
   "state_consistency_pointer_sha256": "514e3d7d25a084c1b44b1ab27bf1cdab0bc3ebfab449176bafb241d43cfd0a22",
   "failure_stage": "NONE",
   "failure_reason": "NONE",
-  "next_action": "仅扫描新增 Chat-accepted 产品；已闭环版本幂等跳过；10:15 无人值守生产可靠性仍作为独立故障跟踪。",
+  "next_action": "SITE_ONLY_CORRECTIVE_REPUBLISH_REQUIRED__CANONICAL_ALREADY_PROMOTED__USER_OBSERVED_STALE_HOME_2026_10_18_AND_W41",
   "updated_at": "2026-10-20T12:55:00+08:00",
   "queue_remaining": [],
   "pending_product": null,
@@ -564,27 +564,30 @@
   "public_daily_2026_10_10_download_sha256": "ce79ca50d57079d0f6f64f394db34db9f5c1733505e2734703bac7334fcb3640",
   "live_site_publication_discrepancy": {
     "classification": "PACKAGE_SUCCESS_SITE_PENDING",
-    "evidence": "User supplied live public homepage screenshot showing daily card 2026-10-08, while Authority Current and site source index.html have 2026-10-10",
-    "observed_live_home_daily": "2026-10-08",
-    "expected_canonical_daily": "2026-10-10",
-    "correct_public_site_source": "outputs/energy/public_distribution/site/",
-    "expected_public_home_index_sha256": "6ac3f8c78f1afc5410fe34c7ce2c6a8db8b028fdb078c1c5aae4ede67b6f8c53",
-    "previous_public_home_index_sha256": "7cace166dce36ca19e9cb21dd05cf436821f601779335f84f5aeb877210d13b2",
-    "publication_evidence_conflict": true,
-    "action": "Existing single Public Site only: republish exact current Authority public_distribution/site build; remote browser open '/', '/daily/', '/daily/2026-10-09/', '/daily/2026-10-10/', '/downloads/' and verify content, not HTTP 200; cache-bust; then report real origin/readback and current pointer parity. Do not rebuild/rewrite any Daily, mutate Canonical, or create Site/Phase/Validator.",
-    "previous_work_claim_preserved": {
-      "reported_at": "2026-10-10T13:02:00+08:00",
-      "public_site_version": 88,
-      "public_site_status": "PASS_V88_REMOTE_READBACK",
-      "real_remote_readback_status": "PASS_REAL_REMOTE_CONTENT_V88__16_REQUIRED_PAGES",
-      "site_publication_performed": true,
-      "reportops_status": "SUCCESS__FINAL_CLOSURE_PASS__DEVELOPMENT_FROZEN_LONG_TERM_OPERATION",
-      "stable_operation_accepted": null
+    "reported_at": "2026-10-20T13:24:00+08:00",
+    "evidence_type": "USER_FIRSTHAND_BROWSER_OBSERVATION__CONFLICTS_WITH_WORK_CLAIMED_REMOTE_PASS",
+    "observed_live_home_daily": "2026-10-18",
+    "observed_live_home_weekly": "2026-W41",
+    "expected_canonical_daily": "2026-10-20",
+    "expected_canonical_weekly": "2026-W42",
+    "canonical_authority_sha256": "c04cab9611abb3581a220fd85cb730ec0bebe5ad59006633c60926f1e75d117f",
+    "expected_public_home_index_sha256": "0698d22c764ab4cf34273f4bc5848b35275c13a6cdeb23781103ca2a19064bf3",
+    "verified_authority_public_site_paths": [
+      "outputs/energy/public_distribution/site/index.html",
+      "outputs/energy/public_distribution/site/daily/2026-10-19/index.html",
+      "outputs/energy/public_distribution/site/daily/2026-10-20/index.html",
+      "outputs/energy/public_distribution/site/weekly/2026-W42/index.html"
+    ],
+    "previous_work_claim": {
+      "public_site_version": 103,
+      "real_remote_readback_status": "PASS_REAL_REMOTE_CONTENT_V103__11_REQUIRED_PAGES",
+      "claimed_at": "2026-10-20T12:55:00+08:00"
     },
-    "independent_external_origin_readback": "NOT_AVAILABLE_IN_THIS_CHAT",
-    "resolved": true,
-    "resolved_at": "2026-10-11T12:45:00+08:00",
-    "resolution": "PASS_V90_REAL_ORIGIN_READBACK__HOME_CURRENT_DAILY_2026_10_10"
+    "independent_live_origin_readback": "UNAVAILABLE_FROM_CHAT__PLATFORM_WEB_FETCH_CANNOT_ACCESS_HOST",
+    "origin_current_version": "UNVERIFIED__DO_NOT_INFER_ACTUAL_DEPLOYED_COMMIT_FROM_WORK_RECEIPT",
+    "publication_evidence_conflict": true,
+    "resolved": false,
+    "action": "Existing Public Site ONLY: re-open original site deployment target and actual source repository/branch/HEAD, never use jl2642/reportops-bridge as hosting source. Compare real live-origin index SHA/current daily+weekly against the exact Authority outputs/energy/public_distribution/site/ build. Perform bounded site-only corrective deploy of current Authority site/ and downloads/ assets with existing deployment workflow; do NOT rewrite or re-promote Daily/Weekly, change Authority/Current, create a new Site, or claim success on local staging. Independently cache-bust and inspect remote homepage + daily/weekly archives + 2026-10-19, 2026-10-20, W42 full pages + remote download SHA. If source/permissions inaccessible, retain PACKAGE_SUCCESS_SITE_PENDING and provide exact blocker."
   },
   "preflight_status": "PASS__READ_ONLY_NON_SHORT_CIRCUIT_FULL_QUEUE",
   "policy_identity_status": "PASS__AUTHORITY_GITHUB_MIRROR_MATCH",
@@ -693,5 +696,8 @@
   "current_daily": "2026-10-20",
   "current_weekly": "2026-W42",
   "public_daily_2026_10_20_download_sha256": "eff0aea490394b68ccc6b197b849765dea9b89705a11b10f628999002742381d",
-  "public_weekly_2026_w42_download_sha256": "caf7348837bc8f59c98ca2c22ae629cbacbfa95572940441fc6d3eb555682548"
+  "public_weekly_2026_w42_download_sha256": "caf7348837bc8f59c98ca2c22ae629cbacbfa95572940441fc6d3eb555682548",
+  "site_only_corrective_republish_required": true,
+  "live_site_user_observation_as_of": "2026-10-20T13:24:00+08:00",
+  "work_v103_success_receipt_disputed_by_user": true
 }
