@@ -49,7 +49,7 @@
   "formal_work_validator": "PASS",
   "post_run_self_audit_status": "PASS__FIVE_DURABLE_ASSETS_READBACK__12_LINKS__SOURCE_RECEIPTS__V4_DEPTH__ATOMIC_LEDGER",
   "github_write_status": "PASS",
-  "github_readback_status": "PENDING_FINAL_READBACK",
+  "github_readback_status": "PASS_FINAL_POST_REBUILD_AUTHORITY_SHA_READBACK",
   "source_file_blob_sha": {
     "public_core_md": "2f995b61c19b096e87033ff29632b907f7e05307",
     "evidence_json": "ed6ffd0c5402042f6a23219680644d2f49747971",
@@ -133,5 +133,7 @@
       "post_rebuild_authority_sha256": "c04cab9611abb3581a220fd85cb730ec0bebe5ad59006633c60926f1e75d117f",
       "no_prose_or_evidence_rewrite": true
     }
-  }
+  },
+  "runtime_sync_status": "PASS_POST_REBUILD_AUTHORITY_SHA_FOUR_WAY_READBACK",
+  "manifest_authority_sha_readback": "c04cab9611abb3581a220fd85cb730ec0bebe5ad59006633c60926f1e75d117f"
 }
