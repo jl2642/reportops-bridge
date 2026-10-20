@@ -52,15 +52,15 @@
   "formal_status": "FORMAL_CANONICAL_PUBLISHED",
   "canonical_promotion_performed": true,
   "site_publication_performed": true,
-  "public_site_version": 103,
-  "public_site_status": "PASS_V103_REMOTE_READBACK",
+  "public_site_version": 104,
+  "public_site_status": "PASS_V104_REAL_ORIGIN_READBACK",
   "manifest_reconciliation_status": "PASS__DAILY_2026_10_19_AND_2026_10_20_TOP_LEVEL_FORMAL_CANONICAL_PUBLISHED__CONSUMER_ACTUALS_AND_POST_REBUILD_AUTHORITY_SHA_READBACK",
   "metadata_freshness": "PASS__13_CURRENT_DERIVED_VIEWS__POINTER_MATCH",
   "state_consistency_pointer_sha256": "514e3d7d25a084c1b44b1ab27bf1cdab0bc3ebfab449176bafb241d43cfd0a22",
   "failure_stage": "NONE",
   "failure_reason": "NONE",
-  "next_action": "SITE_ONLY_CORRECTIVE_REPUBLISH_REQUIRED__CANONICAL_ALREADY_PROMOTED__USER_OBSERVED_STALE_HOME_2026_10_18_AND_W41",
-  "updated_at": "2026-10-20T12:55:00+08:00",
+  "next_action": "Site-only corrective republish v104 verified and closed; continue existing ReportOps operation. Unattended 10:15 reliability remains separately unresolved.",
+  "updated_at": "2026-10-20T09:37:16.611Z",
   "queue_remaining": [],
   "pending_product": null,
   "manual_intervention_required": false,
@@ -146,8 +146,8 @@
     "producer_automation_restored": true,
     "prior_2026_09_26_correction_preserved": true
   },
-  "real_remote_readback_status": "PASS_REAL_REMOTE_CONTENT_V103__11_REQUIRED_PAGES",
-  "download_sha_status": "PASS_REMOTE_ZIP_SHA256_AND_UNZIP__Daily_2026-10-20=eff0aea490394b68ccc6b197b849765dea9b89705a11b10f628999002742381d__Weekly_2026-W42=caf7348837bc8f59c98ca2c22ae629cbacbfa95572940441fc6d3eb555682548",
+  "real_remote_readback_status": "PASS_REAL_ORIGIN_READBACK_V104__7_HTML_PAGES_PLUS_2_DOWNLOADS_SHA256",
+  "download_sha_status": "PASS_REAL_ORIGIN_ZIP_SHA256__Daily_2026-10-20=eff0aea490394b68ccc6b197b849765dea9b89705a11b10f628999002742381d__Weekly_2026-W42=caf7348837bc8f59c98ca2c22ae629cbacbfa95572940441fc6d3eb555682548",
   "public_daily_2026_09_25_download_sha256": "b4a80928e9755db168822874115c2d40069f3d9ad919416291e739dee8db7e72",
   "public_weekly_2026_w38_download_sha256": "551496a55a54f77721bbb1a7d2f0dc584956e0a18c188c44c9b90ec1a0a6305a",
   "higher_cycle_dependency_state": "W42 7/7 → FORMAL_CANONICAL_PUBLISHED；W43 0/7 → 2/7",
@@ -613,7 +613,7 @@
     "root_cause": "UNKNOWN__SCHEDULED_RUN_HISTORY_UNAVAILABLE"
   },
   "current_annual_public": "NO_FORMAL_ANNUAL_REPORT",
-  "last_updated": "2026-10-20T12:55:00+08:00",
+  "last_updated": "2026-10-20T09:37:16.611Z",
   "final_closure_status": "PASS",
   "status": "SUCCESS",
   "public_site_publication_receipt_status": "PASS",
@@ -624,8 +624,9 @@
   "stable_operation_accepted": false,
   "public_remote_readback": {
     "status": "PASS",
-    "site_version": 103,
-    "pages_checked": 11,
+    "site_version": 104,
+    "pages_checked": 7,
+    "downloads_checked": 2,
     "cache_busted": true
   },
   "download_integrity": {
@@ -697,7 +698,60 @@
   "current_weekly": "2026-W42",
   "public_daily_2026_10_20_download_sha256": "eff0aea490394b68ccc6b197b849765dea9b89705a11b10f628999002742381d",
   "public_weekly_2026_w42_download_sha256": "caf7348837bc8f59c98ca2c22ae629cbacbfa95572940441fc6d3eb555682548",
-  "site_only_corrective_republish_required": true,
+  "site_only_corrective_republish_required": false,
   "live_site_user_observation_as_of": "2026-10-20T13:24:00+08:00",
-  "work_v103_success_receipt_disputed_by_user": true
+  "work_v103_success_receipt_disputed_by_user": true,
+  "site_only_corrective_republish_receipt": {
+    "status": "PASS_REAL_ORIGIN_READBACK_V104",
+    "site_project_id": "appgprj_6a5893ab380c8191b03a261860f67102",
+    "site_version": 104,
+    "source_commit_sha": "affb77d9b7f0267cc44364fba65e43de6acf99a0",
+    "deployment_id": "appgdep_6ad7358ccf708191b8f11aeddba9d28c",
+    "authority_package_sha256": "c04cab9611abb3581a220fd85cb730ec0bebe5ad59006633c60926f1e75d117f",
+    "observed_live_home_daily": "2026-10-20",
+    "observed_live_home_weekly": "2026-W42",
+    "readback_at": "2026-10-20T09:37:16.611Z",
+    "pages": [
+      {
+        "page": "homepage",
+        "sha256": "0698d22c764ab4cf34273f4bc5848b35275c13a6cdeb23781103ca2a19064bf3"
+      },
+      {
+        "page": "daily_archive",
+        "sha256": "ba0071074612eb7e55a362fc95b5fdbc777ef4afab2d8ba9d40ff563453b3c6d"
+      },
+      {
+        "page": "weekly_archive",
+        "sha256": "8e95d2680773721e4fe4e3610f5a9419de64c11781a8cee4205e8e8c270efe37"
+      },
+      {
+        "page": "daily_2026-10-19",
+        "sha256": "c92c46287c853caf29a9b31ee311c9527be848b45f4ee1cf4de29b976e501a84"
+      },
+      {
+        "page": "daily_2026-10-20",
+        "sha256": "5b7670db235d1a638368af40f881c6b0f17c4f79f9d7a5ed57d52caaabf4d61a"
+      },
+      {
+        "page": "weekly_2026-W42",
+        "sha256": "1f398dc34423277e211a456389cd2c51aea2e7cba7afe7a69bdd0051846a3fb2"
+      },
+      {
+        "page": "downloads_center",
+        "sha256": "4fff747a3f046f755600d60470ae996532a2d2967ef6dea3510968194e38bbc0"
+      }
+    ],
+    "downloads": [
+      {
+        "product": "Daily 2026-10-20",
+        "sha256": "eff0aea490394b68ccc6b197b849765dea9b89705a11b10f628999002742381d",
+        "bytes": 11931
+      },
+      {
+        "product": "Weekly 2026-W42",
+        "sha256": "caf7348837bc8f59c98ca2c22ae629cbacbfa95572940441fc6d3eb555682548",
+        "bytes": 16703
+      }
+    ]
+  }
 }
