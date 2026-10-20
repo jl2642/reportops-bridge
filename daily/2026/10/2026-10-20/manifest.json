@@ -42,9 +42,9 @@
   "site_mutation_performed": false,
   "work_may_rewrite": false,
   "formal_work_validator": "NOT_RUN_WORK_ONLY",
-  "post_run_self_audit_status": "PENDING_ACTUAL_GITHUB_READBACK",
-  "github_write_status": "PENDING",
-  "github_readback_status": "PENDING",
+  "post_run_self_audit_status": "PASS__FIVE_DURABLE_ASSETS_READBACK__SOURCE_IDENTITY_12_OF_12__INLINE_LINKS_48_OF_48__DYNAMIC_V4__STRICT_V2_LEDGER",
+  "github_write_status": "PASS__FIVE_RECOVERY_ASSETS",
+  "github_readback_status": "PASS__FIVE_DURABLE_ASSETS__CONTENT_BYTE_EQUIVALENT",
   "predecessor_daily": "2026-10-19",
   "dependency_status": "PENDING_WORK_PROMOTION_OF_2026_10_19",
   "warnings": [
@@ -55,5 +55,7 @@
     "NO_SAME_DAY_COMPARABLE_JKM_TTF_CP_FREIGHT_INSURANCE",
     "QATAR_LEBANON_PROPOSAL_NOT_SIGNED"
   ],
-  "next_work_action": "WORK_FORMAL_GATES_OLD_FIRST__2026_10_19_THEN_2026_10_20"
+  "next_work_action": "WORK_FORMAL_GATES_OLD_FIRST__2026_10_19_THEN_2026_10_20",
+  "producer_acceptance_completed_at": "2026-10-20T12:20:39+08:00",
+  "producer_readback_completed_at": "2026-10-20T12:20:39+08:00"
 }
