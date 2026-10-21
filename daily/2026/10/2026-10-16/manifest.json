@@ -14,7 +14,7 @@
   "signal_priority_status": "PASS_IEA_DIESEL_RELEASE__GULF_INFRASTRUCTURE__TOTALENERGIES__GERMAN_STORAGE__CHINA_LNG",
   "exact_v4_machine_structure_status": "PASS__8_MODULE_MARKERS_5_SIGNAL_CARDS",
   "v4_public_depth_gate_status": "PASS_DYNAMIC_V4__OFFICIAL_SIGNAL_HEADING_RE_METRIC_PARITY__ALL_HARD_FLOORS__SOFT_TARGET_WARNING",
-  "cjk_characters_actual": 4534,
+  "cjk_characters_actual": 4531,
   "executive_cjk_actual": 355,
   "key_signal_cjk_actual": 2164,
   "signal_card_cjk_actual": [
@@ -124,7 +124,7 @@
     "records": 12,
     "claims": 12,
     "product_v4": "PASS_WITH_WARNINGS",
-    "cjk_characters": 4534,
+    "cjk_characters": 4531,
     "executive_cjk": 355,
     "signal_section_cjk": 2164,
     "signal_card_cjk": [
@@ -144,15 +144,29 @@
     "quality_grade": "B_PLUS_FORMAL_BASELINE"
   },
   "consumer_authority_identity": {
-    "authority_package_sha256": "f9d9d8c5980341b321cc973c697deee07008fe6b5aa741e81e6c7ea72616095f",
-    "library_sidecar_sha256": "f9d9d8c5980341b321cc973c697deee07008fe6b5aa741e81e6c7ea72616095f",
+    "authority_package_sha256": "1ac5ecc4bd6a94787b50c792d2438e5634cea57515c45bb06eab9d5692f20369",
+    "library_sidecar_sha256": "1ac5ecc4bd6a94787b50c792d2438e5634cea57515c45bb06eab9d5692f20369",
     "post_rebuild": true,
     "readback_status": "PASS",
-    "reconciled_at": "2026-10-19T12:33:36+08:00",
-    "change_class": "METADATA_ONLY_POST_REBUILD_AUTHORITY_IDENTITY_RECONCILIATION"
+    "reconciled_at": "2026-10-21T04:35:05.343Z",
+    "change_class": "METADATA_ONLY_POST_REBUILD_AUTHORITY_IDENTITY_AND_PRESENTATION_STATUS_RECONCILIATION"
   },
-  "public_site_version": 102,
-  "public_site_status": "PASS_V102_REAL_REMOTE_READBACK",
-  "updated_at": "2026-10-19T12:33:36+08:00",
-  "work_reconciliation_status": "PASS__FORMAL_CANONICAL_AND_SITE_PUBLISHED"
+  "public_site_version": 105,
+  "public_site_status": "PASS_V105_REAL_REMOTE_READBACK",
+  "updated_at": "2026-10-21T04:35:05.343Z",
+  "work_reconciliation_status": "PASS__FORMAL_CANONICAL_AND_SITE_PUBLISHED__AUTHORITY_LOCAL_DUAL_STATE_REPAIRED",
+  "presentation_only_correction": {
+    "correction_type": "FORMAL_STATE_AND_PRESENTATION_STATUS_RECONCILIATION_ONLY",
+    "corrected_at": "2026-10-21T04:35:05.343Z",
+    "formal_promotion_repeated": false,
+    "research_reperformed": false,
+    "claims_changed": false,
+    "evidence_changed": false,
+    "producer_public_core_evidence_ledger_modified": false,
+    "producer_failure_history_preserved": true,
+    "old_text": "本篇系10:15无人值守生产失败后的用户授权交互式补跑候选，尚未经过12:30 Work的正式消费门禁、Canonical晋级及网站发布",
+    "new_text": "本篇已完成正式审核并发布；10:15无人值守生产失败及用户授权交互式补跑记录保留于运行档案",
+    "daily_download_sha256": "2a7d6d50907a1296a2f4902768f590ab126907fb022b90157d6b6dc46e6d94c2",
+    "site_version": 105
+  }
 }
