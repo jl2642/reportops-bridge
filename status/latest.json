@@ -2,8 +2,8 @@
   "schema_version": "REPORTOPS_R3_1_CHAT_STATUS_V1_5_SINGLE_SITE",
   "scheduled_date": "2026-10-21",
   "target_date": "2026-10-21",
-  "current_day_status": "UPSTREAM_PRODUCER_MISSING",
-  "scheduled_run_status": "ORIGINAL_10_15_NO_DURABLE_OUTPUT__BOUNDED_INTERACTIVE_RECOVERY_SUCCESS",
+  "current_day_status": "PUBLIC_CORE_ACCEPTED_PENDING_WORK",
+  "scheduled_run_status": "ORIGINAL_10_15_HEARTBEAT_ONLY__BOUNDED_INTERACTIVE_RECOVERY_SUCCESS",
   "correction_backlog": {
     "status": "RESOLVED_BY_CHAT_CORRECTION",
     "chat_correction_required": false,
@@ -24,43 +24,42 @@
     "work_may_rewrite": false,
     "pending_consumer_revalidation": false
   },
-  "source_identity_gate_status": "PASS_12_OF_12",
-  "inline_citation_gate_status": "PASS_12_OF_12",
+  "source_identity_gate_status": "PASS_9_OF_9",
+  "inline_citation_gate_status": "PASS_9_OF_9",
   "signal_priority_status": "PASS_IEA_LPG_OIL__QATAR_LNG__HORMUZ_FREIGHT__CHINA_AUCTION__MARINE_LNG",
   "exact_v4_machine_structure_status": "PASS",
-  "v4_public_depth_gate_status": "PASS_WITH_NONBLOCKING_REFERENCE_WARNINGS",
-  "cjk_characters_actual": 4184,
-  "executive_cjk_actual": 402,
-  "key_signal_cjk_actual": 1735,
+  "v4_public_depth_gate_status": "PASS_WITH_NONBLOCKING_ABOVE_TARGET_BAND_WARNING",
+  "cjk_characters_actual": 4046,
+  "executive_cjk_actual": 382,
+  "key_signal_cjk_actual": 1675,
   "signal_card_cjk_actual": [
-    385,
-    350,
-    352,
-    321,
-    312
+    427,
+    414,
+    384,
+    432
   ],
-  "china_chain_cjk_actual": 221,
-  "global_energy_cjk_actual": 219,
-  "industry_operator_cjk_actual": 296,
+  "china_chain_cjk_actual": 242,
+  "global_energy_cjk_actual": 211,
+  "industry_operator_cjk_actual": 255,
   "depth_policy_public_contract_sha256": "64770bf24f1280d11060d6a905a659241d5e483109fc8c3e34195a8264fc48f6",
-  "evidence_status": "PASS_12_OF_12",
+  "evidence_status": "PASS_9_OF_9",
   "privacy_status": "PASS",
   "window_status": "PASS",
   "data_gap_boundary_status": "PASS",
   "current_daily_public": "2026-10-20",
   "current_weekly_public": "2026-W42",
-  "formal_status": "CURRENT_UNCHANGED__UPSTREAM_PRODUCER_MISSING",
+  "formal_status": "PENDING_WORK_RECONCILIATION",
   "canonical_promotion_performed": false,
-  "site_publication_performed": true,
+  "site_publication_performed": false,
   "public_site_version": 105,
   "public_site_status": "PASS_V105_REAL_ORIGIN_READBACK",
   "manifest_reconciliation_status": "PASS__DAILY_2026_10_16_AUTHORITY_AND_GITHUB_TOP_LEVEL_FORMAL_STATE_RECONCILED__CONSUMER_ACTUALS_AND_FINAL_AUTHORITY_SHA_READBACK",
   "metadata_freshness": "PASS__13_CURRENT_DERIVED_VIEWS__POINTER_MATCH",
   "state_consistency_pointer_sha256": "514e3d7d25a084c1b44b1ab27bf1cdab0bc3ebfab449176bafb241d43cfd0a22",
-  "failure_stage": "UPSTREAM_PRODUCER_DAILY_2026_10_21",
-  "failure_reason": "Daily 2026-10-21 run_heartbeat.json exists with RUN_STARTED_BEFORE_PREFLIGHT, but public_core.md, evidence.json, evidence_ledger_v2_2026-10-21.csv, and manifest.json are absent.",
-  "next_action": "Existing 10:15 continuity must resume Daily 2026-10-21 from the persisted heartbeat; Work must not author missing research or prose.",
-  "updated_at": "2026-10-21T04:35:05.343Z",
+  "failure_stage": "NONE_AT_INTERACTIVE_PRODUCER__WORK_NOT_YET_CONSUMED",
+  "failure_reason": "Original unattended 10:15 ended after heartbeat with no product. Interactive bounded recovery produced verified candidate; formal consumer gates and publication remain pending.",
+  "next_action": "2026-10-22 existing 12:30 Work: consume verified Daily 2026-10-21 via original formal gates; do not re-author report. Unattended 10:15 reliability independently unresolved.",
+  "updated_at": "2026-10-21T07:16:29.976Z",
   "queue_remaining": [
     "Daily 2026-10-21"
   ],
@@ -79,7 +78,9 @@
   "products_blocked_local": [
     "Daily 2026-10-21"
   ],
-  "eligible_unpublished_products": [],
+  "eligible_unpublished_products": [
+    "Daily 2026-10-21"
+  ],
   "preflight_blocker_matrix": [
     {
       "product": "Daily 2026-10-16",
@@ -148,7 +149,7 @@
   },
   "products_deferred_dependency": [],
   "public_daily_2026_09_26_download_sha256": "ea94ce1f2f69b3efa270295fb9f7b04c248280ea057a6a8721a7d3602522ba43",
-  "reportops_status": "PARTIAL_SUCCESS__DETERMINISTIC_REPAIR_COMPLETE__UPSTREAM_PRODUCER_MISSING_2026_10_21",
+  "reportops_status": "PARTIAL_SUCCESS__DAILY_2026_10_21_CANDIDATE_AWAITING_WORK_PROMOTION",
   "correction_provenance_2026_09_27": {
     "corrected_at": "2026-09-27T22:50:00+08:00",
     "correction_type": "INLINE_CITATION_PLACEMENT_ONLY",
@@ -200,7 +201,7 @@
     "Daily 2026-10-08 bounded interactive candidate recovery"
   ],
   "github_write_status": "PASS",
-  "github_readback_status": "PASS_FINAL_POST_REBUILD_AUTHORITY_SHA_READBACK",
+  "github_readback_status": "PASS_FIVE_OF_FIVE_PRODUCER_ARTIFACTS",
   "concurrency_reconciliation": {
     "detected": true,
     "issue": "LATE_HEARTBEAT_STALE_STATUS_OVERWRITE_FROM_IN_FLIGHT_10_15_RUN",
@@ -594,25 +595,14 @@
     "root_cause": "UNKNOWN__SCHEDULED_RUN_HISTORY_UNAVAILABLE"
   },
   "current_annual_public": "NO_FORMAL_ANNUAL_REPORT",
-  "last_updated": "2026-10-20T09:37:16.611Z",
+  "last_updated": "2026-10-21T07:16:29.976Z",
   "final_closure_status": "PASS",
-  "status": "SUCCESS",
+  "status": "PRODUCER_SUCCESS_CANDIDATES_PENDING_WORK",
   "public_site_publication_receipt_status": "PASS",
   "public_daily_2026_10_13_download_sha256": "9f208040c99e46ce8752577be3b77387592d25776f3fb89940e91f727add246d",
   "public_weekly_2026_w41_download_sha256": "cc05e865be0ca86e17d9ca1c83a5f5a77d67b9f176a8058edf5482921f911fc0",
-  "upstream_producer_status": "UPSTREAM_PRODUCER_MISSING",
-  "producer_gap": [
-    {
-      "date": "2026-10-21",
-      "heartbeat": "PRESENT__RUN_STARTED_BEFORE_PREFLIGHT",
-      "missing": [
-        "public_core.md",
-        "evidence.json",
-        "evidence_ledger_v2_2026-10-21.csv",
-        "manifest.json"
-      ]
-    }
-  ],
+  "upstream_producer_status": "INTERACTIVE_RECOVERY_COMPLETE__UNATTENDED_10_15_FAILED",
+  "producer_gap": [],
   "stable_operation_accepted": false,
   "public_remote_readback": {
     "status": "PASS",
@@ -745,5 +735,10 @@
         "bytes": 16703
       }
     ]
-  }
+  },
+  "producer_status": "PUBLIC_CORE_ACCEPTED",
+  "queue_for_12_30_work": [
+    "Daily 2026-10-21"
+  ],
+  "producer_candidate_readback_status": "PASS_FIVE_OF_FIVE__DAILY_2026_10_21"
 }
