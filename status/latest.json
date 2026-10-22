@@ -58,7 +58,7 @@
   "state_consistency_pointer_sha256": "fe5cc86f412da90a4afad039183dac63aefc031a89b1d738d9d172cd8f0d5721",
   "failure_stage": "PUBLIC_SITE_RELEASE_AUDIT_PRIVACY_GATE",
   "failure_reason": "Weekly 2026-W42 accepted public rendering contains blocked internal term 'Research Objects' in Site and downloadable HTML; Work did not rewrite accepted higher-cycle prose or bypass the gate.",
-  "next_action": "Chat must provide an accepted public-safe Weekly 2026-W42 correction; next Work run should perform site-only publication and post-deploy readback without repeating canonical promotion.",
+  "next_action": "W42 public-site-only correction handoff is saved in Library /能源周期报告/10_GOVERNANCE/W42_PUBLIC_PRESENTATION_CORRECTION_20261022/ReportOps_W42_Public_Presentation_Only_Correction_20261022.zip (SHA256 b6fe2eeaf7426613a196b702ed9bcf4873c762eb00ef9099257b33ea50d10230). The package carries THREE SHA-guarded derived W42 public outputs and an idempotent apply script. Native public_site_release_audit.py local result PASS (prior FAIL sensitive x2). Existing 12:30 Work should read this accepted Chat public presentation patch, apply AFTER existing builder in isolated staging, rerun native release privacy audit, then perform ONLY the original Site deployment and full cache-busted online/download SHA verification, updating Authority derived presentation SHA only as formally necessary; DO NOT repeat canonical Daily 2026-10-21/22 promotion, rewrite higher-cycle research, relax privacy policy, or create a new site. Until real Site succeeds retain PACKAGE_SUCCESS_SITE_PENDING.",
   "updated_at": "2026-10-22T12:33:17+08:00",
   "queue_remaining": [],
   "pending_product": "Public Site publication for Daily 2026-10-21 and Daily 2026-10-22",
