@@ -2,5 +2,23 @@
   "target_date": "2026-10-22",
   "scheduled_for": "10:15 Asia/Shanghai",
   "run_started_at": "2026-10-22T02:16:51.619Z",
-  "status": "RUN_STARTED_BEFORE_PREFLIGHT"
+  "status": "PRODUCER_SUCCESS_CANDIDATES_PENDING_WORK",
+  "scheduled_run_status": "ORIGINAL_10_15_INCOMPLETE_AFTER_HEARTBEAT__INTERACTIVE_RECOVERY",
+  "recovery_mode": "BOUNDED_INTERACTIVE_NOT_SCHEDULED_SUCCESS",
+  "recovery_completed_at": "2026-10-22T03:21:06.286Z",
+  "products_repaired_or_produced": [
+    "Daily 2026-10-22"
+  ],
+  "producer_recovery_queue_remaining": [],
+  "queue_for_12_30_work": [
+    "Daily 2026-10-21",
+    "Daily 2026-10-22"
+  ],
+  "post_run_self_audit_status": "PASS__ALL_FIVE_DURABLE_FILES_READBACK__SOURCE_IDENTITY_10_OF_10__INLINE_LINKS_10_OF_10__V4__STRICT_V2",
+  "github_write_status": "PASS",
+  "github_readback_status": "PASS_FIVE_OF_FIVE",
+  "failure_stage": "NONE_AFTER_INTERACTIVE_RECOVERY",
+  "failure_reason": "ORIGINAL_10_15_UNATTENDED_RUN_ENDED_AFTER_HEARTBEAT_WITH_NO_PRODUCT; INTERACTIVE_RECOVERY COMPLETED. NOT AN UNATTENDED SUCCESS.",
+  "canonical_mutation_performed": false,
+  "site_mutation_performed": false
 }
