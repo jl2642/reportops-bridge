@@ -5,8 +5,8 @@
   "window_end": "2026-10-22T10:00:00+08:00",
   "scheduled_for": "2026-10-22T10:15:00+08:00",
   "producer_status": "PUBLIC_CORE_ACCEPTED",
-  "product_status": "PUBLIC_CORE_ACCEPTED_PENDING_WORK",
-  "formal_status": "PENDING_WORK_RECONCILIATION",
+  "product_status": "FORMAL_CANONICAL_PUBLISHED",
+  "formal_status": "FORMAL_CANONICAL_PUBLISHED",
   "scheduled_run_status": "ORIGINAL_10_15_NO_PRODUCT_AFTER_HEARTBEAT__INTERACTIVE_RECOVERY",
   "continuity_classification": "PARTIAL_DURABLE_HEARTBEAT_ONLY_INTERACTIVE_RESUME",
   "mode": "BOUNDED_INTERACTIVE_RECOVERY_NOT_SCHEDULED_SUCCESS",
@@ -36,15 +36,15 @@
   "signal_card_count": 4,
   "evidence_record_count": 10,
   "source_url_count_distinct": 4,
-  "canonical_mutation_performed": false,
+  "canonical_mutation_performed": true,
   "site_mutation_performed": false,
   "work_may_rewrite": false,
   "producer_self_audit_status": "PASS__CORE_EVIDENCE_LEDGER_READBACK__EXACT_URL_BINDINGS__V4_COUNTS",
-  "consumer_status": "PENDING_WORK_FORMAL_INDEPENDENT_VALIDATION",
-  "reader_validation_status": "PENDING_WORK",
-  "lineage_status": "PENDING_WORK",
-  "quality_validation_status": "PENDING_WORK",
-  "state_validation_status": "PENDING_WORK",
+  "consumer_status": "PASS_FORMAL_INDEPENDENT_VALIDATION",
+  "reader_validation_status": "PASS_13_OF_13",
+  "lineage_status": "PASS_COMMITTED",
+  "quality_validation_status": "PASS__84__B_PLUS_FORMAL_BASELINE__CONDITIONAL",
+  "state_validation_status": "PASS",
   "authority_package_sha256_at_preflight": "1ac5ecc4bd6a94787b50c792d2438e5634cea57515c45bb06eab9d5692f20369",
   "warnings": [
     "UNATTENDED_10_15_INCOMPLETE_INTERACTIVE_RECOVERY",
@@ -65,6 +65,30 @@
     "original_scheduled_start": "2026-10-22T02:16:51.619Z",
     "original_scheduled_terminal_status": "NOT_RECORDED",
     "bounded_interactive_resumption": true,
-    "unattended_reliability_accepted": false
-  }
+    "unattended_reliability_accepted": false,
+    "producer_pre_rebuild_authority_package_sha256": "1ac5ecc4bd6a94787b50c792d2438e5634cea57515c45bb06eab9d5692f20369",
+    "producer_status_at_acceptance": "PUBLIC_CORE_ACCEPTED",
+    "producer_formal_status_at_acceptance": "PENDING_WORK_RECONCILIATION"
+  },
+  "canonical_promotion_performed": true,
+  "site_publication_performed": false,
+  "authority_package_sha256": "2fbadc17df1bab0d19bade1dd9068b54b90677bda67e588b325b0a15700d50e1",
+  "consumer_authority_identity": {
+    "authority_package_sha256": "2fbadc17df1bab0d19bade1dd9068b54b90677bda67e588b325b0a15700d50e1",
+    "library_sidecar_sha256": "2fbadc17df1bab0d19bade1dd9068b54b90677bda67e588b325b0a15700d50e1",
+    "current_daily": "2026-10-22",
+    "validated_at": "2026-10-22T12:33:17+08:00"
+  },
+  "consumer_actuals": {
+    "source_identity": "PASS_10_OF_10",
+    "inline_citation": "PASS_10_OF_10",
+    "evidence": "PASS_WITH_WARNINGS_10_OF_10__0_BLOCKING_2_WARNINGS",
+    "reader": "PASS_13_OF_13",
+    "quality_score": 84,
+    "quality_band": "B_PLUS_FORMAL_BASELINE",
+    "lineage": "PASS_COMMITTED",
+    "state": "PASS"
+  },
+  "site_publication_status": "PENDING__WEEKLY_W42_PUBLIC_PRIVACY_GATE",
+  "work_completed_at": "2026-10-22T12:33:17+08:00"
 }
