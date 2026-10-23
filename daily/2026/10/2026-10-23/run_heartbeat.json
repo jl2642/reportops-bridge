@@ -1,0 +1,14 @@
+{
+  "target_date": "2026-10-23",
+  "scheduled_for": "2026-10-23T10:15:00+08:00",
+  "window_start": "2026-10-22T10:00:00+08:00",
+  "window_end": "2026-10-23T10:00:00+08:00",
+  "run_started_at": "2026-10-23T05:38:28.159Z",
+  "execution_mode": "BOUNDED_INTERACTIVE_RECOVERY",
+  "scheduled_run_status": "ORIGINAL_10_15_UNATTENDED_RUN_TRIGGERED_NO_DURABLE_HEARTBEAT_OR_PRODUCT",
+  "status": "RUN_STARTED_BEFORE_PREFLIGHT",
+  "recovery_source": "USER_AUTHORIZED_INTERACTIVE_CHAT_2026_10_23",
+  "formal_status": "NOT_FORMALLY_CONSUMED_BY_WORK",
+  "canonical_mutation_performed": false,
+  "site_mutation_performed": false
+}
