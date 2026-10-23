@@ -58,8 +58,8 @@
   "state_consistency_pointer_sha256": "fe5cc86f412da90a4afad039183dac63aefc031a89b1d738d9d172cd8f0d5721",
   "failure_stage": "UPSTREAM_PRODUCER_MISSING__DAILY_2026_10_23",
   "failure_reason": "GitHub daily/2026/10 contains no 2026-10-23 directory; run_heartbeat.json, public_core.md, evidence.json, evidence_ledger_v2_2026-10-23.csv, and manifest.json are absent.",
-  "next_action": "2026-10-24 Asia/Shanghai 12:30 existing Work: read GitHub daily/2026/10/2026-10-23/{run_heartbeat.json,public_core.md,evidence.json,evidence_ledger_v2_2026-10-23.csv,manifest.json} and latest Library Authority SHA 8dcb0302dda8b0e331ee3b78e0a4c56c7bddd30ccb07f61af195a69fa1efb0f4 (recompute live). Daily 2026-10-23 Producer candidate is COMPLETE and bounded self-audit PASS after authoritative V4 measurement count alignment; Source Identity uses 8 SEARCH_RESULT_OBSERVED Reuters receipts + 2 OPENED_EXACT_DOCUMENT Business Wire reprint receipts, 10 STRICT_NEW V2 ledger rows. The 12:35 2026-10-23 GitHub runtime/CURRENT_PUBLIC and DEPLOYMENT_STATE 'UPSTREAM_PRODUCER_MISSING' are stale pre-recovery Work snapshots, NOT current candidate facts; don't fail preflight on stale snapshot. Independently run actual formal source/evidence/V4/quality/Reader/Lineage/state/privacy gates on candidate, atomically promote only if PASS, rebuild Authority, GitHub runtime and same Site, remote readback+download SHA. If Daily 2026-10-24 has not been produced by its unattended 10:15, record separate producer gap and continue oldest-first per-product consumption of completed Oct23 (don't skip dates, don't invent Oct24). If any genuine blocker, preserve precise Work correction receipt and fail closed. No new task/site, no rewriting research, no claim 10:15 unattended reliability fixed.",
-  "updated_at": "2026-10-23T06:35:07.655Z",
+  "next_action": "2026-10-24 Asia/Shanghai 12:30 existing Work: read GitHub daily/2026/10/2026-10-23/{run_heartbeat.json,public_core.md,evidence.json,evidence_ledger_v2_2026-10-23.csv,manifest.json} and latest Library Authority SHA 8dcb0302dda8b0e331ee3b78e0a4c56c7bddd30ccb07f61af195a69fa1efb0f4 (recompute live). Daily 2026-10-23 Producer candidate is COMPLETE and bounded self-audit PASS after Authority V4 measurement count alignment and removal of operational run notes from public prose; reports remain research-only and original scheduled failure remains documented in heartbeat/manifest; Source Identity uses 8 SEARCH_RESULT_OBSERVED Reuters receipts + 2 OPENED_EXACT_DOCUMENT Business Wire reprint receipts, 10 STRICT_NEW V2 ledger rows. The 12:35 2026-10-23 GitHub runtime/CURRENT_PUBLIC and DEPLOYMENT_STATE 'UPSTREAM_PRODUCER_MISSING' are stale pre-recovery Work snapshots, NOT current candidate facts; don't fail preflight on stale snapshot. Independently run actual formal source/evidence/V4/quality/Reader/Lineage/state/privacy gates on candidate, atomically promote only if PASS, rebuild Authority, GitHub runtime and same Site, remote readback+download SHA. If Daily 2026-10-24 has not been produced by its unattended 10:15, record separate producer gap and continue oldest-first per-product consumption of completed Oct23 (don't skip dates, don't invent Oct24). If any genuine blocker, preserve precise Work correction receipt and fail closed. No new task/site, no rewriting research, no claim 10:15 unattended reliability fixed.",
+  "updated_at": "2026-10-23T06:37:58.586Z",
   "queue_remaining": [
     "Daily 2026-10-23"
   ],
@@ -639,7 +639,7 @@
     "producer_evidence_records": 10,
     "producer_ledger_rows": 10,
     "signal_cards": 4,
-    "cjk_characters": 3778,
+    "cjk_characters": 3767,
     "origin_path": "daily/2026/10/2026-10-23/manifest.json",
     "canonical_mutation_performed": false,
     "site_mutation_performed": false
@@ -665,7 +665,7 @@
   "queue_for_12_30_work": [
     "Daily 2026-10-23"
   ],
-  "producer_candidate_readback_status": "PASS_5_OF_5__2026_10_23_AFTER_V4_COUNT_AND_RECEIPT_CORRECTION",
+  "producer_candidate_readback_status": "PASS_5_OF_5__2026_10_23__POST_PUBLIC_PROSE_AND_MANIFEST_V4_REPAIR",
   "measurement_parity_status": "PASS_AUTHORITY_CONSUMER_ACTUALS",
   "last_work_reportops_status": "PARTIAL_SUCCESS__UPSTREAM_PRODUCER_MISSING",
   "last_work_runtime_snapshot_updated_at": "2026-10-23T12:35:00+08:00"
