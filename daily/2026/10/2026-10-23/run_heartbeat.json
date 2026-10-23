@@ -11,7 +11,7 @@
   "formal_status": "PENDING_WORK_RECONCILIATION",
   "canonical_mutation_performed": false,
   "site_mutation_performed": false,
-  "run_completed_at": "2026-10-23T05:48:33.243Z",
+  "run_completed_at": "2026-10-23T06:34:43.411Z",
   "products_repaired_or_produced": [
     "Daily 2026-10-23"
   ],
@@ -19,9 +19,9 @@
   "queue_for_12_30_work": [
     "Daily 2026-10-23"
   ],
-  "post_run_self_audit_status": "PASS__FOUR_PRODUCT_FILES_READBACK__EXACT_SOURCE_IDENTITY_10_OF_10__INLINE_CITATION_10_OF_10__DYNAMIC_V4_PRECHECK__STRICT_V2_LEDGER_43_COLUMNS",
+  "post_run_self_audit_status": "PASS__FIVE_FILES_REREAD__SOURCE_IDENTITY_10_10__LEDGER_MATCH_10_10__AUTHORITY_V4_COUNTS_RECONCILED__NO_BLOCKING",
   "github_write_status": "PASS",
-  "github_readback_status": "PASS__FIVE_DURABLE_ASSETS",
+  "github_readback_status": "PASS_5_OF_5__AFTER_BOUNDED_MANIFEST_AND_EVIDENCE_CORRECTION",
   "failure_stage": "NONE_AFTER_INTERACTIVE_RECOVERY",
   "failure_reason": "ORIGINAL_10_15_UNATTENDED_TRIGGER_DID_NOT_PERSIST_HEARTBEAT_OR_ANY_PRODUCT; BOUNDED_INTERACTIVE_RESUMPTION_NOT_UNATTENDED_SUCCESS"
 }
