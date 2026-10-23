@@ -23,13 +23,13 @@
       "url_identity_status": "PASS",
       "url_verified_date": "2026-10-23",
       "source_identity_receipt": {
-        "verification_method": "OPENED_EXACT_DOCUMENT",
+        "verification_method": "SEARCH_RESULT_OBSERVED",
         "observed_url": "https://www.reuters.com/commentary/reuters-open-interest/asia-buys-more-lng-despite-surging-prices-el-nino-clouds-outlook-2026-10-22/",
         "canonical_url": "https://www.reuters.com/commentary/reuters-open-interest/asia-buys-more-lng-despite-surging-prices-el-nino-clouds-outlook-2026-10-22/",
         "observed_title": "Asia buys more LNG despite surging prices, El Nino clouds outlook",
         "observed_publisher": "Reuters",
         "title_match_status": "EXACT",
-        "verified_at": "2026-10-23T05:45:24.318Z"
+        "verified_at": "2026-10-23T06:30:59.330Z"
       },
       "publication_time_precision": "PUBLISHER_STATED_UTC"
     },
@@ -50,13 +50,13 @@
       "url_identity_status": "PASS",
       "url_verified_date": "2026-10-23",
       "source_identity_receipt": {
-        "verification_method": "OPENED_EXACT_DOCUMENT",
+        "verification_method": "SEARCH_RESULT_OBSERVED",
         "observed_url": "https://www.reuters.com/commentary/reuters-open-interest/asia-buys-more-lng-despite-surging-prices-el-nino-clouds-outlook-2026-10-22/",
         "canonical_url": "https://www.reuters.com/commentary/reuters-open-interest/asia-buys-more-lng-despite-surging-prices-el-nino-clouds-outlook-2026-10-22/",
         "observed_title": "Asia buys more LNG despite surging prices, El Nino clouds outlook",
         "observed_publisher": "Reuters",
         "title_match_status": "EXACT",
-        "verified_at": "2026-10-23T05:45:24.318Z"
+        "verified_at": "2026-10-23T06:30:59.330Z"
       },
       "publication_time_precision": "PUBLISHER_STATED_UTC"
     },
@@ -77,13 +77,13 @@
       "url_identity_status": "PASS",
       "url_verified_date": "2026-10-23",
       "source_identity_receipt": {
-        "verification_method": "OPENED_EXACT_DOCUMENT",
+        "verification_method": "SEARCH_RESULT_OBSERVED",
         "observed_url": "https://www.reuters.com/commentary/reuters-open-interest/asia-buys-more-lng-despite-surging-prices-el-nino-clouds-outlook-2026-10-22/",
         "canonical_url": "https://www.reuters.com/commentary/reuters-open-interest/asia-buys-more-lng-despite-surging-prices-el-nino-clouds-outlook-2026-10-22/",
         "observed_title": "Asia buys more LNG despite surging prices, El Nino clouds outlook",
         "observed_publisher": "Reuters",
         "title_match_status": "EXACT",
-        "verified_at": "2026-10-23T05:45:24.318Z"
+        "verified_at": "2026-10-23T06:30:59.330Z"
       },
       "publication_time_precision": "PUBLISHER_STATED_UTC",
       "price": {
@@ -112,13 +112,13 @@
       "url_identity_status": "PASS",
       "url_verified_date": "2026-10-23",
       "source_identity_receipt": {
-        "verification_method": "OPENED_EXACT_DOCUMENT",
+        "verification_method": "SEARCH_RESULT_OBSERVED",
         "observed_url": "https://www.reuters.com/commentary/reuters-open-interest/asia-buys-more-lng-despite-surging-prices-el-nino-clouds-outlook-2026-10-22/",
         "canonical_url": "https://www.reuters.com/commentary/reuters-open-interest/asia-buys-more-lng-despite-surging-prices-el-nino-clouds-outlook-2026-10-22/",
         "observed_title": "Asia buys more LNG despite surging prices, El Nino clouds outlook",
         "observed_publisher": "Reuters",
         "title_match_status": "EXACT",
-        "verified_at": "2026-10-23T05:45:24.318Z"
+        "verified_at": "2026-10-23T06:30:59.330Z"
       },
       "publication_time_precision": "PUBLISHER_STATED_UTC"
     },
@@ -193,13 +193,13 @@
       "url_identity_status": "PASS",
       "url_verified_date": "2026-10-23",
       "source_identity_receipt": {
-        "verification_method": "OPENED_EXACT_DOCUMENT",
+        "verification_method": "SEARCH_RESULT_OBSERVED",
         "observed_url": "https://www.reuters.com/business/energy/qatarenergy-talks-with-venture-global-buy-lng-long-term-supply-deal-sources-say-2026-10-22/",
         "canonical_url": "https://www.reuters.com/business/energy/qatarenergy-talks-with-venture-global-buy-lng-long-term-supply-deal-sources-say-2026-10-22/",
         "observed_title": "QatarEnergy in talks with Venture Global to buy LNG in long term supply deal, sources say",
         "observed_publisher": "Reuters",
         "title_match_status": "EXACT",
-        "verified_at": "2026-10-23T05:45:24.318Z"
+        "verified_at": "2026-10-23T06:30:59.330Z"
       },
       "publication_time_precision": "PUBLISHER_STATED_UTC"
     },
@@ -220,13 +220,13 @@
       "url_identity_status": "PASS",
       "url_verified_date": "2026-10-23",
       "source_identity_receipt": {
-        "verification_method": "OPENED_EXACT_DOCUMENT",
+        "verification_method": "SEARCH_RESULT_OBSERVED",
         "observed_url": "https://www.reuters.com/business/energy/qatarenergy-talks-with-venture-global-buy-lng-long-term-supply-deal-sources-say-2026-10-22/",
         "canonical_url": "https://www.reuters.com/business/energy/qatarenergy-talks-with-venture-global-buy-lng-long-term-supply-deal-sources-say-2026-10-22/",
         "observed_title": "QatarEnergy in talks with Venture Global to buy LNG in long term supply deal, sources say",
         "observed_publisher": "Reuters",
         "title_match_status": "EXACT",
-        "verified_at": "2026-10-23T05:45:24.318Z"
+        "verified_at": "2026-10-23T06:30:59.330Z"
       },
       "publication_time_precision": "PUBLISHER_STATED_UTC"
     },
@@ -247,13 +247,13 @@
       "url_identity_status": "PASS",
       "url_verified_date": "2026-10-23",
       "source_identity_receipt": {
-        "verification_method": "OPENED_EXACT_DOCUMENT",
+        "verification_method": "SEARCH_RESULT_OBSERVED",
         "observed_url": "https://www.reuters.com/world/middle-east/saudi-aramco-tells-staff-evacuate-dhahran-headquarters-sources-say-2026-10-22/",
         "canonical_url": "https://www.reuters.com/world/middle-east/saudi-aramco-tells-staff-evacuate-dhahran-headquarters-sources-say-2026-10-22/",
         "observed_title": "Saudi Aramco tells staff to evacuate Dhahran headquarters, sources say",
         "observed_publisher": "Reuters",
         "title_match_status": "EXACT",
-        "verified_at": "2026-10-23T05:45:24.318Z"
+        "verified_at": "2026-10-23T06:30:59.330Z"
       },
       "publication_time_precision": "PUBLISHER_STATED_UTC"
     },
@@ -274,13 +274,13 @@
       "url_identity_status": "PASS",
       "url_verified_date": "2026-10-23",
       "source_identity_receipt": {
-        "verification_method": "OPENED_EXACT_DOCUMENT",
+        "verification_method": "SEARCH_RESULT_OBSERVED",
         "observed_url": "https://www.reuters.com/world/middle-east/saudi-aramco-tells-staff-evacuate-dhahran-headquarters-sources-say-2026-10-22/",
         "canonical_url": "https://www.reuters.com/world/middle-east/saudi-aramco-tells-staff-evacuate-dhahran-headquarters-sources-say-2026-10-22/",
         "observed_title": "Saudi Aramco tells staff to evacuate Dhahran headquarters, sources say",
         "observed_publisher": "Reuters",
         "title_match_status": "EXACT",
-        "verified_at": "2026-10-23T05:45:24.318Z"
+        "verified_at": "2026-10-23T06:30:59.330Z"
       },
       "publication_time_precision": "PUBLISHER_STATED_UTC"
     }
