@@ -2,8 +2,8 @@
   "schema_version": "REPORTOPS_R3_1_CHAT_STATUS_V1_5_SINGLE_SITE",
   "scheduled_date": "2026-10-23",
   "target_date": "2026-10-23",
-  "current_day_status": "UPSTREAM_PRODUCER_MISSING",
-  "scheduled_run_status": "ORIGINAL_10_15_HEARTBEAT_ONLY__BOUNDED_INTERACTIVE_RECOVERY_CONSUMED__UNATTENDED_RELIABILITY_UNRESOLVED",
+  "current_day_status": "PUBLIC_CORE_ACCEPTED_PENDING_WORK",
+  "scheduled_run_status": "ORIGINAL_10_15_TRIGGERED_NO_DURABLE_HEARTBEAT_OR_PRODUCT__INTERACTIVE_RECOVERY",
   "correction_backlog": {
     "status": "RESOLVED_BY_CHAT_CORRECTION",
     "chat_correction_required": false,
@@ -58,8 +58,8 @@
   "state_consistency_pointer_sha256": "fe5cc86f412da90a4afad039183dac63aefc031a89b1d738d9d172cd8f0d5721",
   "failure_stage": "UPSTREAM_PRODUCER_MISSING__DAILY_2026_10_23",
   "failure_reason": "GitHub daily/2026/10 contains no 2026-10-23 directory; run_heartbeat.json, public_core.md, evidence.json, evidence_ledger_v2_2026-10-23.csv, and manifest.json are absent.",
-  "next_action": "Existing 10:15 Chat continuity must produce Daily 2026-10-23 oldest-first; unattended producer reliability remains unresolved. Work must not invent research or prose.",
-  "updated_at": "2026-10-23T12:35:00+08:00",
+  "next_action": "Existing 12:30 Work consumer: validate and formally promote Daily 2026-10-23 oldest-first using actual Authority validators, Reader, Lineage, state gates; republish SAME Site v106 successor and verify origin downloads SHA. Do not re-research accepted candidate. Unattended 10:15 remains unresolved; this is bounded interactive recovery.",
+  "updated_at": "2026-10-23T05:49:00.691Z",
   "queue_remaining": [
     "Daily 2026-10-23"
   ],
@@ -74,7 +74,9 @@
   "products_blocked_local": [
     "Daily 2026-10-23__UPSTREAM_PRODUCER_MISSING"
   ],
-  "eligible_unpublished_products": [],
+  "eligible_unpublished_products": [
+    "Daily 2026-10-23"
+  ],
   "preflight_blocker_matrix": [
     {
       "product": "Daily 2026-10-23",
@@ -123,7 +125,7 @@
   },
   "products_deferred_dependency": [],
   "public_daily_2026_09_26_download_sha256": "ea94ce1f2f69b3efa270295fb9f7b04c248280ea057a6a8721a7d3602522ba43",
-  "reportops_status": "PARTIAL_SUCCESS__UPSTREAM_PRODUCER_MISSING",
+  "reportops_status": "PRODUCER_CANDIDATE_ACCEPTED__WORK_FORMAL_CONSUMPTION_PENDING",
   "correction_provenance_2026_09_27": {
     "corrected_at": "2026-09-27T22:50:00+08:00",
     "correction_type": "INLINE_CITATION_PLACEMENT_ONLY",
@@ -571,24 +573,13 @@
   },
   "current_annual_public": "NO_FORMAL_ANNUAL_REPORT",
   "last_updated": "2026-10-22T12:33:17+08:00",
-  "final_closure_status": "PACKAGE_SUCCESS_SITE_PENDING",
-  "status": "PACKAGE_SUCCESS_SITE_PENDING",
+  "final_closure_status": "PRODUCER_ACCEPTED__FORMAL_PUBLICATION_PENDING",
+  "status": "PRODUCER_CANDIDATE_ACCEPTED__WORK_FORMAL_CONSUMPTION_PENDING",
   "public_site_publication_receipt_status": "PASS",
   "public_daily_2026_10_13_download_sha256": "9f208040c99e46ce8752577be3b77387592d25776f3fb89940e91f727add246d",
   "public_weekly_2026_w41_download_sha256": "cc05e865be0ca86e17d9ca1c83a5f5a77d67b9f176a8058edf5482921f911fc0",
   "upstream_producer_status": "UPSTREAM_PRODUCER_MISSING",
-  "producer_gap": [
-    {
-      "date": "2026-10-23",
-      "missing_files": [
-        "run_heartbeat.json",
-        "public_core.md",
-        "evidence.json",
-        "evidence_ledger_v2_2026-10-23.csv",
-        "manifest.json"
-      ]
-    }
-  ],
+  "producer_gap": [],
   "stable_operation_accepted": false,
   "public_remote_readback": {
     "status": "PASS",
@@ -642,19 +633,16 @@
     "completed_at": "2026-10-19T05:17:35.424Z"
   },
   "producer_latest_candidate": {
-    "target_date": "2026-10-20",
+    "target_date": "2026-10-23",
     "execution_mode": "BOUNDED_INTERACTIVE_RECOVERY_NOT_SCHEDULED_RUN",
     "producer_status": "PUBLIC_CORE_ACCEPTED_PENDING_WORK",
-    "heartbeat_sha": "9de6061f86a1d088d61a0ad9f7a308e2039e4d47",
-    "public_core_blob_sha": "a204043092203a0024779865e122c4c70cfe71f7",
-    "evidence_json_blob_sha": "f87da40ed29827d0d3cbcaaa09f85c81e0655d37",
-    "ledger_blob_sha": "536855401361805cda888ee59d84f08e645d78ad",
-    "manifest_blob_sha": "1be94ea09b05b699c536b225eb60cf961691a312",
-    "files": 5,
-    "evidence_count": 12,
-    "cjk_characters": 4184,
-    "inline_citations": 48,
-    "formal_status": "PENDING_WORK"
+    "producer_evidence_records": 10,
+    "producer_ledger_rows": 10,
+    "signal_cards": 4,
+    "cjk_characters": 3778,
+    "origin_path": "daily/2026/10/2026-10-23/manifest.json",
+    "canonical_mutation_performed": false,
+    "site_mutation_performed": false
   },
   "preflight_blocker_matrix_as_of": "2026-10-19T12:33:36+08:00__HISTORICAL_PRIOR_WORK_PREFLIGHT_DO_NOT_USE_FOR_2026_10_20",
   "current_daily": "2026-10-22",
@@ -675,9 +663,10 @@
   },
   "producer_status": "PUBLIC_CORE_ACCEPTED",
   "queue_for_12_30_work": [
-    "Daily 2026-10-21",
-    "Daily 2026-10-22"
+    "Daily 2026-10-23"
   ],
-  "producer_candidate_readback_status": "PASS_FIVE_OF_FIVE__DAILY_2026_10_22",
-  "measurement_parity_status": "PASS_AUTHORITY_CONSUMER_ACTUALS"
+  "producer_candidate_readback_status": "PASS_5_OF_5__DAILY_2026_10_23",
+  "measurement_parity_status": "PASS_AUTHORITY_CONSUMER_ACTUALS",
+  "last_work_reportops_status": "PARTIAL_SUCCESS__UPSTREAM_PRODUCER_MISSING",
+  "last_work_runtime_snapshot_updated_at": "2026-10-23T12:35:00+08:00"
 }
