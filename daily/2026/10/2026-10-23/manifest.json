@@ -14,7 +14,7 @@
   "inline_citation_gate_status": "PASS_10_OF_10__IN_NARRATIVE_LINKS",
   "exact_v4_machine_structure_status": "PASS",
   "v4_public_depth_gate_status": "PASS_WITH_NONBLOCKING_ABOVE_TARGET_LENGTH_WARNING",
-  "cjk_characters_actual": 3778,
+  "cjk_characters_actual": 3767,
   "executive_cjk_actual": 345,
   "key_signal_cjk_actual": 1610,
   "signal_card_cjk_actual": [
@@ -39,7 +39,7 @@
   "canonical_mutation_performed": false,
   "site_mutation_performed": false,
   "work_may_rewrite": false,
-  "producer_self_audit_status": "PASS__SOURCE_RECEIPTS__LEDGER__INLINE_CITATION__AUTHORITATIVE_V4_COUNT_METHOD",
+  "producer_self_audit_status": "PASS__V4_AUTHORITY_EXACT_COUNTS__INLINE_SOURCE_IDENTITY__POST_PUBLIC_INTRO_CLEANUP",
   "consumer_status": "NOT_RUN__REQUIRES_WORK_FORMAL_GATES",
   "reader_validation_status": "NOT_RUN__WORK_ONLY",
   "lineage_status": "NOT_RUN__WORK_ONLY",
@@ -55,7 +55,8 @@
     "VENTURE_GLOBAL_TALKS_ARE_UNCONFIRMED_CONTRACT",
     "NO_COMPLETE_SAME_DAY_LPG_CP_JKM_TTF_FREIGHT_OR_INSURANCE_SERIES",
     "REUTERS_SOURCE_IDENTITY_SEARCH_RESULT_OBSERVED_NOT_OPENED_EXACT_DOCUMENT",
-    "MEASUREMENTS_ALIGNED_TO_AUTHORITY_MODULE_H2_BODY_V4"
+    "MEASUREMENTS_ALIGNED_TO_AUTHORITY_MODULE_H2_BODY_V4",
+    "PUBLIC_OPERATIONAL_PROVENANCE_RETAINED_IN_HEARTBEAT_AND_MANIFEST_NOT_IN_PUBLIC_RESEARCH_PROSE"
   ],
   "next_work_action": "READY_FOR_12_30_WORK_FORMAL_QUALITY_READER_LINEAGE_STATE_SITE_GATES__OLDEST_FIRST",
   "producer_acceptance_completed_at": "2026-10-23T05:47:59.668Z",
@@ -68,5 +69,5 @@
     "authority_at_production": "8dcb0302dda8b0e331ee3b78e0a4c56c7bddd30ccb07f61af195a69fa1efb0f4",
     "site_version_at_production": 106
   },
-  "producer_readback_completed_at": "2026-10-23T06:31:44.799Z"
+  "producer_readback_completed_at": "2026-10-23T06:37:23.135Z"
 }
