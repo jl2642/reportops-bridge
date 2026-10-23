@@ -37,14 +37,14 @@
   "evidence_record_count": 10,
   "source_url_count_distinct": 4,
   "canonical_mutation_performed": true,
-  "site_mutation_performed": false,
+  "site_mutation_performed": true,
   "work_may_rewrite": false,
   "producer_self_audit_status": "PASS__CORE_EVIDENCE_LEDGER_READBACK__EXACT_URL_BINDINGS__V4_COUNTS",
   "consumer_status": "PASS_FORMAL_INDEPENDENT_VALIDATION",
   "reader_validation_status": "PASS_13_OF_13",
   "lineage_status": "PASS_COMMITTED",
   "quality_validation_status": "PASS__84__B_PLUS_FORMAL_BASELINE__CONDITIONAL",
-  "state_validation_status": "PASS",
+  "state_validation_status": "PASS__TARGET_CURRENT_STATE__SITE_V106_REMOTE_READBACK",
   "authority_package_sha256_at_preflight": "1ac5ecc4bd6a94787b50c792d2438e5634cea57515c45bb06eab9d5692f20369",
   "warnings": [
     "UNATTENDED_10_15_INCOMPLETE_INTERACTIVE_RECOVERY",
@@ -71,13 +71,13 @@
     "producer_formal_status_at_acceptance": "PENDING_WORK_RECONCILIATION"
   },
   "canonical_promotion_performed": true,
-  "site_publication_performed": false,
-  "authority_package_sha256": "2fbadc17df1bab0d19bade1dd9068b54b90677bda67e588b325b0a15700d50e1",
+  "site_publication_performed": true,
+  "authority_package_sha256": "8dcb0302dda8b0e331ee3b78e0a4c56c7bddd30ccb07f61af195a69fa1efb0f4",
   "consumer_authority_identity": {
-    "authority_package_sha256": "2fbadc17df1bab0d19bade1dd9068b54b90677bda67e588b325b0a15700d50e1",
-    "library_sidecar_sha256": "2fbadc17df1bab0d19bade1dd9068b54b90677bda67e588b325b0a15700d50e1",
+    "authority_package_sha256": "8dcb0302dda8b0e331ee3b78e0a4c56c7bddd30ccb07f61af195a69fa1efb0f4",
+    "library_sidecar_sha256": "8dcb0302dda8b0e331ee3b78e0a4c56c7bddd30ccb07f61af195a69fa1efb0f4",
     "current_daily": "2026-10-22",
-    "validated_at": "2026-10-22T12:33:17+08:00"
+    "validated_at": "2026-10-23T12:35:00+08:00"
   },
   "consumer_actuals": {
     "source_identity": "PASS_10_OF_10",
@@ -89,6 +89,6 @@
     "lineage": "PASS_COMMITTED",
     "state": "PASS"
   },
-  "site_publication_status": "PENDING__WEEKLY_W42_PUBLIC_PRIVACY_GATE",
-  "work_completed_at": "2026-10-22T12:33:17+08:00"
+  "site_publication_status": "PASS_V106_REMOTE_READBACK",
+  "work_completed_at": "2026-10-23T12:35:00+08:00"
 }
