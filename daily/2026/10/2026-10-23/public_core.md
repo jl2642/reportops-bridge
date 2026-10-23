@@ -38,7 +38,7 @@ producer_mode: BOUNDED_INTERACTIVE_RECOVERY_NOT_SCHEDULED_SUCCESS
 - **为什么重要：**卡塔尔同时是LNG生产与全球货源组合经营主体。购买美国LNG并不等于自身液化产能永久退出；它更可能增强合同交付弹性、增加不同区域的资源配置选择，并降低单一海峡运输路径的依赖。
 - **价格/供需/产业链传导：**FOB把美国离岸采购及后续运费、航线、保险和最终目的地组合到买方管理之下；Henry Hub加固定费仅是合同定价框架，缺少具体液化费、远洋运费与转售净价时不能推算采购套利。
 - **影响对象：**美国液化项目开发商、国际组合贸易商、LNG船东、亚洲和欧洲长期采购用户。
-- **证据边界：**已签协议中的“400万吨/年”包含有条件部分；预计2021—2031不存在交付这一数字也不意味着2026年新增现货供应；供应起点为公司前瞻指引。
+- **证据边界：**已签协议中的“400万吨/年”包含有条件部分；2026年没有该合同新增现货交付，2031年前后的供应起点仅为公司前瞻指引。
 - **下一步验证：**Sabine Pass扩建一期FID、协议执行批次、QatarEnergy采购组合净增量。
 - **反证条件：**若相关扩建延期或未获FID，最高合同量兑现节奏可能低于名义值。
 
@@ -78,7 +78,7 @@ producer_mode: BOUNDED_INTERACTIVE_RECOVERY_NOT_SCHEDULED_SUCCESS
 <!-- MODULE:GLOBAL_ENERGY_DELTA -->
 ## 6. 国际油气 / LNG增量
 
-QatarEnergy从美国采购已签长约、另与Venture Global商谈采购两件事，在方向上显示全球组合贸易的风险分散需求；但其本身既不能证明霍尔木兹运输恢复，也不代表2026年新增产量。[E05](https://www.marketscreener.com/news/cheniere-signs-long-term-sale-and-purchase-agreements-to-supply-qatarenergy-with-lng-through-2054-ce785cdedb8bff22) [E07](https://www.reuters.com/business/energy/qatarenergy-talks-with-venture-global-buy-lng-long-term-supply-deal-sources-say-2026-10-22/) 路透对沙特阿美达兰总部撤离的报道提升了油气运营与人员安全的关注级别，但没有充分证据证明主要出口码头全线停摆。[E09](https://www.reuters.com/world/middle-east/saudi-aramco-tells-staff-evacuate-dhahran-headquarters-sources-say-2026-10-22/) 实际原油和LNG供给风险仍应由港口装船、跨区到港、炼厂开工、库存和保险报价构成交叉核验，而非简单使用地缘新闻强弱判断交付量。
+路透同时引用Kpler预计欧洲10月LNG进口约911万吨，9月为776万吨，但仍低于去年同期1059万吨；这只是10月船期预测而不是已完成卸货。 [E04](https://www.reuters.com/commentary/reuters-open-interest/asia-buys-more-lng-despite-surging-prices-el-nino-clouds-outlook-2026-10-22/) QatarEnergy从美国采购已签长约、另与Venture Global商谈采购两件事，在方向上显示全球组合贸易的风险分散需求；但其本身既不能证明霍尔木兹运输恢复，也不代表2026年新增产量。[E05](https://www.marketscreener.com/news/cheniere-signs-long-term-sale-and-purchase-agreements-to-supply-qatarenergy-with-lng-through-2054-ce785cdedb8bff22) [E07](https://www.reuters.com/business/energy/qatarenergy-talks-with-venture-global-buy-lng-long-term-supply-deal-sources-say-2026-10-22/) 路透对沙特阿美达兰总部撤离的报道提升了油气运营与人员安全的关注级别，但没有充分证据证明主要出口码头全线停摆。[E09](https://www.reuters.com/world/middle-east/saudi-aramco-tells-staff-evacuate-dhahran-headquarters-sources-say-2026-10-22/) 实际原油和LNG供给风险仍应由港口装船、跨区到港、炼厂开工、库存和保险报价构成交叉核验，而非简单使用地缘新闻强弱判断交付量。
 
 <!-- MODULE:RESEARCH_TRIGGER_BOARD -->
 ## 7. Research Trigger Board
