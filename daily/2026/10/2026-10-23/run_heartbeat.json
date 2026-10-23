@@ -5,10 +5,23 @@
   "window_end": "2026-10-23T10:00:00+08:00",
   "run_started_at": "2026-10-23T05:38:28.159Z",
   "execution_mode": "BOUNDED_INTERACTIVE_RECOVERY",
-  "scheduled_run_status": "ORIGINAL_10_15_UNATTENDED_RUN_TRIGGERED_NO_DURABLE_HEARTBEAT_OR_PRODUCT",
-  "status": "RUN_STARTED_BEFORE_PREFLIGHT",
+  "scheduled_run_status": "ORIGINAL_10_15_TRIGGERED_NO_DURABLE_HEARTBEAT_OR_PRODUCT__INTERACTIVE_RECOVERY",
+  "status": "PRODUCER_SUCCESS_CANDIDATES_PENDING_WORK",
   "recovery_source": "USER_AUTHORIZED_INTERACTIVE_CHAT_2026_10_23",
-  "formal_status": "NOT_FORMALLY_CONSUMED_BY_WORK",
+  "formal_status": "PENDING_WORK_RECONCILIATION",
   "canonical_mutation_performed": false,
-  "site_mutation_performed": false
+  "site_mutation_performed": false,
+  "run_completed_at": "2026-10-23T05:48:33.243Z",
+  "products_repaired_or_produced": [
+    "Daily 2026-10-23"
+  ],
+  "producer_recovery_queue_remaining": [],
+  "queue_for_12_30_work": [
+    "Daily 2026-10-23"
+  ],
+  "post_run_self_audit_status": "PASS__FOUR_PRODUCT_FILES_READBACK__EXACT_SOURCE_IDENTITY_10_OF_10__INLINE_CITATION_10_OF_10__DYNAMIC_V4_PRECHECK__STRICT_V2_LEDGER_43_COLUMNS",
+  "github_write_status": "PASS",
+  "github_readback_status": "PASS__FIVE_DURABLE_ASSETS",
+  "failure_stage": "NONE_AFTER_INTERACTIVE_RECOVERY",
+  "failure_reason": "ORIGINAL_10_15_UNATTENDED_TRIGGER_DID_NOT_PERSIST_HEARTBEAT_OR_ANY_PRODUCT; BOUNDED_INTERACTIVE_RESUMPTION_NOT_UNATTENDED_SUCCESS"
 }
