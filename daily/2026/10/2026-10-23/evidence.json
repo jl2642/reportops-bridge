@@ -63,7 +63,7 @@
     {
       "id": "E03",
       "claim_id": "D20261023-C003",
-      "claim_type": "PRICE",
+      "claim_type": "MARKET_DATA",
       "claim_role": "MATERIAL",
       "publisher": "Reuters",
       "title": "Asia buys more LNG despite surging prices, El Nino clouds outlook",
@@ -125,7 +125,7 @@
     {
       "id": "E05",
       "claim_id": "D20261023-C005",
-      "claim_type": "CORPORATE",
+      "claim_type": "OPERATIONS",
       "claim_role": "MATERIAL",
       "publisher": "Business Wire",
       "title": "Cheniere Signs Long-Term Sale and Purchase Agreements to Supply QatarEnergy with LNG through 2054",
@@ -147,12 +147,12 @@
         "title_match_status": "EXACT",
         "verified_at": "2026-10-23T05:45:24.318Z"
       },
-      "publication_time_precision": "PUBLISHER_STATED_09_02_EDT"
+      "publication_time_precision": "PUBLISHER_POSTED_LOCAL_TIME"
     },
     {
       "id": "E06",
       "claim_id": "D20261023-C006",
-      "claim_type": "CONTRACT",
+      "claim_type": "OPERATIONS",
       "claim_role": "MATERIAL",
       "publisher": "Business Wire",
       "title": "Cheniere Signs Long-Term Sale and Purchase Agreements to Supply QatarEnergy with LNG through 2054",
@@ -174,12 +174,12 @@
         "title_match_status": "EXACT",
         "verified_at": "2026-10-23T05:45:24.318Z"
       },
-      "publication_time_precision": "PUBLISHER_STATED_09_02_EDT"
+      "publication_time_precision": "PUBLISHER_POSTED_LOCAL_TIME"
     },
     {
       "id": "E07",
       "claim_id": "D20261023-C007",
-      "claim_type": "CONTRACT",
+      "claim_type": "OPERATIONS",
       "claim_role": "MATERIAL",
       "publisher": "Reuters",
       "title": "QatarEnergy in talks with Venture Global to buy LNG in long term supply deal, sources say",
@@ -260,7 +260,7 @@
     {
       "id": "E10",
       "claim_id": "D20261023-C010",
-      "claim_type": "SECURITY",
+      "claim_type": "OPERATIONS",
       "claim_role": "MATERIAL",
       "publisher": "Reuters",
       "title": "Saudi Aramco tells staff to evacuate Dhahran headquarters, sources say",
