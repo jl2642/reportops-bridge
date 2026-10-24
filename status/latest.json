@@ -194,7 +194,7 @@
     "Daily 2026-10-08 bounded interactive candidate recovery"
   ],
   "github_write_status": "PASS",
-  "github_readback_status": "PENDING_FINAL_READBACK",
+  "github_readback_status": "PASS_MANIFEST_STATUS_CURRENT_PUBLIC_DEPLOYMENT_STATE_READBACK",
   "concurrency_reconciliation": {
     "detected": true,
     "issue": "LATE_HEARTBEAT_STALE_STATUS_OVERWRITE_FROM_IN_FLIGHT_10_15_RUN",
@@ -244,9 +244,9 @@
       "2026-10-23": "41c004caa4bd23d652a7ce8f86c82083e7cc8df0413bad5fd16e27a75fe21c61",
       "2026-10-24": "41c004caa4bd23d652a7ce8f86c82083e7cc8df0413bad5fd16e27a75fe21c61"
     },
-    "status": "PASS_POST_REBUILD_FOUR_WAY_MATCH"
+    "status": "PASS_POST_REBUILD_FOUR_WAY_MATCH_READBACK"
   },
-  "runtime_sync_status": "PASS_POST_REBUILD_AUTHORITY_SHA_FOUR_WAY_MATCH_PENDING_READBACK",
+  "runtime_sync_status": "PASS_POST_REBUILD_AUTHORITY_SHA_FOUR_WAY_MATCH_READBACK",
   "recovery_provenance_2026_10_02": {
     "mode": "BOUNDED_INTERACTIVE_CONTINUITY_RECOVERY",
     "original_scheduled_run_observed": true,
