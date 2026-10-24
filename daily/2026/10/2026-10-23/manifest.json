@@ -5,8 +5,8 @@
   "window_end": "2026-10-23T10:00:00+08:00",
   "scheduled_for": "2026-10-23T10:15:00+08:00",
   "producer_status": "PUBLIC_CORE_ACCEPTED",
-  "product_status": "PUBLIC_CORE_ACCEPTED_PENDING_WORK",
-  "formal_status": "PENDING_WORK_RECONCILIATION",
+  "product_status": "FORMAL_CANONICAL_PUBLISHED",
+  "formal_status": "FORMAL_CANONICAL_PUBLISHED",
   "scheduled_run_status": "ORIGINAL_10_15_TRIGGERED_NO_DURABLE_ARTIFACT__BOUNDED_INTERACTIVE_RECOVERY",
   "continuity_classification": "ZERO_DURABLE_PRODUCT_INTERACTIVE_RECOVERY",
   "mode": "BOUNDED_INTERACTIVE_RECOVERY_NOT_SCHEDULED_SUCCESS",
@@ -36,15 +36,15 @@
   "signal_card_count": 4,
   "evidence_record_count": 10,
   "source_url_count_distinct": 4,
-  "canonical_mutation_performed": false,
-  "site_mutation_performed": false,
+  "canonical_mutation_performed": true,
+  "site_mutation_performed": true,
   "work_may_rewrite": false,
   "producer_self_audit_status": "PASS__V4_AUTHORITY_EXACT_COUNTS__INLINE_SOURCE_IDENTITY__POST_PUBLIC_INTRO_CLEANUP",
-  "consumer_status": "NOT_RUN__REQUIRES_WORK_FORMAL_GATES",
-  "reader_validation_status": "NOT_RUN__WORK_ONLY",
-  "lineage_status": "NOT_RUN__WORK_ONLY",
-  "quality_validation_status": "NOT_RUN__WORK_ONLY",
-  "state_validation_status": "NOT_RUN__WORK_ONLY",
+  "consumer_status": "PASS__FORMAL_CANONICAL_PUBLISHED",
+  "reader_validation_status": "PASS_13_OF_13",
+  "lineage_status": "PASS_COMMITTED",
+  "quality_validation_status": "PASS_84_B_PLUS_FORMAL_BASELINE",
+  "state_validation_status": "PASS__CANONICAL_HISTORY",
   "authority_package_sha256_at_preflight": "8dcb0302dda8b0e331ee3b78e0a4c56c7bddd30ccb07f61af195a69fa1efb0f4",
   "warnings": [
     "CJK_ABOVE_V4_TARGET_2200_3500_NONBLOCKING",
@@ -58,7 +58,7 @@
     "MEASUREMENTS_ALIGNED_TO_AUTHORITY_MODULE_H2_BODY_V4",
     "PUBLIC_OPERATIONAL_PROVENANCE_RETAINED_IN_HEARTBEAT_AND_MANIFEST_NOT_IN_PUBLIC_RESEARCH_PROSE"
   ],
-  "next_work_action": "READY_FOR_12_30_WORK_FORMAL_QUALITY_READER_LINEAGE_STATE_SITE_GATES__OLDEST_FIRST",
+  "next_work_action": "IDEMPOTENT_SKIP__FORMAL_CANONICAL_AND_SITE_PUBLISHED",
   "producer_acceptance_completed_at": "2026-10-23T05:47:59.668Z",
   "provenance": {
     "scheduled_heartbeat_path": "daily/2026/10/2026-10-23/run_heartbeat.json",
@@ -67,7 +67,34 @@
     "bounded_interactive_resumption": true,
     "unattended_reliability_accepted": false,
     "authority_at_production": "8dcb0302dda8b0e331ee3b78e0a4c56c7bddd30ccb07f61af195a69fa1efb0f4",
-    "site_version_at_production": 106
+    "site_version_at_production": 106,
+    "producer_status_at_handoff": "PUBLIC_CORE_ACCEPTED",
+    "producer_product_status_at_handoff": "PUBLIC_CORE_ACCEPTED_PENDING_WORK",
+    "producer_formal_status_at_handoff": "PENDING_WORK_RECONCILIATION",
+    "producer_authority_sha256": "8dcb0302dda8b0e331ee3b78e0a4c56c7bddd30ccb07f61af195a69fa1efb0f4",
+    "consumer_pre_rebuild_authority_sha256": "8dcb0302dda8b0e331ee3b78e0a4c56c7bddd30ccb07f61af195a69fa1efb0f4",
+    "final_post_rebuild_authority_sha256": "41c004caa4bd23d652a7ce8f86c82083e7cc8df0413bad5fd16e27a75fe21c61"
   },
-  "producer_readback_completed_at": "2026-10-23T06:37:23.135Z"
+  "producer_readback_completed_at": "2026-10-23T06:37:23.135Z",
+  "canonical_promotion_performed": true,
+  "site_publication_performed": true,
+  "authority_package_sha256": "41c004caa4bd23d652a7ce8f86c82083e7cc8df0413bad5fd16e27a75fe21c61",
+  "consumer_authority_identity": {
+    "authority_package_sha256": "41c004caa4bd23d652a7ce8f86c82083e7cc8df0413bad5fd16e27a75fe21c61",
+    "library_sidecar_sha256": "41c004caa4bd23d652a7ce8f86c82083e7cc8df0413bad5fd16e27a75fe21c61",
+    "identity_status": "PASS_POST_REBUILD_FOUR_WAY_MATCH_PENDING_READBACK"
+  },
+  "site_version": 107,
+  "public_site_status": "PASS_V107_REMOTE_READBACK",
+  "site_remote_readback_status": "PASS_REAL_LIVE_ORIGIN_V107",
+  "consumer_actuals": {
+    "source_identity_records": 10,
+    "inline_external_records": 10,
+    "evidence_records": 10,
+    "cjk_characters": 3767,
+    "reader_checks": 13,
+    "score": 84,
+    "grade": "B_PLUS_FORMAL_BASELINE",
+    "weekly_eligibility": "CONDITIONAL"
+  }
 }
