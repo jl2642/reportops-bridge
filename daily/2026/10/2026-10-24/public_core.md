@@ -11,7 +11,7 @@ language: zh-CN
 <!-- MODULE:EXECUTIVE_SIGNAL_SUMMARY -->
 ## 1. 今日一屏结论
 
-本窗口最值得关注的不是单一油价点位，而是**天然气冬季保供成本、美国LNG长期合约锁定与海上运输安全风险同步抬升**。德国天然气市场协调机构为2027年第一季度备用气源招标支付近2.45亿欧元，反映低库存条件下保供期权的显性成本；同期，卡塔尔能源公司与美国液化项目的采购布局出现“已签约”和“仍在谈判”两种不同证据状态，必须严格区分。[E03](https://www.reuters.com/business/energy/germany-secures-extra-winter-gas-supplies-storage-levels-lag-2026-10-23/) [E04](https://www.tradinghub.eu/de-de/Wir/Newsroom/News/ArtMID/2539/ArticleID/294/Pressemitteilung) [E01](https://lngir.cheniere.com/news-events/press-releases/detail/348/cheniere-signs-long-term-sale-and-purchase-agreements-to) [E02](https://www.reuters.com/business/energy/top-lng-exporter-qatarenergy-talks-buy-us-lng-woodsides-louisiana-plant-2026-10-23/)
+本窗口最值得关注的不是单一油价点位，而是**天然气冬季保供成本、美国LNG长期合约锁定与海上运输安全风险同步抬升**。德国天然气市场协调机构为2027年第一季度备用气源招标支付近2.45亿欧元，反映低库存条件下保供期权的显性成本；同期，卡塔尔能源公司与美国液化项目的采购布局出现“已签约”和“仍在谈判”两种不同证据状态，必须严格区分。[E03](https://www.reuters.com/business/energy/germany-secures-extra-winter-gas-supplies-storage-levels-lag-2026-10-23/) [E04](https://www.reuters.com/business/energy/germany-secures-extra-winter-gas-supplies-storage-levels-lag-2026-10-23/) [E01](https://www.reuters.com/business/energy/top-lng-exporter-qatarenergy-talks-buy-us-lng-woodsides-louisiana-plant-2026-10-23/) [E02](https://www.reuters.com/business/energy/top-lng-exporter-qatarenergy-talks-buy-us-lng-woodsides-louisiana-plant-2026-10-23/)
 
 中国方面，公开报道显示国家能源局要求油气企业扩大产能、加快战略供给基地建设，属于国内供给韧性政策信号，并不等于本周即有新增天然气产量。霍尔木兹及邻近水域10月船舶遇袭报告增加，意味着运费、保险、交付可靠性仍需单独监控；未取得同口径当日JKM、TTF、LPG CP和航运保费完整序列，不把跨市场报价拼接成确定价差。[E05](https://www.reuters.com/business/energy/china-calls-oil-gas-firms-boost-output-build-strategic-supply-bases-2026-10-23/) [E06](https://www.reuters.com/business/energy/ship-attacks-strait-hormuz-hit-record-high-october-2026-10-23/)
 
@@ -19,20 +19,20 @@ language: zh-CN
 ## 2. 今日关键信号
 
 ### 信号卡1｜美国LNG长协：已签4百万吨/年与另议3百万吨/年不能混为一谈
-- 事实摘要：Cheniere在10月22日美国东部时间09:00公布与QatarEnergy签署合计400万吨/年LNG购销协议，Sabine Pass与Corpus Christi各200万吨/年，FOB交付、Henry Hub挂钩加固定费，交付始于2030年代初并持续至2054年；其中Sabine Pass的100万吨/年仍取决于扩建项目最终投资决定。10月23日路透又披露QatarEnergy与Woodside就路易斯安那项目最多300万吨/年、可能15—20年采购进行磋商，**尚非已签协议**。[E01](https://lngir.cheniere.com/news-events/press-releases/detail/348/cheniere-signs-long-term-sale-and-purchase-agreements-to) [E02](https://www.reuters.com/business/energy/top-lng-exporter-qatarenergy-talks-buy-us-lng-woodsides-louisiana-plant-2026-10-23/)
+- 事实摘要：路透10月23日报道Cheniere已与QatarEnergy达成合计400万吨/年LNG长期供应协议，Sabine Pass与Corpus Christi各200万吨/年；本轮窗口内报道未提供完整交付与定价条款。10月23日路透又披露QatarEnergy与Woodside就路易斯安那项目最多300万吨/年、可能15—20年采购进行磋商，**尚非已签协议**。[E01](https://www.reuters.com/business/energy/top-lng-exporter-qatarenergy-talks-buy-us-lng-woodsides-louisiana-plant-2026-10-23/) [E02](https://www.reuters.com/business/energy/top-lng-exporter-qatarenergy-talks-buy-us-lng-woodsides-louisiana-plant-2026-10-23/)
 - 为什么重要：前者已锁定合同关系，后者只是供给组合再配置的潜在选项；两者对美国液化项目的可融资性和未来可售产能影响不同。
-- 价格/供需/产业链传导：FOB加Henry Hub指数使买方承担部分美国原料气价格与后续运输敞口；路透提到Woodside项目液化收费意向高于2.50美元/百万英热单位，属消息人士报价口径，不能当作市场成交价或项目确定利润率。[E02](https://www.reuters.com/business/energy/top-lng-exporter-qatarenergy-talks-buy-us-lng-woodsides-louisiana-plant-2026-10-23/)
+- 价格/供需/产业链传导：已签协议的价格指数与交货条款在本轮来源中未得到完整核证；路透提到Woodside项目液化收费意向高于2.50美元/百万英热单位，属消息人士报价口径，不能当作市场成交价或项目确定利润率。[E02](https://www.reuters.com/business/energy/top-lng-exporter-qatarenergy-talks-buy-us-lng-woodsides-louisiana-plant-2026-10-23/)
 - 影响对象：美国液化项目、长期采购方、航运安排方及信用支持机构。
-- 证据边界：Cheniere公告是一手签约证据；Woodside交易为媒体引述匿名知情人士，未见双方正式确认。
-- 下一步验证：追踪Woodside正式披露、Sabine Pass扩建FID及两项协议生效条件。
+- 证据边界：路透明确报道Cheniere长协已经达成；Woodside交易仍为媒体引述匿名知情人士，未见双方正式确认。
+- 下一步验证：追踪Woodside正式披露、已签长协的具体交付条款与项目建设节点。
 - 反证条件：谈判终止、项目延期或融资/许可条件无法满足。
 
 ### 信号卡2｜德国保供期权：低库存正转化为可量化的备用成本
-- 事实摘要：德国市场协调机构Trading Hub Europe公布2027年第一季度长期选项及特别招标结果，合计获授79,200 MW容量，成本近2.45亿欧元；路透披露其中2—3月特别招标约1.07亿欧元、常规招标约1.37亿欧元，德国10月21日储气率61.1%，低于去年同期75.4%。[E04](https://www.tradinghub.eu/de-de/Wir/Newsroom/News/ArtMID/2539/ArticleID/294/Pressemitteilung) [E03](https://www.reuters.com/business/energy/germany-secures-extra-winter-gas-supplies-storage-levels-lag-2026-10-23/)
+- 事实摘要：德国市场协调机构路透10月23日报道德国Trading Hub Europe为2027年第一季度备用气源招标支付近2.45亿欧元，其中2—3月特别招标约1.07亿欧元、常规招标约1.37亿欧元；德国10月21日储气率61.1%，低于去年同期75.4%。[E04](https://www.reuters.com/business/energy/germany-secures-extra-winter-gas-supplies-storage-levels-lag-2026-10-23/) [E03](https://www.reuters.com/business/energy/germany-secures-extra-winter-gas-supplies-storage-levels-lag-2026-10-23/)
 - 为什么重要：与其只看库存百分比，更应看市场愿意为可调用气源支付多少期权费；这是冬季供应弹性不足的成本信号，但不能把招标成本直接当作新增天然气采购额。
 - 价格/供需/产业链传导：备用能力锁定可能提高可用气源的机会成本；若低温与供应受扰并发，欧洲现货采购竞争可能外溢到全球LNG货流。
 - 影响对象：欧洲储气运营商、管网平衡主体、LNG现货采购者和灵活目的地卖方。
-- 证据边界：79,200 MW是招标容量功率口径，不是可直接换算为万吨LNG的实际交付量；61.1%为10月21日库存观察值。
+- 证据边界：招标费用不是可直接换算为万吨LNG的实际交付量；61.1%为10月21日库存观察值。
 - 下一步验证：跟踪欧洲实际库存变动、招标执行与冬季天气路径。
 - 反证条件：气温持续温和、进口增量充足或实际提取需求显著低于预期。
 
@@ -57,14 +57,14 @@ language: zh-CN
 <!-- MODULE:MARKET_AND_EVENT_DELTA -->
 ## 3. 市场与事件增量
 
-本窗口形成三条相互关联的线索：一是卡塔尔采购组合从临时现货补位向更长周期合同寻求确定性，但仅Cheniere的400万吨/年有企业公告支持，Woodside的最多300万吨/年仍处谈判；二是欧洲用备用气源招标把低库存压力转化为显性支出；三是中东海上安全事件使“合同有货”和“货能按期送达”成为两个需要分别检验的问题。[E01](https://lngir.cheniere.com/news-events/press-releases/detail/348/cheniere-signs-long-term-sale-and-purchase-agreements-to) [E02](https://www.reuters.com/business/energy/top-lng-exporter-qatarenergy-talks-buy-us-lng-woodsides-louisiana-plant-2026-10-23/) [E03](https://www.reuters.com/business/energy/germany-secures-extra-winter-gas-supplies-storage-levels-lag-2026-10-23/) [E06](https://www.reuters.com/business/energy/ship-attacks-strait-hormuz-hit-record-high-october-2026-10-23/)
+本窗口形成三条相互关联的线索：一是卡塔尔采购组合从临时现货补位向更长周期合同寻求确定性，但Cheniere的400万吨/年有路透明确报道已签约，Woodside的最多300万吨/年仍处谈判；二是欧洲用备用气源招标把低库存压力转化为显性支出；三是中东海上安全事件使“合同有货”和“货能按期送达”成为两个需要分别检验的问题。[E01](https://www.reuters.com/business/energy/top-lng-exporter-qatarenergy-talks-buy-us-lng-woodsides-louisiana-plant-2026-10-23/) [E02](https://www.reuters.com/business/energy/top-lng-exporter-qatarenergy-talks-buy-us-lng-woodsides-louisiana-plant-2026-10-23/) [E03](https://www.reuters.com/business/energy/germany-secures-extra-winter-gas-supplies-storage-levels-lag-2026-10-23/) [E06](https://www.reuters.com/business/energy/ship-attacks-strait-hormuz-hit-record-high-october-2026-10-23/)
 
 此外，路透报道美国能源部批准最多40万桶战略石油储备原油的紧急交换，用于缓解路易斯安那州Lake Charles炼厂临时交付中断。该数量是单一炼厂应急措施上限，不是对全球原油供需缺口的直接测量，也不是天然气库存释放。[E08](https://www.reuters.com/business/energy/us-authorizes-emergency-release-up-400000-oil-barrels-strategic-reserve-2026-10-23/)
 
 <!-- MODULE:PRICE_AND_SPREAD_DELTA -->
 ## 4. 价格与价差增量
 
-本窗口可核实的价格相关信息主要是**合同定价结构和特定市场成本**，而不是完整同日现货曲线。Cheniere新签LNG合同采用Henry Hub指数加固定费用、FOB交付；Woodside项目超过2.50美元/百万英热单位的液化费只是路透引述的谈判意向，既不是已签SPA价格，也不是到岸JKM。德国2.45亿欧元为保供选项招标总成本，不应除以未知交付气量得出虚假的欧元/兆瓦时采购价。[E01](https://lngir.cheniere.com/news-events/press-releases/detail/348/cheniere-signs-long-term-sale-and-purchase-agreements-to) [E02](https://www.reuters.com/business/energy/top-lng-exporter-qatarenergy-talks-buy-us-lng-woodsides-louisiana-plant-2026-10-23/) [E04](https://www.tradinghub.eu/de-de/Wir/Newsroom/News/ArtMID/2539/ArticleID/294/Pressemitteilung)
+本窗口可核实的价格相关信息主要是**合同定价结构和特定市场成本**，而不是完整同日现货曲线。本轮报道确认Cheniere的已签合同年量，但未提供可独立核证的完整定价与交货条款；Woodside项目超过2.50美元/百万英热单位的液化费只是路透引述的谈判意向，既不是已签SPA价格，也不是到岸JKM。德国2.45亿欧元为保供选项招标总成本，不应除以未知交付气量得出虚假的欧元/兆瓦时采购价。[E01](https://www.reuters.com/business/energy/top-lng-exporter-qatarenergy-talks-buy-us-lng-woodsides-louisiana-plant-2026-10-23/) [E02](https://www.reuters.com/business/energy/top-lng-exporter-qatarenergy-talks-buy-us-lng-woodsides-louisiana-plant-2026-10-23/) [E04](https://www.reuters.com/business/energy/germany-secures-extra-winter-gas-supplies-storage-levels-lag-2026-10-23/)
 
 原油区域价差方面，路透10月23日文章引用10月22日Brent-Dubai价差为5.05美元/桶，并称部分远东ESPO原油远期货盘相对ICE Brent的报价升水超过25美元/桶；后者是贸易商报盘，不等于实际成交。由于报价基准、装期和交货地不同，本日报不计算跨品种套利利润。[E07](https://www.reuters.com/business/energy/russian-espo-oil-sellers-seek-record-premiums-gulf-exports-uncertain-2026-10-23/)
 
@@ -78,7 +78,7 @@ language: zh-CN
 <!-- MODULE:GLOBAL_ENERGY_DELTA -->
 ## 6. 国际油气 / LNG增量
 
-全球天然气观察重点是欧洲冬季可用库存与美国新增出口能力之间的时间错配：德国已经为2027年第一季度的备用能力支付费用，而Cheniere长协交付要到2030年代初才开始，不能把长期美国新增合同视为今年冬季的即时增量。[E03](https://www.reuters.com/business/energy/germany-secures-extra-winter-gas-supplies-storage-levels-lag-2026-10-23/) [E01](https://lngir.cheniere.com/news-events/press-releases/detail/348/cheniere-signs-long-term-sale-and-purchase-agreements-to)
+全球天然气观察重点是欧洲冬季可用库存与美国新增出口能力之间的时间错配：德国已经为2027年第一季度的备用能力支付费用，而美国新签长期合同的实际起始交付时间仍需核对正式合同公告，不能把新增合同视为今年冬季的即时增量。[E03](https://www.reuters.com/business/energy/germany-secures-extra-winter-gas-supplies-storage-levels-lag-2026-10-23/) [E01](https://www.reuters.com/business/energy/top-lng-exporter-qatarenergy-talks-buy-us-lng-woodsides-louisiana-plant-2026-10-23/)
 
 海运方面，霍尔木兹附近袭击事件频度上升会放大航运不确定性，是否构成LNG交付量损失还须查船舶类型、实际绕航、装卸港和延误天数。原油端美国对单一炼厂进行战略储备交换，是局部供应链修复信号，不足以抵消整体地缘风险，也不能作为天然气价格方向的独立预测依据。[E06](https://www.reuters.com/business/energy/ship-attacks-strait-hormuz-hit-record-high-october-2026-10-23/) [E08](https://www.reuters.com/business/energy/us-authorizes-emergency-release-up-400000-oil-barrels-strategic-reserve-2026-10-23/)
 
@@ -92,14 +92,14 @@ language: zh-CN
 <!-- MODULE:INDUSTRY_CHAIN_AND_OPERATOR_EXPOSURE -->
 ## 8. 产业链与经营主体影响（Public-safe）
 
-上游资源方可能因供应安全诉求获得更强的长期合同议价机会，但项目经济性依旧取决于产能兑现、气价和融资成本。液化厂与出口终端的长期SPA可提升现金流可见度，然而未完成FID的扩建容量不应视为已锁定的可交付产能。买方若采用Henry Hub挂钩FOB合同，还需自行管理原料气指数波动、船运与到岸再销售之间的基差。[E01](https://lngir.cheniere.com/news-events/press-releases/detail/348/cheniere-signs-long-term-sale-and-purchase-agreements-to)
+上游资源方可能因供应安全诉求获得更强的长期合同议价机会，但项目经济性依旧取决于产能兑现、气价和融资成本。液化厂与出口终端的长期SPA可提升现金流可见度，然而未完成FID的扩建容量不应视为已锁定的可交付产能。一般而言，买方若采用FOB或指数挂钩合同，还需管理原料气、船运与到岸再销售之间的基差；本轮不对新签合同作未经核证的条款推断。[E01](https://www.reuters.com/business/energy/top-lng-exporter-qatarenergy-talks-buy-us-lng-woodsides-louisiana-plant-2026-10-23/)
 
 中游运输方对高风险航道的保险和船期安排更加敏感；下游欧洲用户面对库存偏低和备用气源费用，需在价格锁定、需求响应与储气安排间权衡。中国工业用户与接收站则应区分国内气源、管道气和进口LNG的实际到厂总成本，不宜因某一国际新闻就统一调整采购价。以上均为公开行业机制分析，不涉及任何企业内部经营数据。[E03](https://www.reuters.com/business/energy/germany-secures-extra-winter-gas-supplies-storage-levels-lag-2026-10-23/) [E06](https://www.reuters.com/business/energy/ship-attacks-strait-hormuz-hit-record-high-october-2026-10-23/) [E05](https://www.reuters.com/business/energy/china-calls-oil-gas-firms-boost-output-build-strategic-supply-bases-2026-10-23/)
 
 <!-- MODULE:EVIDENCE_AND_GAPS -->
 ## 9. 证据、数据缺口、风险与反证
 
-**直接证据**：Cheniere正式公告确认400万吨/年SPA及FOB/Henry Hub条款；THE公告确认招标容量与成本。**媒体报道**：德国库存率、QatarEnergy与Woodside谈判、航运袭击数量、中国政策会议与ESPO报盘，均按报道来源和证据强度使用。**分析判断**：库存偏低可能提高现货争夺、航运风险可能抬升到岸成本，属于条件推断而非已测算价差。[E01](https://lngir.cheniere.com/news-events/press-releases/detail/348/cheniere-signs-long-term-sale-and-purchase-agreements-to) [E04](https://www.tradinghub.eu/de-de/Wir/Newsroom/News/ArtMID/2539/ArticleID/294/Pressemitteilung) [E02](https://www.reuters.com/business/energy/top-lng-exporter-qatarenergy-talks-buy-us-lng-woodsides-louisiana-plant-2026-10-23/) [E06](https://www.reuters.com/business/energy/ship-attacks-strait-hormuz-hit-record-high-october-2026-10-23/)
+**窗口内媒体报道**：路透确认Cheniere已达成400万吨/年长协，并报道德国备用气源招标成本、QatarEnergy与Woodside谈判、航运袭击数量、中国政策会议与ESPO报盘；具体合同定价条款与招标容量尚待进一步核对，不把此前窗口发布的公告当作本轮新增事实。**分析判断**：库存偏低可能提高现货争夺、航运风险可能抬升到岸成本，属于条件推断而非已测算价差。[E01](https://www.reuters.com/business/energy/top-lng-exporter-qatarenergy-talks-buy-us-lng-woodsides-louisiana-plant-2026-10-23/) [E04](https://www.reuters.com/business/energy/germany-secures-extra-winter-gas-supplies-storage-levels-lag-2026-10-23/) [E02](https://www.reuters.com/business/energy/top-lng-exporter-qatarenergy-talks-buy-us-lng-woodsides-louisiana-plant-2026-10-23/) [E06](https://www.reuters.com/business/energy/ship-attacks-strait-hormuz-hit-record-high-october-2026-10-23/)
 
 **数据缺口**：没有通过本轮同口径验证的JKM、TTF、Henry Hub、Brent日度完整收盘序列，也没有中国LNG槽批成交、LPG CP、LNG/LPG运价与保险费同日可比数据。不得把过往报价或非同交割期数值补成“今日价差”。**反证**：温和天气、航道风险下降、美国液化项目延期及国内需求弱于预期，均可能使上述风险传导弱化。[E03](https://www.reuters.com/business/energy/germany-secures-extra-winter-gas-supplies-storage-levels-lag-2026-10-23/) [E06](https://www.reuters.com/business/energy/ship-attacks-strait-hormuz-hit-record-high-october-2026-10-23/)
 
@@ -110,10 +110,10 @@ language: zh-CN
 
 ## Public Sources
 
-- [E01] Cheniere，2026-10-22 09:00 EDT，QatarEnergy 4 mtpa LNG SPA：https://lngir.cheniere.com/news-events/press-releases/detail/348/cheniere-signs-long-term-sale-and-purchase-agreements-to
+- [E01] Reuters，2026-10-23 18:06 UTC，报道Cheniere已达成4 mtpa长协：https://www.reuters.com/business/energy/top-lng-exporter-qatarenergy-talks-buy-us-lng-woodsides-louisiana-plant-2026-10-23/
 - [E02] Reuters，2026-10-23 18:06 UTC，Woodside谈判：https://www.reuters.com/business/energy/top-lng-exporter-qatarenergy-talks-buy-us-lng-woodsides-louisiana-plant-2026-10-23/
 - [E03] Reuters，2026-10-23 17:42 UTC，德国保供：https://www.reuters.com/business/energy/germany-secures-extra-winter-gas-supplies-storage-levels-lag-2026-10-23/
-- [E04] Trading Hub Europe，2026-10-23，LTO及特别招标结果：https://www.tradinghub.eu/de-de/Wir/Newsroom/News/ArtMID/2539/ArticleID/294/Pressemitteilung
+- [E04] Reuters，2026-10-23 17:42 UTC，报道德国备用气源招标：https://www.reuters.com/business/energy/germany-secures-extra-winter-gas-supplies-storage-levels-lag-2026-10-23/
 - [E05] Reuters，2026-10-23 13:25 UTC，中国油气供给基地：https://www.reuters.com/business/energy/china-calls-oil-gas-firms-boost-output-build-strategic-supply-bases-2026-10-23/
 - [E06] Reuters，2026-10-23 14:58 UTC，霍尔木兹船舶袭击：https://www.reuters.com/business/energy/ship-attacks-strait-hormuz-hit-record-high-october-2026-10-23/
 - [E07] Reuters，2026-10-23 11:55 UTC，ESPO对华升水：https://www.reuters.com/business/energy/russian-espo-oil-sellers-seek-record-premiums-gulf-exports-uncertain-2026-10-23/
