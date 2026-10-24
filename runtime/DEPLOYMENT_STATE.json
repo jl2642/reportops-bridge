@@ -55,13 +55,13 @@
       "2026-10-23": "41c004caa4bd23d652a7ce8f86c82083e7cc8df0413bad5fd16e27a75fe21c61",
       "2026-10-24": "41c004caa4bd23d652a7ce8f86c82083e7cc8df0413bad5fd16e27a75fe21c61"
     },
-    "status": "PASS_POST_REBUILD_FOUR_WAY_MATCH"
+    "status": "PASS_POST_REBUILD_FOUR_WAY_MATCH_READBACK"
   },
   "current_daily_canonical": "2026-10-24",
   "current_package_site_publication_performed": true,
   "public_remote_readback": "PASS_REAL_LIVE_ORIGIN_CONTENT_V107",
   "library_sidecar_sha256": "41c004caa4bd23d652a7ce8f86c82083e7cc8df0413bad5fd16e27a75fe21c61",
-  "runtime_sync_status": "PASS_POST_REBUILD_AUTHORITY_SHA_FOUR_WAY_MATCH_PENDING_READBACK",
+  "runtime_sync_status": "PASS_POST_REBUILD_AUTHORITY_SHA_FOUR_WAY_MATCH_READBACK",
   "manual_intervention_required": false,
   "failure_stage": null,
   "failure_reason": null,
@@ -189,7 +189,7 @@
   "public_daily_2026_10_20_download_sha256": "eff0aea490394b68ccc6b197b849765dea9b89705a11b10f628999002742381d",
   "public_weekly_2026_w42_download_sha256": "4e56847cd56500b9c8b0504964b8e04990fdd5d2e21e9c6f946dbe1ddb4634df",
   "github_role": "PUBLIC_SAFE_BRIDGE",
-  "github_readback_status": "PENDING_FINAL_READBACK",
+  "github_readback_status": "PASS_MANIFEST_STATUS_CURRENT_PUBLIC_DEPLOYMENT_STATE_READBACK",
   "live_site_user_observation_as_of": "2026-10-20T13:24:00+08:00",
   "work_v103_success_receipt_disputed_by_user": true,
   "site_only_corrective_republish_receipt": {
