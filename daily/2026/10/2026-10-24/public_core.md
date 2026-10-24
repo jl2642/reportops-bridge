@@ -21,7 +21,7 @@ language: zh-CN
 ### 信号卡1｜美国LNG长协：已签4百万吨/年与另议3百万吨/年不能混为一谈
 - 事实摘要：路透10月23日报道Cheniere已与QatarEnergy达成合计400万吨/年LNG长期供应协议，Sabine Pass与Corpus Christi各200万吨/年；本轮窗口内报道未提供完整交付与定价条款。10月23日路透又披露QatarEnergy与Woodside就路易斯安那项目最多300万吨/年、可能15—20年采购进行磋商，**尚非已签协议**。[E01](https://www.reuters.com/business/energy/top-lng-exporter-qatarenergy-talks-buy-us-lng-woodsides-louisiana-plant-2026-10-23/) [E02](https://www.reuters.com/business/energy/top-lng-exporter-qatarenergy-talks-buy-us-lng-woodsides-louisiana-plant-2026-10-23/)
 - 为什么重要：前者已锁定合同关系，后者只是供给组合再配置的潜在选项；两者对美国液化项目的可融资性和未来可售产能影响不同。
-- 价格/供需/产业链传导：已签协议的价格指数与交货条款在本轮来源中未得到完整核证；路透提到Woodside项目液化收费意向高于2.50美元/百万英热单位，属消息人士报价口径，不能当作市场成交价或项目确定利润率。[E02](https://www.reuters.com/business/energy/top-lng-exporter-qatarenergy-talks-buy-us-lng-woodsides-louisiana-plant-2026-10-23/)
+- 价格/供需/产业链传导：已签协议的价格指数与交货条款在本轮来源中未得到完整核证；路透提到Woodside项目液化收费意向高于2.50美元/百万英热单位，属消息人士报价口径，不能当作市场成交价或项目确定利润率。[E02](https://www.reuters.com/business/energy/top-lng-exporter-qatarenergy-talks-buy-us-lng-woodsides-louisiana-plant-2026-10-23/) [E11](https://www.reuters.com/business/energy/top-lng-exporter-qatarenergy-talks-buy-us-lng-woodsides-louisiana-plant-2026-10-23/)
 - 影响对象：美国液化项目、长期采购方、航运安排方及信用支持机构。
 - 证据边界：路透明确报道Cheniere长协已经达成；Woodside交易仍为媒体引述匿名知情人士，未见双方正式确认。
 - 下一步验证：追踪Woodside正式披露、已签长协的具体交付条款与项目建设节点。
@@ -37,9 +37,9 @@ language: zh-CN
 - 反证条件：气温持续温和、进口增量充足或实际提取需求显著低于预期。
 
 ### 信号卡3｜霍尔木兹运输风险：事件数量上升不等于已证实货流同幅下降
-- 事实摘要：路透10月23日报道，跟踪海上安全事件的研究人员记录10月霍尔木兹及邻近水域至少28起已确认或报告的商船袭击，自2月底冲突以来共113起；路透根据国际海事组织和船舶资料估算，受损超大型油轮占全球该船型船队约3.5%。不同机构的统计范围和报告完整性并不完全相同。[E06](https://www.reuters.com/business/energy/ship-attacks-strait-hormuz-hit-record-high-october-2026-10-23/)
+- 事实摘要：路透10月23日报道，跟踪海上安全事件的研究人员记录10月霍尔木兹及邻近水域至少28起已确认或报告的商船袭击，自2月底冲突以来共113起；路透根据国际海事组织和船舶资料估算，受损超大型油轮占全球该船型船队约3.5%。不同机构的统计范围和报告完整性并不完全相同。[E06](https://www.reuters.com/business/energy/ship-attacks-strait-hormuz-hit-record-high-october-2026-10-23/) [E15](https://www.reuters.com/business/energy/ship-attacks-strait-hormuz-hit-record-high-october-2026-10-23/)
 - 为什么重要：运输环节的安全风险会通过船舶可得性、航程、保费和信用证交货安排改变货物到岸经济性，不能仅用上游油气报价解释。
-- 价格/供需/产业链传导：报道提到部分湾内装货船舶日租费超过100万美元，这是特定高风险环境下的报价现象，不应外推为所有LNG船或LPG船运费。[E06](https://www.reuters.com/business/energy/ship-attacks-strait-hormuz-hit-record-high-october-2026-10-23/)
+- 价格/供需/产业链传导：报道提到部分湾内装货船舶日租费超过100万美元，这是特定高风险环境下的报价现象，不应外推为所有LNG船或LPG船运费。[E06](https://www.reuters.com/business/energy/ship-attacks-strait-hormuz-hit-record-high-october-2026-10-23/) [E12](https://www.reuters.com/business/energy/ship-attacks-strait-hormuz-hit-record-high-october-2026-10-23/)
 - 影响对象：油轮船东、承租人、炼厂及依赖中东货源的进口商；对LNG和LPG的具体影响仍需船型与航线分开验证。
 - 证据边界：袭击次数含“确认及报告”事件，存在漏报；不能据此断言全部油气运输已中断。
 - 下一步验证：核查海事机构更新、航线船期、保费与不同船型运价。
@@ -66,7 +66,7 @@ language: zh-CN
 
 本窗口可核实的价格相关信息主要是**合同定价结构和特定市场成本**，而不是完整同日现货曲线。本轮报道确认Cheniere的已签合同年量，但未提供可独立核证的完整定价与交货条款；Woodside项目超过2.50美元/百万英热单位的液化费只是路透引述的谈判意向，既不是已签SPA价格，也不是到岸JKM。德国2.45亿欧元为保供选项招标总成本，不应除以未知交付气量得出虚假的欧元/兆瓦时采购价。[E01](https://www.reuters.com/business/energy/top-lng-exporter-qatarenergy-talks-buy-us-lng-woodsides-louisiana-plant-2026-10-23/) [E02](https://www.reuters.com/business/energy/top-lng-exporter-qatarenergy-talks-buy-us-lng-woodsides-louisiana-plant-2026-10-23/) [E04](https://www.reuters.com/business/energy/germany-secures-extra-winter-gas-supplies-storage-levels-lag-2026-10-23/)
 
-原油区域价差方面，路透10月23日文章引用10月22日Brent-Dubai价差为5.05美元/桶，并称部分远东ESPO原油远期货盘相对ICE Brent的报价升水超过25美元/桶；后者是贸易商报盘，不等于实际成交。由于报价基准、装期和交货地不同，本日报不计算跨品种套利利润。[E07](https://www.reuters.com/business/energy/russian-espo-oil-sellers-seek-record-premiums-gulf-exports-uncertain-2026-10-23/)
+原油区域价差方面，路透10月23日文章引用10月22日Brent-Dubai价差为5.05美元/桶，并称部分远东ESPO原油远期货盘相对ICE Brent的报价升水超过25美元/桶；后者是贸易商报盘，不等于实际成交。由于报价基准、装期和交货地不同，本日报不计算跨品种套利利润。[E07](https://www.reuters.com/business/energy/russian-espo-oil-sellers-seek-record-premiums-gulf-exports-uncertain-2026-10-23/) [E13](https://www.reuters.com/business/energy/russian-espo-oil-sellers-seek-record-premiums-gulf-exports-uncertain-2026-10-23/)
 
 <!-- MODULE:CHINA_CHAIN_DELTA -->
 ## 5. 中国天然气 / LNG / LPG产业链增量
