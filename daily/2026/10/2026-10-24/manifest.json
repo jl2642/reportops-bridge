@@ -5,17 +5,17 @@
   "window_end": "2026-10-24T10:00:00+08:00",
   "scheduled_for": "2026-10-24T10:15:00+08:00",
   "cjk_characters_actual": 3618,
-  "executive_cjk_actual": 275,
-  "key_signal_cjk_actual": 1447,
+  "executive_cjk_actual": 269,
+  "key_signal_cjk_actual": 1441,
   "signal_card_cjk_actual": [
-    367,
-    335,
-    380,
-    359
+    364,
+    332,
+    377,
+    356
   ],
-  "china_chain_cjk_actual": 247,
-  "global_energy_cjk_actual": 218,
-  "industry_operator_cjk_actual": 290,
+  "china_chain_cjk_actual": 237,
+  "global_energy_cjk_actual": 212,
+  "industry_operator_cjk_actual": 280,
   "public_contract_sha256": "64770bf24f1280d11060d6a905a659241d5e483109fc8c3e34195a8264fc48f6",
   "authority_policy_sha256": "ed69573e48d0daedd1b899ab2d6cf15880f37705f88b44b1a9d2ca26715f9905",
   "signal_card_count": 4,
@@ -34,14 +34,16 @@
     "BOUNDED_CORRECTION_REMOVED_OFF_WINDOW_CHENIERE_AND_DATE_ONLY_THE_AS_CORE_SOURCES",
     "NO_COMPLETE_SAME_DAY_LNG_LPG_PRICE_AND_FREIGHT_SERIES",
     "WOODSIDE_TALKS_NOT_SIGNED_SPA",
-    "VLCC_TANKER_FREIGHT_NOT_LNG_LPG_VESSEL_FREIGHT"
+    "VLCC_TANKER_FREIGHT_NOT_LNG_LPG_VESSEL_FREIGHT",
+    "MANIFEST_MEASUREMENTS_RECONCILED_WITH_AUTHORITY_V4_H2_BODY_COUNTS",
+    "MATERIAL_CLAIM_INLINE_CITATION_COVERAGE_12_OF_12"
   ],
   "next_work_action": "READY_FOR_12_30_WORK_FORMAL_QUALITY_READER_LINEAGE_STATE_SITE_GATES__OLDEST_FIRST",
   "producer_status": "PUBLIC_CORE_ACCEPTED",
   "product_status": "PUBLIC_CORE_ACCEPTED_PENDING_WORK",
   "formal_status": "PENDING_WORK_RECONCILIATION",
-  "source_identity_gate_status": "PASS_12_OF_12__OPENED_EXACT_DOCUMENT",
-  "inline_citation_gate_status": "PASS_6_OF_6__IN_NARRATIVE_LINKS",
+  "source_identity_gate_status": "PASS_12_OF_12__EXACT_IDENTITY_RECEIPTS_OBSERVED",
+  "inline_citation_gate_status": "PASS_12_OF_12__MATERIAL_CLAIM_LINKS_IN_NARRATIVE",
   "exact_v4_machine_structure_status": "PASS",
   "v4_public_depth_gate_status": "PASS_WITH_NONBLOCKING_ABOVE_TARGET_LENGTH_WARNING",
   "privacy_status": "PASS_PUBLIC_SAFE",
@@ -49,6 +51,6 @@
   "evidence_status": "PASS_12_OF_12",
   "strict_v2_ledger_status": "PASS_12_OF_12__FULL_43_COLUMN_CLAIM_URL_BINDINGS",
   "data_gap_boundary_status": "PASS__PRICE_FREIGHT_AND_CONTRACT_UNCERTAINTY_DISCLOSED",
-  "producer_self_audit_status": "PASS__EXACT_V4_COUNTS__INLINE_SOURCE_IDENTITY__FIXED_WINDOW",
-  "producer_acceptance_completed_at": "2026-10-24T02:19:07.801Z"
+  "producer_self_audit_status": "PASS__V4_COUNT_PARITY__EVIDENCE_12_OF_12_NARRATIVE_CITATION_LINKS__STRICT_V2_LEDGER",
+  "producer_acceptance_completed_at": "2026-10-24T03:39:38.783Z"
 }
