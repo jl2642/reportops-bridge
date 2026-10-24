@@ -2,5 +2,25 @@
   "target_date": "2026-10-24",
   "scheduled_for": "10:15 Asia/Shanghai",
   "run_started_at": "2026-10-24T02:14:20.248Z",
-  "status": "RUN_STARTED_BEFORE_PREFLIGHT"
+  "status": "PRODUCER_SUCCESS_CANDIDATES_PENDING_WORK",
+  "products_repaired_or_produced": [
+    "Daily 2026-10-24"
+  ],
+  "producer_recovery_queue_remaining": [],
+  "queue_for_12_30_work": [
+    "Daily 2026-10-23",
+    "Daily 2026-10-24"
+  ],
+  "post_run_self_audit_status": "PASS__EXACT_V4_COUNTS__SOURCE_IDENTITY__WINDOW__INLINE_CITATIONS",
+  "failure_stage": null,
+  "failure_reason": null,
+  "continuity_classification": {
+    "2026-10-23": "COMPLETE_CANDIDATE_PENDING_WORK__SKIP",
+    "2026-10-24": "ZERO_ARTIFACT__PRODUCED"
+  },
+  "fixed_window_start": "2026-10-23T10:00:00+08:00",
+  "fixed_window_end": "2026-10-24T10:00:00+08:00",
+  "producer_candidates_completed": 1,
+  "manifest_path": "daily/2026/10/2026-10-24/manifest.json",
+  "run_finished_at": "2026-10-24T02:19:16.766Z"
 }
