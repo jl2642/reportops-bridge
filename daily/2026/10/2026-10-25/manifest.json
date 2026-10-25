@@ -32,15 +32,15 @@
     "印尼与新加坡减量及期限口径需继续对账"
   ],
   "producer_status": "PUBLIC_CORE_ACCEPTED",
-  "product_status": "PUBLIC_CORE_ACCEPTED_PENDING_WORK",
-  "formal_status": "PENDING_WORK_RECONCILIATION",
+  "product_status": "BLOCKED_PRODUCT_LOCAL",
+  "formal_status": "PENDING_CHAT_EVIDENCE_CORRECTION",
   "source_identity_gate_status": "PASS_12_OF_12__OBSERVED_SEARCH_OR_OPENED_EXACT_SOURCE",
   "inline_citation_gate_status": "PASS_12_OF_12__IN_NARRATIVE_LINKS",
   "exact_v4_machine_structure_status": "PASS",
   "v4_public_depth_gate_status": "PASS_WITH_NONBLOCKING_ABOVE_TARGET_LENGTH_WARNING",
   "privacy_status": "PASS_PUBLIC_SAFE",
   "window_status": "PASS_12_OF_12_SOURCES_PUBLISHED_WITHIN_FIXED_WINDOW",
-  "evidence_status": "PASS_12_OF_12",
+  "evidence_status": "FAIL__E10_E11_E12_SOURCE_TYPE_MISSING",
   "strict_v2_ledger_status": "PASS_12_OF_12__FULL_43_COLUMN_CLAIM_URL_BINDINGS",
   "data_gap_boundary_status": "PASS__PRICE_FREIGHT_AND_CONTRACT_UNCERTAINTY_DISCLOSED",
   "producer_self_audit_status": "PASS__V4_COUNT_PARITY__EVIDENCE_12_OF_12_NARRATIVE_CITATION_LINKS__STRICT_V2_LEDGER",
@@ -48,6 +48,18 @@
   "provenance": {
     "producer_status_at_handoff": "PUBLIC_CORE_ACCEPTED",
     "producer_product_status_at_handoff": "PUBLIC_CORE_ACCEPTED_PENDING_WORK",
-    "producer_formal_status_at_handoff": "PENDING_WORK_RECONCILIATION"
-  }
+    "producer_formal_status_at_handoff": "PENDING_WORK_RECONCILIATION",
+    "work_preflight_2026_10_25": {
+      "source_identity": "PASS_12_OF_12",
+      "inline_citation": "PASS_12_OF_12",
+      "evidence_v2": "FAIL_3_BLOCKERS_1_WARNING",
+      "authority_package_sha256": "8dcb0302dda8b0e331ee3b78e0a4c56c7bddd30ccb07f61af195a69fa1efb0f4"
+    }
+  },
+  "consumer_status": "FAIL_EVIDENCE_V2_STRICT_NEW__3_BLOCKERS",
+  "canonical_promotion_performed": false,
+  "site_publication_performed": false,
+  "authority_package_sha256": "8dcb0302dda8b0e331ee3b78e0a4c56c7bddd30ccb07f61af195a69fa1efb0f4",
+  "next_work_action": "CHAT_CORRECT_EVIDENCE_METADATA_THEN_WORK_REVALIDATE",
+  "work_correction_request": "daily/2026/10/2026-10-25/work_correction_request.json"
 }
