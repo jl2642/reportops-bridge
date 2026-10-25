@@ -58,8 +58,8 @@
   "state_consistency_pointer_sha256": "f9374ed21f4c4d3b9eed501ac76abe9d62b2aaa828d1afa8a6dc54fef93ba79e",
   "failure_stage": "DAILY_2026_10_23_ATOMIC_FINALIZER_AND_DAILY_2026_10_25_EVIDENCE_V2",
   "failure_reason": "10/23 formal transaction rolled back on pre-existing Reader archive baseline failures; 10/25 Evidence V2 has three missing source_type fields.",
-  "next_action": "ReportOps 2026-10-25 post-13:30 bounded Chat repair complete. DO NOT re-research any accepted Daily. E10-E12 ABC News source_type fixed in GitHub Daily 2026-10-25 STRICT_NEW V2 CSV to ORIGINAL_MEDIA (12 rows, 43 columns), independent exact-core-equivalent local audit 0 blockers 1 nonblocking E10 freshness warning. Work must rerun its NATIVE formal V2 gate and reconcile 2026-10-25 manifest before promotion. OLDEST-FIRST: Daily 2026-10-23 atomic finalizer rolled back on pre-existing historical Reader archive baseline; inspect actual stderr/delta and pre-existing issues, keep valid gates, do not simply bypass Reader. After legitimate PASS, atomically promote 2026-10-23, 2026-10-24, 2026-10-25 and update Library ReportOps.zip, sidecar, CURRENT_POINTER and GitHub runtime; only then align existing Site v107 (already shows 10/24 despite Authority Current 10/22), verify live homepage, archives, downloads, SHA, 13 views. If native Reader gate still blocks, FAIL_CLOSED with exact blocker, do not claim released. W43 naturally closes after 2026-10-25 Sunday; 13:30 task at Sunday afternoon should NOT create formal W43 Round1 before closure and 7/7 Canonical Daily.",
-  "updated_at": "2026-10-25T05:48:13.501Z",
+  "next_action": "WORK FORMAL BOUNDED READER BASELINE TRANSACTION: Check latest Library ReportOps.zip+sidecar+CURRENT_POINTER; if SHA equals 8dcb0302dda8b0e331ee3b78e0a4c56c7bddd30ccb07f61af195a69fa1efb0f4 read isolated tested Library patch /能源周期报告/10_GOVERNANCE/READER_BASELINE_FIX_20261025/ReportOps_Reader_Baseline_Compat_Patch_20261025.zip (SHA c0b4216438dfaf3719f6f7e6a238da99a2484ff6019e2aba28bb5169e051aa48) and its README/QA_RECEIPT. Verified native Reader 33 baseline fails -> 0/2107 after precise repair; 2 successive native rerenders 0 fails, Portal 0/37; 3 patched existing files, no validators/new thresholds or report research rewriting. Apply only in isolated staging after SHA check; run native Reader/Portal AGAIN on target staging. Read Daily 2026-10-23,24,25 complete bridge; Chat correction 2026-10-25 E10-E12 ABC News strict ledger source_type ORIGINAL_MEDIA already persisted, native V2 validation still PENDING. Run native daily source/evidence/quality/Reader/Lineage/State gates, earliest Daily 10/23 -> 10/24 -> 10/25 atomic promotions with durable checkpoints, no bypass. After Canonical commits, rebuild unique Authority ZIP/SHA/POINTER and ONLY THEN reconcile existing Site v107 showing 10/24 ahead of authoritative 10/22 and validate live home/archive/download SHA and 13 derived views. If any gate fails, fail closed with exact command/stderr and keep Current; don't claim stable; don't rerun Producer/research or create site/automation.",
+  "updated_at": "2026-10-25T06:17:59.722Z",
   "queue_remaining": [
     "Daily 2026-10-23",
     "Daily 2026-10-24",
@@ -727,5 +727,48 @@
     "actual_original_site_v107": "2026-10-24",
     "next_work": "native V2 revalidate; Reader historical baseline-delta diagnosis; legitimate atomic replay 10/23→10/24→10/25; correct Site/Authority mismatch only after formal promotion",
     "verified_at": "2026-10-25T05:48:13.501Z"
+  },
+  "reader_baseline_compat_repair_2026_10_25": {
+    "status": "ISOLATED_NATIVE_READER_AND_PORTAL_VALIDATION_PASS__AWAITING_WORK_FORMAL_CONSUMPTION",
+    "library_path": "/能源周期报告/10_GOVERNANCE/READER_BASELINE_FIX_20261025/ReportOps_Reader_Baseline_Compat_Patch_20261025.zip",
+    "patch_zip_sha256": "c0b4216438dfaf3719f6f7e6a238da99a2484ff6019e2aba28bb5169e051aa48",
+    "preflight_authority_sha256": "8dcb0302dda8b0e331ee3b78e0a4c56c7bddd30ccb07f61af195a69fa1efb0f4",
+    "baseline_legacy_reader": {
+      "documents": 178,
+      "checks": 2107,
+      "failures": 33
+    },
+    "existing_renderer_alone": {
+      "documents": 178,
+      "checks": 2107,
+      "failures": 31
+    },
+    "patched_renderer_two_repeated_runs": [
+      {
+        "documents": 178,
+        "checks": 2107,
+        "failures": 0
+      },
+      {
+        "documents": 178,
+        "checks": 2107,
+        "failures": 0
+      }
+    ],
+    "patched_portal": {
+      "checks": 37,
+      "failures": 0
+    },
+    "changed_script": "scripts/ops/reader_report_body_closure.py",
+    "changed_source_csvs": [
+      "weekly/2026-W41",
+      "weekly/2026-W42"
+    ],
+    "source_urls_rewritten": false,
+    "original_source_records_unchanged": true,
+    "formal_work_promotion_performed": false,
+    "site_changed": false,
+    "checked_at": "2026-10-25T06:17:59.722Z",
+    "warning": "Only exact Authority baseline SHA is tested; if Authority has moved, Work must reconcile rather than overwrite"
   }
 }
