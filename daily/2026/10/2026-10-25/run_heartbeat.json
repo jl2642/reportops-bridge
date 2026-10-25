@@ -2,5 +2,28 @@
   "target_date": "2026-10-25",
   "scheduled_for": "10:15 Asia/Shanghai",
   "run_started_at": "2026-10-25T10:18:48+08:00",
-  "status": "RUN_STARTED_BEFORE_PREFLIGHT"
+  "status": "PRODUCER_SUCCESS_CANDIDATES_PENDING_WORK",
+  "run_completed_at": "2026-10-25T02:23:18.258Z",
+  "current_daily_public_at_preflight": "2026-10-24",
+  "products_repaired_or_produced": [
+    "Daily 2026-10-25"
+  ],
+  "producer_recovery_queue_remaining": [],
+  "queue_for_12_30_work": [
+    "Daily 2026-10-25"
+  ],
+  "post_run_self_audit_status": "PASS",
+  "source_identity_records": 12,
+  "source_url_count_distinct": 5,
+  "signal_card_count": 4,
+  "cjk_characters_actual": 4053,
+  "nonblocking_warnings": [
+    "CJK_ABOVE_V4_TARGET_2200_3500_NONBLOCKING",
+    "ABC Gorgon source updated inside window; satellite data period historical",
+    "ABC News ledger source_type left blank rather than invent an undocumented enum"
+  ],
+  "failure_stage": null,
+  "failure_reason": null,
+  "canonical_mutation_performed": false,
+  "site_mutation_performed": false
 }
