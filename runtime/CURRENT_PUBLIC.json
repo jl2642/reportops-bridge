@@ -158,7 +158,7 @@
   "preflight_blocker_matrix": [
     {
       "product": "Daily 2026-10-23",
-      "classification": "READY_FOR_ATOMIC_PROMOTION",
+      "classification": "WORK_DETERMINISTIC_REPAIR",
       "source_identity": "PASS 10/10",
       "inline_citation": "PASS 10/10",
       "exact_structure": "PASS",
