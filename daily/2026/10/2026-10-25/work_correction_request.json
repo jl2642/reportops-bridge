@@ -1,0 +1,67 @@
+{
+  "schema_version": "REPORTOPS_WORK_CORRECTION_REQUEST_V1",
+  "product": "Daily",
+  "target_date": "2026-10-25",
+  "classification": "BLOCKED_PRODUCT_LOCAL",
+  "requested_by": "WORK_CONSUMER",
+  "bridge_protocol_status": "R3.1_DAILY_V4_PUBLIC_CORE_CURRENT_SINGLE_SITE",
+  "authority_policy_identity": {
+    "public_contract_sha256": "64770bf24f1280d11060d6a905a659241d5e483109fc8c3e34195a8264fc48f6",
+    "policy_identity_status": "PASS"
+  },
+  "blocking_gate": "EVIDENCE_V2_STRICT_NEW",
+  "validator_result": {
+    "status": "FAIL",
+    "records": 12,
+    "blocking": 3,
+    "warnings": 1,
+    "findings": [
+      {
+        "source_id": "E10",
+        "claim_id": "D20261025-C010",
+        "field": "source_type",
+        "code": "REQUIRED_FIELD_MISSING",
+        "required_floor": "present_nonempty_source_type"
+      },
+      {
+        "source_id": "E11",
+        "claim_id": "D20261025-C011",
+        "field": "source_type",
+        "code": "REQUIRED_FIELD_MISSING",
+        "required_floor": "present_nonempty_source_type"
+      },
+      {
+        "source_id": "E12",
+        "claim_id": "D20261025-C012",
+        "field": "source_type",
+        "code": "REQUIRED_FIELD_MISSING",
+        "required_floor": "present_nonempty_source_type"
+      }
+    ],
+    "nonblocking_warning": {
+      "source_id": "E10",
+      "code": "FRESHNESS_EXCEEDED",
+      "actual_age_days": 55,
+      "policy_max_age_days": 45,
+      "category": "MARKET_DATA"
+    }
+  },
+  "correction_scope": {
+    "permitted": [
+      "Complete the missing source_type fields for E10, E11, and E12 using the accepted evidence records; rerun the existing evidence validator and dependent gates."
+    ],
+    "prohibited": [
+      "Work re-research",
+      "Work prose rewrite",
+      "threshold changes",
+      "gate bypass",
+      "new validator/phase/site"
+    ]
+  },
+  "prior_passes": [
+    "SOURCE_IDENTITY_V2_12_OF_12",
+    "INLINE_CITATION_V2_12_OF_12"
+  ],
+  "next_consumer_action": "Oldest-first re-preflight after Chat writes and reads back corrected evidence/ledger/manifest.",
+  "generated_at": "2026-10-25T12:44:00+08:00"
+}
