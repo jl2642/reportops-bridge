@@ -45,7 +45,7 @@ language: zh-CN
 - **为什么重要：** 机场不是油气产能，但航空运行与区域安全的反复扰动可能增加项目人员调动、设备供应链、保险和应急成本，尤其影响跨境工程建设与现场服务。
 - **价格/供需/产业链传导：** 影响首先体现在物流和运营风险，而非可以直接量化的原油或LNG供给减少。若空运限制扩大，紧急备件和检修工期才可能受到次生影响。
 - **影响对象：** 海湾能源设施承包商、设备服务商、区域航司及物流商。
-- **证据边界：** 报道确认的是恢复航站楼安排与威胁声明；并未确认新一轮机场受损、能源装置停运或新的商业航班取消规模。
+- **证据边界：** 报道确认的是恢复航站楼安排与威胁声明；并未确认新一轮机场受损、能源装置停运或新的商业航班取消规模。路透社所述10月10日袭击造成的伤亡属于历史背景，不能计入本窗口新增损失。[E09](https://www.reuters.com/world/middle-east/yemens-houthis-renew-warning-against-using-riyadh-airport-2026-10-24/)
 - **下一步验证：** 航班实际运行、航空警告、项目服务商通行安排。
 - **反证条件：** 航班持续正常、保险和运费无异常，则暂不计入实质经营冲击。
 
@@ -82,9 +82,9 @@ language: zh-CN
 <!-- MODULE:GLOBAL_ENERGY_DELTA -->
 ## 6. 国际油气 / LNG增量
 
-国际市场出现两种不同性质的能源安全压力。东南亚是资源国主动重排国内外供气优先级，影响已存在的跨境管道履约；中东是军事威胁与设施实际运行状态之间的证据缺口。前者可跟踪流量、合同和替代进口，后者必须等待运营方、港口及航运的可核证记录。[E02](https://bali.antaranews.com/en/berita/416803/indonesia-reduces-gas-exports-to-singapore) [E07](https://www.reuters.com/world/middle-east/saudi-civil-defense-says-danger-passed-after-brief-alerts-mecca-jeddah-taif-2026-10-24/)
+国际市场出现两种不同性质的能源安全压力。东南亚是资源国主动重排国内外供气优先级，影响已存在的跨境管道履约；印尼通讯社引述政策口径称天然气生产约70%分配国内、30%出口，该比例是总体结构而非本次减量比例。[E04](https://bali.antaranews.com/en/berita/416803/indonesia-reduces-gas-exports-to-singapore) 中东是军事威胁与设施实际运行状态之间的证据缺口。前者可跟踪流量、合同和替代进口，后者必须等待运营方、港口及航运的可核证记录。[E02](https://bali.antaranews.com/en/berita/416803/indonesia-reduces-gas-exports-to-singapore) [E07](https://www.reuters.com/world/middle-east/saudi-civil-defense-says-danger-passed-after-brief-alerts-mecca-jeddah-taif-2026-10-24/)
 
-澳大利亚Gorgon则提示第三种风险：即便未见减产，甲烷监测与合规调查也可能改变长期资产运营成本。不能把排放争议与实物供应中断混为一谈。[E10](https://www.abc.net.au/news/2026-10-23/large-methane-plumes-above-chevron-gorgon-project-investigation/107288658) 利雅得机场事件另说明区域能源工程供应链面临非商品价格风险，应在项目执行与保险管理中单独列项。[E08](https://www.reuters.com/world/middle-east/yemens-houthis-renew-warning-against-using-riyadh-airport-2026-10-24/)
+澳大利亚Gorgon则提示第三种风险：即便未见减产，甲烷监测与合规调查也可能改变长期资产运营成本。西澳相关部门表示正在调查监管措施是否必要，尚未公布结论。[E12](https://www.abc.net.au/news/2026-10-23/large-methane-plumes-above-chevron-gorgon-project-investigation/107288658) 不能把排放争议与实物供应中断混为一谈。[E10](https://www.abc.net.au/news/2026-10-23/large-methane-plumes-above-chevron-gorgon-project-investigation/107288658) 利雅得机场事件另说明区域能源工程供应链面临非商品价格风险，应在项目执行与保险管理中单独列项。[E08](https://www.reuters.com/world/middle-east/yemens-houthis-renew-warning-against-using-riyadh-airport-2026-10-24/)
 
 <!-- MODULE:RESEARCH_TRIGGER_BOARD -->
 ## 7. Research Trigger Board
