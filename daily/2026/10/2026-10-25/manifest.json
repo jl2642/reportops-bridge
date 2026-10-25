@@ -29,19 +29,21 @@
     "NO_COMPLETE_SAME_DAY_LNG_LPG_PRICE_AND_FREIGHT_SERIES",
     "ABC稿原发10月23日、10月24日13:30 AEDT更新；历史卫星观测不得当作当日新增排放",
     "沙特油设施实际损坏尚未证实",
-    "印尼与新加坡减量及期限口径需继续对账"
+    "印尼与新加坡减量及期限口径需继续对账",
+    "E10_MARKET_DATA_FRESHNESS_55_DAYS_GT_45_DAYS_NONBLOCKING_MATERIAL",
+    "CHANGED_ONLY_3_SOURCE_TYPE_METADATA_VALUES__FORMAL_WORK_REVALIDATION_PENDING"
   ],
   "producer_status": "PUBLIC_CORE_ACCEPTED",
-  "product_status": "BLOCKED_PRODUCT_LOCAL",
-  "formal_status": "PENDING_CHAT_EVIDENCE_CORRECTION",
+  "product_status": "PUBLIC_CORE_ACCEPTED_PENDING_WORK",
+  "formal_status": "PENDING_WORK_RECONCILIATION",
   "source_identity_gate_status": "PASS_12_OF_12__OBSERVED_SEARCH_OR_OPENED_EXACT_SOURCE",
   "inline_citation_gate_status": "PASS_12_OF_12__IN_NARRATIVE_LINKS",
   "exact_v4_machine_structure_status": "PASS",
   "v4_public_depth_gate_status": "PASS_WITH_NONBLOCKING_ABOVE_TARGET_LENGTH_WARNING",
   "privacy_status": "PASS_PUBLIC_SAFE",
   "window_status": "PASS_12_OF_12_SOURCES_PUBLISHED_WITHIN_FIXED_WINDOW",
-  "evidence_status": "FAIL__E10_E11_E12_SOURCE_TYPE_MISSING",
-  "strict_v2_ledger_status": "PASS_12_OF_12__FULL_43_COLUMN_CLAIM_URL_BINDINGS",
+  "evidence_status": "PASS_CHAT_BOUNDED_V2_METADATA_PRECHECK__WORK_NATIVE_REVALIDATION_PENDING",
+  "strict_v2_ledger_status": "PASS_CHAT_POST_CORRECTION_V2_EQUIVALENT__12_RECORDS_43_COLUMNS__ONE_NONBLOCKING_FRESHNESS_WARNING",
   "data_gap_boundary_status": "PASS__PRICE_FREIGHT_AND_CONTRACT_UNCERTAINTY_DISCLOSED",
   "producer_self_audit_status": "PASS__V4_COUNT_PARITY__EVIDENCE_12_OF_12_NARRATIVE_CITATION_LINKS__STRICT_V2_LEDGER",
   "producer_acceptance_completed_at": "2026-10-25T02:22:33.162Z",
@@ -54,12 +56,26 @@
       "inline_citation": "PASS_12_OF_12",
       "evidence_v2": "FAIL_3_BLOCKERS_1_WARNING",
       "authority_package_sha256": "8dcb0302dda8b0e331ee3b78e0a4c56c7bddd30ccb07f61af195a69fa1efb0f4"
+    },
+    "chat_postwork_correction": {
+      "corrected_at": "2026-10-25T05:47:11.209Z",
+      "source": "WORK_CORRECTION_REQUEST_V1",
+      "scope": "ONLY_SOURCE_TYPE_METADATA_E10_E11_E12_IN_STRICT_V2_CSV",
+      "source_type": "ORIGINAL_MEDIA",
+      "source_type_field_cells_corrected": 3,
+      "other_ledger_cells_unchanged": true,
+      "public_core_changed": false,
+      "evidence_json_changed": false,
+      "local_strict_v2_validator_equivalent": "PASS_WITH_WARNINGS_0_BLOCKERS_1_E10_FRESHNESS_WARNING",
+      "formal_work_validator_rerun": "PENDING",
+      "historical_failed_work_gate_preserved": true
     }
   },
-  "consumer_status": "FAIL_EVIDENCE_V2_STRICT_NEW__3_BLOCKERS",
+  "consumer_status": "PENDING_WORK_NATIVE_EVIDENCE_REVALIDATION_AFTER_CHAT_METADATA_CORRECTION",
   "canonical_promotion_performed": false,
   "site_publication_performed": false,
   "authority_package_sha256": "8dcb0302dda8b0e331ee3b78e0a4c56c7bddd30ccb07f61af195a69fa1efb0f4",
-  "next_work_action": "CHAT_CORRECT_EVIDENCE_METADATA_THEN_WORK_REVALIDATE",
-  "work_correction_request": "daily/2026/10/2026-10-25/work_correction_request.json"
+  "next_work_action": "Work: independently rerun native Evidence V2 for Daily 2026-10-25 (3 ABC News ORIGINAL_MEDIA source_type cells corrected in strict V2 CSV), then retry Daily 2026-10-23 atomic finalizer after legitimate historical Reader baseline/delta analysis; promote 2026-10-24 and 2026-10-25 oldest-first only on formal PASS; reconcile Library Authority Current vs v107 Site already showing 10/24.",
+  "work_correction_request": "daily/2026/10/2026-10-25/work_correction_request.json",
+  "updated_at": "2026-10-25T05:47:11.209Z"
 }
