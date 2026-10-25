@@ -1,8 +1,8 @@
 {
   "schema_version": "REPORTOPS_R3_1_CHAT_STATUS_V1_5_SINGLE_SITE",
-  "scheduled_date": "2026-10-24",
-  "target_date": "2026-10-24",
-  "current_day_status": "FORMAL_CANONICAL_PUBLISHED",
+  "scheduled_date": "2026-10-25",
+  "target_date": "2026-10-25",
+  "current_day_status": "BLOCKED_PRODUCT_LOCAL",
   "scheduled_run_status": "ORIGINAL_10_15_UNATTENDED_PRODUCER_SUCCESS__POST_RUN_BOUNDED_QA_CORRECTION",
   "correction_backlog": {
     "status": "RESOLVED_BY_CHAT_CORRECTION",
@@ -46,37 +46,44 @@
   "privacy_status": "PASS",
   "window_status": "PASS_12_OF_12",
   "data_gap_boundary_status": "PASS",
-  "current_daily_public": "2026-10-24",
+  "current_daily_public": "2026-10-22",
   "current_weekly_public": "2026-W42",
-  "formal_status": "FORMAL_CANONICAL_PUBLISHED_THROUGH_2026_10_24",
-  "canonical_promotion_performed": true,
+  "formal_status": "FORMAL_CANONICAL_PUBLISHED_THROUGH_2026_10_22",
+  "canonical_promotion_performed": false,
   "site_publication_performed": true,
   "public_site_version": 107,
-  "public_site_status": "PASS_V107_REMOTE_READBACK",
-  "manifest_reconciliation_status": "PASS__TOP_LEVEL_FORMAL_CANONICAL_PUBLISHED__CONSUMER_ACTUALS_AND_FINAL_AUTHORITY_SHA_WRITTEN__PRODUCER_HISTORY_RETAINED",
-  "metadata_freshness": "PASS__13_CURRENT_DERIVED_VIEWS__pointer_sha256=f9374ed21f4c4d3b9eed501ac76abe9d62b2aaa828d1afa8a6dc54fef93ba79e",
+  "public_site_status": "FAIL_SITE_AHEAD_OF_CANONICAL__LIVE_V107_SHOWS_2026_10_24_WHILE_LIBRARY_CURRENT_IS_2026_10_22",
+  "manifest_reconciliation_status": "PASS_FAIL_CLOSED__TOP_LEVEL_STATES_MATCH_ACTUAL_LIBRARY_CURRENT_2026_10_22",
+  "metadata_freshness": "PASS_AUTHORITY_13_CURRENT_DERIVED_VIEWS_FOR_2026_10_22__PUBLIC_SITE_AHEAD",
   "state_consistency_pointer_sha256": "f9374ed21f4c4d3b9eed501ac76abe9d62b2aaa828d1afa8a6dc54fef93ba79e",
-  "failure_stage": null,
-  "failure_reason": null,
-  "next_action": "Scan only newly Chat-accepted products; idempotently skip these closed versions.",
-  "updated_at": "2026-10-24T12:40:00+08:00",
-  "queue_remaining": [],
-  "pending_product": null,
+  "failure_stage": "DAILY_2026_10_23_ATOMIC_FINALIZER_AND_DAILY_2026_10_25_EVIDENCE_V2",
+  "failure_reason": "10/23 formal transaction rolled back on pre-existing Reader archive baseline failures; 10/25 Evidence V2 has three missing source_type fields.",
+  "next_action": "Chat correct 2026-10-25 Evidence source_type metadata; Work retry 2026-10-23 atomic promotion with baseline-delta Reader gate, then 2026-10-24 and 2026-10-25 oldest-first.",
+  "updated_at": "2026-10-25T12:55:00+08:00",
+  "queue_remaining": [
+    "Daily 2026-10-23",
+    "Daily 2026-10-24",
+    "Daily 2026-10-25"
+  ],
+  "pending_product": "Daily 2026-10-23",
   "manual_intervention_required": false,
-  "authority_package_sha256": "41c004caa4bd23d652a7ce8f86c82083e7cc8df0413bad5fd16e27a75fe21c61",
+  "authority_package_sha256": "8dcb0302dda8b0e331ee3b78e0a4c56c7bddd30ccb07f61af195a69fa1efb0f4",
   "queue_initial": [
     "Daily 2026-10-23"
   ],
   "products_preflighted": [
     "Daily 2026-10-23",
-    "Daily 2026-10-24"
+    "Daily 2026-10-24",
+    "Daily 2026-10-25"
   ],
-  "products_promoted": [
+  "products_promoted": [],
+  "products_blocked_local": [
+    "Daily 2026-10-25"
+  ],
+  "eligible_unpublished_products": [
     "Daily 2026-10-23",
     "Daily 2026-10-24"
   ],
-  "products_blocked_local": [],
-  "eligible_unpublished_products": [],
   "preflight_blocker_matrix": [
     {
       "product": "Daily 2026-10-23",
@@ -84,31 +91,47 @@
       "source_identity": "PASS 10/10",
       "inline_citation": "PASS 10/10",
       "exact_structure": "PASS",
-      "depth": "PASS_WITH_NONBLOCKING_ABOVE_TARGET_WARNING",
+      "depth": "PASS_WITH_NONBLOCKING_LENGTH_WARNING",
       "privacy": "PASS",
       "window": "PASS",
       "evidence": "PASS 10/10",
       "reader": "PASS 13/13",
-      "lineage": "PASS_COMMITTED",
-      "state": "PASS_CANONICAL_HISTORY",
+      "lineage": "PASS_DRY_RUN",
+      "state": "NOT_COMMITTED",
       "dependency": "PASS",
-      "blocker": null
+      "blocker": "Formal Finalizer rolled back on pre-existing W35-W38/monthly Reader baseline failures"
     },
     {
       "product": "Daily 2026-10-24",
-      "classification": "DEFERRED_NON_BLOCKING_DEPENDENCY → READY_FOR_ATOMIC_PROMOTION",
+      "classification": "DEFERRED_NON_BLOCKING_DEPENDENCY",
       "source_identity": "PASS 12/12",
       "inline_citation": "PASS 12/12",
       "exact_structure": "PASS",
-      "depth": "PASS_WITH_NONBLOCKING_ABOVE_TARGET_WARNING",
+      "depth": "PASS_WITH_NONBLOCKING_LENGTH_WARNING",
       "privacy": "PASS",
       "window": "PASS",
       "evidence": "PASS 12/12",
       "reader": "PASS 13/13",
-      "lineage": "PASS_COMMITTED",
-      "state": "PASS_TARGET_CURRENT",
-      "dependency": "PASS_AFTER_2026-10-23",
+      "lineage": "PASS_DRY_RUN",
+      "state": "NOT_COMMITTED",
+      "dependency": "WAIT_2026-10-23_CANONICAL",
       "blocker": null
+    },
+    {
+      "product": "Daily 2026-10-25",
+      "classification": "BLOCKED_PRODUCT_LOCAL",
+      "source_identity": "PASS 12/12",
+      "inline_citation": "PASS 12/12",
+      "exact_structure": "NOT_EXECUTED_AFTER_EVIDENCE_BLOCKER",
+      "depth": "NOT_EXECUTED_AFTER_EVIDENCE_BLOCKER",
+      "privacy": "NOT_EXECUTED_AFTER_EVIDENCE_BLOCKER",
+      "window": "PASS_PRODUCER_WINDOW",
+      "evidence": "FAIL 3 BLOCKERS / 1 WARNING",
+      "reader": "NOT_EXECUTED",
+      "lineage": "NOT_EXECUTED",
+      "state": "NOT_EXECUTED",
+      "dependency": "WAIT_2026-10-23_AND_24",
+      "blocker": "E10/E11/E12 missing source_type; E10 freshness warning 55d>45d"
     }
   ],
   "recovery_provenance": {
@@ -122,11 +145,11 @@
     "producer_automation_restored": true,
     "prior_2026_09_26_correction_preserved": true
   },
-  "real_remote_readback_status": "PASS_REAL_REMOTE_CONTENT_V107__HOME_DAILY_2026_10_23_24_W42_MONTHLY_Q3_DOWNLOADS",
-  "download_sha_status": "PASS__D23=d2971acb71b25121e47e0984257721cad5ed3f5ffe7983bd77aeb359623ac97d__D24=270d0d28d2a0d5250340da643c0908e7acfd4abeef15b7c0fcf19a761ae1cf39__W42=4e56847cd56500b9c8b0504964b8e04990fdd5d2e21e9c6f946dbe1ddb4634df",
+  "real_remote_readback_status": "NOT_REPEATED__KNOWN_V107_CONTENT_CONFLICT_WITH_ACTUAL_LIBRARY",
+  "download_sha_status": "NOT_REPEATED__NO_CANONICAL_PROMOTION",
   "public_daily_2026_09_25_download_sha256": "b4a80928e9755db168822874115c2d40069f3d9ad919416291e739dee8db7e72",
   "public_weekly_2026_w38_download_sha256": "551496a55a54f77721bbb1a7d2f0dc584956e0a18c188c44c9b90ec1a0a6305a",
-  "higher_cycle_dependency_state": "W43_CANONICAL_DAILY_POOL_4_OF_7_TO_6_OF_7__NO_CHAT_ACCEPTED_W43_CANDIDATE",
+  "higher_cycle_dependency_state": "W43_CANONICAL_POOL_4_OF_7__10_23_24_READY_NOT_PROMOTED__NO_CHAT_ACCEPTED_HIGHER_CYCLE_CANDIDATE",
   "correction_provenance": {
     "corrected_at": "2026-09-26T14:08:00+08:00",
     "changed_records": [
@@ -139,10 +162,11 @@
     "claims_changed": false
   },
   "products_deferred_dependency": [
-    "Daily 2026-10-24__RESOLVED_AFTER_2026-10-23"
+    "Daily 2026-10-24",
+    "Daily 2026-10-25__AFTER_LOCAL_CORRECTION"
   ],
   "public_daily_2026_09_26_download_sha256": "ea94ce1f2f69b3efa270295fb9f7b04c248280ea057a6a8721a7d3602522ba43",
-  "reportops_status": "SUCCESS__FINAL_CLOSURE_PASS__CURRENTLY_EXECUTABLE_WORK_COMPLETE",
+  "reportops_status": "PARTIAL_SUCCESS__PREFLIGHT_COMPLETE__CANONICAL_REPLAY_BLOCKED__DAILY_2026_10_25_EVIDENCE_BLOCKER",
   "correction_provenance_2026_09_27": {
     "corrected_at": "2026-09-27T22:50:00+08:00",
     "correction_type": "INLINE_CITATION_PLACEMENT_ONLY",
@@ -235,18 +259,14 @@
   "public_daily_2026_10_01_download_sha256": "f332e6a6ce7eecdce966954035d0306c03c12c6534e5960686a83177f6228ebd",
   "authority_sha_runtime_reconciliation": {
     "before": "8dcb0302dda8b0e331ee3b78e0a4c56c7bddd30ccb07f61af195a69fa1efb0f4",
-    "post_rebuild": "41c004caa4bd23d652a7ce8f86c82083e7cc8df0413bad5fd16e27a75fe21c61",
-    "library_sidecar": "41c004caa4bd23d652a7ce8f86c82083e7cc8df0413bad5fd16e27a75fe21c61",
-    "status_latest_readback": "41c004caa4bd23d652a7ce8f86c82083e7cc8df0413bad5fd16e27a75fe21c61",
-    "current_public_readback": "41c004caa4bd23d652a7ce8f86c82083e7cc8df0413bad5fd16e27a75fe21c61",
-    "deployment_state_readback": "41c004caa4bd23d652a7ce8f86c82083e7cc8df0413bad5fd16e27a75fe21c61",
-    "manifest_readback": {
-      "2026-10-23": "41c004caa4bd23d652a7ce8f86c82083e7cc8df0413bad5fd16e27a75fe21c61",
-      "2026-10-24": "41c004caa4bd23d652a7ce8f86c82083e7cc8df0413bad5fd16e27a75fe21c61"
-    },
-    "status": "PASS_POST_REBUILD_FOUR_WAY_MATCH_READBACK"
+    "post_rebuild": null,
+    "library_sidecar": "8dcb0302dda8b0e331ee3b78e0a4c56c7bddd30ccb07f61af195a69fa1efb0f4",
+    "status_latest_readback": "8dcb0302dda8b0e331ee3b78e0a4c56c7bddd30ccb07f61af195a69fa1efb0f4",
+    "current_public_readback": "8dcb0302dda8b0e331ee3b78e0a4c56c7bddd30ccb07f61af195a69fa1efb0f4",
+    "deployment_state_readback": "8dcb0302dda8b0e331ee3b78e0a4c56c7bddd30ccb07f61af195a69fa1efb0f4",
+    "status": "PASS_FAIL_CLOSED_TO_ACTUAL_LIBRARY_V70__NO_REBUILD"
   },
-  "runtime_sync_status": "PASS_POST_REBUILD_AUTHORITY_SHA_FOUR_WAY_MATCH_READBACK",
+  "runtime_sync_status": "PASS_FAIL_CLOSED_LIBRARY_IDENTITY_RECONCILIATION",
   "recovery_provenance_2026_10_02": {
     "mode": "BOUNDED_INTERACTIVE_CONTINUITY_RECOVERY",
     "original_scheduled_run_observed": true,
@@ -350,10 +370,15 @@
     "handoff_path": "/能源周期报告/10_GOVERNANCE/DAILY_20261004_LINEAGE_REPAIR/REPORTOPS_CHAT_RECOVERY_HANDOFF_20261004.md",
     "identity_path": "/能源周期报告/10_GOVERNANCE/DAILY_20261004_LINEAGE_REPAIR/RECOVERY_SOURCE_IDENTITY_20261004.json"
   },
-  "current_daily_canonical": "2026-10-24",
+  "current_daily_canonical": "2026-10-22",
   "current_quarterly_public": "2026-Q3",
-  "library_sidecar_sha256": "41c004caa4bd23d652a7ce8f86c82083e7cc8df0413bad5fd16e27a75fe21c61",
-  "stale_views": [],
+  "library_sidecar_sha256": "8dcb0302dda8b0e331ee3b78e0a4c56c7bddd30ccb07f61af195a69fa1efb0f4",
+  "stale_views": [
+    "public_site_home",
+    "public_site_daily_archive",
+    "public_site_daily_2026-10-23",
+    "public_site_daily_2026-10-24"
+  ],
   "candidate_2026_10_05": {
     "product_status": "PUBLIC_CORE_ACCEPTED_PENDING_WORK",
     "source_identity_status": "PASS__E01_E04_AUTHORITY_COMPATIBLE_ACQUISITION_RECEIPTS_ADDED",
@@ -589,13 +614,13 @@
     "root_cause": "UNKNOWN__SCHEDULED_RUN_HISTORY_UNAVAILABLE"
   },
   "current_annual_public": "NO_FORMAL_2026_PRODUCT",
-  "last_updated": "2026-10-24T12:40:00+08:00",
+  "last_updated": "2026-10-25T12:55:00+08:00",
   "final_closure_status": "SUCCESS__FINAL_CLOSURE_PASS__CURRENTLY_EXECUTABLE_WORK_COMPLETE",
-  "status": "SUCCESS__FINAL_CLOSURE_PASS__CURRENTLY_EXECUTABLE_WORK_COMPLETE",
+  "status": "PARTIAL_SUCCESS__PREFLIGHT_COMPLETE__CANONICAL_REPLAY_BLOCKED__DAILY_2026_10_25_EVIDENCE_BLOCKER",
   "public_site_publication_receipt_status": "PASS_V107",
   "public_daily_2026_10_13_download_sha256": "9f208040c99e46ce8752577be3b77387592d25776f3fb89940e91f727add246d",
   "public_weekly_2026_w41_download_sha256": "cc05e865be0ca86e17d9ca1c83a5f5a77d67b9f176a8058edf5482921f911fc0",
-  "upstream_producer_status": "COMPLETE_THROUGH_2026_10_24__UNATTENDED_RELIABILITY_NOT_ACCEPTED",
+  "upstream_producer_status": "COMPLETE_THROUGH_2026_10_25__EVIDENCE_CORRECTION_REQUIRED",
   "producer_gap": [],
   "stable_operation_accepted": false,
   "public_remote_readback": "PASS_REAL_LIVE_ORIGIN_CONTENT_V107",
@@ -656,7 +681,7 @@
     "site_mutation_performed": false
   },
   "preflight_blocker_matrix_as_of": "2026-10-19T12:33:36+08:00__HISTORICAL_PRIOR_WORK_PREFLIGHT_DO_NOT_USE_FOR_2026_10_20",
-  "current_daily": "2026-10-24",
+  "current_daily": "2026-10-22",
   "current_weekly": "2026-W42",
   "public_daily_2026_10_20_download_sha256": "eff0aea490394b68ccc6b197b849765dea9b89705a11b10f628999002742381d",
   "public_weekly_2026_w42_download_sha256": "4e56847cd56500b9c8b0504964b8e04990fdd5d2e21e9c6f946dbe1ddb4634df",
