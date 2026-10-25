@@ -58,8 +58,8 @@
   "state_consistency_pointer_sha256": "f9374ed21f4c4d3b9eed501ac76abe9d62b2aaa828d1afa8a6dc54fef93ba79e",
   "failure_stage": "DAILY_2026_10_23_ATOMIC_FINALIZER_AND_DAILY_2026_10_25_EVIDENCE_V2",
   "failure_reason": "10/23 formal transaction rolled back on pre-existing Reader archive baseline failures; 10/25 Evidence V2 has three missing source_type fields.",
-  "next_action": "Chat correct 2026-10-25 Evidence source_type metadata; Work retry 2026-10-23 atomic promotion with baseline-delta Reader gate, then 2026-10-24 and 2026-10-25 oldest-first.",
-  "updated_at": "2026-10-25T12:55:00+08:00",
+  "next_action": "ReportOps 2026-10-25 post-13:30 bounded Chat repair complete. DO NOT re-research any accepted Daily. E10-E12 ABC News source_type fixed in GitHub Daily 2026-10-25 STRICT_NEW V2 CSV to ORIGINAL_MEDIA (12 rows, 43 columns), independent exact-core-equivalent local audit 0 blockers 1 nonblocking E10 freshness warning. Work must rerun its NATIVE formal V2 gate and reconcile 2026-10-25 manifest before promotion. OLDEST-FIRST: Daily 2026-10-23 atomic finalizer rolled back on pre-existing historical Reader archive baseline; inspect actual stderr/delta and pre-existing issues, keep valid gates, do not simply bypass Reader. After legitimate PASS, atomically promote 2026-10-23, 2026-10-24, 2026-10-25 and update Library ReportOps.zip, sidecar, CURRENT_POINTER and GitHub runtime; only then align existing Site v107 (already shows 10/24 despite Authority Current 10/22), verify live homepage, archives, downloads, SHA, 13 views. If native Reader gate still blocks, FAIL_CLOSED with exact blocker, do not claim released. W43 naturally closes after 2026-10-25 Sunday; 13:30 task at Sunday afternoon should NOT create formal W43 Round1 before closure and 7/7 Canonical Daily.",
+  "updated_at": "2026-10-25T05:48:13.501Z",
   "queue_remaining": [
     "Daily 2026-10-23",
     "Daily 2026-10-24",
@@ -708,5 +708,24 @@
   "last_work_runtime_snapshot_updated_at": "2026-10-23T12:35:00+08:00",
   "strict_v2_ledger_status_2026_10_24": "PASS_12_OF_12__43_COLS__12_ROWS",
   "public_daily_2026_10_23_download_sha256": "d2971acb71b25121e47e0984257721cad5ed3f5ffe7983bd77aeb359623ac97d",
-  "public_daily_2026_10_24_download_sha256": "270d0d28d2a0d5250340da643c0908e7acfd4abeef15b7c0fcf19a761ae1cf39"
+  "public_daily_2026_10_24_download_sha256": "270d0d28d2a0d5250340da643c0908e7acfd4abeef15b7c0fcf19a761ae1cf39",
+  "chat_postwork_correction_2026_10_25": {
+    "status": "BOUNDED_METADATA_CORRECTION_COMPLETE__AWAITING_WORK_NATIVE_REVALIDATION",
+    "corrected_files": [
+      "daily/2026/10/2026-10-25/evidence_ledger_v2_2026-10-25.csv",
+      "daily/2026/10/2026-10-25/manifest.json"
+    ],
+    "exact_changes": "E10,E11,E12 ABC News source_type empty => ORIGINAL_MEDIA",
+    "strict_v2_equivalent": {
+      "blockers": 0,
+      "warnings": 1,
+      "warning": "E10_MARKET_DATA_FRESHNESS_55D_GT_45D_NONBLOCKING"
+    },
+    "canonical_promotion": false,
+    "site_publication": false,
+    "authority_remains": "2026-10-22",
+    "actual_original_site_v107": "2026-10-24",
+    "next_work": "native V2 revalidate; Reader historical baseline-delta diagnosis; legitimate atomic replay 10/23→10/24→10/25; correct Site/Authority mismatch only after formal promotion",
+    "verified_at": "2026-10-25T05:48:13.501Z"
+  }
 }
