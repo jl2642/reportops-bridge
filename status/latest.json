@@ -1,7 +1,7 @@
 {
   "schema_version": "REPORTOPS_R3_1_CHAT_STATUS_V1_5_SINGLE_SITE",
-  "scheduled_date": "2026-10-25",
-  "target_date": "2026-10-25",
+  "scheduled_date": "2026-10-26",
+  "target_date": "2026-10-26",
   "current_day_status": "BLOCKED_PRODUCT_LOCAL",
   "scheduled_run_status": "ORIGINAL_10_15_UNATTENDED_PRODUCER_SUCCESS__POST_RUN_BOUNDED_QA_CORRECTION",
   "correction_backlog": {
@@ -56,38 +56,38 @@
   "manifest_reconciliation_status": "PASS_FAIL_CLOSED__TOP_LEVEL_STATES_MATCH_ACTUAL_LIBRARY_CURRENT_2026_10_22",
   "metadata_freshness": "PASS_AUTHORITY_13_CURRENT_DERIVED_VIEWS_FOR_2026_10_22__PUBLIC_SITE_AHEAD",
   "state_consistency_pointer_sha256": "f9374ed21f4c4d3b9eed501ac76abe9d62b2aaa828d1afa8a6dc54fef93ba79e",
-  "failure_stage": "DAILY_2026_10_23_ATOMIC_FINALIZER_AND_DAILY_2026_10_25_EVIDENCE_V2",
-  "failure_reason": "10/23 formal transaction rolled back on pre-existing Reader archive baseline failures; 10/25 Evidence V2 has three missing source_type fields.",
-  "next_action": "WORK FORMAL BOUNDED READER BASELINE TRANSACTION: Check latest Library ReportOps.zip+sidecar+CURRENT_POINTER; if SHA equals 8dcb0302dda8b0e331ee3b78e0a4c56c7bddd30ccb07f61af195a69fa1efb0f4 read isolated tested Library patch /能源周期报告/10_GOVERNANCE/READER_BASELINE_FIX_20261025/ReportOps_Reader_Baseline_Compat_Patch_20261025.zip (SHA c0b4216438dfaf3719f6f7e6a238da99a2484ff6019e2aba28bb5169e051aa48) and its README/QA_RECEIPT. Verified native Reader 33 baseline fails -> 0/2107 after precise repair; 2 successive native rerenders 0 fails, Portal 0/37; 3 patched existing files, no validators/new thresholds or report research rewriting. Apply only in isolated staging after SHA check; run native Reader/Portal AGAIN on target staging. Read Daily 2026-10-23,24,25 complete bridge; Chat correction 2026-10-25 E10-E12 ABC News strict ledger source_type ORIGINAL_MEDIA already persisted, native V2 validation still PENDING. Run native daily source/evidence/quality/Reader/Lineage/State gates, earliest Daily 10/23 -> 10/24 -> 10/25 atomic promotions with durable checkpoints, no bypass. After Canonical commits, rebuild unique Authority ZIP/SHA/POINTER and ONLY THEN reconcile existing Site v107 showing 10/24 ahead of authoritative 10/22 and validate live home/archive/download SHA and 13 derived views. If any gate fails, fail closed with exact command/stderr and keep Current; don't claim stable; don't rerun Producer/research or create site/automation.",
-  "updated_at": "2026-10-25T06:17:59.722Z",
+  "failure_stage": "DAILY_2026_10_23_ATOMIC_FINALIZER_SEMANTIC_PRODUCT_GUARD",
+  "failure_reason": "P8G finalizer transaction rolled back: semantic_product_guard failed rc=1 because 2026-W42 source refs map to source anchors returned refs=0 anchors=0.",
+  "next_action": "Chat/Authority maintainer must reconcile the existing W42 semantic source-anchor contract without relaxing validators; then Work retries 2026-10-23 oldest-first. Separately Chat must persist E01/E03 publication_time in the 2026-10-26 strict-v2 ledger.",
+  "updated_at": "2026-10-26T12:30:00+08:00",
   "queue_remaining": [
     "Daily 2026-10-23",
     "Daily 2026-10-24",
-    "Daily 2026-10-25"
+    "Daily 2026-10-25",
+    "Daily 2026-10-26"
   ],
   "pending_product": "Daily 2026-10-23",
   "manual_intervention_required": false,
-  "authority_package_sha256": "8dcb0302dda8b0e331ee3b78e0a4c56c7bddd30ccb07f61af195a69fa1efb0f4",
+  "authority_package_sha256": "0f23d3817e0b52d33de27c1b7eae48433f28e07f7c1afd09425e1151e15e830f",
   "queue_initial": [
     "Daily 2026-10-23"
   ],
   "products_preflighted": [
     "Daily 2026-10-23",
     "Daily 2026-10-24",
-    "Daily 2026-10-25"
+    "Daily 2026-10-25",
+    "Daily 2026-10-26"
   ],
   "products_promoted": [],
   "products_blocked_local": [
-    "Daily 2026-10-25"
-  ],
-  "eligible_unpublished_products": [
     "Daily 2026-10-23",
-    "Daily 2026-10-24"
+    "Daily 2026-10-26"
   ],
+  "eligible_unpublished_products": [],
   "preflight_blocker_matrix": [
     {
       "product": "Daily 2026-10-23",
-      "classification": "WORK_DETERMINISTIC_REPAIR",
+      "classification": "BLOCKED_PRODUCT_LOCAL",
       "source_identity": "PASS 10/10",
       "inline_citation": "PASS 10/10",
       "exact_structure": "PASS",
@@ -96,10 +96,10 @@
       "window": "PASS",
       "evidence": "PASS 10/10",
       "reader": "PASS 13/13",
-      "lineage": "PASS_DRY_RUN",
+      "lineage": "ROLLBACK_WITH_FINALIZER_TRANSACTION",
       "state": "NOT_COMMITTED",
       "dependency": "PASS",
-      "blocker": "Formal Finalizer rolled back on pre-existing W35-W38/monthly Reader baseline failures"
+      "blocker": "P8G semantic_product_guard failed: 2026-W42 source refs map to source anchors; refs=0 anchors=0"
     },
     {
       "product": "Daily 2026-10-24",
@@ -119,19 +119,35 @@
     },
     {
       "product": "Daily 2026-10-25",
-      "classification": "BLOCKED_PRODUCT_LOCAL",
+      "classification": "DEFERRED_NON_BLOCKING_DEPENDENCY",
       "source_identity": "PASS 12/12",
       "inline_citation": "PASS 12/12",
-      "exact_structure": "NOT_EXECUTED_AFTER_EVIDENCE_BLOCKER",
-      "depth": "NOT_EXECUTED_AFTER_EVIDENCE_BLOCKER",
-      "privacy": "NOT_EXECUTED_AFTER_EVIDENCE_BLOCKER",
-      "window": "PASS_PRODUCER_WINDOW",
-      "evidence": "FAIL 3 BLOCKERS / 1 WARNING",
-      "reader": "NOT_EXECUTED",
-      "lineage": "NOT_EXECUTED",
-      "state": "NOT_EXECUTED",
+      "exact_structure": "PASS",
+      "depth": "PASS_WITH_NONBLOCKING_LENGTH_WARNING",
+      "privacy": "PASS",
+      "window": "PASS",
+      "evidence": "PASS_WITH_WARNINGS 12/12; blocking=0; E10/E11/E12 source_type=ORIGINAL_MEDIA verified",
+      "reader": "PASS 13/13",
+      "lineage": "PASS_DRY_RUN",
+      "state": "NOT_COMMITTED",
       "dependency": "WAIT_2026-10-23_AND_24",
-      "blocker": "E10/E11/E12 missing source_type; E10 freshness warning 55d>45d"
+      "blocker": null
+    },
+    {
+      "product": "Daily 2026-10-26",
+      "classification": "BLOCKED_PRODUCT_LOCAL",
+      "source_identity": "PASS 11/11",
+      "inline_citation": "PASS 11/11",
+      "exact_structure": "PASS",
+      "depth": "PASS",
+      "privacy": "PASS",
+      "window": "AP page independently verified updated 2026-10-25 15:16 PDT, within fixed window",
+      "evidence": "FAIL 2 BLOCKERS",
+      "reader": "PASS 13/13",
+      "lineage": "PASS_DRY_RUN",
+      "state": "NOT_COMMITTED",
+      "dependency": "WAIT_PREDECESSORS",
+      "blocker": "E01/E03 strict-v2 publication_time required field missing"
     }
   ],
   "recovery_provenance": {
@@ -145,11 +161,11 @@
     "producer_automation_restored": true,
     "prior_2026_09_26_correction_preserved": true
   },
-  "real_remote_readback_status": "NOT_REPEATED__KNOWN_V107_CONTENT_CONFLICT_WITH_ACTUAL_LIBRARY",
+  "real_remote_readback_status": "NOT_REPEATED__NO_SITE_DEPLOYMENT__KNOWN_V107_CONTENT_CONFLICT",
   "download_sha_status": "NOT_REPEATED__NO_CANONICAL_PROMOTION",
   "public_daily_2026_09_25_download_sha256": "b4a80928e9755db168822874115c2d40069f3d9ad919416291e739dee8db7e72",
   "public_weekly_2026_w38_download_sha256": "551496a55a54f77721bbb1a7d2f0dc584956e0a18c188c44c9b90ec1a0a6305a",
-  "higher_cycle_dependency_state": "W43_CANONICAL_POOL_4_OF_7__10_23_24_READY_NOT_PROMOTED__NO_CHAT_ACCEPTED_HIGHER_CYCLE_CANDIDATE",
+  "higher_cycle_dependency_state": "W43_CANONICAL_POOL_4_OF_7__NO_CHAT_ACCEPTED_HIGHER_CYCLE_CANDIDATE",
   "correction_provenance": {
     "corrected_at": "2026-09-26T14:08:00+08:00",
     "changed_records": [
@@ -163,10 +179,10 @@
   },
   "products_deferred_dependency": [
     "Daily 2026-10-24",
-    "Daily 2026-10-25__AFTER_LOCAL_CORRECTION"
+    "Daily 2026-10-25"
   ],
   "public_daily_2026_09_26_download_sha256": "ea94ce1f2f69b3efa270295fb9f7b04c248280ea057a6a8721a7d3602522ba43",
-  "reportops_status": "PARTIAL_SUCCESS__PREFLIGHT_COMPLETE__CANONICAL_REPLAY_BLOCKED__DAILY_2026_10_25_EVIDENCE_BLOCKER",
+  "reportops_status": "PARTIAL_SUCCESS__READER_PATCH_PERSISTED__CANONICAL_UNCHANGED__PRODUCT_BLOCKERS",
   "correction_provenance_2026_09_27": {
     "corrected_at": "2026-09-27T22:50:00+08:00",
     "correction_type": "INLINE_CITATION_PLACEMENT_ONLY",
@@ -259,14 +275,14 @@
   "public_daily_2026_10_01_download_sha256": "f332e6a6ce7eecdce966954035d0306c03c12c6534e5960686a83177f6228ebd",
   "authority_sha_runtime_reconciliation": {
     "before": "8dcb0302dda8b0e331ee3b78e0a4c56c7bddd30ccb07f61af195a69fa1efb0f4",
-    "post_rebuild": null,
-    "library_sidecar": "8dcb0302dda8b0e331ee3b78e0a4c56c7bddd30ccb07f61af195a69fa1efb0f4",
-    "status_latest_readback": "8dcb0302dda8b0e331ee3b78e0a4c56c7bddd30ccb07f61af195a69fa1efb0f4",
-    "current_public_readback": "8dcb0302dda8b0e331ee3b78e0a4c56c7bddd30ccb07f61af195a69fa1efb0f4",
-    "deployment_state_readback": "8dcb0302dda8b0e331ee3b78e0a4c56c7bddd30ccb07f61af195a69fa1efb0f4",
-    "status": "PASS_FAIL_CLOSED_TO_ACTUAL_LIBRARY_V70__NO_REBUILD"
+    "post_rebuild": "0f23d3817e0b52d33de27c1b7eae48433f28e07f7c1afd09425e1151e15e830f",
+    "library_sidecar": "0f23d3817e0b52d33de27c1b7eae48433f28e07f7c1afd09425e1151e15e830f",
+    "status_latest_readback": "0f23d3817e0b52d33de27c1b7eae48433f28e07f7c1afd09425e1151e15e830f",
+    "current_public_readback": "0f23d3817e0b52d33de27c1b7eae48433f28e07f7c1afd09425e1151e15e830f",
+    "deployment_state_readback": "0f23d3817e0b52d33de27c1b7eae48433f28e07f7c1afd09425e1151e15e830f",
+    "status": "PASS_POST_REBUILD_AUTHORITY_SHA_V71"
   },
-  "runtime_sync_status": "PASS_FAIL_CLOSED_LIBRARY_IDENTITY_RECONCILIATION",
+  "runtime_sync_status": "PASS_POST_REBUILD_AUTHORITY_SHA_V71__CANONICAL_UNCHANGED__SITE_PENDING",
   "recovery_provenance_2026_10_02": {
     "mode": "BOUNDED_INTERACTIVE_CONTINUITY_RECOVERY",
     "original_scheduled_run_observed": true,
@@ -300,7 +316,7 @@
     "industry_operator_cjk_actual": 208
   },
   "public_daily_2026_10_02_download_sha256": "d2939f2bcc654a268bea060b4715dd00fb05f7a7707db1daa7fed393c7a61262",
-  "last_work_reconciled_at": "2026-10-24T12:40:00+08:00",
+  "last_work_reconciled_at": "2026-10-26T12:30:00+08:00",
   "candidate_2026_10_03": {
     "product_status": "ATOMIC_PROMOTED_SITE_VISIBLE__AUTHORITY_CLOSURE_PENDING",
     "formal_status": "ATOMIC_PROMOTION_CHECKPOINT_PRESERVED__AUTHORITY_UNIFIED_CLOSURE_PENDING",
@@ -372,7 +388,7 @@
   },
   "current_daily_canonical": "2026-10-22",
   "current_quarterly_public": "2026-Q3",
-  "library_sidecar_sha256": "8dcb0302dda8b0e331ee3b78e0a4c56c7bddd30ccb07f61af195a69fa1efb0f4",
+  "library_sidecar_sha256": "0f23d3817e0b52d33de27c1b7eae48433f28e07f7c1afd09425e1151e15e830f",
   "stale_views": [
     "public_site_home",
     "public_site_daily_archive",
@@ -614,13 +630,13 @@
     "root_cause": "UNKNOWN__SCHEDULED_RUN_HISTORY_UNAVAILABLE"
   },
   "current_annual_public": "NO_FORMAL_2026_PRODUCT",
-  "last_updated": "2026-10-25T12:55:00+08:00",
+  "last_updated": "2026-10-26T12:30:00+08:00",
   "final_closure_status": "SUCCESS__FINAL_CLOSURE_PASS__CURRENTLY_EXECUTABLE_WORK_COMPLETE",
   "status": "PARTIAL_SUCCESS__PREFLIGHT_COMPLETE__CANONICAL_REPLAY_BLOCKED__DAILY_2026_10_25_EVIDENCE_BLOCKER",
   "public_site_publication_receipt_status": "PASS_V107",
   "public_daily_2026_10_13_download_sha256": "9f208040c99e46ce8752577be3b77387592d25776f3fb89940e91f727add246d",
   "public_weekly_2026_w41_download_sha256": "cc05e865be0ca86e17d9ca1c83a5f5a77d67b9f176a8058edf5482921f911fc0",
-  "upstream_producer_status": "COMPLETE_THROUGH_2026_10_25__EVIDENCE_CORRECTION_REQUIRED",
+  "upstream_producer_status": "COMPLETE_CANDIDATES_THROUGH_2026_10_26__10_26_EVIDENCE_METADATA_CORRECTION_REQUIRED",
   "producer_gap": [],
   "stable_operation_accepted": false,
   "public_remote_readback": "PASS_REAL_LIVE_ORIGIN_CONTENT_V107",
@@ -641,7 +657,7 @@
     "research_reperformed": false
   },
   "authority_sha_runtime_reconciliation_status": "PASS_POST_REBUILD_SHA_CONFIRMED",
-  "current_derived_views_status": "PASS_13_OF_13",
+  "current_derived_views_status": "PASS_13_OF_13__CURRENT_UNCHANGED_2026_10_22",
   "producer_automation_status": "UNATTENDED_RELIABILITY_NOT_ACCEPTED__2026_10_23_REQUIRED_BOUNDED_INTERACTIVE_RECOVERY__2026_10_24_SCHEDULED_SUCCESS",
   "public_daily_2026_10_16_download_sha256": "a4f370e6392cbdcb575b528ff11b60d5ca40978bb96b798b4ee8a1bf86eb0040",
   "public_daily_2026_10_17_download_sha256": "7c777d8bf41779e3bd1c384f3cd197edd0316bdb406795e5f582dd2bdaabcb06",
@@ -770,5 +786,16 @@
     "site_changed": false,
     "checked_at": "2026-10-25T06:17:59.722Z",
     "warning": "Only exact Authority baseline SHA is tested; if Authority has moved, Work must reconcile rather than overwrite"
-  }
+  },
+  "current_run_site_publication_performed": false,
+  "reader_baseline_patch": {
+    "status": "APPLIED_TO_AUTHORITY_V71",
+    "before_authority_sha256": "8dcb0302dda8b0e331ee3b78e0a4c56c7bddd30ccb07f61af195a69fa1efb0f4",
+    "after_authority_sha256": "0f23d3817e0b52d33de27c1b7eae48433f28e07f7c1afd09425e1151e15e830f",
+    "files": 3,
+    "reader_validation": "PASS 2107/2107",
+    "portal_validation": "PASS 37/37"
+  },
+  "evidence_revalidation_2026_10_25": "PASS_WITH_WARNINGS__12_RECORDS__0_BLOCKING__E10_E11_E12_ORIGINAL_MEDIA_VERIFIED",
+  "ap_time_adjudication_2026_10_26": "WINDOW_PASS_BY_INDEPENDENT_PAGE_TIMESTAMP__STRICT_V2_REMAINS_FAIL_CLOSED_FOR_2_MISSING_PUBLICATION_TIME_FIELDS"
 }
