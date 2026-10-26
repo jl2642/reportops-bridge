@@ -17,7 +17,7 @@
   "private_site_status": "RETIRED",
   "public_site_version": 107,
   "public_site_url": "https://energy-cycle-report-share.ljjx2020.chatgpt.site",
-  "download_integrity": "PASS_REMOTE_ZIP_SHA256_AND_UNZIP__DAILY_2026_10_23_24__W42",
+  "download_integrity": "PASS_REMOTE_UNZIP_DAILY_2026_10_22_AND_WEEKLY_W42__SHA_MISMATCH_DAILY_ONLY",
   "v4_runtime_assets_in_authority": "PASS",
   "daily_runtime_contract_active": "V1_5_FORMAL_AUTHORITY",
   "bridge_protocol_active": "V1_5_FORMAL_AUTHORITY",
@@ -34,7 +34,7 @@
   "updated_at": "2026-10-26T12:30:00+08:00",
   "metadata_freshness": "PASS_AUTHORITY_13_CURRENT_DERIVED_VIEWS_FOR_2026_10_22__PUBLIC_SITE_AHEAD",
   "state_consistency_pointer_sha256": "f9374ed21f4c4d3b9eed501ac76abe9d62b2aaa828d1afa8a6dc54fef93ba79e",
-  "real_remote_readback_status": "NOT_REPEATED__NO_SITE_DEPLOYMENT__KNOWN_V107_CONTENT_CONFLICT",
+  "real_remote_readback_status": "FAIL_REAL_LIVE_ORIGIN_V107__HOME_2026_10_24__DAILY_ARCHIVE_INCLUDES_2026_10_23_24__W42_PASS",
   "site_only_corrective_republish_required": false,
   "private_site_dependency_removed": true,
   "queue_remaining": [
@@ -47,7 +47,8 @@
     "public_site_home",
     "public_site_daily_archive",
     "public_site_daily_2026-10-23",
-    "public_site_daily_2026-10-24"
+    "public_site_daily_2026-10-24",
+    "public_site_download_daily_2026-10-22_sha"
   ],
   "manifest_reconciliation_status": "PASS_FAIL_CLOSED__TOP_LEVEL_STATES_MATCH_ACTUAL_LIBRARY_CURRENT_2026_10_22",
   "measurement_parity_status": "PASS_AUTHORITY_CONSUMER_ACTUALS",
@@ -67,7 +68,7 @@
   "current_package_site_publication_performed": true,
   "public_remote_readback": "PASS_REAL_LIVE_ORIGIN_CONTENT_V107",
   "library_sidecar_sha256": "0f23d3817e0b52d33de27c1b7eae48433f28e07f7c1afd09425e1151e15e830f",
-  "runtime_sync_status": "PASS_POST_REBUILD_AUTHORITY_SHA_V71__CANONICAL_UNCHANGED__SITE_PENDING",
+  "runtime_sync_status": "PASS_POST_REBUILD_AUTHORITY_SHA_V71__CANONICAL_UNCHANGED__SITE_AND_DAILY_DOWNLOAD_INCONSISTENT",
   "manual_intervention_required": false,
   "failure_stage": "DAILY_2026_10_23_ATOMIC_FINALIZER_SEMANTIC_PRODUCT_GUARD",
   "failure_reason": "P8G finalizer transaction rolled back: semantic_product_guard failed rc=1 because 2026-W42 source refs map to source anchors returned refs=0 anchors=0.",
@@ -123,8 +124,8 @@
   "current_annual_public": "NO_FORMAL_2026_PRODUCT",
   "eligible_unpublished_products": [],
   "canonical_promotion_performed": false,
-  "public_site_status": "FAIL_SITE_AHEAD_OF_CANONICAL__LIVE_V107_SHOWS_2026_10_24_WHILE_LIBRARY_CURRENT_IS_2026_10_22",
-  "download_sha_status": "NOT_REPEATED__NO_CANONICAL_PROMOTION",
+  "public_site_status": "FAIL_SITE_AHEAD_OF_CANONICAL__LIVE_V107_HOME_AND_ARCHIVES_SHOW_DAILY_2026_10_24_WHILE_LIBRARY_CURRENT_IS_2026_10_22",
+  "download_sha_status": "FAIL_REMOTE_DAILY_2026_10_22_SHA_MISMATCH__REMOTE_A8D59F2A53001FAD__AUTHORITY_BFC225B7BAED3AFE__W42_PASS_4E56847C",
   "last_updated": "2026-10-26T12:30:00+08:00",
   "reportops_status": "PARTIAL_SUCCESS__READER_PATCH_PERSISTED__CANONICAL_UNCHANGED__PRODUCT_BLOCKERS",
   "public_site_publication_receipt_status": "PASS_V107",
@@ -255,5 +256,10 @@
     "portal_validation": "PASS 37/37"
   },
   "evidence_revalidation_2026_10_25": "PASS_WITH_WARNINGS__12_RECORDS__0_BLOCKING__E10_E11_E12_ORIGINAL_MEDIA_VERIFIED",
-  "ap_time_adjudication_2026_10_26": "WINDOW_PASS_BY_INDEPENDENT_PAGE_TIMESTAMP__STRICT_V2_REMAINS_FAIL_CLOSED_FOR_2_MISSING_PUBLICATION_TIME_FIELDS"
+  "ap_time_adjudication_2026_10_26": "WINDOW_PASS_BY_INDEPENDENT_PAGE_TIMESTAMP__STRICT_V2_REMAINS_FAIL_CLOSED_FOR_2_MISSING_PUBLICATION_TIME_FIELDS",
+  "site_only_corrective_republish_attempted": true,
+  "site_only_corrective_republish_deployed": false,
+  "site_prepublication_audit": "FAIL__public_site_release_audit__2_SENSITIVE_MATCHES__W42_RESEARCH_OBJECT",
+  "site_failure_stage": "PUBLIC_SITE_RELEASE_AUDIT_W42_EXISTING_ACCEPTED_PROSE",
+  "site_failure_reason": "public_site_release_audit.py reported sensitive:site/weekly/2026-W42/index.html:research object and the matching W42 download HTML; Work did not rewrite accepted W42 prose or bypass the gate."
 }
