@@ -11,13 +11,13 @@ language: zh-CN
 <!-- MODULE:EXECUTIVE_SIGNAL_SUMMARY -->
 ## 1. 今日一屏结论
 
-**核心结论：中东油气风险溢价仍在，但风险事件、实物减供和价格表现必须分开观察。** 沙特周日拦截导弹与无人机，利雅得机场部分恢复运营，说明安全威胁未消失，但不等于沙特油田或管道已经发生新的实物停产。[E01](https://www.reuters.com/world/middle-east/yemens-houthis-renew-warning-against-using-riyadh-airport-2026-10-24/) [E03](https://apnews.com/article/mideast-news-october-25-2026-4779a3deeb1a23f59414164532d5c885) 北京时间26日早间，布伦特原油期货一度报115.16美元/桶，较前一比较点回落1.34%；WTI期货报101.67美元/桶，回落1.55%，表明短线风险溢价出现回吐而非风险消失。[E04](https://www.reuters.com/business/energy/oil-prices-down-almost-1-early-trading-2026-10-25/) [E05](https://www.reuters.com/business/energy/oil-prices-down-almost-1-early-trading-2026-10-25/) 同期，沙特与新加坡提出自2027年下半年起在裕廊岩洞储存沙特原油的合作意向，属于中期供应链韧性建设，不是当期新增原油产量。[E06](https://www.reuters.com/business/energy/saudi-arabia-store-crude-oil-singapore-second-half-2027-2026-10-26/) 产业链判断是优先跟踪红海航运与沙特油气设施实际运行，再判断LNG、LPG采购成本和到岸毛差，而非把油价波动机械外推为天然气现货涨跌。
+**核心结论：中东油气风险溢价仍在，但风险事件、实物减供和价格表现必须分开观察。** 沙特周日拦截导弹与无人机，利雅得机场部分恢复运营，说明安全威胁未消失，但不等于沙特油田或管道已经发生新的实物停产。[E01](https://apnews.com/article/mideast-news-october-25-2026-4779a3deeb1a23f59414164532d5c885) [E03](https://apnews.com/article/mideast-news-october-25-2026-4779a3deeb1a23f59414164532d5c885) 北京时间26日早间，布伦特原油期货一度报115.16美元/桶，较前一比较点回落1.34%；WTI期货报101.67美元/桶，回落1.55%，表明短线风险溢价出现回吐而非风险消失。[E04](https://www.reuters.com/business/energy/oil-prices-down-almost-1-early-trading-2026-10-25/) [E05](https://www.reuters.com/business/energy/oil-prices-down-almost-1-early-trading-2026-10-25/) 同期，沙特与新加坡提出自2027年下半年起在裕廊岩洞储存沙特原油的合作意向，属于中期供应链韧性建设，不是当期新增原油产量。[E06](https://www.reuters.com/business/energy/saudi-arabia-store-crude-oil-singapore-second-half-2027-2026-10-26/) 产业链判断是优先跟踪红海航运与沙特油气设施实际运行，再判断LNG、LPG采购成本和到岸毛差，而非把油价波动机械外推为天然气现货涨跌。
 
 <!-- KEY_SIGNAL_CARDS:3-5 -->
 ## 2. 今日关键信号
 
 ### 信号卡1｜沙特安全威胁持续，但实物减供尚待核实
-- 事实摘要：沙特表示周日拦截针对利雅得及南部地区的导弹和无人机，利雅得哈立德国王国际机场的部分航站楼恢复运营；路透报道指出恢复后的实际航班仍较少。[E01](https://www.reuters.com/world/middle-east/yemens-houthis-renew-warning-against-using-riyadh-airport-2026-10-24/) [E02](https://www.reuters.com/world/middle-east/yemens-houthis-renew-warning-against-using-riyadh-airport-2026-10-24/) 美联社另行报道沙特方面确认拦截行动，形成不同媒体的交叉报道。[E03](https://apnews.com/article/mideast-news-october-25-2026-4779a3deeb1a23f59414164532d5c885)
+- 事实摘要：美联社报道利雅得哈立德国王国际机场的部分航站楼于周日恢复运营；路透另报道沙特当日拦截针对利雅得及南部地区的导弹和无人机。[E01](https://apnews.com/article/mideast-news-october-25-2026-4779a3deeb1a23f59414164532d5c885) [E02](https://www.reuters.com/world/middle-east/gulf-bourses-slip-houthi-saudi-clashes-rattle-investors-2026-10-25/) 美联社另行报道沙特方面确认拦截行动，形成不同媒体的交叉报道。[E03](https://apnews.com/article/mideast-news-october-25-2026-4779a3deeb1a23f59414164532d5c885)
 - 为什么重要：航空设施遭袭与炼厂、输油管线、装船码头停运的经济后果不同；市场会为可能的能源出口中断定价，但真实供给损失须有运营方、港口或船舶数据证实。
 - 价格/供需/产业链传导：风险首先进入原油风险溢价、保险与绕航预期；若实际出口受阻，才进一步作用于原油供应、石脑油和LPG链条。
 - 影响对象：中东原油出口商、亚洲炼厂、航运和以进口资源为主的能源分销商。
@@ -70,7 +70,7 @@ language: zh-CN
 <!-- MODULE:GLOBAL_ENERGY_DELTA -->
 ## 6. 国际油气 / LNG增量
 
-国际能源增量集中于沙特安全事件、油价风险溢价回吐及东南亚原油储存意向。沙特周日的拦截行动与利雅得机场部分复航均有报道，但无法据此确认炼厂或原油出口遭遇新增实物中断。[E02](https://www.reuters.com/world/middle-east/yemens-houthis-renew-warning-against-using-riyadh-airport-2026-10-24/) 沙特—新加坡安排计划最早从2027年下半年实施，属于中期供应韧性安排，当前不增加LNG液化产能，也不直接改变本周LNG供应。[E07](https://www.reuters.com/business/energy/saudi-arabia-store-crude-oil-singapore-second-half-2027-2026-10-26/) 欧洲方面，Rosebank审批仍未决，长期项目投资不确定性持续。[E11](https://www.theguardian.com/environment/2026/oct/25/cabinet-split-emerges-over-controversial-rosebank-oilfield-decision)
+国际能源增量集中于沙特安全事件、油价风险溢价回吐及东南亚原油储存意向。沙特周日的拦截行动与利雅得机场部分复航分别见路透和美联社报道，但无法据此确认炼厂或原油出口遭遇新增实物中断。[E02](https://www.reuters.com/world/middle-east/gulf-bourses-slip-houthi-saudi-clashes-rattle-investors-2026-10-25/) 沙特—新加坡安排计划最早从2027年下半年实施，属于中期供应韧性安排，当前不增加LNG液化产能，也不直接改变本周LNG供应。[E07](https://www.reuters.com/business/energy/saudi-arabia-store-crude-oil-singapore-second-half-2027-2026-10-26/) 欧洲方面，Rosebank审批仍未决，长期项目投资不确定性持续。[E11](https://www.theguardian.com/environment/2026/oct/25/cabinet-split-emerges-over-controversial-rosebank-oilfield-decision)
 
 <!-- MODULE:RESEARCH_TRIGGER_BOARD -->
 ## 7. Research Trigger Board
@@ -85,7 +85,7 @@ language: zh-CN
 <!-- MODULE:EVIDENCE_AND_GAPS -->
 ## 9. 证据、数据缺口、风险与反证
 
-本窗口主要使用路透、美联社和《卫报》的已观察具体报道。沙特拦截消息有不同媒体的独立报道；胡塞声称命中油设施与实际损坏之间仍有证据断层。[E02](https://www.reuters.com/world/middle-east/yemens-houthis-renew-warning-against-using-riyadh-airport-2026-10-24/) [E03](https://apnews.com/article/mideast-news-october-25-2026-4779a3deeb1a23f59414164532d5c885) 关键DATA_GAP包括：沙特原油与LPG实际装船、区域保险和运价、同口径JKM/TTF/CP及中国接收站成交数据、储存MOU最终条款。Rosebank内部意见与最终审批严格区分。[E11](https://www.theguardian.com/environment/2026/oct/25/cabinet-split-emerges-over-controversial-rosebank-oilfield-decision) 不把历史背景或未来规划写成窗口内新增实物量，不以无来源的估计补足缺口。
+本窗口主要使用路透、美联社和《卫报》的已观察具体报道。沙特拦截消息有不同媒体的独立报道；胡塞声称命中油设施与实际损坏之间仍有证据断层。[E02](https://www.reuters.com/world/middle-east/gulf-bourses-slip-houthi-saudi-clashes-rattle-investors-2026-10-25/) [E03](https://apnews.com/article/mideast-news-october-25-2026-4779a3deeb1a23f59414164532d5c885) 关键DATA_GAP包括：沙特原油与LPG实际装船、区域保险和运价、同口径JKM/TTF/CP及中国接收站成交数据、储存MOU最终条款。Rosebank内部意见与最终审批严格区分。[E11](https://www.theguardian.com/environment/2026/oct/25/cabinet-split-emerges-over-controversial-rosebank-oilfield-decision) 不把历史背景或未来规划写成窗口内新增实物量，不以无来源的估计补足缺口。
 
 <!-- NEXT_VERIFICATION -->
 ## 10. 下一窗口验证
@@ -94,7 +94,7 @@ language: zh-CN
 
 ## Public Sources
 
-- [E01](https://www.reuters.com/world/middle-east/yemens-houthis-renew-warning-against-using-riyadh-airport-2026-10-24/)｜Reuters，沙特机场与安全事件，2026-10-24 23:56 UTC。
+- [E01](https://apnews.com/article/mideast-news-october-25-2026-4779a3deeb1a23f59414164532d5c885)｜Associated Press，沙特机场部分复航，2026-10-25（发布时刻未列）。
 - [E03](https://apnews.com/article/mideast-news-october-25-2026-4779a3deeb1a23f59414164532d5c885)｜Associated Press，2026-10-25中东动态。
 - [E04](https://www.reuters.com/business/energy/oil-prices-down-almost-1-early-trading-2026-10-25/)｜Reuters，油价早盘，2026-10-25 23:24 UTC。
 - [E06](https://www.reuters.com/business/energy/saudi-arabia-store-crude-oil-singapore-second-half-2027-2026-10-26/)｜Reuters，沙特—新加坡储存意向，2026-10-26 01:47 UTC。
