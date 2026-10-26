@@ -30,5 +30,22 @@
     "SAUDI_ENERGY_FACILITY_DAMAGE_NOT_CONFIRMED",
     "SINGAPORE_CRUDE_STORAGE_IS_INTENT_NOT_SIGNED_BINDING_CONTRACT",
     "BOUNDED_CORRECTION_REPLACED_OFF_WINDOW_2026_10_24_2356_UTC_SOURCE"
-  ]
+  ],
+  "producer_status": "PUBLIC_CORE_ACCEPTED",
+  "product_status": "PUBLIC_CORE_ACCEPTED_PENDING_WORK",
+  "formal_status": "PENDING_WORK_RECONCILIATION",
+  "source_identity_gate_status": "PASS_11_OF_11__OBSERVED_SEARCH_OR_OPENED_EXACT_SOURCE",
+  "inline_citation_gate_status": "PASS_11_OF_11__IN_NARRATIVE_LINKS",
+  "exact_v4_machine_structure_status": "PASS",
+  "v4_public_depth_gate_status": "PASS",
+  "privacy_status": "PASS_PUBLIC_SAFE",
+  "evidence_status": "PASS_11_OF_11",
+  "strict_v2_ledger_status": "PASS_11_OF_11__FULL_43_COLUMN_CLAIM_URL_BINDINGS",
+  "data_gap_boundary_status": "PASS__PRICE_FREIGHT_AND_CONTRACT_UNCERTAINTY_DISCLOSED",
+  "producer_self_audit_status": "PASS__V4_COUNT_PARITY__EVIDENCE_11_OF_11_NARRATIVE_CITATION_LINKS__STRICT_V2_LEDGER",
+  "consumer_status": "PENDING_WORK_RECONCILIATION",
+  "canonical_promotion_performed": false,
+  "site_publication_performed": false,
+  "next_work_action": "Work: verify two AP date-only publication-time records, independently run native evidence/reader/lineage gates, and promote Daily 2026-10-23 to 2026-10-26 oldest-first only on formal PASS; do not treat producer candidate as canonical.",
+  "updated_at": "2026-10-26T02:23:11.399Z"
 }
