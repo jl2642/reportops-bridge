@@ -1,0 +1,33 @@
+{
+  "schema_version": "REPORTOPS_DAILY_MANIFEST_V1_5_SINGLE_SITE",
+  "target_date": "2026-10-26",
+  "window_start": "2026-10-25T10:00:00+08:00",
+  "window_end": "2026-10-26T10:00:00+08:00",
+  "scheduled_for": "2026-10-26T10:15:00+08:00",
+  "cjk_characters_actual": 3034,
+  "executive_cjk_actual": 256,
+  "key_signal_cjk_actual": 1307,
+  "signal_card_cjk_actual": [
+    353,
+    293,
+    330,
+    313
+  ],
+  "china_chain_cjk_actual": 204,
+  "global_energy_cjk_actual": 152,
+  "industry_operator_cjk_actual": 208,
+  "signal_card_count": 4,
+  "evidence_record_count": 11,
+  "source_url_count_distinct": 6,
+  "public_contract_sha256": "64770bf24f1280d11060d6a905a659241d5e483109fc8c3e34195a8264fc48f6",
+  "authority_policy_sha256": "ed69573e48d0daedd1b899ab2d6cf15880f37705f88b44b1a9d2ca26715f9905",
+  "canonical_mutation_performed": false,
+  "site_mutation_performed": false,
+  "work_may_rewrite": false,
+  "warnings": [
+    "AP_DATE_ONLY_PUBLICATION_TIMESTAMP__SUNDAY_EVENTS_CONFIRMED_WITHIN_WINDOW",
+    "NO_COMPLETE_SAME_DAY_JKM_TTF_CP_LPG_FREIGHT_SERIES",
+    "SAUDI_ENERGY_FACILITY_DAMAGE_NOT_CONFIRMED",
+    "SINGAPORE_CRUDE_STORAGE_IS_INTENT_NOT_SIGNED_BINDING_CONTRACT"
+  ]
+}
