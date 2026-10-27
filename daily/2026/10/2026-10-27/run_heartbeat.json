@@ -2,5 +2,44 @@
   "target_date": "2026-10-27",
   "scheduled_for": "10:15 Asia/Shanghai",
   "run_started_at": "2026-10-27T02:19:19.846Z",
-  "status": "RUN_STARTED_BEFORE_PREFLIGHT"
+  "status": "PRODUCER_SUCCESS_CANDIDATES_PENDING_WORK",
+  "run_finished_at": "2026-10-27T02:25:29.844Z",
+  "products_repaired_or_produced": [
+    {
+      "target_date": "2026-10-26",
+      "action": "BOUNDED_LEDGER_METADATA_CORRECTION",
+      "scope": "E01_E03_PUBLICATION_TIME_ONLY",
+      "verified_timestamp": "2026-10-25T22:16:00Z",
+      "persisted_readback": "PASS",
+      "work_native_validator": "PENDING"
+    },
+    {
+      "target_date": "2026-10-27",
+      "action": "NEW_PUBLIC_SAFE_DAILY_CANDIDATE",
+      "files": [
+        "public_core.md",
+        "evidence.json",
+        "evidence_ledger_v2_2026-10-27.csv",
+        "manifest.json"
+      ],
+      "evidence_records": 11,
+      "ledger_columns": 43,
+      "cjk_characters": 3244,
+      "signal_cards": 4,
+      "persisted_readback": "PASS"
+    }
+  ],
+  "producer_recovery_queue_remaining": [],
+  "queue_for_12_30_work": [
+    "Daily 2026-10-23",
+    "Daily 2026-10-24",
+    "Daily 2026-10-25",
+    "Daily 2026-10-26",
+    "Daily 2026-10-27"
+  ],
+  "post_run_self_audit_status": "PASS__FOUR_FILE_READBACK__SOURCE_IDENTITY_V1_2__INLINE_CITATION__WINDOW__V4_DEPTH__STRICT_V2_43_COLUMNS__MANIFEST_METRICS",
+  "failure_stage": null,
+  "failure_reason": null,
+  "work_boundary": "PRODUCER_ONLY__NO_CANONICAL_SITE_OR_HIGHER_CYCLE_MUTATION",
+  "consumer_caveat": "2026-10-23 Work semantic finalizer blocker remains outside Producer; 2026-10-26 corrected ledger requires native Work revalidation; no formal promotion claimed"
 }
