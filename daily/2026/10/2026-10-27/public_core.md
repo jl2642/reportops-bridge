@@ -11,7 +11,7 @@ language: zh-CN
 <!-- MODULE:EXECUTIVE_SIGNAL_SUMMARY -->
 ## 1. 今日一屏结论
 
-今日最值得关注的并非某一条孤立油价，而是**欧洲天然气冬季风险溢价上升、美国上游气源整合、亚洲LNG到港预估回升**三条链条同时出现。10月26日欧洲批发天然气报价一度触及约97欧元/兆瓦时，报道所引欧洲储气率约75%，较同期常见水平偏低；这属于欧洲批发气价及储气口径，不是亚洲JKM成交价。[E01](https://www.theguardian.com/business/2026/oct/26/european-gas-prices-four-year-high-winter-supply-fears-middle-east) [E02](https://www.wsj.com/finance/commodities-futures/european-gas-at-four-year-high-on-winter-supply-fears-b7dd5145) 同一窗口内，EQT宣布以全股票方式收购Range Resources，合并后预期日产量超过90亿立方英尺天然气当量，显示气源、管输和营销规模竞争正在强化。[E04](https://www.reuters.com/business/eqt-buy-range-resources-over-50-billion-deal-2026-10-26/) [E05](https://ir.rangeresources.com/news-releases/news-release-details/eqt-announces-strategic-acquisition-range-resources-creating/)
+今日最值得关注的并非某一条孤立油价，而是**欧洲天然气冬季风险溢价上升、美国上游气源整合、亚洲LNG到港预估回升**三条链条同时出现。10月26日欧洲批发天然气报价一度触及约97欧元/兆瓦时，报道所引欧洲储气率约75%，较同期常见水平偏低；这属于欧洲批发气价及储气口径，不是亚洲JKM成交价。[E01](https://www.theguardian.com/business/2026/oct/26/european-gas-prices-four-year-high-winter-supply-fears-middle-east) [E02](https://www.dailysabah.com/business/energy/european-gas-prices-hit-nearly-110-per-mwh-highest-since-2022) 同一窗口内，EQT宣布以全股票方式收购Range Resources，合并后预期日产量超过90亿立方英尺天然气当量，显示气源、管输和营销规模竞争正在强化。[E04](https://www.reuters.com/business/eqt-buy-range-resources-over-50-billion-deal-2026-10-26/) [E05](https://ir.rangeresources.com/news-releases/news-release-details/eqt-announces-strategic-acquisition-range-resources-creating/)
 
 中国方面，10月26日发布的E-Gas船期统计估算，10月19—25日中国沿海LNG到港16船、约108万吨，前一周约95万吨；10月26日至11月1日的约163万吨仍只是船期预测，不能当作已卸货量。[E03](https://finance.sina.com.cn/money/bond/2026-10-26/doc-iniwpwir9274342.shtml) 油品方面，中东袭击仍存在核实缺口，俄柴油增供与炼油价差高企可能形成相反方向的价格影响。[E07](https://www.reuters.com/world/middle-east/houthis-say-they-attacked-east-west-oil-pumping-stations-no-saudi-confirmation-2026-10-26/) [E09](https://www.reuters.com/business/energy/galp-moeve-scrap-talks-combine-refining-fuel-retail-businesses-2026-10-26/) [E10](https://www.reuters.com/business/energy/russian-refiners-ramp-up-diesel-output-after-us-deal-sources-say-2026-10-26/) 今日基调：**气价偏紧、油价高位震荡、运输和信用风险未消退；避免把消息、价格、实际交付混为一谈。**
 
@@ -19,7 +19,7 @@ language: zh-CN
 ## 2. 今日关键信号
 
 ### 信号卡1｜欧洲气价及冬储脆弱性
-- 事实摘要：10月26日欧洲批发天然气价格触及约97欧元/兆瓦时，英国近月天然气合约约240便士/therm；报道提及欧洲储气约75%，另有市场报道给出欧盟约74.6%的相近但非完全相同口径。[E01](https://www.theguardian.com/business/2026/oct/26/european-gas-prices-four-year-high-winter-supply-fears-middle-east) [E02](https://www.wsj.com/finance/commodities-futures/european-gas-at-four-year-high-on-winter-supply-fears-b7dd5145)
+- 事实摘要：10月26日欧洲批发天然气价格触及约97欧元/兆瓦时，英国近月天然气合约约240便士/therm；报道提及欧洲储气约75%，另有市场报道给出欧盟约74.6%的相近但非完全相同口径。[E01](https://www.theguardian.com/business/2026/oct/26/european-gas-prices-four-year-high-winter-supply-fears-middle-east) [E02](https://www.dailysabah.com/business/energy/european-gas-prices-hit-nearly-110-per-mwh-highest-since-2022)
 - 为什么重要：市场关注点从“能否补库”转向“寒冬启动时的可调度库存与边际LNG采购成本”。低库存不是供应必然中断，但在天气、运力和中东供应同时波动时，价格对边际货源更敏感。
 - 价格/供需/产业链传导：TTF走高可能抬升欧洲现货LNG支付意愿，间接改变大西洋货源向欧亚分配；不能未经同日船期、运费、JKM评估就断言亚洲到岸价同步上涨。
 - 影响对象：欧洲燃气发电、工业气用户、LNG贸易商、再气化终端及冬季储气运营商。
@@ -104,7 +104,7 @@ IEA负责人10月26日在新加坡指出，2027年能源市场难以回到伊朗
 ## Public Sources
 
 - E01 欧洲天然气市场：[The Guardian](https://www.theguardian.com/business/2026/oct/26/european-gas-prices-four-year-high-winter-supply-fears-middle-east)
-- E02 欧洲TTF交叉核对：[The Wall Street Journal](https://www.wsj.com/finance/commodities-futures/european-gas-at-four-year-high-on-winter-supply-fears-b7dd5145)
+- E02 欧洲TTF交叉核对：[Daily Sabah](https://www.dailysabah.com/business/energy/european-gas-prices-hit-nearly-110-per-mwh-highest-since-2022)
 - E03 中国LNG到港：[新华财经转引／新浪财经](https://finance.sina.com.cn/money/bond/2026-10-26/doc-iniwpwir9274342.shtml)
 - E04 美国气源并购：[Reuters](https://www.reuters.com/business/eqt-buy-range-resources-over-50-billion-deal-2026-10-26/)
 - E05 并购公司原始公告：[Range Resources IR](https://ir.rangeresources.com/news-releases/news-release-details/eqt-announces-strategic-acquisition-range-resources-creating/)
