@@ -12,7 +12,7 @@
   "inline_citation_gate_formal_authority_active": true,
   "current_metadata_freshness_gate_active": true,
   "work_cycle_authoring_allowed": false,
-  "site_publication_performed": true,
+  "site_publication_performed": false,
   "live_site_mode": "SINGLE_SITE_V4_PUBLIC",
   "private_site_status": "RETIRED",
   "public_site_version": 108,
@@ -53,7 +53,7 @@
   "measurement_parity_status": "PASS_AUTHORITY_CONSUMER_ACTUALS",
   "derived_state_completeness_status": "PASS__13_CURRENT_DERIVED_VIEWS",
   "stable_operation_accepted": false,
-  "higher_cycle_dependency_state": "W43_CANONICAL_POOL_4_OF_7__NO_CHAT_ACCEPTED_HIGHER_CYCLE_CANDIDATE",
+  "higher_cycle_dependency_state": "W43_AUTHORITY_POOL_4_OF_7__PENDING_DAILY_2026_10_23_TO_2026_10_25__NO_CHAT_FINAL_CANDIDATE",
   "authority_sha_runtime_reconciliation": {
     "before": "8dcb0302dda8b0e331ee3b78e0a4c56c7bddd30ccb07f61af195a69fa1efb0f4",
     "post_rebuild": "0f23d3817e0b52d33de27c1b7eae48433f28e07f7c1afd09425e1151e15e830f",
@@ -67,10 +67,10 @@
   "current_package_site_publication_performed": true,
   "public_remote_readback": "PASS_CORE_CURRENT_2026_10_22__FORMAL_ARCHIVE_EXPECTED_SET_PARTIAL",
   "library_sidecar_sha256": "0f23d3817e0b52d33de27c1b7eae48433f28e07f7c1afd09425e1151e15e830f",
-  "runtime_sync_status": "PASS_AUTHORITY_SHA_FOUR_WAY_UNCHANGED__METADATA_ONLY_SITE_V108_RECONCILED",
+  "runtime_sync_status": "PASS_AUTHORITY_SHA_FOUR_WAY_UNCHANGED__METADATA_ONLY_BLOCKER_RECONCILED",
   "manual_intervention_required": true,
-  "failure_stage": "DAILY_2026_10_23_ATOMIC_FINALIZER_WEEKLY_ENHANCED_CONTRACT_VALIDATOR",
-  "failure_reason": "P8G finalizer transaction rolled back: weekly_contract failed rc=1; source references exist=FAIL (0 refs), HTML has reader-facing components=FAIL (template parity components), qclaw canonical landing exists=FAIL.",
+  "failure_stage": "DAILY_2026_10_23_ATOMIC_FINALIZER_STATE_CONSISTENCY",
+  "failure_reason": "P8G finalizer transaction rolled back: state_consistency failed rc=1; product_catalog_registry.csv QUARTERLY_ARTIFACT_MISSING quality_path= for current 2026-Q3. The existing finalizer discovery pattern does not recognize the Authority file QUARTERLY_FINAL_ACCEPTANCE_RECEIPT_2026-Q3.md. No third compatibility patch was authorized; no gate was bypassed.",
   "prepublication_recovery_receipt": {
     "scope": "DAILY_2026_10_09_AND_2026_10_10",
     "queue_for_work": [
@@ -125,10 +125,10 @@
   "canonical_promotion_performed": false,
   "public_site_status": "PASS_V108_AUTHORITY_CURRENT_CORE_READBACK__FORMAL_REMOTE_ARCHIVE_AUDIT_PARTIAL",
   "download_sha_status": "PASS_REMOTE_CURRENT_DAILY_WEEKLY_MONTHLY_QUARTERLY_SHA256_AND_UNZIP",
-  "last_updated": "2026-10-28T12:30:00+08:00",
-  "reportops_status": "PARTIAL_SUCCESS__SITE_AUTHORITY_CURRENT_RESTORED__ATOMIC_PROMOTION_BLOCKED_WEEKLY_CONTRACT",
+  "last_updated": "2026-10-28T13:30:15+08:00",
+  "reportops_status": "PARTIAL_SUCCESS__AUTHORIZED_W42_PATCHES_PASS_IN_STAGING__ATOMIC_PROMOTION_BLOCKED_STATE_CONSISTENCY",
   "public_site_publication_receipt_status": "PASS_V107",
-  "next_action": "Governance-authorized compatibility repair is required for the existing weekly_enhanced_contract_validator to recognize formal W42 S01-S17 direct external links and current reader template while preserving legacy anchors and negative tests; then retry Daily 2026-10-23 oldest-first. Separately reconcile the formal remote archive audit expected set without changing privacy rules.",
+  "next_action": "Governance-authorize a minimal fail-closed compatibility fix for product_catalog_finalizer.quarterly_current_files quality receipt discovery (or an approved existing protocol) so the existing uppercase QUARTERLY_FINAL_ACCEPTANCE_RECEIPT_2026-Q3.md is selected; rerun full 10/23 atomic finalizer, then consume 10/24–10/28 oldest-first. Separately reconcile remote archive expected-set construction against the existing sanitizer exclusions.",
   "upstream_producer_status": "COMPLETE_CANDIDATES_THROUGH_2026_10_28__OLDEST_FIRST_CONSUMPTION_BLOCKED",
   "producer_gap": [],
   "scheduled_date": "2026-10-28",
@@ -254,7 +254,7 @@
       "blocker": null
     }
   ],
-  "last_work_reconciled_at": "2026-10-28T12:30:00+08:00",
+  "last_work_reconciled_at": "2026-10-28T13:30:15+08:00",
   "public_daily_2026_10_15_download_sha256": "f1d224161f3e274e833b372d98462deb62b7730f967607b4dfee7160842dc6c9",
   "current_derived_views_status": "PASS_13_OF_13__POINTER_MATCH__CURRENT_2026_10_22",
   "producer_automation_status": "UNATTENDED_RELIABILITY_NOT_ACCEPTED__2026_10_23_REQUIRED_BOUNDED_INTERACTIVE_RECOVERY__2026_10_24_SCHEDULED_SUCCESS",
@@ -300,8 +300,7 @@
     "patched_sha256": "b9a75ae58937385d817b8a5ac4968cdde156b25add69710c50af4f1396dd910e",
     "native_semantic_checks": "PASS 22/22",
     "link_checks": "PASS 546",
-    "negative_wrong_url": "EXPECTED_FAIL",
-    "negative_unregistered_source": "EXPECTED_FAIL"
+    "negative_tests": "EXPECTED_FAIL_CLOSED"
   },
   "remote_zip_verification": {
     "daily_2026_10_22": "ebe6151c8a28d7d8fde6a8f69c36ca22adcbfe2cd67a6e7f9e708023ac2d6802",
@@ -309,5 +308,13 @@
     "monthly_2026_09": "5c315f4e4500f441809379a4f567a083f52dd0cc91140af1d897a3a107e161b0",
     "quarterly_2026_Q3": "77a48ae0f31e90c13293fdf235c36d5a7b8a400a04117430eec5b1ae88bce0a7",
     "status": "PASS_ALL_SHA_AND_UNZIP"
+  },
+  "weekly_contract_w42_compat_patch": {
+    "status": "STAGING_APPLIED_AND_REGRESSION_PASS__NOT_PROMOTED_TO_AUTHORITY_DUE_DOWNSTREAM_FORMAL_GATE_ROLLBACK",
+    "authority_before_sha256": "84e4be2a8067a1e6480a22950a05cb7ab0eb8680f6611a93ea0f2b5590773b71",
+    "patched_sha256": "6dcb300e23cdc8906688cc1d975d612b94aeaacaa11b906587f29322024400c1",
+    "native_weekly_contract_checks": "PASS 13/13",
+    "source_bindings": "PASS W42 108 citations / 17 Sxx exact URLs / HTML",
+    "negative_tests": "PASS 6/6 EXPECTED_FAIL_CLOSED"
   }
 }
