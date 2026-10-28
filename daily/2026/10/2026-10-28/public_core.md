@@ -13,7 +13,7 @@ language: zh-CN
 
 本窗口最值得追踪的不是单一油价涨跌，而是**中东供给中断、亚洲冬季增量采购成本与美国天然气增产**三条链条同时变化。卡塔尔对意大利Edison及部分巴基斯坦客户的LNG不可抗力交付限制延长至2026年末，直接涉及Edison新增三船货；这意味着部分合同气源的履约风险已从短期延误延伸至年末。[E01](https://www.reuters.com/business/energy/qatar-extends-force-majeure-lng-cargoes-italys-edison-until-end-december-2026-10-27/) 中国能源媒体同日梳理指出，国内气源组合能缓冲总量压力，但现货增量成本与终端传导能力之间的错配正在扩大。[E03](https://cpnn.com.cn/news/yq/202610/t20261027_1922701.html)
 
-油价的即时方向仍被外交与实物风险交替驱动：北京时间10月28日09:40附近，路透报道Brent期货报115.36美元/桶、WTI报101.12美元/桶，均为当时盘中报价而非当日结算价。[E05](https://www.reuters.com/world/asia-pacific/oil-prices-rise-after-attack-saudi-arabian-refinery-reignites-supply-concerns-2026-10-28/) 沙特Ras Tanura遇袭目前主要是胡塞武装声称，沙特官方未确认炼厂受损，不能将其写成已核实停产。[E06](https://www.reuters.com/business/energy/yemens-houthis-say-they-launched-an-attack-saudi-ras-tanura-oil-refinery-2026-10-27/) 今日判断：冬季保供更应看**合同履约、增量气源成本、运输可达性与可传导价格**，而不是简单外推油气现货价格。
+油价的即时方向仍被外交与实物风险交替驱动：北京时间10月28日09:40附近，路透报道Brent期货报115.36美元/桶、WTI报101.12美元/桶，均为当时盘中报价而非当日结算价。[E05](https://www.reuters.com/world/asia-pacific/oil-prices-rise-after-attack-saudi-arabian-refinery-reignites-supply-concerns-2026-10-28/) [E12](https://www.reuters.com/world/asia-pacific/oil-prices-rise-after-attack-saudi-arabian-refinery-reignites-supply-concerns-2026-10-28/)(https://www.reuters.com/world/asia-pacific/oil-prices-rise-after-attack-saudi-arabian-refinery-reignites-supply-concerns-2026-10-28/) 沙特Ras Tanura遇袭目前主要是胡塞武装声称，沙特官方未确认炼厂受损，不能将其写成已核实停产。[E06](https://www.reuters.com/business/energy/yemens-houthis-say-they-launched-an-attack-saudi-ras-tanura-oil-refinery-2026-10-27/) 今日判断：冬季保供更应看**合同履约、增量气源成本、运输可达性与可传导价格**，而不是简单外推油气现货价格。
 
 <!-- KEY_SIGNAL_CARDS:3-5 -->
 ## 2. 今日关键信号
@@ -67,7 +67,7 @@ language: zh-CN
 <!-- MODULE:CHINA_CHAIN_DELTA -->
 ## 5. 中国天然气 / LNG / LPG产业链增量
 
-10月27日新发布的中国市场研究将冬季压力定位为高价增量气源采购与消化，而非简单的国内天然气总量缺口；其引用的10月23日当周管道气现货价格为4.64元/立方米，10月21日LNG出厂价格7166元/吨，两者走势分化。[E04](https://cpnn.com.cn/news/yq/202610/t20261027_1922701.html) 对经营主体，必须分别核对长协覆盖率、现货补货比例、终端调价机制和库存周期。LPG方面，本窗口未取得可核验的同日沙特CP更新、华南到岸成交与PDH利润数据，不据此宣称LPG利润改善或恶化。对国内市场的所有数字保留原始观察日期，不以报道日期替代成交日期。
+10月27日新发布的中国市场研究将冬季压力定位为高价增量气源采购与消化，而非简单的国内天然气总量缺口；其引用的10月23日当周管道气现货价格为4.64元/立方米，10月21日LNG出厂价格7166元/吨，两者走势分化。 [E11](https://cpnn.com.cn/news/yq/202610/t20261027_1922701.html)[E04](https://cpnn.com.cn/news/yq/202610/t20261027_1922701.html) 对经营主体，必须分别核对长协覆盖率、现货补货比例、终端调价机制和库存周期。LPG方面，本窗口未取得可核验的同日沙特CP更新、华南到岸成交与PDH利润数据，不据此宣称LPG利润改善或恶化。对国内市场的所有数字保留原始观察日期，不以报道日期替代成交日期。
 
 <!-- MODULE:GLOBAL_ENERGY_DELTA -->
 ## 6. 国际油气 / LNG增量
@@ -96,7 +96,7 @@ language: zh-CN
 
 ## Public Sources
 
-[E01/E02](https://www.reuters.com/business/energy/qatar-extends-force-majeure-lng-cargoes-italys-edison-until-end-december-2026-10-27/) · [E03/E04](https://cpnn.com.cn/news/yq/202610/t20261027_1922701.html) · [E05](https://www.reuters.com/world/asia-pacific/oil-prices-rise-after-attack-saudi-arabian-refinery-reignites-supply-concerns-2026-10-28/) · [E06](https://www.reuters.com/business/energy/yemens-houthis-say-they-launched-an-attack-saudi-ras-tanura-oil-refinery-2026-10-27/) · [E07](https://www.reuters.com/legal/litigation/us-energy-firms-produce-record-natgas-2026-global-demand-soars-2026-10-27/) · [E08](https://www.reuters.com/business/energy/natgas-producer-expand-energy-tops-quarterly-profit-estimates-2026-10-27/) · [E09](https://www.reuters.com/business/energy/singapore-foreign-minister-heads-indonesia-amid-tensions-over-gas-haze-2026-10-27/) · [E10](https://www.reuters.com/business/energy/russia-oil-exports-through-western-ports-forecast-fall-november-traders-say-2026-10-27/)
+[E01/E02](https://www.reuters.com/business/energy/qatar-extends-force-majeure-lng-cargoes-italys-edison-until-end-december-2026-10-27/) · [E03/E04](https://cpnn.com.cn/news/yq/202610/t20261027_1922701.html) · [E05](https://www.reuters.com/world/asia-pacific/oil-prices-rise-after-attack-saudi-arabian-refinery-reignites-supply-concerns-2026-10-28/) · [E06](https://www.reuters.com/business/energy/yemens-houthis-say-they-launched-an-attack-saudi-ras-tanura-oil-refinery-2026-10-27/) · [E07](https://www.reuters.com/legal/litigation/us-energy-firms-produce-record-natgas-2026-global-demand-soars-2026-10-27/) · [E08](https://www.reuters.com/business/energy/natgas-producer-expand-energy-tops-quarterly-profit-estimates-2026-10-27/) · [E09](https://www.reuters.com/business/energy/singapore-foreign-minister-heads-indonesia-amid-tensions-over-gas-haze-2026-10-27/) · [E10](https://www.reuters.com/business/energy/russia-oil-exports-through-western-ports-forecast-fall-november-traders-say-2026-10-27/) · [E11](https://cpnn.com.cn/news/yq/202610/t20261027_1922701.html) · [E12](https://www.reuters.com/world/asia-pacific/oil-prices-rise-after-attack-saudi-arabian-refinery-reignites-supply-concerns-2026-10-28/)
 
 <!-- PROXY_MATRIX_CONDITIONAL -->
 ## Appendix. Proxy Matrix（存在Material DATA_GAP）
