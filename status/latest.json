@@ -50,15 +50,15 @@
   "current_weekly_public": "2026-W42",
   "formal_status": "FORMAL_CANONICAL_PUBLISHED_THROUGH_2026_10_22",
   "canonical_promotion_performed": false,
-  "site_publication_performed": true,
+  "site_publication_performed": false,
   "public_site_version": 108,
   "public_site_status": "PASS_V108_AUTHORITY_CURRENT_CORE_READBACK__FORMAL_REMOTE_ARCHIVE_AUDIT_PARTIAL",
   "manifest_reconciliation_status": "PASS_FAIL_CLOSED__TOP_LEVEL_STATES_MATCH_ACTUAL_LIBRARY_CURRENT_2026_10_22",
   "metadata_freshness": "PASS_AUTHORITY_13_CURRENT_DERIVED_VIEWS_FOR_2026_10_22__PUBLIC_SITE_AHEAD",
   "state_consistency_pointer_sha256": "f9374ed21f4c4d3b9eed501ac76abe9d62b2aaa828d1afa8a6dc54fef93ba79e",
-  "failure_stage": "DAILY_2026_10_23_ATOMIC_FINALIZER_WEEKLY_ENHANCED_CONTRACT_VALIDATOR",
-  "failure_reason": "P8G finalizer transaction rolled back: weekly_contract failed rc=1; source references exist=FAIL (0 refs), HTML has reader-facing components=FAIL (template parity components), qclaw canonical landing exists=FAIL.",
-  "next_action": "Governance-authorized compatibility repair is required for the existing weekly_enhanced_contract_validator to recognize formal W42 S01-S17 direct external links and current reader template while preserving legacy anchors and negative tests; then retry Daily 2026-10-23 oldest-first. Separately reconcile the formal remote archive audit expected set without changing privacy rules.",
+  "failure_stage": "DAILY_2026_10_23_ATOMIC_FINALIZER_STATE_CONSISTENCY",
+  "failure_reason": "P8G finalizer transaction rolled back: state_consistency failed rc=1; product_catalog_registry.csv QUARTERLY_ARTIFACT_MISSING quality_path= for current 2026-Q3. The existing finalizer discovery pattern does not recognize the Authority file QUARTERLY_FINAL_ACCEPTANCE_RECEIPT_2026-Q3.md. No third compatibility patch was authorized; no gate was bypassed.",
+  "next_action": "Governance-authorize a minimal fail-closed compatibility fix for product_catalog_finalizer.quarterly_current_files quality receipt discovery (or an approved existing protocol) so the existing uppercase QUARTERLY_FINAL_ACCEPTANCE_RECEIPT_2026-Q3.md is selected; rerun full 10/23 atomic finalizer, then consume 10/24–10/28 oldest-first. Separately reconcile remote archive expected-set construction against the existing sanitizer exclusions.",
   "updated_at": "2026-10-28T12:30:00+08:00",
   "queue_remaining": [
     "Daily 2026-10-23",
@@ -200,7 +200,7 @@
   "download_sha_status": "PASS_REMOTE_CURRENT_DAILY_WEEKLY_MONTHLY_QUARTERLY_SHA256_AND_UNZIP",
   "public_daily_2026_09_25_download_sha256": "b4a80928e9755db168822874115c2d40069f3d9ad919416291e739dee8db7e72",
   "public_weekly_2026_w38_download_sha256": "551496a55a54f77721bbb1a7d2f0dc584956e0a18c188c44c9b90ec1a0a6305a",
-  "higher_cycle_dependency_state": "W43_CANONICAL_POOL_4_OF_7__NO_CHAT_ACCEPTED_HIGHER_CYCLE_CANDIDATE",
+  "higher_cycle_dependency_state": "W43_AUTHORITY_POOL_4_OF_7__PENDING_DAILY_2026_10_23_TO_2026_10_25__NO_CHAT_FINAL_CANDIDATE",
   "correction_provenance": {
     "corrected_at": "2026-09-26T14:08:00+08:00",
     "changed_records": [
@@ -220,7 +220,7 @@
     "Daily 2026-10-28"
   ],
   "public_daily_2026_09_26_download_sha256": "ea94ce1f2f69b3efa270295fb9f7b04c248280ea057a6a8721a7d3602522ba43",
-  "reportops_status": "PARTIAL_SUCCESS__SITE_AUTHORITY_CURRENT_RESTORED__ATOMIC_PROMOTION_BLOCKED_WEEKLY_CONTRACT",
+  "reportops_status": "PARTIAL_SUCCESS__AUTHORIZED_W42_PATCHES_PASS_IN_STAGING__ATOMIC_PROMOTION_BLOCKED_STATE_CONSISTENCY",
   "correction_provenance_2026_09_27": {
     "corrected_at": "2026-09-27T22:50:00+08:00",
     "correction_type": "INLINE_CITATION_PLACEMENT_ONLY",
@@ -320,7 +320,7 @@
     "deployment_state_readback": "0f23d3817e0b52d33de27c1b7eae48433f28e07f7c1afd09425e1151e15e830f",
     "status": "PASS_POST_REBUILD_AUTHORITY_SHA_V71"
   },
-  "runtime_sync_status": "PASS_AUTHORITY_SHA_FOUR_WAY_UNCHANGED__METADATA_ONLY_SITE_V108_RECONCILED",
+  "runtime_sync_status": "PASS_AUTHORITY_SHA_FOUR_WAY_UNCHANGED__METADATA_ONLY_BLOCKER_RECONCILED",
   "recovery_provenance_2026_10_02": {
     "mode": "BOUNDED_INTERACTIVE_CONTINUITY_RECOVERY",
     "original_scheduled_run_observed": true,
@@ -354,7 +354,7 @@
     "industry_operator_cjk_actual": 208
   },
   "public_daily_2026_10_02_download_sha256": "d2939f2bcc654a268bea060b4715dd00fb05f7a7707db1daa7fed393c7a61262",
-  "last_work_reconciled_at": "2026-10-28T12:30:00+08:00",
+  "last_work_reconciled_at": "2026-10-28T13:30:15+08:00",
   "candidate_2026_10_03": {
     "product_status": "ATOMIC_PROMOTED_SITE_VISIBLE__AUTHORITY_CLOSURE_PENDING",
     "formal_status": "ATOMIC_PROMOTION_CHECKPOINT_PRESERVED__AUTHORITY_UNIFIED_CLOSURE_PENDING",
@@ -666,7 +666,7 @@
     "root_cause": "UNKNOWN__SCHEDULED_RUN_HISTORY_UNAVAILABLE"
   },
   "current_annual_public": "NO_FORMAL_2026_PRODUCT",
-  "last_updated": "2026-10-28T12:30:00+08:00",
+  "last_updated": "2026-10-28T13:30:15+08:00",
   "final_closure_status": "SUCCESS__FINAL_CLOSURE_PASS__CURRENTLY_EXECUTABLE_WORK_COMPLETE",
   "status": "PARTIAL_SUCCESS__PREFLIGHT_COMPLETE__CANONICAL_REPLAY_BLOCKED__DAILY_2026_10_25_EVIDENCE_BLOCKER",
   "public_site_publication_receipt_status": "PASS_V107",
@@ -842,8 +842,7 @@
     "patched_sha256": "b9a75ae58937385d817b8a5ac4968cdde156b25add69710c50af4f1396dd910e",
     "native_semantic_checks": "PASS 22/22",
     "link_checks": "PASS 546",
-    "negative_wrong_url": "EXPECTED_FAIL",
-    "negative_unregistered_source": "EXPECTED_FAIL"
+    "negative_tests": "EXPECTED_FAIL_CLOSED"
   },
   "remote_zip_verification": {
     "daily_2026_10_22": "ebe6151c8a28d7d8fde6a8f69c36ca22adcbfe2cd67a6e7f9e708023ac2d6802",
@@ -851,5 +850,13 @@
     "monthly_2026_09": "5c315f4e4500f441809379a4f567a083f52dd0cc91140af1d897a3a107e161b0",
     "quarterly_2026_Q3": "77a48ae0f31e90c13293fdf235c36d5a7b8a400a04117430eec5b1ae88bce0a7",
     "status": "PASS_ALL_SHA_AND_UNZIP"
+  },
+  "weekly_contract_w42_compat_patch": {
+    "status": "STAGING_APPLIED_AND_REGRESSION_PASS__NOT_PROMOTED_TO_AUTHORITY_DUE_DOWNSTREAM_FORMAL_GATE_ROLLBACK",
+    "authority_before_sha256": "84e4be2a8067a1e6480a22950a05cb7ab0eb8680f6611a93ea0f2b5590773b71",
+    "patched_sha256": "6dcb300e23cdc8906688cc1d975d612b94aeaacaa11b906587f29322024400c1",
+    "native_weekly_contract_checks": "PASS 13/13",
+    "source_bindings": "PASS W42 108 citations / 17 Sxx exact URLs / HTML",
+    "negative_tests": "PASS 6/6 EXPECTED_FAIL_CLOSED"
   }
 }
