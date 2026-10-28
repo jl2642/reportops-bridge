@@ -13,7 +13,7 @@ language: zh-CN
 
 本窗口最值得追踪的不是单一油价涨跌，而是**中东供给中断、亚洲冬季增量采购成本与美国天然气增产**三条链条同时变化。卡塔尔对意大利Edison及部分巴基斯坦客户的LNG不可抗力交付限制延长至2026年末，直接涉及Edison新增三船货；这意味着部分合同气源的履约风险已从短期延误延伸至年末。[E01](https://www.reuters.com/business/energy/qatar-extends-force-majeure-lng-cargoes-italys-edison-until-end-december-2026-10-27/) 中国能源媒体同日梳理指出，国内气源组合能缓冲总量压力，但现货增量成本与终端传导能力之间的错配正在扩大。[E03](https://cpnn.com.cn/news/yq/202610/t20261027_1922701.html)
 
-油价的即时方向仍被外交与实物风险交替驱动：北京时间10月28日09:40附近，路透报道Brent期货报115.36美元/桶、WTI报101.12美元/桶，均为当时盘中报价而非当日结算价。[E05](https://www.reuters.com/world/asia-pacific/oil-prices-rise-after-attack-saudi-arabian-refinery-reignites-supply-concerns-2026-10-28/) [E12](https://www.reuters.com/world/asia-pacific/oil-prices-rise-after-attack-saudi-arabian-refinery-reignites-supply-concerns-2026-10-28/)(https://www.reuters.com/world/asia-pacific/oil-prices-rise-after-attack-saudi-arabian-refinery-reignites-supply-concerns-2026-10-28/) 沙特Ras Tanura遇袭目前主要是胡塞武装声称，沙特官方未确认炼厂受损，不能将其写成已核实停产。[E06](https://www.reuters.com/business/energy/yemens-houthis-say-they-launched-an-attack-saudi-ras-tanura-oil-refinery-2026-10-27/) 今日判断：冬季保供更应看**合同履约、增量气源成本、运输可达性与可传导价格**，而不是简单外推油气现货价格。
+油价的即时方向仍被外交与实物风险交替驱动：北京时间10月28日09:40附近，路透报道Brent期货报115.36美元/桶、WTI报101.12美元/桶，均为当时盘中报价而非当日结算价。[E05](https://www.reuters.com/world/asia-pacific/oil-prices-rise-after-attack-saudi-arabian-refinery-reignites-supply-concerns-2026-10-28/) [E12](https://www.reuters.com/world/asia-pacific/oil-prices-rise-after-attack-saudi-arabian-refinery-reignites-supply-concerns-2026-10-28/) 沙特Ras Tanura遇袭目前主要是胡塞武装声称，沙特官方未确认炼厂受损，不能将其写成已核实停产。[E06](https://www.reuters.com/business/energy/yemens-houthis-say-they-launched-an-attack-saudi-ras-tanura-oil-refinery-2026-10-27/) 今日判断：冬季保供更应看**合同履约、增量气源成本、运输可达性与可传导价格**，而不是简单外推油气现货价格。
 
 <!-- KEY_SIGNAL_CARDS:3-5 -->
 ## 2. 今日关键信号
@@ -37,7 +37,7 @@ language: zh-CN
 - 反证条件：国内采购成本回落且终端价格联动顺畅，或冬季需求显著弱于预期。
 
 ### 信号卡3｜沙特设施风险再起，油价盘中反弹
-- 事实摘要：胡塞武装10月27日声称以导弹袭击沙特Ras Tanura炼厂，路透当时未获沙特官方确认；该设施炼油能力约55万桶/日，能力规模不等于实际停产损失。[E06](https://www.reuters.com/business/energy/yemens-houthis-say-they-launched-an-attack-saudi-ras-tanura-oil-refinery-2026-10-27/) 10月28日01:40 UTC的路透盘中报价为Brent 115.36美元/桶、WTI 101.12美元/桶。[E05](https://www.reuters.com/world/asia-pacific/oil-prices-rise-after-attack-saudi-arabian-refinery-reignites-supply-concerns-2026-10-28/)
+- 事实摘要：胡塞武装10月27日声称以导弹袭击沙特Ras Tanura炼厂，路透当时未获沙特官方确认；该设施炼油能力约55万桶/日，能力规模不等于实际停产损失。[E06](https://www.reuters.com/business/energy/yemens-houthis-say-they-launched-an-attack-saudi-ras-tanura-oil-refinery-2026-10-27/) 10月28日01:40 UTC的路透盘中报价为Brent 115.36美元/桶、WTI 101.12美元/桶。[E05](https://www.reuters.com/world/asia-pacific/oil-prices-rise-after-attack-saudi-arabian-refinery-reignites-supply-concerns-2026-10-28/) [E12](https://www.reuters.com/world/asia-pacific/oil-prices-rise-after-attack-saudi-arabian-refinery-reignites-supply-concerns-2026-10-28/)
 - 为什么重要：地缘政治谈判可以迅速压缩风险溢价，但设施和航道安全信息又会反向抬升溢价。炼厂、出口码头、航运和保险是不同风险节点，不能将一处未经确认的袭击机械放大为全国出口中断。
 - 价格/供需/产业链传导：高油价可能推高油价挂钩LNG合同的滞后采购成本，也可能增加航运保险和资金占用；传导时滞取决于合同定价公式。
 - 影响对象：炼厂、原油贸易、油价挂钩LNG进口商及区域航运服务。
@@ -62,7 +62,7 @@ language: zh-CN
 <!-- MODULE:PRICE_AND_SPREAD_DELTA -->
 ## 4. 价格与价差增量
 
-可核实的即时市场点位仅包括路透10月28日01:40 UTC的Brent与WTI期货盘中报价：分别115.36与101.12美元/桶；两者差14.24美元/桶仅是**同一时点不同合约的简单算术差**，并非炼厂裂解价差或可交易套利收益。[E05](https://www.reuters.com/world/asia-pacific/oil-prices-rise-after-attack-saudi-arabian-refinery-reignites-supply-concerns-2026-10-28/) 欧洲气价“高于95欧元/兆瓦时”来自报道概括，缺少精确合约与交易时点；中国LNG出厂7166元/吨则是10月21日历史观察，不能伪装为本窗口实时价格。[E02](https://www.reuters.com/business/energy/qatar-extends-force-majeure-lng-cargoes-italys-edison-until-end-december-2026-10-27/) [E04](https://cpnn.com.cn/news/yq/202610/t20261027_1922701.html) JKM、TTF结算、LPG CP、运费与保险同口径序列未在本轮取得，故不计算跨市场价差或套利利润。
+可核实的即时市场点位仅包括路透10月28日01:40 UTC的Brent与WTI期货盘中报价：分别115.36与101.12美元/桶；两者差14.24美元/桶仅是**同一时点不同合约的简单算术差**，并非炼厂裂解价差或可交易套利收益。[E05](https://www.reuters.com/world/asia-pacific/oil-prices-rise-after-attack-saudi-arabian-refinery-reignites-supply-concerns-2026-10-28/) [E12](https://www.reuters.com/world/asia-pacific/oil-prices-rise-after-attack-saudi-arabian-refinery-reignites-supply-concerns-2026-10-28/) 欧洲气价“高于95欧元/兆瓦时”来自报道概括，缺少精确合约与交易时点；中国LNG出厂7166元/吨则是10月21日历史观察，不能伪装为本窗口实时价格。[E02](https://www.reuters.com/business/energy/qatar-extends-force-majeure-lng-cargoes-italys-edison-until-end-december-2026-10-27/) [E04](https://cpnn.com.cn/news/yq/202610/t20261027_1922701.html) JKM、TTF结算、LPG CP、运费与保险同口径序列未在本轮取得，故不计算跨市场价差或套利利润。
 
 <!-- MODULE:CHINA_CHAIN_DELTA -->
 ## 5. 中国天然气 / LNG / LPG产业链增量
