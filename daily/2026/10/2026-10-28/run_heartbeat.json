@@ -2,5 +2,20 @@
   "target_date": "2026-10-28",
   "scheduled_for": "10:15 Asia/Shanghai",
   "run_started_at": "2026-10-28T10:12:57+08:00",
-  "status": "RUN_STARTED_BEFORE_PREFLIGHT"
+  "status": "PRODUCER_SUCCESS_CANDIDATES_PENDING_WORK",
+  "products_repaired_or_produced": [
+    "Daily 2026-10-28"
+  ],
+  "producer_recovery_queue_remaining": [],
+  "queue_for_12_30_work": [
+    "Daily 2026-10-23",
+    "Daily 2026-10-24",
+    "Daily 2026-10-25",
+    "Daily 2026-10-26",
+    "Daily 2026-10-27",
+    "Daily 2026-10-28"
+  ],
+  "post_run_self_audit_status": "PASS",
+  "failure_stage": null,
+  "failure_reason": null
 }
