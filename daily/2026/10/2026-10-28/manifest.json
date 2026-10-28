@@ -36,7 +36,7 @@
   "evidence_status": "PASS_12_OF_12__LOCAL_PRODUCER_METADATA_AND_RECEIPT_CHECK",
   "strict_v2_ledger_status": "PASS_12_OF_12__FULL_43_COLUMN_CLAIM_URL_BINDINGS__WORK_NATIVE_PENDING",
   "data_gap_boundary_status": "PASS__PRICE_FREIGHT_AND_CONTRACT_UNCERTAINTY_DISCLOSED",
-  "producer_self_audit_status": "PASS_PREWRITE_PRODUCER_GATES__FINAL_READBACK_REQUIRED",
+  "producer_self_audit_status": "PASS__V4_COUNT_PARITY__EVIDENCE_12_OF_12_NARRATIVE_CITATION_LINKS__STRICT_V2_LEDGER",
   "consumer_status": "PENDING_WORK_RECONCILIATION",
   "warnings": [
     "中国能源新闻网10月27日新报道引用的10月21日至23日价格与10月进口预测属于历史观察或预测，非本窗口当日成交",
