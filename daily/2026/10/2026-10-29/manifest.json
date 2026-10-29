@@ -30,8 +30,8 @@
   "v4_public_depth_gate_status": "PASS__3371_CJK_4_SIGNAL_CARDS",
   "privacy_status": "PASS_PUBLIC_SAFE",
   "window_status": "PASS_10_EXACT_TIMESTAMPS__1_US_OFFICIAL_DATE_ONLY_CROSS_VERIFIED_WITH_IN_WINDOW_REUTERS",
-  "evidence_status": "PASS_11_OF_11__LOCAL_PRODUCER_RECEIPT_CHECK",
-  "strict_v2_ledger_status": "PASS_LOCAL_11_RECORDS_43_COLUMNS__WORK_NATIVE_PENDING",
+  "evidence_status": "PASS_11_OF_11__WORK_NATIVE_STRICT_NEW_REVALIDATED_AFTER_E08_DATE_PRECISION_CORRECTION",
+  "strict_v2_ledger_status": "PASS_WORK_NATIVE_11_RECORDS_43_COLUMNS__E08_PUBLICATION_AND_DATA_PERIOD_DATE_ONLY_2026_10_28",
   "data_gap_boundary_status": "PASS__LNG_LPG_PRICES_FREIGHT_INSURANCE_AND_REFINERY_CONFIRMATION_GAPS_DISCLOSED",
   "producer_self_audit_status": "PASS__4_OF_4_DURABLE_READBACK__SOURCE_IDENTITY_11_OF_11__INLINE_11_OF_11__V4_EXACT_COUNTS__43_COLUMN_LEDGER",
   "consumer_status": "PENDING_WORK_RECONCILIATION",
@@ -50,5 +50,20 @@
   ],
   "next_work_action": "Work 12:30: consume complete Daily 2026-10-23 through 2026-10-29 oldest-first, independently run native Evidence/Reader/Lineage/Canonical gates, and promote only after formal PASS; current_daily_public remains 2026-10-22.",
   "producer_acceptance_completed_at": "2026-10-29T02:18:47.351Z",
-  "updated_at": "2026-10-29T02:19:02.994Z"
+  "work_metadata_correction": {
+    "record_id": "E2-D20261029-008",
+    "scope": "DATE_PRECISION_METADATA_ONLY__NO_PROSE_OR_CLAIM_REWRITE",
+    "publication_time": "2026-10-28",
+    "data_period_end": "2026-10-28",
+    "boundary": "Official source publishes a date but no hour; Reuters cross-check remains disclosed. The 2029 commissioning statement is not used as this permit-approval claim's data period.",
+    "official_source_date_verified": true,
+    "evidence_sha256": "52ca0fbc2a4f065c052e18a46662887506acfab9c8f4a8d7cbcf99d37e963668",
+    "ledger_sha256": "cafb03ea88ee6f3711e4b36aaac64282452d25f7706c72e14e23c2380b946768",
+    "evidence_blob_sha": "fc87bd7e21698dadf936f4097488c1e151eaf38e",
+    "ledger_blob_sha": "cb65d8b84027dd04aea347b2998d25c3dec4da0b",
+    "work_native_evidence_v2": "PASS_11_RECORDS_0_BLOCKING_0_WARNINGS",
+    "corrected_at": "2026-10-29T04:38:05Z"
+  },
+  "updated_at": "2026-10-29T04:38:05Z"
 }
+
