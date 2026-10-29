@@ -13,7 +13,7 @@ language: zh-CN
 
 本窗口的主线是**欧洲天然气紧张程度上升、国际油价维持地缘风险溢价，同时新增美国液化能力仍在推进**。荷兰TTF基准气价在10月28日盘中短暂触及100欧元/兆瓦时，欧洲储气约为库容的四分之三，冬季价格对气温和LNG到港的敏感性提高。[E01](https://www.reuters.com/business/energy/european-benchmark-gas-price-touches-100-first-time-since-december-2022-2026-10-28/) [E02](https://www.reuters.com/business/energy/equinor-warns-europe-is-vulnerable-winter-gas-price-spike-if-cold-weather-hits-2026-10-28/) 这不是亚洲JKM报价，也不是中国进口LNG到岸价。
 
-中国市场方面，同花顺iFind口径的10月28日全国地区液化气现货报价为7,984元/吨，较前一日上涨67元/吨。该指标是国内液化气现货价格快照，**不能等同沙特LPG合同价CP、进口丙烷CFR或终端实际成交均价**。[E03](https://goodsfu.10jqka.com.cn/20261028/c681208598.shtml) 美国原油库存周度下降、布伦特结算价回升，提示短期风险溢价仍在，但未经证实的沙特炼厂受袭说法不得写成设施实际损毁。[E04](https://www.reuters.com/world/asia-pacific/oil-prices-rise-after-attack-saudi-arabian-refinery-reignites-supply-concerns-2026-10-28/) [E05](https://www.reuters.com/business/energy/us-crude-stocks-distillate-inventories-fall-gasoline-stocks-rise-eia-says-2026-10-28/)
+中国市场方面，同花顺iFind口径的10月28日全国地区液化气现货报价为7,984元/吨，较前一日上涨67元/吨。该指标是国内液化气现货价格快照，**不能等同沙特LPG合同价CP、进口丙烷CFR或终端实际成交均价**。[E03](https://goodsfu.10jqka.com.cn/20261028/c681208598.shtml) 美国原油库存周度下降、布伦特结算价回升，提示短期风险溢价仍在，但未经证实的沙特炼厂受袭说法不得写成设施实际损毁。[E04](https://www.wsj.com/finance/commodities-futures/oil-rises-as-traders-focus-on-potential-supply-risks-9cdfefec) [E05](https://www.reuters.com/business/energy/us-crude-stocks-distillate-inventories-fall-gasoline-stocks-rise-eia-says-2026-10-28/)
 
 中期则呈现另一面：美国ST LNG项目获得深水港许可申请批准，规划液化能力840万吨/年；与此同时，路透基于Ember数据指出中国、日本、韩国等市场的燃气发电占比下滑。供应项目进展与终端需求弹性需要分开观察，不能仅凭高现货价推导长期需求持续增长。[E07](https://www.reuters.com/business/energy/us-agency-approves-deepwater-port-license-application-82-billion-st-lng-project-2026-10-28/) [E09](https://www.reuters.com/commentary/reuters-open-interest/natural-gas-is-losing-its-grip-across-key-power-markets-2026-10-28/)
 
@@ -39,11 +39,11 @@ language: zh-CN
 - 反证条件：进口到岸成本同步或更快上升，或者终端需求走弱。
 
 ### 信号卡3｜原油库存收缩与地缘消息并行
-- 事实摘要：美国EIA周报经路透报道，10月23日当周商业原油库存下降190万桶至4.106亿桶，馏分油库存下降150万桶；10月28日布伦特期货结算价115.32美元/桶，WTI结算价102.78美元/桶。[E05](https://www.reuters.com/business/energy/us-crude-stocks-distillate-inventories-fall-gasoline-stocks-rise-eia-says-2026-10-28/) [E06](https://www.reuters.com/business/energy/us-crude-stocks-distillate-inventories-fall-gasoline-stocks-rise-eia-says-2026-10-28/) [E04](https://www.reuters.com/world/asia-pacific/oil-prices-rise-after-attack-saudi-arabian-refinery-reignites-supply-concerns-2026-10-28/)
+- 事实摘要：美国EIA周报经路透报道，10月23日当周商业原油库存下降190万桶至4.106亿桶，馏分油库存下降150万桶；10月28日布伦特期货结算价115.32美元/桶，WTI结算价102.78美元/桶。[E05](https://www.reuters.com/business/energy/us-crude-stocks-distillate-inventories-fall-gasoline-stocks-rise-eia-says-2026-10-28/) [E06](https://www.reuters.com/business/energy/us-crude-stocks-distillate-inventories-fall-gasoline-stocks-rise-eia-says-2026-10-28/) [E04](https://www.wsj.com/finance/commodities-futures/oil-rises-as-traders-focus-on-potential-supply-risks-9cdfefec)
 - 为什么重要：库存收缩是可核验的供需信号，袭击声明则主要影响风险偏好。把两者区分，才能避免将短期消息波动误判为持久供应中断。
 - 价格/供需/产业链传导：原油价格上涨可抬升油挂钩LNG长协成本预期，并改变炼厂、化工及燃料替代的边际经济性；具体影响取决于合同定价滞后。
 - 影响对象：油品进口商、炼厂、运输燃料和油价挂钩气源买方。
-- 证据边界：胡塞方面称袭击沙特炼厂，但路透报道时沙特官方尚未确认；EIA出口数据与Kpler船舶追踪存在分歧。[E04](https://www.reuters.com/world/asia-pacific/oil-prices-rise-after-attack-saudi-arabian-refinery-reignites-supply-concerns-2026-10-28/) [E05](https://www.reuters.com/business/energy/us-crude-stocks-distillate-inventories-fall-gasoline-stocks-rise-eia-says-2026-10-28/)
+- 证据边界：胡塞方面称袭击沙特炼厂，但路透报道时沙特官方尚未确认；EIA出口数据与Kpler船舶追踪存在分歧。[E04](https://www.wsj.com/finance/commodities-futures/oil-rises-as-traders-focus-on-potential-supply-risks-9cdfefec) [E05](https://www.reuters.com/business/energy/us-crude-stocks-distillate-inventories-fall-gasoline-stocks-rise-eia-says-2026-10-28/)
 - 下一步验证：官方设施运行通报、EIA后续修订、实际装船和油品库存。
 - 反证条件：供应设施正常运行、外交缓和或出口流量回升。
 
@@ -66,7 +66,7 @@ language: zh-CN
 <!-- MODULE:PRICE_AND_SPREAD_DELTA -->
 ## 4. 价格与价差增量
 
-已核实三个互不混用的价格口径：其一，欧洲TTF盘中短暂触及100欧元/兆瓦时，属于欧洲天然气期货基准盘中价；其二，布伦特10月28日期货结算115.32美元/桶、WTI结算102.78美元/桶，属于原油期货结算；其三，中国全国地区液化气现货播报7,984元/吨，属于国内商品报价快照。[E01](https://www.reuters.com/business/energy/european-benchmark-gas-price-touches-100-first-time-since-december-2022-2026-10-28/) [E04](https://www.reuters.com/world/asia-pacific/oil-prices-rise-after-attack-saudi-arabian-refinery-reignites-supply-concerns-2026-10-28/) [E03](https://goodsfu.10jqka.com.cn/20261028/c681208598.shtml)
+已核实三个互不混用的价格口径：其一，欧洲TTF盘中短暂触及100欧元/兆瓦时，属于欧洲天然气期货基准盘中价；其二，布伦特10月28日期货结算115.32美元/桶、WTI结算102.78美元/桶，属于原油期货结算；其三，中国全国地区液化气现货播报7,984元/吨，属于国内商品报价快照。[E01](https://www.reuters.com/business/energy/european-benchmark-gas-price-touches-100-first-time-since-december-2022-2026-10-28/) [E04](https://www.wsj.com/finance/commodities-futures/oil-rises-as-traders-focus-on-potential-supply-risks-9cdfefec) [E03](https://goodsfu.10jqka.com.cn/20261028/c681208598.shtml)
 
 **不计算虚假的跨市场价差。** 缺少与上述时点、地区和合同条件完全匹配的JKM、LPG CP、丙烷CFR、LNG船运费、保险及汇率数据，不能用旧日数值拼接“今日套利空间”。油挂钩长协与即期LNG的价格比较，还需要明确斜率、滞后月份、目的地和运费承担方。当前仅能判断价格压力和风险溢价的方向，不能得出具体交易毛利。
 
@@ -87,7 +87,7 @@ language: zh-CN
 <!-- MODULE:RESEARCH_TRIGGER_BOARD -->
 ## 7. Research Trigger Board
 
-**触发A｜欧洲冬季价格风险：** 若TTF连续高位、德国等低储气市场出现明显库存下降且LNG到港不足，则升级欧洲气源与亚洲现货竞争专题；若天气转暖或到港改善，则下调紧张判断。**触发B｜国内LPG毛利：** 同日获得丙烷/丁烷进口到岸成本、地区成交和物流费用后，才测算真实价差。**触发C｜美国LNG供给：** ST LNG出现FID、EPC与长期销售协议时再上调远期可供给权重。**触发D｜油气风险溢价：** 沙特设施实际停运须以运营方或权威核证为依据，不能只凭袭击方声明。[E01](https://www.reuters.com/business/energy/european-benchmark-gas-price-touches-100-first-time-since-december-2022-2026-10-28/) [E03](https://goodsfu.10jqka.com.cn/20261028/c681208598.shtml) [E08](https://www.transportation.gov/briefing-room/trumps-transportation-secretary-sean-p-duffy-approves-82-billion-deepwater-port) [E04](https://www.reuters.com/world/asia-pacific/oil-prices-rise-after-attack-saudi-arabian-refinery-reignites-supply-concerns-2026-10-28/)
+**触发A｜欧洲冬季价格风险：** 若TTF连续高位、德国等低储气市场出现明显库存下降且LNG到港不足，则升级欧洲气源与亚洲现货竞争专题；若天气转暖或到港改善，则下调紧张判断。**触发B｜国内LPG毛利：** 同日获得丙烷/丁烷进口到岸成本、地区成交和物流费用后，才测算真实价差。**触发C｜美国LNG供给：** ST LNG出现FID、EPC与长期销售协议时再上调远期可供给权重。**触发D｜油气风险溢价：** 沙特设施实际停运须以运营方或权威核证为依据，不能只凭袭击方声明。[E01](https://www.reuters.com/business/energy/european-benchmark-gas-price-touches-100-first-time-since-december-2022-2026-10-28/) [E03](https://goodsfu.10jqka.com.cn/20261028/c681208598.shtml) [E08](https://www.transportation.gov/briefing-room/trumps-transportation-secretary-sean-p-duffy-approves-82-billion-deepwater-port) [E04](https://www.wsj.com/finance/commodities-futures/oil-rises-as-traders-focus-on-potential-supply-risks-9cdfefec)
 
 <!-- MODULE:INDUSTRY_CHAIN_AND_OPERATOR_EXPOSURE -->
 ## 8. 产业链与经营主体影响（Public-safe）
@@ -101,7 +101,7 @@ language: zh-CN
 
 证据强度按来源性质区分：美国运输部为许可事项原始公告；路透为具名报道及采访；同花顺iFind为商品价格播报。美国EIA库存由路透转述，原始统计的观察周截至10月23日。不同证据不能互相冒充，也不能将历史数据称为10月28日新发生的交易。[E08](https://www.transportation.gov/briefing-room/trumps-transportation-secretary-sean-p-duffy-approves-82-billion-deepwater-port) [E05](https://www.reuters.com/business/energy/us-crude-stocks-distillate-inventories-fall-gasoline-stocks-rise-eia-says-2026-10-28/) [E03](https://goodsfu.10jqka.com.cn/20261028/c681208598.shtml)
 
-主要缺口包括：JKM与TTF同一合约月份的正式结算、沙特CP与丙烷丁烷CFR分品类报价、LNG/LPG专用船运费与保险、国内LNG接收站库存及实际船期。沙特炼厂受袭消息未获官方确认；美国原油出口统计与Kpler追踪存在口径分歧。研究结论因此限定为方向性信号，而非可执行套利指令。[E04](https://www.reuters.com/world/asia-pacific/oil-prices-rise-after-attack-saudi-arabian-refinery-reignites-supply-concerns-2026-10-28/) [E05](https://www.reuters.com/business/energy/us-crude-stocks-distillate-inventories-fall-gasoline-stocks-rise-eia-says-2026-10-28/)
+主要缺口包括：JKM与TTF同一合约月份的正式结算、沙特CP与丙烷丁烷CFR分品类报价、LNG/LPG专用船运费与保险、国内LNG接收站库存及实际船期。沙特炼厂受袭消息未获官方确认；美国原油出口统计与Kpler追踪存在口径分歧。研究结论因此限定为方向性信号，而非可执行套利指令。[E04](https://www.wsj.com/finance/commodities-futures/oil-rises-as-traders-focus-on-potential-supply-risks-9cdfefec) [E05](https://www.reuters.com/business/energy/us-crude-stocks-distillate-inventories-fall-gasoline-stocks-rise-eia-says-2026-10-28/)
 
 <!-- NEXT_VERIFICATION -->
 ## 10. 下一窗口验证
@@ -110,4 +110,4 @@ language: zh-CN
 
 ## Public Sources
 
-[E01](https://www.reuters.com/business/energy/european-benchmark-gas-price-touches-100-first-time-since-december-2022-2026-10-28/) 欧洲TTF盘中价；[E02](https://www.reuters.com/business/energy/equinor-warns-europe-is-vulnerable-winter-gas-price-spike-if-cold-weather-hits-2026-10-28/) Equinor冬季储气判断；[E03](https://goodsfu.10jqka.com.cn/20261028/c681208598.shtml) 国内液化气价格；[E04](https://www.reuters.com/world/asia-pacific/oil-prices-rise-after-attack-saudi-arabian-refinery-reignites-supply-concerns-2026-10-28/) 国际原油结算与地缘风险；[E05](https://www.reuters.com/business/energy/us-crude-stocks-distillate-inventories-fall-gasoline-stocks-rise-eia-says-2026-10-28/) [E06](https://www.reuters.com/business/energy/us-crude-stocks-distillate-inventories-fall-gasoline-stocks-rise-eia-says-2026-10-28/) 美国库存；[E07](https://www.reuters.com/business/energy/us-agency-approves-deepwater-port-license-application-82-billion-st-lng-project-2026-10-28/) [E08](https://www.transportation.gov/briefing-room/trumps-transportation-secretary-sean-p-duffy-approves-82-billion-deepwater-port) 美国ST LNG许可；[E09](https://www.reuters.com/commentary/reuters-open-interest/natural-gas-is-losing-its-grip-across-key-power-markets-2026-10-28/) 燃气发电结构；[E10](https://www.reuters.com/business/energy/eqts-acquisition-range-underscores-race-dominate-us-natgas-market-2026-10-28/) 美国天然气行业整合；[E11](https://www.reuters.com/business/energy/european-benchmark-gas-price-touches-100-first-time-since-december-2022-2026-10-28/) 欧洲工业传导。
+[E01](https://www.reuters.com/business/energy/european-benchmark-gas-price-touches-100-first-time-since-december-2022-2026-10-28/) 欧洲TTF盘中价；[E02](https://www.reuters.com/business/energy/equinor-warns-europe-is-vulnerable-winter-gas-price-spike-if-cold-weather-hits-2026-10-28/) Equinor冬季储气判断；[E03](https://goodsfu.10jqka.com.cn/20261028/c681208598.shtml) 国内液化气价格；[E04](https://www.wsj.com/finance/commodities-futures/oil-rises-as-traders-focus-on-potential-supply-risks-9cdfefec) 国际原油结算与地缘风险；[E05](https://www.reuters.com/business/energy/us-crude-stocks-distillate-inventories-fall-gasoline-stocks-rise-eia-says-2026-10-28/) [E06](https://www.reuters.com/business/energy/us-crude-stocks-distillate-inventories-fall-gasoline-stocks-rise-eia-says-2026-10-28/) 美国库存；[E07](https://www.reuters.com/business/energy/us-agency-approves-deepwater-port-license-application-82-billion-st-lng-project-2026-10-28/) [E08](https://www.transportation.gov/briefing-room/trumps-transportation-secretary-sean-p-duffy-approves-82-billion-deepwater-port) 美国ST LNG许可；[E09](https://www.reuters.com/commentary/reuters-open-interest/natural-gas-is-losing-its-grip-across-key-power-markets-2026-10-28/) 燃气发电结构；[E10](https://www.reuters.com/business/energy/eqts-acquisition-range-underscores-race-dominate-us-natgas-market-2026-10-28/) 美国天然气行业整合；[E11](https://www.reuters.com/business/energy/european-benchmark-gas-price-touches-100-first-time-since-december-2022-2026-10-28/) 欧洲工业传导。
