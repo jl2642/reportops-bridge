@@ -2,5 +2,29 @@
   "target_date": "2026-10-29",
   "scheduled_for": "10:15 Asia/Shanghai",
   "run_started_at": "2026-10-29T10:15:05+08:00",
-  "status": "RUN_STARTED_BEFORE_PREFLIGHT"
+  "status": "PRODUCER_SUCCESS_CANDIDATES_PENDING_WORK",
+  "products_repaired_or_produced": [
+    "Daily 2026-10-29 PRODUCED"
+  ],
+  "producer_recovery_queue_remaining": [],
+  "queue_for_12_30_work": [
+    "Daily 2026-10-23",
+    "Daily 2026-10-24",
+    "Daily 2026-10-25",
+    "Daily 2026-10-26",
+    "Daily 2026-10-27",
+    "Daily 2026-10-28",
+    "Daily 2026-10-29"
+  ],
+  "post_run_self_audit_status": "PASS__4_OF_4_DURABLE_READBACK__11_EVIDENCE_RECEIPTS__11_INLINE__43_COLUMN_LEDGER__V4",
+  "failure_stage": null,
+  "failure_reason": null,
+  "source_identity_receipt_count": 11,
+  "evidence_record_count": 11,
+  "signal_card_count": 4,
+  "cjk_characters_actual": 3371,
+  "completed_at": "2026-10-29T02:19:11.168Z",
+  "canonical_mutation_performed": false,
+  "site_mutation_performed": false,
+  "automation_mutation_performed": false
 }
