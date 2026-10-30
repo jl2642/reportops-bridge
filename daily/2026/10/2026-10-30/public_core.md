@@ -122,3 +122,15 @@ language: zh-CN
 - [E10](https://www.reuters.com/world/asia-pacific/singapore-oil-product-inventories-edge-up-clean-distillate-volumes-trek-higher-2026-10-29/)
 - [E11](https://www.wsj.com/finance/commodities-futures/oil-falls-as-traders-weigh-middle-east-risks-f814aedd)
 - [E12](https://www.reuters.com/business/energy/st-lng-decide-us-offshore-lng-facility-by-late-2027-company-says-2026-10-29/)
+
+<!-- PROXY_MATRIX_CONDITIONAL -->
+## Appendix. Proxy Matrix（重大数据缺口；未采用代理报价）
+
+| 待核指标 | 本窗口状态 | 处理边界 | 下一步核验 |
+|---|---|---|---|
+| JKM与TTF正式结算 | DATA_GAP | 不以盘中触及价或旧日数据代替当日结算 | 同合约、同日评估或结算原件 |
+| LPG CP、丙烷/丁烷CFR | DATA_GAP | 不以国内综合液化气报价推算进口成本 | 按品种、地区、交付条款配对 |
+| LNG/LPG运费、保险、汇率 | DATA_GAP | 不构造未核实的跨市场套利利润 | 核验船型、航线、期限及报价时间 |
+| 中国LNG接收站库存和船期 | DATA_GAP | 不将成品油库存或LPG报价代作LNG供需 | 核验接收站、海关及船舶动态 |
+
+以上缺口不以估算值填充；因此本稿只提供事件与经营传导判断，不输出未经证实的交易毛利。
