@@ -7,7 +7,7 @@
   "producer_status": "PUBLIC_CORE_ACCEPTED",
   "product_status": "PUBLIC_CORE_ACCEPTED_PENDING_WORK",
   "formal_status": "PENDING_WORK_RECONCILIATION",
-  "cjk_characters_actual": 3190,
+  "cjk_characters_actual": 3396,
   "executive_cjk_actual": 293,
   "key_signal_cjk_actual": 1351,
   "signal_card_cjk_actual": [
@@ -27,13 +27,13 @@
   "source_identity_gate_status": "PASS_12_OF_12__OPENED_EXACT_DOCUMENT_V1_2_RECEIPTS",
   "inline_citation_gate_status": "PASS_12_OF_12__NARRATIVE_CLICKABLE_LINKS",
   "exact_v4_machine_structure_status": "PASS",
-  "v4_public_depth_gate_status": "PASS__3190_CJK_4_SIGNAL_CARDS",
+  "v4_public_depth_gate_status": "PASS__3396_CJK_4_SIGNAL_CARDS",
   "privacy_status": "PASS_PUBLIC_SAFE",
   "window_status": "PASS_11_EXACT_TIMESTAMPS__1_SEFE_OFFICIAL_DATE_ONLY_CROSS_VERIFIED_WITH_REUTERS_IN_WINDOW",
   "evidence_status": "PASS_12_OF_12__LOCAL_PRODUCER_RECEIPT_AND_SUPPORT_CHECK",
   "strict_v2_ledger_status": "PASS_12_OF_12__43_COLUMN_CLAIM_URL_BINDINGS__WORK_NATIVE_PENDING",
   "data_gap_boundary_status": "PASS__LNG_LPG_PRICE_FREIGHT_INSURANCE_AND_CONTRACT_TIME_BOUNDARIES_DISCLOSED",
-  "producer_self_audit_status": "PASS_PREWRITE_PRODUCER_GATES__FINAL_READBACK_REQUIRED",
+  "producer_self_audit_status": "PASS__4_OF_4_DURABLE_READBACK__SOURCE_IDENTITY_12_OF_12__INLINE_12_OF_12__V4_EXACT_COUNTS__43_COLUMN_LEDGER__PROXY_MATRIX_BOUNDED_REPAIR",
   "consumer_status": "PENDING_WORK_RECONCILIATION",
   "canonical_promotion_performed": false,
   "site_publication_performed": false,
@@ -45,8 +45,10 @@
     "ST_LNG_FID_TARGET_2027_NOT_COMPLETED",
     "NO_COMPLETE_SAME_WINDOW_JKM_TTF_SETTLEMENT_LPG_CP_CFR_LNG_LPG_FREIGHT_INSURANCE_SERIES",
     "IFIND_8048_CNY_TONNE_COMPOSITE_SPOT_QUOTE_NOT_SAUDI_CP_OR_EXECUTED_PROPANE_TRADE",
-    "SINGAPORE_3849_WAN_BARRELS_OIL_PRODUCT_STOCK_NOT_LPG_STOCK"
+    "SINGAPORE_3849_WAN_BARRELS_OIL_PRODUCT_STOCK_NOT_LPG_STOCK",
+    "POST_RUN_BOUNDED_REPAIR_ADDED_CONDITIONAL_PROXY_MATRIX_WITH_DATA_GAP_NO_PROXY_VALUES"
   ],
   "next_work_action": "Work 12:30: consume complete Daily candidates 2026-10-23 through 2026-10-30 oldest-first; independently run native Evidence/Reader/Lineage/Canonical gates and promote only on formal PASS; Current Daily remains 2026-10-22 at Producer preflight.",
-  "producer_acceptance_completed_at": "2026-10-30T02:15:01.503Z"
+  "producer_acceptance_completed_at": "2026-10-30T02:15:01.503Z",
+  "updated_at": "2026-10-30T02:15:30.962Z"
 }
