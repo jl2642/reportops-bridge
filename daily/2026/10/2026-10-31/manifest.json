@@ -33,7 +33,7 @@
   "evidence_status": "PASS_12_OF_12__LOCAL_PRODUCER_RECEIPT_AND_SUPPORT_CHECK",
   "strict_v2_ledger_status": "PASS_12_OF_12__43_COLUMN_CLAIM_URL_BINDINGS__WORK_NATIVE_PENDING",
   "data_gap_boundary_status": "PASS__PRICE_FREIGHT_INSURANCE_AND_FORECAST_TIME_BOUNDARIES_DISCLOSED",
-  "producer_self_audit_status": "PASS_PREWRITE_PRODUCER_GATES__FINAL_READBACK_REQUIRED",
+  "producer_self_audit_status": "PASS__4_OF_4_DURABLE_READBACK__SOURCE_IDENTITY_12_OF_12__INLINE_12_OF_12__V4_EXACT_COUNTS__43_COLUMN_LEDGER",
   "consumer_status": "PENDING_WORK_RECONCILIATION",
   "canonical_mutation_performed": false,
   "site_publication_performed": false,
@@ -49,5 +49,6 @@
     "NO_SAME_WINDOW_JKM_TTF_LPG_CP_CFR_LNG_LPG_FREIGHT_INSURANCE_SERIES"
   ],
   "next_work_action": "Work 12:30: consume complete Daily candidates 2026-10-23 through 2026-10-31 oldest-first; independently run native Evidence/Reader/Lineage/Canonical gates; Current Daily remains 2026-10-22 at Producer preflight.",
-  "updated_at": "2026-10-31T02:20:26.355Z"
+  "updated_at": "2026-10-31T02:20:58.130Z",
+  "producer_acceptance_completed_at": "2026-10-31T02:20:58.130Z"
 }
