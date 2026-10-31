@@ -21,7 +21,7 @@
   "signal_card_count": 4,
   "evidence_record_count": 12,
   "source_url_count_distinct": 5,
-  "canonical_mutation_performed": false,
+  "canonical_mutation_performed": true,
   "site_mutation_performed": false,
   "work_may_rewrite": false,
   "warnings": [
@@ -34,8 +34,8 @@
     "CHANGED_ONLY_3_SOURCE_TYPE_METADATA_VALUES__FORMAL_WORK_REVALIDATION_PENDING"
   ],
   "producer_status": "PUBLIC_CORE_ACCEPTED",
-  "product_status": "PUBLIC_CORE_ACCEPTED_PENDING_WORK",
-  "formal_status": "PENDING_WORK_RECONCILIATION",
+  "product_status": "FORMAL_CANONICAL_PUBLISHED",
+  "formal_status": "FORMAL_CANONICAL_PUBLISHED",
   "source_identity_gate_status": "PASS_12_OF_12__OBSERVED_SEARCH_OR_OPENED_EXACT_SOURCE",
   "inline_citation_gate_status": "PASS_12_OF_12__IN_NARRATIVE_LINKS",
   "exact_v4_machine_structure_status": "PASS",
@@ -69,13 +69,43 @@
       "local_strict_v2_validator_equivalent": "PASS_WITH_WARNINGS_0_BLOCKERS_1_E10_FRESHNESS_WARNING",
       "formal_work_validator_rerun": "PENDING",
       "historical_failed_work_gate_preserved": true
+    },
+    "work_2026_10_31": {
+      "previous_consumer_status": "PENDING_WORK_NATIVE_EVIDENCE_REVALIDATION_AFTER_CHAT_METADATA_CORRECTION",
+      "previous_formal_status": "PENDING_WORK_RECONCILIATION",
+      "previous_authority_package_sha256": "8dcb0302dda8b0e331ee3b78e0a4c56c7bddd30ccb07f61af195a69fa1efb0f4",
+      "reconciliation": "Native Work gates and atomic P8G target-state transaction passed; prior producer/rollback state retained only as provenance."
     }
   },
-  "consumer_status": "PENDING_WORK_NATIVE_EVIDENCE_REVALIDATION_AFTER_CHAT_METADATA_CORRECTION",
-  "canonical_promotion_performed": false,
+  "consumer_status": "PASS_FORMAL_CANONICAL_PROMOTED",
+  "canonical_promotion_performed": true,
   "site_publication_performed": false,
-  "authority_package_sha256": "8dcb0302dda8b0e331ee3b78e0a4c56c7bddd30ccb07f61af195a69fa1efb0f4",
-  "next_work_action": "Work: independently rerun native Evidence V2 for Daily 2026-10-25 (3 ABC News ORIGINAL_MEDIA source_type cells corrected in strict V2 CSV), then retry Daily 2026-10-23 atomic finalizer after legitimate historical Reader baseline/delta analysis; promote 2026-10-24 and 2026-10-25 oldest-first only on formal PASS; reconcile Library Authority Current vs v107 Site already showing 10/24.",
+  "authority_package_sha256": "2aa62e44ee74d4c1dc1fc51d7523d878d000cc8e7be86e0406637947d5a2f4b8",
+  "next_work_action": "NONE_FOR_CANONICAL; SITE_PUBLICATION_PENDING",
   "work_correction_request": "daily/2026/10/2026-10-25/work_correction_request.json",
-  "updated_at": "2026-10-25T05:47:11.209Z"
+  "updated_at": "2026-10-31T12:47:00+08:00",
+  "public_site_status": "SITE_PENDING__LIVE_V108_REMAINS_2026_10_22",
+  "site_remote_readback_status": "PENDING",
+  "consumer_authority_identity": {
+    "authority_package_sha256": "2aa62e44ee74d4c1dc1fc51d7523d878d000cc8e7be86e0406637947d5a2f4b8",
+    "library_sidecar_sha256": "2aa62e44ee74d4c1dc1fc51d7523d878d000cc8e7be86e0406637947d5a2f4b8",
+    "identity_status": "PASS_LIBRARY_V74_POST_REBUILD_READBACK"
+  },
+  "quality_validation_status": "PASS_PUBLIC_V4_NATIVE",
+  "reader_validation_status": "PASS_NATIVE_READER_AND_PORTAL",
+  "lineage_status": "PASS_COMMITTED",
+  "state_validation_status": "PASS_COMMITTED",
+  "consumer_actuals": {
+    "source_identity_records": 12,
+    "inline_external_records": 12,
+    "evidence_records": 12,
+    "cjk_characters": 4053,
+    "reader_checks": 13,
+    "quality_score": null,
+    "quality_contract": "PUBLIC_V4_NATIVE",
+    "grade": "PUBLIC_V4_FORMAL",
+    "p8g_precommit_gates": 10,
+    "p8g_commit_verification_gates": 10,
+    "pointer_provenance_views": 13
+  }
 }
