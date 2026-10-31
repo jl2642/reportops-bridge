@@ -5,8 +5,8 @@
   "window_end": "2026-10-23T10:00:00+08:00",
   "scheduled_for": "2026-10-23T10:15:00+08:00",
   "producer_status": "PUBLIC_CORE_ACCEPTED",
-  "product_status": "PUBLIC_CORE_ACCEPTED_PENDING_WORK",
-  "formal_status": "PENDING_WORK_RECONCILIATION",
+  "product_status": "FORMAL_CANONICAL_PUBLISHED",
+  "formal_status": "FORMAL_CANONICAL_PUBLISHED",
   "scheduled_run_status": "ORIGINAL_10_15_TRIGGERED_NO_DURABLE_ARTIFACT__BOUNDED_INTERACTIVE_RECOVERY",
   "continuity_classification": "ZERO_DURABLE_PRODUCT_INTERACTIVE_RECOVERY",
   "mode": "BOUNDED_INTERACTIVE_RECOVERY_NOT_SCHEDULED_SUCCESS",
@@ -36,15 +36,15 @@
   "signal_card_count": 4,
   "evidence_record_count": 10,
   "source_url_count_distinct": 4,
-  "canonical_mutation_performed": false,
-  "site_mutation_performed": true,
+  "canonical_mutation_performed": true,
+  "site_mutation_performed": false,
   "work_may_rewrite": false,
   "producer_self_audit_status": "PASS__V4_AUTHORITY_EXACT_COUNTS__INLINE_SOURCE_IDENTITY__POST_PUBLIC_INTRO_CLEANUP",
-  "consumer_status": "BLOCKED_CANONICAL_REPLAY__HISTORICAL_READER_BASELINE",
-  "reader_validation_status": "PASS_13_OF_13",
-  "lineage_status": "PASS_DRY_RUN__COMMIT_ROLLED_BACK_WITH_FINALIZER_TRANSACTION",
-  "quality_validation_status": "PASS_84_B_PLUS_FORMAL_BASELINE",
-  "state_validation_status": "NOT_COMMITTED__AUTHORITY_CURRENT_2026_10_22",
+  "consumer_status": "PASS_FORMAL_CANONICAL_PROMOTED",
+  "reader_validation_status": "PASS_NATIVE_READER_AND_PORTAL",
+  "lineage_status": "PASS_COMMITTED",
+  "quality_validation_status": "PASS_PUBLIC_V4_NATIVE",
+  "state_validation_status": "PASS_COMMITTED",
   "authority_package_sha256_at_preflight": "8dcb0302dda8b0e331ee3b78e0a4c56c7bddd30ccb07f61af195a69fa1efb0f4",
   "warnings": [
     "CJK_ABOVE_V4_TARGET_2200_3500_NONBLOCKING",
@@ -58,7 +58,7 @@
     "MEASUREMENTS_ALIGNED_TO_AUTHORITY_MODULE_H2_BODY_V4",
     "PUBLIC_OPERATIONAL_PROVENANCE_RETAINED_IN_HEARTBEAT_AND_MANIFEST_NOT_IN_PUBLIC_RESEARCH_PROSE"
   ],
-  "next_work_action": "RETRY_ATOMIC_PROMOTION_FROM_READER_BASELINE_DELTA_CHECK",
+  "next_work_action": "NONE_FOR_CANONICAL; SITE_PUBLICATION_PENDING",
   "producer_acceptance_completed_at": "2026-10-23T05:47:59.668Z",
   "provenance": {
     "scheduled_heartbeat_path": "daily/2026/10/2026-10-23/run_heartbeat.json",
@@ -79,28 +79,38 @@
       "stale_claimed_authority_sha256": "41c004caa4bd23d652a7ce8f86c82083e7cc8df0413bad5fd16e27a75fe21c61",
       "actual_library_authority_sha256": "8dcb0302dda8b0e331ee3b78e0a4c56c7bddd30ccb07f61af195a69fa1efb0f4",
       "formal_finalizer_attempt": "ROLLED_BACK_ON_PREEXISTING_READER_REPORT_BASELINE_FAILURES"
+    },
+    "work_2026_10_31": {
+      "previous_consumer_status": "BLOCKED_CANONICAL_REPLAY__HISTORICAL_READER_BASELINE",
+      "previous_formal_status": "PENDING_WORK_RECONCILIATION",
+      "previous_authority_package_sha256": "8dcb0302dda8b0e331ee3b78e0a4c56c7bddd30ccb07f61af195a69fa1efb0f4",
+      "reconciliation": "Native Work gates and atomic P8G target-state transaction passed; prior producer/rollback state retained only as provenance."
     }
   },
   "producer_readback_completed_at": "2026-10-23T06:37:23.135Z",
-  "canonical_promotion_performed": false,
-  "site_publication_performed": true,
-  "authority_package_sha256": "8dcb0302dda8b0e331ee3b78e0a4c56c7bddd30ccb07f61af195a69fa1efb0f4",
+  "canonical_promotion_performed": true,
+  "site_publication_performed": false,
+  "authority_package_sha256": "2aa62e44ee74d4c1dc1fc51d7523d878d000cc8e7be86e0406637947d5a2f4b8",
   "consumer_authority_identity": {
-    "authority_package_sha256": "8dcb0302dda8b0e331ee3b78e0a4c56c7bddd30ccb07f61af195a69fa1efb0f4",
-    "library_sidecar_sha256": "8dcb0302dda8b0e331ee3b78e0a4c56c7bddd30ccb07f61af195a69fa1efb0f4",
-    "identity_status": "PASS_LIBRARY_READBACK__CANONICAL_PRODUCT_NOT_PROMOTED"
+    "authority_package_sha256": "2aa62e44ee74d4c1dc1fc51d7523d878d000cc8e7be86e0406637947d5a2f4b8",
+    "library_sidecar_sha256": "2aa62e44ee74d4c1dc1fc51d7523d878d000cc8e7be86e0406637947d5a2f4b8",
+    "identity_status": "PASS_LIBRARY_V74_POST_REBUILD_READBACK"
   },
   "site_version": 107,
-  "public_site_status": "PASS_V107_REMOTE_READBACK",
-  "site_remote_readback_status": "PASS_REAL_LIVE_ORIGIN_V107",
+  "public_site_status": "SITE_PENDING__LIVE_V108_REMAINS_2026_10_22",
+  "site_remote_readback_status": "PENDING",
   "consumer_actuals": {
     "source_identity_records": 10,
     "inline_external_records": 10,
     "evidence_records": 10,
     "cjk_characters": 3767,
     "reader_checks": 13,
-    "score": 84,
-    "grade": "B_PLUS_FORMAL_BASELINE",
-    "weekly_eligibility": "CONDITIONAL"
-  }
+    "quality_score": null,
+    "quality_contract": "PUBLIC_V4_NATIVE",
+    "grade": "PUBLIC_V4_FORMAL",
+    "p8g_precommit_gates": 10,
+    "p8g_commit_verification_gates": 10,
+    "pointer_provenance_views": 13
+  },
+  "updated_at": "2026-10-31T12:47:00+08:00"
 }
