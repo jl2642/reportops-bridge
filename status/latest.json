@@ -648,7 +648,15 @@
   "upstream_producer_status": "COMPLETE_CANDIDATES_THROUGH_2026_10_28__OLDEST_FIRST_CONSUMPTION_BLOCKED",
   "producer_gap": [],
   "stable_operation_accepted": false,
-  "public_remote_readback": "PASS_CORE_CURRENT_2026_10_22__FORMAL_ARCHIVE_EXPECTED_SET_PARTIAL",
+  "public_remote_readback": {
+    "site_version": 108,
+    "current_daily": "2026-10-22",
+    "current_weekly": "2026-W42",
+    "daily_archive_latest": "2026-10-22",
+    "daily_2026_10_23_http": 404,
+    "daily_2026_10_24_http": 404,
+    "daily_2026_10_25_http": 404
+  },
   "download_integrity": "PASS_REMOTE_UNZIP_DAILY_2026_10_22_AND_WEEKLY_W42__SHA_MISMATCH_DAILY_ONLY",
   "public_daily_2026_10_14_download_sha256": "1bbee0652f14d54f8ba7f03702a97a97a6319ce602f0324ee85ce8f337eccb9a",
   "public_daily_2026_10_15_download_sha256": "f1d224161f3e274e833b372d98462deb62b7730f967607b4dfee7160842dc6c9",
@@ -806,9 +814,9 @@
   "ap_time_adjudication_2026_10_26": "PASS__LATEST_STRICT_V2_E01_E03_PUBLICATION_TIME_2026_10_25T22_16_00Z__11_RECORDS_0_BLOCKING",
   "site_only_corrective_republish_attempted": true,
   "site_only_corrective_republish_deployed": false,
-  "site_prepublication_audit": "FAIL__public_site_release_audit__2_SENSITIVE_MATCHES__W42_RESEARCH_OBJECT",
-  "site_failure_stage": "PUBLIC_SITE_RELEASE_AUDIT_W42_EXISTING_ACCEPTED_PROSE",
-  "site_failure_reason": "public_site_release_audit.py reported sensitive:site/weekly/2026-W42/index.html:research object and the matching W42 download HTML; Work did not rewrite accepted W42 prose or bypass the gate.",
+  "site_prepublication_audit": "FAIL__2_SENSITIVE_MATCHES__W42_RESEARCH_OBJECT__AFTER_EXISTING_SANITIZER",
+  "site_failure_stage": "PUBLIC_SITE_RELEASE_AUDIT_W42",
+  "site_failure_reason": "public_site_release_audit.py found research object in site/weekly/2026-W42/index.html and downloads/weekly/2026-W42/Energy_Intel_weekly_2026-W42_Public.html after sanitizer; deployment was not attempted.",
   "semantic_w42_compat_patch": {
     "status": "STAGING_APPLIED_AND_REGRESSION_PASS__NOT_PROMOTED_TO_AUTHORITY_DUE_DOWNSTREAM_FORMAL_GATE_ROLLBACK",
     "authority_before_sha256": "f965e46b09740cf78a5060ee05081f197ba543ae2d260b6beb1a9d9bab50bfd8",
@@ -818,11 +826,11 @@
     "negative_tests": "EXPECTED_FAIL_CLOSED"
   },
   "remote_zip_verification": {
-    "daily_2026_10_22": "ebe6151c8a28d7d8fde6a8f69c36ca22adcbfe2cd67a6e7f9e708023ac2d6802",
-    "weekly_2026_W42": "be89728b63fd9ec09c694b510f76955a5e085911fa3061569d8a4c43b3328f39",
-    "monthly_2026_09": "5c315f4e4500f441809379a4f567a083f52dd0cc91140af1d897a3a107e161b0",
-    "quarterly_2026_Q3": "77a48ae0f31e90c13293fdf235c36d5a7b8a400a04117430eec5b1ae88bce0a7",
-    "status": "PASS_ALL_SHA_AND_UNZIP"
+    "daily_2026_10_22": {
+      "sha256": "ebe6151c8a28d7d8fde6a8f69c36ca22adcbfe2cd67a6e7f9e708023ac2d6802",
+      "unzip_integrity": "PASS"
+    },
+    "status": "PASS_LIVE_V108_CURRENT_DOWNLOAD__STALE_VS_AUTHORITY"
   },
   "weekly_contract_w42_compat_patch": {
     "status": "STAGING_APPLIED_AND_REGRESSION_PASS__NOT_PROMOTED_TO_AUTHORITY_DUE_DOWNSTREAM_FORMAL_GATE_ROLLBACK",
