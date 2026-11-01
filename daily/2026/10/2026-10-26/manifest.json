@@ -21,7 +21,7 @@
   "source_url_count_distinct": 5,
   "public_contract_sha256": "64770bf24f1280d11060d6a905a659241d5e483109fc8c3e34195a8264fc48f6",
   "authority_policy_sha256": "ed69573e48d0daedd1b899ab2d6cf15880f37705f88b44b1a9d2ca26715f9905",
-  "canonical_mutation_performed": false,
+  "canonical_mutation_performed": true,
   "site_mutation_performed": false,
   "work_may_rewrite": false,
   "warnings": [
@@ -32,8 +32,8 @@
     "BOUNDED_CORRECTION_REPLACED_OFF_WINDOW_2026_10_24_2356_UTC_SOURCE"
   ],
   "producer_status": "PUBLIC_CORE_ACCEPTED",
-  "product_status": "PUBLIC_CORE_ACCEPTED_PENDING_WORK",
-  "formal_status": "PENDING_WORK_RECONCILIATION",
+  "product_status": "FORMALLY_PROMOTED_CANONICAL",
+  "formal_status": "FORMALLY_PROMOTED_CANONICAL",
   "source_identity_gate_status": "PASS_11_OF_11__OBSERVED_SEARCH_OR_OPENED_EXACT_SOURCE",
   "inline_citation_gate_status": "PASS_11_OF_11__IN_NARRATIVE_LINKS",
   "exact_v4_machine_structure_status": "PASS",
@@ -43,9 +43,30 @@
   "strict_v2_ledger_status": "PASS_11_OF_11__FULL_43_COLUMN_CLAIM_URL_BINDINGS",
   "data_gap_boundary_status": "PASS__PRICE_FREIGHT_AND_CONTRACT_UNCERTAINTY_DISCLOSED",
   "producer_self_audit_status": "PASS__V4_COUNT_PARITY__EVIDENCE_11_OF_11_NARRATIVE_CITATION_LINKS__STRICT_V2_LEDGER",
-  "consumer_status": "PENDING_WORK_RECONCILIATION",
-  "canonical_promotion_performed": false,
+  "consumer_status": "PASS_CANONICAL_PROMOTION__SITE_PENDING",
+  "canonical_promotion_performed": true,
   "site_publication_performed": false,
   "next_work_action": "Work: verify two AP date-only publication-time records, independently run native evidence/reader/lineage gates, and promote Daily 2026-10-23 to 2026-10-26 oldest-first only on formal PASS; do not treat producer candidate as canonical.",
-  "updated_at": "2026-10-26T02:23:11.399Z"
+  "updated_at": "2026-11-01T12:36:00+08:00",
+  "authority_package_sha256": "1a3221b47e69b0ea1a0a02803edc3a7f9796eced8d218e8e8c58569b4ab1b9e2",
+  "current_pointer_sha256": "086eb2ec363a4b418bf1081872f29c8c83137ca827164913aea1cc8c40d34450",
+  "consumer_actuals": {
+    "source_identity": "PASS_11_OF_11",
+    "inline_citation": "PASS_11_OF_11",
+    "strict_evidence_v2": "PASS_11_OF_11_BLOCKING_0",
+    "public_v4": "PASS",
+    "temporal": "PASS",
+    "information_window": "PASS",
+    "privacy": "PASS",
+    "lineage": "PASS",
+    "reader_portal": "PASS_37",
+    "reader_report": "PASS_2155",
+    "p8g_precommit": "PASS_10_OF_10",
+    "p8g_commit_verification": "PASS_10_OF_10",
+    "current_daily_after": "2026-10-26"
+  },
+  "provenance": {
+    "producer_status_at_ingest": "PUBLIC_CORE_ACCEPTED",
+    "pre_promotion_authority_package_sha256": "2aa62e44ee74d4c1dc1fc51d7523d878d000cc8e7be86e0406637947d5a2f4b8"
+  }
 }
