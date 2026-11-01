@@ -38,12 +38,12 @@
   "site_only_corrective_republish_required": false,
   "private_site_dependency_removed": true,
   "queue_remaining": [
-    "Daily 2026-10-26",
     "Daily 2026-10-27",
     "Daily 2026-10-28",
     "Daily 2026-10-29",
     "Daily 2026-10-30",
-    "Daily 2026-10-31"
+    "Daily 2026-10-31",
+    "Daily 2026-11-01"
   ],
   "stale_views": [],
   "manifest_reconciliation_status": "PASS_CANONICAL_2026_10_23_TO_2026_10_25__SITE_PENDING",
@@ -128,7 +128,8 @@
     "Daily 2026-10-28",
     "Daily 2026-10-29",
     "Daily 2026-10-30",
-    "Daily 2026-10-31"
+    "Daily 2026-10-31",
+    "Daily 2026-11-01"
   ],
   "canonical_promotion_performed": true,
   "public_site_status": "SITE_PENDING__LIVE_V108_REMAINS_2026_10_22",
