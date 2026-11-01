@@ -252,7 +252,7 @@
     "Daily 2026-10-08 bounded interactive candidate recovery"
   ],
   "github_write_status": "PASS",
-  "github_readback_status": "PENDING_POST_UPDATE_READBACK",
+  "github_readback_status": "PASS_STATUS_CURRENT_PUBLIC_DEPLOYMENT_STATE_MANIFEST_2026_10_28",
   "concurrency_reconciliation": {
     "detected": true,
     "issue": "LATE_HEARTBEAT_STALE_STATUS_OVERWRITE_FROM_IN_FLIGHT_10_15_RUN",
