@@ -17,7 +17,7 @@ language: zh-CN
 ## 2. 今日关键信号
 
 ### 信号卡1｜OPEC+偏向维持配额，原油风险溢价仍取决于实际通航
-- **事实摘要：** 10月31日路透援引三名知情人士称，主要产油国原则同意12月维持既有目标；这是会前消息而非正式公报。[E05](https://www.reuters.com/business/energy/opec-set-keep-production-targets-unchanged-december-source-says-2026-10-31/) 同日印度《经济时报》回顾10月30日结算：12月布伦特117.64美元/桶、WTI 104.12美元/桶；报道发布在本窗口内，但价格观察发生于前一交易日。[E10](https://economictimes.indiatimes.com/markets/commodities/news/oil-prices-soar-14-in-october-to-end-at-6-month-high-as-us-weighs-fresh-attacks-after-midterm-elections-more-upside-ahead/articleshow/135388221.cms)
+- **事实摘要：** 10月31日路透援引三名知情人士称，主要产油国原则同意12月维持既有目标；这是会前消息而非正式公报。[E05](https://www.reuters.com/business/energy/opec-set-keep-production-targets-unchanged-december-source-says-2026-10-31/) 同日印度《经济时报》回顾10月30日结算：12月布伦特117.64美元/桶、WTI 104.12美元/桶。 [E13](https://economictimes.indiatimes.com/markets/commodities/news/oil-prices-soar-14-in-october-to-end-at-6-month-high-as-us-weighs-fresh-attacks-after-midterm-elections-more-upside-ahead/articleshow/135388221.cms) 报道发布在本窗口内，但价格观察发生于前一交易日。[E10](https://economictimes.indiatimes.com/markets/commodities/news/oil-prices-soar-14-in-october-to-end-at-6-month-high-as-us-weighs-fresh-attacks-after-midterm-elections-more-upside-ahead/articleshow/135388221.cms)
 - **为什么重要：** 配额只是供给政策上限，战争、港口、油轮保险和实际装船决定可交易供应。即使政策不增产，若海湾出口恢复，风险溢价仍可能下降；反之即使有名义闲置产能，航运受限也不能迅速变成买方到货。
 - **价格/供需/产业链传导：** 原油成本影响炼厂进料和成品油裂解价差；对LPG、石脑油和化工原料的影响还需看各产品独立供需，不能按油价同幅推算。
 - **影响对象：** 原油进口商、炼厂、航运承运人、油价挂钩长协买方。
@@ -64,7 +64,7 @@ language: zh-CN
 <!-- MODULE:PRICE_AND_SPREAD_DELTA -->
 ## 4. 价格与价差增量
 
-本窗口可核对的**新发布价格信息**是10月31日印度《经济时报》对前一交易日结算的复述：12月布伦特117.64美元/桶，较上一交易日上涨2.76美元/桶；WTI 104.12美元/桶，上涨2.12美元/桶。两者同为美元/桶，但属于不同基准，不能用简单差额替代同月同交割地可交易套利价差。[E10](https://economictimes.indiatimes.com/markets/commodities/news/oil-prices-soar-14-in-october-to-end-at-6-month-high-as-us-weighs-fresh-attacks-after-midterm-elections-more-upside-ahead/articleshow/135388221.cms)
+本窗口可核对的**新发布价格信息**是10月31日印度《经济时报》对前一交易日结算的复述：12月布伦特117.64美元/桶，较上一交易日上涨2.76美元/桶；WTI 104.12美元/桶，上涨2.12美元/桶。[E13](https://economictimes.indiatimes.com/markets/commodities/news/oil-prices-soar-14-in-october-to-end-at-6-month-high-as-us-weighs-fresh-attacks-after-midterm-elections-more-upside-ahead/articleshow/135388221.cms) 两者同为美元/桶，但属于不同基准，不能用简单差额替代同月同交割地可交易套利价差。[E10](https://economictimes.indiatimes.com/markets/commodities/news/oil-prices-soar-14-in-october-to-end-at-6-month-high-as-us-weighs-fresh-attacks-after-midterm-elections-more-upside-ahead/articleshow/135388221.cms)
 
 未取得同时满足窗口、价格基准、合约月份、交易时点及来源可核验要求的JKM、TTF、Henry Hub、LPG CP、CFR、国内LNG现货及LNG/LPG船舶运费完整序列。本期**不计算虚假的日环比、气油价差、LPG裂解价差或跨区套利收益**。对油价变化的影响只做方向性情景分析，不填充代理数值。
 
@@ -123,7 +123,7 @@ language: zh-CN
 - [E07](https://www.reuters.com/world/china/rubio-host-meeting-indo-pacific-quad-wrap-up-g20-gathering-2026-10-31/) Reuters：美日印澳四方航道与供应链声明。
 - [E08](https://www.reuters.com/world/us-sees-growing-interest-limited-ceasefire-black-sea-2026-10-31/) Reuters：黑海有限停火讨论。
 - [E09](https://m.interfax.ru/1126298) Interfax：俄罗斯柴油出口限制。
-- [E10](https://economictimes.indiatimes.com/markets/commodities/news/oil-prices-soar-14-in-october-to-end-at-6-month-high-as-us-weighs-fresh-attacks-after-midterm-elections-more-upside-ahead/articleshow/135388221.cms) The Economic Times：10月30日油价结算回顾。
+- [E10](https://economictimes.indiatimes.com/markets/commodities/news/oil-prices-soar-14-in-october-to-end-at-6-month-high-as-us-weighs-fresh-attacks-after-midterm-elections-more-upside-ahead/articleshow/135388221.cms) The Economic Times：10月30日油价结算回顾（E10、E13）。
 - [E11](https://www.reuters.com/business/energy/african-lenders-formally-establish-5-billion-energy-bank-2026-10-31/) Reuters：非洲能源银行设立。
 - [E12](https://www.mrt.com/business/oil/article/spacex-adds-rocket-fuel-gas-demand-22500745.php) Midland Reporter-Telegram：SpaceX天然气管道需求。
 
