@@ -5,8 +5,8 @@
   "window_end": "2026-10-29T10:00:00+08:00",
   "scheduled_for": "2026-10-29T10:15:00+08:00",
   "producer_status": "PUBLIC_CORE_ACCEPTED",
-  "product_status": "PUBLIC_CORE_ACCEPTED_PENDING_WORK",
-  "formal_status": "PENDING_WORK_RECONCILIATION",
+  "product_status": "FORMAL_CANONICAL_PUBLISHED__SITE_PENDING",
+  "formal_status": "FORMAL_CANONICAL_PUBLISHED",
   "cjk_characters_actual": 3371,
   "executive_cjk_actual": 334,
   "key_signal_cjk_actual": 1247,
@@ -34,8 +34,8 @@
   "strict_v2_ledger_status": "PASS_WORK_NATIVE_11_RECORDS_43_COLUMNS__E08_PUBLICATION_AND_DATA_PERIOD_DATE_ONLY_2026_10_28",
   "data_gap_boundary_status": "PASS__LNG_LPG_PRICES_FREIGHT_INSURANCE_AND_REFINERY_CONFIRMATION_GAPS_DISCLOSED",
   "producer_self_audit_status": "PASS__4_OF_4_DURABLE_READBACK__SOURCE_IDENTITY_11_OF_11__INLINE_11_OF_11__V4_EXACT_COUNTS__43_COLUMN_LEDGER",
-  "consumer_status": "PENDING_WORK_RECONCILIATION",
-  "canonical_mutation_performed": false,
+  "consumer_status": "PASS_CANONICAL_PROMOTION__SITE_PENDING",
+  "canonical_mutation_performed": true,
   "site_mutation_performed": false,
   "work_may_rewrite": false,
   "warnings": [
@@ -64,6 +64,30 @@
     "work_native_evidence_v2": "PASS_11_RECORDS_0_BLOCKING_0_WARNINGS",
     "corrected_at": "2026-10-29T04:38:05Z"
   },
-  "updated_at": "2026-10-29T04:38:05Z"
+  "updated_at": "2026-10-29T04:38:05Z",
+  "canonical_promotion_performed": true,
+  "site_publication_performed": false,
+  "authority_package_sha256": "1518067c89699049172c061142cafeb67cf261a83807d778e80cdf732d887e45",
+  "consumer_authority_package_sha256": "1518067c89699049172c061142cafeb67cf261a83807d778e80cdf732d887e45",
+  "current_pointer_sha256": "5e87bf91d80823b842f02ede83e9be8cd4751a2b28851b07c8decb7c3683c214",
+  "consumer_reconciled_at": "2026-11-01T13:50:00+08:00",
+  "consumer_actuals": {
+    "public_v4_eligibility": "PASS_PUBLIC_V4_FORMAL",
+    "evidence_v2": "PASS_LATEST_E08_DATE_PRECISION_CORRECTION",
+    "p8g_precommit": "PASS_10_OF_10",
+    "p8g_commit_verification": "PASS_10_OF_10",
+    "reader_portal": "PASS_37_CHECKS",
+    "reader_report": "PASS",
+    "semantic_guard": "PASS",
+    "lineage": "PASS",
+    "state_consistency": "PASS",
+    "authoritative_current_state": "PASS",
+    "current_metadata_freshness": "PASS_13_OF_13"
+  },
+  "consumer_provenance": {
+    "producer_status_preserved": "PUBLIC_CORE_ACCEPTED",
+    "authority_before_sha256": "bf802b3d0c827da7254252f8f532799af6a9a37afaf2c7b3dcfd1eea83ad5d92",
+    "authority_after_sha256": "1518067c89699049172c061142cafeb67cf261a83807d778e80cdf732d887e45",
+    "site_status": "SITE_PENDING__LIVE_V108_REMAINS_2026_10_22"
+  }
 }
-
