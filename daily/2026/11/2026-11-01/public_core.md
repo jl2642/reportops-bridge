@@ -125,7 +125,7 @@ language: zh-CN
 - [E09](https://m.interfax.ru/1126298) Interfax：俄罗斯柴油出口限制。
 - [E10](https://economictimes.indiatimes.com/markets/commodities/news/oil-prices-soar-14-in-october-to-end-at-6-month-high-as-us-weighs-fresh-attacks-after-midterm-elections-more-upside-ahead/articleshow/135388221.cms?from=mdr) The Economic Times：10月30日油价结算回顾（E10、E13）。
 - [E11](https://www.reuters.com/business/energy/african-lenders-formally-establish-5-billion-energy-bank-2026-10-31/) Reuters：非洲能源银行设立。
-- [E12](https://www.mrt.com/business/oil/article/spacex-adds-rocket-fuel-gas-demand-22500745.php) 市场监管总局：11月1日起实施的CNG供气装置国家标准。
+- [E12](https://www.samr.gov.cn/xw/zj/art/2026/art_67bff03b681640f4892e522004f58bcb.html) 市场监管总局：11月1日起实施的CNG供气装置国家标准。
 
 <!-- PROXY_MATRIX_CONDITIONAL -->
 ## Appendix. Proxy Matrix（Material DATA_GAP，无代理报价）
