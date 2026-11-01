@@ -21,12 +21,12 @@
   "source_url_count_distinct": 11,
   "public_contract_sha256": "64770bf24f1280d11060d6a905a659241d5e483109fc8c3e34195a8264fc48f6",
   "authority_policy_sha256": "ed69573e48d0daedd1b899ab2d6cf15880f37705f88b44b1a9d2ca26715f9905",
-  "canonical_mutation_performed": false,
+  "canonical_mutation_performed": true,
   "site_mutation_performed": false,
   "work_may_rewrite": false,
   "producer_status": "PUBLIC_CORE_ACCEPTED",
-  "product_status": "PUBLIC_CORE_ACCEPTED_PENDING_WORK",
-  "formal_status": "PENDING_WORK_RECONCILIATION",
+  "product_status": "FORMAL_CANONICAL_PUBLISHED__SITE_PENDING",
+  "formal_status": "FORMAL_CANONICAL_PUBLISHED",
   "source_identity_gate_status": "PASS_11_OF_11__OPENED_EXACT_DOCUMENT_WITH_V1_2_RECEIPTS",
   "inline_citation_gate_status": "PASS_11_OF_11__IN_NARRATIVE_LINKS",
   "exact_v4_machine_structure_status": "PASS",
@@ -37,7 +37,7 @@
   "strict_v2_ledger_status": "PASS_11_OF_11__FULL_43_COLUMN_CLAIM_URL_BINDINGS__WORK_NATIVE_PENDING",
   "data_gap_boundary_status": "PASS__PRICE_FREIGHT_AND_CONTRACT_UNCERTAINTY_DISCLOSED",
   "producer_self_audit_status": "PASS_PREWRITE_PRODUCER_GATES__FINAL_READBACK_REQUIRED",
-  "consumer_status": "PENDING_WORK_RECONCILIATION",
+  "consumer_status": "PASS_CANONICAL_PROMOTION__SITE_PENDING",
   "warnings": [
     "EUROPE_GAS_INTRADAY_QUOTE_EXACT_TRADE_TIME_NOT_PUBLISHED__ARTICLE_PUBLICATION_TIME_DISCLOSED",
     "E02_DAILY_SABAH_AGENCY_ATTRIBUTION__NOT_INDEPENDENT_PRIMARY_EXCHANGE_DATA",
@@ -50,5 +50,29 @@
     "D20261026_E01_E03_LEDGER_PUBLICATION_TIME_BOUNDED_CORRECTION_PERSISTED__WORK_NATIVE_VALIDATION_PENDING"
   ],
   "next_work_action": "Work: revalidate 2026-10-26 strict-v2 ledger corrected E01/E03 publication_time; consume complete candidates 2026-10-23 to 2026-10-27 oldest-first, only promote on formal gates PASS; do not treat this Producer candidate as Canonical.",
-  "producer_acceptance_completed_at": "2026-10-27T02:24:57.835Z"
+  "producer_acceptance_completed_at": "2026-10-27T02:24:57.835Z",
+  "canonical_promotion_performed": true,
+  "site_publication_performed": false,
+  "authority_package_sha256": "976229260c168d7493949ea849f23bb5e2bbf4e526668b76414803230a14caa2",
+  "consumer_authority_package_sha256": "976229260c168d7493949ea849f23bb5e2bbf4e526668b76414803230a14caa2",
+  "current_pointer_sha256": "ca753546b8a94d5121026e153a478679286458ffddf048daab85b79190834175",
+  "consumer_reconciled_at": "2026-11-01T13:08:00+08:00",
+  "consumer_actuals": {
+    "public_v4_eligibility": "PASS_PUBLIC_V4_FORMAL",
+    "p8g_precommit": "PASS_10_OF_10",
+    "p8g_commit_verification": "PASS_10_OF_10",
+    "reader_portal": "PASS_37_CHECKS",
+    "reader_report": "PASS_182_DOCS_2155_CHECKS",
+    "semantic_guard": "PASS_22_CHECKS_527_LINKS",
+    "lineage": "PASS",
+    "state_consistency": "PASS",
+    "authoritative_current_state": "PASS",
+    "current_metadata_freshness": "PASS_13_OF_13"
+  },
+  "consumer_provenance": {
+    "producer_status_preserved": "PUBLIC_CORE_ACCEPTED",
+    "authority_before_sha256": "1a3221b47e69b0ea1a0a02803edc3a7f9796eced8d218e8e8c58569b4ab1b9e2",
+    "authority_after_sha256": "976229260c168d7493949ea849f23bb5e2bbf4e526668b76414803230a14caa2",
+    "site_status": "SITE_PENDING__LIVE_V108_REMAINS_2026_10_22"
+  }
 }
