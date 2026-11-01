@@ -59,18 +59,18 @@
   "failure_stage": "DAILY_2026_10_26_PROMOTION_DECISION",
   "failure_reason": "Eight-script package still compares the full AP URL terminal slug for CANONICAL_REDIRECT_CONFIRMED; observed short article-ID URL and canonical slug+article-ID URL refer to the same verified article but are rejected as source_identity_receipt_url_mismatch:E01.",
   "next_action": "Governance-correct the existing promotion/finalizer canonical redirect comparator to bind the verified AP article ID without weakening URL identity; rerun 2026-10-26 once, then continue 2026-10-27 through 2026-10-31 oldest-first; separately publish and verify the existing site from Authority Current 2026-10-25.",
-  "updated_at": "2026-10-31T12:47:00+08:00",
+  "updated_at": "2026-11-01T12:36:00+08:00",
   "queue_remaining": [
-    "Daily 2026-10-26",
     "Daily 2026-10-27",
     "Daily 2026-10-28",
     "Daily 2026-10-29",
     "Daily 2026-10-30",
-    "Daily 2026-10-31"
+    "Daily 2026-10-31",
+    "Daily 2026-11-01"
   ],
   "pending_product": "Daily 2026-10-26",
-  "manual_intervention_required": true,
-  "authority_package_sha256": "2aa62e44ee74d4c1dc1fc51d7523d878d000cc8e7be86e0406637947d5a2f4b8",
+  "manual_intervention_required": false,
+  "authority_package_sha256": "1a3221b47e69b0ea1a0a02803edc3a7f9796eced8d218e8e8c58569b4ab1b9e2",
   "queue_initial": [
     "Daily 2026-10-23"
   ],
@@ -98,7 +98,8 @@
     "Daily 2026-10-28",
     "Daily 2026-10-29",
     "Daily 2026-10-30",
-    "Daily 2026-10-31"
+    "Daily 2026-10-31",
+    "Daily 2026-11-01"
   ],
   "preflight_blocker_matrix": [
     {
@@ -199,7 +200,7 @@
     "Weekly 2026-W43 (NO CHAT_FINAL)"
   ],
   "public_daily_2026_09_26_download_sha256": "ea94ce1f2f69b3efa270295fb9f7b04c248280ea057a6a8721a7d3602522ba43",
-  "reportops_status": "PARTIAL_SUCCESS__PACKAGE_SUCCESS_SITE_PENDING__BLOCKED_DAILY_2026_10_26_CANONICAL_REDIRECT",
+  "reportops_status": "PARTIAL_SUCCESS__PACKAGE_SUCCESS_SITE_PENDING__QUEUE_REMAINS",
   "correction_provenance_2026_09_27": {
     "corrected_at": "2026-09-27T22:50:00+08:00",
     "correction_type": "INLINE_CITATION_PLACEMENT_ONLY",
@@ -714,7 +715,7 @@
     "site_mutation_performed": false
   },
   "preflight_blocker_matrix_as_of": "2026-10-19T12:33:36+08:00__HISTORICAL_PRIOR_WORK_PREFLIGHT_DO_NOT_USE_FOR_2026_10_20",
-  "current_daily": "2026-10-25",
+  "current_daily": "2026-10-26",
   "current_weekly": "2026-W42",
   "public_daily_2026_10_20_download_sha256": "eff0aea490394b68ccc6b197b849765dea9b89705a11b10f628999002742381d",
   "public_weekly_2026_w42_download_sha256": "4e56847cd56500b9c8b0504964b8e04990fdd5d2e21e9c6f946dbe1ddb4634df",
@@ -839,5 +840,8 @@
     "native_weekly_contract_checks": "PASS 13/13",
     "source_bindings": "PASS W42 108 citations / 17 Sxx exact URLs / HTML",
     "negative_tests": "PASS 6/6 EXPECTED_FAIL_CLOSED"
-  }
+  },
+  "current_before": "2026-10-25",
+  "current_after": "2026-10-26",
+  "current_pointer_sha256": "086eb2ec363a4b418bf1081872f29c8c83137ca827164913aea1cc8c40d34450"
 }
