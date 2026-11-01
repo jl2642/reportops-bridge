@@ -1,8 +1,8 @@
 {
   "schema_version": "REPORTOPS_R3_1_CHAT_STATUS_V1_5_SINGLE_SITE",
   "scheduled_date": "2026-10-31",
-  "target_date": "2026-10-26",
-  "current_day_status": "BLOCKED_PRODUCT_LOCAL",
+  "target_date": "2026-10-27",
+  "current_day_status": "PARTIAL_SUCCESS__SITE_PENDING__QUEUE_REMAINS",
   "scheduled_run_status": "ORIGINAL_10_15_UNATTENDED_PRODUCER_SUCCESS__POST_RUN_BOUNDED_QA_CORRECTION",
   "correction_backlog": {
     "status": "RESOLVED_BY_CHAT_CORRECTION",
@@ -48,29 +48,28 @@
   "data_gap_boundary_status": "PASS",
   "current_daily_public": "2026-10-22",
   "current_weekly_public": "2026-W42",
-  "formal_status": "FORMAL_CANONICAL_PUBLISHED_THROUGH_2026_10_25__SITE_PENDING",
+  "formal_status": "FORMAL_CANONICAL_PUBLISHED_THROUGH_2026_10_27__SITE_PENDING",
   "canonical_promotion_performed": true,
   "site_publication_performed": false,
   "public_site_version": 108,
   "public_site_status": "SITE_PENDING__LIVE_V108_REMAINS_2026_10_22",
-  "manifest_reconciliation_status": "PASS_CANONICAL_2026_10_23_TO_2026_10_25__SITE_PENDING",
-  "metadata_freshness": "PASS_AUTHORITY_13_CURRENT_DERIVED_VIEWS_2026_10_25",
-  "state_consistency_pointer_sha256": "26e119cc3c9065f1f53ee4fc61b5f024ed9d8a9c3a06297811bede6b22bff3f2",
-  "failure_stage": "DAILY_2026_10_26_PROMOTION_DECISION",
-  "failure_reason": "Eight-script package still compares the full AP URL terminal slug for CANONICAL_REDIRECT_CONFIRMED; observed short article-ID URL and canonical slug+article-ID URL refer to the same verified article but are rejected as source_identity_receipt_url_mismatch:E01.",
-  "next_action": "Governance-correct the existing promotion/finalizer canonical redirect comparator to bind the verified AP article ID without weakening URL identity; rerun 2026-10-26 once, then continue 2026-10-27 through 2026-10-31 oldest-first; separately publish and verify the existing site from Authority Current 2026-10-25.",
-  "updated_at": "2026-11-01T12:36:00+08:00",
+  "manifest_reconciliation_status": "PASS_CANONICAL_THROUGH_2026_10_27__SITE_PENDING",
+  "metadata_freshness": "PASS_AUTHORITY_13_CURRENT_DERIVED_VIEWS_2026_10_27",
+  "state_consistency_pointer_sha256": "ca753546b8a94d5121026e153a478679286458ffddf048daab85b79190834175",
+  "failure_stage": "PUBLIC_SITE_RELEASE_AUDIT_W42",
+  "failure_reason": "public_site_release_audit.py found visible cross-line plural text Research\\nObjects in the W42 site and download HTML after the authorized sanitizer patch; deployment was not attempted.",
+  "next_action": "Extend the authorized existing sanitizer semantics to the real cross-node/cross-line plural W42 visible-text case without weakening the sensitive audit; re-audit and publish the same site, while continuing Daily 2026-10-28 onward oldest-first.",
+  "updated_at": "2026-11-01T13:08:00+08:00",
   "queue_remaining": [
-    "Daily 2026-10-27",
     "Daily 2026-10-28",
     "Daily 2026-10-29",
     "Daily 2026-10-30",
     "Daily 2026-10-31",
     "Daily 2026-11-01"
   ],
-  "pending_product": "Daily 2026-10-26",
-  "manual_intervention_required": false,
-  "authority_package_sha256": "1a3221b47e69b0ea1a0a02803edc3a7f9796eced8d218e8e8c58569b4ab1b9e2",
+  "pending_product": "Daily 2026-10-28",
+  "manual_intervention_required": true,
+  "authority_package_sha256": "976229260c168d7493949ea849f23bb5e2bbf4e526668b76414803230a14caa2",
   "queue_initial": [
     "Daily 2026-10-23"
   ],
@@ -88,13 +87,12 @@
   "products_promoted": [
     "Daily 2026-10-23",
     "Daily 2026-10-24",
-    "Daily 2026-10-25"
+    "Daily 2026-10-25",
+    "Daily 2026-10-26",
+    "Daily 2026-10-27"
   ],
-  "products_blocked_local": [
-    "Daily 2026-10-26"
-  ],
+  "products_blocked_local": [],
   "eligible_unpublished_products": [
-    "Daily 2026-10-27",
     "Daily 2026-10-28",
     "Daily 2026-10-29",
     "Daily 2026-10-30",
@@ -128,16 +126,19 @@
     },
     {
       "product": "Daily 2026-10-26",
-      "classification": "BLOCKED_PRODUCT_LOCAL",
-      "native_gates": "PASS_EXCEPT_PROMOTION_REDIRECT_COMPARATOR",
-      "blocker": "source_identity_receipt_url_mismatch:E01",
-      "formal_state": "NOT_PROMOTED"
+      "classification": "READY_FOR_ATOMIC_PROMOTION",
+      "native_gates": "PASS",
+      "formal_state": "PROMOTED",
+      "p8g_precommit": "PASS_10_OF_10",
+      "p8g_commit": "PASS_10_OF_10"
     },
     {
       "product": "Daily 2026-10-27",
-      "classification": "DEFERRED_NON_BLOCKING_DEPENDENCY",
+      "classification": "READY_FOR_ATOMIC_PROMOTION",
       "native_gates": "PASS",
-      "dependency": "WAIT_2026_10_26"
+      "p8g_precommit": "PASS_10_OF_10",
+      "p8g_commit": "PASS_10_OF_10",
+      "formal_state": "PROMOTED"
     },
     {
       "product": "Daily 2026-10-28",
@@ -175,7 +176,7 @@
     "producer_automation_restored": true,
     "prior_2026_09_26_correction_preserved": true
   },
-  "real_remote_readback_status": "STALE_LIVE_SITE_CURRENT_2026_10_22_VS_AUTHORITY_2026_10_25",
+  "real_remote_readback_status": "STALE_LIVE_SITE_CURRENT_2026_10_22_VS_AUTHORITY_2026_10_27",
   "download_sha_status": "PENDING_SITE_REPUBLICATION",
   "public_daily_2026_09_25_download_sha256": "b4a80928e9755db168822874115c2d40069f3d9ad919416291e739dee8db7e72",
   "public_weekly_2026_w38_download_sha256": "551496a55a54f77721bbb1a7d2f0dc584956e0a18c188c44c9b90ec1a0a6305a",
@@ -192,7 +193,6 @@
     "claims_changed": false
   },
   "products_deferred_dependency": [
-    "Daily 2026-10-27",
     "Daily 2026-10-28",
     "Daily 2026-10-29",
     "Daily 2026-10-30",
@@ -252,7 +252,7 @@
     "Daily 2026-10-08 bounded interactive candidate recovery"
   ],
   "github_write_status": "PASS",
-  "github_readback_status": "PASS_MANIFEST_STATUS_CURRENT_PUBLIC_DEPLOYMENT_STATE_READBACK",
+  "github_readback_status": "PENDING_POST_UPDATE_READBACK",
   "concurrency_reconciliation": {
     "detected": true,
     "issue": "LATE_HEARTBEAT_STALE_STATUS_OVERWRITE_FROM_IN_FLIGHT_10_15_RUN",
@@ -292,10 +292,10 @@
   "public_daily_2026_09_30_download_sha256": "71b2b772dfc67f33d4d36903b11d1a1a5608af8bd0fe7bb1faf566232e009916",
   "public_daily_2026_10_01_download_sha256": "f332e6a6ce7eecdce966954035d0306c03c12c6534e5960686a83177f6228ebd",
   "authority_sha_runtime_reconciliation": {
-    "before": "0f23d3817e0b52d33de27c1b7eae48433f28e07f7c1afd09425e1151e15e830f",
-    "post_rebuild": "2aa62e44ee74d4c1dc1fc51d7523d878d000cc8e7be86e0406637947d5a2f4b8",
-    "library_sidecar": "2aa62e44ee74d4c1dc1fc51d7523d878d000cc8e7be86e0406637947d5a2f4b8",
-    "status": "PASS_LIBRARY_READBACK_V74"
+    "before": "1a3221b47e69b0ea1a0a02803edc3a7f9796eced8d218e8e8c58569b4ab1b9e2",
+    "post_rebuild": "976229260c168d7493949ea849f23bb5e2bbf4e526668b76414803230a14caa2",
+    "library_sidecar": "976229260c168d7493949ea849f23bb5e2bbf4e526668b76414803230a14caa2",
+    "status": "PASS_LIBRARY_READBACK_V76"
   },
   "runtime_sync_status": "PASS_AUTHORITY_METADATA_SYNC__SITE_PENDING",
   "recovery_provenance_2026_10_02": {
@@ -331,7 +331,7 @@
     "industry_operator_cjk_actual": 208
   },
   "public_daily_2026_10_02_download_sha256": "d2939f2bcc654a268bea060b4715dd00fb05f7a7707db1daa7fed393c7a61262",
-  "last_work_reconciled_at": "2026-10-31T12:47:00+08:00",
+  "last_work_reconciled_at": "2026-11-01T13:08:00+08:00",
   "candidate_2026_10_03": {
     "product_status": "ATOMIC_PROMOTED_SITE_VISIBLE__AUTHORITY_CLOSURE_PENDING",
     "formal_status": "ATOMIC_PROMOTION_CHECKPOINT_PRESERVED__AUTHORITY_UNIFIED_CLOSURE_PENDING",
@@ -401,9 +401,9 @@
     "handoff_path": "/能源周期报告/10_GOVERNANCE/DAILY_20261004_LINEAGE_REPAIR/REPORTOPS_CHAT_RECOVERY_HANDOFF_20261004.md",
     "identity_path": "/能源周期报告/10_GOVERNANCE/DAILY_20261004_LINEAGE_REPAIR/RECOVERY_SOURCE_IDENTITY_20261004.json"
   },
-  "current_daily_canonical": "2026-10-25",
+  "current_daily_canonical": "2026-10-27",
   "current_quarterly_public": "2026-Q3",
-  "library_sidecar_sha256": "2aa62e44ee74d4c1dc1fc51d7523d878d000cc8e7be86e0406637947d5a2f4b8",
+  "library_sidecar_sha256": "976229260c168d7493949ea849f23bb5e2bbf4e526668b76414803230a14caa2",
   "stale_views": [],
   "candidate_2026_10_05": {
     "product_status": "PUBLIC_CORE_ACCEPTED_PENDING_WORK",
@@ -640,7 +640,7 @@
     "root_cause": "UNKNOWN__SCHEDULED_RUN_HISTORY_UNAVAILABLE"
   },
   "current_annual_public": "NO_FORMAL_2026_PRODUCT",
-  "last_updated": "2026-10-31T12:47:00+08:00",
+  "last_updated": "2026-11-01T13:08:00+08:00",
   "final_closure_status": "PARTIAL",
   "status": "PARTIAL_SUCCESS__CANONICAL_THROUGH_2026_10_25__SITE_PENDING__QUEUE_BLOCKED_2026_10_26",
   "public_site_publication_receipt_status": "PENDING",
@@ -715,7 +715,7 @@
     "site_mutation_performed": false
   },
   "preflight_blocker_matrix_as_of": "2026-10-19T12:33:36+08:00__HISTORICAL_PRIOR_WORK_PREFLIGHT_DO_NOT_USE_FOR_2026_10_20",
-  "current_daily": "2026-10-26",
+  "current_daily": "2026-10-27",
   "current_weekly": "2026-W42",
   "public_daily_2026_10_20_download_sha256": "eff0aea490394b68ccc6b197b849765dea9b89705a11b10f628999002742381d",
   "public_weekly_2026_w42_download_sha256": "4e56847cd56500b9c8b0504964b8e04990fdd5d2e21e9c6f946dbe1ddb4634df",
@@ -815,9 +815,9 @@
   "ap_time_adjudication_2026_10_26": "PASS__LATEST_STRICT_V2_E01_E03_PUBLICATION_TIME_2026_10_25T22_16_00Z__11_RECORDS_0_BLOCKING",
   "site_only_corrective_republish_attempted": true,
   "site_only_corrective_republish_deployed": false,
-  "site_prepublication_audit": "FAIL__2_SENSITIVE_MATCHES__W42_RESEARCH_OBJECT__AFTER_EXISTING_SANITIZER",
+  "site_prepublication_audit": "FAIL__2_SENSITIVE_MATCHES__W42_CROSS_LINE_RESEARCH_OBJECTS__DEPLOYMENT_NOT_ATTEMPTED",
   "site_failure_stage": "PUBLIC_SITE_RELEASE_AUDIT_W42",
-  "site_failure_reason": "public_site_release_audit.py found research object in site/weekly/2026-W42/index.html and downloads/weekly/2026-W42/Energy_Intel_weekly_2026-W42_Public.html after sanitizer; deployment was not attempted.",
+  "site_failure_reason": "public_site_release_audit.py found visible cross-line plural text Research\\nObjects in the W42 site and download HTML after the authorized sanitizer patch; deployment was not attempted.",
   "semantic_w42_compat_patch": {
     "status": "STAGING_APPLIED_AND_REGRESSION_PASS__NOT_PROMOTED_TO_AUTHORITY_DUE_DOWNSTREAM_FORMAL_GATE_ROLLBACK",
     "authority_before_sha256": "f965e46b09740cf78a5060ee05081f197ba543ae2d260b6beb1a9d9bab50bfd8",
@@ -843,5 +843,5 @@
   },
   "current_before": "2026-10-25",
   "current_after": "2026-10-26",
-  "current_pointer_sha256": "086eb2ec363a4b418bf1081872f29c8c83137ca827164913aea1cc8c40d34450"
+  "current_pointer_sha256": "ca753546b8a94d5121026e153a478679286458ffddf048daab85b79190834175"
 }
