@@ -43,14 +43,14 @@ language: zh-CN
 - **下一步验证：** 获取月度产量、外输量、提氦商业产能与订单。
 - **反证条件：** 增产主要被区域消化或提氦无法稳定商业销售。
 
-### 信号卡4｜LNG长期船队推进与美国新增用气需求同时出现
-- **事实摘要：** 招商轮船10月31日披露卡塔尔能源LNG运输船二期项目首制17.4万立方米船“LEKHRAIB”已举行命名活动；该系列包含六艘同型船。仪式实际发生于10月28—29日，本窗口新增的是披露。[E03](https://news.10jqka.com.cn/20261031/c681324412.shtml) 美国《Midland Reporter-Telegram》10月31日报道，SpaceX相关实体推进德州和佛州天然气管道计划，为火箭液态甲烷需求做准备。[E12](https://www.mrt.com/business/oil/article/spacex-adds-rocket-fuel-gas-demand-22500745.php)
-- **为什么重要：** 船舶建造代表未来长期运输能力，不代表卡塔尔当前LNG产能或海峡航行已恢复。美国新用气场景表明LNG出口与数据中心以外也有需求，但尚未形成可核实的大规模稳定用气。
-- **价格/供需/产业链传导：** 船队扩张可能改善远期运输灵活性；美国新增本地气耗则可能影响区域管输容量竞争，两者不能直接净额相抵。
-- **影响对象：** LNG船东、租船方、美国天然气管道运营商及液化项目。
-- **证据边界：** 命名不等于交付，管道规划不等于已投运。
-- **下一步验证：** 核对船舶交付与租约起租、管道最终许可和实际流量。
-- **反证条件：** 船舶延迟交付或管道项目未获批准。
+### 信号卡4｜LNG长期船队推进，国内CNG装备标准同步落地
+- **事实摘要：** 招商轮船10月31日披露卡塔尔能源LNG运输船二期项目首制17.4万立方米船“LEKHRAIB”已举行命名活动；该系列包含六艘同型船。仪式实际发生于10月28—29日，本窗口新增的是披露。[E03](https://news.10jqka.com.cn/20261031/c681324412.shtml) 市场监管总局10月31日18:00公布，GB/T 47548—2026《城镇压缩天然气（CNG）供气装置》从11月1日起实施，明确装置技术、检验与质量证明等要求。[E12](https://www.samr.gov.cn/xw/zj/art/2026/art_67bff03b681640f4892e522004f58bcb.html)
+- **为什么重要：** 船舶建造代表未来长期运输能力，不代表卡塔尔当前LNG产能或海峡航行已恢复。城镇CNG供气装置标准为生产、检测和验收提供统一技术依据，但不会自动增加天然气消费量或形成新设备订单。
+- **价格/供需/产业链传导：** 船队扩张可能改善远期运输灵活性；CNG装置标准可能改善国内供气设施规范性，但与跨洋LNG运输能力属于不同产业链环节，不能直接净额相抵。
+- **影响对象：** LNG船东、租船方、国内CNG装备制造商及城镇燃气设施运营商。
+- **证据边界：** 命名不等于交付，标准实施不等于形成采购订单。
+- **下一步验证：** 核对船舶交付与租约起租、CNG装置标准实施后的采购和验收要求。
+- **反证条件：** 船舶延迟交付或标准实施后没有实际采购或设施改造。
 
 <!-- MODULE:MARKET_AND_EVENT_DELTA -->
 ## 3. 市场与事件增量
@@ -80,7 +80,7 @@ language: zh-CN
 
 国际油气风险的关键是**谈判预期与实物流动脱节**：10月31日多哈谈判继续，美方保留军事选项，航道安全仍需独立验证。[E06](https://www.reuters.com/world/middle-east/iranian-envoys-meet-qatari-mediators-threat-looms-us-strikes-after-midterms-2026-10-31/) OPEC+产量目标即使维持，产油国是否达到目标仍受运输和生产约束。[E05](https://www.reuters.com/business/energy/opec-set-keep-production-targets-unchanged-december-source-says-2026-10-31/) 黑海航运停火的讨论可能改善区域运输预期，但路透报道未显示俄方已接受可执行方案。[E08](https://www.reuters.com/world/us-sees-growing-interest-limited-ceasefire-black-sea-2026-10-31/)
 
-供需结构还出现两条中长期线索。非洲能源银行的设立可能改善当地油气项目融资工具，但实际融资落地尚待确认。[E11](https://www.reuters.com/business/energy/african-lenders-formally-establish-5-billion-energy-bank-2026-10-31/) 美国火箭液态甲烷项目推进专用管道，属于潜在新增天然气消费端；媒体引用的分析师判断不能直接当作已经实现的气量增长。[E12](https://www.mrt.com/business/oil/article/spacex-adds-rocket-fuel-gas-demand-22500745.php) 卡塔尔项目新船命名则是运力供给端节点，均应纳入长期观察，而不是当日供需平衡表。
+供需结构还出现两条中长期线索。非洲能源银行的设立可能改善当地油气项目融资工具，但实际融资落地尚待确认。[E11](https://www.reuters.com/business/energy/african-lenders-formally-establish-5-billion-energy-bank-2026-10-31/) 国内CNG供气装置标准于11月1日实施，是规范装备生产和验收的制度节点；不能把标准实施当成新增用气需求。[E12](https://www.samr.gov.cn/xw/zj/art/2026/art_67bff03b681640f4892e522004f58bcb.html) 卡塔尔项目新船命名则是运力供给端节点，均应纳入长期观察，而不是当日供需平衡表。
 
 <!-- MODULE:RESEARCH_TRIGGER_BOARD -->
 ## 7. Research Trigger Board
@@ -105,7 +105,7 @@ language: zh-CN
 <!-- MODULE:EVIDENCE_AND_GAPS -->
 ## 9. 证据、数据缺口、风险与反证
 
-本期事实证据以新华社统计报道、招商轮船原始消息的明确转载、路透现场报道、国际文传电讯社俄政府消息及可核对的市场报道为主。需要严格区分：**新闻发布时间**与**被报道数据期间**。山西煤层气数据是2026年前三季度，船舶命名仪式在10月28—29日，原油结算在10月30日；它们均由窗口内报道引入，但不能写成11月1日新增实物供需。[E01](https://www2.xinhuanet.com/20261031/14ad36f7d2b341d5bf9a8de3a33eb8ef/c.html) [E03](https://news.10jqka.com.cn/20261031/c681324412.shtml) [E10](https://economictimes.indiatimes.com/markets/commodities/news/oil-prices-soar-14-in-october-to-end-at-6-month-high-as-us-weighs-fresh-attacks-after-midterm-elections-more-upside-ahead/articleshow/135388221.cms?from=mdr)
+本期事实证据以新华社统计报道、市场监管总局标准公告、招商轮船原始消息的明确转载、路透现场报道、国际文传电讯社俄政府消息及可核对的市场报道为主。需要严格区分：**新闻发布时间**与**被报道数据期间**。山西煤层气数据是2026年前三季度，船舶命名仪式在10月28—29日，原油结算在10月30日；它们均由窗口内报道引入，但不能写成11月1日新增实物供需。[E01](https://www2.xinhuanet.com/20261031/14ad36f7d2b341d5bf9a8de3a33eb8ef/c.html) [E03](https://news.10jqka.com.cn/20261031/c681324412.shtml) [E10](https://economictimes.indiatimes.com/markets/commodities/news/oil-prices-soar-14-in-october-to-end-at-6-month-high-as-us-weighs-fresh-attacks-after-midterm-elections-more-upside-ahead/articleshow/135388221.cms?from=mdr)
 
 主要不确定性是OPEC+会前消息尚未正式确认、卡塔尔斡旋未达成通航协议、俄罗斯出口限制仍有例外、LNG/LPG价格与运费缺乏统一时点可比序列。[E05](https://www.reuters.com/business/energy/opec-set-keep-production-targets-unchanged-december-source-says-2026-10-31/) [E06](https://www.reuters.com/world/middle-east/iranian-envoys-meet-qatari-mediators-threat-looms-us-strikes-after-midterms-2026-10-31/) [E09](https://m.interfax.ru/1126298) 不以匿名谈判消息证明和平，不以命名仪式证明交付，不以产量新闻证明项目IRR。缺失数据保留为空，不用不透明代理填充。
 
@@ -125,7 +125,7 @@ language: zh-CN
 - [E09](https://m.interfax.ru/1126298) Interfax：俄罗斯柴油出口限制。
 - [E10](https://economictimes.indiatimes.com/markets/commodities/news/oil-prices-soar-14-in-october-to-end-at-6-month-high-as-us-weighs-fresh-attacks-after-midterm-elections-more-upside-ahead/articleshow/135388221.cms?from=mdr) The Economic Times：10月30日油价结算回顾（E10、E13）。
 - [E11](https://www.reuters.com/business/energy/african-lenders-formally-establish-5-billion-energy-bank-2026-10-31/) Reuters：非洲能源银行设立。
-- [E12](https://www.mrt.com/business/oil/article/spacex-adds-rocket-fuel-gas-demand-22500745.php) Midland Reporter-Telegram：SpaceX天然气管道需求。
+- [E12](https://www.mrt.com/business/oil/article/spacex-adds-rocket-fuel-gas-demand-22500745.php) 市场监管总局：11月1日起实施的CNG供气装置国家标准。
 
 <!-- PROXY_MATRIX_CONDITIONAL -->
 ## Appendix. Proxy Matrix（Material DATA_GAP，无代理报价）
