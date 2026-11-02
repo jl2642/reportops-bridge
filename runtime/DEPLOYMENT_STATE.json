@@ -303,5 +303,16 @@
   },
   "current_pointer_sha256": "7e8618d4e508eb1c74886d9049a5495e52ac04189668adb0a83ecb24cb8a5be6",
   "package_status": "SUCCESS",
-  "site_status": "PENDING"
+  "site_status": "PENDING",
+  "w43_work_preflight": {
+    "chat_final_assets_readback": "PASS_11_OF_11",
+    "round2_report_sha256": "05ca5e6d1c98d8cbbdc82503154cb81f312cff0b52cd953b016b8eabb5b8ac85",
+    "source_identity": "PASS_18_OF_18",
+    "inline_citation": "PASS_18_URLS_74_LINKS",
+    "evidence_v2": "PASS_WITH_WARNINGS_30_RECORDS_27_CLAIMS_0_BLOCKING_5_WARNINGS",
+    "v4": "PASS_7979_CJK_10_MODULES",
+    "formal_reader_lineage_target_state": "NOT_EXECUTED__OLDEST_DAILY_2026_10_31_BLOCKED_RUNTIME_DEPENDENCY",
+    "canonical_promotion_performed": false,
+    "site_publication_performed": false
+  }
 }
