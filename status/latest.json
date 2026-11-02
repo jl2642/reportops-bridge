@@ -214,7 +214,7 @@
     "Original Site v110 deployment"
   ],
   "github_write_status": "PASS",
-  "github_readback_status": "PENDING_CURRENT_WRITE_READBACK",
+  "github_readback_status": "PASS_CURRENT_PUBLIC_DEPLOYMENT_STATE_LATEST_AND_STATIC_MANIFEST_V83_V110",
   "concurrency_reconciliation": {
     "detected": true,
     "issue": "LATE_HEARTBEAT_STALE_STATUS_OVERWRITE_FROM_IN_FLIGHT_10_15_RUN",
