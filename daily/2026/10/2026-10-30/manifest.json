@@ -5,8 +5,8 @@
   "window_end": "2026-10-30T10:00:00+08:00",
   "scheduled_for": "2026-10-30T10:15:00+08:00",
   "producer_status": "PUBLIC_CORE_ACCEPTED",
-  "product_status": "PUBLIC_CORE_ACCEPTED_PENDING_WORK",
-  "formal_status": "PENDING_WORK_RECONCILIATION",
+  "product_status": "FORMAL_CANONICAL_PROMOTED",
+  "formal_status": "FORMAL_CANONICAL_PROMOTED__SITE_PENDING",
   "cjk_characters_actual": 3396,
   "executive_cjk_actual": 293,
   "key_signal_cjk_actual": 1351,
@@ -34,8 +34,8 @@
   "strict_v2_ledger_status": "PASS_12_OF_12__43_COLUMN_CLAIM_URL_BINDINGS__WORK_NATIVE_PENDING",
   "data_gap_boundary_status": "PASS__LNG_LPG_PRICE_FREIGHT_INSURANCE_AND_CONTRACT_TIME_BOUNDARIES_DISCLOSED",
   "producer_self_audit_status": "PASS__4_OF_4_DURABLE_READBACK__SOURCE_IDENTITY_12_OF_12__INLINE_12_OF_12__V4_EXACT_COUNTS__43_COLUMN_LEDGER__PROXY_MATRIX_BOUNDED_REPAIR",
-  "consumer_status": "PENDING_WORK_RECONCILIATION",
-  "canonical_promotion_performed": false,
+  "consumer_status": "FORMAL_CANONICAL_PROMOTED",
+  "canonical_promotion_performed": true,
   "site_publication_performed": false,
   "work_may_rewrite": false,
   "warnings": [
@@ -50,5 +50,15 @@
   ],
   "next_work_action": "Work 12:30: consume complete Daily candidates 2026-10-23 through 2026-10-30 oldest-first; independently run native Evidence/Reader/Lineage/Canonical gates and promote only on formal PASS; Current Daily remains 2026-10-22 at Producer preflight.",
   "producer_acceptance_completed_at": "2026-10-30T02:15:01.503Z",
-  "updated_at": "2026-10-30T02:15:30.962Z"
+  "updated_at": "2026-10-30T02:15:30.962Z",
+  "authority_package_sha256": "d7f047887e42720a3c1cdb81b4162f1f82a33db6e955035f264d5f9ff67fb3e7",
+  "consumer_authority_identity": {
+    "authority_package_sha256": "d7f047887e42720a3c1cdb81b4162f1f82a33db6e955035f264d5f9ff67fb3e7",
+    "current_daily": "2026-10-30",
+    "pointer_sha256": "7e8618d4e508eb1c74886d9049a5495e52ac04189668adb0a83ecb24cb8a5be6"
+  },
+  "consumer_native_gate_status": "PASS_SOURCE_CITATION_EVIDENCE_V2_V4_TEMPORAL_WINDOW_PRIVACY_LINEAGE_READER",
+  "p8g_precommit_status": "PASS_10_OF_10",
+  "p8g_commit_verification_status": "PASS_10_OF_10",
+  "consumer_updated_at": "2026-11-02T13:05:00+08:00"
 }
