@@ -1,7 +1,7 @@
 {
   "schema_version": "REPORTOPS_DEPLOYMENT_STATE_V1",
   "document_class": "MUTABLE_DEPLOYMENT_AND_ACTIVATION_STATE",
-  "status": "PARTIAL_SUCCESS__AUTHORITY_V79_UNCHANGED__DAILY_2026_10_31_BLOCKED__W43_BLOCKED__SITE_PENDING",
+  "status": "PARTIAL_SUCCESS__DAILY_THROUGH_2026_11_01_PROMOTED__DAILY_2026_11_02_IN_PROGRESS__W43_SEMANTIC_BLOCKED__SITE_PENDING",
   "topology": "SINGLE_SITE_V4",
   "formal_cutover": true,
   "library_cutover": true,
@@ -17,7 +17,7 @@
   "private_site_status": "RETIRED",
   "public_site_version": 109,
   "public_site_url": "https://energy-cycle-report-share.ljjx2020.chatgpt.site",
-  "download_integrity": "NOT_VERIFIED_IN_CURRENT_RUN",
+  "download_integrity": "NOT_VERIFIED_IN_THIS_RUN",
   "v4_runtime_assets_in_authority": "PASS",
   "daily_runtime_contract_active": "V1_5_FORMAL_AUTHORITY",
   "bridge_protocol_active": "V1_5_FORMAL_AUTHORITY",
@@ -26,11 +26,11 @@
   "current_weekly_public": "2026-W42",
   "current_monthly_public": "2026-09",
   "current_quarterly_public": "2026-Q3",
-  "authority_package_sha256": "d7f047887e42720a3c1cdb81b4162f1f82a33db6e955035f264d5f9ff67fb3e7",
+  "authority_package_sha256": "976e791585081000e6c0e3012e65037afe5d613a3663bc2d8748e31a617dc40a",
   "canonical_authority": "LIBRARY",
   "current_public_ref": "runtime/CURRENT_PUBLIC.json",
   "final_closure_status": "PARTIAL__NO_CURRENT_RUN_PROMOTION",
-  "pending_product": "Daily 2026-10-31",
+  "pending_product": "Daily 2026-11-02",
   "updated_at": "2026-11-02T15:08:45+08:00",
   "metadata_freshness": "PASS_AUTHORITY_13_CURRENT_DERIVED_VIEWS_2026_10_30",
   "state_consistency_pointer_sha256": "7e8618d4e508eb1c74886d9049a5495e52ac04189668adb0a83ecb24cb8a5be6",
@@ -38,10 +38,9 @@
   "site_only_corrective_republish_required": false,
   "private_site_dependency_removed": true,
   "queue_remaining": [
-    "Daily 2026-10-31",
-    "Daily 2026-11-01",
     "Daily 2026-11-02",
-    "Weekly 2026-W43 formal Work promotion"
+    "Weekly 2026-W43 formal promotion",
+    "Original Site and Downloads publication"
   ],
   "stale_views": [],
   "manifest_reconciliation_status": "PASS_CANONICAL_THROUGH_2026_10_29__SITE_PENDING",
@@ -55,7 +54,7 @@
     "library_sidecar": "d7f047887e42720a3c1cdb81b4162f1f82a33db6e955035f264d5f9ff67fb3e7",
     "status": "PASS_LIBRARY_READBACK_V79"
   },
-  "current_daily_canonical": "2026-10-30",
+  "current_daily_canonical": "2026-11-01",
   "current_package_site_publication_performed": false,
   "public_remote_readback": {
     "site_version": 109,
@@ -72,11 +71,11 @@
     "weekly_2026_W42_body": "READBACK_PASS",
     "download_zip_sha_and_integrity": "NOT_VERIFIED_IN_THIS_RUN"
   },
-  "library_sidecar_sha256": "d7f047887e42720a3c1cdb81b4162f1f82a33db6e955035f264d5f9ff67fb3e7",
-  "runtime_sync_status": "UPDATED_FROM_CACHE_BUSTED_SITE_READBACK_AND_NATIVE_GATE_RESULTS",
+  "library_sidecar_sha256": "976e791585081000e6c0e3012e65037afe5d613a3663bc2d8748e31a617dc40a",
+  "runtime_sync_status": "PASS_V81_AUTHORITY_AND_MIRROR_READBACK__SITE_PENDING",
   "manual_intervention_required": true,
-  "failure_stage": "DAILY_2026_10_31_PROMOTION_SYNC_PUBLIC_V4_FORMAL_GATE",
-  "failure_reason": "daily_attempt_promotion_sync.py returned eligible=false, promotion_status=NOT_PROMOTED, reason=public_v4_formal_gate_fail:v4_identity_or_unsupported_claims; candidate product_quality_manifest_v4.json lacks required unsupported_core_claims=0.",
+  "failure_stage": "W43_P8G_SEMANTIC_PRODUCT_GUARD",
+  "failure_reason": "W43 has 74 linked Sxx citations and 18 additional plain [Sxx] source-index labels; semantic_product_guard requires len(citations)==len(all_ids), actual 74!=92.",
   "prepublication_recovery_receipt": {
     "scope": "DAILY_2026_10_09_AND_2026_10_10",
     "queue_for_work": [
@@ -128,13 +127,13 @@
   },
   "current_annual_public": "NO_FORMAL_2026_PRODUCT",
   "eligible_unpublished_products": [],
-  "canonical_promotion_performed": false,
+  "canonical_promotion_performed": true,
   "public_site_status": "LIVE_V109_READBACK_HOME_DAILY_2026_10_29_WEEKLY_2026_W42__AUTHORITY_DAILY_2026_10_30_AHEAD__NO_CURRENT_DEPLOY",
-  "download_sha_status": "NOT_VERIFIED_IN_CURRENT_RUN__DOWNLOAD_CENTER_LISTS_DAILY_2026_10_29_AND_WEEKLY_2026_W42",
+  "download_sha_status": "NOT_VERIFIED_IN_THIS_RUN__SITE_PENDING",
   "last_updated": "2026-11-02T15:08:45+08:00",
   "reportops_status": "FAIL_CLOSED__AUTHORITY_V79_UNCHANGED__DAILY_2026_10_31_AND_WEEKLY_2026_W43_BLOCKED__SITE_V109_THROUGH_DAILY_2026_10_29",
   "public_site_publication_receipt_status": "PENDING",
-  "next_action": "Restore the declared beautifulsoup4 runtime dependency, then resume exactly once from Authority V79 / Daily 2026-10-30 with Daily 2026-10-31.",
+  "next_action": "Complete Daily 2026-11-02 independently; W43 semantic gate and original Site source preparation remain blocked.",
   "upstream_producer_status": "COMPLETE_CANDIDATES_THROUGH_2026_10_28__OLDEST_FIRST_CONSUMPTION_BLOCKED",
   "producer_gap": [],
   "scheduled_date": "2026-11-02",
@@ -247,7 +246,7 @@
   "public_daily_2026_10_16_download_sha256": "a4f370e6392cbdcb575b528ff11b60d5ca40978bb96b798b4ee8a1bf86eb0040",
   "public_daily_2026_10_17_download_sha256": "7c777d8bf41779e3bd1c384f3cd197edd0316bdb406795e5f582dd2bdaabcb06",
   "stable": false,
-  "current_daily": "2026-10-30",
+  "current_daily": "2026-11-01",
   "current_weekly": "2026-W42",
   "public_daily_2026_10_20_download_sha256": "eff0aea490394b68ccc6b197b849765dea9b89705a11b10f628999002742381d",
   "public_weekly_2026_w42_download_sha256": "4e56847cd56500b9c8b0504964b8e04990fdd5d2e21e9c6f946dbe1ddb4634df",
@@ -278,8 +277,8 @@
   "site_only_corrective_republish_attempted": true,
   "site_only_corrective_republish_deployed": false,
   "site_prepublication_audit": "FAIL__2_SENSITIVE_MATCHES__W42_CROSS_LINE_RESEARCH_OBJECTS__DEPLOYMENT_NOT_ATTEMPTED",
-  "site_failure_stage": "PUBLIC_SITE_RELEASE_AUDIT_W42",
-  "site_failure_reason": "public_site_release_audit.py found visible cross-line plural text Research\\nObjects in the W42 site and download HTML after the authorized sanitizer patch; deployment was not attempted.",
+  "site_failure_stage": "ORIGINAL_SITE_SOURCE_PREPARATION",
+  "site_failure_reason": "site-workflow.mjs returned exit=1: Unable to prepare the Site.",
   "semantic_w42_compat_patch": {
     "status": "STAGING_APPLIED_AND_REGRESSION_PASS__NOT_PROMOTED_TO_AUTHORITY_DUE_DOWNSTREAM_FORMAL_GATE_ROLLBACK",
     "authority_before_sha256": "f965e46b09740cf78a5060ee05081f197ba543ae2d260b6beb1a9d9bab50bfd8",
@@ -303,7 +302,7 @@
     "source_bindings": "PASS W42 108 citations / 17 Sxx exact URLs / HTML",
     "negative_tests": "PASS 6/6 EXPECTED_FAIL_CLOSED"
   },
-  "current_pointer_sha256": "7e8618d4e508eb1c74886d9049a5495e52ac04189668adb0a83ecb24cb8a5be6",
+  "current_pointer_sha256": "a8ec97e850603e417849f46eccf7040474e8987e5aa51a67d64856062f9300bb",
   "package_status": "SUCCESS",
   "site_status": "PENDING",
   "w43_work_preflight": {
@@ -316,11 +315,12 @@
     "formal_reader_lineage_target_state": "BLOCKED_NATIVE_WEEKLY_PREFLIGHT__READER_NOT_GENERATED",
     "canonical_promotion_performed": false,
     "site_publication_performed": false,
-    "reader": "NOT_GENERATED__PREFLIGHT_BLOCKED",
-    "lineage": "PASS_BUILT_DRY_RUN_VALIDATED__1882_SOURCE_RECORDS__REPORT_WEEKLY_2026_W43",
-    "native_preflight": "FAIL__INPUT_POOL_CLASSIFICATION_4_CONDITIONAL_3_REVIEW_REQUIRED__NORMALIZED_ROWS_77_EXPECTED_19",
-    "p8g_precommit": "NOT_RUN__NATIVE_PREFLIGHT_BLOCKED",
-    "p8g_commit": "NOT_RUN__NATIVE_PREFLIGHT_BLOCKED"
+    "reader": "GENERATED_ENHANCED_W42_ARCHITECTURE__NATIVE_READER_REPORT_GATE_PASS_AFTER_SOURCE_INDEX_RENDER",
+    "lineage": "COMMITTED_IN_ISOLATED_STAGING_ONLY",
+    "native_preflight": "PASS_WITH_WARNINGS_7_OF_7_CONDITIONAL_77_ROWS_34_PER_DAY_UNIQUE_URLS",
+    "p8g_precommit": "FAIL_SEMANTIC_PRODUCT_GUARD_74_LINKED_VS_92_LABELS",
+    "p8g_commit": "NOT_REACHED",
+    "generation_chain": "PASS_V4_74_REFERENCES_18_REGISTERED_SOURCES"
   },
   "candidate_products_pending_gates": [
     {
@@ -345,5 +345,5 @@
   "current_run_authority_sha256": "d7f047887e42720a3c1cdb81b4162f1f82a33db6e955035f264d5f9ff67fb3e7",
   "current_run_pointer_sha256": "7e8618d4e508eb1c74886d9049a5495e52ac04189668adb0a83ecb24cb8a5be6",
   "stability_status": "NOT_ACCEPTED__TWO_CONSECUTIVE_NATURAL_PRODUCTION_CYCLES_WITHOUT_MANUAL_REPAIR_NOT_DEMONSTRATED",
-  "external_mirror_readback_status": "NOT_RUN__NO_AUTHORITY_PROMOTION"
+  "external_mirror_readback_status": "PASS__7_CURRENT_MIRRORS_PLUS_READER_PORTAL_RECEIPT__V81"
 }
