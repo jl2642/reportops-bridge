@@ -1,7 +1,7 @@
 {
   "schema_version": "REPORTOPS_DEPLOYMENT_STATE_V1",
   "document_class": "MUTABLE_DEPLOYMENT_AND_ACTIVATION_STATE",
-  "status": "PARTIAL_SUCCESS__CANONICAL_THROUGH_2026_10_29__SITE_PENDING__QUEUE_REMAINS",
+  "status": "PARTIAL_SUCCESS__AUTHORITY_V79_UNCHANGED__DAILY_2026_10_31_BLOCKED__W43_BLOCKED__SITE_PENDING",
   "topology": "SINGLE_SITE_V4",
   "formal_cutover": true,
   "library_cutover": true,
@@ -17,7 +17,7 @@
   "private_site_status": "RETIRED",
   "public_site_version": 109,
   "public_site_url": "https://energy-cycle-report-share.ljjx2020.chatgpt.site",
-  "download_integrity": "PASS_REMOTE_UNZIP_DAILY_2026_10_22_AND_WEEKLY_W42__SHA_MISMATCH_DAILY_ONLY",
+  "download_integrity": "NOT_VERIFIED_IN_CURRENT_RUN",
   "v4_runtime_assets_in_authority": "PASS",
   "daily_runtime_contract_active": "V1_5_FORMAL_AUTHORITY",
   "bridge_protocol_active": "V1_5_FORMAL_AUTHORITY",
@@ -29,12 +29,12 @@
   "authority_package_sha256": "d7f047887e42720a3c1cdb81b4162f1f82a33db6e955035f264d5f9ff67fb3e7",
   "canonical_authority": "LIBRARY",
   "current_public_ref": "runtime/CURRENT_PUBLIC.json",
-  "final_closure_status": "PARTIAL",
+  "final_closure_status": "PARTIAL__NO_CURRENT_RUN_PROMOTION",
   "pending_product": "Daily 2026-10-31",
-  "updated_at": "2026-11-02T13:10:00+08:00",
+  "updated_at": "2026-11-02T15:08:45+08:00",
   "metadata_freshness": "PASS_AUTHORITY_13_CURRENT_DERIVED_VIEWS_2026_10_30",
   "state_consistency_pointer_sha256": "7e8618d4e508eb1c74886d9049a5495e52ac04189668adb0a83ecb24cb8a5be6",
-  "real_remote_readback_status": "PASS_REAL_REMOTE_V109_THROUGH_2026_10_29__AUTHORITY_ONE_DAY_AHEAD",
+  "real_remote_readback_status": "PASS_CACHE_BUSTED_LIVE_CONTENT_V109__SITE_LAGS_AUTHORITY_BY_1_DAILY_PERIOD",
   "site_only_corrective_republish_required": false,
   "private_site_dependency_removed": true,
   "queue_remaining": [
@@ -58,19 +58,25 @@
   "current_daily_canonical": "2026-10-30",
   "current_package_site_publication_performed": false,
   "public_remote_readback": {
-    "site_version": 108,
-    "current_daily": "2026-10-22",
+    "site_version": 109,
+    "cache_busted": true,
+    "homepage_current_daily": "2026-10-29",
+    "current_daily": "2026-10-29",
     "current_weekly": "2026-W42",
-    "daily_archive_latest": "2026-10-22",
-    "daily_2026_10_23_http": 404,
-    "daily_2026_10_24_http": 404,
-    "daily_2026_10_25_http": 404
+    "daily_archive_latest": "2026-10-29",
+    "daily_2026_10_30": "NOT_LISTED_IN_ARCHIVE",
+    "weekly_archive_latest": "2026-W42",
+    "download_center_daily_latest": "2026-10-29",
+    "download_center_weekly_latest": "2026-W42",
+    "daily_2026_10_29_body": "READBACK_PASS",
+    "weekly_2026_W42_body": "READBACK_PASS",
+    "download_zip_sha_and_integrity": "NOT_VERIFIED_IN_THIS_RUN"
   },
   "library_sidecar_sha256": "d7f047887e42720a3c1cdb81b4162f1f82a33db6e955035f264d5f9ff67fb3e7",
-  "runtime_sync_status": "PASS_AUTHORITY_V79_METADATA_SYNC__SITE_PENDING_2026_10_30",
+  "runtime_sync_status": "UPDATED_FROM_CACHE_BUSTED_SITE_READBACK_AND_NATIVE_GATE_RESULTS",
   "manual_intervention_required": true,
-  "failure_stage": "DAILY_2026_10_31_P8G_READER_DESIGN_RUNTIME_DEPENDENCY",
-  "failure_reason": "reader_design_v1_private failed: ModuleNotFoundError: No module named 'bs4'; isolated transaction rolled back before Authority mutation.",
+  "failure_stage": "DAILY_2026_10_31_PROMOTION_SYNC_PUBLIC_V4_FORMAL_GATE",
+  "failure_reason": "daily_attempt_promotion_sync.py returned eligible=false, promotion_status=NOT_PROMOTED, reason=public_v4_formal_gate_fail:v4_identity_or_unsupported_claims; candidate product_quality_manifest_v4.json lacks required unsupported_core_claims=0.",
   "prepublication_recovery_receipt": {
     "scope": "DAILY_2026_10_09_AND_2026_10_10",
     "queue_for_work": [
@@ -121,16 +127,12 @@
     "resolution": "PASS_V104_REAL_ORIGIN_READBACK__DAILY_2026_10_20__WEEKLY_2026_W42__7_HTML_SHA_MATCH__2_DOWNLOAD_SHA_MATCH"
   },
   "current_annual_public": "NO_FORMAL_2026_PRODUCT",
-  "eligible_unpublished_products": [
-    "Daily 2026-10-31",
-    "Daily 2026-11-01",
-    "Daily 2026-11-02"
-  ],
-  "canonical_promotion_performed": true,
-  "public_site_status": "PASS_LIVE_V109_THROUGH_2026_10_29__SITE_PENDING_2026_10_30",
-  "download_sha_status": "PASS_V109_REMOTE_FOUR_CYCLE_ZIP_SHA_AND_UNZIP__SITE_PENDING_2026_10_30",
-  "last_updated": "2026-11-02T13:10:00+08:00",
-  "reportops_status": "PARTIAL_SUCCESS__DAILY_2026_10_30_PROMOTED__SITE_V109_THROUGH_2026_10_29__QUEUE_REMAINS",
+  "eligible_unpublished_products": [],
+  "canonical_promotion_performed": false,
+  "public_site_status": "LIVE_V109_READBACK_HOME_DAILY_2026_10_29_WEEKLY_2026_W42__AUTHORITY_DAILY_2026_10_30_AHEAD__NO_CURRENT_DEPLOY",
+  "download_sha_status": "NOT_VERIFIED_IN_CURRENT_RUN__DOWNLOAD_CENTER_LISTS_DAILY_2026_10_29_AND_WEEKLY_2026_W42",
+  "last_updated": "2026-11-02T15:08:45+08:00",
+  "reportops_status": "FAIL_CLOSED__AUTHORITY_V79_UNCHANGED__DAILY_2026_10_31_AND_WEEKLY_2026_W43_BLOCKED__SITE_V109_THROUGH_DAILY_2026_10_29",
   "public_site_publication_receipt_status": "PENDING",
   "next_action": "Restore the declared beautifulsoup4 runtime dependency, then resume exactly once from Authority V79 / Daily 2026-10-30 with Daily 2026-10-31.",
   "upstream_producer_status": "COMPLETE_CANDIDATES_THROUGH_2026_10_28__OLDEST_FIRST_CONSUMPTION_BLOCKED",
@@ -311,8 +313,37 @@
     "inline_citation": "PASS_18_URLS_74_LINKS",
     "evidence_v2": "PASS_WITH_WARNINGS_30_RECORDS_27_CLAIMS_0_BLOCKING_5_WARNINGS",
     "v4": "PASS_7979_CJK_10_MODULES",
-    "formal_reader_lineage_target_state": "NOT_EXECUTED__OLDEST_DAILY_2026_10_31_BLOCKED_RUNTIME_DEPENDENCY",
+    "formal_reader_lineage_target_state": "BLOCKED_NATIVE_WEEKLY_PREFLIGHT__READER_NOT_GENERATED",
     "canonical_promotion_performed": false,
-    "site_publication_performed": false
-  }
+    "site_publication_performed": false,
+    "reader": "NOT_GENERATED__PREFLIGHT_BLOCKED",
+    "lineage": "PASS_BUILT_DRY_RUN_VALIDATED__1882_SOURCE_RECORDS__REPORT_WEEKLY_2026_W43",
+    "native_preflight": "FAIL__INPUT_POOL_CLASSIFICATION_4_CONDITIONAL_3_REVIEW_REQUIRED__NORMALIZED_ROWS_77_EXPECTED_19",
+    "p8g_precommit": "NOT_RUN__NATIVE_PREFLIGHT_BLOCKED",
+    "p8g_commit": "NOT_RUN__NATIVE_PREFLIGHT_BLOCKED"
+  },
+  "candidate_products_pending_gates": [
+    {
+      "product": "Daily 2026-10-31",
+      "status": "BLOCKED_PROMOTION_SYNC",
+      "reason": "missing required unsupported_core_claims=0 in candidate manifest"
+    },
+    {
+      "product": "Daily 2026-11-01",
+      "status": "NOT_RUN_STOPPED_AFTER_2026_10_31"
+    },
+    {
+      "product": "Daily 2026-11-02",
+      "status": "NOT_RUN_STOPPED_AFTER_2026_10_31"
+    },
+    {
+      "product": "Weekly 2026-W43",
+      "status": "BLOCKED_NATIVE_PREFLIGHT"
+    }
+  ],
+  "current_run_canonical_promotion_performed": false,
+  "current_run_authority_sha256": "d7f047887e42720a3c1cdb81b4162f1f82a33db6e955035f264d5f9ff67fb3e7",
+  "current_run_pointer_sha256": "7e8618d4e508eb1c74886d9049a5495e52ac04189668adb0a83ecb24cb8a5be6",
+  "stability_status": "NOT_ACCEPTED__TWO_CONSECUTIVE_NATURAL_PRODUCTION_CYCLES_WITHOUT_MANUAL_REPAIR_NOT_DEMONSTRATED",
+  "external_mirror_readback_status": "NOT_RUN__NO_AUTHORITY_PROMOTION"
 }
