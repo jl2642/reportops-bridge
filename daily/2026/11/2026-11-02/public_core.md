@@ -62,7 +62,7 @@ language: zh-CN
 <!-- MODULE:PRICE_AND_SPREAD_DELTA -->
 ## 4. 价格与价差增量
 
-11月2日00:11 UTC的路透行情显示，Brent期货报111.84美元/桶，较前值跌1.59美元或1.40%；WTI期货报102.56美元/桶，跌1.56美元或1.50%。这是当时的盘中期货报价，**不是11月2日收盘价**。[E10](https://www.reuters.com/business/energy/oil-slips-more-than-1-talks-continue-ending-iran-war-2026-11-01/) 简单相减的同期Brent-WTI报价差为9.28美元/桶，仅是两个报道报价的算术差，未核实合约月份、可交易跨期价差和实际贸易基差，不作可交易套利价差。LNG现货、LPG CP/CFR、船运费和保险的同窗口可比序列缺失；不拿原油期货代替LNG/LPG采购报价。
+11月2日00:11 UTC的路透行情显示，Brent期货报111.84美元/桶，较前值跌1.59美元或1.40%；WTI期货报102.56美元/桶，跌1.56美元或1.50%。[E12](https://www.reuters.com/business/energy/oil-slips-more-than-1-talks-continue-ending-iran-war-2026-11-01/) 这是当时的盘中期货报价，**不是11月2日收盘价**。[E10](https://www.reuters.com/business/energy/oil-slips-more-than-1-talks-continue-ending-iran-war-2026-11-01/) 简单相减的同期Brent-WTI报价差为9.28美元/桶，仅是两个报道报价的算术差，未核实合约月份、可交易跨期价差和实际贸易基差，不作可交易套利价差。LNG现货、LPG CP/CFR、船运费和保险的同窗口可比序列缺失；不拿原油期货代替LNG/LPG采购报价。
 
 <!-- MODULE:CHINA_CHAIN_DELTA -->
 ## 5. 中国天然气 / LNG / LPG产业链增量
@@ -100,7 +100,7 @@ language: zh-CN
 - [E03](https://investors.ventureglobal.com/news/news-details/2026/Venture-Global-Commences-Commercial-Operations-of-Phase-One-of-Plaquemines-LNG/default.aspx) Venture Global，11月1日公告；[E04](https://www.reuters.com/business/energy/venture-global-begins-supplying-plaquemines-phase-1-customers-under-long-term-2026-11-01/) [E11](https://www.reuters.com/business/energy/venture-global-begins-supplying-plaquemines-phase-1-customers-under-long-term-2026-11-01/) Reuters，11月1日LNG合同交付报道。
 - [E05](https://www.aa.com.tr/tr/enerjiterminali/lng-lpg/katar-lng-tankerinin-saldiriya-ugradigini-duyurdu/60642) Anadolu Agency，11月1日船东声明转述；[E06](https://www.reuters.com/world/middle-east/irans-irgc-navy-says-two-tankers-exploded-after-hitting-mines-hormuz-2026-11-01/) Reuters，11月1日伊朗海军声明。
 - [E07](https://www.reuters.com/commentary/reuters-open-interest/asias-crude-oil-imports-back-pre-war-levels-refined-fuels-lag-2026-11-02/) [E08](https://www.reuters.com/commentary/reuters-open-interest/asias-crude-oil-imports-back-pre-war-levels-refined-fuels-lag-2026-11-02/) Reuters，11月2日亚洲进口数据评论。
-- [E09](https://www.reuters.com/world/china/chinas-top-three-airlines-head-full-year-losses-fuel-costs-weigh-2026-11-02/) Reuters，11月2日中国航空业报道；[E10](https://www.reuters.com/business/energy/oil-slips-more-than-1-talks-continue-ending-iran-war-2026-11-01/) Reuters，11月1日23:13 UTC发布的11月2日开盘报价。
+- [E09](https://www.reuters.com/world/china/chinas-top-three-airlines-head-full-year-losses-fuel-costs-weigh-2026-11-02/) Reuters，11月2日中国航空业报道；[E10](https://www.reuters.com/business/energy/oil-slips-more-than-1-talks-continue-ending-iran-war-2026-11-01/) Reuters，11月1日23:13 UTC发布的11月2日开盘报价（Brent及WTI分别为E10、E12）。
 
 <!-- PROXY_MATRIX_CONDITIONAL -->
 ## Appendix. Proxy Matrix（Material DATA_GAP）
