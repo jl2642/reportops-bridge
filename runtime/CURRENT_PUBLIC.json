@@ -194,7 +194,7 @@
   "current_weekly": "2026-W43",
   "public_daily_2026_10_20_download_sha256": "e6451e584fea7e43109aae2553c06c5b7fcfdc7353d6e73f8e03e3e2ecb0b93c",
   "public_weekly_2026_w42_download_sha256": "c240fd90c92fc3f61e54a0fc888c821c369cc0bac67e69ae6169d93f22855132",
-  "github_readback_status": "PENDING_CURRENT_WRITE_READBACK",
+  "github_readback_status": "PASS_CURRENT_PUBLIC_DEPLOYMENT_STATE_LATEST_AND_STATIC_MANIFEST_V83_V110",
   "site_only_corrective_republish_required": false,
   "site_only_corrective_republish_receipt": {
     "status": "PASS_V106",
@@ -1616,5 +1616,6 @@
   "public_monthly_2026_08_download_sha256": "c8e0bda4fa87a8847d9f8df04723877f85d0f3738616a6845a361e28490d69a7",
   "public_monthly_2026_05_download_sha256": "bb7aa1fa8eabe654b57946bc0a77ca32d57f23bff81b784e5296e8db5dfea01b",
   "public_quarterly_2026_q3_download_sha256": "82fa55d98ecedbd272298003113a44f1294b9a4addb9e0f0ed000a57d3b3ebf2",
-  "public_quarterly_2026_q2_download_sha256": "dde4ab07709b7a898edc433287f6eef43dd943f256f36c5eb947ae8c57e4993c"
+  "public_quarterly_2026_q2_download_sha256": "dde4ab07709b7a898edc433287f6eef43dd943f256f36c5eb947ae8c57e4993c",
+  "github_write_status": "PASS"
 }
