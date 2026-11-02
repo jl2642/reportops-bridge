@@ -27,13 +27,13 @@
   "source_identity_gate_status": "PASS_12_OF_12__OPENED_EXACT_DOCUMENT_V1_2_RECEIPTS",
   "inline_citation_gate_status": "PASS_12_OF_12__NARRATIVE_CLICKABLE_LINKS",
   "exact_v4_machine_structure_status": "PASS",
-  "v4_public_depth_gate_status": "PASS__3052_CJK_4_SIGNAL_CARDS",
+  "v4_public_depth_gate_status": "PASS__3056_CJK_4_SIGNAL_CARDS",
   "privacy_status": "PASS_PUBLIC_SAFE",
   "window_status": "PASS_10_EXACT_TIMESTAMPS__2_OFFICIAL_DATE_ONLY_CROSS_VERIFIED_IN_WINDOW",
   "evidence_status": "PASS_12_OF_12__PRODUCER_RECEIPT_AND_SUPPORT_CHECK",
   "strict_v2_ledger_status": "PASS_12_OF_12__43_COLUMN_CLAIM_URL_BINDINGS__WORK_NATIVE_PENDING",
   "data_gap_boundary_status": "PASS__PRICE_FREIGHT_INSURANCE_AND_EVENT_ATTRIBUTION_GAPS_DISCLOSED",
-  "producer_self_audit_status": "PENDING_FINAL_4_FILE_READBACK",
+  "producer_self_audit_status": "PASS__4_OF_4_DURABLE_READBACK__SOURCE_IDENTITY_12_OF_12__INLINE_12_OF_12__V4_EXACT_COUNTS__43_COLUMN_LEDGER",
   "consumer_status": "PENDING_WORK_RECONCILIATION",
   "canonical_mutation_performed": false,
   "site_publication_performed": false,
@@ -49,5 +49,5 @@
     "NO_COMPLETE_SAME_WINDOW_JKM_TTF_SETTLEMENT_LPG_CP_CFR_LNG_LPG_FREIGHT_INSURANCE_SERIES"
   ],
   "next_work_action": "Work 12:30: consume pending Daily 2026-10-30, 2026-10-31 and 2026-11-01 before Daily 2026-11-02; independently validate native Evidence/Reader/Lineage/Canonical gates; no Producer authority or site mutation.",
-  "producer_acceptance_completed_at": "2026-11-02T02:17:07.681Z"
+  "producer_acceptance_completed_at": "2026-11-02T02:17:31.319Z"
 }
