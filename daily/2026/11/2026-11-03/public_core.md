@@ -46,7 +46,7 @@ language: zh-CN
 
 ### 信号卡5｜Qeshm岛打击抬升风险溢价，外交窗口仍在
 - 事实：Reuters和AP均援引美国官员称，美方对霍尔木兹附近伊朗目标实施有限、防御性打击；Reuters称Qeshm岛遭打击，五角大楼将询问转交CENTCOM，后者未回应。RFE/RL称伊朗官员结束卡塔尔斡旋会谈，谈判草案仍在流转。[E07](https://www.reuters.com/world/middle-east/us-struck-irans-qeshm-island-wall-street-journal-reports-2026-11-03/) [E08](https://apnews.com/article/iran-us-trump-netanyahu-israel-war-b4519ef86bafe2672e0855d7a48ce309) [E11](https://www.rferl.org/a/iran-live-blog-trump-middle-east/33803414.html)
-- 价格传导：Reuters报道11月3日01:04 GMT Brent报105.25美元/桶、WTI报96.93美元/桶，均上涨约0.5%；Brent前一交易日结算价104.77美元/桶，曾下跌7.63%。早盘反弹更像风险溢价回补，不足以证明趋势反转。[E09](https://www.reuters.com/markets/commodities/oil-rises-after-report-us-strike-irans-qeshm-island-2026-11-03/)
+- 价格传导：Reuters报道11月3日01:04 GMT Brent报105.25美元/桶、WTI报96.93美元/桶，均上涨约0.5%；Brent前一交易日结算价104.77美元/桶，曾下跌7.63%。早盘反弹更像风险溢价回补，不足以证明趋势反转。[E09](https://www.reuters.com/markets/commodities/oil-rises-after-report-us-strike-irans-qeshm-island-2026-11-03/) [E10](https://www.reuters.com/markets/commodities/oil-rises-after-report-us-strike-irans-qeshm-island-2026-11-03/)
 - 边界与验证：打击细节来自匿名美国官员，CENTCOM未公开回应；AP与Reuters为不同编辑部，但可能引用同一通报渠道。外交草案未公开，不能视为协议达成。核验官方说明、AIS、战争险和谈判安排；若攻击扩散至商业船舶或能源设施，则上调中断风险。
 
 <!-- MODULE:MARKET_AND_EVENT_DELTA -->
@@ -59,7 +59,7 @@ language: zh-CN
 
 中国进口现货LNG的CLD周度评估为203.891元/吉焦（32.250美元/百万英热），周环比上涨6.45%。该指标是进口现货到岸评估，不能与国内液厂出厂价直接相减并当作接收站或贸易商毛利。[E05](https://finance.sina.com.cn/money/future/roll/2026-11-02/doc-inixiynu7154793.shtml)
 
-11月3日01:04 GMT Brent期货报105.25美元/桶、WTI报96.93美元/桶，均上涨约0.5%；Brent前一交易日结算价为104.77美元/桶，曾下跌7.63%。这是亚洲早盘盘中报价，不是11月3日结算价，合约月份未明确。[E09](https://www.reuters.com/markets/commodities/oil-rises-after-report-us-strike-irans-qeshm-island-2026-11-03/)
+11月3日01:04 GMT Brent期货报105.25美元/桶、WTI报96.93美元/桶，均上涨约0.5%；Brent前一交易日结算价为104.77美元/桶，曾下跌7.63%。这是亚洲早盘盘中报价，不是11月3日结算价，合约月份未明确。[E09](https://www.reuters.com/markets/commodities/oil-rises-after-report-us-strike-irans-qeshm-island-2026-11-03/) [E10](https://www.reuters.com/markets/commodities/oil-rises-after-report-us-strike-irans-qeshm-island-2026-11-03/)
 
 本窗口没有可比的11月3日JKM、TTF结算序列，也没有可靠的LPG CP、华东CFR或FEI同口径报价；船运费和战争险也缺少同航线、同船型数据。不能用10月月均值、原油价格或单笔区域成交替代当日LNG/LPG采购价。
 
@@ -120,6 +120,7 @@ LNG出口商和贸易商需要关注目的地结构。美国10月出口增长主
 - [E07](https://www.reuters.com/world/middle-east/us-struck-irans-qeshm-island-wall-street-journal-reports-2026-11-03/) Reuters，美国官员确认Qeshm岛有限打击，2026-11-03。
 - [E08](https://apnews.com/article/iran-us-trump-netanyahu-israel-war-b4519ef86bafe2672e0855d7a48ce309) Associated Press，美国官员确认霍尔木兹附近防御性打击，2026-11-02。
 - [E09](https://www.reuters.com/markets/commodities/oil-rises-after-report-us-strike-irans-qeshm-island-2026-11-03/) Reuters，Qeshm岛消息后油价早盘回升，2026-11-03。
+- [E10](https://www.reuters.com/markets/commodities/oil-rises-after-report-us-strike-irans-qeshm-island-2026-11-03/) Reuters，同篇报道中WTI早盘报价，2026-11-03。
 - [E11](https://www.rferl.org/a/iran-live-blog-trump-middle-east/33803414.html) Radio Free Europe/Radio Liberty，美伊谈判动态，2026-11-02。
 
 <!-- PROXY_MATRIX_CONDITIONAL -->
