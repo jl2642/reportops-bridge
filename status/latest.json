@@ -58,12 +58,13 @@
   "state_consistency_pointer_sha256": "21ee5cf54d641a6ce1af4f8ca8cee55c93c22c2f22fdb34806906ec79600a608",
   "failure_stage": "HISTORICAL_REMOTE_DOWNLOAD_FILE_MATERIALIZATION",
   "failure_reason": "Five browser downloads returned paths but corresponding nonempty files did not materialize; remote SHA remains unverified. chrome://downloads diagnostic access rejected by browser security policy.",
-  "next_action": "Finish remote SHA readback for five listed historical download ZIPs; W44 and October Monthly production remains in other Chat session. No Daily reconsumption.",
-  "updated_at": "2026-11-02T12:28:06.972Z",
+  "next_action": "12:30 Work: include Daily 2026-11-03 in oldest-first consumer preflight if the real Work capability gate passes; do not re-research or rewrite the accepted candidate. Continue W44 and 2026-10 Monthly as separate products; historical five remote ZIP SHA checks remain open.",
+  "updated_at": "2026-11-03T03:34:12Z",
   "queue_remaining": [
+    "Daily 2026-11-03",
     "Remote ZIP SHA verification: 5 historical downloads"
   ],
-  "pending_product": null,
+  "pending_product": "Daily 2026-11-03",
   "manual_intervention_required": false,
   "authority_package_sha256": "ae8dfdd68da8e6742e28160e7457a9f6d63d55d177bdb84bb11da52da3373bab",
   "queue_initial": [
@@ -96,7 +97,9 @@
     "Weekly 2026-W43"
   ],
   "products_blocked_local": [],
-  "eligible_unpublished_products": [],
+  "eligible_unpublished_products": [
+    "Daily 2026-11-03"
+  ],
   "preflight_blocker_matrix": [
     {
       "product": "Daily 2026-10-31",
@@ -538,7 +541,7 @@
     "root_cause": "UNKNOWN__SCHEDULED_RUN_HISTORY_UNAVAILABLE"
   },
   "current_annual_public": "NO_FORMAL_2026_PRODUCT",
-  "last_updated": "2026-11-02T12:28:06.972Z",
+  "last_updated": "2026-11-03T03:34:12Z",
   "final_closure_status": "W43_AND_SITE_DEPLOYMENT_CLOSED__FIVE_HISTORICAL_REMOTE_DOWNLOAD_SHA_PENDING",
   "status": "FORMAL_W43_AND_ORIGINAL_SITE_V110_PUBLISHED__REMOTE_DOWNLOAD_SHA_181_OF_186_VERIFIED",
   "public_site_publication_receipt_status": "SUCCEEDED_V110",
@@ -611,7 +614,9 @@
     "site_version": 106
   },
   "producer_status": "PUBLIC_CORE_ACCEPTED",
-  "queue_for_12_30_work": [],
+  "queue_for_12_30_work": [
+    "Daily 2026-11-03"
+  ],
   "producer_candidate_readback_status": "PASS_5_OF_5__2026_10_24__AFTER_V4_METRIC_AND_MATERIAL_INLINE_CITATION_QA",
   "measurement_parity_status": "PASS_AUTHORITY_CONSUMER_ACTUALS",
   "last_work_reportops_status": "FORMAL_W43_AND_ORIGINAL_SITE_V110_PUBLISHED__REMOTE_DOWNLOAD_SHA_181_OF_186_VERIFIED",
@@ -2142,5 +2147,18 @@
   "public_monthly_2026_08_download_sha256": "c8e0bda4fa87a8847d9f8df04723877f85d0f3738616a6845a361e28490d69a7",
   "public_monthly_2026_05_download_sha256": "bb7aa1fa8eabe654b57946bc0a77ca32d57f23bff81b784e5296e8db5dfea01b",
   "public_quarterly_2026_q3_download_sha256": "82fa55d98ecedbd272298003113a44f1294b9a4addb9e0f0ed000a57d3b3ebf2",
-  "public_quarterly_2026_q2_download_sha256": "dde4ab07709b7a898edc433287f6eef43dd943f256f36c5eb947ae8c57e4993c"
+  "public_quarterly_2026_q2_download_sha256": "dde4ab07709b7a898edc433287f6eef43dd943f256f36c5eb947ae8c57e4993c",
+  "recovery_provenance_2026_11_03": {
+    "mode": "BOUNDED_INTERACTIVE_CONTINUITY_RECOVERY",
+    "original_scheduled_run_observed": true,
+    "original_scheduled_run_status": "FAILED",
+    "original_scheduled_run_started_at": "2026-11-03T10:11:21+08:00",
+    "original_durable_output_found": false,
+    "fixed_window": "[2026-11-02 10:00, 2026-11-03 10:00) Asia/Shanghai",
+    "research_reconstructed": true,
+    "candidate_status": "PUBLIC_CORE_ACCEPTED_PENDING_WORK",
+    "candidate_files_readback": "PASS_4_OF_4",
+    "canonical_mutation_performed": false,
+    "site_mutation_performed": false
+  }
 }
