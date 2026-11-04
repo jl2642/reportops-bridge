@@ -2,5 +2,17 @@
   "target_date": "2026-11-04",
   "scheduled_for": "10:15 Asia/Shanghai",
   "run_started_at": "2026-11-04T10:10:11+08:00",
-  "status": "RUN_STARTED_BEFORE_PREFLIGHT"
+  "status": "FAILED",
+  "products_repaired_or_produced": [],
+  "producer_recovery_queue_remaining": [
+    "2026-11-04"
+  ],
+  "queue_for_12_30_work": [
+    "2026-11-03 (existing accepted candidate; Work verification pending)"
+  ],
+  "post_run_self_audit_status": "NOT_RUN_NO_NEW_CANDIDATE",
+  "failure_stage": "SOURCE_ACQUISITION_WINDOW_AND_IDENTITY_VERIFICATION",
+  "failure_reason": "Fresh search identified relevant 2026-11-03 LNG and oil reporting, but sufficient source-level precise publication times and independent complete acquisition receipts could not be verified for the fixed 2026-11-03T10:00+08:00 to 2026-11-04T10:00+08:00 window. No candidate or ledger was written; no policy fields/enums were invented.",
+  "canonical_mutation_performed": false,
+  "site_mutation_performed": false
 }
