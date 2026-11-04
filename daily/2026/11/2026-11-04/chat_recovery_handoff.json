@@ -7,7 +7,7 @@
   "scheduled_1015_heartbeat_status": "FAILED_UNCHANGED",
   "source": "BOUNDED_INTERACTIVE_RECOVERY",
   "library_candidate_path": "/能源周期报告/40_RECOVERY/RECOVERED_GAP_PACKS/ReportOps_Daily_20261104_CHAT_RECOVERY_CANDIDATE_ONLY.zip",
-  "library_candidate_zip_sha256": "b8fa1674788010e855582a373df81a1326a9a6f215d36b91d69be6c672926c41",
+  "library_candidate_zip_sha256": "2d68a0e02090af2080db7d39147bfb78d26fc4c9fa52b683fafb354b81c30126",
   "baseline_authority_sha256": "5a8e0dfe7336b2d0a32b23ba613c64bc35700fb4b47aaac0501fafdaab8cfcf8",
   "source_count": 11,
   "claim_count": 8,
@@ -22,5 +22,10 @@
     "E08/E09 are Nov03 dated index observations, exact publication times not confirmed",
     "No Work Reader/Lineage/P8G/atomic validation or formal Current change"
   ],
-  "work_action": "Read Library exact candidate ZIP and verify SHA; perform fresh native consumer and formal commit only if all formal gates pass, independently from 2026-10 Monthly and Site pending."
+  "work_action": "Read Library exact candidate ZIP and verify SHA; perform fresh native consumer and formal commit only if all formal gates pass, independently from 2026-10 Monthly and Site pending.",
+  "source_time_evidence": {
+    "precise_publication_timestamps": 5,
+    "date_only": 6,
+    "disclosure": "Date-only source or index dates not asserted as exact intraday publication"
+  }
 }
