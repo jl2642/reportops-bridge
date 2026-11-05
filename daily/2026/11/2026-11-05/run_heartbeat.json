@@ -2,5 +2,17 @@
   "target_date": "2026-11-05",
   "scheduled_for": "10:15 Asia/Shanghai",
   "run_started_at": "2026-11-05T10:18:45+08:00",
-  "status": "RUN_STARTED_BEFORE_PREFLIGHT"
+  "status": "FAILED",
+  "products_repaired_or_produced": [],
+  "producer_recovery_queue_remaining": [
+    "2026-11-04",
+    "2026-11-05"
+  ],
+  "queue_for_12_30_work": [
+    "2026-11-03 (existing candidate, pending Work)"
+  ],
+  "post_run_self_audit_status": "NOT_RUN_NO_COMPLETE_CANDIDATE",
+  "failure_stage": "DAILY_2026_11_04_SOURCE_ACQUISITION_AND_WINDOW_VERIFICATION",
+  "failure_reason": "Oldest-first 2026-11-04 lacks complete independently verified in-window source identity/acquisition receipts and strict-v2 claim ledger; no candidate accepted. 2026-11-05 not started due to continuity. No product files written.",
+  "current_daily_public_observed": "2026-11-02"
 }
