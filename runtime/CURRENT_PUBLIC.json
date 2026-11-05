@@ -1,9 +1,9 @@
 {
   "schema_version": "REPORTOPS_PUBLIC_RUNTIME_CURRENT_V1",
-  "status": "FORMAL_W43_AND_ORIGINAL_SITE_V110_PUBLISHED__REMOTE_DOWNLOAD_SHA_181_OF_186_VERIFIED",
-  "current_daily_public": "2026-11-02",
-  "current_weekly_public": "2026-W43",
-  "current_monthly_public": "2026-09",
+  "status": "THREE_TARGET_PRODUCTS_FORMALLY_PUBLISHED_SITE_V111__HISTORICAL_FIVE_SHA_CLOSED__AUTOMATION_ENVIRONMENT_PENDING",
+  "current_daily_public": "2026-11-03",
+  "current_weekly_public": "2026-W44",
+  "current_monthly_public": "2026-10",
   "current_quarterly_public": "2026-Q3",
   "weekly_status": "FORMAL_CANONICAL_PUBLISHED",
   "daily_role": "SIGNAL_RADAR",
@@ -11,24 +11,22 @@
   "scheduled_work_consumer_time_local": "12:30",
   "live_site_mode": "SINGLE_SITE_V4_PUBLIC",
   "private_site_status": "RETIRED_FROM_LIVE_OPERATION",
-  "public_site_version": 110,
+  "public_site_version": 111,
   "public_site_url": "https://energy-cycle-report-share.ljjx2020.chatgpt.site",
   "public_remote_readback": {
-    "site_version": 110,
-    "checked_at": "2026-11-02T12:28:06.972Z",
-    "cache_busted": true,
-    "cache_bust_parameter": "verify=V83-v110-20261102",
-    "current_daily": "2026-11-02",
-    "current_weekly": "2026-W43",
-    "daily_archive_latest": "2026-11-02",
-    "weekly_archive_latest": "2026-W43",
-    "download_center_daily_latest": "2026-11-02",
-    "download_center_weekly_latest": "2026-W43",
-    "daily_body": "PASS_2026_10_30_10_31_11_01_11_02",
-    "weekly_body": "PASS_W42_AND_W43",
-    "new_remote_download_zip_sha": "181_VERIFIED_5_HISTORICAL_UNVERIFIED"
+    "site_version": 111,
+    "checked_at": "2026-11-05",
+    "current_daily": "2026-11-03",
+    "current_weekly": "2026-W44",
+    "current_monthly": "2026-10",
+    "home": "PASS",
+    "bodies": "PASS_DAILY_2026_11_03_WEEKLY_W44_MONTHLY_2026_10",
+    "archives": "PASS_DAILY_WEEKLY_MONTHLY",
+    "download_center": "PASS",
+    "new_remote_zip_sha": "3_OF_3_PASS",
+    "historical_five_zip_sha": "5_OF_5_PASS_CLOSED"
   },
-  "authority_package_sha256": "ae8dfdd68da8e6742e28160e7457a9f6d63d55d177bdb84bb11da52da3373bab",
+  "authority_package_sha256": "d89b2136ef198699d6f9af079187ca3ed32fc3ebc13314163b531aec701defdb",
   "github_role": "PUBLIC_SAFE_BRIDGE",
   "canonical_authority": "LIBRARY",
   "daily_runtime_contract_current": "V1_5_FORMAL_AUTHORITY",
@@ -41,7 +39,7 @@
   "last_updated": "2026-11-02T12:28:06.972Z",
   "deployment_state_ref": "runtime/DEPLOYMENT_STATE.json",
   "metadata_freshness": "PASS_V83_DAILY_2026_11_02_WEEKLY_W43_POINTER_PROVENANCE",
-  "state_consistency_pointer_sha256": "21ee5cf54d641a6ce1af4f8ca8cee55c93c22c2f22fdb34806906ec79600a608",
+  "state_consistency_pointer_sha256": "762374b2de1dcfcdc8794a38cd4cde185b9e04370b949aa5f8e71ce84d8402f6",
   "stale_views": [],
   "queue_remaining": [
     "Remote ZIP SHA verification: 5 historical downloads"
@@ -76,8 +74,8 @@
   "updated_at": "2026-11-02T12:28:06.972Z",
   "public_weekly_2026_w40_download_sha256": "7d5d10199df404c830519bf51f4639196e4d3c8256416b4362a65d640fd5c49e",
   "public_daily_2026_10_04_download_sha256": "e34a69cb519d7db802c80f20e56387358953f22667d170bd7136982150568f78",
-  "failure_stage": "HISTORICAL_REMOTE_DOWNLOAD_FILE_MATERIALIZATION",
-  "failure_reason": "Five browser downloads returned paths but corresponding nonempty files did not materialize; remote SHA remains unverified. chrome://downloads diagnostic access rejected by browser security policy.",
+  "failure_stage": "SCHEDULED_WORK_ENVIRONMENT_CONFIRMATION",
+  "failure_reason": "12:30 task remains disabled; environment_selection=inherited, environments=null; no supported environment-binding interface is exposed, so scheduled execution capability is unconfirmed.",
   "manual_intervention_required": false,
   "previous_work_failure": {
     "status": "CURRENT_UNCHANGED__PRODUCT_LOCAL_BLOCKER",
@@ -103,7 +101,7 @@
   "public_daily_2026_10_10_download_sha256": "0cc591e11f470276e934d816fc62675bca7ce5388de092816557da4049787f9e",
   "current_annual_public": "NO_FORMAL_2026_PRODUCT",
   "canonical_promotion_performed": true,
-  "public_site_status": "DEPLOYED_V110_ACTUAL_CONTENT_READBACK_PASS__FIVE_HISTORICAL_DOWNLOAD_SHA_PENDING",
+  "public_site_status": "DEPLOYED_V111_REAL_REMOTE_CONTENT_AND_NEW_ZIP_SHA_PASS",
   "real_remote_readback_status": "PASS_CACHE_BUSTED_HOME_ARCHIVES_DOWNLOAD_CENTER_W42_W43_DAILY_10_30_THROUGH_11_02",
   "download_sha_status": "PASS_181_OF_186_REMOTE_ZIP_SHA__5_HISTORICAL_UNVERIFIED",
   "reportops_status": "FORMAL_W43_AND_ORIGINAL_SITE_V110_PUBLISHED__REMOTE_DOWNLOAD_SHA_181_OF_186_VERIFIED",
@@ -117,8 +115,8 @@
   "scheduled_date": "2026-11-02",
   "target_date": "2026-11-02",
   "current_day_status": "FORMAL_W43_AND_ORIGINAL_SITE_V110_PUBLISHED__REMOTE_DOWNLOAD_SHA_181_OF_186_VERIFIED",
-  "formal_status": "FORMAL_CANONICAL_PUBLISHED_DAILY_2026_11_02_WEEKLY_2026_W43",
-  "download_integrity": "PASS_186_LOCAL_AUDITED_ZIPS__181_REMOTE_ZIPS__5_REMOTE_UNVERIFIED",
+  "formal_status": "FORMAL_CANONICAL_PUBLISHED_DAILY_2026_11_03_WEEKLY_W44_MONTHLY_2026_10",
+  "download_integrity": "PASS_3_NEW_REMOTE_ZIP_SHA_AND_UNZIP__5_HISTORICAL_SHA_CLOSED__PRIOR_181_INHERITED_NOT_RETESTED",
   "public_daily_2026_10_14_download_sha256": "7198e935f91376c06aad940c241be3066617a338a4e6977e3edacd42295927fd",
   "products_preflighted": [
     "Daily 2026-10-23",
@@ -133,58 +131,39 @@
     "Weekly 2026-W43"
   ],
   "products_promoted": [
-    "Daily 2026-10-23",
-    "Daily 2026-10-24",
-    "Daily 2026-10-25",
-    "Daily 2026-10-26",
-    "Daily 2026-10-27",
-    "Daily 2026-10-28",
-    "Daily 2026-10-29",
-    "Daily 2026-10-30",
-    "Daily 2026-10-31",
-    "Daily 2026-11-01",
-    "Daily 2026-11-02",
-    "Weekly 2026-W43"
+    "Daily 2026-11-03",
+    "Weekly 2026-W44",
+    "Monthly 2026-10"
   ],
   "products_blocked_local": [],
   "products_deferred_dependency": [],
   "preflight_blocker_matrix": [
     {
-      "product": "Daily 2026-10-31",
-      "formal_state": "PROMOTED",
-      "native_gates": "PASS",
-      "p8g_precommit": "PASS_10_OF_10",
-      "p8g_commit": "PASS_10_OF_10",
-      "lineage": "COMMITTED_AND_FINAL_REGISTRY_VALIDATED"
+      "product": "Daily 2026-11-03",
+      "Reader": "PASS",
+      "Lineage": "COMMITTED_AND_VALIDATED",
+      "P8G": "PASS_10_OF_10",
+      "CommitVerification": "PASS_10_OF_10",
+      "formal": "PROMOTED_AND_LIBRARY_BYTES_READ_BACK"
     },
     {
-      "product": "Daily 2026-11-01",
-      "formal_state": "PROMOTED",
-      "native_gates": "PASS",
-      "p8g_precommit": "PASS_10_OF_10",
-      "p8g_commit": "PASS_10_OF_10",
-      "lineage": "COMMITTED_AND_FINAL_REGISTRY_VALIDATED"
+      "product": "Weekly 2026-W44",
+      "Reader": "PASS_EXACT_SHA_UNCHANGED",
+      "Lineage": "COMMITTED_AND_VALIDATED",
+      "P8G": "PASS_10_OF_10",
+      "CommitVerification": "PASS_10_OF_10",
+      "formal": "PROMOTED_AND_LIBRARY_BYTES_READ_BACK"
     },
     {
-      "product": "Daily 2026-11-02",
-      "formal_state": "PROMOTED",
-      "native_gates": "PASS",
-      "p8g_precommit": "PASS_10_OF_10",
-      "p8g_commit": "PASS_10_OF_10",
-      "lineage": "COMMITTED_AND_FINAL_REGISTRY_VALIDATED"
-    },
-    {
-      "product": "Weekly 2026-W43",
-      "native_preflight": "PASS_WITH_NONBLOCKING_WARNINGS",
-      "v4_generation_chain": "PASS_74_LINKS_18_SOURCES",
-      "reader_report_gate": "PASS_ENHANCED_WEEKLY_READER",
-      "p8g_precommit": "PASS_10_OF_10",
-      "p8g_commit": "PASS_10_OF_10",
-      "lineage": "COMMITTED_AND_VALIDATED",
-      "formal_state": "PROMOTED_V83"
+      "product": "Monthly 2026-10",
+      "Reader": "PASS_EXACT_SHA_UNCHANGED_A4_15_OF_15",
+      "Lineage": "COMMITTED_AND_VALIDATED",
+      "P8G": "PASS_10_OF_10",
+      "CommitVerification": "PASS_10_OF_10",
+      "formal": "PROMOTED_AND_LIBRARY_BYTES_READ_BACK"
     }
   ],
-  "last_work_reconciled_at": "2026-11-02T12:28:06.972Z",
+  "last_work_reconciled_at": "2026-11-05",
   "public_daily_2026_10_15_download_sha256": "85bf61157397670325c5c7cfb7853e1436f69c99efacad464ceb55678954b00b",
   "current_derived_views_status": "PASS_13_OF_13_POINTER_PROVENANCE",
   "producer_automation_status": "UNATTENDED_RELIABILITY_NOT_ACCEPTED__2026_10_23_REQUIRED_BOUNDED_INTERACTIVE_RECOVERY__2026_10_24_SCHEDULED_SUCCESS",
@@ -1617,5 +1596,13 @@
   "public_monthly_2026_05_download_sha256": "bb7aa1fa8eabe654b57946bc0a77ca32d57f23bff81b784e5296e8db5dfea01b",
   "public_quarterly_2026_q3_download_sha256": "82fa55d98ecedbd272298003113a44f1294b9a4addb9e0f0ed000a57d3b3ebf2",
   "public_quarterly_2026_q2_download_sha256": "dde4ab07709b7a898edc433287f6eef43dd943f256f36c5eb947ae8c57e4993c",
-  "github_write_status": "PASS"
+  "github_write_status": "PASS",
+  "derived_from_current_pointer_sha256": "762374b2de1dcfcdc8794a38cd4cde185b9e04370b949aa5f8e71ce84d8402f6",
+  "historical_download_sha_remaining": 0,
+  "automation_1230_status": "PAUSED__SCHEDULED_WORK_ENVIRONMENT_UNCONFIRMED",
+  "target_release_debt_remaining": 0,
+  "newer_daily_candidates_pending": [
+    "2026-11-04",
+    "2026-11-05"
+  ]
 }
