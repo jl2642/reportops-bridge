@@ -17,7 +17,7 @@
   "private_site_status": "RETIRED",
   "public_site_version": 111,
   "public_site_url": "https://energy-cycle-report-share.ljjx2020.chatgpt.site",
-  "download_integrity": "PASS_3_NEW_REMOTE_ZIP_SHA_AND_UNZIP__5_HISTORICAL_SHA_CLOSED__PRIOR_181_INHERITED_NOT_RETESTED",
+  "download_integrity": "PASS_3_NEW_REMOTE_ZIP_SHA_AND_UNZIP__5_HISTORICAL_SHA_CLOSED__PRIOR_181_NOT_RETESTED",
   "v4_runtime_assets_in_authority": "PASS",
   "daily_runtime_contract_active": "V1_5_FORMAL_AUTHORITY",
   "bridge_protocol_active": "V1_5_FORMAL_AUTHORITY",
@@ -29,12 +29,12 @@
   "authority_package_sha256": "d89b2136ef198699d6f9af079187ca3ed32fc3ebc13314163b531aec701defdb",
   "canonical_authority": "LIBRARY",
   "current_public_ref": "runtime/CURRENT_PUBLIC.json",
-  "final_closure_status": "W43_AND_SITE_DEPLOYMENT_CLOSED__FIVE_HISTORICAL_REMOTE_DOWNLOAD_SHA_PENDING",
+  "final_closure_status": "THREE_TARGETS_AND_SITE_V111_AND_HISTORICAL_FIVE_SHA_CLOSED__AUTOMATION_ENVIRONMENT_UNCONFIRMED__NEWER_DAILY_CANDIDATES_PENDING",
   "pending_product": null,
   "updated_at": "2026-11-02T12:28:06.972Z",
-  "metadata_freshness": "PASS_V83_DAILY_2026_11_02_WEEKLY_W43_POINTER_PROVENANCE",
+  "metadata_freshness": "PASS_EXTERNAL_POINTER_762374B2__13_DERIVED_VIEWS_PLUS_ZIP_POINTER_RUNTIME",
   "state_consistency_pointer_sha256": "762374b2de1dcfcdc8794a38cd4cde185b9e04370b949aa5f8e71ce84d8402f6",
-  "real_remote_readback_status": "PASS_CACHE_BUSTED_HOME_ARCHIVES_DOWNLOAD_CENTER_W42_W43_DAILY_10_30_THROUGH_11_02",
+  "real_remote_readback_status": "PASS_HOME_THREE_BODIES_THREE_ARCHIVES_DOWNLOAD_CENTER_AND_EIGHT_ZIPS",
   "site_only_corrective_republish_required": false,
   "private_site_dependency_removed": true,
   "queue_remaining": [
@@ -47,10 +47,10 @@
   "stable_operation_accepted": false,
   "higher_cycle_dependency_state": "W43_FORMALLY_PROMOTED__W44_AND_OCTOBER_MONTHLY_OTHER_CHAT_SESSION",
   "authority_sha_runtime_reconciliation": {
-    "before": "abdc72f45dd00f167930ae4cc7b182d6b65a789f8661e35f56eae92c3614abd7",
-    "post_rebuild": "ae8dfdd68da8e6742e28160e7457a9f6d63d55d177bdb84bb11da52da3373bab",
-    "library_sidecar": "ae8dfdd68da8e6742e28160e7457a9f6d63d55d177bdb84bb11da52da3373bab",
-    "status": "PASS_LIBRARY_READBACK_V83"
+    "before": "5bb2001188fdcf1ed7d7b112e39991994a14b62dbc30fe68d4acaacbf8fa3033",
+    "post_rebuild": "d89b2136ef198699d6f9af079187ca3ed32fc3ebc13314163b531aec701defdb",
+    "library_sidecar": "d89b2136ef198699d6f9af079187ca3ed32fc3ebc13314163b531aec701defdb",
+    "status": "POST_SITE_DERIVED_SYNC_COMMITTED__FINAL_LIBRARY_BYTE_READBACK_TRACKED_IN_RECEIPT"
   },
   "current_daily_canonical": "2026-11-02",
   "current_package_site_publication_performed": true,
@@ -68,7 +68,7 @@
     "historical_five_zip_sha": "5_OF_5_PASS_CLOSED"
   },
   "library_sidecar_sha256": "ae8dfdd68da8e6742e28160e7457a9f6d63d55d177bdb84bb11da52da3373bab",
-  "runtime_sync_status": "PASS_V83_AUTHORITY_POINTER_MIRRORS_SITE_V110__REMOTE_DOWNLOAD_REMAINDER_EXPLICIT",
+  "runtime_sync_status": "PASS_AUTHORITY_POINTER_13_DERIVED_VIEWS_MIRRORS_SITE_V111__HISTORICAL_FIVE_SHA_CLOSED",
   "manual_intervention_required": false,
   "failure_stage": "SCHEDULED_WORK_ENVIRONMENT_CONFIRMATION",
   "failure_reason": "12:30 task remains disabled; environment_selection=inherited, environments=null; no supported environment-binding interface is exposed, so scheduled execution capability is unconfirmed.",
@@ -97,7 +97,7 @@
   "eligible_unpublished_products": [],
   "canonical_promotion_performed": true,
   "public_site_status": "DEPLOYED_V111_REAL_REMOTE_CONTENT_AND_NEW_ZIP_SHA_PASS",
-  "download_sha_status": "PASS_181_OF_186_REMOTE_ZIP_SHA__5_HISTORICAL_UNVERIFIED",
+  "download_sha_status": "PASS_3_NEW_AND_5_HISTORICAL_REAL_REMOTE_ZIP_SHA__PRIOR_181_INHERITED",
   "last_updated": "2026-11-02T12:28:06.972Z",
   "reportops_status": "FORMAL_W43_AND_ORIGINAL_SITE_V110_PUBLISHED__REMOTE_DOWNLOAD_SHA_181_OF_186_VERIFIED",
   "public_site_publication_receipt_status": "SUCCEEDED_V110",
@@ -1405,13 +1405,13 @@
   "pending_work_runtime_formalization": false,
   "site_deployment_receipt": {
     "status": "succeeded",
-    "version": 110,
-    "version_id": "appgprj_6a5893ab380c8191b03a261860f67102~appgver_b9c981d108408191b221b7cd5797a539",
-    "deployment_id": "appgdep_6ae87db971f881919aa4315d17d5b09b",
-    "source_commit": "73f1b38dc6ef283cdfdb19841d716ad1d2e3a708",
-    "archive_sha256": "c152c9db0d46da6b143b7dc48cba7dc46b77ab719e0bc28c69d3f7cfe5451ba3"
+    "version": 111,
+    "version_id": "appgprj_6a5893ab380c8191b03a261860f67102~appgver_227c038c387081918f0d6ee507ab4d55",
+    "deployment_id": "appgdep_6aec12ee4af4819185a31cac332a623a",
+    "source_commit": "930fa0ab4950ee098caa0f503749ffd649facc31",
+    "archive_sha256": "48bc8c581ae7f05ef3669fbc5861fdb0d4e395c8d8145ed851eb102e01e5ec53"
   },
-  "authority_sha_runtime_reconciliation_status": "PASS_V83_READBACK",
+  "authority_sha_runtime_reconciliation_status": "PASS_CURRENT_COMMITTED_AUTHORITY_AND_SIDECAR",
   "remaining_product_debt": {
     "daily": [],
     "weekly": [
@@ -1424,7 +1424,9 @@
     "scope": "OTHER_CHAT_SESSION_PRODUCTION_NOT_REPEATED_IN_THIS_RUN"
   },
   "current_run_promoted_products": [
-    "Weekly 2026-W43"
+    "Daily 2026-11-03",
+    "Weekly 2026-W44",
+    "Monthly 2026-10"
   ],
   "daily_reconsumed_this_run": false,
   "queue_for_12_30_work": [],
@@ -1614,5 +1616,34 @@
   "newer_daily_candidates_pending": [
     "2026-11-04",
     "2026-11-05"
-  ]
+  ],
+  "historical_snapshots": {
+    "pre_20261105_active_publication_aliases": {
+      "final_closure_status": "W43_AND_SITE_DEPLOYMENT_CLOSED__FIVE_HISTORICAL_REMOTE_DOWNLOAD_SHA_PENDING",
+      "metadata_freshness": "PASS_V83_DAILY_2026_11_02_WEEKLY_W43_POINTER_PROVENANCE",
+      "authority_sha_runtime_reconciliation": {
+        "before": "abdc72f45dd00f167930ae4cc7b182d6b65a789f8661e35f56eae92c3614abd7",
+        "post_rebuild": "ae8dfdd68da8e6742e28160e7457a9f6d63d55d177bdb84bb11da52da3373bab",
+        "library_sidecar": "ae8dfdd68da8e6742e28160e7457a9f6d63d55d177bdb84bb11da52da3373bab",
+        "status": "PASS_LIBRARY_READBACK_V83"
+      },
+      "runtime_sync_status": "PASS_V83_AUTHORITY_POINTER_MIRRORS_SITE_V110__REMOTE_DOWNLOAD_REMAINDER_EXPLICIT",
+      "site_deployment_receipt": {
+        "status": "succeeded",
+        "version": 110,
+        "version_id": "appgprj_6a5893ab380c8191b03a261860f67102~appgver_b9c981d108408191b221b7cd5797a539",
+        "deployment_id": "appgdep_6ae87db971f881919aa4315d17d5b09b",
+        "source_commit": "73f1b38dc6ef283cdfdb19841d716ad1d2e3a708",
+        "archive_sha256": "c152c9db0d46da6b143b7dc48cba7dc46b77ab719e0bc28c69d3f7cfe5451ba3"
+      },
+      "authority_sha_runtime_reconciliation_status": "PASS_V83_READBACK",
+      "current_run_promoted_products": [
+        "Weekly 2026-W43"
+      ],
+      "download_sha_status": "PASS_181_OF_186_REMOTE_ZIP_SHA__5_HISTORICAL_UNVERIFIED",
+      "real_remote_readback_status": "PASS_CACHE_BUSTED_HOME_ARCHIVES_DOWNLOAD_CENTER_W42_W43_DAILY_10_30_THROUGH_11_02",
+      "download_integrity": "PASS_3_NEW_REMOTE_ZIP_SHA_AND_UNZIP__5_HISTORICAL_SHA_CLOSED__PRIOR_181_INHERITED_NOT_RETESTED",
+      "stable_operation_accepted": false
+    }
+  }
 }
