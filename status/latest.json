@@ -54,7 +54,7 @@
   "public_site_version": 111,
   "public_site_status": "DEPLOYED_V111_REAL_REMOTE_CONTENT_AND_NEW_ZIP_SHA_PASS",
   "manifest_reconciliation_status": "PASS_V83_AUTHORITY_POINTER_PUBLIC_CURRENT",
-  "metadata_freshness": "PASS_V83_DAILY_2026_11_02_WEEKLY_W43_POINTER_PROVENANCE",
+  "metadata_freshness": "PASS_EXTERNAL_POINTER_762374B2__13_DERIVED_VIEWS_PLUS_ZIP_POINTER_RUNTIME",
   "state_consistency_pointer_sha256": "762374b2de1dcfcdc8794a38cd4cde185b9e04370b949aa5f8e71ce84d8402f6",
   "failure_stage": "SCHEDULED_WORK_ENVIRONMENT_CONFIRMATION",
   "failure_reason": "12:30 task remains disabled; environment_selection=inherited, environments=null; no supported environment-binding interface is exposed, so scheduled execution capability is unconfirmed.",
@@ -126,8 +126,8 @@
     "producer_automation_restored": true,
     "prior_2026_09_26_correction_preserved": true
   },
-  "real_remote_readback_status": "PASS_CACHE_BUSTED_HOME_ARCHIVES_DOWNLOAD_CENTER_W42_W43_DAILY_10_30_THROUGH_11_02",
-  "download_sha_status": "PASS_181_OF_186_REMOTE_ZIP_SHA__5_HISTORICAL_UNVERIFIED",
+  "real_remote_readback_status": "PASS_HOME_THREE_BODIES_THREE_ARCHIVES_DOWNLOAD_CENTER_AND_EIGHT_ZIPS",
+  "download_sha_status": "PASS_3_NEW_AND_5_HISTORICAL_REAL_REMOTE_ZIP_SHA__PRIOR_181_INHERITED",
   "public_daily_2026_09_25_download_sha256": "3751ca19db9b690c9b9ac15f1314431df8b0cc1fc32f5d120107a20a731fc281",
   "public_weekly_2026_w38_download_sha256": "b9fc5c235a71247ec6a84eecaab6a14edd16db5789cfdc5995aad8ab474e2442",
   "higher_cycle_dependency_state": "W43_FORMALLY_PROMOTED__W44_AND_OCTOBER_MONTHLY_OTHER_CHAT_SESSION",
@@ -217,12 +217,12 @@
   "public_daily_2026_09_30_download_sha256": "c9cb876285ccf713b651bfc8b551c2fad8525e7149979fc6388ceb507724014d",
   "public_daily_2026_10_01_download_sha256": "98851fc1d8897fd2402c53b9e457a31e1cbc4136c48f4c2f58b5574289e18725",
   "authority_sha_runtime_reconciliation": {
-    "before": "abdc72f45dd00f167930ae4cc7b182d6b65a789f8661e35f56eae92c3614abd7",
-    "post_rebuild": "ae8dfdd68da8e6742e28160e7457a9f6d63d55d177bdb84bb11da52da3373bab",
-    "library_sidecar": "ae8dfdd68da8e6742e28160e7457a9f6d63d55d177bdb84bb11da52da3373bab",
-    "status": "PASS_LIBRARY_READBACK_V83"
+    "before": "5bb2001188fdcf1ed7d7b112e39991994a14b62dbc30fe68d4acaacbf8fa3033",
+    "post_rebuild": "d89b2136ef198699d6f9af079187ca3ed32fc3ebc13314163b531aec701defdb",
+    "library_sidecar": "d89b2136ef198699d6f9af079187ca3ed32fc3ebc13314163b531aec701defdb",
+    "status": "POST_SITE_DERIVED_SYNC_COMMITTED__FINAL_LIBRARY_BYTE_READBACK_TRACKED_IN_RECEIPT"
   },
-  "runtime_sync_status": "PASS_V83_AUTHORITY_POINTER_MIRRORS_SITE_V110__REMOTE_DOWNLOAD_REMAINDER_EXPLICIT",
+  "runtime_sync_status": "PASS_AUTHORITY_POINTER_13_DERIVED_VIEWS_MIRRORS_SITE_V111__HISTORICAL_FIVE_SHA_CLOSED",
   "recovery_provenance_2026_10_02": {
     "mode": "BOUNDED_INTERACTIVE_CONTINUITY_RECOVERY",
     "original_scheduled_run_observed": true,
@@ -524,7 +524,7 @@
   },
   "current_annual_public": "NO_FORMAL_2026_PRODUCT",
   "last_updated": "2026-11-03T03:38:06Z",
-  "final_closure_status": "W43_AND_SITE_DEPLOYMENT_CLOSED__FIVE_HISTORICAL_REMOTE_DOWNLOAD_SHA_PENDING",
+  "final_closure_status": "THREE_TARGETS_AND_SITE_V111_AND_HISTORICAL_FIVE_SHA_CLOSED__AUTOMATION_ENVIRONMENT_UNCONFIRMED__NEWER_DAILY_CANDIDATES_PENDING",
   "status": "THREE_TARGET_PRODUCTS_FORMALLY_PUBLISHED_SITE_V111__HISTORICAL_FIVE_SHA_CLOSED__AUTOMATION_ENVIRONMENT_PENDING",
   "public_site_publication_receipt_status": "SUCCEEDED_V110",
   "public_daily_2026_10_13_download_sha256": "9f208040c99e46ce8752577be3b77387592d25776f3fb89940e91f727add246d",
@@ -545,10 +545,10 @@
     "new_remote_zip_sha": "3_OF_3_PASS",
     "historical_five_zip_sha": "5_OF_5_PASS_CLOSED"
   },
-  "download_integrity": "PASS_3_NEW_REMOTE_ZIP_SHA_AND_UNZIP__5_HISTORICAL_SHA_CLOSED__PRIOR_181_INHERITED_NOT_RETESTED",
+  "download_integrity": "PASS_3_NEW_REMOTE_ZIP_SHA_AND_UNZIP__5_HISTORICAL_SHA_CLOSED__PRIOR_181_NOT_RETESTED",
   "public_daily_2026_10_14_download_sha256": "7198e935f91376c06aad940c241be3066617a338a4e6977e3edacd42295927fd",
   "public_daily_2026_10_15_download_sha256": "85bf61157397670325c5c7cfb7853e1436f69c99efacad464ceb55678954b00b",
-  "authority_sha_runtime_reconciliation_status": "PASS_V83_READBACK",
+  "authority_sha_runtime_reconciliation_status": "PASS_CURRENT_COMMITTED_AUTHORITY_AND_SIDECAR",
   "current_derived_views_status": "PASS_13_OF_13_POINTER_PROVENANCE",
   "producer_automation_status": "UNATTENDED_RELIABILITY_NOT_ACCEPTED__2026_10_23_REQUIRED_BOUNDED_INTERACTIVE_RECOVERY__2026_10_24_SCHEDULED_SUCCESS",
   "public_daily_2026_10_16_download_sha256": "5ee3f31227ba541f8e3b79a6045c5f25dd13d9c066322327bbf7354b366896ba",
@@ -1952,11 +1952,11 @@
   "pending_work_runtime_formalization": false,
   "site_deployment_receipt": {
     "status": "succeeded",
-    "version": 110,
-    "version_id": "appgprj_6a5893ab380c8191b03a261860f67102~appgver_b9c981d108408191b221b7cd5797a539",
-    "deployment_id": "appgdep_6ae87db971f881919aa4315d17d5b09b",
-    "source_commit": "73f1b38dc6ef283cdfdb19841d716ad1d2e3a708",
-    "archive_sha256": "c152c9db0d46da6b143b7dc48cba7dc46b77ab719e0bc28c69d3f7cfe5451ba3"
+    "version": 111,
+    "version_id": "appgprj_6a5893ab380c8191b03a261860f67102~appgver_227c038c387081918f0d6ee507ab4d55",
+    "deployment_id": "appgdep_6aec12ee4af4819185a31cac332a623a",
+    "source_commit": "930fa0ab4950ee098caa0f503749ffd649facc31",
+    "archive_sha256": "48bc8c581ae7f05ef3669fbc5861fdb0d4e395c8d8145ed851eb102e01e5ec53"
   },
   "remaining_product_debt": {
     "daily": [
@@ -1968,7 +1968,9 @@
     "scope": "Newer candidates are outside the three-product 2026-11-03 closeout; not asserted qualified or promoted"
   },
   "current_run_promoted_products": [
-    "Weekly 2026-W43"
+    "Daily 2026-11-03",
+    "Weekly 2026-W44",
+    "Monthly 2026-10"
   ],
   "daily_reconsumed_this_run": false,
   "public_daily_2026_11_02_download_sha256": "dbc114f8d061c0bc60c6f0b5c81f28d8a8c71dc391d2ccd23d528d9642af347c",
@@ -2146,5 +2148,34 @@
   "newer_daily_candidates_pending": [
     "2026-11-04",
     "2026-11-05"
-  ]
+  ],
+  "historical_snapshots": {
+    "pre_20261105_active_publication_aliases": {
+      "final_closure_status": "W43_AND_SITE_DEPLOYMENT_CLOSED__FIVE_HISTORICAL_REMOTE_DOWNLOAD_SHA_PENDING",
+      "metadata_freshness": "PASS_V83_DAILY_2026_11_02_WEEKLY_W43_POINTER_PROVENANCE",
+      "authority_sha_runtime_reconciliation": {
+        "before": "abdc72f45dd00f167930ae4cc7b182d6b65a789f8661e35f56eae92c3614abd7",
+        "post_rebuild": "ae8dfdd68da8e6742e28160e7457a9f6d63d55d177bdb84bb11da52da3373bab",
+        "library_sidecar": "ae8dfdd68da8e6742e28160e7457a9f6d63d55d177bdb84bb11da52da3373bab",
+        "status": "PASS_LIBRARY_READBACK_V83"
+      },
+      "runtime_sync_status": "PASS_V83_AUTHORITY_POINTER_MIRRORS_SITE_V110__REMOTE_DOWNLOAD_REMAINDER_EXPLICIT",
+      "site_deployment_receipt": {
+        "status": "succeeded",
+        "version": 110,
+        "version_id": "appgprj_6a5893ab380c8191b03a261860f67102~appgver_b9c981d108408191b221b7cd5797a539",
+        "deployment_id": "appgdep_6ae87db971f881919aa4315d17d5b09b",
+        "source_commit": "73f1b38dc6ef283cdfdb19841d716ad1d2e3a708",
+        "archive_sha256": "c152c9db0d46da6b143b7dc48cba7dc46b77ab719e0bc28c69d3f7cfe5451ba3"
+      },
+      "authority_sha_runtime_reconciliation_status": "PASS_V83_READBACK",
+      "current_run_promoted_products": [
+        "Weekly 2026-W43"
+      ],
+      "download_sha_status": "PASS_181_OF_186_REMOTE_ZIP_SHA__5_HISTORICAL_UNVERIFIED",
+      "real_remote_readback_status": "PASS_CACHE_BUSTED_HOME_ARCHIVES_DOWNLOAD_CENTER_W42_W43_DAILY_10_30_THROUGH_11_02",
+      "download_integrity": "PASS_3_NEW_REMOTE_ZIP_SHA_AND_UNZIP__5_HISTORICAL_SHA_CLOSED__PRIOR_181_INHERITED_NOT_RETESTED",
+      "stable_operation_accepted": false
+    }
+  }
 }
