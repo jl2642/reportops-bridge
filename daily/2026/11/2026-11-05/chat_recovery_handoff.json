@@ -1,0 +1,35 @@
+{
+  "schema": "REPORTOPS_CHAT_RECOVERY_HANDOFF_V1",
+  "target_date": "2026-11-05",
+  "status": "CHAT_PUBLIC_SAFE_CANDIDATE_ACCEPTED_PENDING_WORK",
+  "formal_promotion_performed": false,
+  "site_publication_performed": false,
+  "scheduled_1015_heartbeat_status": "FAILED_AS_RECORDED_UNCHANGED",
+  "recovery_run_status": "CANDIDATE_CREATED_AND_PERSISTED",
+  "source": "USER_REQUESTED_BOUNDED_RECOVERY_AFTER_1015_FAILURE",
+  "library_candidate_path": "/能源周期报告/40_RECOVERY/RECOVERED_GAP_PACKS/ReportOps_Daily_20261105_PRODUCER_CANDIDATE_ONLY.zip",
+  "library_candidate_zip_sha256": "89646b999995300f7066f11e7eb38d58abad0e9e4b917275098a10180d4c3455",
+  "baseline_authority_sha256": "5a8e0dfe7336b2d0a32b23ba613c64bc35700fb4b47aaac0501fafdaab8cfcf8",
+  "window_start": "2026-11-04T10:00:00+08:00",
+  "window_end": "2026-11-05T10:00:00+08:00",
+  "source_count": 6,
+  "claim_count": 6,
+  "source_time_evidence": {
+    "exact_timestamps": 6,
+    "date_only": 0,
+    "all_within_window": true
+  },
+  "chat_native_gates": {
+    "policy_drift": "PASS",
+    "V4": "PASS",
+    "source_identity_v2": "PASS",
+    "inline_citation_v2": "PASS",
+    "evidence_v2": "PASS",
+    "window_gate": "PASS"
+  },
+  "candidate_limits": [
+    "Reader、Lineage、Work P8G及Authority原子晋级未执行",
+    "不得将Chat候选标记为Formal Current"
+  ],
+  "work_action": "Read exact Library ZIP, verify SHA, perform native Reader/Lineage/P8G/atomic consumer gates and formal promotion only if all gates pass."
+}
