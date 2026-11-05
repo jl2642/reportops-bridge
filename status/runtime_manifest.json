@@ -27,5 +27,41 @@
     "MONTHLY",
     "QUARTERLY",
     "ANNUAL"
-  ]
+  ],
+  "authority_provenance": {
+    "authority_package_sha256": "d89b2136ef198699d6f9af079187ca3ed32fc3ebc13314163b531aec701defdb",
+    "state_consistency_pointer_sha256": "762374b2de1dcfcdc8794a38cd4cde185b9e04370b949aa5f8e71ce84d8402f6",
+    "derived_from_current_pointer_sha256": "762374b2de1dcfcdc8794a38cd4cde185b9e04370b949aa5f8e71ce84d8402f6",
+    "current_daily_public": "2026-11-03",
+    "current_weekly_public": "2026-W44",
+    "current_monthly_public": "2026-10",
+    "current_quarterly_public": "2026-Q3",
+    "public_site_version": 111,
+    "public_site_status": "DEPLOYED_V111_REAL_REMOTE_CONTENT_AND_NEW_ZIP_SHA_PASS",
+    "public_site_url": "https://energy-cycle-report-share.ljjx2020.chatgpt.site",
+    "canonical_promotion_performed": true,
+    "site_publication_performed": true,
+    "pending_work_runtime_formalization": false,
+    "historical_download_sha_remaining": 0,
+    "download_integrity": "PASS_3_NEW_REMOTE_ZIP_SHA_AND_UNZIP__5_HISTORICAL_SHA_CLOSED__PRIOR_181_INHERITED_NOT_RETESTED",
+    "automation_1230_status": "PAUSED__SCHEDULED_WORK_ENVIRONMENT_UNCONFIRMED",
+    "target_release_debt_remaining": 0,
+    "newer_daily_candidates_pending": [
+      "2026-11-04",
+      "2026-11-05"
+    ],
+    "public_remote_readback": {
+      "site_version": 111,
+      "checked_at": "2026-11-05",
+      "current_daily": "2026-11-03",
+      "current_weekly": "2026-W44",
+      "current_monthly": "2026-10",
+      "home": "PASS",
+      "bodies": "PASS_DAILY_2026_11_03_WEEKLY_W44_MONTHLY_2026_10",
+      "archives": "PASS_DAILY_WEEKLY_MONTHLY",
+      "download_center": "PASS",
+      "new_remote_zip_sha": "3_OF_3_PASS",
+      "historical_five_zip_sha": "5_OF_5_PASS_CLOSED"
+    }
+  }
 }
