@@ -36,11 +36,22 @@
   "recovery_run": {
     "run_type": "USER_REQUESTED_BOUNDED_RECOVERY",
     "run_started_at": "2026-11-05T11:10:00+08:00",
-    "status": "RUN_STARTED_BEFORE_PREFLIGHT",
-    "chat_candidate_2026_11_04": {
-      "library_path": "/能源周期报告/40_RECOVERY/RECOVERED_GAP_PACKS/ReportOps_Daily_20261104_CHAT_RECOVERY_CANDIDATE_ONLY.zip",
-      "expected_sha256": "2d68a0e02090af2080db7d39147bfb78d26fc4c9fa52b683fafb354b81c30126",
-      "classification": "CHAT_CANDIDATE_PENDING_WORK_NOT_FORMAL"
-    }
+    "completed_at": "2026-11-05T11:24:02+08:00",
+    "status": "PRODUCER_SUCCESS_CANDIDATES_PENDING_WORK",
+    "products_repaired_or_produced": [
+      "2026-11-05"
+    ],
+    "producer_recovery_queue_remaining": [],
+    "queue_for_12_30_work": [
+      "2026-11-04: existing Chat candidate; 5 exact timestamps and 6 date-only records; Work must independently decide formal temporal acceptance",
+      "2026-11-05: Chat recovery candidate; 6/6 exact timestamps within fixed window; V4, Source Identity, Inline Citation, Evidence V2 and Window Gate PASS"
+    ],
+    "post_run_self_audit_status": "PASS_LIBRARY_ZIP_SHA_AND_GITHUB_HANDOFF_BYTE_EXACT",
+    "candidate_library_path": "/能源周期报告/40_RECOVERY/RECOVERED_GAP_PACKS/ReportOps_Daily_20261105_PRODUCER_CANDIDATE_ONLY.zip",
+    "candidate_zip_sha256": "045036970649924528be5b5db7a6dea77fbe7da87124733686ba6c5ac3545d0d",
+    "github_handoff_path": "daily/2026/11/2026-11-05/chat_recovery_handoff.json",
+    "formal_promotion_performed": false,
+    "site_publication_performed": false,
+    "authority_mutated": false
   }
 }
