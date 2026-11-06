@@ -1,0 +1,67 @@
+{
+  "schema": "REPORTOPS_DAILY_PRODUCER_MANIFEST_REPAIR_HANDOFF_V2",
+  "target_date": "2026-11-04",
+  "status": "PRODUCER_MANIFEST_V4_GENERATED_AND_LIBRARY_READBACK_VERIFIED_PENDING_WORK_NATIVE_REVALIDATION",
+  "created_at_utc": "2026-11-06T05:33:19Z",
+  "original_candidate": {
+    "path": "/能源周期报告/40_RECOVERY/RECOVERED_GAP_PACKS/ReportOps_Daily_20261104_CHAT_RECOVERY_CANDIDATE_ONLY.zip",
+    "sha256": "2d68a0e02090af2080db7d39147bfb78d26fc4c9fa52b683fafb354b81c30126",
+    "preserved": true
+  },
+  "repaired_candidate": {
+    "library_path": "/能源周期报告/40_RECOVERY/RECOVERED_GAP_PACKS/ReportOps_Daily_20261104_PRODUCER_CANDIDATE_V2.zip",
+    "sha256": "8fe6355c452b6b6cdb2cf1c52c60bea6a7d866651f53f3348c327779ee25b2e2",
+    "size_bytes": 24882,
+    "library_readback_sha256": "8fe6355c452b6b6cdb2cf1c52c60bea6a7d866651f53f3348c327779ee25b2e2",
+    "product_quality_manifest_v4_sha256": "152cf4180727b9b1a70b95e6b78c24e7fb15f191f9443fa0da3744235ae62c20",
+    "internal_sha_manifest_entries": 10,
+    "internal_sha_mismatches": 0,
+    "zip_integrity": "PASS",
+    "library_readback": "PASS"
+  },
+  "baseline": {
+    "authority_sha256": "d89b2136ef198699d6f9af079187ca3ed32fc3ebc13314163b531aec701defdb",
+    "pointer_sha256": "762374b2de1dcfcdc8794a38cd4cde185b9e04370b949aa5f8e71ce84d8402f6"
+  },
+  "producer_gate_results": {
+    "v4_public_depth": "PASS_3157_CJK_4_SIGNAL_CARDS",
+    "source_identity": "PASS_11_OF_11_PRODUCER_RECEIPTS",
+    "inline_citation": "PASS_11_OF_11_55_MARKDOWN_LINKS",
+    "evidence_v2": "PASS_WITH_WARNINGS_0_BLOCKING_1_E05_FRESHNESS_WARNING",
+    "temporal": "5_EXACT_TIMESTAMPS_6_DATE_ONLY_METADATA_DISCLOSED",
+    "ledger": "PASS_11_ROWS_43_COLUMNS",
+    "unsupported_core_claims": 0,
+    "unsupported_core_claims_method": "PRODUCER_CLAIM_LEVEL_DIRECT_EVIDENCE_BINDING_AUDIT_V1",
+    "core_claims_reviewed": [
+      "D20261104-C001",
+      "D20261104-C002"
+    ],
+    "all_8_claims_reviewed": true,
+    "native_work_consumer_gates": "PENDING"
+  },
+  "unchanged_assets": {
+    "public_core_sha256": "8dbb50e3c4b049a25e56b484f0c33e0580604c1d2fb221120f7792b7a1fa68f0",
+    "evidence_sha256": "f7582ed4b05ecf1954a266e34e0b0a29ecdb06eb5e34bb0b485cc695b7afb0c6",
+    "ledger_sha256": "51bbb0ae71be89876a9d077c71bf069ea28bf84e61cc9ed81a07bc35ec7cd0be",
+    "original_sources_md_unchanged": true,
+    "original_claim_roles_unchanged": true,
+    "original_candidate_preserved": true
+  },
+  "consumer_preflight_watchpoints": [
+    {
+      "code": "SOURCE_IDENTITY_RECEIPT_CANONICAL_REDIRECT_E02",
+      "record_id": "E02",
+      "finding": "The embedded receipt observed_url uses a different Euronext path from canonical_url. Current Authority daily_attempt_promotion_sync.same_verified_article accepts exact same-path identity or a constrained AP alias only. Local predicate check returned false; Work must confirm with exact current native consumer check.",
+      "action": "Do not modify the original evidence or fabricate a receipt. If the current native check fails, stop and report the separate source-identity blocker; any correction requires a separately verified, versioned repair."
+    }
+  ],
+  "constraints": {
+    "authority_mutated": false,
+    "pointer_mutated": false,
+    "site_mutated": false,
+    "runtime_mutated": false,
+    "automation_mutated": false,
+    "formal_promotion_performed": false
+  },
+  "work_action": "Use this V2 candidate, not the original ZIP. Verify current Authority/Pointer and exact SHA; run native source identity, inline citation, Evidence V2, V4, temporal and Reader gates. Specifically test E02 against the current consumer predicate before Lineage/P8G/atomic promotion. Keep 11/05 and 11/06 waiting until 11/04 formally promotes. Do not rewrite body, evidence claims or source URLs."
+}
