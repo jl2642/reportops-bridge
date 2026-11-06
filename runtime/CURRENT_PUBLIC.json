@@ -36,14 +36,15 @@
   "pending_work_runtime_formalization": false,
   "final_closure_status": "THREE_TARGETS_AND_SITE_V111_AND_HISTORICAL_FIVE_SHA_CLOSED__AUTOMATION_ENVIRONMENT_UNCONFIRMED__NEWER_DAILY_CANDIDATES_PENDING",
   "pending_product": null,
-  "last_updated": "2026-11-05T08:45:33.500Z",
+  "last_updated": "2026-11-06T03:42:49.604Z",
   "deployment_state_ref": "runtime/DEPLOYMENT_STATE.json",
   "metadata_freshness": "PASS_EXTERNAL_POINTER_762374B2__13_DERIVED_VIEWS_PLUS_ZIP_POINTER_RUNTIME",
   "state_consistency_pointer_sha256": "762374b2de1dcfcdc8794a38cd4cde185b9e04370b949aa5f8e71ce84d8402f6",
   "stale_views": [],
   "queue_remaining": [
-    "Daily 2026-11-04: Chat candidate ready; Work formal gates, promotion and Site pending (Library SHA 2d68a0e0…1c30126)",
-    "Daily 2026-11-05: Chat candidate ready; Work formal gates, promotion and Site pending (Library SHA 04503697…3545d0d)",
+    "Daily 2026-11-04: Chat candidate ready; Work formal gates, promotion and Site pending (Library SHA 2d68a0e0…1c30126; historical Authority baseline preserved for Work rebase)",
+    "Daily 2026-11-05: Chat candidate ready; Work formal gates, promotion and Site pending (Library SHA 04503697…ac3545d0d; historical Authority baseline preserved for Work rebase)",
+    "Daily 2026-11-06: Chat candidate ready; Work formal gates, promotion and Site pending (Library SHA fa8ebc88…ab55a48db)",
     "12:30 scheduled Work environment unverified; original task paused"
   ],
   "eligible_unpublished_products": [],
@@ -73,7 +74,7 @@
   "current_package_site_publication_performed": true,
   "runtime_sync_status": "PASS_AUTHORITY_POINTER_13_DERIVED_VIEWS_MIRRORS_SITE_V111__HISTORICAL_FIVE_SHA_CLOSED",
   "stable": false,
-  "updated_at": "2026-11-05T08:45:33.500Z",
+  "updated_at": "2026-11-06T03:42:49.604Z",
   "public_weekly_2026_w40_download_sha256": "7d5d10199df404c830519bf51f4639196e4d3c8256416b4362a65d640fd5c49e",
   "public_daily_2026_10_04_download_sha256": "e34a69cb519d7db802c80f20e56387358953f22667d170bd7136982150568f78",
   "failure_stage": "SCHEDULED_WORK_ENVIRONMENT_CONFIRMATION",
@@ -1433,7 +1434,11 @@
     "Monthly 2026-10"
   ],
   "daily_reconsumed_this_run": false,
-  "queue_for_12_30_work": [],
+  "queue_for_12_30_work": [
+    "2026-11-04",
+    "2026-11-05",
+    "2026-11-06"
+  ],
   "oldest_pending_date": null,
   "products_completed_this_run": [
     "Weekly 2026-W43 formal promotion",
@@ -1607,7 +1612,8 @@
   "target_release_debt_remaining": 0,
   "newer_daily_candidates_pending": [
     "2026-11-04",
-    "2026-11-05"
+    "2026-11-05",
+    "2026-11-06"
   ],
   "historical_snapshots": {
     "pre_20261105_active_publication_aliases": {
