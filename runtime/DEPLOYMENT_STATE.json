@@ -31,15 +31,16 @@
   "current_public_ref": "runtime/CURRENT_PUBLIC.json",
   "final_closure_status": "THREE_TARGETS_AND_SITE_V111_AND_HISTORICAL_FIVE_SHA_CLOSED__AUTOMATION_ENVIRONMENT_UNCONFIRMED__NEWER_DAILY_CANDIDATES_PENDING",
   "pending_product": null,
-  "updated_at": "2026-11-05T08:45:33.500Z",
+  "updated_at": "2026-11-06T03:42:49.604Z",
   "metadata_freshness": "PASS_EXTERNAL_POINTER_762374B2__13_DERIVED_VIEWS_PLUS_ZIP_POINTER_RUNTIME",
   "state_consistency_pointer_sha256": "762374b2de1dcfcdc8794a38cd4cde185b9e04370b949aa5f8e71ce84d8402f6",
   "real_remote_readback_status": "PASS_HOME_THREE_BODIES_THREE_ARCHIVES_DOWNLOAD_CENTER_AND_EIGHT_ZIPS",
   "site_only_corrective_republish_required": false,
   "private_site_dependency_removed": true,
   "queue_remaining": [
-    "Daily 2026-11-04: Chat candidate ready; Work formal gates, promotion and Site pending (Library SHA 2d68a0e0…1c30126)",
-    "Daily 2026-11-05: Chat candidate ready; Work formal gates, promotion and Site pending (Library SHA 04503697…3545d0d)",
+    "Daily 2026-11-04: Chat candidate ready; Work formal gates, promotion and Site pending (Library SHA 2d68a0e0…1c30126; historical Authority baseline preserved for Work rebase)",
+    "Daily 2026-11-05: Chat candidate ready; Work formal gates, promotion and Site pending (Library SHA 04503697…ac3545d0d; historical Authority baseline preserved for Work rebase)",
+    "Daily 2026-11-06: Chat candidate ready; Work formal gates, promotion and Site pending (Library SHA fa8ebc88…ab55a48db)",
     "12:30 scheduled Work environment unverified; original task paused"
   ],
   "stale_views": [],
@@ -100,7 +101,7 @@
   "canonical_promotion_performed": true,
   "public_site_status": "DEPLOYED_V111_REAL_REMOTE_CONTENT_AND_NEW_ZIP_SHA_PASS",
   "download_sha_status": "PASS_3_NEW_AND_5_HISTORICAL_REAL_REMOTE_ZIP_SHA__PRIOR_181_INHERITED",
-  "last_updated": "2026-11-05T08:45:33.500Z",
+  "last_updated": "2026-11-06T03:42:49.604Z",
   "reportops_status": "FORMAL_W43_AND_ORIGINAL_SITE_V110_PUBLISHED__REMOTE_DOWNLOAD_SHA_181_OF_186_VERIFIED",
   "public_site_publication_receipt_status": "SUCCEEDED_V110",
   "next_action": "Finish remote SHA readback for five listed historical download ZIPs; W44 and October Monthly production remains in other Chat session. No Daily reconsumption.",
@@ -1431,7 +1432,11 @@
     "Monthly 2026-10"
   ],
   "daily_reconsumed_this_run": false,
-  "queue_for_12_30_work": [],
+  "queue_for_12_30_work": [
+    "2026-11-04",
+    "2026-11-05",
+    "2026-11-06"
+  ],
   "oldest_pending_date": null,
   "products_completed_this_run": [
     "Weekly 2026-W43 formal promotion",
@@ -1617,7 +1622,8 @@
   "target_release_debt_remaining": 0,
   "newer_daily_candidates_pending": [
     "2026-11-04",
-    "2026-11-05"
+    "2026-11-05",
+    "2026-11-06"
   ],
   "historical_snapshots": {
     "pre_20261105_active_publication_aliases": {
