@@ -24,10 +24,40 @@
   "manual_recovery_run": {
     "run_type": "USER_REQUESTED_BOUNDED_RECOVERY_AFTER_PROMPT_SHA_FIX",
     "run_started_at": "2026-11-06T03:34:13.535Z",
-    "status": "RUN_STARTED_BEFORE_PREFLIGHT",
+    "status": "PRODUCER_SUCCESS_CANDIDATES_PENDING_WORK",
     "prompt_sha_corrected": true,
     "corrected_candidate_sha256": "045036970649924528be5b5db7a6dea77fbe7da87124733686ba6c5ac3545d0d",
     "original_scheduled_failure_preserved": true,
-    "authority_or_site_mutation": false
+    "authority_or_site_mutation": false,
+    "completed_at": "2026-11-06T03:42:04.251Z",
+    "products_repaired_or_produced": [
+      "2026-11-06"
+    ],
+    "producer_recovery_queue_remaining": [
+      "2026-11-04",
+      "2026-11-05"
+    ],
+    "queue_for_12_30_work": [
+      "2026-11-04",
+      "2026-11-05",
+      "2026-11-06"
+    ],
+    "post_run_self_audit_status": "PASS_LIBRARY_ZIP_SHA_AND_GITHUB_HANDOFF_BYTE_EXACT",
+    "candidate_library_path": "/能源周期报告/40_RECOVERY/RECOVERED_GAP_PACKS/ReportOps_Daily_20261106_PRODUCER_CANDIDATE_ONLY.zip",
+    "candidate_zip_sha256": "fa8ebc88fb2e78127294fba83eccf0e4f6d0d000d5fa4809bd29a87ab55a48db",
+    "candidate_size_bytes": 22023,
+    "github_handoff_path": "daily/2026/11/2026-11-06/chat_recovery_handoff.json",
+    "github_handoff_commit": "37e58a04a1be5bcb2dd3fbb5c44fd6eda8dad54c",
+    "chat_side_checks": {
+      "v4": "PASS_3359_CJK_4_CARDS",
+      "source_identity": "PASS_10_OF_10",
+      "inline_citation": "PASS_10_OF_10",
+      "evidence": "PASS_10_RECORDS_0_BLOCKING_1_NONBLOCKING_WARNING",
+      "window": "PASS_10_OF_10",
+      "ledger": "PASS_43_COLUMNS"
+    },
+    "formal_promotion_performed": false,
+    "site_publication_performed": false,
+    "authority_mutated": false
   }
 }
