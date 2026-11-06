@@ -13,5 +13,21 @@
   ],
   "post_run_self_audit_status": "NOT_RUN_PREFLIGHT_BLOCKED",
   "failure_stage": "PREFLIGHT_2026_11_05_CHAT_RECOVERY_SHA_CONFLICT",
-  "failure_reason": "User-specified 2026-11-05 expected SHA 89646b999995300f7066f11e7eb38d58abad0e9e4b917275098a10180d4c3455 differs from GitHub handoff and actual Library ZIP SHA 045036970649924528be5b5db7a6dea77fbe7da87124733686ba6c5ac3545d0d; frozen contract forbids silently resolving conflicting expected SHA. Current formal Daily 2026-11-03. 2026-11-06 not produced."
+  "failure_reason": "User-specified 2026-11-05 expected SHA 89646b999995300f7066f11e7eb38d58abad0e9e4b917275098a10180d4c3455 differs from GitHub handoff and actual Library ZIP SHA 045036970649924528be5b5db7a6dea77fbe7da87124733686ba6c5ac3545d0d; frozen contract forbids silently resolving conflicting expected SHA. Current formal Daily 2026-11-03. 2026-11-06 not produced.",
+  "scheduled_run_record": {
+    "target_date": "2026-11-06",
+    "scheduled_for": "2026-11-06T10:15:00+08:00",
+    "original_status": "FAILED",
+    "original_failure_stage": "PREFLIGHT_2026_11_05_CHAT_RECOVERY_SHA_CONFLICT",
+    "original_failure_reason": "User-specified 2026-11-05 expected SHA 89646b999995300f7066f11e7eb38d58abad0e9e4b917275098a10180d4c3455 differs from GitHub handoff and actual Library ZIP SHA 045036970649924528be5b5db7a6dea77fbe7da87124733686ba6c5ac3545d0d; frozen contract forbids silently resolving conflicting expected SHA. Current formal Daily 2026-11-03. 2026-11-06 not produced."
+  },
+  "manual_recovery_run": {
+    "run_type": "USER_REQUESTED_BOUNDED_RECOVERY_AFTER_PROMPT_SHA_FIX",
+    "run_started_at": "2026-11-06T03:34:13.535Z",
+    "status": "RUN_STARTED_BEFORE_PREFLIGHT",
+    "prompt_sha_corrected": true,
+    "corrected_candidate_sha256": "045036970649924528be5b5db7a6dea77fbe7da87124733686ba6c5ac3545d0d",
+    "original_scheduled_failure_preserved": true,
+    "authority_or_site_mutation": false
+  }
 }
