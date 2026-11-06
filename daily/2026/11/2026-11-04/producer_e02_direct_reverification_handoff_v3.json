@@ -1,0 +1,46 @@
+{
+  "schema": "REPORTOPS_DAILY_PRODUCER_E02_DIRECT_REVERIFICATION_HANDOFF_V3",
+  "target_date": "2026-11-04",
+  "status": "PRODUCER_SOURCE_RECEIPT_REVERIFIED_PENDING_WORK_FORMAL_CONSUMER",
+  "predecessor_v2_handoff": "daily/2026/11/2026-11-04/producer_manifest_repair_handoff_v2.json",
+  "predecessor_v2_zip_sha256": "8fe6355c452b6b6cdb2cf1c52c60bea6a7d866651f53f3348c327779ee25b2e2",
+  "preferred_for_work": {
+    "library_path": "/能源周期报告/40_RECOVERY/RECOVERED_GAP_PACKS/ReportOps_Daily_20261104_PRODUCER_CANDIDATE_V3_E02_DIRECT_REVERIFIED.zip",
+    "sha256": "c2947c7c709352a388b2413f7e764d5b5a242e2e3ef93f39dcc203c0552fba19",
+    "size_bytes": 26623,
+    "library_readback_sha256": "c2947c7c709352a388b2413f7e764d5b5a242e2e3ef93f39dcc203c0552fba19"
+  },
+  "source_e02": {
+    "verified_url": "https://live.euronext.com/en/financial-news/shell-sell-north-west-shelf-stake-xrg-145-billion",
+    "source_title": "Shell to sell North West Shelf stake to XRG for $1.45 billion",
+    "article_date": "2026-11-03",
+    "article_time": "08:48 CET",
+    "verification_method": "OPENED_EXACT_DOCUMENT",
+    "previous_method": "CANONICAL_REDIRECT_CONFIRMED",
+    "original_receipt_preserved_in_zip": "E02_RECEIPT_REVERIFICATION_V3.json",
+    "changed_only": [
+      "evidence.json/E02/source_identity_receipt/verification_method",
+      "evidence.json/E02/source_identity_receipt/observed_url",
+      "evidence.json/E02/source_identity_receipt/verified_at",
+      "dependent_manifests_and_sha"
+    ]
+  },
+  "validation": {
+    "authority_native_source_identity_gate": "PASS_11_OF_11",
+    "authority_consumer_url_predicate_before": false,
+    "authority_consumer_url_predicate_after": true,
+    "sha256_manifest_entries": 11,
+    "sha256_manifest_mismatches": 0,
+    "zip_integrity": "PASS",
+    "public_core_unchanged": true,
+    "source_urls_unchanged": true,
+    "claim_roles_unchanged": true,
+    "evidence_ledger_unchanged": true,
+    "source_publication_times_unchanged": true,
+    "work_native_reader_lineage_p8g_atomic": "NOT_RUN",
+    "formal_authority_pointer_site_mutation": false
+  },
+  "baseline_authority_sha256": "d89b2136ef198699d6f9af079187ca3ed32fc3ebc13314163b531aec701defdb",
+  "work_next_action": "Use V3, not V2 or original, and independently re-run Work Source Identity/Inline/Evidence/V4/Reader/Lineage/P8G then promote 11/04, 11/05, 11/06 oldest-first if all native gates pass; maintain immutable original candidates.",
+  "created_at_utc": "2026-11-06T11:13:12.349Z"
+}
