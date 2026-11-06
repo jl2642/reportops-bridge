@@ -1,0 +1,40 @@
+{
+  "schema": "REPORTOPS_CHAT_RECOVERY_HANDOFF_V1",
+  "target_date": "2026-11-06",
+  "status": "CHAT_PUBLIC_SAFE_CANDIDATE_ACCEPTED_PENDING_WORK",
+  "formal_promotion_performed": false,
+  "site_publication_performed": false,
+  "scheduled_1015_heartbeat_status": "FAILED_AS_RECORDED_UNCHANGED",
+  "source": "USER_REQUESTED_BOUNDED_RECOVERY_AFTER_SHA_CONTRACT_FIX",
+  "library_candidate_path": "/能源周期报告/40_RECOVERY/RECOVERED_GAP_PACKS/ReportOps_Daily_20261106_PRODUCER_CANDIDATE_ONLY.zip",
+  "library_candidate_zip_sha256": "fa8ebc88fb2e78127294fba83eccf0e4f6d0d000d5fa4809bd29a87ab55a48db",
+  "library_candidate_size_bytes": 22023,
+  "library_readback_sha256": "fa8ebc88fb2e78127294fba83eccf0e4f6d0d000d5fa4809bd29a87ab55a48db",
+  "baseline_authority_sha256": "d89b2136ef198699d6f9af079187ca3ed32fc3ebc13314163b531aec701defdb",
+  "window_start": "2026-11-05T10:00:00+08:00",
+  "window_end": "2026-11-06T10:00:00+08:00",
+  "source_count": 10,
+  "claim_count": 10,
+  "source_time_evidence": {
+    "exact_timestamps": 10,
+    "date_only": 0,
+    "all_within_window": true
+  },
+  "chat_producer_checks": {
+    "V4": "PASS_3359_CJK_4_SIGNAL_CARDS",
+    "source_identity_v2": "PASS_10_OF_10",
+    "inline_citation_v2": "PASS_10_OF_10",
+    "evidence_v2": "PASS_10_RECORDS_0_BLOCKING_1_NONBLOCKING_SOURCE_DIVERSITY_WARNING",
+    "window_gate": "PASS_10_OF_10_EXACT_TIMESTAMPS",
+    "strict_ledger": "PASS_43_COLUMNS_10_ROWS",
+    "execution_mode": "CHAT_LOCAL_CONTRACT_CHECK_NOT_WORK_NATIVE"
+  },
+  "candidate_limits": [
+    "Reader、Lineage、Work原生P8G及Authority原子晋级未执行",
+    "Site未部署",
+    "不能将Chat候选标记为Formal Current",
+    "区域LNG/LPG报价主要来自同一专业数据发布方，未作第二数据商独立交叉核验"
+  ],
+  "work_action": "Read exact Library ZIP and verify SHA; rebase against latest Library Authority; run Work-native consumer gates including Reader, Lineage, P8G and atomic promotion only if all gates pass; do not re-research or rewrite accepted public core.",
+  "created_at": "2026-11-06T03:41:53.696Z"
+}
