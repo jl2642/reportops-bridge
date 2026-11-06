@@ -2,5 +2,16 @@
   "target_date": "2026-11-06",
   "scheduled_for": "10:15 Asia/Shanghai",
   "run_started_at": "2026-11-06T10:11:58+08:00",
-  "status": "RUN_STARTED_BEFORE_PREFLIGHT"
+  "status": "FAILED",
+  "products_repaired_or_produced": [],
+  "producer_recovery_queue_remaining": [
+    "2026-11-06"
+  ],
+  "queue_for_12_30_work": [
+    "2026-11-04: CHAT_CANDIDATE_PENDING_WORK (SHA verified; historical authority baseline requires Work revalidation)",
+    "2026-11-05: EXISTING_CHAT_CANDIDATE_UNVERIFIED (user-specified SHA differs from handoff and Library bytes)"
+  ],
+  "post_run_self_audit_status": "NOT_RUN_PREFLIGHT_BLOCKED",
+  "failure_stage": "PREFLIGHT_2026_11_05_CHAT_RECOVERY_SHA_CONFLICT",
+  "failure_reason": "User-specified 2026-11-05 expected SHA 89646b999995300f7066f11e7eb38d58abad0e9e4b917275098a10180d4c3455 differs from GitHub handoff and actual Library ZIP SHA 045036970649924528be5b5db7a6dea77fbe7da87124733686ba6c5ac3545d0d; frozen contract forbids silently resolving conflicting expected SHA. Current formal Daily 2026-11-03. 2026-11-06 not produced."
 }
