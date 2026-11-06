@@ -1,7 +1,7 @@
 {
   "schema_version": "REPORTOPS_PUBLIC_RUNTIME_CURRENT_V1",
-  "status": "THREE_TARGET_PRODUCTS_FORMALLY_PUBLISHED_SITE_V111__HISTORICAL_FIVE_SHA_CLOSED__AUTOMATION_ENVIRONMENT_PENDING",
-  "current_daily_public": "2026-11-03",
+  "status": "FORMAL_SUCCESS__DAILY_20261104_06_AND_SITE_V112_VERIFIED",
+  "current_daily_public": "2026-11-06",
   "current_weekly_public": "2026-W44",
   "current_monthly_public": "2026-10",
   "current_quarterly_public": "2026-Q3",
@@ -11,22 +11,22 @@
   "scheduled_work_consumer_time_local": "12:30",
   "live_site_mode": "SINGLE_SITE_V4_PUBLIC",
   "private_site_status": "RETIRED_FROM_LIVE_OPERATION",
-  "public_site_version": 111,
+  "public_site_version": 112,
   "public_site_url": "https://energy-cycle-report-share.ljjx2020.chatgpt.site",
   "public_remote_readback": {
-    "site_version": 111,
-    "checked_at": "2026-11-05",
-    "current_daily": "2026-11-03",
+    "site_version": 112,
+    "checked_at": "2026-11-06T14:04:33.932Z",
+    "current_daily": "2026-11-06",
     "current_weekly": "2026-W44",
     "current_monthly": "2026-10",
     "home": "PASS",
-    "bodies": "PASS_DAILY_2026_11_03_WEEKLY_W44_MONTHLY_2026_10",
-    "archives": "PASS_DAILY_WEEKLY_MONTHLY",
+    "bodies": "PASS_3_OF_3_BODY_TEXT_AND_EXTERNAL_LINKS",
+    "archives": "PASS_DAILY_TARGETS_AND_BASELINE_SET",
     "download_center": "PASS",
     "new_remote_zip_sha": "3_OF_3_PASS",
-    "historical_five_zip_sha": "5_OF_5_PASS_CLOSED"
+    "historical_five_zip_sha": "5_OF_5_PASS_CLOSED_RETAINED_NOT_RETESTED"
   },
-  "authority_package_sha256": "d89b2136ef198699d6f9af079187ca3ed32fc3ebc13314163b531aec701defdb",
+  "authority_package_sha256": "b72ed50f71fbdf0b726ce151be7f53dfe89a4e78cfbb99ad60038fa3e7aaaaad",
   "github_role": "PUBLIC_SAFE_BRIDGE",
   "canonical_authority": "LIBRARY",
   "daily_runtime_contract_current": "V1_5_FORMAL_AUTHORITY",
@@ -34,27 +34,24 @@
   "formal_authority_bridge_protocol_active": "V1_5",
   "source_identity_policy_current": "EVIDENCE_POLICY_PUBLIC_V1_2",
   "pending_work_runtime_formalization": false,
-  "final_closure_status": "THREE_TARGETS_AND_SITE_V111_AND_HISTORICAL_FIVE_SHA_CLOSED__AUTOMATION_ENVIRONMENT_UNCONFIRMED__NEWER_DAILY_CANDIDATES_PENDING",
+  "final_closure_status": "FORMAL_SUCCESS__THREE_DAILY_DEBTS_CLEARED__AUTOMATION_UNCHANGED",
   "pending_product": null,
-  "last_updated": "2026-11-06T03:42:49.604Z",
+  "last_updated": "2026-11-06T14:04:33.932Z",
   "deployment_state_ref": "runtime/DEPLOYMENT_STATE.json",
-  "metadata_freshness": "PASS_EXTERNAL_POINTER_762374B2__13_DERIVED_VIEWS_PLUS_ZIP_POINTER_RUNTIME",
-  "state_consistency_pointer_sha256": "762374b2de1dcfcdc8794a38cd4cde185b9e04370b949aa5f8e71ce84d8402f6",
+  "metadata_freshness": "PASS_LATEST_EXTERNAL_POINTER_AND_13_BYTE_EXACT_DERIVED_VIEWS",
+  "state_consistency_pointer_sha256": "67833b7ca39888567cb283b0e11bcc108e3ad6b10b54b916abb437d1d1a7a8a6",
   "stale_views": [],
   "queue_remaining": [
-    "Daily 2026-11-04: Chat candidate ready; Work formal gates, promotion and Site pending (Library SHA 2d68a0e0…1c30126; historical Authority baseline preserved for Work rebase)",
-    "Daily 2026-11-05: Chat candidate ready; Work formal gates, promotion and Site pending (Library SHA 04503697…ac3545d0d; historical Authority baseline preserved for Work rebase)",
-    "Daily 2026-11-06: Chat candidate ready; Work formal gates, promotion and Site pending (Library SHA fa8ebc88…ab55a48db)",
-    "12:30 scheduled Work environment unverified; original task paused"
+    "12:30 scheduled Work environment unverified; original task unchanged"
   ],
   "eligible_unpublished_products": [],
-  "correction_backlog_status": "FORMAL_DAILY_THROUGH_2026_11_02_AND_WEEKLY_W43_CLEARED",
-  "manifest_reconciliation_status": "PASS_V83_AUTHORITY_POINTER_PUBLIC_CURRENT",
+  "correction_backlog_status": "DAILY_THROUGH_2026_11_06_FORMAL_AND_REMOTE_PUBLISHED__TARGET_DEBT_ZERO",
+  "manifest_reconciliation_status": "PASS_AUTHORITY_POINTER_SITE_V112",
   "measurement_parity_status": "PASS_AUTHORITY_CONSUMER_ACTUALS",
   "derived_state_completeness_status": "PASS_13_CURRENT_DERIVED_VIEWS",
   "stable_operation_accepted": false,
   "public_weekly_2026_w38_download_sha256": "b9fc5c235a71247ec6a84eecaab6a14edd16db5789cfdc5995aad8ab474e2442",
-  "higher_cycle_dependency_state": "W43_FORMALLY_PROMOTED__W44_AND_OCTOBER_MONTHLY_OTHER_CHAT_SESSION",
+  "higher_cycle_dependency_state": "W44_AND_2026_10_RETAINED_FORMAL_UNCHANGED",
   "public_daily_2026_09_26_download_sha256": "32a5e0f3602374e0e03d3a5545df7cc9efacb110d4d49f1d155f51873e8f9eca",
   "public_daily_2026_09_27_download_sha256": "357cea9ba4475f31b051f9c6e221e012b714f19f110d26ae4f2c4449f31f0d91",
   "public_daily_2026_09_28_download_sha256": "29b86d1ae7f99af2bdbaee318c6f39e8c83f971a6b0e4793157a3f7d3d020e16",
@@ -63,22 +60,23 @@
   "public_daily_2026_09_30_download_sha256": "c9cb876285ccf713b651bfc8b551c2fad8525e7149979fc6388ceb507724014d",
   "public_daily_2026_10_01_download_sha256": "98851fc1d8897fd2402c53b9e457a31e1cbc4136c48f4c2f58b5574289e18725",
   "authority_sha_runtime_reconciliation": {
-    "before": "5bb2001188fdcf1ed7d7b112e39991994a14b62dbc30fe68d4acaacbf8fa3033",
-    "post_rebuild": "d89b2136ef198699d6f9af079187ca3ed32fc3ebc13314163b531aec701defdb",
-    "library_sidecar": "d89b2136ef198699d6f9af079187ca3ed32fc3ebc13314163b531aec701defdb",
-    "status": "POST_SITE_DERIVED_SYNC_COMMITTED__FINAL_LIBRARY_BYTE_READBACK_TRACKED_IN_RECEIPT"
+    "before": "d89b2136ef198699d6f9af079187ca3ed32fc3ebc13314163b531aec701defdb",
+    "post_daily_promotions": "e27d13503fb5bed667d96e3633394ad20f6179cd7a8ee775cf45f6b43a9201f1",
+    "post_site_derived_closure": "b72ed50f71fbdf0b726ce151be7f53dfe89a4e78cfbb99ad60038fa3e7aaaaad",
+    "library_sidecar": "b72ed50f71fbdf0b726ce151be7f53dfe89a4e78cfbb99ad60038fa3e7aaaaad",
+    "status": "PASS_BYTE_EXACT_LIBRARY_READBACK"
   },
   "public_daily_2026_10_02_download_sha256": "9a45fcf57e9048c524ab0f1ebdbb547a6eeb34fbe23821f5cf43e252c4ed9237",
-  "current_daily_canonical": "2026-11-02",
-  "library_sidecar_sha256": "ae8dfdd68da8e6742e28160e7457a9f6d63d55d177bdb84bb11da52da3373bab",
+  "current_daily_canonical": "2026-11-06",
+  "library_sidecar_sha256": "b72ed50f71fbdf0b726ce151be7f53dfe89a4e78cfbb99ad60038fa3e7aaaaad",
   "current_package_site_publication_performed": true,
-  "runtime_sync_status": "PASS_AUTHORITY_POINTER_13_DERIVED_VIEWS_MIRRORS_SITE_V111__HISTORICAL_FIVE_SHA_CLOSED",
+  "runtime_sync_status": "PASS_LATEST_AUTHORITY_POINTER_SITE_AND_TARGET_QUEUE",
   "stable": false,
-  "updated_at": "2026-11-06T03:42:49.604Z",
+  "updated_at": "2026-11-06T14:04:33.932Z",
   "public_weekly_2026_w40_download_sha256": "7d5d10199df404c830519bf51f4639196e4d3c8256416b4362a65d640fd5c49e",
   "public_daily_2026_10_04_download_sha256": "e34a69cb519d7db802c80f20e56387358953f22667d170bd7136982150568f78",
-  "failure_stage": "SCHEDULED_WORK_ENVIRONMENT_CONFIRMATION",
-  "failure_reason": "12:30 task remains disabled; environment_selection=inherited, environments=null; no supported environment-binding interface is exposed, so scheduled execution capability is unconfirmed.",
+  "failure_stage": null,
+  "failure_reason": null,
   "manual_intervention_required": false,
   "previous_work_failure": {
     "status": "CURRENT_UNCHANGED__PRODUCT_LOCAL_BLOCKER",
@@ -91,12 +89,12 @@
   "live_site_publication_discrepancy": {
     "resolved": true,
     "classification": "LIVE_CURRENT_MATCHES_AUTHORITY",
-    "observed_live_home_daily": "2026-11-02",
-    "observed_live_home_weekly": "2026-W43",
-    "expected_canonical_daily": "2026-11-02",
-    "expected_canonical_weekly": "2026-W43",
-    "authority_sha256": "ae8dfdd68da8e6742e28160e7457a9f6d63d55d177bdb84bb11da52da3373bab",
-    "source_head": "73f1b38dc6ef283cdfdb19841d716ad1d2e3a708",
+    "observed_live_home_daily": "2026-11-06",
+    "observed_live_home_weekly": "2026-W44",
+    "expected_canonical_daily": "2026-11-06",
+    "expected_canonical_weekly": "2026-W44",
+    "authority_sha256": "b72ed50f71fbdf0b726ce151be7f53dfe89a4e78cfbb99ad60038fa3e7aaaaad",
+    "source_head": "1cc9da547e81e6237ad912f713cbfd812ceec346",
     "hosting_project_id": "appgprj_6a5893ab380c8191b03a261860f67102",
     "static_directory": "dist",
     "publication_blocker": null
@@ -104,79 +102,47 @@
   "public_daily_2026_10_10_download_sha256": "0cc591e11f470276e934d816fc62675bca7ce5388de092816557da4049787f9e",
   "current_annual_public": "NO_FORMAL_2026_PRODUCT",
   "canonical_promotion_performed": true,
-  "public_site_status": "DEPLOYED_V111_REAL_REMOTE_CONTENT_AND_NEW_ZIP_SHA_PASS",
-  "real_remote_readback_status": "PASS_HOME_THREE_BODIES_THREE_ARCHIVES_DOWNLOAD_CENTER_AND_EIGHT_ZIPS",
-  "download_sha_status": "PASS_3_NEW_AND_5_HISTORICAL_REAL_REMOTE_ZIP_SHA__PRIOR_181_INHERITED",
-  "reportops_status": "FORMAL_W43_AND_ORIGINAL_SITE_V110_PUBLISHED__REMOTE_DOWNLOAD_SHA_181_OF_186_VERIFIED",
+  "public_site_status": "DEPLOYED_V112_REAL_CONTENT_AND_THREE_ZIP_SHA_PASS",
+  "real_remote_readback_status": "PASS_HOME_DAILY_ARCHIVE_THREE_BODIES_DOWNLOAD_CENTER",
+  "download_sha_status": "PASS_TARGET_3_OF_3__HISTORICAL_5_CLOSED_UNCHANGED",
+  "reportops_status": "FORMAL_SUCCESS",
   "site_publication_performed": true,
-  "public_site_publication_receipt_status": "SUCCEEDED_V110",
-  "next_action": "Finish remote SHA readback for five listed historical download ZIPs; W44 and October Monthly production remains in other Chat session. No Daily reconsumption.",
+  "public_site_publication_receipt_status": "SUCCEEDED_V112",
+  "next_action": "NONE_FOR_THIS_RELEASE__1230_AUTOMATION_UNCHANGED",
   "public_daily_2026_10_13_download_sha256": "9f208040c99e46ce8752577be3b77387592d25776f3fb89940e91f727add246d",
   "public_weekly_2026_w41_download_sha256": "cc05e865be0ca86e17d9ca1c83a5f5a77d67b9f176a8058edf5482921f911fc0",
-  "upstream_producer_status": "COMPLETE_CANDIDATES_THROUGH_2026_10_28__OLDEST_FIRST_CONSUMPTION_BLOCKED",
+  "upstream_producer_status": "THREE_SPECIFIED_CANDIDATES_CONSUMED_FORMALLY",
   "producer_gap": [],
   "scheduled_date": "2026-11-02",
-  "target_date": "2026-11-02",
-  "current_day_status": "FORMAL_W43_AND_ORIGINAL_SITE_V110_PUBLISHED__REMOTE_DOWNLOAD_SHA_181_OF_186_VERIFIED",
-  "formal_status": "FORMAL_CANONICAL_PUBLISHED_DAILY_2026_11_03_WEEKLY_W44_MONTHLY_2026_10",
-  "download_integrity": "PASS_3_NEW_REMOTE_ZIP_SHA_AND_UNZIP__5_HISTORICAL_SHA_CLOSED__PRIOR_181_NOT_RETESTED",
+  "target_date": "2026-11-06",
+  "current_day_status": "FORMAL_CANONICAL_PUBLISHED",
+  "formal_status": "FORMAL_CANONICAL_PUBLISHED_DAILY_THROUGH_2026_11_06",
+  "download_integrity": "PASS_THREE_REMOTE_ZIP_SHA_BYTE_EQUAL_AND_CRC",
   "public_daily_2026_10_14_download_sha256": "7198e935f91376c06aad940c241be3066617a338a4e6977e3edacd42295927fd",
   "products_preflighted": [
-    "Daily 2026-10-23",
-    "Daily 2026-10-24",
-    "Daily 2026-10-25",
-    "Daily 2026-10-26",
-    "Daily 2026-10-27",
-    "Daily 2026-10-28",
-    "Daily 2026-10-29",
-    "Daily 2026-10-30",
-    "Daily 2026-10-31",
-    "Weekly 2026-W43"
+    "Daily 2026-11-04",
+    "Daily 2026-11-05",
+    "Daily 2026-11-06"
   ],
   "products_promoted": [
-    "Daily 2026-11-03",
-    "Weekly 2026-W44",
-    "Monthly 2026-10"
+    "Daily 2026-11-04",
+    "Daily 2026-11-05",
+    "Daily 2026-11-06"
   ],
   "products_blocked_local": [],
   "products_deferred_dependency": [],
-  "preflight_blocker_matrix": [
-    {
-      "product": "Daily 2026-11-03",
-      "Reader": "PASS",
-      "Lineage": "COMMITTED_AND_VALIDATED",
-      "P8G": "PASS_10_OF_10",
-      "CommitVerification": "PASS_10_OF_10",
-      "formal": "PROMOTED_AND_LIBRARY_BYTES_READ_BACK"
-    },
-    {
-      "product": "Weekly 2026-W44",
-      "Reader": "PASS_EXACT_SHA_UNCHANGED",
-      "Lineage": "COMMITTED_AND_VALIDATED",
-      "P8G": "PASS_10_OF_10",
-      "CommitVerification": "PASS_10_OF_10",
-      "formal": "PROMOTED_AND_LIBRARY_BYTES_READ_BACK"
-    },
-    {
-      "product": "Monthly 2026-10",
-      "Reader": "PASS_EXACT_SHA_UNCHANGED_A4_15_OF_15",
-      "Lineage": "COMMITTED_AND_VALIDATED",
-      "P8G": "PASS_10_OF_10",
-      "CommitVerification": "PASS_10_OF_10",
-      "formal": "PROMOTED_AND_LIBRARY_BYTES_READ_BACK"
-    }
-  ],
-  "last_work_reconciled_at": "2026-11-05",
+  "preflight_blocker_matrix": [],
+  "last_work_reconciled_at": "2026-11-06T14:04:33.932Z",
   "public_daily_2026_10_15_download_sha256": "85bf61157397670325c5c7cfb7853e1436f69c99efacad464ceb55678954b00b",
-  "current_derived_views_status": "PASS_13_OF_13_POINTER_PROVENANCE",
+  "current_derived_views_status": "PASS_13_BYTE_EXACT",
   "producer_automation_status": "UNATTENDED_RELIABILITY_NOT_ACCEPTED__2026_10_23_REQUIRED_BOUNDED_INTERACTIVE_RECOVERY__2026_10_24_SCHEDULED_SUCCESS",
   "public_daily_2026_10_16_download_sha256": "5ee3f31227ba541f8e3b79a6045c5f25dd13d9c066322327bbf7354b366896ba",
   "public_daily_2026_10_17_download_sha256": "c5da3880a3439a600d27939eaa94df9cfdaf21687fc640813ca552e8073db5e0",
-  "current_daily": "2026-11-02",
-  "current_weekly": "2026-W43",
+  "current_daily": "2026-11-06",
+  "current_weekly": "2026-W44",
   "public_daily_2026_10_20_download_sha256": "e6451e584fea7e43109aae2553c06c5b7fcfdc7353d6e73f8e03e3e2ecb0b93c",
   "public_weekly_2026_w42_download_sha256": "c240fd90c92fc3f61e54a0fc888c821c369cc0bac67e69ae6169d93f22855132",
-  "github_readback_status": "PASS_CURRENT_PUBLIC_DEPLOYMENT_STATE_LATEST_AND_STATIC_MANIFEST_V83_V110",
+  "github_readback_status": "PASS_CURRENT_FORMAL_FIELDS",
   "site_only_corrective_republish_required": false,
   "site_only_corrective_republish_receipt": {
     "status": "PASS_V106",
@@ -203,1137 +169,30 @@
   "site_prepublication_audit": "PASS_ZERO_BLOCKERS__197_SITE_HTML_190_DOWNLOAD_HTML_186_TXT_186_AUDITED_ZIPS_29616_LINKS",
   "site_failure_stage": null,
   "site_failure_reason": null,
-  "remote_zip_verification": {
-    "status": "PARTIAL_REMOTE_SHA_UNVERIFIED",
-    "count": 181,
-    "expected_count": 186,
-    "unverified": [
-      {
-        "index": 109,
-        "path": "/downloads/daily/2026-07-06/Energy_Intel_daily_2026-07-06_Public.zip",
-        "local_sha256": "21fcd9991e788ca065adf83110516b6fd5406e9191d1264e71f2f08abe5475ee",
-        "stage": "REMOTE_DOWNLOAD_FILE_MATERIALIZATION",
-        "error": "Browser returned download path; corresponding nonempty file unavailable after polling"
-      },
-      {
-        "index": 110,
-        "path": "/downloads/daily/2026-07-05/Energy_Intel_daily_2026-07-05_Public.zip",
-        "local_sha256": "de7d68218935580b050a95e8cbcbfc03937131175dd72b6750fb98e6fcd2aa93",
-        "stage": "REMOTE_DOWNLOAD_FILE_MATERIALIZATION",
-        "error": "Browser returned download path; corresponding nonempty file unavailable after polling"
-      },
-      {
-        "index": 160,
-        "path": "/downloads/weekly/2026-W41/Energy_Intel_weekly_2026-W41_Public.zip",
-        "local_sha256": "5b44d870bda68c43fd5c3c0320612127f9472774e76734e9885e855df0ec997d",
-        "stage": "REMOTE_DOWNLOAD_FILE_MATERIALIZATION",
-        "error": "Browser returned download path; corresponding nonempty file unavailable after polling"
-      },
-      {
-        "index": 181,
-        "path": "/downloads/monthly/2026-07/Energy_Intel_monthly_2026-07_Public.zip",
-        "local_sha256": "82fee60d64a674a977480fb446c318a2ef5f1e1aaa32006c73f5c3d69c8aaa49",
-        "stage": "REMOTE_DOWNLOAD_FILE_MATERIALIZATION",
-        "error": "Browser returned download path; corresponding nonempty file unavailable after polling"
-      },
-      {
-        "index": 182,
-        "path": "/downloads/monthly/2026-06/Energy_Intel_monthly_2026-06_Public.zip",
-        "local_sha256": "b679201ad9243abdd96427507f2c54c65bb7592596a7a4278175692d7f0333b8",
-        "stage": "REMOTE_DOWNLOAD_FILE_MATERIALIZATION",
-        "error": "Browser returned download path; corresponding nonempty file unavailable after polling"
-      }
-    ],
-    "results": [
-      {
-        "path": "/downloads/daily/2026-11-02/Energy_Intel_daily_2026-11-02_Public.zip",
-        "sha256": "dbc114f8d061c0bc60c6f0b5c81f28d8a8c71dc391d2ccd23d528d9642af347c",
-        "remote_byte_match": true,
-        "zip_integrity": "PASS"
-      },
-      {
-        "path": "/downloads/daily/2026-11-01/Energy_Intel_daily_2026-11-01_Public.zip",
-        "sha256": "61ed9961ce667f2449d9bf6b2c07e752ef0a3621f6d96347360d67c8eca7a458",
-        "remote_byte_match": true,
-        "zip_integrity": "PASS"
-      },
-      {
-        "path": "/downloads/daily/2026-10-31/Energy_Intel_daily_2026-10-31_Public.zip",
-        "sha256": "48578ee05cb72c8849c50d0ba76a7639e6d068cfac4d8590f7ef1f0d42b00912",
-        "remote_byte_match": true,
-        "zip_integrity": "PASS"
-      },
-      {
-        "path": "/downloads/daily/2026-10-30/Energy_Intel_daily_2026-10-30_Public.zip",
-        "sha256": "ac31e873abffd9f8570f3342944f402b852ab84400eac975859113ef51fdb7a1",
-        "remote_byte_match": true,
-        "zip_integrity": "PASS"
-      },
-      {
-        "path": "/downloads/daily/2026-10-29/Energy_Intel_daily_2026-10-29_Public.zip",
-        "sha256": "6c3ba242dec303fed477a83a7642868883119376c338c945d1a9800cb9724015",
-        "remote_byte_match": true,
-        "zip_integrity": "PASS"
-      },
-      {
-        "path": "/downloads/daily/2026-10-28/Energy_Intel_daily_2026-10-28_Public.zip",
-        "sha256": "01fb1c75525cc9d06d1032c99094d78f3b0d1aa09fb8ff7342a0d69a9723ea40",
-        "remote_byte_match": true,
-        "zip_integrity": "PASS"
-      },
-      {
-        "path": "/downloads/daily/2026-10-27/Energy_Intel_daily_2026-10-27_Public.zip",
-        "sha256": "1f5f7a5335fdff126d25e1f44be5a740e3e1d54259cdf9a8542b830800b95a0f",
-        "remote_byte_match": true,
-        "zip_integrity": "PASS"
-      },
-      {
-        "path": "/downloads/daily/2026-10-26/Energy_Intel_daily_2026-10-26_Public.zip",
-        "sha256": "5c9946432917202aaa51c9def88ec4e398be3d76625debad1a811ae5bc40bad4",
-        "remote_byte_match": true,
-        "zip_integrity": "PASS"
-      },
-      {
-        "path": "/downloads/daily/2026-10-25/Energy_Intel_daily_2026-10-25_Public.zip",
-        "sha256": "cffbdad07f11d479f743a74339f1cdc4f5dc30916318cedbc88dc4d46e183b7a",
-        "remote_byte_match": true,
-        "zip_integrity": "PASS"
-      },
-      {
-        "path": "/downloads/daily/2026-10-24/Energy_Intel_daily_2026-10-24_Public.zip",
-        "sha256": "ba4eb7c148388230aa68dea2b7fed61a1b2bb0c9b422414b6685fc9dea1e4422",
-        "remote_byte_match": true,
-        "zip_integrity": "PASS"
-      },
-      {
-        "path": "/downloads/daily/2026-10-23/Energy_Intel_daily_2026-10-23_Public.zip",
-        "sha256": "4e323d9bbebcdc9840073f76d4b1482519e21e313ac444a01928e02bb91227d1",
-        "remote_byte_match": true,
-        "zip_integrity": "PASS"
-      },
-      {
-        "path": "/downloads/daily/2026-10-22/Energy_Intel_daily_2026-10-22_Public.zip",
-        "sha256": "991584509b1e742df7f48e61dc412ef9053b19e599d02329bb84c1771576c79c",
-        "remote_byte_match": true,
-        "zip_integrity": "PASS"
-      },
-      {
-        "path": "/downloads/daily/2026-10-21/Energy_Intel_daily_2026-10-21_Public.zip",
-        "sha256": "69e5ede258a97fe4bf7097d842bf000d903466c8664d1a1b5f8e9590d1b2fc94",
-        "remote_byte_match": true,
-        "zip_integrity": "PASS"
-      },
-      {
-        "path": "/downloads/daily/2026-10-20/Energy_Intel_daily_2026-10-20_Public.zip",
-        "sha256": "e6451e584fea7e43109aae2553c06c5b7fcfdc7353d6e73f8e03e3e2ecb0b93c",
-        "remote_byte_match": true,
-        "zip_integrity": "PASS"
-      },
-      {
-        "path": "/downloads/daily/2026-10-19/Energy_Intel_daily_2026-10-19_Public.zip",
-        "sha256": "93aa7fb0d1d47c2739a0c5f7526373e5d9efb9de4cd0ee45d5eec417f45f8ac2",
-        "remote_byte_match": true,
-        "zip_integrity": "PASS"
-      },
-      {
-        "path": "/downloads/daily/2026-10-18/Energy_Intel_daily_2026-10-18_Public.zip",
-        "sha256": "e7a70ac2150902c95afdb57c695086f8dab4a2498802096f4f6440bbe9fd6d18",
-        "remote_byte_match": true,
-        "zip_integrity": "PASS"
-      },
-      {
-        "path": "/downloads/daily/2026-10-17/Energy_Intel_daily_2026-10-17_Public.zip",
-        "sha256": "c5da3880a3439a600d27939eaa94df9cfdaf21687fc640813ca552e8073db5e0",
-        "remote_byte_match": true,
-        "zip_integrity": "PASS"
-      },
-      {
-        "path": "/downloads/daily/2026-10-16/Energy_Intel_daily_2026-10-16_Public.zip",
-        "sha256": "5ee3f31227ba541f8e3b79a6045c5f25dd13d9c066322327bbf7354b366896ba",
-        "remote_byte_match": true,
-        "zip_integrity": "PASS"
-      },
-      {
-        "path": "/downloads/daily/2026-10-15/Energy_Intel_daily_2026-10-15_Public.zip",
-        "sha256": "85bf61157397670325c5c7cfb7853e1436f69c99efacad464ceb55678954b00b",
-        "remote_byte_match": true,
-        "zip_integrity": "PASS"
-      },
-      {
-        "path": "/downloads/daily/2026-10-14/Energy_Intel_daily_2026-10-14_Public.zip",
-        "sha256": "7198e935f91376c06aad940c241be3066617a338a4e6977e3edacd42295927fd",
-        "remote_byte_match": true,
-        "zip_integrity": "PASS"
-      },
-      {
-        "path": "/downloads/daily/2026-10-12/Energy_Intel_daily_2026-10-12_Public.zip",
-        "sha256": "bf2267588d49af4170d2f573dd99155aa12247515fdebbf96a9ca30733c9f929",
-        "remote_byte_match": true,
-        "zip_integrity": "PASS"
-      },
-      {
-        "path": "/downloads/daily/2026-10-11/Energy_Intel_daily_2026-10-11_Public.zip",
-        "sha256": "959ed64284ff01a74e1f3a2ea7fc2f33f26acf4d23c70986612625c8a260ccbd",
-        "remote_byte_match": true,
-        "zip_integrity": "PASS"
-      },
-      {
-        "path": "/downloads/daily/2026-10-10/Energy_Intel_daily_2026-10-10_Public.zip",
-        "sha256": "0cc591e11f470276e934d816fc62675bca7ce5388de092816557da4049787f9e",
-        "remote_byte_match": true,
-        "zip_integrity": "PASS"
-      },
-      {
-        "path": "/downloads/daily/2026-10-09/Energy_Intel_daily_2026-10-09_Public.zip",
-        "sha256": "9b5d6671f9a5d1756a4203d306f979f55747c2cac2d94f79d3cb43b55c090c37",
-        "remote_byte_match": true,
-        "zip_integrity": "PASS"
-      },
-      {
-        "path": "/downloads/daily/2026-10-08/Energy_Intel_daily_2026-10-08_Public.zip",
-        "sha256": "92a6bb5f6ee9e644757a6d5a071979c094bafdcb2dbce916e054f95d831b8950",
-        "remote_byte_match": true,
-        "zip_integrity": "PASS"
-      },
-      {
-        "path": "/downloads/daily/2026-10-07/Energy_Intel_daily_2026-10-07_Public.zip",
-        "sha256": "5362692d59168811edff91c4c227f9e98a48750ba4a54987b22663487f8cebef",
-        "remote_byte_match": true,
-        "zip_integrity": "PASS"
-      },
-      {
-        "path": "/downloads/daily/2026-10-06/Energy_Intel_daily_2026-10-06_Public.zip",
-        "sha256": "3751d9d35212815497ea5e04abf95a3379ff90fd27c9a72d0446f0e58de83a74",
-        "remote_byte_match": true,
-        "zip_integrity": "PASS"
-      },
-      {
-        "path": "/downloads/daily/2026-10-05/Energy_Intel_daily_2026-10-05_Public.zip",
-        "sha256": "ef5b8a3deb34ca41b3818f396657a10fe3dbe9c382c24ded1c69fd431652b586",
-        "remote_byte_match": true,
-        "zip_integrity": "PASS"
-      },
-      {
-        "path": "/downloads/daily/2026-10-04/Energy_Intel_daily_2026-10-04_Public.zip",
-        "sha256": "e34a69cb519d7db802c80f20e56387358953f22667d170bd7136982150568f78",
-        "remote_byte_match": true,
-        "zip_integrity": "PASS"
-      },
-      {
-        "path": "/downloads/daily/2026-10-03/Energy_Intel_daily_2026-10-03_Public.zip",
-        "sha256": "c2265d151ea1a6882924c2f3b2349849afbfd06368835c76e08465c20ae463e7",
-        "remote_byte_match": true,
-        "zip_integrity": "PASS"
-      },
-      {
-        "path": "/downloads/daily/2026-10-02/Energy_Intel_daily_2026-10-02_Public.zip",
-        "sha256": "9a45fcf57e9048c524ab0f1ebdbb547a6eeb34fbe23821f5cf43e252c4ed9237",
-        "remote_byte_match": true,
-        "zip_integrity": "PASS"
-      },
-      {
-        "path": "/downloads/daily/2026-10-01/Energy_Intel_daily_2026-10-01_Public.zip",
-        "sha256": "98851fc1d8897fd2402c53b9e457a31e1cbc4136c48f4c2f58b5574289e18725",
-        "remote_byte_match": true,
-        "zip_integrity": "PASS"
-      },
-      {
-        "path": "/downloads/daily/2026-09-30/Energy_Intel_daily_2026-09-30_Public.zip",
-        "sha256": "c9cb876285ccf713b651bfc8b551c2fad8525e7149979fc6388ceb507724014d",
-        "remote_byte_match": true,
-        "zip_integrity": "PASS"
-      },
-      {
-        "path": "/downloads/daily/2026-09-29/Energy_Intel_daily_2026-09-29_Public.zip",
-        "sha256": "fe3afdffbf4ee29ebe245aa4e06af2a366fa6d34d45a096b9465a010060399f7",
-        "remote_byte_match": true,
-        "zip_integrity": "PASS"
-      },
-      {
-        "path": "/downloads/daily/2026-09-28/Energy_Intel_daily_2026-09-28_Public.zip",
-        "sha256": "29b86d1ae7f99af2bdbaee318c6f39e8c83f971a6b0e4793157a3f7d3d020e16",
-        "remote_byte_match": true,
-        "zip_integrity": "PASS"
-      },
-      {
-        "path": "/downloads/daily/2026-09-27/Energy_Intel_daily_2026-09-27_Public.zip",
-        "sha256": "357cea9ba4475f31b051f9c6e221e012b714f19f110d26ae4f2c4449f31f0d91",
-        "remote_byte_match": true,
-        "zip_integrity": "PASS"
-      },
-      {
-        "path": "/downloads/daily/2026-09-26/Energy_Intel_daily_2026-09-26_Public.zip",
-        "sha256": "32a5e0f3602374e0e03d3a5545df7cc9efacb110d4d49f1d155f51873e8f9eca",
-        "remote_byte_match": true,
-        "zip_integrity": "PASS"
-      },
-      {
-        "path": "/downloads/daily/2026-09-25/Energy_Intel_daily_2026-09-25_Public.zip",
-        "sha256": "3751ca19db9b690c9b9ac15f1314431df8b0cc1fc32f5d120107a20a731fc281",
-        "remote_byte_match": true,
-        "zip_integrity": "PASS"
-      },
-      {
-        "path": "/downloads/daily/2026-09-24/Energy_Intel_daily_2026-09-24_Public.zip",
-        "sha256": "e47f9bf6e2943c45737d24bf73f22f50e769cd8ef2fdcd9e728d7f4b668661ca",
-        "remote_byte_match": true,
-        "zip_integrity": "PASS"
-      },
-      {
-        "path": "/downloads/daily/2026-09-23/Energy_Intel_daily_2026-09-23_Public.zip",
-        "sha256": "88de54c1a654f3cdd02bbe9054f10640380fdaca5a13051b4ff821c8c149d611",
-        "remote_byte_match": true,
-        "zip_integrity": "PASS"
-      },
-      {
-        "path": "/downloads/daily/2026-09-22/Energy_Intel_daily_2026-09-22_Public.zip",
-        "sha256": "fef6d1aec3837a3bc27cfd128d6275399dd4018a60da8d2c9b78c73ea2154099",
-        "remote_byte_match": true,
-        "zip_integrity": "PASS"
-      },
-      {
-        "path": "/downloads/daily/2026-09-21/Energy_Intel_daily_2026-09-21_Public.zip",
-        "sha256": "27b6fa3e785d223fb7320700c34b7cff57bec100d16e578ea2cbd43e95a551b3",
-        "remote_byte_match": true,
-        "zip_integrity": "PASS"
-      },
-      {
-        "path": "/downloads/daily/2026-09-20/Energy_Intel_daily_2026-09-20_Public.zip",
-        "sha256": "d47c14241d66a6ff8ef25b8672c23926ffeae0d503556826f8a310f3010cf034",
-        "remote_byte_match": true,
-        "zip_integrity": "PASS"
-      },
-      {
-        "path": "/downloads/daily/2026-09-19/Energy_Intel_daily_2026-09-19_Public.zip",
-        "sha256": "b5642917fd66d7e5b8e678dafc616db18fb9bb4ce1145e2b6ed15d1ea088b174",
-        "remote_byte_match": true,
-        "zip_integrity": "PASS"
-      },
-      {
-        "path": "/downloads/daily/2026-09-18/Energy_Intel_daily_2026-09-18_Public.zip",
-        "sha256": "c0a93efdc5f2d0b44391a47a2883bab253f28d1d0049819d868b3f5819ac82c7",
-        "remote_byte_match": true,
-        "zip_integrity": "PASS"
-      },
-      {
-        "path": "/downloads/daily/2026-09-17/Energy_Intel_daily_2026-09-17_Public.zip",
-        "sha256": "baf20f6985c0a771ea1015825a0308c937b33015a9d1ee85fd25b34d01753066",
-        "remote_byte_match": true,
-        "zip_integrity": "PASS"
-      },
-      {
-        "path": "/downloads/daily/2026-09-16/Energy_Intel_daily_2026-09-16_Public.zip",
-        "sha256": "f4726db19d5f95c64bd41cb2f98b9b4d4bd58707cc6769c6d3c35eb5d6a6effa",
-        "remote_byte_match": true,
-        "zip_integrity": "PASS"
-      },
-      {
-        "path": "/downloads/daily/2026-09-15/Energy_Intel_daily_2026-09-15_Public.zip",
-        "sha256": "bc4f4ff954ae33dc7694af85feb177f8ac19200385f14dcfb6ae4b483abb10c9",
-        "remote_byte_match": true,
-        "zip_integrity": "PASS"
-      },
-      {
-        "path": "/downloads/daily/2026-09-14/Energy_Intel_daily_2026-09-14_Public.zip",
-        "sha256": "5016b88df72730d56fd867a630610b0c939e99c0126ac60f84b504ade5f3976a",
-        "remote_byte_match": true,
-        "zip_integrity": "PASS"
-      },
-      {
-        "path": "/downloads/daily/2026-09-13/Energy_Intel_daily_2026-09-13_Public.zip",
-        "sha256": "6431de11faf8cc551fc4646e2e640a4a58c24c86c47be006ea70a5123e0e77b2",
-        "remote_byte_match": true,
-        "zip_integrity": "PASS"
-      },
-      {
-        "path": "/downloads/daily/2026-09-12/Energy_Intel_daily_2026-09-12_Public.zip",
-        "sha256": "49584031df3e0158eedf047e3fb13673a7a6229048480c4ee92450e82fc77312",
-        "remote_byte_match": true,
-        "zip_integrity": "PASS"
-      },
-      {
-        "path": "/downloads/daily/2026-09-11/Energy_Intel_daily_2026-09-11_Public.zip",
-        "sha256": "56d35ef6f2264d1aa37c35029d1fb0173527f6abbb4b386b404074743b00d2f9",
-        "remote_byte_match": true,
-        "zip_integrity": "PASS"
-      },
-      {
-        "path": "/downloads/daily/2026-09-10/Energy_Intel_daily_2026-09-10_Public.zip",
-        "sha256": "eb0898c5af24910fbafd7bef1d350b17b324d4f887123fa7b8ca3ac70e7e24e0",
-        "remote_byte_match": true,
-        "zip_integrity": "PASS"
-      },
-      {
-        "path": "/downloads/daily/2026-09-09/Energy_Intel_daily_2026-09-09_Public.zip",
-        "sha256": "16ffb82df8a8f744ccd7334c12af7e9f88ecd2008cc85ce75ddae538f2e5788a",
-        "remote_byte_match": true,
-        "zip_integrity": "PASS"
-      },
-      {
-        "path": "/downloads/daily/2026-09-08/Energy_Intel_daily_2026-09-08_Public.zip",
-        "sha256": "3d0ad31db86e71df7050abccbb4e4001cc1d4a1ae7de3b1e4e45a3fb92097b4f",
-        "remote_byte_match": true,
-        "zip_integrity": "PASS"
-      },
-      {
-        "path": "/downloads/daily/2026-09-07/Energy_Intel_daily_2026-09-07_Public.zip",
-        "sha256": "73e50bc759b9ad76bcdf8b2debe5c4be5f90a91d673bc46e0e0372f720b282d7",
-        "remote_byte_match": true,
-        "zip_integrity": "PASS"
-      },
-      {
-        "path": "/downloads/daily/2026-08-31/Energy_Intel_daily_2026-08-31_Public.zip",
-        "sha256": "e3bd02a1c63f8815e936974429fad137d1696b9792286f94dd0e9470b041f0ce",
-        "remote_byte_match": true,
-        "zip_integrity": "PASS"
-      },
-      {
-        "path": "/downloads/daily/2026-08-30/Energy_Intel_daily_2026-08-30_Public.zip",
-        "sha256": "3269071fabe9327a3684a75da9ccd5045f293b0517b09ae56c741cafef42f4ab",
-        "remote_byte_match": true,
-        "zip_integrity": "PASS"
-      },
-      {
-        "path": "/downloads/daily/2026-08-29/Energy_Intel_daily_2026-08-29_Public.zip",
-        "sha256": "c1e8288b9baf1050d2934a49cdcf56fc3e24164497beab5cccf538034feb3434",
-        "remote_byte_match": true,
-        "zip_integrity": "PASS"
-      },
-      {
-        "path": "/downloads/daily/2026-08-28/Energy_Intel_daily_2026-08-28_Public.zip",
-        "sha256": "275d2bf7d9eb8f5ee9352e6f52a675790eb3b28412fbb801d19e53380fb55ce7",
-        "remote_byte_match": true,
-        "zip_integrity": "PASS"
-      },
-      {
-        "path": "/downloads/daily/2026-08-27/Energy_Intel_daily_2026-08-27_Public.zip",
-        "sha256": "19c0e678c43a91452de9b3c36fccf5d0442c5936ddb1fe4326a963816e35f400",
-        "remote_byte_match": true,
-        "zip_integrity": "PASS"
-      },
-      {
-        "path": "/downloads/daily/2026-08-26/Energy_Intel_daily_2026-08-26_Public.zip",
-        "sha256": "97b868a2179f0a87a5684a9dbd19ef6604281b33879bb61cdaddbb2de2764df3",
-        "remote_byte_match": true,
-        "zip_integrity": "PASS"
-      },
-      {
-        "path": "/downloads/daily/2026-08-25/Energy_Intel_daily_2026-08-25_Public.zip",
-        "sha256": "f7447cea70e94417620d9e32dcd241cffc235faef12958dd56692e6eec3e43d3",
-        "remote_byte_match": true,
-        "zip_integrity": "PASS"
-      },
-      {
-        "path": "/downloads/daily/2026-08-24/Energy_Intel_daily_2026-08-24_Public.zip",
-        "sha256": "fddb7d683bf24ae2721bbcc11e49675c62cd544ef6aae0d97b5bac6cfe21979d",
-        "remote_byte_match": true,
-        "zip_integrity": "PASS"
-      },
-      {
-        "path": "/downloads/daily/2026-08-23/Energy_Intel_daily_2026-08-23_Public.zip",
-        "sha256": "f0de40ae59fb980ee652d98ea0d1324a36606b5324fd8125a54574cedc626413",
-        "remote_byte_match": true,
-        "zip_integrity": "PASS"
-      },
-      {
-        "path": "/downloads/daily/2026-08-22/Energy_Intel_daily_2026-08-22_Public.zip",
-        "sha256": "d2f413044ffb8e1ad9c369490cae59b73365394245437d80fff4d67ae1a024a6",
-        "remote_byte_match": true,
-        "zip_integrity": "PASS"
-      },
-      {
-        "path": "/downloads/daily/2026-08-21/Energy_Intel_daily_2026-08-21_Public.zip",
-        "sha256": "ae1cf7e284fcfd2713ec7a5de52363cb9e0beec1feef646ab5f44a59e919498c",
-        "remote_byte_match": true,
-        "zip_integrity": "PASS"
-      },
-      {
-        "path": "/downloads/daily/2026-08-20/Energy_Intel_daily_2026-08-20_Public.zip",
-        "sha256": "0e064bae0c4c51f0383e2d19722b58fc00dd2692c2cccaba2d9ebfa0b6531710",
-        "remote_byte_match": true,
-        "zip_integrity": "PASS"
-      },
-      {
-        "path": "/downloads/daily/2026-08-16/Energy_Intel_daily_2026-08-16_Public.zip",
-        "sha256": "2ba4a7d3e5a836c74260b6ccd5cfe11854bad4b0254f77704aab1339cc30f365",
-        "remote_byte_match": true,
-        "zip_integrity": "PASS"
-      },
-      {
-        "path": "/downloads/daily/2026-08-15/Energy_Intel_daily_2026-08-15_Public.zip",
-        "sha256": "6e42eca7126a8d2a9763bdc913b02972bfaa8eb3284c2aac4facf6cdd27f08a7",
-        "remote_byte_match": true,
-        "zip_integrity": "PASS"
-      },
-      {
-        "path": "/downloads/daily/2026-08-14/Energy_Intel_daily_2026-08-14_Public.zip",
-        "sha256": "3c3a23bf11817f28e9f71a27661b81a4b6e7c2cbec2a71606c5034ef88b48ff1",
-        "remote_byte_match": true,
-        "zip_integrity": "PASS"
-      },
-      {
-        "path": "/downloads/daily/2026-08-13/Energy_Intel_daily_2026-08-13_Public.zip",
-        "sha256": "182ace22d0b4d4d6a02e4356671b129e391015abe998e905b469aac714e144b9",
-        "remote_byte_match": true,
-        "zip_integrity": "PASS"
-      },
-      {
-        "path": "/downloads/daily/2026-08-12/Energy_Intel_daily_2026-08-12_Public.zip",
-        "sha256": "7b885f6421c449208ccdcf49118afe9e9b7f5b17f4376d773c4c39e40a3319fd",
-        "remote_byte_match": true,
-        "zip_integrity": "PASS"
-      },
-      {
-        "path": "/downloads/daily/2026-08-11/Energy_Intel_daily_2026-08-11_Public.zip",
-        "sha256": "8d2843a626881216d94cb8c702dfae5703ef92d0f0f2a71f1b86124988187d85",
-        "remote_byte_match": true,
-        "zip_integrity": "PASS"
-      },
-      {
-        "path": "/downloads/daily/2026-08-10/Energy_Intel_daily_2026-08-10_Public.zip",
-        "sha256": "44b6e2960476b3a9a229bc43dc0cb75ffa007c451a0be3bcbe2b5cb94687f271",
-        "remote_byte_match": true,
-        "zip_integrity": "PASS"
-      },
-      {
-        "path": "/downloads/daily/2026-08-09/Energy_Intel_daily_2026-08-09_Public.zip",
-        "sha256": "e2dd512379d7d337c3c27c14d5358c64154582f8facf52e4070091b336bb9d4f",
-        "remote_byte_match": true,
-        "zip_integrity": "PASS"
-      },
-      {
-        "path": "/downloads/daily/2026-08-08/Energy_Intel_daily_2026-08-08_Public.zip",
-        "sha256": "f608817a05d4b3438e12876e245f799cace17d32079888456335df67de46e313",
-        "remote_byte_match": true,
-        "zip_integrity": "PASS"
-      },
-      {
-        "path": "/downloads/daily/2026-08-07/Energy_Intel_daily_2026-08-07_Public.zip",
-        "sha256": "5efbbbc9ffe7fc882c36bb71ae97b230a082e1fb5c3cc51daa0ebfe21a10537c",
-        "remote_byte_match": true,
-        "zip_integrity": "PASS"
-      },
-      {
-        "path": "/downloads/daily/2026-08-06/Energy_Intel_daily_2026-08-06_Public.zip",
-        "sha256": "3e17246d81084f3253496cde488876481561c8c98e5d6e03c25f5c2ebca2dfa7",
-        "remote_byte_match": true,
-        "zip_integrity": "PASS"
-      },
-      {
-        "path": "/downloads/daily/2026-08-05/Energy_Intel_daily_2026-08-05_Public.zip",
-        "sha256": "b80467afa50fb51044683a21d346b9a168762cb58f0da12321274dca427e9068",
-        "remote_byte_match": true,
-        "zip_integrity": "PASS"
-      },
-      {
-        "path": "/downloads/daily/2026-08-04/Energy_Intel_daily_2026-08-04_Public.zip",
-        "sha256": "1e94dbeac488dcab50b216b844384230ba6878e3088ef5df537a388a43c10b63",
-        "remote_byte_match": true,
-        "zip_integrity": "PASS"
-      },
-      {
-        "path": "/downloads/daily/2026-08-03/Energy_Intel_daily_2026-08-03_Public.zip",
-        "sha256": "210914304d0b7c2ae5e004ae41641232f959523bc83719ac1304fc8a54895c8a",
-        "remote_byte_match": true,
-        "zip_integrity": "PASS"
-      },
-      {
-        "path": "/downloads/daily/2026-08-02/Energy_Intel_daily_2026-08-02_Public.zip",
-        "sha256": "ca257982c221aa04327fcece60bf1a71970c89567af4b4559512052cf7183611",
-        "remote_byte_match": true,
-        "zip_integrity": "PASS"
-      },
-      {
-        "path": "/downloads/daily/2026-08-01/Energy_Intel_daily_2026-08-01_Public.zip",
-        "sha256": "ec03001faacd3c4839fd1c0619d4fe2dfd954f991511aab1c21f4f396d079397",
-        "remote_byte_match": true,
-        "zip_integrity": "PASS"
-      },
-      {
-        "path": "/downloads/daily/2026-07-31/Energy_Intel_daily_2026-07-31_Public.zip",
-        "sha256": "fb5c2ccd4750eb3e5fdaa946054d1ca44fb01b29195ab9b46af5863caecae764",
-        "remote_byte_match": true,
-        "zip_integrity": "PASS"
-      },
-      {
-        "path": "/downloads/daily/2026-07-30/Energy_Intel_daily_2026-07-30_Public.zip",
-        "sha256": "1c25bdab48bb6e34acdea76686f0b98a6d0d947831dceb751a2487935ee7a23e",
-        "remote_byte_match": true,
-        "zip_integrity": "PASS"
-      },
-      {
-        "path": "/downloads/daily/2026-07-29/Energy_Intel_daily_2026-07-29_Public.zip",
-        "sha256": "da7e3be969e32957fe0970acac1e964d7a638db19a4f97c84a37d22390e2e573",
-        "remote_byte_match": true,
-        "zip_integrity": "PASS"
-      },
-      {
-        "path": "/downloads/daily/2026-07-28/Energy_Intel_daily_2026-07-28_Public.zip",
-        "sha256": "b91c00e997f642fae69291d83e67ad9e47f1e8fa1b5d46238ef8900754f9dadd",
-        "remote_byte_match": true,
-        "zip_integrity": "PASS"
-      },
-      {
-        "path": "/downloads/daily/2026-07-27/Energy_Intel_daily_2026-07-27_Public.zip",
-        "sha256": "910a4b5abc3f15491fa8f5cd25bca8c10661d7063b8e7d70a4a24d7926bcc3a2",
-        "remote_byte_match": true,
-        "zip_integrity": "PASS"
-      },
-      {
-        "path": "/downloads/daily/2026-07-26/Energy_Intel_daily_2026-07-26_Public.zip",
-        "sha256": "ad5ae9983c53b5c05f41e07fe55f23c142253269aa672aca3b47f274ed49f5de",
-        "remote_byte_match": true,
-        "zip_integrity": "PASS"
-      },
-      {
-        "path": "/downloads/daily/2026-07-25/Energy_Intel_daily_2026-07-25_Public.zip",
-        "sha256": "fe471b5e123bdea8a1cec2987dc8adaaf403a92d2f27ba9548fa88bca896636d",
-        "remote_byte_match": true,
-        "zip_integrity": "PASS"
-      },
-      {
-        "path": "/downloads/daily/2026-07-24/Energy_Intel_daily_2026-07-24_Public.zip",
-        "sha256": "8d4a85cd6adbbdfceffdf9af96f32e3810cb5af44a15e8ec55ad51d1094848ea",
-        "remote_byte_match": true,
-        "zip_integrity": "PASS"
-      },
-      {
-        "path": "/downloads/daily/2026-07-23/Energy_Intel_daily_2026-07-23_Public.zip",
-        "sha256": "ba229f8aeae64837fcbf23d01d743a8ae48e6da3eb07fd94f5c20a5e6a0baf4a",
-        "remote_byte_match": true,
-        "zip_integrity": "PASS"
-      },
-      {
-        "path": "/downloads/daily/2026-07-22/Energy_Intel_daily_2026-07-22_Public.zip",
-        "sha256": "901c79962787a2118181a76d130ff3a28e548ace27de40e5f1b9d5eb6e9b1a92",
-        "remote_byte_match": true,
-        "zip_integrity": "PASS"
-      },
-      {
-        "path": "/downloads/daily/2026-07-21/Energy_Intel_daily_2026-07-21_Public.zip",
-        "sha256": "5c05c53939feec19af6d1cc46ecef280ff03131f769e13e99d995dd3940bf4bb",
-        "remote_byte_match": true,
-        "zip_integrity": "PASS"
-      },
-      {
-        "path": "/downloads/daily/2026-07-20/Energy_Intel_daily_2026-07-20_Public.zip",
-        "sha256": "42ecd839197137f68928f31274b6363edc41fb25da0338f8c1484bc62665756c",
-        "remote_byte_match": true,
-        "zip_integrity": "PASS"
-      },
-      {
-        "path": "/downloads/daily/2026-07-19/Energy_Intel_daily_2026-07-19_Public.zip",
-        "sha256": "620be868bd74da51b7da3c6f64b4f3690034fc335f3e7ff500c17bbcb4ef941c",
-        "remote_byte_match": true,
-        "zip_integrity": "PASS"
-      },
-      {
-        "path": "/downloads/daily/2026-07-18/Energy_Intel_daily_2026-07-18_Public.zip",
-        "sha256": "2112a33c351212d993e23de59904dee2ff51a568c05ac1e160f58d1fd6c78915",
-        "remote_byte_match": true,
-        "zip_integrity": "PASS"
-      },
-      {
-        "path": "/downloads/daily/2026-07-17/Energy_Intel_daily_2026-07-17_Public.zip",
-        "sha256": "56d9ad90397663390d4fe8a0f837ff3d0e53ed7bf540a847dc97144a8fd308d8",
-        "remote_byte_match": true,
-        "zip_integrity": "PASS"
-      },
-      {
-        "path": "/downloads/daily/2026-07-16/Energy_Intel_daily_2026-07-16_Public.zip",
-        "sha256": "86cb9898e4cbab23a003ffda14bc30e993501ba04bbd520136e153e01bade992",
-        "remote_byte_match": true,
-        "zip_integrity": "PASS"
-      },
-      {
-        "path": "/downloads/daily/2026-07-15/Energy_Intel_daily_2026-07-15_Public.zip",
-        "sha256": "b4fbf93d53511247e1b8425a3ea34db2637b3f34a61ef89a68461b995f4a243c",
-        "remote_byte_match": true,
-        "zip_integrity": "PASS"
-      },
-      {
-        "path": "/downloads/daily/2026-07-14/Energy_Intel_daily_2026-07-14_Public.zip",
-        "sha256": "7a682cc4b02ed1aa679aa6a7e1e516f7cba709620b746ac2198cee022d7a5198",
-        "remote_byte_match": true,
-        "zip_integrity": "PASS"
-      },
-      {
-        "path": "/downloads/daily/2026-07-13/Energy_Intel_daily_2026-07-13_Public.zip",
-        "sha256": "42a8b7f6c3320ad7dc7e8346df988e3020945d7172e3d6206118ac83f288afb9",
-        "remote_byte_match": true,
-        "zip_integrity": "PASS"
-      },
-      {
-        "path": "/downloads/daily/2026-07-12/Energy_Intel_daily_2026-07-12_Public.zip",
-        "sha256": "94527c657e0f8c4e39a6ed57380015627cba1ad5eadd1bab9cc3cdf9b54ce9ab",
-        "remote_byte_match": true,
-        "zip_integrity": "PASS"
-      },
-      {
-        "path": "/downloads/daily/2026-07-11/Energy_Intel_daily_2026-07-11_Public.zip",
-        "sha256": "b5097d25cc0932407954d7f2176b34472fa71627386e9cf9fe85d68bb02be08d",
-        "remote_byte_match": true,
-        "zip_integrity": "PASS"
-      },
-      {
-        "path": "/downloads/daily/2026-07-10/Energy_Intel_daily_2026-07-10_Public.zip",
-        "sha256": "1b1e26dd92e40c45c328d4f00109772ad33449ec358c7ae0b67578b0aed1a6df",
-        "remote_byte_match": true,
-        "zip_integrity": "PASS"
-      },
-      {
-        "path": "/downloads/daily/2026-07-09/Energy_Intel_daily_2026-07-09_Public.zip",
-        "sha256": "288d18ea4260706bbc197d1aed4354d8a2f743d32356bbc7ac343b2216181861",
-        "remote_byte_match": true,
-        "zip_integrity": "PASS"
-      },
-      {
-        "path": "/downloads/daily/2026-07-08/Energy_Intel_daily_2026-07-08_Public.zip",
-        "sha256": "e942e7b3dff5e2e2b685e8eb5830b690e7855edad60e43db8afe21c8ee242a49",
-        "remote_byte_match": true,
-        "zip_integrity": "PASS"
-      },
-      {
-        "path": "/downloads/daily/2026-07-07/Energy_Intel_daily_2026-07-07_Public.zip",
-        "sha256": "79f51dd9ec9813c7eecf78a7f359e8cbf39731a4e2006ac063213d5b787c48be",
-        "remote_byte_match": true,
-        "zip_integrity": "PASS"
-      },
-      {
-        "path": "/downloads/daily/2026-07-04/Energy_Intel_daily_2026-07-04_Public.zip",
-        "sha256": "fc3badea568f3e4ede1398b8688fc53581b2a0a233b4803fc485942bf3170bc1",
-        "remote_byte_match": true,
-        "zip_integrity": "PASS"
-      },
-      {
-        "path": "/downloads/daily/2026-07-03/Energy_Intel_daily_2026-07-03_Public.zip",
-        "sha256": "e32de75461fd4fb5e6d25611e5e5eb7e118c2ce40dcb73250a1bed2638055d1f",
-        "remote_byte_match": true,
-        "zip_integrity": "PASS"
-      },
-      {
-        "path": "/downloads/daily/2026-07-02/Energy_Intel_daily_2026-07-02_Public.zip",
-        "sha256": "e58034a29f9fa4c9ccc299706292869ac28c868c0e74790467791679f43b80a6",
-        "remote_byte_match": true,
-        "zip_integrity": "PASS"
-      },
-      {
-        "path": "/downloads/daily/2026-07-01/Energy_Intel_daily_2026-07-01_Public.zip",
-        "sha256": "d6ef599f03bc743a03fb71a06ee9965453a21fafc1ffbf7a476e6c9976da725c",
-        "remote_byte_match": true,
-        "zip_integrity": "PASS"
-      },
-      {
-        "path": "/downloads/daily/2026-06-30/Energy_Intel_daily_2026-06-30_Public.zip",
-        "sha256": "dcf5a1ea5383750c917146c415b74b13bf95f533aef2d9530f21174cb786dfcd",
-        "remote_byte_match": true,
-        "zip_integrity": "PASS"
-      },
-      {
-        "path": "/downloads/daily/2026-06-28/Energy_Intel_daily_2026-06-28_Public.zip",
-        "sha256": "62f6c7557521aa31a04739ac7e604223c1f593c61c41947e2f441bc96c26f464",
-        "remote_byte_match": true,
-        "zip_integrity": "PASS"
-      },
-      {
-        "path": "/downloads/daily/2026-06-27/Energy_Intel_daily_2026-06-27_Public.zip",
-        "sha256": "0af5dff0ee86a7c220c5f641298962552230958b840c14a899a9782317813a24",
-        "remote_byte_match": true,
-        "zip_integrity": "PASS"
-      },
-      {
-        "path": "/downloads/daily/2026-06-26/Energy_Intel_daily_2026-06-26_Public.zip",
-        "sha256": "41860e3656dd42891c738fd192f9beb9030e31d4742f69d3cac52445c356815a",
-        "remote_byte_match": true,
-        "zip_integrity": "PASS"
-      },
-      {
-        "path": "/downloads/daily/2026-06-25/Energy_Intel_daily_2026-06-25_Public.zip",
-        "sha256": "3f287501441e68b1d6bdca9543f44b58e8b0e98f737398cd72dc7a7aba2858fe",
-        "remote_byte_match": true,
-        "zip_integrity": "PASS"
-      },
-      {
-        "path": "/downloads/daily/2026-06-24/Energy_Intel_daily_2026-06-24_Public.zip",
-        "sha256": "a55e0f6e3753239a222c2bede8a6b2fc9167ab01968a33180fbaab247907cde2",
-        "remote_byte_match": true,
-        "zip_integrity": "PASS"
-      },
-      {
-        "path": "/downloads/daily/2026-06-23/Energy_Intel_daily_2026-06-23_Public.zip",
-        "sha256": "6efb11dbbdc4b0d329f96e069dec982d1837d9ce1560d7889388efd80b485d65",
-        "remote_byte_match": true,
-        "zip_integrity": "PASS"
-      },
-      {
-        "path": "/downloads/daily/2026-06-22/Energy_Intel_daily_2026-06-22_Public.zip",
-        "sha256": "d95486ac5c4e7a0f71b267ffca4f0131e99fd0656111a0c0285922462a62ff3a",
-        "remote_byte_match": true,
-        "zip_integrity": "PASS"
-      },
-      {
-        "path": "/downloads/daily/2026-06-21/Energy_Intel_daily_2026-06-21_Public.zip",
-        "sha256": "eb919ceff2b64dd42c87f1f182d90c120129025de1966c0335a4f29321da017d",
-        "remote_byte_match": true,
-        "zip_integrity": "PASS"
-      },
-      {
-        "path": "/downloads/daily/2026-06-20/Energy_Intel_daily_2026-06-20_Public.zip",
-        "sha256": "f80cddec5e4c1f3c7dcfc12911bcf9b6dd3ee6b15fba69d8902f20c24cddb940",
-        "remote_byte_match": true,
-        "zip_integrity": "PASS"
-      },
-      {
-        "path": "/downloads/daily/2026-06-19/Energy_Intel_daily_2026-06-19_Public.zip",
-        "sha256": "b7662a7318953cbc5f64caffd90a8f56252d974ed250ba115319373d71f56983",
-        "remote_byte_match": true,
-        "zip_integrity": "PASS"
-      },
-      {
-        "path": "/downloads/daily/2026-06-18/Energy_Intel_daily_2026-06-18_Public.zip",
-        "sha256": "2d483f61e105a61ba8776fcdcabbd2bea49380742af30e9eb9773584e3c28fca",
-        "remote_byte_match": true,
-        "zip_integrity": "PASS"
-      },
-      {
-        "path": "/downloads/daily/2026-06-17/Energy_Intel_daily_2026-06-17_Public.zip",
-        "sha256": "0dc04464f3c9a78d689466952e70405ec197709c2b97d24f9e283291fe276a55",
-        "remote_byte_match": true,
-        "zip_integrity": "PASS"
-      },
-      {
-        "path": "/downloads/daily/2026-06-16/Energy_Intel_daily_2026-06-16_Public.zip",
-        "sha256": "29416ca5ad4dc439356dcbd882b45a489f331b9c11bab3361e2a125267f47672",
-        "remote_byte_match": true,
-        "zip_integrity": "PASS"
-      },
-      {
-        "path": "/downloads/daily/2026-06-15/Energy_Intel_daily_2026-06-15_Public.zip",
-        "sha256": "a052611d7f93375756812082edf780b86b3b2a197d1e594f0438ef61800f0894",
-        "remote_byte_match": true,
-        "zip_integrity": "PASS"
-      },
-      {
-        "path": "/downloads/daily/2026-06-14/Energy_Intel_daily_2026-06-14_Public.zip",
-        "sha256": "4ef7dbdc6549c5c99324448548e37af34d5ec6468e5d71e98a1852f396a70357",
-        "remote_byte_match": true,
-        "zip_integrity": "PASS"
-      },
-      {
-        "path": "/downloads/daily/2026-06-13/Energy_Intel_daily_2026-06-13_Public.zip",
-        "sha256": "4d3eaf4598d35cd122b7c0b19b765d911ce336bc1b613361d15a7c74a245707d",
-        "remote_byte_match": true,
-        "zip_integrity": "PASS"
-      },
-      {
-        "path": "/downloads/daily/2026-06-12/Energy_Intel_daily_2026-06-12_Public.zip",
-        "sha256": "cce7ecbeaa9cc638d1770b1056b8aee57638e7be173384c4285367b7cc2885e0",
-        "remote_byte_match": true,
-        "zip_integrity": "PASS"
-      },
-      {
-        "path": "/downloads/daily/2026-06-11/Energy_Intel_daily_2026-06-11_Public.zip",
-        "sha256": "1f6e781754afcec24dc5a28143627a85ad0c53da2a2cf447d552e8cca567c563",
-        "remote_byte_match": true,
-        "zip_integrity": "PASS"
-      },
-      {
-        "path": "/downloads/daily/2026-06-08/Energy_Intel_daily_2026-06-08_Public.zip",
-        "sha256": "d407a8cfb8159a63022fc3825e85338564b8b04221df04f323c17b3449c87d54",
-        "remote_byte_match": true,
-        "zip_integrity": "PASS"
-      },
-      {
-        "path": "/downloads/daily/2026-06-07/Energy_Intel_daily_2026-06-07_Public.zip",
-        "sha256": "1de09583d27b691c34ea57d17840a000cbf30d1d05f1456a42222829ed2eef98",
-        "remote_byte_match": true,
-        "zip_integrity": "PASS"
-      },
-      {
-        "path": "/downloads/daily/2026-06-06/Energy_Intel_daily_2026-06-06_Public.zip",
-        "sha256": "8306b6b1d71c34792f6bc679e13185b8993044b141342a7c29276912bc0f81af",
-        "remote_byte_match": true,
-        "zip_integrity": "PASS"
-      },
-      {
-        "path": "/downloads/daily/2026-06-05/Energy_Intel_daily_2026-06-05_Public.zip",
-        "sha256": "3621f88a8d9832dee25579843b1c32ab8521e8ff16b6da0d8235e6c8d4beeefd",
-        "remote_byte_match": true,
-        "zip_integrity": "PASS"
-      },
-      {
-        "path": "/downloads/daily/2026-06-04/Energy_Intel_daily_2026-06-04_Public.zip",
-        "sha256": "f212afef04c5b1e432cd3a9bb6e483f3a529998fd2fa5b817c3ca3c0ea72e64f",
-        "remote_byte_match": true,
-        "zip_integrity": "PASS"
-      },
-      {
-        "path": "/downloads/daily/2026-06-03/Energy_Intel_daily_2026-06-03_Public.zip",
-        "sha256": "863c26c520e5a44ec6d3d125532d2c532192feadf1b5bd96a7420e8fa1305cb4",
-        "remote_byte_match": true,
-        "zip_integrity": "PASS"
-      },
-      {
-        "path": "/downloads/daily/2026-06-02/Energy_Intel_daily_2026-06-02_Public.zip",
-        "sha256": "a3b6d0bf9338a0cbd1523e672485b09c4475cd6d3dce60f0c1d7278d06561e99",
-        "remote_byte_match": true,
-        "zip_integrity": "PASS"
-      },
-      {
-        "path": "/downloads/daily/2026-06-01/Energy_Intel_daily_2026-06-01_Public.zip",
-        "sha256": "7d5386f8d51a17c3e5f44577fa758bae6fbb19755362a21a9386c2df695c2055",
-        "remote_byte_match": true,
-        "zip_integrity": "PASS"
-      },
-      {
-        "path": "/downloads/daily/2026-05-31/Energy_Intel_daily_2026-05-31_Public.zip",
-        "sha256": "3041bee514b651585451478871dc7badd41ee6e0e0c0372f3dd976b5f0ce4317",
-        "remote_byte_match": true,
-        "zip_integrity": "PASS"
-      },
-      {
-        "path": "/downloads/daily/2026-05-30/Energy_Intel_daily_2026-05-30_Public.zip",
-        "sha256": "cd5320110d7f41d9bc3a529143f63e78e7f66a1cf676942d5cf5e203f884f9bd",
-        "remote_byte_match": true,
-        "zip_integrity": "PASS"
-      },
-      {
-        "path": "/downloads/daily/2026-05-29/Energy_Intel_daily_2026-05-29_Public.zip",
-        "sha256": "9cc7fb1b26826190e455ffe4b4449af3b81260868a9cc5895021b8490068bd6a",
-        "remote_byte_match": true,
-        "zip_integrity": "PASS"
-      },
-      {
-        "path": "/downloads/daily/2026-05-28/Energy_Intel_daily_2026-05-28_Public.zip",
-        "sha256": "d7e90bc5ab40892e2c7d7646bc450a7f9268a310f0f2b3c70d286e171a926ef5",
-        "remote_byte_match": true,
-        "zip_integrity": "PASS"
-      },
-      {
-        "path": "/downloads/daily/2026-05-27/Energy_Intel_daily_2026-05-27_Public.zip",
-        "sha256": "248da4ba8f5a1cfdb1902436660ea5c090a6eafbc0328a5be663c64fbe7fb518",
-        "remote_byte_match": true,
-        "zip_integrity": "PASS"
-      },
-      {
-        "path": "/downloads/daily/2026-05-26/Energy_Intel_daily_2026-05-26_Public.zip",
-        "sha256": "7a3446c358799246f48dca42394df4c706886f6a5e96d6471ac04bfe11c937f5",
-        "remote_byte_match": true,
-        "zip_integrity": "PASS"
-      },
-      {
-        "path": "/downloads/daily/2026-05-25/Energy_Intel_daily_2026-05-25_Public.zip",
-        "sha256": "62385abf37a45230c14630dcdc831746ba4a7b539eea50048030a89edff79b61",
-        "remote_byte_match": true,
-        "zip_integrity": "PASS"
-      },
-      {
-        "path": "/downloads/daily/2026-05-24/Energy_Intel_daily_2026-05-24_Public.zip",
-        "sha256": "c52192b118bb261cf6490741bf4d075fa67e25b3181dab59de0f2551c488e559",
-        "remote_byte_match": true,
-        "zip_integrity": "PASS"
-      },
-      {
-        "path": "/downloads/daily/2026-05-23/Energy_Intel_daily_2026-05-23_Public.zip",
-        "sha256": "880aee0eb51a9d0da76840c861227dfabb376a68014b830332a9055409346699",
-        "remote_byte_match": true,
-        "zip_integrity": "PASS"
-      },
-      {
-        "path": "/downloads/daily/2026-05-22/Energy_Intel_daily_2026-05-22_Public.zip",
-        "sha256": "ed7de3a50c8ca6cbfbc2b1f89772a6804f563f1e5fa85b4ad2c42b329bd208b8",
-        "remote_byte_match": true,
-        "zip_integrity": "PASS"
-      },
-      {
-        "path": "/downloads/daily/2026-05-21/Energy_Intel_daily_2026-05-21_Public.zip",
-        "sha256": "7c4a85d61bc68e1a3b775d1796608e7f8396c4255b810b8d14a2ca3857cce314",
-        "remote_byte_match": true,
-        "zip_integrity": "PASS"
-      },
-      {
-        "path": "/downloads/daily/2026-05-20/Energy_Intel_daily_2026-05-20_Public.zip",
-        "sha256": "a7af4a6ec71ee4419a84a9dd94f6c2150e1d9764bc3f1aa1e9bdbb4f96f91c69",
-        "remote_byte_match": true,
-        "zip_integrity": "PASS"
-      },
-      {
-        "path": "/downloads/daily/2026-05-19/Energy_Intel_daily_2026-05-19_Public.zip",
-        "sha256": "1e9bc246eb8ff6aa81c676f86ac4e50141b98adac0ef89d07f4885171c9ab176",
-        "remote_byte_match": true,
-        "zip_integrity": "PASS"
-      },
-      {
-        "path": "/downloads/daily/2026-05-18/Energy_Intel_daily_2026-05-18_Public.zip",
-        "sha256": "64d3f604693df6e046b63758159dcbb3d5d61d1f31b270ef926edbca22eb9061",
-        "remote_byte_match": true,
-        "zip_integrity": "PASS"
-      },
-      {
-        "path": "/downloads/daily/2026-05-17/Energy_Intel_daily_2026-05-17_Public.zip",
-        "sha256": "558f5e50ef627fd02da73c5c247cf8688b94f99477eeb680226a715adf2776f2",
-        "remote_byte_match": true,
-        "zip_integrity": "PASS"
-      },
-      {
-        "path": "/downloads/daily/2026-05-15/Energy_Intel_daily_2026-05-15_Public.zip",
-        "sha256": "8c16d895e24a2c5436393cd230eaa0d17e11e6562ee35791a75f9e812c374ce1",
-        "remote_byte_match": true,
-        "zip_integrity": "PASS"
-      },
-      {
-        "path": "/downloads/weekly/2026-W43/Energy_Intel_weekly_2026-W43_Public.zip",
-        "sha256": "7c874ff9520ef20654724bb293bad656c44d7523454e3656761472e33447ddd0",
-        "remote_byte_match": true,
-        "zip_integrity": "PASS"
-      },
-      {
-        "path": "/downloads/weekly/2026-W42/Energy_Intel_weekly_2026-W42_Public.zip",
-        "sha256": "c240fd90c92fc3f61e54a0fc888c821c369cc0bac67e69ae6169d93f22855132",
-        "remote_byte_match": true,
-        "zip_integrity": "PASS"
-      },
-      {
-        "path": "/downloads/weekly/2026-W40/Energy_Intel_weekly_2026-W40_Public.zip",
-        "sha256": "7d5d10199df404c830519bf51f4639196e4d3c8256416b4362a65d640fd5c49e",
-        "remote_byte_match": true,
-        "zip_integrity": "PASS"
-      },
-      {
-        "path": "/downloads/weekly/2026-W39/Energy_Intel_weekly_2026-W39_Public.zip",
-        "sha256": "4a0d029702d79447028235e7ad856d9f13d09ea601995a817a4e9111b76441e2",
-        "remote_byte_match": true,
-        "zip_integrity": "PASS"
-      },
-      {
-        "path": "/downloads/weekly/2026-W38/Energy_Intel_weekly_2026-W38_Public.zip",
-        "sha256": "b9fc5c235a71247ec6a84eecaab6a14edd16db5789cfdc5995aad8ab474e2442",
-        "remote_byte_match": true,
-        "zip_integrity": "PASS"
-      },
-      {
-        "path": "/downloads/weekly/2026-W37/Energy_Intel_weekly_2026-W37_Public.zip",
-        "sha256": "d10032e1f5e9a4432c76c113224e3445cc81cbe163167af082beb7ead776b10d",
-        "remote_byte_match": true,
-        "zip_integrity": "PASS"
-      },
-      {
-        "path": "/downloads/weekly/2026-W36/Energy_Intel_weekly_2026-W36_Public.zip",
-        "sha256": "d384b8e051301dc042e59efe461e02779a4c2e66347bc29da3746d5895a9927b",
-        "remote_byte_match": true,
-        "zip_integrity": "PASS"
-      },
-      {
-        "path": "/downloads/weekly/2026-W35/Energy_Intel_weekly_2026-W35_Public.zip",
-        "sha256": "354f4ff55c86ac57aff0b6db34d52bb1439fb4bfbaef7831869360e761bd80ae",
-        "remote_byte_match": true,
-        "zip_integrity": "PASS"
-      },
-      {
-        "path": "/downloads/weekly/2026-W34/Energy_Intel_weekly_2026-W34_Public.zip",
-        "sha256": "d1c05c4c2957cdad1d0b3d7dc55bc85b96ac5658631b2deb2839cd536890fd18",
-        "remote_byte_match": true,
-        "zip_integrity": "PASS"
-      },
-      {
-        "path": "/downloads/weekly/2026-W33/Energy_Intel_weekly_2026-W33_Public.zip",
-        "sha256": "60055edfdaf61628e1537c57774cd71ae63275d62cf1e3f2082ffb7b341e9283",
-        "remote_byte_match": true,
-        "zip_integrity": "PASS"
-      },
-      {
-        "path": "/downloads/weekly/2026-W32/Energy_Intel_weekly_2026-W32_Public.zip",
-        "sha256": "9f59d359fc8ba8fb6dc1b645ff962ab0257ead579e6cea0b6cf4105ec76b3c5b",
-        "remote_byte_match": true,
-        "zip_integrity": "PASS"
-      },
-      {
-        "path": "/downloads/weekly/2026-W31/Energy_Intel_weekly_2026-W31_Public.zip",
-        "sha256": "f03b9794a881be6fbc9561e3cb28ddf9235de4cae09ffd22c80996f8772c31b2",
-        "remote_byte_match": true,
-        "zip_integrity": "PASS"
-      },
-      {
-        "path": "/downloads/weekly/2026-W30/Energy_Intel_weekly_2026-W30_Public.zip",
-        "sha256": "fc4247f277b387f4f0c87eecc57c2a46239f41e6fbe9326064b0ae0eeef6178c",
-        "remote_byte_match": true,
-        "zip_integrity": "PASS"
-      },
-      {
-        "path": "/downloads/weekly/2026-W29/Energy_Intel_weekly_2026-W29_Public.zip",
-        "sha256": "9e4836dbcb14e17504196aa46c5bdc2c6cd57bfaf6d014fa53f39ff6eb3825e8",
-        "remote_byte_match": true,
-        "zip_integrity": "PASS"
-      },
-      {
-        "path": "/downloads/weekly/2026-W28/Energy_Intel_weekly_2026-W28_Public.zip",
-        "sha256": "67af1af83d3d158aa0231eab06a4609f97d690e0b1868fc057524e1e50db0134",
-        "remote_byte_match": true,
-        "zip_integrity": "PASS"
-      },
-      {
-        "path": "/downloads/weekly/2026-W27/Energy_Intel_weekly_2026-W27_Public.zip",
-        "sha256": "e2893b9c202b17f3cbeade05c40a5667708a54dda93632b21f64e69b62546bb5",
-        "remote_byte_match": true,
-        "zip_integrity": "PASS"
-      },
-      {
-        "path": "/downloads/weekly/2026-W24/Energy_Intel_weekly_2026-W24_Public.zip",
-        "sha256": "5b15f0fca0cc518ee78403cd5e794833a354e56174eb2bfc8bf6f454b11c6f28",
-        "remote_byte_match": true,
-        "zip_integrity": "PASS"
-      },
-      {
-        "path": "/downloads/weekly/2026-W23/Energy_Intel_weekly_2026-W23_Public.zip",
-        "sha256": "1124850e2806bb9fd701ded9858d0cf3865e882a2be113b051c4c13f1cecc57b",
-        "remote_byte_match": true,
-        "zip_integrity": "PASS"
-      },
-      {
-        "path": "/downloads/weekly/2026-W22/Energy_Intel_weekly_2026-W22_Public.zip",
-        "sha256": "6446f86b9a9f2f4df9e1c312ae2a7b25c2d9fd27da85bbe6cad13f6bc79004bc",
-        "remote_byte_match": true,
-        "zip_integrity": "PASS"
-      },
-      {
-        "path": "/downloads/weekly/2026-W21/Energy_Intel_weekly_2026-W21_Public.zip",
-        "sha256": "b05a37e5a3fdb5e9f2358e86b1e7158c6f85fea4cbce1b8550ce7e4369564717",
-        "remote_byte_match": true,
-        "zip_integrity": "PASS"
-      },
-      {
-        "path": "/downloads/monthly/2026-09/Energy_Intel_monthly_2026-09_Public.zip",
-        "sha256": "88084d99b86177f11d52c81acd4a2f3c9ce22985d906401fc26df5e05409ac5f",
-        "remote_byte_match": true,
-        "zip_integrity": "PASS"
-      },
-      {
-        "path": "/downloads/monthly/2026-08/Energy_Intel_monthly_2026-08_Public.zip",
-        "sha256": "c8e0bda4fa87a8847d9f8df04723877f85d0f3738616a6845a361e28490d69a7",
-        "remote_byte_match": true,
-        "zip_integrity": "PASS"
-      },
-      {
-        "path": "/downloads/monthly/2026-05/Energy_Intel_monthly_2026-05_Public.zip",
-        "sha256": "bb7aa1fa8eabe654b57946bc0a77ca32d57f23bff81b784e5296e8db5dfea01b",
-        "remote_byte_match": true,
-        "zip_integrity": "PASS"
-      },
-      {
-        "path": "/downloads/quarterly/2026-Q3/Energy_Intel_quarterly_2026-Q3_Public.zip",
-        "sha256": "82fa55d98ecedbd272298003113a44f1294b9a4addb9e0f0ed000a57d3b3ebf2",
-        "remote_byte_match": true,
-        "zip_integrity": "PASS"
-      },
-      {
-        "path": "/downloads/quarterly/2026-Q2/Energy_Intel_quarterly_2026-Q2_Public.zip",
-        "sha256": "dde4ab07709b7a898edc433287f6eef43dd943f256f36c5eb947ae8c57e4993c",
-        "remote_byte_match": true,
-        "zip_integrity": "PASS"
-      }
-    ]
-  },
-  "current_pointer_sha256": "21ee5cf54d641a6ce1af4f8ca8cee55c93c22c2f22fdb34806906ec79600a608",
+  "remote_zip_verification": [
+    {
+      "date": "2026-11-04",
+      "sha256": "62a251f9fec1fef48e6a05af9d0276a298aa50ad877f1c405899146435ffa57e",
+      "remote_sha256": "62a251f9fec1fef48e6a05af9d0276a298aa50ad877f1c405899146435ffa57e",
+      "status": "PASS_BYTE_EXACT_AND_ZIP_INTEGRITY",
+      "url": "https://energy-cycle-report-share.ljjx2020.chatgpt.site/downloads/daily/2026-11-04/Energy_Intel_daily_2026-11-04_Public.zip"
+    },
+    {
+      "date": "2026-11-05",
+      "sha256": "161d0751d0ab132751a69b0453d6875fda143f42aac25cb7bb8c309242655aea",
+      "remote_sha256": "161d0751d0ab132751a69b0453d6875fda143f42aac25cb7bb8c309242655aea",
+      "status": "PASS_BYTE_EXACT_AND_ZIP_INTEGRITY",
+      "url": "https://energy-cycle-report-share.ljjx2020.chatgpt.site/downloads/daily/2026-11-05/Energy_Intel_daily_2026-11-05_Public.zip"
+    },
+    {
+      "date": "2026-11-06",
+      "sha256": "bab1930d7e27f05181561f08cac75037e363b2f68de100714a8cb6655272d37f",
+      "remote_sha256": "bab1930d7e27f05181561f08cac75037e363b2f68de100714a8cb6655272d37f",
+      "status": "PASS_BYTE_EXACT_AND_ZIP_INTEGRITY",
+      "url": "https://energy-cycle-report-share.ljjx2020.chatgpt.site/downloads/daily/2026-11-06/Energy_Intel_daily_2026-11-06_Public.zip"
+    }
+  ],
+  "current_pointer_sha256": "67833b7ca39888567cb283b0e11bcc108e3ad6b10b54b916abb437d1d1a7a8a6",
   "w43_work_preflight": {
     "chat_final_assets_readback": "PASS_11_OF_11",
     "round2_report_sha256": "05ca5e6d1c98d8cbbdc82503154cb81f312cff0b52cd953b016b8eabb5b8ac85",
@@ -1353,28 +212,29 @@
   },
   "candidate_products_pending_gates": [],
   "current_run_canonical_promotion_performed": true,
-  "current_run_authority_sha256": "ae8dfdd68da8e6742e28160e7457a9f6d63d55d177bdb84bb11da52da3373bab",
-  "current_run_pointer_sha256": "21ee5cf54d641a6ce1af4f8ca8cee55c93c22c2f22fdb34806906ec79600a608",
-  "stability_status": "NOT_ACCEPTED__TWO_CONSECUTIVE_NATURAL_PRODUCTION_CYCLES_WITHOUT_MANUAL_REPAIR_NOT_DEMONSTRATED",
-  "external_mirror_readback_status": "PASS_7_CURRENT_MIRRORS_PLUS_READER_PORTAL_RECEIPT_V83",
-  "last_work_reportops_status": "FORMAL_W43_AND_ORIGINAL_SITE_V110_PUBLISHED__REMOTE_DOWNLOAD_SHA_181_OF_186_VERIFIED",
-  "stable_operation_status": "NOT_ACCEPTED",
+  "current_run_authority_sha256": "b72ed50f71fbdf0b726ce151be7f53dfe89a4e78cfbb99ad60038fa3e7aaaaad",
+  "current_run_pointer_sha256": "67833b7ca39888567cb283b0e11bcc108e3ad6b10b54b916abb437d1d1a7a8a6",
+  "stability_status": "LONG_TERM_STABILITY_NOT_ACCEPTED",
+  "external_mirror_readback_status": "PASS_13_CURRENT_DERIVED_VIEWS",
+  "last_work_reportops_status": "FORMAL_SUCCESS",
+  "stable_operation_status": "NOT_CLAIMED",
   "current_before": {
-    "daily": "2026-11-02",
-    "weekly": "2026-W42",
-    "monthly": "2026-09"
+    "daily": "2026-11-03",
+    "weekly": "2026-W44",
+    "monthly": "2026-10",
+    "quarterly": "2026-Q3"
   },
   "current_after": {
-    "daily": "2026-11-02",
-    "weekly": "2026-W43",
-    "monthly": "2026-09"
+    "daily": "2026-11-06",
+    "weekly": "2026-W44",
+    "monthly": "2026-10",
+    "quarterly": "2026-Q3"
   },
-  "last_work_runtime_snapshot_updated_at": "2026-11-02T12:28:06.972Z",
+  "last_work_runtime_snapshot_updated_at": "2026-11-06T14:04:33.932Z",
   "site_source_preparation": {
-    "status": "PASS_ORIGINAL_SOURCE_MAIN",
-    "head": "73f1b38dc6ef283cdfdb19841d716ad1d2e3a708",
-    "hosting_project_id": "appgprj_6a5893ab380c8191b03a261860f67102",
-    "static_directory": "dist"
+    "status": "PUSHED_AND_PACKAGED_SAME_ORIGINAL_SITE",
+    "source_commit": "1cc9da547e81e6237ad912f713cbfd812ceec346",
+    "project_id": "appgprj_6a5893ab380c8191b03a261860f67102"
   },
   "historical_receipts": {
     "prepublication_recovery_receipt": {
@@ -1406,43 +266,39 @@
       "negative_tests": "PASS 6/6 EXPECTED_FAIL_CLOSED"
     }
   },
-  "site_status": "DEPLOYED",
-  "package_status": "SUCCESS",
+  "site_status": "PUBLISHED_REMOTE_VERIFIED",
+  "package_status": "FORMAL_CURRENT_2026_11_06",
   "site_deployment_receipt": {
+    "id": "appgdep_6aeddd7818088191bf00dc2db3021a30",
+    "project_id": "appgprj_6a5893ab380c8191b03a261860f67102",
+    "title": "能源周期报告中心·分享版",
+    "version_id": "appgprj_6a5893ab380c8191b03a261860f67102~appgver_14a85de68fc481919e09f1639b3245eb",
+    "type": "publish",
     "status": "succeeded",
-    "version": 111,
-    "version_id": "appgprj_6a5893ab380c8191b03a261860f67102~appgver_227c038c387081918f0d6ee507ab4d55",
-    "deployment_id": "appgdep_6aec12ee4af4819185a31cac332a623a",
-    "source_commit": "930fa0ab4950ee098caa0f503749ffd649facc31",
-    "archive_sha256": "48bc8c581ae7f05ef3669fbc5861fdb0d4e395c8d8145ed851eb102e01e5ec53"
+    "url": "https://energy-cycle-report-share.ljjx2020.chatgpt.site",
+    "has_mcp": false,
+    "screenshot_asset_pointer": null,
+    "provider_deployment_id": "ljjx2020--energy-cycle-report-share",
+    "failure_message": null,
+    "env_set_revision": 0,
+    "updated_at": "2026-11-06T14:00:33.127719+00:00",
+    "version": 112,
+    "source_commit": "1cc9da547e81e6237ad912f713cbfd812ceec346"
   },
-  "authority_sha_runtime_reconciliation_status": "PASS_CURRENT_COMMITTED_AUTHORITY_AND_SIDECAR",
-  "remaining_product_debt": {
-    "daily": [],
-    "weekly": [
-      "2026-W44"
-    ],
-    "monthly": [
-      "2026-10"
-    ],
-    "count": 2,
-    "scope": "OTHER_CHAT_SESSION_PRODUCTION_NOT_REPEATED_IN_THIS_RUN"
-  },
+  "authority_sha_runtime_reconciliation_status": "PASS_FINAL_LIBRARY_BYTE_READBACK",
+  "remaining_product_debt": [],
   "current_run_promoted_products": [
-    "Daily 2026-11-03",
-    "Weekly 2026-W44",
-    "Monthly 2026-10"
+    "Daily 2026-11-04",
+    "Daily 2026-11-05",
+    "Daily 2026-11-06"
   ],
   "daily_reconsumed_this_run": false,
-  "queue_for_12_30_work": [
-    "2026-11-04",
-    "2026-11-05",
-    "2026-11-06"
-  ],
+  "queue_for_12_30_work": [],
   "oldest_pending_date": null,
   "products_completed_this_run": [
-    "Weekly 2026-W43 formal promotion",
-    "Original Site v110 deployment"
+    "Daily 2026-11-04",
+    "Daily 2026-11-05",
+    "Daily 2026-11-06"
   ],
   "public_daily_2026_11_02_download_sha256": "dbc114f8d061c0bc60c6f0b5c81f28d8a8c71dc391d2ccd23d528d9642af347c",
   "public_daily_2026_11_01_download_sha256": "61ed9961ce667f2449d9bf6b2c07e752ef0a3621f6d96347360d67c8eca7a458",
@@ -1606,15 +462,11 @@
   "public_quarterly_2026_q3_download_sha256": "82fa55d98ecedbd272298003113a44f1294b9a4addb9e0f0ed000a57d3b3ebf2",
   "public_quarterly_2026_q2_download_sha256": "dde4ab07709b7a898edc433287f6eef43dd943f256f36c5eb947ae8c57e4993c",
   "github_write_status": "PASS",
-  "derived_from_current_pointer_sha256": "762374b2de1dcfcdc8794a38cd4cde185b9e04370b949aa5f8e71ce84d8402f6",
+  "derived_from_current_pointer_sha256": "67833b7ca39888567cb283b0e11bcc108e3ad6b10b54b916abb437d1d1a7a8a6",
   "historical_download_sha_remaining": 0,
   "automation_1230_status": "PAUSED__SCHEDULED_WORK_ENVIRONMENT_UNCONFIRMED",
   "target_release_debt_remaining": 0,
-  "newer_daily_candidates_pending": [
-    "2026-11-04",
-    "2026-11-05",
-    "2026-11-06"
-  ],
+  "newer_daily_candidates_pending": [],
   "historical_snapshots": {
     "pre_20261105_active_publication_aliases": {
       "final_closure_status": "W43_AND_SITE_DEPLOYMENT_CLOSED__FIVE_HISTORICAL_REMOTE_DOWNLOAD_SHA_PENDING",
@@ -1642,6 +494,1351 @@
       "real_remote_readback_status": "PASS_CACHE_BUSTED_HOME_ARCHIVES_DOWNLOAD_CENTER_W42_W43_DAILY_10_30_THROUGH_11_02",
       "download_integrity": "PASS_3_NEW_REMOTE_ZIP_SHA_AND_UNZIP__5_HISTORICAL_SHA_CLOSED__PRIOR_181_INHERITED_NOT_RETESTED",
       "stable_operation_accepted": false
+    },
+    "pre_20261106_manual_three_daily_release": {
+      "status": "THREE_TARGET_PRODUCTS_FORMALLY_PUBLISHED_SITE_V111__HISTORICAL_FIVE_SHA_CLOSED__AUTOMATION_ENVIRONMENT_PENDING",
+      "current_daily": "2026-11-02",
+      "current_daily_public": "2026-11-03",
+      "current_daily_canonical": "2026-11-02",
+      "current_weekly": "2026-W43",
+      "current_weekly_public": "2026-W44",
+      "current_monthly_public": "2026-10",
+      "current_quarterly_public": "2026-Q3",
+      "current_annual_public": "NO_FORMAL_2026_PRODUCT",
+      "public_site_version": 111,
+      "public_site_url": "https://energy-cycle-report-share.ljjx2020.chatgpt.site",
+      "authority_package_sha256": "d89b2136ef198699d6f9af079187ca3ed32fc3ebc13314163b531aec701defdb",
+      "current_run_authority_sha256": "ae8dfdd68da8e6742e28160e7457a9f6d63d55d177bdb84bb11da52da3373bab",
+      "library_sidecar_sha256": "ae8dfdd68da8e6742e28160e7457a9f6d63d55d177bdb84bb11da52da3373bab",
+      "current_pointer_sha256": "21ee5cf54d641a6ce1af4f8ca8cee55c93c22c2f22fdb34806906ec79600a608",
+      "current_run_pointer_sha256": "21ee5cf54d641a6ce1af4f8ca8cee55c93c22c2f22fdb34806906ec79600a608",
+      "state_consistency_pointer_sha256": "762374b2de1dcfcdc8794a38cd4cde185b9e04370b949aa5f8e71ce84d8402f6",
+      "derived_from_current_pointer_sha256": "762374b2de1dcfcdc8794a38cd4cde185b9e04370b949aa5f8e71ce84d8402f6",
+      "final_closure_status": "THREE_TARGETS_AND_SITE_V111_AND_HISTORICAL_FIVE_SHA_CLOSED__AUTOMATION_ENVIRONMENT_UNCONFIRMED__NEWER_DAILY_CANDIDATES_PENDING",
+      "metadata_freshness": "PASS_EXTERNAL_POINTER_762374B2__13_DERIVED_VIEWS_PLUS_ZIP_POINTER_RUNTIME",
+      "stale_views": [],
+      "queue_remaining": [
+        "Daily 2026-11-04: Chat candidate ready; Work formal gates, promotion and Site pending (Library SHA 2d68a0e0…1c30126; historical Authority baseline preserved for Work rebase)",
+        "Daily 2026-11-05: Chat candidate ready; Work formal gates, promotion and Site pending (Library SHA 04503697…ac3545d0d; historical Authority baseline preserved for Work rebase)",
+        "Daily 2026-11-06: Chat candidate ready; Work formal gates, promotion and Site pending (Library SHA fa8ebc88…ab55a48db)",
+        "12:30 scheduled Work environment unverified; original task paused"
+      ],
+      "queue_for_12_30_work": [
+        "2026-11-04",
+        "2026-11-05",
+        "2026-11-06"
+      ],
+      "pending_product": null,
+      "eligible_unpublished_products": [],
+      "candidate_products_pending_gates": [],
+      "newer_daily_candidates_pending": [
+        "2026-11-04",
+        "2026-11-05",
+        "2026-11-06"
+      ],
+      "oldest_pending_date": null,
+      "remaining_product_debt": {
+        "daily": [],
+        "weekly": [
+          "2026-W44"
+        ],
+        "monthly": [
+          "2026-10"
+        ],
+        "count": 2,
+        "scope": "OTHER_CHAT_SESSION_PRODUCTION_NOT_REPEATED_IN_THIS_RUN"
+      },
+      "target_release_debt_remaining": 0,
+      "historical_download_sha_remaining": 0,
+      "correction_backlog_status": "FORMAL_DAILY_THROUGH_2026_11_02_AND_WEEKLY_W43_CLEARED",
+      "manifest_reconciliation_status": "PASS_V83_AUTHORITY_POINTER_PUBLIC_CURRENT",
+      "derived_state_completeness_status": "PASS_13_CURRENT_DERIVED_VIEWS",
+      "stable_operation_accepted": false,
+      "stable": false,
+      "stability_status": "NOT_ACCEPTED__TWO_CONSECUTIVE_NATURAL_PRODUCTION_CYCLES_WITHOUT_MANUAL_REPAIR_NOT_DEMONSTRATED",
+      "stable_operation_status": "NOT_ACCEPTED",
+      "higher_cycle_dependency_state": "W43_FORMALLY_PROMOTED__W44_AND_OCTOBER_MONTHLY_OTHER_CHAT_SESSION",
+      "authority_sha_runtime_reconciliation": {
+        "before": "5bb2001188fdcf1ed7d7b112e39991994a14b62dbc30fe68d4acaacbf8fa3033",
+        "post_rebuild": "d89b2136ef198699d6f9af079187ca3ed32fc3ebc13314163b531aec701defdb",
+        "library_sidecar": "d89b2136ef198699d6f9af079187ca3ed32fc3ebc13314163b531aec701defdb",
+        "status": "POST_SITE_DERIVED_SYNC_COMMITTED__FINAL_LIBRARY_BYTE_READBACK_TRACKED_IN_RECEIPT"
+      },
+      "runtime_sync_status": "PASS_AUTHORITY_POINTER_13_DERIVED_VIEWS_MIRRORS_SITE_V111__HISTORICAL_FIVE_SHA_CLOSED",
+      "failure_stage": "SCHEDULED_WORK_ENVIRONMENT_CONFIRMATION",
+      "failure_reason": "12:30 task remains disabled; environment_selection=inherited, environments=null; no supported environment-binding interface is exposed, so scheduled execution capability is unconfirmed.",
+      "manual_intervention_required": false,
+      "public_site_status": "DEPLOYED_V111_REAL_REMOTE_CONTENT_AND_NEW_ZIP_SHA_PASS",
+      "real_remote_readback_status": "PASS_HOME_THREE_BODIES_THREE_ARCHIVES_DOWNLOAD_CENTER_AND_EIGHT_ZIPS",
+      "download_sha_status": "PASS_3_NEW_AND_5_HISTORICAL_REAL_REMOTE_ZIP_SHA__PRIOR_181_INHERITED",
+      "download_integrity": "PASS_3_NEW_REMOTE_ZIP_SHA_AND_UNZIP__5_HISTORICAL_SHA_CLOSED__PRIOR_181_NOT_RETESTED",
+      "reportops_status": "FORMAL_W43_AND_ORIGINAL_SITE_V110_PUBLISHED__REMOTE_DOWNLOAD_SHA_181_OF_186_VERIFIED",
+      "site_publication_performed": true,
+      "current_package_site_publication_performed": true,
+      "current_run_site_publication_performed": true,
+      "canonical_promotion_performed": true,
+      "current_run_canonical_promotion_performed": true,
+      "public_site_publication_receipt_status": "SUCCEEDED_V110",
+      "site_status": "DEPLOYED",
+      "package_status": "SUCCESS",
+      "next_action": "Finish remote SHA readback for five listed historical download ZIPs; W44 and October Monthly production remains in other Chat session. No Daily reconsumption.",
+      "upstream_producer_status": "COMPLETE_CANDIDATES_THROUGH_2026_10_28__OLDEST_FIRST_CONSUMPTION_BLOCKED",
+      "producer_gap": [],
+      "target_date": "2026-11-02",
+      "current_day_status": "FORMAL_W43_AND_ORIGINAL_SITE_V110_PUBLISHED__REMOTE_DOWNLOAD_SHA_181_OF_186_VERIFIED",
+      "formal_status": "FORMAL_CANONICAL_PUBLISHED_DAILY_2026_11_03_WEEKLY_W44_MONTHLY_2026_10",
+      "products_preflighted": [
+        "Daily 2026-10-23",
+        "Daily 2026-10-24",
+        "Daily 2026-10-25",
+        "Daily 2026-10-26",
+        "Daily 2026-10-27",
+        "Daily 2026-10-28",
+        "Daily 2026-10-29",
+        "Daily 2026-10-30",
+        "Daily 2026-10-31",
+        "Weekly 2026-W43"
+      ],
+      "products_promoted": [
+        "Daily 2026-11-03",
+        "Weekly 2026-W44",
+        "Monthly 2026-10"
+      ],
+      "products_blocked_local": [],
+      "products_deferred_dependency": [],
+      "preflight_blocker_matrix": [
+        {
+          "product": "Daily 2026-11-03",
+          "Reader": "PASS",
+          "Lineage": "COMMITTED_AND_VALIDATED",
+          "P8G": "PASS_10_OF_10",
+          "CommitVerification": "PASS_10_OF_10",
+          "formal": "PROMOTED_AND_LIBRARY_BYTES_READ_BACK"
+        },
+        {
+          "product": "Weekly 2026-W44",
+          "Reader": "PASS_EXACT_SHA_UNCHANGED",
+          "Lineage": "COMMITTED_AND_VALIDATED",
+          "P8G": "PASS_10_OF_10",
+          "CommitVerification": "PASS_10_OF_10",
+          "formal": "PROMOTED_AND_LIBRARY_BYTES_READ_BACK"
+        },
+        {
+          "product": "Monthly 2026-10",
+          "Reader": "PASS_EXACT_SHA_UNCHANGED_A4_15_OF_15",
+          "Lineage": "COMMITTED_AND_VALIDATED",
+          "P8G": "PASS_10_OF_10",
+          "CommitVerification": "PASS_10_OF_10",
+          "formal": "PROMOTED_AND_LIBRARY_BYTES_READ_BACK"
+        }
+      ],
+      "current_run_promoted_products": [
+        "Daily 2026-11-03",
+        "Weekly 2026-W44",
+        "Monthly 2026-10"
+      ],
+      "products_completed_this_run": [
+        "Weekly 2026-W43 formal promotion",
+        "Original Site v110 deployment"
+      ],
+      "last_work_reconciled_at": "2026-11-05",
+      "last_work_runtime_snapshot_updated_at": "2026-11-02T12:28:06.972Z",
+      "last_updated": "2026-11-06T03:42:49.604Z",
+      "updated_at": "2026-11-06T03:42:49.604Z",
+      "current_derived_views_status": "PASS_13_OF_13_POINTER_PROVENANCE",
+      "github_readback_status": "PASS_CURRENT_PUBLIC_DEPLOYMENT_STATE_LATEST_AND_STATIC_MANIFEST_V83_V110",
+      "github_write_status": "PASS",
+      "last_work_reportops_status": "FORMAL_W43_AND_ORIGINAL_SITE_V110_PUBLISHED__REMOTE_DOWNLOAD_SHA_181_OF_186_VERIFIED",
+      "site_only_corrective_republish_required": false,
+      "site_failure_stage": null,
+      "site_failure_reason": null,
+      "remote_zip_verification": {
+        "status": "PARTIAL_REMOTE_SHA_UNVERIFIED",
+        "count": 181,
+        "expected_count": 186,
+        "unverified": [
+          {
+            "index": 109,
+            "path": "/downloads/daily/2026-07-06/Energy_Intel_daily_2026-07-06_Public.zip",
+            "local_sha256": "21fcd9991e788ca065adf83110516b6fd5406e9191d1264e71f2f08abe5475ee",
+            "stage": "REMOTE_DOWNLOAD_FILE_MATERIALIZATION",
+            "error": "Browser returned download path; corresponding nonempty file unavailable after polling"
+          },
+          {
+            "index": 110,
+            "path": "/downloads/daily/2026-07-05/Energy_Intel_daily_2026-07-05_Public.zip",
+            "local_sha256": "de7d68218935580b050a95e8cbcbfc03937131175dd72b6750fb98e6fcd2aa93",
+            "stage": "REMOTE_DOWNLOAD_FILE_MATERIALIZATION",
+            "error": "Browser returned download path; corresponding nonempty file unavailable after polling"
+          },
+          {
+            "index": 160,
+            "path": "/downloads/weekly/2026-W41/Energy_Intel_weekly_2026-W41_Public.zip",
+            "local_sha256": "5b44d870bda68c43fd5c3c0320612127f9472774e76734e9885e855df0ec997d",
+            "stage": "REMOTE_DOWNLOAD_FILE_MATERIALIZATION",
+            "error": "Browser returned download path; corresponding nonempty file unavailable after polling"
+          },
+          {
+            "index": 181,
+            "path": "/downloads/monthly/2026-07/Energy_Intel_monthly_2026-07_Public.zip",
+            "local_sha256": "82fee60d64a674a977480fb446c318a2ef5f1e1aaa32006c73f5c3d69c8aaa49",
+            "stage": "REMOTE_DOWNLOAD_FILE_MATERIALIZATION",
+            "error": "Browser returned download path; corresponding nonempty file unavailable after polling"
+          },
+          {
+            "index": 182,
+            "path": "/downloads/monthly/2026-06/Energy_Intel_monthly_2026-06_Public.zip",
+            "local_sha256": "b679201ad9243abdd96427507f2c54c65bb7592596a7a4278175692d7f0333b8",
+            "stage": "REMOTE_DOWNLOAD_FILE_MATERIALIZATION",
+            "error": "Browser returned download path; corresponding nonempty file unavailable after polling"
+          }
+        ],
+        "results": [
+          {
+            "path": "/downloads/daily/2026-11-02/Energy_Intel_daily_2026-11-02_Public.zip",
+            "sha256": "dbc114f8d061c0bc60c6f0b5c81f28d8a8c71dc391d2ccd23d528d9642af347c",
+            "remote_byte_match": true,
+            "zip_integrity": "PASS"
+          },
+          {
+            "path": "/downloads/daily/2026-11-01/Energy_Intel_daily_2026-11-01_Public.zip",
+            "sha256": "61ed9961ce667f2449d9bf6b2c07e752ef0a3621f6d96347360d67c8eca7a458",
+            "remote_byte_match": true,
+            "zip_integrity": "PASS"
+          },
+          {
+            "path": "/downloads/daily/2026-10-31/Energy_Intel_daily_2026-10-31_Public.zip",
+            "sha256": "48578ee05cb72c8849c50d0ba76a7639e6d068cfac4d8590f7ef1f0d42b00912",
+            "remote_byte_match": true,
+            "zip_integrity": "PASS"
+          },
+          {
+            "path": "/downloads/daily/2026-10-30/Energy_Intel_daily_2026-10-30_Public.zip",
+            "sha256": "ac31e873abffd9f8570f3342944f402b852ab84400eac975859113ef51fdb7a1",
+            "remote_byte_match": true,
+            "zip_integrity": "PASS"
+          },
+          {
+            "path": "/downloads/daily/2026-10-29/Energy_Intel_daily_2026-10-29_Public.zip",
+            "sha256": "6c3ba242dec303fed477a83a7642868883119376c338c945d1a9800cb9724015",
+            "remote_byte_match": true,
+            "zip_integrity": "PASS"
+          },
+          {
+            "path": "/downloads/daily/2026-10-28/Energy_Intel_daily_2026-10-28_Public.zip",
+            "sha256": "01fb1c75525cc9d06d1032c99094d78f3b0d1aa09fb8ff7342a0d69a9723ea40",
+            "remote_byte_match": true,
+            "zip_integrity": "PASS"
+          },
+          {
+            "path": "/downloads/daily/2026-10-27/Energy_Intel_daily_2026-10-27_Public.zip",
+            "sha256": "1f5f7a5335fdff126d25e1f44be5a740e3e1d54259cdf9a8542b830800b95a0f",
+            "remote_byte_match": true,
+            "zip_integrity": "PASS"
+          },
+          {
+            "path": "/downloads/daily/2026-10-26/Energy_Intel_daily_2026-10-26_Public.zip",
+            "sha256": "5c9946432917202aaa51c9def88ec4e398be3d76625debad1a811ae5bc40bad4",
+            "remote_byte_match": true,
+            "zip_integrity": "PASS"
+          },
+          {
+            "path": "/downloads/daily/2026-10-25/Energy_Intel_daily_2026-10-25_Public.zip",
+            "sha256": "cffbdad07f11d479f743a74339f1cdc4f5dc30916318cedbc88dc4d46e183b7a",
+            "remote_byte_match": true,
+            "zip_integrity": "PASS"
+          },
+          {
+            "path": "/downloads/daily/2026-10-24/Energy_Intel_daily_2026-10-24_Public.zip",
+            "sha256": "ba4eb7c148388230aa68dea2b7fed61a1b2bb0c9b422414b6685fc9dea1e4422",
+            "remote_byte_match": true,
+            "zip_integrity": "PASS"
+          },
+          {
+            "path": "/downloads/daily/2026-10-23/Energy_Intel_daily_2026-10-23_Public.zip",
+            "sha256": "4e323d9bbebcdc9840073f76d4b1482519e21e313ac444a01928e02bb91227d1",
+            "remote_byte_match": true,
+            "zip_integrity": "PASS"
+          },
+          {
+            "path": "/downloads/daily/2026-10-22/Energy_Intel_daily_2026-10-22_Public.zip",
+            "sha256": "991584509b1e742df7f48e61dc412ef9053b19e599d02329bb84c1771576c79c",
+            "remote_byte_match": true,
+            "zip_integrity": "PASS"
+          },
+          {
+            "path": "/downloads/daily/2026-10-21/Energy_Intel_daily_2026-10-21_Public.zip",
+            "sha256": "69e5ede258a97fe4bf7097d842bf000d903466c8664d1a1b5f8e9590d1b2fc94",
+            "remote_byte_match": true,
+            "zip_integrity": "PASS"
+          },
+          {
+            "path": "/downloads/daily/2026-10-20/Energy_Intel_daily_2026-10-20_Public.zip",
+            "sha256": "e6451e584fea7e43109aae2553c06c5b7fcfdc7353d6e73f8e03e3e2ecb0b93c",
+            "remote_byte_match": true,
+            "zip_integrity": "PASS"
+          },
+          {
+            "path": "/downloads/daily/2026-10-19/Energy_Intel_daily_2026-10-19_Public.zip",
+            "sha256": "93aa7fb0d1d47c2739a0c5f7526373e5d9efb9de4cd0ee45d5eec417f45f8ac2",
+            "remote_byte_match": true,
+            "zip_integrity": "PASS"
+          },
+          {
+            "path": "/downloads/daily/2026-10-18/Energy_Intel_daily_2026-10-18_Public.zip",
+            "sha256": "e7a70ac2150902c95afdb57c695086f8dab4a2498802096f4f6440bbe9fd6d18",
+            "remote_byte_match": true,
+            "zip_integrity": "PASS"
+          },
+          {
+            "path": "/downloads/daily/2026-10-17/Energy_Intel_daily_2026-10-17_Public.zip",
+            "sha256": "c5da3880a3439a600d27939eaa94df9cfdaf21687fc640813ca552e8073db5e0",
+            "remote_byte_match": true,
+            "zip_integrity": "PASS"
+          },
+          {
+            "path": "/downloads/daily/2026-10-16/Energy_Intel_daily_2026-10-16_Public.zip",
+            "sha256": "5ee3f31227ba541f8e3b79a6045c5f25dd13d9c066322327bbf7354b366896ba",
+            "remote_byte_match": true,
+            "zip_integrity": "PASS"
+          },
+          {
+            "path": "/downloads/daily/2026-10-15/Energy_Intel_daily_2026-10-15_Public.zip",
+            "sha256": "85bf61157397670325c5c7cfb7853e1436f69c99efacad464ceb55678954b00b",
+            "remote_byte_match": true,
+            "zip_integrity": "PASS"
+          },
+          {
+            "path": "/downloads/daily/2026-10-14/Energy_Intel_daily_2026-10-14_Public.zip",
+            "sha256": "7198e935f91376c06aad940c241be3066617a338a4e6977e3edacd42295927fd",
+            "remote_byte_match": true,
+            "zip_integrity": "PASS"
+          },
+          {
+            "path": "/downloads/daily/2026-10-12/Energy_Intel_daily_2026-10-12_Public.zip",
+            "sha256": "bf2267588d49af4170d2f573dd99155aa12247515fdebbf96a9ca30733c9f929",
+            "remote_byte_match": true,
+            "zip_integrity": "PASS"
+          },
+          {
+            "path": "/downloads/daily/2026-10-11/Energy_Intel_daily_2026-10-11_Public.zip",
+            "sha256": "959ed64284ff01a74e1f3a2ea7fc2f33f26acf4d23c70986612625c8a260ccbd",
+            "remote_byte_match": true,
+            "zip_integrity": "PASS"
+          },
+          {
+            "path": "/downloads/daily/2026-10-10/Energy_Intel_daily_2026-10-10_Public.zip",
+            "sha256": "0cc591e11f470276e934d816fc62675bca7ce5388de092816557da4049787f9e",
+            "remote_byte_match": true,
+            "zip_integrity": "PASS"
+          },
+          {
+            "path": "/downloads/daily/2026-10-09/Energy_Intel_daily_2026-10-09_Public.zip",
+            "sha256": "9b5d6671f9a5d1756a4203d306f979f55747c2cac2d94f79d3cb43b55c090c37",
+            "remote_byte_match": true,
+            "zip_integrity": "PASS"
+          },
+          {
+            "path": "/downloads/daily/2026-10-08/Energy_Intel_daily_2026-10-08_Public.zip",
+            "sha256": "92a6bb5f6ee9e644757a6d5a071979c094bafdcb2dbce916e054f95d831b8950",
+            "remote_byte_match": true,
+            "zip_integrity": "PASS"
+          },
+          {
+            "path": "/downloads/daily/2026-10-07/Energy_Intel_daily_2026-10-07_Public.zip",
+            "sha256": "5362692d59168811edff91c4c227f9e98a48750ba4a54987b22663487f8cebef",
+            "remote_byte_match": true,
+            "zip_integrity": "PASS"
+          },
+          {
+            "path": "/downloads/daily/2026-10-06/Energy_Intel_daily_2026-10-06_Public.zip",
+            "sha256": "3751d9d35212815497ea5e04abf95a3379ff90fd27c9a72d0446f0e58de83a74",
+            "remote_byte_match": true,
+            "zip_integrity": "PASS"
+          },
+          {
+            "path": "/downloads/daily/2026-10-05/Energy_Intel_daily_2026-10-05_Public.zip",
+            "sha256": "ef5b8a3deb34ca41b3818f396657a10fe3dbe9c382c24ded1c69fd431652b586",
+            "remote_byte_match": true,
+            "zip_integrity": "PASS"
+          },
+          {
+            "path": "/downloads/daily/2026-10-04/Energy_Intel_daily_2026-10-04_Public.zip",
+            "sha256": "e34a69cb519d7db802c80f20e56387358953f22667d170bd7136982150568f78",
+            "remote_byte_match": true,
+            "zip_integrity": "PASS"
+          },
+          {
+            "path": "/downloads/daily/2026-10-03/Energy_Intel_daily_2026-10-03_Public.zip",
+            "sha256": "c2265d151ea1a6882924c2f3b2349849afbfd06368835c76e08465c20ae463e7",
+            "remote_byte_match": true,
+            "zip_integrity": "PASS"
+          },
+          {
+            "path": "/downloads/daily/2026-10-02/Energy_Intel_daily_2026-10-02_Public.zip",
+            "sha256": "9a45fcf57e9048c524ab0f1ebdbb547a6eeb34fbe23821f5cf43e252c4ed9237",
+            "remote_byte_match": true,
+            "zip_integrity": "PASS"
+          },
+          {
+            "path": "/downloads/daily/2026-10-01/Energy_Intel_daily_2026-10-01_Public.zip",
+            "sha256": "98851fc1d8897fd2402c53b9e457a31e1cbc4136c48f4c2f58b5574289e18725",
+            "remote_byte_match": true,
+            "zip_integrity": "PASS"
+          },
+          {
+            "path": "/downloads/daily/2026-09-30/Energy_Intel_daily_2026-09-30_Public.zip",
+            "sha256": "c9cb876285ccf713b651bfc8b551c2fad8525e7149979fc6388ceb507724014d",
+            "remote_byte_match": true,
+            "zip_integrity": "PASS"
+          },
+          {
+            "path": "/downloads/daily/2026-09-29/Energy_Intel_daily_2026-09-29_Public.zip",
+            "sha256": "fe3afdffbf4ee29ebe245aa4e06af2a366fa6d34d45a096b9465a010060399f7",
+            "remote_byte_match": true,
+            "zip_integrity": "PASS"
+          },
+          {
+            "path": "/downloads/daily/2026-09-28/Energy_Intel_daily_2026-09-28_Public.zip",
+            "sha256": "29b86d1ae7f99af2bdbaee318c6f39e8c83f971a6b0e4793157a3f7d3d020e16",
+            "remote_byte_match": true,
+            "zip_integrity": "PASS"
+          },
+          {
+            "path": "/downloads/daily/2026-09-27/Energy_Intel_daily_2026-09-27_Public.zip",
+            "sha256": "357cea9ba4475f31b051f9c6e221e012b714f19f110d26ae4f2c4449f31f0d91",
+            "remote_byte_match": true,
+            "zip_integrity": "PASS"
+          },
+          {
+            "path": "/downloads/daily/2026-09-26/Energy_Intel_daily_2026-09-26_Public.zip",
+            "sha256": "32a5e0f3602374e0e03d3a5545df7cc9efacb110d4d49f1d155f51873e8f9eca",
+            "remote_byte_match": true,
+            "zip_integrity": "PASS"
+          },
+          {
+            "path": "/downloads/daily/2026-09-25/Energy_Intel_daily_2026-09-25_Public.zip",
+            "sha256": "3751ca19db9b690c9b9ac15f1314431df8b0cc1fc32f5d120107a20a731fc281",
+            "remote_byte_match": true,
+            "zip_integrity": "PASS"
+          },
+          {
+            "path": "/downloads/daily/2026-09-24/Energy_Intel_daily_2026-09-24_Public.zip",
+            "sha256": "e47f9bf6e2943c45737d24bf73f22f50e769cd8ef2fdcd9e728d7f4b668661ca",
+            "remote_byte_match": true,
+            "zip_integrity": "PASS"
+          },
+          {
+            "path": "/downloads/daily/2026-09-23/Energy_Intel_daily_2026-09-23_Public.zip",
+            "sha256": "88de54c1a654f3cdd02bbe9054f10640380fdaca5a13051b4ff821c8c149d611",
+            "remote_byte_match": true,
+            "zip_integrity": "PASS"
+          },
+          {
+            "path": "/downloads/daily/2026-09-22/Energy_Intel_daily_2026-09-22_Public.zip",
+            "sha256": "fef6d1aec3837a3bc27cfd128d6275399dd4018a60da8d2c9b78c73ea2154099",
+            "remote_byte_match": true,
+            "zip_integrity": "PASS"
+          },
+          {
+            "path": "/downloads/daily/2026-09-21/Energy_Intel_daily_2026-09-21_Public.zip",
+            "sha256": "27b6fa3e785d223fb7320700c34b7cff57bec100d16e578ea2cbd43e95a551b3",
+            "remote_byte_match": true,
+            "zip_integrity": "PASS"
+          },
+          {
+            "path": "/downloads/daily/2026-09-20/Energy_Intel_daily_2026-09-20_Public.zip",
+            "sha256": "d47c14241d66a6ff8ef25b8672c23926ffeae0d503556826f8a310f3010cf034",
+            "remote_byte_match": true,
+            "zip_integrity": "PASS"
+          },
+          {
+            "path": "/downloads/daily/2026-09-19/Energy_Intel_daily_2026-09-19_Public.zip",
+            "sha256": "b5642917fd66d7e5b8e678dafc616db18fb9bb4ce1145e2b6ed15d1ea088b174",
+            "remote_byte_match": true,
+            "zip_integrity": "PASS"
+          },
+          {
+            "path": "/downloads/daily/2026-09-18/Energy_Intel_daily_2026-09-18_Public.zip",
+            "sha256": "c0a93efdc5f2d0b44391a47a2883bab253f28d1d0049819d868b3f5819ac82c7",
+            "remote_byte_match": true,
+            "zip_integrity": "PASS"
+          },
+          {
+            "path": "/downloads/daily/2026-09-17/Energy_Intel_daily_2026-09-17_Public.zip",
+            "sha256": "baf20f6985c0a771ea1015825a0308c937b33015a9d1ee85fd25b34d01753066",
+            "remote_byte_match": true,
+            "zip_integrity": "PASS"
+          },
+          {
+            "path": "/downloads/daily/2026-09-16/Energy_Intel_daily_2026-09-16_Public.zip",
+            "sha256": "f4726db19d5f95c64bd41cb2f98b9b4d4bd58707cc6769c6d3c35eb5d6a6effa",
+            "remote_byte_match": true,
+            "zip_integrity": "PASS"
+          },
+          {
+            "path": "/downloads/daily/2026-09-15/Energy_Intel_daily_2026-09-15_Public.zip",
+            "sha256": "bc4f4ff954ae33dc7694af85feb177f8ac19200385f14dcfb6ae4b483abb10c9",
+            "remote_byte_match": true,
+            "zip_integrity": "PASS"
+          },
+          {
+            "path": "/downloads/daily/2026-09-14/Energy_Intel_daily_2026-09-14_Public.zip",
+            "sha256": "5016b88df72730d56fd867a630610b0c939e99c0126ac60f84b504ade5f3976a",
+            "remote_byte_match": true,
+            "zip_integrity": "PASS"
+          },
+          {
+            "path": "/downloads/daily/2026-09-13/Energy_Intel_daily_2026-09-13_Public.zip",
+            "sha256": "6431de11faf8cc551fc4646e2e640a4a58c24c86c47be006ea70a5123e0e77b2",
+            "remote_byte_match": true,
+            "zip_integrity": "PASS"
+          },
+          {
+            "path": "/downloads/daily/2026-09-12/Energy_Intel_daily_2026-09-12_Public.zip",
+            "sha256": "49584031df3e0158eedf047e3fb13673a7a6229048480c4ee92450e82fc77312",
+            "remote_byte_match": true,
+            "zip_integrity": "PASS"
+          },
+          {
+            "path": "/downloads/daily/2026-09-11/Energy_Intel_daily_2026-09-11_Public.zip",
+            "sha256": "56d35ef6f2264d1aa37c35029d1fb0173527f6abbb4b386b404074743b00d2f9",
+            "remote_byte_match": true,
+            "zip_integrity": "PASS"
+          },
+          {
+            "path": "/downloads/daily/2026-09-10/Energy_Intel_daily_2026-09-10_Public.zip",
+            "sha256": "eb0898c5af24910fbafd7bef1d350b17b324d4f887123fa7b8ca3ac70e7e24e0",
+            "remote_byte_match": true,
+            "zip_integrity": "PASS"
+          },
+          {
+            "path": "/downloads/daily/2026-09-09/Energy_Intel_daily_2026-09-09_Public.zip",
+            "sha256": "16ffb82df8a8f744ccd7334c12af7e9f88ecd2008cc85ce75ddae538f2e5788a",
+            "remote_byte_match": true,
+            "zip_integrity": "PASS"
+          },
+          {
+            "path": "/downloads/daily/2026-09-08/Energy_Intel_daily_2026-09-08_Public.zip",
+            "sha256": "3d0ad31db86e71df7050abccbb4e4001cc1d4a1ae7de3b1e4e45a3fb92097b4f",
+            "remote_byte_match": true,
+            "zip_integrity": "PASS"
+          },
+          {
+            "path": "/downloads/daily/2026-09-07/Energy_Intel_daily_2026-09-07_Public.zip",
+            "sha256": "73e50bc759b9ad76bcdf8b2debe5c4be5f90a91d673bc46e0e0372f720b282d7",
+            "remote_byte_match": true,
+            "zip_integrity": "PASS"
+          },
+          {
+            "path": "/downloads/daily/2026-08-31/Energy_Intel_daily_2026-08-31_Public.zip",
+            "sha256": "e3bd02a1c63f8815e936974429fad137d1696b9792286f94dd0e9470b041f0ce",
+            "remote_byte_match": true,
+            "zip_integrity": "PASS"
+          },
+          {
+            "path": "/downloads/daily/2026-08-30/Energy_Intel_daily_2026-08-30_Public.zip",
+            "sha256": "3269071fabe9327a3684a75da9ccd5045f293b0517b09ae56c741cafef42f4ab",
+            "remote_byte_match": true,
+            "zip_integrity": "PASS"
+          },
+          {
+            "path": "/downloads/daily/2026-08-29/Energy_Intel_daily_2026-08-29_Public.zip",
+            "sha256": "c1e8288b9baf1050d2934a49cdcf56fc3e24164497beab5cccf538034feb3434",
+            "remote_byte_match": true,
+            "zip_integrity": "PASS"
+          },
+          {
+            "path": "/downloads/daily/2026-08-28/Energy_Intel_daily_2026-08-28_Public.zip",
+            "sha256": "275d2bf7d9eb8f5ee9352e6f52a675790eb3b28412fbb801d19e53380fb55ce7",
+            "remote_byte_match": true,
+            "zip_integrity": "PASS"
+          },
+          {
+            "path": "/downloads/daily/2026-08-27/Energy_Intel_daily_2026-08-27_Public.zip",
+            "sha256": "19c0e678c43a91452de9b3c36fccf5d0442c5936ddb1fe4326a963816e35f400",
+            "remote_byte_match": true,
+            "zip_integrity": "PASS"
+          },
+          {
+            "path": "/downloads/daily/2026-08-26/Energy_Intel_daily_2026-08-26_Public.zip",
+            "sha256": "97b868a2179f0a87a5684a9dbd19ef6604281b33879bb61cdaddbb2de2764df3",
+            "remote_byte_match": true,
+            "zip_integrity": "PASS"
+          },
+          {
+            "path": "/downloads/daily/2026-08-25/Energy_Intel_daily_2026-08-25_Public.zip",
+            "sha256": "f7447cea70e94417620d9e32dcd241cffc235faef12958dd56692e6eec3e43d3",
+            "remote_byte_match": true,
+            "zip_integrity": "PASS"
+          },
+          {
+            "path": "/downloads/daily/2026-08-24/Energy_Intel_daily_2026-08-24_Public.zip",
+            "sha256": "fddb7d683bf24ae2721bbcc11e49675c62cd544ef6aae0d97b5bac6cfe21979d",
+            "remote_byte_match": true,
+            "zip_integrity": "PASS"
+          },
+          {
+            "path": "/downloads/daily/2026-08-23/Energy_Intel_daily_2026-08-23_Public.zip",
+            "sha256": "f0de40ae59fb980ee652d98ea0d1324a36606b5324fd8125a54574cedc626413",
+            "remote_byte_match": true,
+            "zip_integrity": "PASS"
+          },
+          {
+            "path": "/downloads/daily/2026-08-22/Energy_Intel_daily_2026-08-22_Public.zip",
+            "sha256": "d2f413044ffb8e1ad9c369490cae59b73365394245437d80fff4d67ae1a024a6",
+            "remote_byte_match": true,
+            "zip_integrity": "PASS"
+          },
+          {
+            "path": "/downloads/daily/2026-08-21/Energy_Intel_daily_2026-08-21_Public.zip",
+            "sha256": "ae1cf7e284fcfd2713ec7a5de52363cb9e0beec1feef646ab5f44a59e919498c",
+            "remote_byte_match": true,
+            "zip_integrity": "PASS"
+          },
+          {
+            "path": "/downloads/daily/2026-08-20/Energy_Intel_daily_2026-08-20_Public.zip",
+            "sha256": "0e064bae0c4c51f0383e2d19722b58fc00dd2692c2cccaba2d9ebfa0b6531710",
+            "remote_byte_match": true,
+            "zip_integrity": "PASS"
+          },
+          {
+            "path": "/downloads/daily/2026-08-16/Energy_Intel_daily_2026-08-16_Public.zip",
+            "sha256": "2ba4a7d3e5a836c74260b6ccd5cfe11854bad4b0254f77704aab1339cc30f365",
+            "remote_byte_match": true,
+            "zip_integrity": "PASS"
+          },
+          {
+            "path": "/downloads/daily/2026-08-15/Energy_Intel_daily_2026-08-15_Public.zip",
+            "sha256": "6e42eca7126a8d2a9763bdc913b02972bfaa8eb3284c2aac4facf6cdd27f08a7",
+            "remote_byte_match": true,
+            "zip_integrity": "PASS"
+          },
+          {
+            "path": "/downloads/daily/2026-08-14/Energy_Intel_daily_2026-08-14_Public.zip",
+            "sha256": "3c3a23bf11817f28e9f71a27661b81a4b6e7c2cbec2a71606c5034ef88b48ff1",
+            "remote_byte_match": true,
+            "zip_integrity": "PASS"
+          },
+          {
+            "path": "/downloads/daily/2026-08-13/Energy_Intel_daily_2026-08-13_Public.zip",
+            "sha256": "182ace22d0b4d4d6a02e4356671b129e391015abe998e905b469aac714e144b9",
+            "remote_byte_match": true,
+            "zip_integrity": "PASS"
+          },
+          {
+            "path": "/downloads/daily/2026-08-12/Energy_Intel_daily_2026-08-12_Public.zip",
+            "sha256": "7b885f6421c449208ccdcf49118afe9e9b7f5b17f4376d773c4c39e40a3319fd",
+            "remote_byte_match": true,
+            "zip_integrity": "PASS"
+          },
+          {
+            "path": "/downloads/daily/2026-08-11/Energy_Intel_daily_2026-08-11_Public.zip",
+            "sha256": "8d2843a626881216d94cb8c702dfae5703ef92d0f0f2a71f1b86124988187d85",
+            "remote_byte_match": true,
+            "zip_integrity": "PASS"
+          },
+          {
+            "path": "/downloads/daily/2026-08-10/Energy_Intel_daily_2026-08-10_Public.zip",
+            "sha256": "44b6e2960476b3a9a229bc43dc0cb75ffa007c451a0be3bcbe2b5cb94687f271",
+            "remote_byte_match": true,
+            "zip_integrity": "PASS"
+          },
+          {
+            "path": "/downloads/daily/2026-08-09/Energy_Intel_daily_2026-08-09_Public.zip",
+            "sha256": "e2dd512379d7d337c3c27c14d5358c64154582f8facf52e4070091b336bb9d4f",
+            "remote_byte_match": true,
+            "zip_integrity": "PASS"
+          },
+          {
+            "path": "/downloads/daily/2026-08-08/Energy_Intel_daily_2026-08-08_Public.zip",
+            "sha256": "f608817a05d4b3438e12876e245f799cace17d32079888456335df67de46e313",
+            "remote_byte_match": true,
+            "zip_integrity": "PASS"
+          },
+          {
+            "path": "/downloads/daily/2026-08-07/Energy_Intel_daily_2026-08-07_Public.zip",
+            "sha256": "5efbbbc9ffe7fc882c36bb71ae97b230a082e1fb5c3cc51daa0ebfe21a10537c",
+            "remote_byte_match": true,
+            "zip_integrity": "PASS"
+          },
+          {
+            "path": "/downloads/daily/2026-08-06/Energy_Intel_daily_2026-08-06_Public.zip",
+            "sha256": "3e17246d81084f3253496cde488876481561c8c98e5d6e03c25f5c2ebca2dfa7",
+            "remote_byte_match": true,
+            "zip_integrity": "PASS"
+          },
+          {
+            "path": "/downloads/daily/2026-08-05/Energy_Intel_daily_2026-08-05_Public.zip",
+            "sha256": "b80467afa50fb51044683a21d346b9a168762cb58f0da12321274dca427e9068",
+            "remote_byte_match": true,
+            "zip_integrity": "PASS"
+          },
+          {
+            "path": "/downloads/daily/2026-08-04/Energy_Intel_daily_2026-08-04_Public.zip",
+            "sha256": "1e94dbeac488dcab50b216b844384230ba6878e3088ef5df537a388a43c10b63",
+            "remote_byte_match": true,
+            "zip_integrity": "PASS"
+          },
+          {
+            "path": "/downloads/daily/2026-08-03/Energy_Intel_daily_2026-08-03_Public.zip",
+            "sha256": "210914304d0b7c2ae5e004ae41641232f959523bc83719ac1304fc8a54895c8a",
+            "remote_byte_match": true,
+            "zip_integrity": "PASS"
+          },
+          {
+            "path": "/downloads/daily/2026-08-02/Energy_Intel_daily_2026-08-02_Public.zip",
+            "sha256": "ca257982c221aa04327fcece60bf1a71970c89567af4b4559512052cf7183611",
+            "remote_byte_match": true,
+            "zip_integrity": "PASS"
+          },
+          {
+            "path": "/downloads/daily/2026-08-01/Energy_Intel_daily_2026-08-01_Public.zip",
+            "sha256": "ec03001faacd3c4839fd1c0619d4fe2dfd954f991511aab1c21f4f396d079397",
+            "remote_byte_match": true,
+            "zip_integrity": "PASS"
+          },
+          {
+            "path": "/downloads/daily/2026-07-31/Energy_Intel_daily_2026-07-31_Public.zip",
+            "sha256": "fb5c2ccd4750eb3e5fdaa946054d1ca44fb01b29195ab9b46af5863caecae764",
+            "remote_byte_match": true,
+            "zip_integrity": "PASS"
+          },
+          {
+            "path": "/downloads/daily/2026-07-30/Energy_Intel_daily_2026-07-30_Public.zip",
+            "sha256": "1c25bdab48bb6e34acdea76686f0b98a6d0d947831dceb751a2487935ee7a23e",
+            "remote_byte_match": true,
+            "zip_integrity": "PASS"
+          },
+          {
+            "path": "/downloads/daily/2026-07-29/Energy_Intel_daily_2026-07-29_Public.zip",
+            "sha256": "da7e3be969e32957fe0970acac1e964d7a638db19a4f97c84a37d22390e2e573",
+            "remote_byte_match": true,
+            "zip_integrity": "PASS"
+          },
+          {
+            "path": "/downloads/daily/2026-07-28/Energy_Intel_daily_2026-07-28_Public.zip",
+            "sha256": "b91c00e997f642fae69291d83e67ad9e47f1e8fa1b5d46238ef8900754f9dadd",
+            "remote_byte_match": true,
+            "zip_integrity": "PASS"
+          },
+          {
+            "path": "/downloads/daily/2026-07-27/Energy_Intel_daily_2026-07-27_Public.zip",
+            "sha256": "910a4b5abc3f15491fa8f5cd25bca8c10661d7063b8e7d70a4a24d7926bcc3a2",
+            "remote_byte_match": true,
+            "zip_integrity": "PASS"
+          },
+          {
+            "path": "/downloads/daily/2026-07-26/Energy_Intel_daily_2026-07-26_Public.zip",
+            "sha256": "ad5ae9983c53b5c05f41e07fe55f23c142253269aa672aca3b47f274ed49f5de",
+            "remote_byte_match": true,
+            "zip_integrity": "PASS"
+          },
+          {
+            "path": "/downloads/daily/2026-07-25/Energy_Intel_daily_2026-07-25_Public.zip",
+            "sha256": "fe471b5e123bdea8a1cec2987dc8adaaf403a92d2f27ba9548fa88bca896636d",
+            "remote_byte_match": true,
+            "zip_integrity": "PASS"
+          },
+          {
+            "path": "/downloads/daily/2026-07-24/Energy_Intel_daily_2026-07-24_Public.zip",
+            "sha256": "8d4a85cd6adbbdfceffdf9af96f32e3810cb5af44a15e8ec55ad51d1094848ea",
+            "remote_byte_match": true,
+            "zip_integrity": "PASS"
+          },
+          {
+            "path": "/downloads/daily/2026-07-23/Energy_Intel_daily_2026-07-23_Public.zip",
+            "sha256": "ba229f8aeae64837fcbf23d01d743a8ae48e6da3eb07fd94f5c20a5e6a0baf4a",
+            "remote_byte_match": true,
+            "zip_integrity": "PASS"
+          },
+          {
+            "path": "/downloads/daily/2026-07-22/Energy_Intel_daily_2026-07-22_Public.zip",
+            "sha256": "901c79962787a2118181a76d130ff3a28e548ace27de40e5f1b9d5eb6e9b1a92",
+            "remote_byte_match": true,
+            "zip_integrity": "PASS"
+          },
+          {
+            "path": "/downloads/daily/2026-07-21/Energy_Intel_daily_2026-07-21_Public.zip",
+            "sha256": "5c05c53939feec19af6d1cc46ecef280ff03131f769e13e99d995dd3940bf4bb",
+            "remote_byte_match": true,
+            "zip_integrity": "PASS"
+          },
+          {
+            "path": "/downloads/daily/2026-07-20/Energy_Intel_daily_2026-07-20_Public.zip",
+            "sha256": "42ecd839197137f68928f31274b6363edc41fb25da0338f8c1484bc62665756c",
+            "remote_byte_match": true,
+            "zip_integrity": "PASS"
+          },
+          {
+            "path": "/downloads/daily/2026-07-19/Energy_Intel_daily_2026-07-19_Public.zip",
+            "sha256": "620be868bd74da51b7da3c6f64b4f3690034fc335f3e7ff500c17bbcb4ef941c",
+            "remote_byte_match": true,
+            "zip_integrity": "PASS"
+          },
+          {
+            "path": "/downloads/daily/2026-07-18/Energy_Intel_daily_2026-07-18_Public.zip",
+            "sha256": "2112a33c351212d993e23de59904dee2ff51a568c05ac1e160f58d1fd6c78915",
+            "remote_byte_match": true,
+            "zip_integrity": "PASS"
+          },
+          {
+            "path": "/downloads/daily/2026-07-17/Energy_Intel_daily_2026-07-17_Public.zip",
+            "sha256": "56d9ad90397663390d4fe8a0f837ff3d0e53ed7bf540a847dc97144a8fd308d8",
+            "remote_byte_match": true,
+            "zip_integrity": "PASS"
+          },
+          {
+            "path": "/downloads/daily/2026-07-16/Energy_Intel_daily_2026-07-16_Public.zip",
+            "sha256": "86cb9898e4cbab23a003ffda14bc30e993501ba04bbd520136e153e01bade992",
+            "remote_byte_match": true,
+            "zip_integrity": "PASS"
+          },
+          {
+            "path": "/downloads/daily/2026-07-15/Energy_Intel_daily_2026-07-15_Public.zip",
+            "sha256": "b4fbf93d53511247e1b8425a3ea34db2637b3f34a61ef89a68461b995f4a243c",
+            "remote_byte_match": true,
+            "zip_integrity": "PASS"
+          },
+          {
+            "path": "/downloads/daily/2026-07-14/Energy_Intel_daily_2026-07-14_Public.zip",
+            "sha256": "7a682cc4b02ed1aa679aa6a7e1e516f7cba709620b746ac2198cee022d7a5198",
+            "remote_byte_match": true,
+            "zip_integrity": "PASS"
+          },
+          {
+            "path": "/downloads/daily/2026-07-13/Energy_Intel_daily_2026-07-13_Public.zip",
+            "sha256": "42a8b7f6c3320ad7dc7e8346df988e3020945d7172e3d6206118ac83f288afb9",
+            "remote_byte_match": true,
+            "zip_integrity": "PASS"
+          },
+          {
+            "path": "/downloads/daily/2026-07-12/Energy_Intel_daily_2026-07-12_Public.zip",
+            "sha256": "94527c657e0f8c4e39a6ed57380015627cba1ad5eadd1bab9cc3cdf9b54ce9ab",
+            "remote_byte_match": true,
+            "zip_integrity": "PASS"
+          },
+          {
+            "path": "/downloads/daily/2026-07-11/Energy_Intel_daily_2026-07-11_Public.zip",
+            "sha256": "b5097d25cc0932407954d7f2176b34472fa71627386e9cf9fe85d68bb02be08d",
+            "remote_byte_match": true,
+            "zip_integrity": "PASS"
+          },
+          {
+            "path": "/downloads/daily/2026-07-10/Energy_Intel_daily_2026-07-10_Public.zip",
+            "sha256": "1b1e26dd92e40c45c328d4f00109772ad33449ec358c7ae0b67578b0aed1a6df",
+            "remote_byte_match": true,
+            "zip_integrity": "PASS"
+          },
+          {
+            "path": "/downloads/daily/2026-07-09/Energy_Intel_daily_2026-07-09_Public.zip",
+            "sha256": "288d18ea4260706bbc197d1aed4354d8a2f743d32356bbc7ac343b2216181861",
+            "remote_byte_match": true,
+            "zip_integrity": "PASS"
+          },
+          {
+            "path": "/downloads/daily/2026-07-08/Energy_Intel_daily_2026-07-08_Public.zip",
+            "sha256": "e942e7b3dff5e2e2b685e8eb5830b690e7855edad60e43db8afe21c8ee242a49",
+            "remote_byte_match": true,
+            "zip_integrity": "PASS"
+          },
+          {
+            "path": "/downloads/daily/2026-07-07/Energy_Intel_daily_2026-07-07_Public.zip",
+            "sha256": "79f51dd9ec9813c7eecf78a7f359e8cbf39731a4e2006ac063213d5b787c48be",
+            "remote_byte_match": true,
+            "zip_integrity": "PASS"
+          },
+          {
+            "path": "/downloads/daily/2026-07-04/Energy_Intel_daily_2026-07-04_Public.zip",
+            "sha256": "fc3badea568f3e4ede1398b8688fc53581b2a0a233b4803fc485942bf3170bc1",
+            "remote_byte_match": true,
+            "zip_integrity": "PASS"
+          },
+          {
+            "path": "/downloads/daily/2026-07-03/Energy_Intel_daily_2026-07-03_Public.zip",
+            "sha256": "e32de75461fd4fb5e6d25611e5e5eb7e118c2ce40dcb73250a1bed2638055d1f",
+            "remote_byte_match": true,
+            "zip_integrity": "PASS"
+          },
+          {
+            "path": "/downloads/daily/2026-07-02/Energy_Intel_daily_2026-07-02_Public.zip",
+            "sha256": "e58034a29f9fa4c9ccc299706292869ac28c868c0e74790467791679f43b80a6",
+            "remote_byte_match": true,
+            "zip_integrity": "PASS"
+          },
+          {
+            "path": "/downloads/daily/2026-07-01/Energy_Intel_daily_2026-07-01_Public.zip",
+            "sha256": "d6ef599f03bc743a03fb71a06ee9965453a21fafc1ffbf7a476e6c9976da725c",
+            "remote_byte_match": true,
+            "zip_integrity": "PASS"
+          },
+          {
+            "path": "/downloads/daily/2026-06-30/Energy_Intel_daily_2026-06-30_Public.zip",
+            "sha256": "dcf5a1ea5383750c917146c415b74b13bf95f533aef2d9530f21174cb786dfcd",
+            "remote_byte_match": true,
+            "zip_integrity": "PASS"
+          },
+          {
+            "path": "/downloads/daily/2026-06-28/Energy_Intel_daily_2026-06-28_Public.zip",
+            "sha256": "62f6c7557521aa31a04739ac7e604223c1f593c61c41947e2f441bc96c26f464",
+            "remote_byte_match": true,
+            "zip_integrity": "PASS"
+          },
+          {
+            "path": "/downloads/daily/2026-06-27/Energy_Intel_daily_2026-06-27_Public.zip",
+            "sha256": "0af5dff0ee86a7c220c5f641298962552230958b840c14a899a9782317813a24",
+            "remote_byte_match": true,
+            "zip_integrity": "PASS"
+          },
+          {
+            "path": "/downloads/daily/2026-06-26/Energy_Intel_daily_2026-06-26_Public.zip",
+            "sha256": "41860e3656dd42891c738fd192f9beb9030e31d4742f69d3cac52445c356815a",
+            "remote_byte_match": true,
+            "zip_integrity": "PASS"
+          },
+          {
+            "path": "/downloads/daily/2026-06-25/Energy_Intel_daily_2026-06-25_Public.zip",
+            "sha256": "3f287501441e68b1d6bdca9543f44b58e8b0e98f737398cd72dc7a7aba2858fe",
+            "remote_byte_match": true,
+            "zip_integrity": "PASS"
+          },
+          {
+            "path": "/downloads/daily/2026-06-24/Energy_Intel_daily_2026-06-24_Public.zip",
+            "sha256": "a55e0f6e3753239a222c2bede8a6b2fc9167ab01968a33180fbaab247907cde2",
+            "remote_byte_match": true,
+            "zip_integrity": "PASS"
+          },
+          {
+            "path": "/downloads/daily/2026-06-23/Energy_Intel_daily_2026-06-23_Public.zip",
+            "sha256": "6efb11dbbdc4b0d329f96e069dec982d1837d9ce1560d7889388efd80b485d65",
+            "remote_byte_match": true,
+            "zip_integrity": "PASS"
+          },
+          {
+            "path": "/downloads/daily/2026-06-22/Energy_Intel_daily_2026-06-22_Public.zip",
+            "sha256": "d95486ac5c4e7a0f71b267ffca4f0131e99fd0656111a0c0285922462a62ff3a",
+            "remote_byte_match": true,
+            "zip_integrity": "PASS"
+          },
+          {
+            "path": "/downloads/daily/2026-06-21/Energy_Intel_daily_2026-06-21_Public.zip",
+            "sha256": "eb919ceff2b64dd42c87f1f182d90c120129025de1966c0335a4f29321da017d",
+            "remote_byte_match": true,
+            "zip_integrity": "PASS"
+          },
+          {
+            "path": "/downloads/daily/2026-06-20/Energy_Intel_daily_2026-06-20_Public.zip",
+            "sha256": "f80cddec5e4c1f3c7dcfc12911bcf9b6dd3ee6b15fba69d8902f20c24cddb940",
+            "remote_byte_match": true,
+            "zip_integrity": "PASS"
+          },
+          {
+            "path": "/downloads/daily/2026-06-19/Energy_Intel_daily_2026-06-19_Public.zip",
+            "sha256": "b7662a7318953cbc5f64caffd90a8f56252d974ed250ba115319373d71f56983",
+            "remote_byte_match": true,
+            "zip_integrity": "PASS"
+          },
+          {
+            "path": "/downloads/daily/2026-06-18/Energy_Intel_daily_2026-06-18_Public.zip",
+            "sha256": "2d483f61e105a61ba8776fcdcabbd2bea49380742af30e9eb9773584e3c28fca",
+            "remote_byte_match": true,
+            "zip_integrity": "PASS"
+          },
+          {
+            "path": "/downloads/daily/2026-06-17/Energy_Intel_daily_2026-06-17_Public.zip",
+            "sha256": "0dc04464f3c9a78d689466952e70405ec197709c2b97d24f9e283291fe276a55",
+            "remote_byte_match": true,
+            "zip_integrity": "PASS"
+          },
+          {
+            "path": "/downloads/daily/2026-06-16/Energy_Intel_daily_2026-06-16_Public.zip",
+            "sha256": "29416ca5ad4dc439356dcbd882b45a489f331b9c11bab3361e2a125267f47672",
+            "remote_byte_match": true,
+            "zip_integrity": "PASS"
+          },
+          {
+            "path": "/downloads/daily/2026-06-15/Energy_Intel_daily_2026-06-15_Public.zip",
+            "sha256": "a052611d7f93375756812082edf780b86b3b2a197d1e594f0438ef61800f0894",
+            "remote_byte_match": true,
+            "zip_integrity": "PASS"
+          },
+          {
+            "path": "/downloads/daily/2026-06-14/Energy_Intel_daily_2026-06-14_Public.zip",
+            "sha256": "4ef7dbdc6549c5c99324448548e37af34d5ec6468e5d71e98a1852f396a70357",
+            "remote_byte_match": true,
+            "zip_integrity": "PASS"
+          },
+          {
+            "path": "/downloads/daily/2026-06-13/Energy_Intel_daily_2026-06-13_Public.zip",
+            "sha256": "4d3eaf4598d35cd122b7c0b19b765d911ce336bc1b613361d15a7c74a245707d",
+            "remote_byte_match": true,
+            "zip_integrity": "PASS"
+          },
+          {
+            "path": "/downloads/daily/2026-06-12/Energy_Intel_daily_2026-06-12_Public.zip",
+            "sha256": "cce7ecbeaa9cc638d1770b1056b8aee57638e7be173384c4285367b7cc2885e0",
+            "remote_byte_match": true,
+            "zip_integrity": "PASS"
+          },
+          {
+            "path": "/downloads/daily/2026-06-11/Energy_Intel_daily_2026-06-11_Public.zip",
+            "sha256": "1f6e781754afcec24dc5a28143627a85ad0c53da2a2cf447d552e8cca567c563",
+            "remote_byte_match": true,
+            "zip_integrity": "PASS"
+          },
+          {
+            "path": "/downloads/daily/2026-06-08/Energy_Intel_daily_2026-06-08_Public.zip",
+            "sha256": "d407a8cfb8159a63022fc3825e85338564b8b04221df04f323c17b3449c87d54",
+            "remote_byte_match": true,
+            "zip_integrity": "PASS"
+          },
+          {
+            "path": "/downloads/daily/2026-06-07/Energy_Intel_daily_2026-06-07_Public.zip",
+            "sha256": "1de09583d27b691c34ea57d17840a000cbf30d1d05f1456a42222829ed2eef98",
+            "remote_byte_match": true,
+            "zip_integrity": "PASS"
+          },
+          {
+            "path": "/downloads/daily/2026-06-06/Energy_Intel_daily_2026-06-06_Public.zip",
+            "sha256": "8306b6b1d71c34792f6bc679e13185b8993044b141342a7c29276912bc0f81af",
+            "remote_byte_match": true,
+            "zip_integrity": "PASS"
+          },
+          {
+            "path": "/downloads/daily/2026-06-05/Energy_Intel_daily_2026-06-05_Public.zip",
+            "sha256": "3621f88a8d9832dee25579843b1c32ab8521e8ff16b6da0d8235e6c8d4beeefd",
+            "remote_byte_match": true,
+            "zip_integrity": "PASS"
+          },
+          {
+            "path": "/downloads/daily/2026-06-04/Energy_Intel_daily_2026-06-04_Public.zip",
+            "sha256": "f212afef04c5b1e432cd3a9bb6e483f3a529998fd2fa5b817c3ca3c0ea72e64f",
+            "remote_byte_match": true,
+            "zip_integrity": "PASS"
+          },
+          {
+            "path": "/downloads/daily/2026-06-03/Energy_Intel_daily_2026-06-03_Public.zip",
+            "sha256": "863c26c520e5a44ec6d3d125532d2c532192feadf1b5bd96a7420e8fa1305cb4",
+            "remote_byte_match": true,
+            "zip_integrity": "PASS"
+          },
+          {
+            "path": "/downloads/daily/2026-06-02/Energy_Intel_daily_2026-06-02_Public.zip",
+            "sha256": "a3b6d0bf9338a0cbd1523e672485b09c4475cd6d3dce60f0c1d7278d06561e99",
+            "remote_byte_match": true,
+            "zip_integrity": "PASS"
+          },
+          {
+            "path": "/downloads/daily/2026-06-01/Energy_Intel_daily_2026-06-01_Public.zip",
+            "sha256": "7d5386f8d51a17c3e5f44577fa758bae6fbb19755362a21a9386c2df695c2055",
+            "remote_byte_match": true,
+            "zip_integrity": "PASS"
+          },
+          {
+            "path": "/downloads/daily/2026-05-31/Energy_Intel_daily_2026-05-31_Public.zip",
+            "sha256": "3041bee514b651585451478871dc7badd41ee6e0e0c0372f3dd976b5f0ce4317",
+            "remote_byte_match": true,
+            "zip_integrity": "PASS"
+          },
+          {
+            "path": "/downloads/daily/2026-05-30/Energy_Intel_daily_2026-05-30_Public.zip",
+            "sha256": "cd5320110d7f41d9bc3a529143f63e78e7f66a1cf676942d5cf5e203f884f9bd",
+            "remote_byte_match": true,
+            "zip_integrity": "PASS"
+          },
+          {
+            "path": "/downloads/daily/2026-05-29/Energy_Intel_daily_2026-05-29_Public.zip",
+            "sha256": "9cc7fb1b26826190e455ffe4b4449af3b81260868a9cc5895021b8490068bd6a",
+            "remote_byte_match": true,
+            "zip_integrity": "PASS"
+          },
+          {
+            "path": "/downloads/daily/2026-05-28/Energy_Intel_daily_2026-05-28_Public.zip",
+            "sha256": "d7e90bc5ab40892e2c7d7646bc450a7f9268a310f0f2b3c70d286e171a926ef5",
+            "remote_byte_match": true,
+            "zip_integrity": "PASS"
+          },
+          {
+            "path": "/downloads/daily/2026-05-27/Energy_Intel_daily_2026-05-27_Public.zip",
+            "sha256": "248da4ba8f5a1cfdb1902436660ea5c090a6eafbc0328a5be663c64fbe7fb518",
+            "remote_byte_match": true,
+            "zip_integrity": "PASS"
+          },
+          {
+            "path": "/downloads/daily/2026-05-26/Energy_Intel_daily_2026-05-26_Public.zip",
+            "sha256": "7a3446c358799246f48dca42394df4c706886f6a5e96d6471ac04bfe11c937f5",
+            "remote_byte_match": true,
+            "zip_integrity": "PASS"
+          },
+          {
+            "path": "/downloads/daily/2026-05-25/Energy_Intel_daily_2026-05-25_Public.zip",
+            "sha256": "62385abf37a45230c14630dcdc831746ba4a7b539eea50048030a89edff79b61",
+            "remote_byte_match": true,
+            "zip_integrity": "PASS"
+          },
+          {
+            "path": "/downloads/daily/2026-05-24/Energy_Intel_daily_2026-05-24_Public.zip",
+            "sha256": "c52192b118bb261cf6490741bf4d075fa67e25b3181dab59de0f2551c488e559",
+            "remote_byte_match": true,
+            "zip_integrity": "PASS"
+          },
+          {
+            "path": "/downloads/daily/2026-05-23/Energy_Intel_daily_2026-05-23_Public.zip",
+            "sha256": "880aee0eb51a9d0da76840c861227dfabb376a68014b830332a9055409346699",
+            "remote_byte_match": true,
+            "zip_integrity": "PASS"
+          },
+          {
+            "path": "/downloads/daily/2026-05-22/Energy_Intel_daily_2026-05-22_Public.zip",
+            "sha256": "ed7de3a50c8ca6cbfbc2b1f89772a6804f563f1e5fa85b4ad2c42b329bd208b8",
+            "remote_byte_match": true,
+            "zip_integrity": "PASS"
+          },
+          {
+            "path": "/downloads/daily/2026-05-21/Energy_Intel_daily_2026-05-21_Public.zip",
+            "sha256": "7c4a85d61bc68e1a3b775d1796608e7f8396c4255b810b8d14a2ca3857cce314",
+            "remote_byte_match": true,
+            "zip_integrity": "PASS"
+          },
+          {
+            "path": "/downloads/daily/2026-05-20/Energy_Intel_daily_2026-05-20_Public.zip",
+            "sha256": "a7af4a6ec71ee4419a84a9dd94f6c2150e1d9764bc3f1aa1e9bdbb4f96f91c69",
+            "remote_byte_match": true,
+            "zip_integrity": "PASS"
+          },
+          {
+            "path": "/downloads/daily/2026-05-19/Energy_Intel_daily_2026-05-19_Public.zip",
+            "sha256": "1e9bc246eb8ff6aa81c676f86ac4e50141b98adac0ef89d07f4885171c9ab176",
+            "remote_byte_match": true,
+            "zip_integrity": "PASS"
+          },
+          {
+            "path": "/downloads/daily/2026-05-18/Energy_Intel_daily_2026-05-18_Public.zip",
+            "sha256": "64d3f604693df6e046b63758159dcbb3d5d61d1f31b270ef926edbca22eb9061",
+            "remote_byte_match": true,
+            "zip_integrity": "PASS"
+          },
+          {
+            "path": "/downloads/daily/2026-05-17/Energy_Intel_daily_2026-05-17_Public.zip",
+            "sha256": "558f5e50ef627fd02da73c5c247cf8688b94f99477eeb680226a715adf2776f2",
+            "remote_byte_match": true,
+            "zip_integrity": "PASS"
+          },
+          {
+            "path": "/downloads/daily/2026-05-15/Energy_Intel_daily_2026-05-15_Public.zip",
+            "sha256": "8c16d895e24a2c5436393cd230eaa0d17e11e6562ee35791a75f9e812c374ce1",
+            "remote_byte_match": true,
+            "zip_integrity": "PASS"
+          },
+          {
+            "path": "/downloads/weekly/2026-W43/Energy_Intel_weekly_2026-W43_Public.zip",
+            "sha256": "7c874ff9520ef20654724bb293bad656c44d7523454e3656761472e33447ddd0",
+            "remote_byte_match": true,
+            "zip_integrity": "PASS"
+          },
+          {
+            "path": "/downloads/weekly/2026-W42/Energy_Intel_weekly_2026-W42_Public.zip",
+            "sha256": "c240fd90c92fc3f61e54a0fc888c821c369cc0bac67e69ae6169d93f22855132",
+            "remote_byte_match": true,
+            "zip_integrity": "PASS"
+          },
+          {
+            "path": "/downloads/weekly/2026-W40/Energy_Intel_weekly_2026-W40_Public.zip",
+            "sha256": "7d5d10199df404c830519bf51f4639196e4d3c8256416b4362a65d640fd5c49e",
+            "remote_byte_match": true,
+            "zip_integrity": "PASS"
+          },
+          {
+            "path": "/downloads/weekly/2026-W39/Energy_Intel_weekly_2026-W39_Public.zip",
+            "sha256": "4a0d029702d79447028235e7ad856d9f13d09ea601995a817a4e9111b76441e2",
+            "remote_byte_match": true,
+            "zip_integrity": "PASS"
+          },
+          {
+            "path": "/downloads/weekly/2026-W38/Energy_Intel_weekly_2026-W38_Public.zip",
+            "sha256": "b9fc5c235a71247ec6a84eecaab6a14edd16db5789cfdc5995aad8ab474e2442",
+            "remote_byte_match": true,
+            "zip_integrity": "PASS"
+          },
+          {
+            "path": "/downloads/weekly/2026-W37/Energy_Intel_weekly_2026-W37_Public.zip",
+            "sha256": "d10032e1f5e9a4432c76c113224e3445cc81cbe163167af082beb7ead776b10d",
+            "remote_byte_match": true,
+            "zip_integrity": "PASS"
+          },
+          {
+            "path": "/downloads/weekly/2026-W36/Energy_Intel_weekly_2026-W36_Public.zip",
+            "sha256": "d384b8e051301dc042e59efe461e02779a4c2e66347bc29da3746d5895a9927b",
+            "remote_byte_match": true,
+            "zip_integrity": "PASS"
+          },
+          {
+            "path": "/downloads/weekly/2026-W35/Energy_Intel_weekly_2026-W35_Public.zip",
+            "sha256": "354f4ff55c86ac57aff0b6db34d52bb1439fb4bfbaef7831869360e761bd80ae",
+            "remote_byte_match": true,
+            "zip_integrity": "PASS"
+          },
+          {
+            "path": "/downloads/weekly/2026-W34/Energy_Intel_weekly_2026-W34_Public.zip",
+            "sha256": "d1c05c4c2957cdad1d0b3d7dc55bc85b96ac5658631b2deb2839cd536890fd18",
+            "remote_byte_match": true,
+            "zip_integrity": "PASS"
+          },
+          {
+            "path": "/downloads/weekly/2026-W33/Energy_Intel_weekly_2026-W33_Public.zip",
+            "sha256": "60055edfdaf61628e1537c57774cd71ae63275d62cf1e3f2082ffb7b341e9283",
+            "remote_byte_match": true,
+            "zip_integrity": "PASS"
+          },
+          {
+            "path": "/downloads/weekly/2026-W32/Energy_Intel_weekly_2026-W32_Public.zip",
+            "sha256": "9f59d359fc8ba8fb6dc1b645ff962ab0257ead579e6cea0b6cf4105ec76b3c5b",
+            "remote_byte_match": true,
+            "zip_integrity": "PASS"
+          },
+          {
+            "path": "/downloads/weekly/2026-W31/Energy_Intel_weekly_2026-W31_Public.zip",
+            "sha256": "f03b9794a881be6fbc9561e3cb28ddf9235de4cae09ffd22c80996f8772c31b2",
+            "remote_byte_match": true,
+            "zip_integrity": "PASS"
+          },
+          {
+            "path": "/downloads/weekly/2026-W30/Energy_Intel_weekly_2026-W30_Public.zip",
+            "sha256": "fc4247f277b387f4f0c87eecc57c2a46239f41e6fbe9326064b0ae0eeef6178c",
+            "remote_byte_match": true,
+            "zip_integrity": "PASS"
+          },
+          {
+            "path": "/downloads/weekly/2026-W29/Energy_Intel_weekly_2026-W29_Public.zip",
+            "sha256": "9e4836dbcb14e17504196aa46c5bdc2c6cd57bfaf6d014fa53f39ff6eb3825e8",
+            "remote_byte_match": true,
+            "zip_integrity": "PASS"
+          },
+          {
+            "path": "/downloads/weekly/2026-W28/Energy_Intel_weekly_2026-W28_Public.zip",
+            "sha256": "67af1af83d3d158aa0231eab06a4609f97d690e0b1868fc057524e1e50db0134",
+            "remote_byte_match": true,
+            "zip_integrity": "PASS"
+          },
+          {
+            "path": "/downloads/weekly/2026-W27/Energy_Intel_weekly_2026-W27_Public.zip",
+            "sha256": "e2893b9c202b17f3cbeade05c40a5667708a54dda93632b21f64e69b62546bb5",
+            "remote_byte_match": true,
+            "zip_integrity": "PASS"
+          },
+          {
+            "path": "/downloads/weekly/2026-W24/Energy_Intel_weekly_2026-W24_Public.zip",
+            "sha256": "5b15f0fca0cc518ee78403cd5e794833a354e56174eb2bfc8bf6f454b11c6f28",
+            "remote_byte_match": true,
+            "zip_integrity": "PASS"
+          },
+          {
+            "path": "/downloads/weekly/2026-W23/Energy_Intel_weekly_2026-W23_Public.zip",
+            "sha256": "1124850e2806bb9fd701ded9858d0cf3865e882a2be113b051c4c13f1cecc57b",
+            "remote_byte_match": true,
+            "zip_integrity": "PASS"
+          },
+          {
+            "path": "/downloads/weekly/2026-W22/Energy_Intel_weekly_2026-W22_Public.zip",
+            "sha256": "6446f86b9a9f2f4df9e1c312ae2a7b25c2d9fd27da85bbe6cad13f6bc79004bc",
+            "remote_byte_match": true,
+            "zip_integrity": "PASS"
+          },
+          {
+            "path": "/downloads/weekly/2026-W21/Energy_Intel_weekly_2026-W21_Public.zip",
+            "sha256": "b05a37e5a3fdb5e9f2358e86b1e7158c6f85fea4cbce1b8550ce7e4369564717",
+            "remote_byte_match": true,
+            "zip_integrity": "PASS"
+          },
+          {
+            "path": "/downloads/monthly/2026-09/Energy_Intel_monthly_2026-09_Public.zip",
+            "sha256": "88084d99b86177f11d52c81acd4a2f3c9ce22985d906401fc26df5e05409ac5f",
+            "remote_byte_match": true,
+            "zip_integrity": "PASS"
+          },
+          {
+            "path": "/downloads/monthly/2026-08/Energy_Intel_monthly_2026-08_Public.zip",
+            "sha256": "c8e0bda4fa87a8847d9f8df04723877f85d0f3738616a6845a361e28490d69a7",
+            "remote_byte_match": true,
+            "zip_integrity": "PASS"
+          },
+          {
+            "path": "/downloads/monthly/2026-05/Energy_Intel_monthly_2026-05_Public.zip",
+            "sha256": "bb7aa1fa8eabe654b57946bc0a77ca32d57f23bff81b784e5296e8db5dfea01b",
+            "remote_byte_match": true,
+            "zip_integrity": "PASS"
+          },
+          {
+            "path": "/downloads/quarterly/2026-Q3/Energy_Intel_quarterly_2026-Q3_Public.zip",
+            "sha256": "82fa55d98ecedbd272298003113a44f1294b9a4addb9e0f0ed000a57d3b3ebf2",
+            "remote_byte_match": true,
+            "zip_integrity": "PASS"
+          },
+          {
+            "path": "/downloads/quarterly/2026-Q2/Energy_Intel_quarterly_2026-Q2_Public.zip",
+            "sha256": "dde4ab07709b7a898edc433287f6eef43dd943f256f36c5eb947ae8c57e4993c",
+            "remote_byte_match": true,
+            "zip_integrity": "PASS"
+          }
+        ]
+      },
+      "site_deployment_receipt": {
+        "status": "succeeded",
+        "version": 111,
+        "version_id": "appgprj_6a5893ab380c8191b03a261860f67102~appgver_227c038c387081918f0d6ee507ab4d55",
+        "deployment_id": "appgdep_6aec12ee4af4819185a31cac332a623a",
+        "source_commit": "930fa0ab4950ee098caa0f503749ffd649facc31",
+        "archive_sha256": "48bc8c581ae7f05ef3669fbc5861fdb0d4e395c8d8145ed851eb102e01e5ec53"
+      },
+      "site_source_preparation": {
+        "status": "PASS_ORIGINAL_SOURCE_MAIN",
+        "head": "73f1b38dc6ef283cdfdb19841d716ad1d2e3a708",
+        "hosting_project_id": "appgprj_6a5893ab380c8191b03a261860f67102",
+        "static_directory": "dist"
+      },
+      "public_remote_readback": {
+        "site_version": 111,
+        "checked_at": "2026-11-05",
+        "current_daily": "2026-11-03",
+        "current_weekly": "2026-W44",
+        "current_monthly": "2026-10",
+        "home": "PASS",
+        "bodies": "PASS_DAILY_2026_11_03_WEEKLY_W44_MONTHLY_2026_10",
+        "archives": "PASS_DAILY_WEEKLY_MONTHLY",
+        "download_center": "PASS",
+        "new_remote_zip_sha": "3_OF_3_PASS",
+        "historical_five_zip_sha": "5_OF_5_PASS_CLOSED"
+      },
+      "live_site_publication_discrepancy": {
+        "resolved": true,
+        "classification": "LIVE_CURRENT_MATCHES_AUTHORITY",
+        "observed_live_home_daily": "2026-11-02",
+        "observed_live_home_weekly": "2026-W43",
+        "expected_canonical_daily": "2026-11-02",
+        "expected_canonical_weekly": "2026-W43",
+        "authority_sha256": "ae8dfdd68da8e6742e28160e7457a9f6d63d55d177bdb84bb11da52da3373bab",
+        "source_head": "73f1b38dc6ef283cdfdb19841d716ad1d2e3a708",
+        "hosting_project_id": "appgprj_6a5893ab380c8191b03a261860f67102",
+        "static_directory": "dist",
+        "publication_blocker": null
+      },
+      "authority_sha_runtime_reconciliation_status": "PASS_CURRENT_COMMITTED_AUTHORITY_AND_SIDECAR",
+      "current_before": {
+        "daily": "2026-11-02",
+        "weekly": "2026-W42",
+        "monthly": "2026-09"
+      },
+      "current_after": {
+        "daily": "2026-11-02",
+        "weekly": "2026-W43",
+        "monthly": "2026-09"
+      },
+      "external_mirror_readback_status": "PASS_7_CURRENT_MIRRORS_PLUS_READER_PORTAL_RECEIPT_V83",
+      "daily_reconsumed_this_run": false
     }
-  }
+  },
+  "current_monthly": "2026-10",
+  "current_quarterly": "2026-Q3",
+  "execution_mode": "MANUAL_WORK",
+  "reader_w44_compatibility_repair": "ORIGINAL_CITATION_MARKERS_PRESERVED__WEEKLY_NATIVE_CONTRACT_PASS"
 }
