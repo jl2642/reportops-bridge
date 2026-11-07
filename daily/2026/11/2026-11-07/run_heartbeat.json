@@ -2,5 +2,13 @@
   "target_date": "2026-11-07",
   "scheduled_for": "10:15 Asia/Shanghai",
   "run_started_at": "2026-11-07T10:19:25+08:00",
-  "status": "RUN_STARTED_BEFORE_PREFLIGHT"
+  "status": "FAILED",
+  "products_repaired_or_produced": [],
+  "producer_recovery_queue_remaining": [
+    "2026-11-07"
+  ],
+  "queue_for_12_30_work": [],
+  "post_run_self_audit_status": "NOT_RUN",
+  "failure_stage": "PREFLIGHT_STRICT_V2_LEDGER_CONTRACT",
+  "failure_reason": "Allowed policy mirror EVIDENCE_POLICY_PUBLIC.md defines source receipts but does not specify strict v2 ledger's exact 43-column schema, field enums or manifest contract. Under frozen no-schema-invention boundary, cannot safely create a compliant candidate. Library Pointer and GitHub runtime both show formal current_daily=2026-11-06; no 2026-11-07 manifest/correction/handoff was available."
 }
