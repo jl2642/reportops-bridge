@@ -2,5 +2,19 @@
   "target_date": "2026-11-08",
   "scheduled_for": "10:15 Asia/Shanghai",
   "run_started_at": "2026-11-08T10:14:37+08:00",
-  "status": "RUN_STARTED_BEFORE_PREFLIGHT"
+  "status": "FAILED",
+  "products_repaired_or_produced": [],
+  "producer_recovery_queue_remaining": [
+    "2026-11-07",
+    "2026-11-08"
+  ],
+  "queue_for_12_30_work": [],
+  "post_run_self_audit_status": "NOT_RUN_NO_PRODUCT",
+  "failure_stage": "PREFLIGHT_STRICT_V2_LEDGER_CONTRACT",
+  "failure_reason": "Allowed GitHub policy mirror provides Source Identity v1.2, V4 depth and Daily template but not complete strict V2 43-column ledger field definitions/enums or manifest contract. Cannot invent frozen contract. Oldest outstanding date 2026-11-07; 2026-11-08 not started.",
+  "formal_current_source": "LIBRARY_CURRENT_POINTER",
+  "formal_current_daily": "2026-11-06",
+  "github_runtime_current_daily_public": "2026-11-06",
+  "fixed_window": "[2026-11-07 10:00,2026-11-08 10:00) Asia/Shanghai",
+  "automation_schedule_modified": false
 }
