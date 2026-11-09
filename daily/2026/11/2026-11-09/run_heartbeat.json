@@ -24,7 +24,7 @@
   "formal_current_daily_at_end": "2026-11-06",
   "weekly_dependency": "2026-W45_NOT_ELIGIBLE_FOR_FINAL_CONSUMER_UNTIL_11_07_AND_11_08_CANONICAL_DAILIES_PROMOTED",
   "producer_policy_mirror_sha": "d76432f11789c529e01db316ac02a56d432cb36b",
-  "original_scheduled_run_status": "2026-11-09_10_15_SCHEDULED_RUN_NOT_CONFIRMED_AT_MANUAL_TRIGGER",
+  "original_scheduled_run_status": "FAILED_HEARTBEAT_CREATE_GITHUB_422_EXISTING_PATH__STARTED_2026_11_09T02_19_50Z__NO_PREFLIGHT",
   "automation_schedule_modified": false,
-  "remarks": "User-requested bounded run_now inline. Daily 7/8/9 PUBLIC_CORE_ACCEPTED_PENDING_WORK; native Work consumer Reader/Lineage/P8G and site untouched."
+  "remarks": "Original scheduled 10:15 attempt started 10:19:50 CST after the user-requested inline run had precreated this exact date heartbeat; scheduled create returned GitHub 422 and fail-closed. This interactive recovery independently created all three accepted Chat candidates; not evidence scheduled operation is stable. No Authority or Site mutation."
 }
