@@ -3,7 +3,7 @@
   "scheduled_date": "2026-11-09",
   "target_date": "2026-11-09",
   "current_day_status": "CHAT_PRODUCER_RECOVERY_3_CANDIDATES_ACCEPTED__WORK_CONSUMER_PENDING",
-  "scheduled_run_status": "MANUAL_ORIGINAL_10_15_RUN_NOW_INLINE_SUCCESS__NORMAL_10_15_SCHEDULED_RESULT_UNVERIFIED",
+  "scheduled_run_status": "2026_11_09_ORIGINAL_SCHEDULED_FAILED_HEARTBEAT_CREATE_422_EXISTING_PATH__INTERACTIVE_RUN_SUCCEEDED",
   "correction_backlog": {
     "status": "RESOLVED_BY_CHAT_CORRECTION",
     "chat_correction_required": false,
@@ -58,8 +58,8 @@
   "state_consistency_pointer_sha256": "67833b7ca39888567cb283b0e11bcc108e3ad6b10b54b916abb437d1d1a7a8a6",
   "failure_stage": null,
   "failure_reason": null,
-  "next_action": "Work consumer gate when available: oldest-first Daily 11-07/08/09, then Weekly W45 after 7/7 canonical Daily dependencies; original 12:30 task disabled until supported Work environment verified.",
-  "updated_at": "2026-11-09T02:39:22.303Z",
+  "next_action": "Source-read repair and manual Chat candidates complete. The 10:15 scheduled run collided with existing interactive heartbeat and failed GitHub 422 (not repeated ledger error). Work consumer must consume 11-07/08/09 oldest-first. W45 awaits canonical 7/7. 12:30 disabled; environment verification required before restart.",
+  "updated_at": "2026-11-09T02:40:39.838Z",
   "queue_remaining": [
     "Daily 2026-11-07 accepted Chat candidate, formal consumer pending",
     "Daily 2026-11-08 accepted Chat candidate, formal consumer pending",
