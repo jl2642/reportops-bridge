@@ -23,15 +23,15 @@
   "source_url_count_distinct": 3,
   "public_contract_sha256": "64770bf24f1280d11060d6a905a659241d5e483109fc8c3e34195a8264fc48f6",
   "authority_policy_sha256": "ed69573e48d0daedd1b899ab2d6cf15880f37705f88b44b1a9d2ca26715f9905",
-  "source_identity_gate_status": "PASS_6_OF_6_OBSERVED_RECEIPTS",
+  "source_identity_gate_status": "PASS_6_OF_6_PRODUCER_AND_CORRECTED_HOST_STATIC_RECHECK__WORK_NATIVE_PENDING",
   "inline_citation_gate_status": "PASS_6_OF_6",
   "exact_v4_machine_structure_status": "PASS",
   "v4_public_depth_gate_status": "PASS_PRODUCER_LOCAL",
   "privacy_status": "PASS_PUBLIC_SAFE",
   "window_status": "PASS_6_OF_6_PUBLISHED_WITHIN_WINDOW",
   "evidence_status": "PASS_6_OF_6_PRODUCER_SUPPORT_CHECK",
-  "strict_v2_ledger_status": "PASS_6_OF_6_43_COLUMN_CLAIM_URL_BINDINGS__WORK_NATIVE_PENDING",
-  "producer_self_audit_status": "PASS_3_FILE_READBACK_AND_MANIFEST_PENDING",
+  "strict_v2_ledger_status": "PASS_6_OF_6_43_COLUMN_CLAIM_URL_BINDINGS_WITH_E01_E02_REPRINT_CLASSIFICATION__WORK_NATIVE_PENDING",
+  "producer_self_audit_status": "PASS_PRODUCER_4_FILE_READBACK__BOUNDED_E01_E02_SOURCE_IDENTITY_CORRECTION_RECHECKED__WORK_NATIVE_PENDING",
   "consumer_status": "PENDING_WORK_RECONCILIATION",
   "canonical_mutation_performed": false,
   "site_publication_performed": false,
@@ -47,7 +47,9 @@
     "US_IRAN_RESTRAINT_IS_CONDITIONAL_STATEMENT_NOT_SIGNED_PEACE",
     "REUTERS_UPDATED_HEADLINE_SAME_DOCUMENT_RECEIPT",
     "NO_COMPLETE_LNG_LPG_CP_CFR_JKM_TTF_WAR_INSURANCE_SAME_WINDOW_PRICES",
-    "WORK_NATIVE_READER_LINEAGE_P8G_AUTHORITY_AND_SITE_NOT_RUN"
+    "WORK_NATIVE_READER_LINEAGE_P8G_AUTHORITY_AND_SITE_NOT_RUN",
+    "2026-11-09_POST_PRODUCER_E01_E02_SOURCE_IDENTITY_CORRECTED: investing.com syndication (Reuters origin), REPRINT/T3, observed headline updated; original URL and report claims retained",
+    "E01_E02_PRECISE_PUBLICATION_TIME_ORIGIN_REQUIRES_WORK_VERIFICATION: syndicated page shows date/time without explicit timezone; do not infer UTC without evidence"
   ],
   "next_work_action": "Daily 2026-11-07, 08, 09 must be formally consumed oldest-first, native Work gates and single-site release; do not rewrite Producer accepted bodies."
 }
