@@ -1,9 +1,9 @@
 {
   "schema_version": "REPORTOPS_R3_1_CHAT_STATUS_V1_5_SINGLE_SITE",
-  "scheduled_date": "2026-11-02",
-  "target_date": "2026-11-02",
-  "current_day_status": "THREE_TARGET_PRODUCTS_FORMALLY_PUBLISHED_SITE_V111__HISTORICAL_FIVE_SHA_CLOSED__AUTOMATION_ENVIRONMENT_PENDING",
-  "scheduled_run_status": "ORIGINAL_10_15_UNATTENDED_PRODUCER_SUCCESS__POST_RUN_BOUNDED_QA_CORRECTION",
+  "scheduled_date": "2026-11-09",
+  "target_date": "2026-11-09",
+  "current_day_status": "CHAT_PRODUCER_RECOVERY_3_CANDIDATES_ACCEPTED__WORK_CONSUMER_PENDING",
+  "scheduled_run_status": "MANUAL_ORIGINAL_10_15_RUN_NOW_INLINE_SUCCESS__NORMAL_10_15_SCHEDULED_RESULT_UNVERIFIED",
   "correction_backlog": {
     "status": "RESOLVED_BY_CHAT_CORRECTION",
     "chat_correction_required": false,
@@ -46,49 +46,45 @@
   "privacy_status": "PASS",
   "window_status": "PASS_12_OF_12",
   "data_gap_boundary_status": "PASS",
-  "current_daily_public": "2026-11-03",
+  "current_daily_public": "2026-11-06",
   "current_weekly_public": "2026-W44",
-  "formal_status": "FORMAL_CANONICAL_PUBLISHED_DAILY_2026_11_03_WEEKLY_W44_MONTHLY_2026_10",
-  "canonical_promotion_performed": true,
-  "site_publication_performed": true,
-  "public_site_version": 111,
-  "public_site_status": "DEPLOYED_V111_REAL_REMOTE_CONTENT_AND_NEW_ZIP_SHA_PASS",
+  "formal_status": "FORMAL_CURRENT_DAILY_2026_11_06_UNCHANGED__3_CHAT_CANDIDATES_PENDING_WORK",
+  "canonical_promotion_performed": false,
+  "site_publication_performed": false,
+  "public_site_version": 112,
+  "public_site_status": "PREVIOUS_FORMAL_V112_REMOTE_VERIFIED_NOV06__NO_SITE_MUTATION_THIS_RUN",
   "manifest_reconciliation_status": "PASS_V83_AUTHORITY_POINTER_PUBLIC_CURRENT",
   "metadata_freshness": "PASS_EXTERNAL_POINTER_762374B2__13_DERIVED_VIEWS_PLUS_ZIP_POINTER_RUNTIME",
-  "state_consistency_pointer_sha256": "762374b2de1dcfcdc8794a38cd4cde185b9e04370b949aa5f8e71ce84d8402f6",
-  "failure_stage": "SCHEDULED_WORK_ENVIRONMENT_CONFIRMATION",
-  "failure_reason": "12:30 task remains disabled; environment_selection=inherited, environments=null; no supported environment-binding interface is exposed, so scheduled execution capability is unconfirmed.",
-  "next_action": "12:30 Work: include Daily 2026-11-03 in oldest-first consumer preflight if the real Work capability gate passes; do not re-research or rewrite the accepted candidate. Continue W44 and 2026-10 Monthly as separate products; historical five remote ZIP SHA checks remain open.",
-  "updated_at": "2026-11-03T03:38:06Z",
+  "state_consistency_pointer_sha256": "67833b7ca39888567cb283b0e11bcc108e3ad6b10b54b916abb437d1d1a7a8a6",
+  "failure_stage": null,
+  "failure_reason": null,
+  "next_action": "Work consumer gate when available: oldest-first Daily 11-07/08/09, then Weekly W45 after 7/7 canonical Daily dependencies; original 12:30 task disabled until supported Work environment verified.",
+  "updated_at": "2026-11-09T02:39:22.303Z",
   "queue_remaining": [
-    "Daily 2026-11-04 Chat recovery candidate — formal consumption pending",
-    "Daily 2026-11-05 Producer candidate — formal consumption pending"
+    "Daily 2026-11-07 accepted Chat candidate, formal consumer pending",
+    "Daily 2026-11-08 accepted Chat candidate, formal consumer pending",
+    "Daily 2026-11-09 accepted Chat candidate, formal consumer pending",
+    "Weekly 2026-W45 due, blocked on formal Daily 11-07 and 11-08",
+    "12:30 automatic Work consumer remains disabled; environment unconfirmed"
   ],
-  "pending_product": "Daily 2026-11-03",
+  "pending_product": "Daily 2026-11-07",
   "manual_intervention_required": false,
-  "authority_package_sha256": "d89b2136ef198699d6f9af079187ca3ed32fc3ebc13314163b531aec701defdb",
+  "authority_package_sha256": "b72ed50f71fbdf0b726ce151be7f53dfe89a4e78cfbb99ad60038fa3e7aaaaad",
   "queue_initial": [
     "Daily 2026-10-23"
   ],
   "products_preflighted": [
-    "Daily 2026-10-23",
-    "Daily 2026-10-24",
-    "Daily 2026-10-25",
-    "Daily 2026-10-26",
-    "Daily 2026-10-27",
-    "Daily 2026-10-28",
-    "Daily 2026-10-29",
-    "Daily 2026-10-30",
-    "Daily 2026-10-31",
-    "Weekly 2026-W43"
+    "Daily 2026-11-07",
+    "Daily 2026-11-08",
+    "Daily 2026-11-09"
   ],
-  "products_promoted": [
-    "Daily 2026-11-03",
-    "Weekly 2026-W44",
-    "Monthly 2026-10"
-  ],
+  "products_promoted": [],
   "products_blocked_local": [],
-  "eligible_unpublished_products": [],
+  "eligible_unpublished_products": [
+    "Daily 2026-11-07",
+    "Daily 2026-11-08",
+    "Daily 2026-11-09"
+  ],
   "preflight_blocker_matrix": [
     {
       "product": "Daily 2026-11-03",
@@ -126,7 +122,7 @@
     "producer_automation_restored": true,
     "prior_2026_09_26_correction_preserved": true
   },
-  "real_remote_readback_status": "PASS_HOME_THREE_BODIES_THREE_ARCHIVES_DOWNLOAD_CENTER_AND_EIGHT_ZIPS",
+  "real_remote_readback_status": "PRIOR_V112_PASS_2026_11_06__NOT_RERUN",
   "download_sha_status": "PASS_3_NEW_AND_5_HISTORICAL_REAL_REMOTE_ZIP_SHA__PRIOR_181_INHERITED",
   "public_daily_2026_09_25_download_sha256": "3751ca19db9b690c9b9ac15f1314431df8b0cc1fc32f5d120107a20a731fc281",
   "public_weekly_2026_w38_download_sha256": "b9fc5c235a71247ec6a84eecaab6a14edd16db5789cfdc5995aad8ab474e2442",
@@ -190,13 +186,11 @@
     "Daily 2026-10-05 BLOCKED_CORRECTION",
     "Daily 2026-10-06 ZERO_ARTIFACT_MISSING_DATE"
   ],
-  "oldest_pending_date": null,
+  "oldest_pending_date": "2026-11-07",
   "products_completed_this_run": [
-    "Daily 2026-11-03",
-    "Weekly 2026-W44",
-    "Monthly 2026-10",
-    "Original Site V111 deployment and actual remote readback",
-    "Historical five remote ZIP SHA closed"
+    "Daily 2026-11-07 Chat Candidate",
+    "Daily 2026-11-08 Chat Candidate",
+    "Daily 2026-11-09 Chat Candidate"
   ],
   "github_write_status": "PASS",
   "github_readback_status": "PASS_CURRENT_PUBLIC_DEPLOYMENT_STATE_LATEST_AND_STATIC_MANIFEST_V83_V110",
@@ -256,7 +250,7 @@
     "industry_operator_cjk_actual": 208
   },
   "public_daily_2026_10_02_download_sha256": "9a45fcf57e9048c524ab0f1ebdbb547a6eeb34fbe23821f5cf43e252c4ed9237",
-  "last_work_reconciled_at": "2026-11-05",
+  "last_work_reconciled_at": "2026-11-06T14:04:33.932Z",
   "candidate_2026_10_03": {
     "product_status": "ATOMIC_PROMOTED_SITE_VISIBLE__AUTHORITY_CLOSURE_PENDING",
     "formal_status": "ATOMIC_PROMOTION_CHECKPOINT_PRESERVED__AUTHORITY_UNIFIED_CLOSURE_PENDING",
@@ -595,7 +589,9 @@
   },
   "producer_status": "PUBLIC_CORE_ACCEPTED",
   "queue_for_12_30_work": [
-    "Daily 2026-11-03"
+    "Daily 2026-11-07",
+    "Daily 2026-11-08",
+    "Daily 2026-11-09"
   ],
   "producer_candidate_readback_status": "PASS_4_OF_4__2026_11_03__PUBLIC_CORE_EVIDENCE_LEDGER_MANIFEST_READBACK",
   "measurement_parity_status": "PASS_AUTHORITY_CONSUMER_ACTUALS",
