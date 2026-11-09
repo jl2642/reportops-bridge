@@ -1,0 +1,10 @@
+{
+  "target_date": "2026-11-09",
+  "scheduled_for": "10:15 Asia/Shanghai",
+  "run_started_at": "2026-11-09T02:16:35.984Z",
+  "status": "RUN_STARTED_BEFORE_PREFLIGHT",
+  "trigger": "USER_REQUESTED_BOUNDED_MANUAL_RUN_NOW",
+  "products_repaired_or_produced": [],
+  "canonical_mutation_performed": false,
+  "site_mutation_performed": false
+}
