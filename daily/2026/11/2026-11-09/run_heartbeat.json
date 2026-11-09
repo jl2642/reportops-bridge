@@ -2,9 +2,29 @@
   "target_date": "2026-11-09",
   "scheduled_for": "10:15 Asia/Shanghai",
   "run_started_at": "2026-11-09T02:16:35.984Z",
-  "status": "RUN_STARTED_BEFORE_PREFLIGHT",
+  "status": "PRODUCER_SUCCESS_CANDIDATES_PENDING_WORK",
   "trigger": "USER_REQUESTED_BOUNDED_MANUAL_RUN_NOW",
-  "products_repaired_or_produced": [],
+  "products_repaired_or_produced": [
+    "2026-11-07",
+    "2026-11-08",
+    "2026-11-09"
+  ],
   "canonical_mutation_performed": false,
-  "site_mutation_performed": false
+  "site_mutation_performed": false,
+  "run_completed_at": "2026-11-09T02:38:03.124Z",
+  "producer_recovery_queue_remaining": [],
+  "queue_for_12_30_work": [
+    "Daily 2026-11-07",
+    "Daily 2026-11-08",
+    "Daily 2026-11-09"
+  ],
+  "post_run_self_audit_status": "PASS_3_OF_3_MANIFEST_EVIDENCE_LEDGER_AND_CORE_READBACK__LOCAL_PRODUCER_ONLY",
+  "failure_stage": null,
+  "failure_reason": null,
+  "formal_current_daily_at_end": "2026-11-06",
+  "weekly_dependency": "2026-W45_NOT_ELIGIBLE_FOR_FINAL_CONSUMER_UNTIL_11_07_AND_11_08_CANONICAL_DAILIES_PROMOTED",
+  "producer_policy_mirror_sha": "d76432f11789c529e01db316ac02a56d432cb36b",
+  "original_scheduled_run_status": "2026-11-09_10_15_SCHEDULED_RUN_NOT_CONFIRMED_AT_MANUAL_TRIGGER",
+  "automation_schedule_modified": false,
+  "remarks": "User-requested bounded run_now inline. Daily 7/8/9 PUBLIC_CORE_ACCEPTED_PENDING_WORK; native Work consumer Reader/Lineage/P8G and site untouched."
 }
