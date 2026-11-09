@@ -10,8 +10,8 @@
       "claim_id": "D20261109-C001",
       "claim_type": "EVENT",
       "claim_role": "MATERIAL",
-      "publisher": "Reuters via Investing.com",
-      "title": "Saudi Aramco building in Riyadh damaged by falling debris after attempted attack, ministry says",
+      "publisher": "Investing.com",
+      "title": "Houthi attack damages Aramco building in Riyadh’s financial district",
       "url": "https://www.investing.com/news/commodities-news/saudi-aramco-building-in-riyadh-damaged-by-falling-debris-after-attempted-attack-ministry-says-5010175",
       "publication_time": "2026-11-08T09:09:00Z",
       "data_period_start": "",
@@ -22,22 +22,23 @@
       "url_identity_status": "PASS",
       "url_verified_date": "2026-11-09",
       "source_identity_receipt": {
-        "verification_method": "SEARCH_RESULT_OBSERVED",
+        "verification_method": "OPENED_EXACT_DOCUMENT",
         "observed_url": "https://www.investing.com/news/commodities-news/saudi-aramco-building-in-riyadh-damaged-by-falling-debris-after-attempted-attack-ministry-says-5010175",
         "canonical_url": "https://www.investing.com/news/commodities-news/saudi-aramco-building-in-riyadh-damaged-by-falling-debris-after-attempted-attack-ministry-says-5010175",
-        "observed_title": "Saudi Aramco building in Riyadh damaged by falling debris after attempted attack, ministry says",
-        "observed_publisher": "Reuters via Investing.com",
+        "observed_title": "Houthi attack damages Aramco building in Riyadh’s financial district",
+        "observed_publisher": "Investing.com",
         "title_match_status": "EXACT",
-        "verified_at": "2026-11-09T02:36:43.564Z"
-      }
+        "verified_at": "2026-11-09T02:57:34.149Z"
+      },
+      "content_origin": "Reuters"
     },
     {
       "id": "E02",
       "claim_id": "D20261109-C002",
       "claim_type": "EVENT",
       "claim_role": "MATERIAL",
-      "publisher": "Reuters via Investing.com",
-      "title": "Saudi Aramco building in Riyadh damaged by falling debris after attempted attack, ministry says",
+      "publisher": "Investing.com",
+      "title": "Houthi attack damages Aramco building in Riyadh’s financial district",
       "url": "https://www.investing.com/news/commodities-news/saudi-aramco-building-in-riyadh-damaged-by-falling-debris-after-attempted-attack-ministry-says-5010175",
       "publication_time": "2026-11-08T09:09:00Z",
       "data_period_start": "",
@@ -48,14 +49,15 @@
       "url_identity_status": "PASS",
       "url_verified_date": "2026-11-09",
       "source_identity_receipt": {
-        "verification_method": "SEARCH_RESULT_OBSERVED",
+        "verification_method": "OPENED_EXACT_DOCUMENT",
         "observed_url": "https://www.investing.com/news/commodities-news/saudi-aramco-building-in-riyadh-damaged-by-falling-debris-after-attempted-attack-ministry-says-5010175",
         "canonical_url": "https://www.investing.com/news/commodities-news/saudi-aramco-building-in-riyadh-damaged-by-falling-debris-after-attempted-attack-ministry-says-5010175",
-        "observed_title": "Saudi Aramco building in Riyadh damaged by falling debris after attempted attack, ministry says",
-        "observed_publisher": "Reuters via Investing.com",
+        "observed_title": "Houthi attack damages Aramco building in Riyadh’s financial district",
+        "observed_publisher": "Investing.com",
         "title_match_status": "EXACT",
-        "verified_at": "2026-11-09T02:36:43.564Z"
-      }
+        "verified_at": "2026-11-09T02:57:34.152Z"
+      },
+      "content_origin": "Reuters"
     },
     {
       "id": "E03",
