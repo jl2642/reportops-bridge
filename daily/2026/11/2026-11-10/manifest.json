@@ -33,7 +33,7 @@
   "window_status": "PASS_10_OF_10_PUBLISHED_WITHIN_WINDOW",
   "evidence_status": "PASS_NATIVE_STRICT_NEW_10_OF_10",
   "strict_v2_ledger_status": "PASS_NATIVE_43_COLUMN_10_CLAIMS",
-  "producer_self_audit_status": "PASS_LOCAL_NATIVE__GITHUB_READBACK_PENDING",
+  "producer_self_audit_status": "PASS_4_OF_4_GITHUB_AND_LIBRARY_TEXT_READBACK",
   "consumer_status": "PENDING_WORK_RECONCILIATION",
   "canonical_mutation_performed": false,
   "site_publication_performed": false,
@@ -49,5 +49,7 @@
     "SITE_PENDING_PRE_EXISTING_UNCHANGED",
     "WORK_NATIVE_CONSUMER_AND_FORMAL_AUTHORITY_NOT_RUN"
   ],
-  "next_work_action": "Only Daily 2026-11-10 is new Producer candidate, pending Work formal native consumption. Daily current through 11-09 and W45 already formally promoted; SITE_PENDING remains independent. Do not reconsume historical products."
+  "next_work_action": "Only Daily 2026-11-10 is new Producer candidate, pending Work formal native consumption. Daily current through 11-09 and W45 already formally promoted; SITE_PENDING remains independent. Do not reconsume historical products.",
+  "github_readback_status": "PASS_4_OF_4_BYTE_EQUAL",
+  "scheduled_run_status": "FAILED_SOURCE_ACQUISITION_AT_10_15__BOUNDED_INTERACTIVE_RECOVERY_SUCCESS"
 }
