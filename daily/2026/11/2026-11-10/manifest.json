@@ -8,7 +8,7 @@
   "producer_status": "PUBLIC_CORE_ACCEPTED",
   "product_status": "PUBLIC_CORE_ACCEPTED_PENDING_WORK",
   "formal_status": "PENDING_WORK_RECONCILIATION",
-  "cjk_characters_actual": 3179,
+  "cjk_characters_actual": 3183,
   "executive_cjk_actual": 279,
   "key_signal_cjk_actual": 1352,
   "signal_card_cjk_actual": [
@@ -28,7 +28,7 @@
   "source_identity_gate_status": "PASS_10_OF_10_NATIVE_PRODUCER",
   "inline_citation_gate_status": "PASS_NATIVE_PRODUCER",
   "exact_v4_machine_structure_status": "PASS",
-  "v4_public_depth_gate_status": "PASS_DETERMINISTIC_POLICY",
+  "v4_public_depth_gate_status": "PASS_NATIVE_V4_CHAT_RECHECK",
   "privacy_status": "PASS_PUBLIC_SAFE",
   "window_status": "PASS_10_OF_10_PUBLISHED_WITHIN_WINDOW",
   "evidence_status": "PASS_NATIVE_STRICT_NEW_10_OF_10",
@@ -47,7 +47,8 @@
     "NO_SAME_WINDOW_COMPLETE_JKM_CP_CFR_AND_WAR_INSURANCE_PRICE_MATRIX; NO_ARBITRAGE_PROJECTION",
     "REUTERS_MULTIPLE_PRODUCTS_SAME_OWNER; NOT_INDEPENDENT_CROSSCHECK",
     "SITE_PENDING_PRE_EXISTING_UNCHANGED",
-    "WORK_NATIVE_CONSUMER_AND_FORMAL_AUTHORITY_NOT_RUN"
+    "WORK_NATIVE_CONSUMER_AND_FORMAL_AUTHORITY_NOT_RUN",
+    "CHAT_NATIVE_V4_DATA_GAP_BOUNDARY_CLARIFIED_ONE_PHRASE_ONLY__FORMAL_WORK_RECHECK_PENDING"
   ],
   "next_work_action": "Only Daily 2026-11-10 is new Producer candidate, pending Work formal native consumption. Daily current through 11-09 and W45 already formally promoted; SITE_PENDING remains independent. Do not reconsume historical products.",
   "github_readback_status": "PASS_4_OF_4_BYTE_EQUAL",
