@@ -7,7 +7,7 @@
   "scheduled_run_heartbeat": "daily/2026/11/2026-11-10/run_heartbeat.json",
   "postrun_recovery_status": "PUBLIC_CORE_ACCEPTED",
   "eligible": true,
-  "producer_self_audit": "PASS_SOURCE_IDENTITY_V2_INLINE_V2_EVIDENCE_STRICT_V2_DEPTH_AND_4_CORE_READBACK",
+  "producer_self_audit": "PASS_NATIVE_SOURCE_IDENTITY_INLINE_EVIDENCE_AND_V4_DATA_GAP_BOUNDARY_4_OF_4_GITHUB_RAW_SHA",
   "candidate_files": [
     "public_core.md",
     "evidence.json",
@@ -15,20 +15,21 @@
     "manifest.json"
   ],
   "candidate_sha256": {
-    "public_core.md": "4633ef5f50ce8977a364d2a2466cf9317e34fcd308072c12652f99bf75a27a66",
+    "public_core.md": "6c746504d77abbf04cf6f9f4569ea480d91f4ee943a0b735cc8e07e917a31509",
     "evidence.json": "aaa1af6958ad5c6636dac0c84b58d679ffe98d5b0b3253df7fc84679ab674621",
     "evidence_ledger_v2_2026-11-10.csv": "56801287e0cf7d4e33deafa711b2a0f092e2826f25b3b342e4672d6678224a70",
-    "manifest.json": "c5c3ac6e26037069df49682cd7d1e3fe7c83e8416f2f63d235e610f14c6e993e"
+    "manifest.json": "322c2160c2aee0e18b8aff90d61a4361fff4172b7939d9248526eacb8bd886ab"
   },
-  "recovery_library_path": "/能源周期报告/40_RECOVERY/RECOVERED_GAP_PACKS/2026-11-10_PRODUCER_RECOVERY/ReportOps_Daily_20261110_CHAT_RECOVERY_CANDIDATE_ONLY.zip",
-  "recovery_zip_sha256": "f3874a749d1b33b4bb7c4e2e7cc06109c16d419e28cd55816067a13404d7d504",
+  "recovery_library_path": "/能源周期报告/40_RECOVERY/RECOVERED_GAP_PACKS/2026-11-10_PRODUCER_RECOVERY/ReportOps_Daily_20261110_CHAT_RECOVERY_V4_BOUNDARY_CORRECTED.zip",
+  "recovery_zip_sha256": "a9a7a1942f4cd3c73cdbd03dcdeac5a8b80dfd1570676bfe1aceb804741b9878",
   "formal_authority_changed": false,
   "site_changed": false,
   "work_native_consumer_pending": true,
-  "work_discovery_note": "Library Authority Daily current=2026-11-09, Weekly=W45. This candidate is date=2026-11-10 and is NOT formal promotion. SITE_PENDING for previous items is independent.",
+  "work_discovery_note": "Chat V4 bounded correction only: added explicit 证据边界 in section 9, no changed sources/claims; native formal V4 PASS. Candidate in corrected Library ZIP with new SHA. Daily formal remains 2026-11-09; Weekly W45. Prior failed heartbeat preserved. Work native formal reader/lineage/P8G and site pending.",
   "warnings": [
     "SOURCE_MYSTEEL_EXACT_SEARCH_RESULT_DIRECT_OPEN_TIMEOUT",
     "SHPGX_SOURCE_SYNDICATED_BY_SINA_FINANCE",
-    "10_15_SCHEDULED_FAILURE_HISTORY_PRESERVED"
+    "10_15_SCHEDULED_FAILURE_HISTORY_PRESERVED",
+    "CHAT_V4_DATA_GAP_BOUNDARY_SINGLE_PHRASE_CORRECTED; ORIGINAL_RECOVERY_PACKAGE_RETAINED_FOR_PROVENANCE"
   ]
 }
