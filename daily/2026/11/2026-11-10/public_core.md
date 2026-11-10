@@ -89,7 +89,7 @@ fixed_window: "[2026-11-09 10:00, 2026-11-10 10:00) Asia/Shanghai"
 <!-- MODULE:EVIDENCE_AND_GAPS -->
 ## 9. 证据、数据缺口、风险与反证
 
-本报告严格锁定11月9日10:00至11月10日10:00北京时间窗口：路透社原文均具有明确的UTC发布时间；上海石油天然气交易中心指数转载页具有北京时间日内时间戳；隆众文章通过精确搜索结果核实了标题、日内发布时间与关键数值，但直开超时，已单独标注证据获取方式。对同一机构的多个新闻URL不把其当作独立所有权交叉验证，对报价只在其自身的交付点、品种、日期和市场类型内使用。未取得原始成交单、运费和保险报价时，不构造利润数据。[E01](https://www.reuters.com/business/energy/oil-falls-trump-downplays-prospect-escalation-with-iran-2026-11-10/) [E05](https://finance.sina.com.cn/money/future/roll/2026-11-09/doc-iniycwiw3228530.shtml) [E08](https://nenghua.mysteel.com/a/26110914/665587336F0B49A2.html)
+本报告严格锁定11月9日10:00至11月10日10:00北京时间窗口：路透社原文均具有明确的UTC发布时间；上海石油天然气交易中心指数转载页具有北京时间日内时间戳；隆众文章通过精确搜索结果核实了标题、日内发布时间与关键数值，但直开超时，已单独标注证据获取方式。对同一机构的多个新闻URL不把其当作独立所有权交叉验证，对报价只在其自身的交付点、品种、日期和市场类型内使用。证据边界：未取得原始成交单、运费和保险报价时，不构造利润数据。[E01](https://www.reuters.com/business/energy/oil-falls-trump-downplays-prospect-escalation-with-iran-2026-11-10/) [E05](https://finance.sina.com.cn/money/future/roll/2026-11-09/doc-iniycwiw3228530.shtml) [E08](https://nenghua.mysteel.com/a/26110914/665587336F0B49A2.html)
 
 <!-- NEXT_VERIFICATION -->
 ## 10. 下一窗口验证
