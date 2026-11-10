@@ -2,5 +2,16 @@
   "target_date": "2026-11-10",
   "scheduled_for": "10:15 Asia/Shanghai",
   "run_started_at": "2026-11-10T10:18:22+08:00",
-  "status": "RUN_STARTED_BEFORE_PREFLIGHT"
+  "status": "FAILED",
+  "products_repaired_or_produced": [],
+  "producer_recovery_queue_remaining": [
+    "2026-11-10"
+  ],
+  "queue_for_12_30_work": [],
+  "post_run_self_audit_status": "NOT_RUN_NO_COMPLETE_CANDIDATE",
+  "failure_stage": "SOURCE_ACQUISITION_WINDOW_AND_IDENTITY_VERIFICATION",
+  "failure_reason": "Search surfaced 2026-11-09 energy articles, but insufficient CORE/MATERIAL exact observed publication timestamps and complete acquisition receipts verified within [2026-11-09 10:00,2026-11-10 10:00) Asia/Shanghai; cannot safely produce 1800+ CJK strict V2 candidate. Library Pointer current_daily=2026-11-09; GitHub current_daily_public stale=2026-11-06. No product files written.",
+  "canonical_mutation_performed": false,
+  "site_mutation_performed": false,
+  "automation_mutation_performed": false
 }
