@@ -8,8 +8,8 @@
   "producer_status": "PUBLIC_CORE_ACCEPTED",
   "product_status": "PUBLIC_CORE_ACCEPTED_PENDING_WORK",
   "formal_status": "PENDING_WORK_RECONCILIATION",
-  "cjk_characters_actual": 3013,
-  "executive_cjk_actual": 302,
+  "cjk_characters_actual": 3011,
+  "executive_cjk_actual": 300,
   "key_signal_cjk_actual": 1327,
   "signal_card_cjk_actual": [
     324,
@@ -27,7 +27,7 @@
   "source_identity_gate_status": "PASS_10_OF_10__OBSERVED_EXACT_URLS__DIRECT_OR_SEARCH_RESULT",
   "inline_citation_gate_status": "PASS_10_OF_10__NARRATIVE_CLICKABLE_LINKS",
   "exact_v4_machine_structure_status": "PASS_PRODUCER_SELF_CHECK",
-  "v4_public_depth_gate_status": "PASS_PRODUCER_SELF_CHECK__3013_CJK__4_SIGNAL_CARDS",
+  "v4_public_depth_gate_status": "PASS_PRODUCER_SELF_CHECK__3011_CJK__4_SIGNAL_CARDS",
   "privacy_status": "PASS_PUBLIC_SAFE",
   "window_status": "PASS__ALL_10_SOURCE_PUBLICATION_TIMES_IN_EXACT_FIXED_WINDOW",
   "evidence_status": "PASS_PRODUCER_SELF_CHECK__10_SOURCE_RECEIPTS",
@@ -46,7 +46,8 @@
     "SHPGX 10:09:14 and 10:10:50 correctly included within [10:00,10:00) window.",
     "SHPGX single-source indexes are issuer-defined data; no false claim of independent corroboration.",
     "LONGZHONG_MYSTEEL same ownership group; headlines have verifiable timestamp in search-result excerpt, some direct pages inaccessible.",
-    "No complete same-window oil/JKM/CP/CFR/freight/war insurance reference matrix; profitability inference omitted."
+    "No complete same-window oil/JKM/CP/CFR/freight/war insurance reference matrix; profitability inference omitted.",
+    "Explicit PRICE types and six price semantics fields verified for E01/E02/E09, date-only observation precision preserved."
   ],
   "next_work_action": "12:30 Work native gates, Reader/Lineage/P8G and R3 CAS if accepted; do not bypass product quality gates."
 }
