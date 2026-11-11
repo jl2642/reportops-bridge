@@ -2,5 +2,49 @@
   "target_date": "2026-11-11",
   "scheduled_for": "10:15 Asia/Shanghai",
   "run_started_at": "2026-11-11T10:11:54+08:00",
-  "status": "RUN_STARTED_BEFORE_PREFLIGHT"
+  "status": "FAILED",
+  "authority_version": 96,
+  "authority_file_id": "file_00000000992081fd9e8c7ae8d9ade004",
+  "authority_sha256": "3f45cbc62bff7eb2974456a226231f86029683c370738f49c2f7d8852970f575",
+  "authority_zip_integrity": "PASS",
+  "authority_internal_pointer_sha256": "398b2244c16f376624fafc9d75cc54f63fddd293d4f905a536173bbd017732b7",
+  "authority_current_daily": "2026-11-10",
+  "products_repaired_or_produced": [],
+  "producer_recovery_queue_remaining": [
+    "2026-11-11"
+  ],
+  "queue_for_12_30_work": [],
+  "post_run_self_audit_status": "NOT_RUN_NO_PRODUCT",
+  "failure_stage": "SOURCE_ACQUISITION_WINDOW_AND_IDENTITY_VERIFICATION",
+  "failure_reason": "After initial and one bounded supplementary search, insufficient independent CORE/MATERIAL source records with precise publication time inside 2026-11-10 10:00 to 2026-11-11 10:00 Asia/Shanghai and complete acquisition receipts; cannot meet V4 depth and strict v2 evidence without inventing timestamps.",
+  "source_gaps": [
+    {
+      "url": "https://www.reuters.com/business/energy/polands-orlen-ends-long-term-qatarenergy-lng-contract-over-delivery-failure-2026-11-10/",
+      "missing": "precise publication timestamp observed"
+    },
+    {
+      "url": "https://www.reuters.com/business/energy/oil-falls-trump-downplays-prospect-escalation-with-iran-2026-11-10/",
+      "missing": "precise publication timestamp observed"
+    },
+    {
+      "url": "https://www.shpgx.com/html/xyzx/20261110/10300.html",
+      "observed_publication_time": "2026-11-10 10:10:50 Asia/Shanghai",
+      "issue": "one publisher; independent corroboration insufficient"
+    },
+    {
+      "url": "https://www.shpgx.com/html/xyzx/20261110/10299.html",
+      "observed_publication_time": "2026-11-10 10:09:14 Asia/Shanghai",
+      "issue": "outside fixed window by 46 seconds"
+    },
+    {
+      "url": "https://www.shpgx.com/html/jygg/20261110/10303.html",
+      "observed_publication_time": "2026-11-10 17:52:26 Asia/Shanghai",
+      "issue": "official announcement available but limited directly supported market breadth"
+    }
+  ],
+  "supplementary_search": "Reuters international oil/LNG and shipping; Shanghai Petroleum and Natural Gas Exchange Chinese LNG prices and official announcements; professional domestic LNG price surfaces",
+  "github_runtime_mirror_note": "current_daily_public=2026-11-06 stale; current_daily_canonical=2026-11-10 consistent with locked Authority; no mutation",
+  "canonical_mutation_performed": false,
+  "site_mutation_performed": false,
+  "automation_mutation_performed": false
 }
