@@ -24,7 +24,7 @@
   "evidence_record_count": 10,
   "source_url_count_distinct": 8,
   "public_contract_sha256": "64770bf24f1280d11060d6a905a659241d5e483109fc8c3e34195a8264fc48f6",
-  "source_identity_gate_status": "PASS_10_OF_10__OBSERVED_EXACT_URLS__DIRECT_OR_SEARCH_RESULT",
+  "source_identity_gate_status": "PASS_PRODUCER_REFERENCE_CHECK__E06_URL_REPLACED_FROM_OBSERVED_ARTICLE__WORK_NATIVE_PENDING",
   "inline_citation_gate_status": "PASS_10_OF_10__NARRATIVE_CLICKABLE_LINKS",
   "exact_v4_machine_structure_status": "PASS_PRODUCER_SELF_CHECK",
   "v4_public_depth_gate_status": "PASS_PRODUCER_SELF_CHECK__3011_CJK__4_SIGNAL_CARDS",
@@ -32,7 +32,7 @@
   "window_status": "PASS__ALL_10_SOURCE_PUBLICATION_TIMES_IN_EXACT_FIXED_WINDOW",
   "evidence_status": "PASS_PRODUCER_SELF_CHECK__10_SOURCE_RECEIPTS",
   "strict_v2_ledger_status": "PRODUCER_PRECHECK_PASS__STRICT_NEW_CORE_PRICE_FRESHNESS_0__MATERIAL_PRICE_HISTORY_WARNINGS_2__WORK_NATIVE_PENDING",
-  "producer_self_audit_status": "PASS_PRODUCER_PRECHECK__CORE_PRICE_FRESHNESS_CORRECTED__WORK_NATIVE_PENDING",
+  "producer_self_audit_status": "PASS_PRODUCER_PRECHECK__IDENTITY_FRESHNESS_CORRECTED__WORK_NATIVE_PENDING",
   "consumer_status": "PENDING_WORK_RECONCILIATION",
   "canonical_mutation_performed": false,
   "site_publication_performed": false,
@@ -49,9 +49,10 @@
     "No complete same-window oil/JKM/CP/CFR/freight/war insurance reference matrix; profitability inference omitted.",
     "Explicit PRICE types and six price semantics fields verified for E01/E02/E09, date-only observation precision preserved.",
     "11/11 pre-12:30 Strict V2: E01 2026-11-06 weekly CLD PRICE was stale CORE by 5d versus 3d freshness threshold; changed CORE to MATERIAL, historical-only. E02 same-period historical TTF MATERIAL also warns. No stale CORE PRICE remains.",
-    "E03 2026-11-08 E-Gas estimate and E05 2026-11-10 publisher original LPG assessment are issuer-origin data; no unearned independent cross-check, Work to adjudicate true cross-check requirements."
+    "E03 2026-11-08 E-Gas estimate and E05 2026-11-10 publisher original LPG assessment are issuer-origin data; no unearned independent cross-check, Work to adjudicate true cross-check requirements.",
+    "E06 original URL changed to exact observed article at /7E02694FF2C8C4A4.html; old /937D36914DC1947F.html not independently corroborated. Source Identity must be rerun by Work.",
+    "unsupported_core_claims intentionally omitted; native Work Consumer shall derive zero only after full Source/Inline/Evidence/V4/Temporal gates, per Authority daily_attempt_promotion_sync.py."
   ],
   "next_work_action": "12:30 Work native gates, Reader/Lineage/P8G and R3 CAS if accepted; do not bypass product quality gates.",
-  "authority_policy_sha256": "ed69573e48d0daedd1b899ab2d6cf15880f37705f88b44b1a9d2ca26715f9905",
-  "unsupported_core_claims": 0
+  "authority_policy_sha256": "ed69573e48d0daedd1b899ab2d6cf15880f37705f88b44b1a9d2ca26715f9905"
 }
