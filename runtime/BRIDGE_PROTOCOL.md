@@ -5,17 +5,17 @@ Timezone: Asia/Shanghai
 
 ## Scheduled Chat
 
-10:15 reads SECURITY_BOUNDARY → CURRENT_PUBLIC → topology → this protocol → DAILY_RUNTIME_CONTRACT_PUBLIC v1.5 → EVIDENCE_POLICY_PUBLIC v1.2 → DAILY_PUBLIC_DEPTH_POLICY_V4.json → DAILY_TEMPLATE_PUBLIC → status/latest → recent manifests/correction receipts.
+10:15 first persists its heartbeat, then pins the unique formal Library Authority version and immutable file_id, hashes the ZIP, and reads internal CURRENT_POINTER.json. CURRENT_PUBLIC and status/latest are only mirrors. The current policy/template/evidence gates apply to candidate production.
 
 The DAILY_TEMPLATE_PUBLIC machine skeleton is normative. Numerical Daily depth thresholds must be loaded from DAILY_PUBLIC_DEPTH_POLICY_V4.json; duplicated governing threshold numbers in the task prompt are prohibited.
 
 ## Correction backlog
 
-Before new-day research, check newer unpromoted Daily candidates and same-date source-identity, inline-citation, structure/privacy or depth correction receipts. Depth/content correction reuses accepted Evidence with no new research unless the receipt explicitly requires research review.
+Prioritize target-day production. Register historical unpromoted candidates/corrections for the Consumer without blocking target-day acquisition. Depth/content correction reuses accepted Evidence with no new research unless the receipt explicitly requires research review.
 
 ## 10:15 order
 
-correction backlog → target D fixed-window research → source identity verification → expert signal ranking → exact-template Chinese V4 public core → inline citation gate → deterministic depth measurement from DAILY_PUBLIC_DEPTH_POLICY_V4.json → structure/window/privacy/evidence checks → write/readback public_core → evidence → manifest → status/latest.
+target D fixed-window research → source identity verification → expert signal ranking → exact-template Chinese V4 public core → inline citation gate → deterministic depth measurement from DAILY_PUBLIC_DEPTH_POLICY_V4.json → structure/window/privacy/evidence checks → write/readback public_core → evidence → strict v2 ledger → manifest → status/latest.
 
 `PUBLIC_CORE_ACCEPTED` is forbidden unless all blocking gates pass and actual deterministic metrics are present.
 
@@ -24,9 +24,9 @@ correction backlog → target D fixed-window research → source identity verifi
 12:30 Work does not re-research or rewrite accepted Daily public cores.
 
 Before any mutation it:
-1. reads the current Library Authority package and computes the public Daily-depth policy subset;
+1. resolves and pins one formal Library Authority version/immutable file_id, hashes that ZIP, reads its internal Pointer/Reader/Lineage/13 views, and computes the public Daily-depth policy subset;
 2. verifies its hash against GitHub DAILY_PUBLIC_DEPTH_POLICY_V4.json;
-3. performs a read-only non-short-circuit preflight across the full pending Daily queue and all dependent Chat-accepted Library higher-cycle candidates.
+3. checks only pending eligible targets and dependencies in order, inheriting valid unchanged native receipts.
 
 Policy mirror mismatch is `RUNTIME_CONTRACT_VERSION_DRIFT` / `WORK_DETERMINISTIC_REPAIR`; Work repairs the mirror from Authority and reruns the affected deterministic checks. Correction receipts must derive `required_floor` from the verified policy, never from hand-written constants.
 
@@ -51,3 +51,6 @@ Before Work may report runtime/freshness overall PASS, it must read back and cro
 ## Idempotency
 
 Formally promoted unchanged products are SKIP. Explicit correction receipts authorize only their bounded defect class.
+
+## R3 single-Authority commit and read boundary
+The same formal Authority file conditional replacement with expected_current_version is the sole commit point, only when the pinned Master Contract enables R3_SINGLE_AUTHORITY_CAS_ACTIVE. Pin one immutable version for all Current, Reader, Lineage, 13-view and dependency reads. External Pointer, sidecar and GitHub state are repairable mirrors. No independent mirror priority or GitHub fallback is permitted. Re-resolve before any commit or Site publication. Confirm the exact committed version and SHA before mirror repair, guard each mirror version, stop old repairs if Authority advances, and reject mismatched mirrors at read time. An unknown write outcome requires readback before retry. A later lawful promotion forbids stale rollback. Site publishing is independent and uses only the latest committed Authority snapshot.
