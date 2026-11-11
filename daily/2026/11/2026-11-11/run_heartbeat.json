@@ -3,7 +3,7 @@
   "scheduled_for": "10:15 Asia/Shanghai",
   "run_started_at": "2026-11-11T10:59:10+08:00",
   "execution_mode": "BOUNDED_INTERACTIVE_RERUN_AFTER_SOURCE_WINDOW_CORRECTION",
-  "status": "RUN_STARTED_BEFORE_PREFLIGHT",
+  "status": "PRODUCER_SUCCESS_CANDIDATES_PENDING_WORK",
   "original_scheduled_status": "FAILED",
   "original_scheduled_run_record": {
     "target_date": "2026-11-11",
@@ -55,16 +55,27 @@
     "site_mutation_performed": false,
     "automation_mutation_performed": false
   },
-  "products_repaired_or_produced": [],
-  "producer_recovery_queue_remaining": [
-    "2026-11-11"
+  "products_repaired_or_produced": [
+    "Daily 2026-11-11 Chat public-safe candidate — bounded interactive recovery"
   ],
-  "queue_for_12_30_work": [],
-  "post_run_self_audit_status": "NOT_RUN",
+  "producer_recovery_queue_remaining": [],
+  "queue_for_12_30_work": [
+    "Daily 2026-11-11 — Producer-candidate; Work native gates pending"
+  ],
+  "post_run_self_audit_status": "PASS_PRODUCER_PRECHECK__4_OF_4_GITHUB_READBACK__10_EVIDENCE__43_COLUMN_LEDGER__V4_CJK_3011__WORK_NATIVE_PENDING",
   "canonical_mutation_performed": false,
   "site_mutation_performed": false,
   "automation_mutation_performed": false,
   "notes": [
-    "Preserve original scheduled failure and perform bounded interactive source window correction without changing Authority or site."
-  ]
+    "Preserve original scheduled failure and perform bounded interactive source window correction without changing Authority or site.",
+    "Original scheduled 10:15 FAILED remains unchanged within original_scheduled_run_record. This is a distinct bounded interactive recovery after correcting invalid source window exclusion.",
+    "Evidence publications: 10 records, 8 distinct exact URLs, 0 guessed; price/date precision marked. The Work Consumer must independently verify native gates, Reader, Lineage, P8G and formal CAS.",
+    "No Library Current, Sidecar, Pointer or Site mutation."
+  ],
+  "run_finished_at": "2026-11-11T11:09:13+08:00",
+  "authority_version": 96,
+  "authority_sha256": "3f45cbc62bff7eb2974456a226231f86029683c370738f49c2f7d8852970f575",
+  "authority_current_daily": "2026-11-10",
+  "failure_stage": null,
+  "failure_reason": null
 }
