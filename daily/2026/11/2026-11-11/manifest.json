@@ -6,8 +6,8 @@
   "scheduled_for": "10:15 Asia/Shanghai",
   "execution_mode": "BOUNDED_INTERACTIVE_RECOVERY_AFTER_SCHEDULED_FAILED__R3_AUTHORITY_PINNED",
   "producer_status": "PUBLIC_CORE_ACCEPTED",
-  "product_status": "PUBLIC_CORE_ACCEPTED_PENDING_WORK",
-  "formal_status": "PENDING_WORK_RECONCILIATION",
+  "product_status": "FORMAL_CANONICAL_PUBLISHED",
+  "formal_status": "FORMAL_PROMOTED_SITE_PENDING",
   "cjk_characters_actual": 3011,
   "executive_cjk_actual": 300,
   "key_signal_cjk_actual": 1327,
@@ -33,13 +33,13 @@
   "evidence_status": "PASS_PRODUCER_SELF_CHECK__10_SOURCE_RECEIPTS",
   "strict_v2_ledger_status": "PRODUCER_PRECHECK_PASS__STRICT_NEW_CORE_PRICE_FRESHNESS_0__MATERIAL_PRICE_HISTORY_WARNINGS_2__WORK_NATIVE_PENDING",
   "producer_self_audit_status": "PASS_PRODUCER_PRECHECK__IDENTITY_FRESHNESS_CORRECTED__WORK_NATIVE_PENDING",
-  "consumer_status": "PENDING_WORK_RECONCILIATION",
-  "canonical_mutation_performed": false,
+  "consumer_status": "FORMAL_CONSUMED_NATIVE_GATES_AND_P8G_COMMIT_VERIFICATION_PASS__AUTHORITY_V97",
+  "canonical_mutation_performed": true,
   "site_publication_performed": false,
   "site_mutation_performed": false,
   "work_may_rewrite": false,
-  "authority_version": 96,
-  "authority_sha256": "3f45cbc62bff7eb2974456a226231f86029683c370738f49c2f7d8852970f575",
+  "authority_version": 97,
+  "authority_sha256": "06d4067cd649a8da3b2602776084f761f14daf4f4c795e8ce4e71f986a390f80",
   "warnings": [
     "Original 10:15 scheduled run FAILED and was preserved in heartbeat; this is a separate bounded manual recovery.",
     "Producer precheck is not native Work consumer acceptance.",
@@ -51,8 +51,12 @@
     "11/11 pre-12:30 Strict V2: E01 2026-11-06 weekly CLD PRICE was stale CORE by 5d versus 3d freshness threshold; changed CORE to MATERIAL, historical-only. E02 same-period historical TTF MATERIAL also warns. No stale CORE PRICE remains.",
     "E03 2026-11-08 E-Gas estimate and E05 2026-11-10 publisher original LPG assessment are issuer-origin data; no unearned independent cross-check, Work to adjudicate true cross-check requirements.",
     "E06 original URL changed to exact observed article at /7E02694FF2C8C4A4.html; old /937D36914DC1947F.html not independently corroborated. Source Identity must be rerun by Work.",
-    "unsupported_core_claims intentionally omitted; native Work Consumer shall derive zero only after full Source/Inline/Evidence/V4/Temporal gates, per Authority daily_attempt_promotion_sync.py."
+    "unsupported_core_claims intentionally omitted; native Work Consumer shall derive zero only after full Source/Inline/Evidence/V4/Temporal gates, per Authority daily_attempt_promotion_sync.py.",
+    "Formal Consumer, Lineage, Reader machine checks and P8G commit verification completed; original 10:15 scheduled failure remains recorded separately.",
+    "Site publication and six target remote ZIP SHA checks remain pending."
   ],
-  "next_work_action": "12:30 Work native gates, Reader/Lineage/P8G and R3 CAS if accepted; do not bypass product quality gates.",
-  "authority_policy_sha256": "ed69573e48d0daedd1b899ab2d6cf15880f37705f88b44b1a9d2ca26715f9905"
+  "next_work_action": "Site-only publish committed Daily 2026-11-07 through 2026-11-11 and Weekly 2026-W45; verify homepage, archives, Download Center and all six remote ZIP SHA values. Do not reconsume.",
+  "authority_policy_sha256": "ed69573e48d0daedd1b899ab2d6cf15880f37705f88b44b1a9d2ca26715f9905",
+  "pointer_sha256": "46bd667a68fc7f9044faf6273a16fdb2823532352f7dc0da6c3ec6e9a5f63e82",
+  "updated_at": "2026-11-11T17:22:00+08:00"
 }
