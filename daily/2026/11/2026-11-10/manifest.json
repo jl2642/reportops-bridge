@@ -6,8 +6,8 @@
   "scheduled_for": "2026-11-10T10:15:00+08:00",
   "execution_mode": "BOUNDED_INTERACTIVE_RECOVERY_AFTER_SCHEDULED_FAILURE",
   "producer_status": "PUBLIC_CORE_ACCEPTED",
-  "product_status": "PUBLIC_CORE_ACCEPTED_PENDING_WORK",
-  "formal_status": "PENDING_WORK_RECONCILIATION",
+  "product_status": "FORMAL_CANONICAL_PUBLISHED",
+  "formal_status": "FORMAL_PROMOTED_SITE_PENDING",
   "cjk_characters_actual": 3183,
   "executive_cjk_actual": 279,
   "key_signal_cjk_actual": 1352,
@@ -34,8 +34,8 @@
   "evidence_status": "PASS_NATIVE_STRICT_NEW_10_OF_10",
   "strict_v2_ledger_status": "PASS_NATIVE_43_COLUMN_10_CLAIMS",
   "producer_self_audit_status": "PASS_4_OF_4_GITHUB_AND_LIBRARY_TEXT_READBACK",
-  "consumer_status": "PENDING_WORK_RECONCILIATION",
-  "canonical_mutation_performed": false,
+  "consumer_status": "FORMAL_CONSUMED_NATIVE_GATES_AND_AUTHORITY_V96_READBACK_PASS",
+  "canonical_mutation_performed": true,
   "site_publication_performed": false,
   "site_mutation_performed": false,
   "work_may_rewrite": false,
@@ -47,10 +47,28 @@
     "NO_SAME_WINDOW_COMPLETE_JKM_CP_CFR_AND_WAR_INSURANCE_PRICE_MATRIX; NO_ARBITRAGE_PROJECTION",
     "REUTERS_MULTIPLE_PRODUCTS_SAME_OWNER; NOT_INDEPENDENT_CROSSCHECK",
     "SITE_PENDING_PRE_EXISTING_UNCHANGED",
-    "WORK_NATIVE_CONSUMER_AND_FORMAL_AUTHORITY_NOT_RUN",
     "CHAT_NATIVE_V4_DATA_GAP_BOUNDARY_CLARIFIED_ONE_PHRASE_ONLY__FORMAL_WORK_RECHECK_PENDING"
   ],
-  "next_work_action": "Only Daily 2026-11-10 is new Producer candidate, pending Work formal native consumption. Daily current through 11-09 and W45 already formally promoted; SITE_PENDING remains independent. Do not reconsume historical products.",
-  "github_readback_status": "PASS_4_OF_4_BYTE_EQUAL",
-  "scheduled_run_status": "FAILED_SOURCE_ACQUISITION_AT_10_15__BOUNDED_INTERACTIVE_RECOVERY_SUCCESS"
+  "next_work_action": "Daily 2026-11-10 formally promoted in Authority V96; skip reconsumption. Publish original Site and verify five target ZIP SHA when supported workflow is available.",
+  "github_readback_status": "FORMAL_STATE_TO_BE_BYTE_VERIFIED",
+  "scheduled_run_status": "FAILED_SOURCE_ACQUISITION_AT_10_15__BOUNDED_INTERACTIVE_RECOVERY_SUCCESS",
+  "producer_before_formal_commit": {
+    "product_status": "PUBLIC_CORE_ACCEPTED_PENDING_WORK",
+    "formal_status": "PENDING_WORK_RECONCILIATION",
+    "consumer_status": "PENDING_WORK_RECONCILIATION",
+    "warnings": [
+      "SCHEDULED_10_15_FAILED_ACQUISITION; INTERACTIVE_TARGETED_RECOVERY",
+      "MYSTEEL_EXACT_URL_AND_TITLE_SEARCH_RESULT_OBSERVED_BUT_DIRECT_OPEN_TIMEOUT; RERUN_CONSUMER_AS_NEEDED",
+      "SHPGX_VIA_SINA_FINANCE_TRACEABLE_REPRINT; NOT_TRANSACTION_PRICE",
+      "NO_SAME_WINDOW_COMPLETE_JKM_CP_CFR_AND_WAR_INSURANCE_PRICE_MATRIX; NO_ARBITRAGE_PROJECTION",
+      "REUTERS_MULTIPLE_PRODUCTS_SAME_OWNER; NOT_INDEPENDENT_CROSSCHECK",
+      "SITE_PENDING_PRE_EXISTING_UNCHANGED",
+      "WORK_NATIVE_CONSUMER_AND_FORMAL_AUTHORITY_NOT_RUN",
+      "CHAT_NATIVE_V4_DATA_GAP_BOUNDARY_CLARIFIED_ONE_PHRASE_ONLY__FORMAL_WORK_RECHECK_PENDING"
+    ]
+  },
+  "authority_version": 96,
+  "authority_package_sha256": "3f45cbc62bff7eb2974456a226231f86029683c370738f49c2f7d8852970f575",
+  "pointer_sha256": "398b2244c16f376624fafc9d75cc54f63fddd293d4f905a536173bbd017732b7",
+  "updated_at": "2026-11-11T01:37:04.725Z"
 }
