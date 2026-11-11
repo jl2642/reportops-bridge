@@ -62,7 +62,7 @@
   "queue_for_12_30_work": [
     "Daily 2026-11-11 — Producer-candidate; Work native gates pending"
   ],
-  "post_run_self_audit_status": "PASS_PRODUCER_PRECHECK__4_OF_4_GITHUB_READBACK__10_EVIDENCE__43_COLUMN_LEDGER__V4_CJK_3011__WORK_NATIVE_PENDING",
+  "post_run_self_audit_status": "PASS_PRODUCER_PRE_1230_RECONCILIATION__NOT_NATIVE_CONSUMER_GATE",
   "canonical_mutation_performed": false,
   "site_mutation_performed": false,
   "automation_mutation_performed": false,
@@ -77,5 +77,31 @@
   "authority_sha256": "3f45cbc62bff7eb2974456a226231f86029683c370738f49c2f7d8852970f575",
   "authority_current_daily": "2026-11-10",
   "failure_stage": null,
-  "failure_reason": null
+  "failure_reason": null,
+  "pre_1230_reconciliation": {
+    "checked_at": "2026-11-11T11:21:04+08:00",
+    "authority_pinned_v96": true,
+    "producer_candidate_manifest_blob_sha": "8b8c13bc971b02ec82187388e0803c6cb32c8bba",
+    "producer_candidate_body_blob_sha": "97ee8ddb9e269aeac50a2cef88eab308374276a6",
+    "producer_candidate_evidence_blob_sha": "ddcc60d59e306d0c71a0f2890e4c85674d371e6f",
+    "producer_candidate_ledger_blob_sha": "9545ebabb43c176b4f659deae7e9c87dc01f5ad2",
+    "chat_producer_native_work_gate": "NOT_RUN__REQUIRED_AT_12_30",
+    "producer_mirrored_gate": "PASS_NO_KNOWN_BLOCKING__10_EVIDENCE__8_URLS__43_CSV_COLUMNS__3011_CJK__4_SIGNAL_CARDS",
+    "fixed_issues": [
+      "E01 stale 11/06 PRICE CORE downgraded to historic MATERIAL; data unchanged; nonblocking 5d freshness warning",
+      "E06 source URL replaced with exact observed article /7E02694FF2C8C4A4.html",
+      "manifest authority_policy_sha256 filled and unverified unsupported_core_claims removed for Consumer derivation"
+    ],
+    "known_nonblocking_warnings": [
+      "PRICE 5d historical MATERIAL records E01 and E02 (PRICE freshness threshold 3d)"
+    ],
+    "site_task_debt_remains": [
+      "Daily 11/07",
+      "Daily 11/08",
+      "Daily 11/09",
+      "Daily 11/10",
+      "Weekly W45"
+    ],
+    "work_disposition": "Native gates, Reader, Lineage, P8G and R3 CAS independently determine formal eligibility; if website workflow fails, preserve product commit and SITE_PENDING."
+  }
 }
