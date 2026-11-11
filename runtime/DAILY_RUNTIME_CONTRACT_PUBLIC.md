@@ -12,7 +12,7 @@ Daily answers: **固定窗口内出现了哪些新的、可验证、且对能源
 
 10:15 Asia/Shanghai Scheduled Chat is the Daily continuity/editorial controller. 12:30 Work is the downstream formal reconciler/promoter/single-site publisher and must not redo public-web research or rewrite an Accepted public core.
 
-Before new-day production, Chat compares `CURRENT_PUBLIC`, `status/latest` and recent manifests/correction receipts. Unpromoted newer candidates or same-date accepted corrections are correction backlog and must be handled before silent continuity.
+Before production, pin one formal Authority version/immutable file_id, hash the ZIP and read internal CURRENT_POINTER.json for Current. CURRENT_PUBLIC and status/latest are repairable mirrors only. Produce target D first and register historical candidates for the Consumer. If Authority cannot be pinned, fail closed instead of selecting formal Current from external Pointer or GitHub.
 
 ## Fixed window
 
@@ -54,3 +54,6 @@ GitHub contains only public-safe generic operator/industry analysis. Public narr
 Before `PUBLIC_CORE_ACCEPTED`, manifest must show Source Identity PASS, Inline Citation PASS, Expert Signal Priority PASS, exact V4 machine structure PASS, V4 Depth PASS, privacy PASS, Evidence/window/write/readback PASS and unsupported CORE claims = 0. It must also record the depth-policy mirror identity used for deterministic measurement.
 
 GitHub is bridge durability, not Canonical Authority, and never publishes Sites. Current live distribution is single-site public; Private Site is retired from live operation.
+
+## R3 formal read boundary
+All formal Current, dependency, Reader, Lineage, 13-view and Site source reads use the same pinned committed Authority ZIP. External Pointer and sidecar cannot override it. Publication and CAS writes re-resolve the latest version. Master Contract governs the single-object version-guarded commit and mirror recovery. Candidate evidence and product gates remain mandatory.
