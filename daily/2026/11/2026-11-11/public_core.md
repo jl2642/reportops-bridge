@@ -9,7 +9,7 @@ language: zh-CN
 <!-- MODULE:EXECUTIVE_SIGNAL_SUMMARY -->
 ## 1. 今日一屏结论
 
-本期观察窗口为北京时间11月10日10:00至11月11日10:00，报告聚焦“进口LNG现货评估回落、进口到船波动、国内液化气下跌、区域气价分化”四条传导链。已经核验的官方和专业数据共同显示：11月2—6日中国进口现货LNG到岸评估价格CLD近月价格周环比下降6.33%，但它是11月10日发布的历史周度评估，不能冒充当日成交价[E01](https://www.shpgx.com/html/xyzx/20261110/10299.html)；E-Gas预计当周到船103万吨，下一周船期预测164万吨，两组数字都需与海关实绩和接收站卸货交叉验证[E03](https://www.shpgx.com/html/xyzx/20261110/10300.html)[E04](https://www.shpgx.com/html/xyzx/20261110/10300.html)。国内LPG专业估价11月10日下跌2.20%，地区间价格和产品口径明显不同，不宜直接形成进口套利结论[E05](https://nenghua.mysteel.com/a/26111017/A30AC2AA0D207378.html)[E06](https://nenghua.mysteel.com/a/26111013/937D36914DC1947F.html)。
+本期观察窗口为北京时间11月10日10:00至11月11日10:00，报告聚焦“进口LNG现货评估回落、进口到船波动、国内液化气下跌、区域气价分化”四条传导链。已经核验的官方和专业数据共同显示：11月2—6日中国进口现货LNG到岸评估价格CLD近月价格周环比下降6.33%，但它是11月10日发布的历史周度评估，不能冒充当日成交价[E01](https://www.shpgx.com/html/xyzx/20261110/10299.html)；E-Gas预计当周到船103万吨，下一周船期预测164万吨，两组数字都需与海关实绩和接收站卸货交叉验证[E03](https://www.shpgx.com/html/xyzx/20261110/10300.html)[E04](https://www.shpgx.com/html/xyzx/20261110/10300.html)。国内LPG专业估价11月10日下跌2.20%，地区间价格和产品口径明显不同，不宜直接形成进口套利结论[E05](https://nenghua.mysteel.com/a/26111017/A30AC2AA0D207378.html)[E06](https://nenghua.mysteel.com/a/26111013/7E02694FF2C8C4A4.html)。
 
 核心判断是“价格方向与到船节奏不能单独证明需求恢复或供应宽松”。在进口成本、实际成交、运费、储罐周转和终端提货之间仍存在多项缺口时，谨慎关注价差边际变化，不作未经证据支持的盈利预测；海运费、保险费和国际原油最新结算的同窗完整报价，本次仍未可靠核验。
 
@@ -35,7 +35,7 @@ language: zh-CN
 - **反证条件：**实际卸船不及预期，或者在冬季终端需求上升时额外货量被库存吸收。
 
 ### 信号卡3｜国内LPG下跌，区域价差不能直接解释为套利利润
-- **事实摘要：**隆众11月10日全国液化气估价7190元/吨，较前日下降162元/吨、跌幅2.20%；同期华北民用气基准价7164元/吨、降228元，东北民用气主流价6510—7040元/吨[E05](https://nenghua.mysteel.com/a/26111017/A30AC2AA0D207378.html)[E06](https://nenghua.mysteel.com/a/26111013/937D36914DC1947F.html)[E07](https://nenghua.mysteel.com/a/26111016/541466EBE87E5FD6.html)。
+- **事实摘要：**隆众11月10日全国液化气估价7190元/吨，较前日下降162元/吨、跌幅2.20%；同期华北民用气基准价7164元/吨、降228元，东北民用气主流价6510—7040元/吨[E05](https://nenghua.mysteel.com/a/26111017/A30AC2AA0D207378.html)[E06](https://nenghua.mysteel.com/a/26111013/7E02694FF2C8C4A4.html)[E07](https://nenghua.mysteel.com/a/26111016/541466EBE87E5FD6.html)。
 - **为什么重要：**不同地区报价同时下行反映短期采购情绪偏谨慎，但民用液化气、进口丙烷、醚后碳四等产品并不具备完全可替代性。
 - **价格／供需／产业链传导：**炼厂出货压力、低价货源和下游观望可能拉低报价，贸易商账面毛利未必改善；库存持有周期与提货限制比单日价差更重要。
 - **影响对象：**LPG贸易、区域分销、工业燃料和下游深加工用户。
@@ -65,7 +65,7 @@ CLD的190.976元/吉焦属于11月2—6日周度最终评估，隆众7190元/吨
 <!-- MODULE:CHINA_CHAIN_DELTA -->
 ## 5. 中国天然气 / LNG / LPG产业链增量
 
-E-Gas到船预估表明近期接收站库存调度仍可能受到船期波动影响。若下一周预测船量正常实现，华南、长三角与环渤海接收站可售气源的改善程度可能不同；但没有接收站分日库存和实际槽车成交，不能对区域气价作确定方向预测[E03](https://www.shpgx.com/html/xyzx/20261110/10300.html)[E04](https://www.shpgx.com/html/xyzx/20261110/10300.html)。LPG方面，华北与东北均出现明显报价下行，需求端谨慎和资源调配值得继续跟踪；厂价与终端成交价仍需分开核验[E06](https://nenghua.mysteel.com/a/26111013/937D36914DC1947F.html)[E07](https://nenghua.mysteel.com/a/26111016/541466EBE87E5FD6.html)。
+E-Gas到船预估表明近期接收站库存调度仍可能受到船期波动影响。若下一周预测船量正常实现，华南、长三角与环渤海接收站可售气源的改善程度可能不同；但没有接收站分日库存和实际槽车成交，不能对区域气价作确定方向预测[E03](https://www.shpgx.com/html/xyzx/20261110/10300.html)[E04](https://www.shpgx.com/html/xyzx/20261110/10300.html)。LPG方面，华北与东北均出现明显报价下行，需求端谨慎和资源调配值得继续跟踪；厂价与终端成交价仍需分开核验[E06](https://nenghua.mysteel.com/a/26111013/7E02694FF2C8C4A4.html)[E07](https://nenghua.mysteel.com/a/26111016/541466EBE87E5FD6.html)。
 
 <!-- MODULE:GLOBAL_ENERGY_DELTA -->
 ## 6. 国际油气 / LNG增量
@@ -97,7 +97,7 @@ E-Gas到船预估表明近期接收站库存调度仍可能受到船期波动影
 - [E01](https://www.shpgx.com/html/xyzx/20261110/10299.html) 上海石油天然气交易中心CLD周度分析，发布于11月10日10:09。
 - [E03](https://www.shpgx.com/html/xyzx/20261110/10300.html) E-Gas LNG到船与预测，发布于11月10日10:10。
 - [E05](https://nenghua.mysteel.com/a/26111017/A30AC2AA0D207378.html) 隆众全国液化气日评，发布于11月10日17:07。
-- [E06](https://nenghua.mysteel.com/a/26111013/937D36914DC1947F.html) 隆众华北液化气日评，发布于11月10日13:52。
+- [E06](https://nenghua.mysteel.com/a/26111013/7E02694FF2C8C4A4.html) 隆众华北液化气日评，发布于11月10日13:52。
 - [E07](https://nenghua.mysteel.com/a/26111016/541466EBE87E5FD6.html) 隆众东北液化气午评，发布于11月10日16:11。
 - [E08](https://nenghua.mysteel.com/a/26111017/A3859780BB07807D.html) 隆众华中LNG工厂价格，发布于11月10日17:06。
 - [E09](https://nenghua.mysteel.com/a/26111017/CD569E82E8EF7D2F.html) 隆众LNG日评，发布于11月10日17:35。
