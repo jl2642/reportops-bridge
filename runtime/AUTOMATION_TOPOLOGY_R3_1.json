@@ -8,9 +8,9 @@
     "time": "10:15",
     "role": "DAILY_CONTINUITY_CONTROLLER_AND_PUBLIC_CORE_PRODUCER",
     "priority_order": [
-      "PROCESS_CORRECTION_BACKLOG",
       "PERSIST_CURRENT_DAY_D_FIRST",
-      "SCAN_CONTINUITY_FROM_LAST_PUBLICLY_VERIFIED_DATE_TO_D"
+      "REGISTER_HISTORICAL_CANDIDATES_FOR_CONSUMER",
+      "SCAN_CONTINUITY_FROM_PINNED_AUTHORITY_CURRENT"
     ],
     "current_day_window": "[D-1 10:00,D 10:00) Asia/Shanghai",
     "template_identity": "runtime/DAILY_TEMPLATE_PUBLIC.md",
@@ -18,6 +18,7 @@
     "writes": [
       "daily/YYYY/MM/YYYY-MM-DD/public_core.md",
       "daily/YYYY/MM/YYYY-MM-DD/evidence.json",
+      "daily/YYYY/MM/YYYY-MM-DD/evidence_ledger_v2_YYYY-MM-DD.csv",
       "daily/YYYY/MM/YYYY-MM-DD/manifest.json",
       "status/latest.json"
     ],
@@ -28,7 +29,7 @@
   "scheduled_work": {
     "time": "12:30",
     "role": "UNIVERSAL_RECONCILER_CANONICAL_PROMOTER_AND_SINGLE_SITE_PUBLISHER",
-    "preflight_policy": "READ_ONLY_NON_SHORT_CIRCUIT_FULL_PENDING_QUEUE",
+    "preflight_policy": "INCREMENTAL_PENDING_TARGETS_INHERIT_VALID_RECEIPTS",
     "checks_product_types": [
       "DAILY",
       "WEEKLY",
@@ -53,7 +54,7 @@
       "QUARTERLY",
       "ANNUAL"
     ],
-    "promotion_policy": "ATOMIC_PER_PRODUCT_AFTER_FULL_PREFLIGHT",
+    "promotion_policy": "SINGLE_AUTHORITY_EXPECTED_CURRENT_VERSION_CAS_AFTER_NATIVE_GATES",
     "publication_policy": "BATCH_ONCE_AFTER_ALL_SUCCESSFUL_PROMOTIONS",
     "publication_order": [
       "PUBLIC_SITE",
@@ -73,5 +74,7 @@
   "github_role": "PUBLIC_SAFE_RUNTIME_BRIDGE_NOT_CANONICAL_AUTHORITY",
   "canonical_authority": "CHATGPT_LIBRARY",
   "mutable_state_ref": "runtime/DEPLOYMENT_STATE.json",
-  "public_current_ref": "runtime/CURRENT_PUBLIC.json"
+  "public_current_ref": "runtime/CURRENT_PUBLIC.json",
+  "current_read_rule": "PIN_AUTHORITY_VERSION_AND_READ_INTERNAL_POINTER_READER_LINEAGE_13_VIEWS",
+  "external_pointer_role": "REPAIRABLE_DERIVED_MIRROR"
 }
