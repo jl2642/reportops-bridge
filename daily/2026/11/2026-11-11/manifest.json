@@ -31,8 +31,8 @@
   "privacy_status": "PASS_PUBLIC_SAFE",
   "window_status": "PASS__ALL_10_SOURCE_PUBLICATION_TIMES_IN_EXACT_FIXED_WINDOW",
   "evidence_status": "PASS_PRODUCER_SELF_CHECK__10_SOURCE_RECEIPTS",
-  "strict_v2_ledger_status": "PRODUCER_43_COLUMN_PRECHECK_PASS__WORK_NATIVE_PENDING",
-  "producer_self_audit_status": "BOUNDED_PRODUCER_SELF_AUDIT_PRECHECK_PASS__WORK_NATIVE_CONSUMER_PENDING",
+  "strict_v2_ledger_status": "PRODUCER_PRECHECK_PASS__STRICT_NEW_CORE_PRICE_FRESHNESS_0__MATERIAL_PRICE_HISTORY_WARNINGS_2__WORK_NATIVE_PENDING",
+  "producer_self_audit_status": "PASS_PRODUCER_PRECHECK__CORE_PRICE_FRESHNESS_CORRECTED__WORK_NATIVE_PENDING",
   "consumer_status": "PENDING_WORK_RECONCILIATION",
   "canonical_mutation_performed": false,
   "site_publication_performed": false,
@@ -47,7 +47,11 @@
     "SHPGX single-source indexes are issuer-defined data; no false claim of independent corroboration.",
     "LONGZHONG_MYSTEEL same ownership group; headlines have verifiable timestamp in search-result excerpt, some direct pages inaccessible.",
     "No complete same-window oil/JKM/CP/CFR/freight/war insurance reference matrix; profitability inference omitted.",
-    "Explicit PRICE types and six price semantics fields verified for E01/E02/E09, date-only observation precision preserved."
+    "Explicit PRICE types and six price semantics fields verified for E01/E02/E09, date-only observation precision preserved.",
+    "11/11 pre-12:30 Strict V2: E01 2026-11-06 weekly CLD PRICE was stale CORE by 5d versus 3d freshness threshold; changed CORE to MATERIAL, historical-only. E02 same-period historical TTF MATERIAL also warns. No stale CORE PRICE remains.",
+    "E03 2026-11-08 E-Gas estimate and E05 2026-11-10 publisher original LPG assessment are issuer-origin data; no unearned independent cross-check, Work to adjudicate true cross-check requirements."
   ],
-  "next_work_action": "12:30 Work native gates, Reader/Lineage/P8G and R3 CAS if accepted; do not bypass product quality gates."
+  "next_work_action": "12:30 Work native gates, Reader/Lineage/P8G and R3 CAS if accepted; do not bypass product quality gates.",
+  "authority_policy_sha256": "ed69573e48d0daedd1b899ab2d6cf15880f37705f88b44b1a9d2ca26715f9905",
+  "unsupported_core_claims": 0
 }
