@@ -50,7 +50,7 @@
     "CHAT_NATIVE_V4_DATA_GAP_BOUNDARY_CLARIFIED_ONE_PHRASE_ONLY__FORMAL_WORK_RECHECK_PENDING"
   ],
   "next_work_action": "Daily 2026-11-10 formally promoted in Authority V96; skip reconsumption. Publish original Site and verify five target ZIP SHA when supported workflow is available.",
-  "github_readback_status": "FORMAL_STATE_TO_BE_BYTE_VERIFIED",
+  "github_readback_status": "PASS_FORMAL_STATE_BYTE_EXACT",
   "scheduled_run_status": "FAILED_SOURCE_ACQUISITION_AT_10_15__BOUNDED_INTERACTIVE_RECOVERY_SUCCESS",
   "producer_before_formal_commit": {
     "product_status": "PUBLIC_CORE_ACCEPTED_PENDING_WORK",
