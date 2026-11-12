@@ -185,7 +185,7 @@
     "Daily 2026-10-05 BLOCKED_CORRECTION",
     "Daily 2026-10-06 ZERO_ARTIFACT_MISSING_DATE"
   ],
-  "oldest_pending_date": null,
+  "oldest_pending_date": "2026-11-12",
   "products_completed_this_run": [
     "Daily 2026-11-07 Chat Candidate",
     "Daily 2026-11-08 Chat Candidate",
@@ -547,7 +547,7 @@
   "public_daily_2026_10_14_download_sha256": "7198e935f91376c06aad940c241be3066617a338a4e6977e3edacd42295927fd",
   "public_daily_2026_10_15_download_sha256": "85bf61157397670325c5c7cfb7853e1436f69c99efacad464ceb55678954b00b",
   "authority_sha_runtime_reconciliation_status": "PASS_CURRENT_COMMITTED_AUTHORITY_AND_SIDECAR",
-  "current_derived_views_status": "PARTIAL_4_OF_13_EXTERNAL_MIRRORS_UPDATED__9_PENDING",
+  "current_derived_views_status": "PASS_13_BYTE_EXACT_FROM_COMMITTED_V97",
   "producer_automation_status": "UNATTENDED_RELIABILITY_NOT_ACCEPTED__2026_10_23_REQUIRED_BOUNDED_INTERACTIVE_RECOVERY__2026_10_24_SCHEDULED_SUCCESS",
   "public_daily_2026_10_16_download_sha256": "5ee3f31227ba541f8e3b79a6045c5f25dd13d9c066322327bbf7354b366896ba",
   "public_daily_2026_10_17_download_sha256": "c5da3880a3439a600d27939eaa94df9cfdaf21687fc640813ca552e8073db5e0",
@@ -593,7 +593,7 @@
   },
   "producer_status": "PUBLIC_CORE_ACCEPTED",
   "queue_for_12_30_work": [
-    "Daily 2026-11-11 — Producer public-safe candidate persisted; Work native gates and R3 CAS pending"
+    "Daily 2026-11-12 — candidate byte SHA-256 mismatch against Producer readback receipt; no formal promotion"
   ],
   "producer_candidate_readback_status": "PASS_4_OF_4__2026_11_03__PUBLIC_CORE_EVIDENCE_LEDGER_MANIFEST_READBACK",
   "measurement_parity_status": "PASS_AUTHORITY_CONSUMER_ACTUALS",
@@ -657,7 +657,7 @@
   "site_only_corrective_republish_deployed": false,
   "site_prepublication_audit": "PASS_ZERO_BLOCKERS__197_SITE_HTML_190_DOWNLOAD_HTML_186_TXT_186_AUDITED_ZIPS_29616_LINKS",
   "site_failure_stage": "SOURCE_WORKFLOW_RESOURCE_READ",
-  "site_failure_reason": "site-workflow.mjs: failed to read skill resource",
+  "site_failure_reason": "Unable to prepare the Site.",
   "remote_zip_verification": {
     "status": "PENDING_SITE_DEPLOYMENT",
     "target_products": [
