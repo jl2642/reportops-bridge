@@ -2,5 +2,43 @@
   "target_date": "2026-11-12",
   "scheduled_for": "10:15 Asia/Shanghai",
   "run_started_at": "2026-11-12T10:10:17+08:00",
-  "status": "RUN_STARTED_BEFORE_PREFLIGHT"
+  "status": "FAILED",
+  "authority_version": "97",
+  "authority_file_id": "file_00000000853881fd8fce5c4ce4532aac",
+  "authority_sha256": "06d4067cd649a8da3b2602776084f761f14daf4f4c795e8ce4e71f986a390f80",
+  "authority_pointer_sha256": "46bd667a68fc7f9044faf6273a16fdb2823532352f7dc0da6c3ec6e9a5f63e82",
+  "current_daily": "2026-11-11",
+  "window_start": "2026-11-11T10:00:00+08:00",
+  "window_end": "2026-11-12T10:00:00+08:00",
+  "products_repaired_or_produced": [],
+  "producer_recovery_queue_remaining": [
+    "2026-11-12"
+  ],
+  "queue_for_12_30_work": [],
+  "post_run_self_audit_status": "NOT_RUN_NO_PRODUCT_WRITTEN",
+  "failure_stage": "PREFLIGHT_STRICT_V2_LEDGER_ARTIFACT_PATH_UNRESOLVED",
+  "failure_reason": "Producer-readable policy mirror supplies exact 43-column header and enums but does not state the normative GitHub Daily ledger artifact filename/path; frozen contract prohibits inventing a new filename or schema. Cannot safely persist the four-piece candidate in required order. No candidate files written.",
+  "observed_window_sources": [
+    {
+      "url": "https://www.100ppi.com/news/detail-20261110-6468715.html",
+      "publication_time": "2026-11-10T13:48:00+08:00",
+      "note": "outside D window; excluded"
+    },
+    {
+      "url": "https://www.shpgx.com/html/xyzx/20261111/10304.html",
+      "publication_time": "2026-11-11T09:05:58+08:00",
+      "note": "outside D window; excluded"
+    },
+    {
+      "url": "https://oilprice.com/Latest-Energy-News/World-News/Polands-Orlen-Becomes-First-Buyer-to-Cancel-Long-Term-Qatar-LNG-Deal.html",
+      "publication_time": "2026-11-11T15:30:00+08:00",
+      "note": "inside D window, original 01:30 CST US"
+    },
+    {
+      "url": "https://oilprice.com/Latest-Energy-News/World-News/Brent-Jumps-3-to-94-as-Iran-Denies-Any-Talks-With-Washington.html",
+      "publication_time": "2026-11-12T00:30:00+08:00",
+      "note": "inside D window, original 10:30 CST US"
+    }
+  ],
+  "mirrors_note": "GitHub CURRENT_PUBLIC current_daily_public=2026-11-06 is stale versus locked Authority current_daily=2026-11-11; not used for continuity."
 }
