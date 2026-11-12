@@ -141,7 +141,7 @@
   "preflight_blocker_matrix": [],
   "last_work_reconciled_at": "2026-11-11T01:37:04.725Z",
   "public_daily_2026_10_15_download_sha256": "85bf61157397670325c5c7cfb7853e1436f69c99efacad464ceb55678954b00b",
-  "current_derived_views_status": "PARTIAL_4_OF_13_EXTERNAL_MIRRORS_UPDATED__9_PENDING",
+  "current_derived_views_status": "PASS_13_BYTE_EXACT_FROM_COMMITTED_V97",
   "producer_automation_status": "UNATTENDED_RELIABILITY_NOT_ACCEPTED__2026_10_23_REQUIRED_BOUNDED_INTERACTIVE_RECOVERY__2026_10_24_SCHEDULED_SUCCESS",
   "public_daily_2026_10_16_download_sha256": "5ee3f31227ba541f8e3b79a6045c5f25dd13d9c066322327bbf7354b366896ba",
   "public_daily_2026_10_17_download_sha256": "c5da3880a3439a600d27939eaa94df9cfdaf21687fc640813ca552e8073db5e0",
@@ -175,7 +175,7 @@
   "site_only_corrective_republish_deployed": false,
   "site_prepublication_audit": "PASS_ZERO_BLOCKERS__197_SITE_HTML_190_DOWNLOAD_HTML_186_TXT_186_AUDITED_ZIPS_29616_LINKS",
   "site_failure_stage": "SOURCE_WORKFLOW_RESOURCE_READ",
-  "site_failure_reason": "site-workflow.mjs: failed to read skill resource",
+  "site_failure_reason": "Unable to prepare the Site.",
   "remote_zip_verification": {
     "status": "PENDING_SITE_DEPLOYMENT",
     "target_products": [
@@ -292,8 +292,10 @@
     "Daily 2026-11-10"
   ],
   "daily_reconsumed_this_run": false,
-  "queue_for_12_30_work": [],
-  "oldest_pending_date": null,
+  "queue_for_12_30_work": [
+    "Daily 2026-11-12 — candidate byte SHA-256 mismatch against Producer readback receipt; no formal promotion"
+  ],
+  "oldest_pending_date": "2026-11-12",
   "products_completed_this_run": [
     "Daily 2026-11-04",
     "Daily 2026-11-05",
