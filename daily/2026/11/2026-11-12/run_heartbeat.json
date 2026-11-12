@@ -2,7 +2,7 @@
   "target_date": "2026-11-12",
   "scheduled_for": "10:15 Asia/Shanghai",
   "run_started_at": "2026-11-12T10:31:24+08:00",
-  "status": "RUN_STARTED_BEFORE_PREFLIGHT",
+  "status": "PRODUCER_SUCCESS_CANDIDATES_PENDING_WORK",
   "authority_version": "97",
   "authority_file_id": "file_00000000853881fd8fce5c4ce4532aac",
   "authority_sha256": "06d4067cd649a8da3b2602776084f761f14daf4f4c795e8ce4e71f986a390f80",
@@ -10,12 +10,14 @@
   "current_daily": "2026-11-11",
   "window_start": "2026-11-11T10:00:00+08:00",
   "window_end": "2026-11-12T10:00:00+08:00",
-  "products_repaired_or_produced": [],
-  "producer_recovery_queue_remaining": [
-    "2026-11-12"
+  "products_repaired_or_produced": [
+    "Daily 2026-11-12 Producer candidate: PUBLIC_CORE_ACCEPTED; 4 artifacts written and read back"
   ],
-  "queue_for_12_30_work": [],
-  "post_run_self_audit_status": "NOT_RUN",
+  "producer_recovery_queue_remaining": [],
+  "queue_for_12_30_work": [
+    "Daily 2026-11-12"
+  ],
+  "post_run_self_audit_status": "PASS_ALL_PRODUCER_GATES",
   "failure_stage": null,
   "failure_reason": null,
   "observed_window_sources": [
@@ -40,12 +42,60 @@
       "note": "inside D window, original 10:30 CST US"
     }
   ],
-  "mirrors_note": "GitHub CURRENT_PUBLIC current_daily_public=2026-11-06 is stale versus locked Authority current_daily=2026-11-11; not used for continuity.",
+  "mirrors_note": "GitHub CURRENT_PUBLIC current_daily_public=2026-11-06 remains a stale mirror; locked Library Authority current_daily=2026-11-11 governs. No mirror was used for continuity.",
   "retry_attempt": "MANUAL_BOUNDED_RETRY_AFTER_LEDGER_PATH_CLARIFICATION",
   "previous_attempt": {
     "status": "FAILED",
     "failure_stage": "PREFLIGHT_STRICT_V2_LEDGER_ARTIFACT_PATH_UNRESOLVED",
     "failure_reason": "Producer-readable policy mirror supplies exact 43-column header and enums but does not state the normative GitHub Daily ledger artifact filename/path; frozen contract prohibits inventing a new filename or schema. Cannot safely persist the four-piece candidate in required order. No candidate files written.",
     "run_started_at": "2026-11-12T10:10:17+08:00"
-  }
+  },
+  "run_completed_at": "2026-11-12T11:34:11+08:00",
+  "artifact_readback": [
+    {
+      "path": "daily/2026/11/2026-11-12/public_core.md",
+      "sha256": "c55c91c8125ce99d8d0a64b7ac66b3ba71582c3e15119557053da7955262f40f",
+      "github_blob_sha": "d345f14f8c21487975dc495aefa9b495c668c734",
+      "readback_equal": true
+    },
+    {
+      "path": "daily/2026/11/2026-11-12/evidence.json",
+      "sha256": "b94c4217bf9c21b09fa5bcc07be9105e03b083923d463560d7a7b8df41230c1a",
+      "github_blob_sha": "6a2c10f216055e18083696015b429671d7c26166",
+      "readback_equal": true
+    },
+    {
+      "path": "daily/2026/11/2026-11-12/evidence_ledger_v2_2026-11-12.csv",
+      "sha256": "8fa7d41ad8566087d0c3312f51593be14bb54c430288d8e7fb087c0dc1852b51",
+      "github_blob_sha": "f0f6bcdbcbb34d5f45c7bc073515e460ea79b08f",
+      "readback_equal": true
+    },
+    {
+      "path": "daily/2026/11/2026-11-12/manifest.json",
+      "sha256": "1ae60eb417fe9f595af4c707ca532fb1463ffbee8753464955f357dce00bbc34",
+      "github_blob_sha": "0a6832c3f8c6f1fb3cf93e99eb0bc2f176110da0",
+      "readback_equal": true
+    }
+  ],
+  "producer_gate_results": {
+    "source_identity": "PASS_14_OF_14",
+    "inline_citation": "PASS_7_UNIQUE_URLS_14_RECORDS",
+    "strict_v2_ledger": "PASS_14_RECORDS_12_CLAIMS_ZERO_BLOCKING",
+    "evidence_product_gate": "PASS_14_RECORDS_12_CLAIMS_ZERO_BLOCKING",
+    "daily_v4_public": "PASS_2696_CJK_5_CARDS_NO_WARNINGS",
+    "fixed_window": "PASS_14_OF_14",
+    "content_integrity": "PASS_ZERO_BLOCKING_ZERO_WARNINGS",
+    "temporal_integrity": "PASS",
+    "encoding_integrity": "PASS",
+    "privacy": "PASS_PUBLIC_SAFE"
+  },
+  "non_blocking_legacy_check": {
+    "tool": "daily_information_window_validator.py",
+    "status": "NOT_APPLICABLE_TO_CURRENT_E_IDS",
+    "detail": "Legacy parser only recognizes S/A/B/C source labels; v1.2 Evidence uses E01-E14. Exact publication timestamp check against the fixed Asia/Shanghai window passed 14/14. No validator or schema was modified."
+  },
+  "canonical_mutation_performed": false,
+  "site_publication_performed": false,
+  "site_mutation_performed": false,
+  "next_action": "12:30 Work must consume the 2026-11-12 candidate through native Source/Evidence/Reader/Lineage/P8G and formal commit gates. Do not infer formal promotion from Producer success."
 }
