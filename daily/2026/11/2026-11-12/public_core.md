@@ -104,9 +104,9 @@ language: zh-CN
 
 ## Public Sources
 
-- [E01](https://www.reuters.com/world/middle-east/hormuz-traffic-is-up-so-are-the-attacks-2026-11-11/) Reuters：霍尔木兹LNG船舶通行数量，发布于11月11日16:12 UTC。
-- [E12](https://www.reuters.com/world/middle-east/hormuz-traffic-is-up-so-are-the-attacks-2026-11-11/) Reuters：卡塔尔LNG海运流量约为战前三成。
-- [E13](https://www.reuters.com/world/middle-east/hormuz-traffic-is-up-so-are-the-attacks-2026-11-11/) Reuters：10月船舶遇袭统计。
+- [E01](https://www.reuters.com/world/middle-east/hormuz-traffic-is-up-so-are-attacks-2026-11-11/) Reuters：霍尔木兹LNG船舶通行数量，发布于11月11日16:12 UTC。
+- [E12](https://www.reuters.com/world/middle-east/hormuz-traffic-is-up-so-are-attacks-2026-11-11/) Reuters：卡塔尔LNG海运流量约为战前三成。
+- [E13](https://www.reuters.com/world/middle-east/hormuz-traffic-is-up-so-are-attacks-2026-11-11/) Reuters：10月船舶遇袭统计。
 - [E02](https://oilprice.com/Latest-Energy-News/World-News/Polands-Orlen-Becomes-First-Buyer-to-Cancel-Long-Term-Qatar-LNG-Deal.html) OilPrice：LNG船舶流量与卡塔尔出口恢复情况，发布于11月11日01:30 CST。
 - [E03](https://oilprice.com/Latest-Energy-News/World-News/Polands-Orlen-Becomes-First-Buyer-to-Cancel-Long-Term-Qatar-LNG-Deal.html) OilPrice：Orlen终止一项卡塔尔长期LNG合同。
 - [E04](https://oilprice.com/Latest-Energy-News/World-News/Brent-Jumps-3-to-94-as-Iran-Denies-Any-Talks-With-Washington.html) OilPrice：伊朗否认谈判后布伦特盘中上行。
