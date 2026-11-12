@@ -54,27 +54,31 @@
   "artifact_readback": [
     {
       "path": "daily/2026/11/2026-11-12/public_core.md",
-      "sha256": "c55c91c8125ce99d8d0a64b7ac66b3ba71582c3e15119557053da7955262f40f",
-      "github_blob_sha": "d345f14f8c21487975dc495aefa9b495c668c734",
-      "readback_equal": true
+      "sha256": "26f3a9b416bb7e9b7271b90f953b2b1c6c6cddfbb892e84cec99fe9cb134f819",
+      "github_blob_sha": "5799b6f5f81ead6961e0b139dc17e49f5bd17fe6",
+      "readback_equal": true,
+      "utf8_bytes": 15265
     },
     {
       "path": "daily/2026/11/2026-11-12/evidence.json",
-      "sha256": "b94c4217bf9c21b09fa5bcc07be9105e03b083923d463560d7a7b8df41230c1a",
-      "github_blob_sha": "6a2c10f216055e18083696015b429671d7c26166",
-      "readback_equal": true
+      "sha256": "f0d2f8a71f4d035b137a266d55c169210dfd03e14ed6db886580895667a77522",
+      "github_blob_sha": "6cd42d9b5099f74b386aa49608dad9d5f40976cb",
+      "readback_equal": true,
+      "utf8_bytes": 20609
     },
     {
       "path": "daily/2026/11/2026-11-12/evidence_ledger_v2_2026-11-12.csv",
-      "sha256": "8fa7d41ad8566087d0c3312f51593be14bb54c430288d8e7fb087c0dc1852b51",
+      "sha256": "a32766325d9e3ab1548d00adf62b9081faffd83eb872034cd4402eefd873494c",
       "github_blob_sha": "f0f6bcdbcbb34d5f45c7bc073515e460ea79b08f",
-      "readback_equal": true
+      "readback_equal": true,
+      "utf8_bytes": 13974
     },
     {
       "path": "daily/2026/11/2026-11-12/manifest.json",
       "sha256": "1ae60eb417fe9f595af4c707ca532fb1463ffbee8753464955f357dce00bbc34",
       "github_blob_sha": "0a6832c3f8c6f1fb3cf93e99eb0bc2f176110da0",
-      "readback_equal": true
+      "readback_equal": true,
+      "utf8_bytes": 2814
     }
   ],
   "producer_gate_results": {
@@ -97,5 +101,39 @@
   "canonical_mutation_performed": false,
   "site_publication_performed": false,
   "site_mutation_performed": false,
-  "next_action": "12:30 Work must consume the 2026-11-12 candidate through native Source/Evidence/Reader/Lineage/P8G and formal commit gates. Do not infer formal promotion from Producer success."
+  "next_action": "12:30 Work must consume the 2026-11-12 candidate through native Source/Evidence/Reader/Lineage/P8G and formal commit gates. Do not infer formal promotion from Producer success.",
+  "previous_12_30_consumer_failure": {
+    "date": "2026-11-12",
+    "stage": "CANDIDATE_INPUT_SHA256_MISMATCH",
+    "source": "Actual original-byte SHA256 did not match Producer heartbeat metadata",
+    "source_content_not_rewritten_for_hash": true,
+    "previous_recorded_artifact_hashes": [
+      {
+        "path": "daily/2026/11/2026-11-12/public_core.md",
+        "recorded_sha256": "c55c91c8125ce99d8d0a64b7ac66b3ba71582c3e15119557053da7955262f40f"
+      },
+      {
+        "path": "daily/2026/11/2026-11-12/evidence.json",
+        "recorded_sha256": "b94c4217bf9c21b09fa5bcc07be9105e03b083923d463560d7a7b8df41230c1a"
+      },
+      {
+        "path": "daily/2026/11/2026-11-12/evidence_ledger_v2_2026-11-12.csv",
+        "recorded_sha256": "8fa7d41ad8566087d0c3312f51593be14bb54c430288d8e7fb087c0dc1852b51"
+      },
+      {
+        "path": "daily/2026/11/2026-11-12/manifest.json",
+        "recorded_sha256": "1ae60eb417fe9f595af4c707ca532fb1463ffbee8753464955f357dce00bbc34"
+      }
+    ]
+  },
+  "candidate_integrity_correction": {
+    "date": "2026-11-12",
+    "status": "ACTUAL_RAW_SHA256_RECOMPUTED_AND_SOURCE_URL_MATCHED",
+    "source_identity_canonical_url_match": "14/14",
+    "inline_unique_url_match": "7/7",
+    "ledger_columns": 43,
+    "work_native_consumer_gate": "NOT_RERUN",
+    "formal_promotion": "NOT_DONE",
+    "site_publication": "NOT_DONE"
+  }
 }
