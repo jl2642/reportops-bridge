@@ -1,0 +1,17 @@
+{
+  "schema_version": "REPORTOPS_CANDIDATE_CORRECTION_RECEIPT_V1",
+  "target_date": "2026-11-12",
+  "base_branch": "main",
+  "base_commit": "20a08900b24efaecff43a33a5f59018d2e227882",
+  "correction_branch": "recovery/daily-2026-11-12-e09-citation-fix",
+  "original_public_core_blob_sha": "5799b6f5f81ead6961e0b139dc17e49f5bd17fe6",
+  "corrected_public_core_blob_sha": "357e36fc8dcafc3b80522d61456e774905fb7afe",
+  "changed_file": "daily/2026/11/2026-11-12/public_core.md",
+  "change_scope": "Only four Markdown links labelled E09 were changed. No body wording, values, claims, Evidence JSON, Ledger, Manifest, Reader, or Authority was modified.",
+  "old_e09_url": "https://nenghua.mysteel.com/a/26111113/951B89F8D66D9563.html",
+  "new_e09_url": "https://nenghua.mysteel.com/a/26111111/8DA4CE5F95E6CE5F.html",
+  "occurrences_changed": 4,
+  "source_of_truth": "Evidence E09 record and its source_identity_receipt canonical_url",
+  "formal_status": "CORRECTED_CANDIDATE_NOT_YET_NATIVE_GATE_ACCEPTED",
+  "created_commit": "1a3b144b32df92c5f4dac45cfe31d7a781beca03"
+}
