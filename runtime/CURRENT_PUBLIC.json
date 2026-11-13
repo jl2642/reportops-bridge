@@ -15,7 +15,7 @@
   "public_site_url": "https://energy-cycle-report-share.ljjx2020.chatgpt.site",
   "public_remote_readback": {
     "site_version": 113,
-    "checked_at": "2026-11-06T14:04:33.932Z",
+    "checked_at": "2026-11-13T05:57:23.551Z",
     "current_daily": "2026-11-11",
     "current_weekly": "2026-W45",
     "current_monthly": "2026-10",
@@ -37,7 +37,7 @@
   "pending_work_runtime_formalization": false,
   "final_closure_status": "PARTIAL_SUCCESS__SITE_V113_PUBLISHED__LIBRARY_MIRRORS_PENDING__READER_GATE_PENDING",
   "pending_product": null,
-  "last_updated": "2026-11-11T17:22:00+08:00",
+  "last_updated": "2026-11-13T05:57:23.551Z",
   "deployment_state_ref": "runtime/DEPLOYMENT_STATE.json",
   "metadata_freshness": "PENDING_V97_LIBRARY_DERIVED_MIRROR_SYNC__9_OF_13_VIEWS",
   "state_consistency_pointer_sha256": "46bd667a68fc7f9044faf6273a16fdb2823532352f7dc0da6c3ec6e9a5f63e82",
@@ -55,7 +55,7 @@
   "queue_remaining": [],
   "eligible_unpublished_products": [],
   "correction_backlog_status": "DAILY_2026_11_10_FORMAL_COMMITTED__FIVE_SITE_TARGETS_PENDING",
-  "manifest_reconciliation_status": "PASS_AUTHORITY_POINTER_SITE_V112",
+  "manifest_reconciliation_status": "PASS_AUTHORITY_POINTER_SITE_V113",
   "measurement_parity_status": "PASS_AUTHORITY_CONSUMER_ACTUALS",
   "derived_state_completeness_status": "PARTIAL_4_OF_13_LIBRARY_MIRRORS__POST_COMMIT_STATE_VALIDATION_REVIEW_PENDING",
   "stable_operation_accepted": false,
@@ -79,11 +79,11 @@
   "current_package_site_publication_performed": true,
   "runtime_sync_status": "V97_GITHUB_RUNTIME_SITE_V113_RECONCILED__LIBRARY_MIRRORS_PENDING",
   "stable": false,
-  "updated_at": "2026-11-11T17:22:00+08:00",
+  "updated_at": "2026-11-13T05:57:23.551Z",
   "public_weekly_2026_w40_download_sha256": "7d5d10199df404c830519bf51f4639196e4d3c8256416b4362a65d640fd5c49e",
   "public_daily_2026_10_04_download_sha256": "e34a69cb519d7db802c80f20e56387358953f22667d170bd7136982150568f78",
-  "failure_stage": "SITE_WORKFLOW_PREPARE",
-  "failure_reason": "Unable to prepare the Site.",
+  "failure_stage": null,
+  "failure_reason": null,
   "manual_intervention_required": false,
   "previous_work_failure": {
     "status": "CURRENT_UNCHANGED__PRODUCT_LOCAL_BLOCKER",
@@ -118,7 +118,7 @@
   "producer_gap": [],
   "scheduled_date": "2026-11-02",
   "target_date": "2026-11-10",
-  "current_day_status": "FORMAL_CANONICAL_PROMOTED__SITE_PENDING",
+  "current_day_status": "FORMAL_CANONICAL_PROMOTED__SITE_PUBLISHED",
   "formal_status": "FORMAL_PROMOTED_DAILY_2026_11_11_WEEKLY_2026_W45",
   "download_integrity": "PASS_REMOTE_ZIP_SHA256_6_OF_6",
   "public_daily_2026_10_14_download_sha256": "7198e935f91376c06aad940c241be3066617a338a4e6977e3edacd42295927fd",
@@ -177,8 +177,8 @@
   "evidence_revalidation_2026_10_25": "PASS_WITH_WARNINGS__12_RECORDS__0_BLOCKING__1_FRESHNESS_WARNING__E10_E11_E12_ORIGINAL_MEDIA_VERIFIED",
   "ap_time_adjudication_2026_10_26": "PASS__LATEST_STRICT_V2_E01_E03_PUBLICATION_TIME_2026_10_25T22_16_00Z__11_RECORDS_0_BLOCKING",
   "site_only_corrective_republish_attempted": true,
-  "site_only_corrective_republish_deployed": false,
-  "site_prepublication_audit": "PASS_ZERO_BLOCKERS__197_SITE_HTML_190_DOWNLOAD_HTML_186_TXT_186_AUDITED_ZIPS_29616_LINKS",
+  "site_only_corrective_republish_deployed": true,
+  "site_prepublication_audit": "PASS_21312_CHECKS_198_REPORTS__SITE_RELEASE_AUDIT_PASS_30990_LINKS",
   "site_failure_stage": null,
   "site_failure_reason": null,
   "remote_zip_verification": {
@@ -239,7 +239,7 @@
     "monthly": "2026-10",
     "quarterly": "2026-Q3"
   },
-  "last_work_runtime_snapshot_updated_at": "2026-11-06T14:04:33.932Z",
+  "last_work_runtime_snapshot_updated_at": "2026-11-13T05:57:23.551Z",
   "site_source_preparation": {
     "status": "PUSHED_AND_PACKAGED_SAME_ORIGINAL_SITE",
     "source_commit": "1cc9da547e81e6237ad912f713cbfd812ceec346",
@@ -281,24 +281,20 @@
       "status": "FORMAL_PROMOTED__SITE_PENDING"
     }
   },
-  "site_status": "SITE_PENDING",
-  "package_status": "FORMAL_CURRENT_2026_11_06",
+  "site_status": "PUBLISHED_V113_REMOTE_READBACK_PASS",
+  "package_status": "FORMAL_CURRENT_2026_11_11",
   "site_deployment_receipt": {
-    "id": "appgdep_6aeddd7818088191bf00dc2db3021a30",
     "project_id": "appgprj_6a5893ab380c8191b03a261860f67102",
     "title": "能源周期报告中心·分享版",
-    "version_id": "appgprj_6a5893ab380c8191b03a261860f67102~appgver_14a85de68fc481919e09f1639b3245eb",
     "type": "publish",
     "status": "succeeded",
     "url": "https://energy-cycle-report-share.ljjx2020.chatgpt.site",
-    "has_mcp": false,
-    "screenshot_asset_pointer": null,
-    "provider_deployment_id": "ljjx2020--energy-cycle-report-share",
+    "version": 113,
+    "deployment_id": null,
+    "provider_deployment_id": null,
     "failure_message": null,
-    "env_set_revision": 0,
-    "updated_at": "2026-11-06T14:00:33.127719+00:00",
-    "version": 112,
-    "source_commit": "1cc9da547e81e6237ad912f713cbfd812ceec346"
+    "remote_readback_status": "PASS_V113__HOME_ARCHIVES_BODIES_DOWNLOADS_AND_6_ZIP_SHA",
+    "verified_on": "2026-11-13"
   },
   "authority_sha_runtime_reconciliation_status": "PASS_FINAL_LIBRARY_BYTE_READBACK",
   "remaining_product_debt": [],
@@ -1970,13 +1966,7 @@
   "authority_commit_rule": "R3_SINGLE_AUTHORITY_CAS_ACTIVE",
   "current_read_rule": "PIN_AUTHORITY_VERSION_AND_INTERNAL_POINTER",
   "external_pointer_role": "REPAIRABLE_DERIVED_MIRROR",
-  "remaining_site_debt": [
-    "Daily 2026-11-07",
-    "Daily 2026-11-08",
-    "Daily 2026-11-09",
-    "Daily 2026-11-10",
-    "Weekly 2026-W45"
-  ],
+  "remaining_site_debt": [],
   "public_report_count": 197,
   "mirror_status": "PASS_15_EXTERNAL_OBJECTS_BYTE_EXACT",
   "current_annual": "NO_FORMAL_2026_PRODUCT",
@@ -1993,5 +1983,6 @@
     "STATUS_CURRENT.md"
   ],
   "library_mirror_sync_updated_at": "2026-11-11T17:22:00+08:00",
-  "site_verified_on": "2026-11-13"
+  "site_verified_on": "2026-11-13",
+  "last_site_runtime_reconciliation_at": "2026-11-13T05:57:23.551Z"
 }
