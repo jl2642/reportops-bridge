@@ -51,7 +51,7 @@ language: zh-CN
 - **下一步验证：**跟踪GIE库存、净提取量、挪威流量和亚洲JKM。
 - **反证条件：**若天气偏暖、提取放缓且LNG到货增加，低库存支撑可能减弱。
 ### 信号卡5｜中国南方LNG与LPG价格分化，不能直接推导套利
-- **事实摘要：**11月11日广东、广西LNG主流接货价分别为8150、8000元/吨，均下调50元；华南国产LPG均价8290元/吨、上涨5元，进口气均价8300元/吨、下跌30元[E08](https://nenghua.mysteel.com/a/26111111/8DA4CE5F95E6CE5F.html)[E09](https://nenghua.mysteel.com/a/26111113/951B89F8D66D9563.html)[E10](https://nenghua.mysteel.com/a/26111113/951B89F8D66D9563.html)。
+- **事实摘要：**11月11日广东、广西LNG主流接货价分别为8150、8000元/吨，均下调50元；华南国产LPG均价8290元/吨、上涨5元，进口气均价8300元/吨、下跌30元[E08](https://nenghua.mysteel.com/a/26111111/8DA4CE5F95E6CE5F.html)[E09](https://nenghua.mysteel.com/a/26111111/8DA4CE5F95E6CE5F.html)[E10](https://nenghua.mysteel.com/a/26111113/951B89F8D66D9563.html)。
 - **为什么重要：**不同产品、区域和资源来源的价格变化并不同步。
 - **产业链传导：**LNG受接收站资源和槽车外运影响；LPG国产气与进口气则受炼厂供应、码头资源和外盘成本共同影响。
 - **影响对象：**LNG接收站、区域分销商、LPG进口商及燃料用户。
@@ -66,12 +66,12 @@ language: zh-CN
 <!-- MODULE:PRICE_AND_SPREAD_DELTA -->
 ## 4. 价格与价差增量
 
-布伦特盘中先升至约93.90美元/桶，随后回落至91.62美元/桶；TTF近月盘中上涨2.7%至约87欧元/兆瓦时[E04](https://oilprice.com/Latest-Energy-News/World-News/Brent-Jumps-3-to-94-as-Iran-Denies-Any-Talks-With-Washington.html)[E05](https://www.reuters.com/business/energy/oil-prices-drop-more-than-1-hopes-iran-ukraine-peace-talks-pressure-markets-2026-11-12/)[E06](https://oilprice.com/Latest-Energy-News/World-News/European-Gas-Prices-Rebound-on-Iran-War-Uncertainty.html)。这些是盘中报价，不是结算价。中国南方LNG接货价与国产、进口LPG均价的产品、交付和税费口径不同[E08](https://nenghua.mysteel.com/a/26111111/8DA4CE5F95E6CE5F.html)[E09](https://nenghua.mysteel.com/a/26111113/951B89F8D66D9563.html)。缺少同日CFR、运费、保险、税费和库存数据，本期不计算跨品种价差、进口净回值或贸易利润。
+布伦特盘中先升至约93.90美元/桶，随后回落至91.62美元/桶；TTF近月盘中上涨2.7%至约87欧元/兆瓦时[E04](https://oilprice.com/Latest-Energy-News/World-News/Brent-Jumps-3-to-94-as-Iran-Denies-Any-Talks-With-Washington.html)[E05](https://www.reuters.com/business/energy/oil-prices-drop-more-than-1-hopes-iran-ukraine-peace-talks-pressure-markets-2026-11-12/)[E06](https://oilprice.com/Latest-Energy-News/World-News/European-Gas-Prices-Rebound-on-Iran-War-Uncertainty.html)。这些是盘中报价，不是结算价。中国南方LNG接货价与国产、进口LPG均价的产品、交付和税费口径不同[E08](https://nenghua.mysteel.com/a/26111111/8DA4CE5F95E6CE5F.html)[E09](https://nenghua.mysteel.com/a/26111111/8DA4CE5F95E6CE5F.html)。缺少同日CFR、运费、保险、税费和库存数据，本期不计算跨品种价差、进口净回值或贸易利润。
 
 <!-- MODULE:CHINA_CHAIN_DELTA -->
 ## 5. 中国天然气 / LNG / LPG产业链增量
 
-华南LNG接货价格下调，国产LPG均价小幅上行而进口LPG均价回落，说明区域采购情绪和资源结构并不同步[E08](https://nenghua.mysteel.com/a/26111111/8DA4CE5F95E6CE5F.html)[E09](https://nenghua.mysteel.com/a/26111113/951B89F8D66D9563.html)。LNG需结合接收站库存、槽车外运和终端提货判断；LPG则需区分国产气、进口气、民用气和化工原料。当前证据不足以判断全国需求转强或市场全面转弱。应优先比较同一交付点和同一热值基准，不将报价表当作结算凭证。
+华南LNG接货价格下调，国产LPG均价小幅上行而进口LPG均价回落，说明区域采购情绪和资源结构并不同步[E08](https://nenghua.mysteel.com/a/26111111/8DA4CE5F95E6CE5F.html)[E09](https://nenghua.mysteel.com/a/26111111/8DA4CE5F95E6CE5F.html)。LNG需结合接收站库存、槽车外运和终端提货判断；LPG则需区分国产气、进口气、民用气和化工原料。当前证据不足以判断全国需求转强或市场全面转弱。应优先比较同一交付点和同一热值基准，不将报价表当作结算凭证。
 
 <!-- MODULE:GLOBAL_ENERGY_DELTA -->
 ## 6. 国际油气 / LNG增量
@@ -115,6 +115,6 @@ language: zh-CN
 - [E06](https://oilprice.com/Latest-Energy-News/World-News/European-Gas-Prices-Rebound-on-Iran-War-Uncertainty.html) OilPrice：TTF反弹。
 - [E07](https://oilprice.com/Latest-Energy-News/World-News/European-Gas-Prices-Rebound-on-Iran-War-Uncertainty.html) OilPrice：欧盟储气水平。
 - [E08](https://nenghua.mysteel.com/a/26111111/8DA4CE5F95E6CE5F.html) 隆众/我的钢铁网：11月11日华南LNG价格。
-- [E09](https://nenghua.mysteel.com/a/26111113/951B89F8D66D9563.html) 隆众/我的钢铁网：11月11日华南LPG价格。
+- [E09](https://nenghua.mysteel.com/a/26111111/8DA4CE5F95E6CE5F.html) 隆众/我的钢铁网：11月11日华南LPG价格。
 - [E10](https://nenghua.mysteel.com/a/26111113/951B89F8D66D9563.html) 隆众/我的钢铁网：华南国产LPG均价。
 - [E11](https://nenghua.mysteel.com/a/26111113/951B89F8D66D9563.html) 隆众/我的钢铁网：华南进口LPG均价。
