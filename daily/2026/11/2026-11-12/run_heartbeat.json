@@ -2,7 +2,7 @@
   "target_date": "2026-11-12",
   "scheduled_for": "10:15 Asia/Shanghai",
   "run_started_at": "2026-11-12T10:31:24+08:00",
-  "status": "PRODUCER_SUCCESS_CANDIDATES_PENDING_WORK",
+  "status": "PRODUCER_CANDIDATE_CORRECTED_PENDING_WORK_NATIVE_CONSUMER",
   "authority_version": "97",
   "authority_file_id": "file_00000000853881fd8fce5c4ce4532aac",
   "authority_sha256": "06d4067cd649a8da3b2602776084f761f14daf4f4c795e8ce4e71f986a390f80",
@@ -54,8 +54,8 @@
   "artifact_readback": [
     {
       "path": "daily/2026/11/2026-11-12/public_core.md",
-      "sha256": "26f3a9b416bb7e9b7271b90f953b2b1c6c6cddfbb892e84cec99fe9cb134f819",
-      "github_blob_sha": "5799b6f5f81ead6961e0b139dc17e49f5bd17fe6",
+      "sha256": "720deede7aa830325589e49de28d50f0c95078e7239f7a25bf4b5ff433185b8f",
+      "github_blob_sha": "357e36fc8dcafc3b80522d61456e774905fb7afe",
       "readback_equal": true,
       "utf8_bytes": 15265
     },
@@ -101,7 +101,7 @@
   "canonical_mutation_performed": false,
   "site_publication_performed": false,
   "site_mutation_performed": false,
-  "next_action": "12:30 Work must consume the 2026-11-12 candidate through native Source/Evidence/Reader/Lineage/P8G and formal commit gates. Do not infer formal promotion from Producer success.",
+  "next_action": "Consume corrected branch candidate, recompute all raw SHA, then rerun full native Work Source/Evidence/Reader/Lineage/P8G and CAS. Original main-branch producer bytes remain unchanged.",
   "previous_12_30_consumer_failure": {
     "date": "2026-11-12",
     "stage": "CANDIDATE_INPUT_SHA256_MISMATCH",
@@ -128,12 +128,18 @@
   },
   "candidate_integrity_correction": {
     "date": "2026-11-12",
-    "status": "ACTUAL_RAW_SHA256_RECOMPUTED_AND_SOURCE_URL_MATCHED",
+    "status": "E09_INLINE_URL_CORRECTED_ON_ISOLATED_RECOVERY_BRANCH",
+    "original_public_core_github_blob_sha": "5799b6f5f81ead6961e0b139dc17e49f5bd17fe6",
+    "corrected_public_core_github_blob_sha": "357e36fc8dcafc3b80522d61456e774905fb7afe",
+    "corrected_public_core_sha256": "720deede7aa830325589e49de28d50f0c95078e7239f7a25bf4b5ff433185b8f",
     "source_identity_canonical_url_match": "14/14",
-    "inline_unique_url_match": "7/7",
+    "inline_citation_source_binding": "14/14 IDs exact; 45 Markdown references exact",
     "ledger_columns": 43,
+    "e09_evidence_and_ledger_url": "https://nenghua.mysteel.com/a/26111111/8DA4CE5F95E6CE5F.html",
+    "e09_corrected_body_links": 4,
     "work_native_consumer_gate": "NOT_RERUN",
     "formal_promotion": "NOT_DONE",
-    "site_publication": "NOT_DONE"
+    "site_publication": "NOT_DONE",
+    "correction_branch": "recovery/daily-2026-11-12-e09-citation-fix"
   }
 }
