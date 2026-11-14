@@ -43,7 +43,7 @@
 
 ### 信号卡4｜LNG商业结构：合同履约风险与新增供给并存
 
-- **事实摘要：** Reuters 11月13日报道，波兰Orlen终止一份每年100万吨、原定持续至2034年的卡塔尔LNG长协，原因是不可抗力导致无法履约。[E09](https://www.reuters.com/business/energy/dropping-qatar-lng-deal-seen-saving-polands-orlen-up-to-2-billion-2026-11-13/)
+- **事实摘要：** Reuters 11月13日报道，波兰Orlen终止一份每年100万吨、原定持续至2034年的卡塔尔LNG长协，原因是不可抗力导致无法履约。[E09](https://www.reuters.com/business/energy/dropping-qatar-lng-deal-seen-saving-polands-orlen-up-2-billion-2026-11-13/)
 - **同一窗口的供给侧变化：** Reuters另报道，加拿大政府拟向建设中的Woodfibre LNG投资2亿加元，项目设计产能可能从210万吨/年提高至250万—260万吨/年；该投资信息来自知情人士，尚不等同于已完成正式投资交割。[E10](https://www.reuters.com/business/energy/canada-invest-c200-million-woodfibre-lng-grow-projects-capacity-source-says-2026-11-13/)
 - **为什么重要：** 短期合同履约风险与中期供给扩张同时出现，买方资源多元化和合同灵活性价值上升。
 - **价格与产业链传导：** 若卡塔尔长协履约受限，买方可能转向现货或Henry Hub挂钩资源；但Woodfibre扩产属于中期增量，不能替代当前船期。实际到岸成本仍取决于计价窗口、运费和保险。
