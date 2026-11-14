@@ -45,7 +45,6 @@
   "authority_version": 99,
   "authority_sha256": "470ac1f6f54bbed9b3d04435db9a28b8d1b680777b12d2cce6e5ef378323740d",
   "pointer_sha256": "6c80f67c5b9e02325334913d306bbaecc77ea4c5561b3482aad8485e8e585a0f",
-  "unsupported_core_claims": 0,
   "warnings": [
     "ORIGINAL_10_15_SCHEDULED_RUN_FAILED__CANDIDATE_CREATED_BY_BOUNDED_INTERACTIVE_RECOVERY",
     "LNG_TANKER_MINE_REPORT_IS_AN_UNCONFIRMED_IRANIAN_CLAIM__NO_VESSEL_ID_OR_INDEPENDENT_CONFIRMATION",
@@ -67,5 +66,6 @@
     "E08: scoped to Reuters report of Iranian official claim; underlying vessel/event remains independently unconfirmed",
     "E10: scoped to Reuters report citing anonymous source; final investment/permit approval remains unconfirmed"
   ],
-  "evidence_alignment_completed_at": "2026-11-14T04:52:37.518Z"
+  "evidence_alignment_completed_at": "2026-11-14T04:52:37.518Z",
+  "producer_note": "unsupported_core_claims is intentionally omitted from the producer manifest; V99 native V4 Consumer must derive and record it only after Evidence, Source Identity, Inline Citation, V4 content and temporal gates pass."
 }
