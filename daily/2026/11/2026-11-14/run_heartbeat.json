@@ -180,5 +180,8 @@
   ],
   "search_passes": 2,
   "source_recovery_mode": "USER_APPROVED_BOUNDED_RECOVERY",
-  "completed_at": "2026-11-14T12:46:48.431+08:00"
+  "completed_at": "2026-11-14T12:52:37.518+08:00",
+  "evidence_claim_role_status": "PASS_13_OF_13_CORE_AND_MATERIAL_ASSIGNED",
+  "evidence_support_alignment_status": "PASS_13_OF_13_DIRECT_TO_ATTRIBUTED_CLAIM_SCOPE",
+  "partial_support_records_remaining": 0
 }
