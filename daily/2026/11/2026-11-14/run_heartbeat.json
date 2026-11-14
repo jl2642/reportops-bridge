@@ -2,5 +2,43 @@
   "target_date": "2026-11-14",
   "scheduled_for": "10:15 Asia/Shanghai",
   "run_started_at": "2026-11-14T10:12:09+08:00",
-  "status": "RUN_STARTED_BEFORE_PREFLIGHT"
+  "status": "FAILED",
+  "authority_version": 99,
+  "authority_file_id": "file_000000006fec81fdba3d2aa1c67510ba",
+  "authority_sha256": "470ac1f6f54bbed9b3d04435db9a28b8d1b680777b12d2cce6e5ef378323740d",
+  "authority_zip_integrity": "PASS",
+  "authority_pointer_sha256": "6c80f67c5b9e02325334913d306bbaecc77ea4c5561b3482aad8485e8e585a0f",
+  "current_daily": "2026-11-13",
+  "window_start": "2026-11-13T10:00:00+08:00",
+  "window_end": "2026-11-14T10:00:00+08:00",
+  "products_repaired_or_produced": [],
+  "producer_recovery_queue_remaining": [
+    "2026-11-14"
+  ],
+  "queue_for_12_30_work": [],
+  "post_run_self_audit_status": "NOT_RUN_NO_CANDIDATE",
+  "citation_binding_status": "NOT_RUN",
+  "citation_binding_checked": "0/0",
+  "evidence_record_count": 0,
+  "unverified_source_count": 3,
+  "failure_stage": "SOURCE_ACQUISITION_AND_V4_DEPTH_PRECOMMIT",
+  "failure_reason": "After initial and one bounded supplemental search, verified within-window official SHPGX notices exist (2026-11-13 11:12:01, 18:16:56, 20:10:00 CST), but sufficient independent, precise-time, directly supported LNG/LPG price and international oil/LNG CORE/MATERIAL coverage for V4 was not established. Reuters/other articles had only date-level timestamps in observed results; domestic oilchem listing gave date only. No qualifying complete four-file candidate can be committed.",
+  "source_gaps": [
+    {
+      "source": "Reuters Nov 13 oil/LNG coverage",
+      "missing": "precise publication time/timezone"
+    },
+    {
+      "source": "oilchem Nov 13 LPG/LNG price listings",
+      "missing": "exact article identity and precise timestamp/price basis"
+    },
+    {
+      "source": "SHPGX official notices",
+      "observed": "exact timestamp and title",
+      "limitation": "multiple notices from same owner; cannot alone satisfy sector breadth"
+    }
+  ],
+  "producer_only": true,
+  "canonical_mutation_performed": false,
+  "site_mutation_performed": false
 }
