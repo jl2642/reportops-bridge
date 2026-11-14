@@ -14,7 +14,7 @@
 ### 信号卡1｜原油：日内波动有限，周线连续第二周下跌
 
 - **事实摘要：** 11月13日，ICE Brent 2027年1月合约结算价为95.84美元/桶，日涨0.02%；NYMEX WTI 2026年12月合约为88.56美元/桶，日跌0.20%。两项基准周跌幅均约2.5%，延续此前一周回落。[E01](https://www.reuters.com/business/energy/oil-prices-set-second-weekly-decline-trump-stay-with-iran-blockade-2026-11-13/) [E02](https://www.dtnpf.com/agriculture/web/AG/news/world-policy/article/2026/11/13/oil-falls-2nd-week-row-iran) [E03](https://www.reuters.com/business/energy/oil-prices-set-second-weekly-decline-trump-stay-with-iran-blockade-2026-11-13/) [E04](https://www.dtnpf.com/agriculture/web/AG/news/world-policy/article/2026/11/13/oil-falls-2nd-week-row-iran)
-- **为什么重要：** Reuters与DTN结算价交叉核对一致。DTN援引IEA称，10月全球石油供应增加230万桶/日至1.054亿桶/日，市场重新出现供应过剩格局，供应恢复和需求疲弱暂时压过地缘风险溢价。
+- **为什么重要：** Reuters指出，市场关注全球供应过剩迹象和美国需求走弱。油价周线连续第二周回落，说明当周供需预期暂时压过地缘风险溢价。
 - **价格与产业链传导：** Brent周跌会压低油价挂钩LNG长协的边际采购成本预期，并影响部分油品定价；各地现货仍受升贴水和运费影响。
 - **影响对象：** 油气贸易商、油价挂钩LNG买方、炼化及化工原料采购方。
 - **证据边界：** 结算价是期货合约价格，不等于现货到岸价；全球供应过剩是市场平衡判断，不代表每个地区、每种油品均已宽松。
@@ -24,7 +24,7 @@
 ### 信号卡2｜美国天然气：库存增加61 Bcf，期货日跌但周涨
 
 - **事实摘要：** EIA 11月13日发布的数据对应截至11月6日当周，美国地下天然气库存增加61 Bcf至3,862 Bcf，高于2021—2025年同期均值75 Bcf。WSJ交叉报道该数据，并记录NYMEX天然气期货结算价下跌3.3%至3.230美元/MMBtu，周涨7.7%。[E05](https://www.eia.gov/dnav/ng/NG_STOR_WKLY_S1_W.htm) [E06](https://www.wsj.com/finance/commodities-futures/u-s-natural-gas-futures-return-some-gains-1b28586d) [E07](https://www.wsj.com/finance/commodities-futures/u-s-natural-gas-futures-return-some-gains-1b28586d)
-- **为什么重要：** 库存增量低于市场预期中位数，但总量仍高于五年均值。期货日跌周涨，反映天气预期与库存缓冲的拉锯。
+- **为什么重要：** 库存总量仍高于五年均值75 Bcf。期货日跌周涨，反映天气预期与库存缓冲的拉锯。
 - **价格与产业链传导：** Henry Hub影响美国LNG原料气成本，但不能替代FOB成本、航运费或亚洲JKM到岸价。库存缓冲压制短期气价，寒潮和出口装置负荷仍可能改变边际平衡。
 - **影响对象：** 美国天然气生产商、LNG出口商、以Henry Hub挂钩的长协买方及亚洲现货采购方。
 - **证据边界：** 库存统计期为11月6日，不是11月13日当天库存；61 Bcf为周度净注入量，不应误读为新增可出口LNG数量。
@@ -43,22 +43,22 @@
 
 ### 信号卡4｜LNG商业结构：油价挂钩长协承压，新增供给仍在推进
 
-- **事实摘要：** Reuters 11月13日报道，波兰Orlen终止一份每年100万吨、原定持续至2034年的卡塔尔LNG长协，原因是不可抗力导致无法履约，通知后仍有60天存续期。市场人士估算该合同约按16% Brent挂钩，对应约15美元/MMBtu；不少美国长期LNG合同约6—7美元/MMBtu。Orlen另一份气价挂钩的卡塔尔合同仍保留至2034年。[E09](https://www.reuters.com/business/energy/dropping-qatar-lng-deal-seen-saving-polands-orlen-up-2-billion-2026-11-13/)
-- **同一窗口的供给侧变化：** Reuters另报道，加拿大政府拟向建设中的Woodfibre LNG投资2亿加元，项目设计产能可能从210万吨/年提高至250万—260万吨/年，目标于2027年末投运；该投资信息来自知情人士，尚不等同于已完成正式投资交割。[E10](https://www.reuters.com/business/energy/canada-invest-c200-million-woodfibre-lng-grow-projects-capacity-source-says-2026-11-13/)
+- **同一窗口的供给侧变化：**一份每年100万吨、原定持续至2034年的卡塔尔LNG长协，原因是不可抗力导致无法履约，通知后仍有60天存续期。市场人士估算该合同约按16% Brent挂钩，对应约15美元/MMBtu；不少美国长期LNG合同约6—7美元/MMBtu。Orlen另一份气价挂钩的卡塔尔合同仍保留至2034年。[E09](https://www.reuters.com/business/energy/dropping-qatar-lng-deal-seen-saving-polands-orlen-up-2-billion-2026-11-13/)
+- **为什么重要：**向建设中的Woodfibre LNG投资2亿加元，项目设计产能可能从210万吨/年提高至250万—260万吨/年，目标于2027年末投运；该投资信息来自知情人士，尚不等同于已完成正式投资交割。[E10](https://www.reuters.com/business/energy/canada-invest-c200-million-woodfibre-lng-grow-projects-capacity-source-says-2026-11-13/)
 - **为什么重要：** LNG市场同时存在短期交付风险和中期供给扩张。不可抗力促使买方重审油价挂钩，北美新增产能增加未来资源选择。
 - **价格与产业链传导：** 若卡塔尔长协履约受限，买方可能转向现货或Henry Hub挂钩资源；但Woodfibre扩产属于2027年末后的中期增量，不能替代当前船期。油价挂钩比例影响合同价格，实际到岸成本仍取决于计价窗口、运费和保险。
 - **影响对象：** LNG长协买方、资源商、项目开发商、接收站及国际贸易商。
-- **证据边界：** Orlen节省金额及合同隐含价格均为分析师/市场人士估算，并非Orlen披露的实际合同价格；Woodfibre扩产信息来自匿名消息人士，不能视为已完成审批和最终投资决策。
+- **证据边界：** Orlen合同终止事实由Reuters报道；Woodfibre扩产信息来自匿名消息人士，不能视为已完成审批和最终投资决策。
 - **下一步验证：** 跟踪卡塔尔装置恢复、Orlen替代采购、Woodfibre正式融资与扩产批复。
 - **反证条件：** 若卡塔尔履约快速恢复、油价回落或美国LNG替代资源成本上升，合同重谈的经济优势可能收窄。
 
 ### 信号卡5｜国内LNG/LPG：原料气竞价下调，产品报价同步偏弱
 
-- **事实摘要：** 隆众资讯披露，11月下半月中石油LNG工厂原料气竞价成交价格约3.80—4.46元/方，较上半月对应区间下降0.50元/方；按其折算口径，对应LNG原料气成本约6,225—7,215元/吨。[E11](https://nenghua.mysteel.com/a/26111311/FAF97DC6423A40EA.html) 隆众同日全国LNG均价约7,609元/吨、下跌55元/吨；全国LPG估价约6,873元/吨、下跌50元/吨。[E12](https://nenghua.mysteel.com/a/26111317/46813998F527866F.html) [E13](https://nenghua.mysteel.com/a/26111317/ADDB540C946EE263.html)
+- **事实摘要：** 隆众资讯披露，11月下半月中石油LNG工厂原料气竞价成交价格约3.80—4.46元/方，较上半月对应区间下降0.50元/方。[E11](https://nenghua.mysteel.com/a/26111311/FAF97DC6423A40EA.html) 隆众同日全国LNG均价约7,609元/吨、下跌55元/吨；全国LPG估价约6,873元/吨、下跌50元/吨。[E12](https://nenghua.mysteel.com/a/26111317/46813998F527866F.html) [E13](https://nenghua.mysteel.com/a/26111317/ADDB540C946EE263.html)
 - **为什么重要：** 原料气成本下移有利于部分液化厂，但产品报价同步回落，成本红利未必转化为利润。
-- **价格与产业链传导：** 0.50元/方按隆众折算口径约对应750元/吨原料气成本变化，但不等于完全成本下降750元/吨；能耗、电力、折旧、运输、税费和气源热值仍影响毛利。
+- **价格与产业链传导：** 原料气价格下调有利于部分液化厂，但产品报价同步回落，成本红利未必转化为利润。单位毛利仍受能耗、电力、折旧、运输、税费和气源热值影响。
 - **影响对象：** LNG液化厂、城燃及工业用户、LNG贸易商、LPG炼厂和区域分销商。
-- **证据边界：** 全国LNG均价属于专业机构市场评估，LPG为估价，不等于逐笔成交；中石油竞价结果也不能直接代表全国所有气源采购成本。
+- **证据边界：** 全国LNG均价属于专业机构市场评估，LPG为估价，不等于逐笔成交；中石油竞价结果只代表特定资源批次，不能直接代表全国所有气源采购成本。
 - **下一步验证：** 对比下半月各区域工厂出厂价、接收站槽批价、竞拍成交量及下游工业补库。
 - **反证条件：** 若北方天气转冷、工业补库增强或局部气源收紧，区域价格可能与全国均价背离。
 
