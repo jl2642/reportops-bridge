@@ -8,15 +8,15 @@
   "producer_status": "PUBLIC_CORE_ACCEPTED",
   "product_status": "PRODUCER_CANDIDATE_PENDING_WORK",
   "formal_status": "NOT_FORMALLY_PROMOTED",
-  "cjk_characters_actual": 3499,
+  "cjk_characters_actual": 3350,
   "executive_cjk_actual": 150,
-  "key_signal_cjk_actual": 1807,
+  "key_signal_cjk_actual": 1665,
   "signal_card_cjk_actual": [
-    298,
-    306,
+    288,
+    294,
     292,
-    473,
-    336
+    359,
+    333
   ],
   "china_chain_cjk_actual": 123,
   "global_energy_cjk_actual": 127,
@@ -30,7 +30,7 @@
   "inline_citation_gate_status": "PASS_10_UNIQUE_URLS_13_RECORDS",
   "expert_signal_priority_status": "PASS_5_SIGNALS",
   "exact_v4_machine_structure_status": "PASS",
-  "v4_public_depth_gate_status": "PASS_3499_CJK_5_CARDS_NO_WARNINGS",
+  "v4_public_depth_gate_status": "PASS_3350_CJK_5_CARDS_NO_WARNINGS",
   "privacy_status": "PASS_PUBLIC_SAFE",
   "window_status": "PASS_13_OF_13_EXACT_FIXED_WINDOW",
   "evidence_status": "PASS_13_RECORDS_10_CLAIMS",
@@ -58,6 +58,6 @@
     "NO_COMPLETE_SAME_WINDOW_FREIGHT_WAR_RISK_INSURANCE_OR_CHINA_ARRIVAL_COST_MATRIX"
   ],
   "next_work_action": "12:30 Work: include accepted Daily 2026-11-14 in oldest-first Daily consumer preflight only if the true Work capability gate passes; run native Evidence/Reader/Lineage/P8G gates. Do not re-research or rewrite accepted public core unless a native gate identifies a specific blocking defect. Previously promoted Daily 2026-11-12 and 2026-11-13 must be idempotent SKIP.",
-  "updated_at": "2026-11-14T12:38:45.195+08:00",
-  "producer_acceptance_completed_at": "2026-11-14T04:38:45.195Z"
+  "updated_at": "2026-11-14T12:46:36.321+08:00",
+  "producer_acceptance_completed_at": "2026-11-14T04:46:36.321Z"
 }
