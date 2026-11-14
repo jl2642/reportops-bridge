@@ -1,9 +1,9 @@
 {
   "schema_version": "REPORTOPS_R3_1_CHAT_STATUS_V1_5_SINGLE_SITE",
-  "scheduled_date": "2026-11-11",
-  "target_date": "2026-11-11",
+  "scheduled_date": "2026-11-14",
+  "target_date": "2026-11-14",
   "current_day_status": "FORMAL_CANONICAL_PROMOTED__SITE_PUBLISHED",
-  "scheduled_run_status": "2026_11_11_ORIGINAL_SCHEDULED_FAILED__BOUNDED_INTERACTIVE_RECOVERY_FORMALLY_PROMOTED",
+  "scheduled_run_status": "2026_11_14_ORIGINAL_10_15_AND_12_30_SCHEDULED_RUNS_FAILED__BOUNDED_INTERACTIVE_RECOVERY_FORMALLY_PROMOTED",
   "correction_backlog": {
     "status": "RESOLVED_BY_CHAT_CORRECTION",
     "chat_correction_required": false,
@@ -48,18 +48,18 @@
   "data_gap_boundary_status": "PASS",
   "current_daily_public": "2026-11-14",
   "current_weekly_public": "2026-W45",
-  "formal_status": "FORMAL_PROMOTED_DAILY_2026_11_13_WEEKLY_2026_W45",
+  "formal_status": "FORMAL_PROMOTED_DAILY_2026_11_14_WEEKLY_2026_W45",
   "canonical_promotion_performed": true,
   "site_publication_performed": true,
   "public_site_version": 115,
   "public_site_status": "PUBLISHED_V115__DAILY_2026_11_14_WEEKLY_W45",
-  "manifest_reconciliation_status": "PASS_AUTHORITY_V99_POINTER_SITE_V114",
-  "metadata_freshness": "PASS_V99_LIBRARY_DERIVED_MIRRORS_13_OF_13",
+  "manifest_reconciliation_status": "PASS_AUTHORITY_V100_POINTER_SITE_V115",
+  "metadata_freshness": "PASS_V100_LIBRARY_DERIVED_MIRRORS_13_OF_13",
   "state_consistency_pointer_sha256": "2e364aee9b356e17cc2b37eacfbb41d70cdf431aa4b05b714f496c1a7e3ecd81",
   "failure_stage": null,
   "failure_reason": null,
-  "next_action": "HISTORICAL_RELEASE_DEBT_ZERO__AWAIT_2026_11_14_NATURAL_10_15_PRODUCER_AND_12_30_CONSUMER_SITE_NO_OP_OR_INCREMENTAL_ACCEPTANCE",
-  "updated_at": "2026-11-14T06:05:55.078Z",
+  "next_action": "HISTORICAL_RELEASE_DEBT_ZERO__AWAIT_2026_11_15_NATURAL_10_15_PRODUCER_AND_12_30_CONSUMER_SITE_NO_OP_OR_INCREMENTAL_ACCEPTANCE",
+  "updated_at": "2026-11-14T06:37:50.802Z",
   "queue_remaining": [],
   "pending_product": null,
   "manual_intervention_required": false,
@@ -68,12 +68,10 @@
     "Daily 2026-10-23"
   ],
   "products_preflighted": [
-    "Daily 2026-11-10 (inherited unchanged native receipts)",
-    "Daily 2026-11-11"
+    "Daily 2026-11-14"
   ],
   "products_promoted": [
-    "Daily 2026-11-10",
-    "Daily 2026-11-11"
+    "Daily 2026-11-14"
   ],
   "products_blocked_local": [],
   "eligible_unpublished_products": [],
@@ -132,7 +130,7 @@
   },
   "products_deferred_dependency": [],
   "public_daily_2026_09_26_download_sha256": "32a5e0f3602374e0e03d3a5545df7cc9efacb110d4d49f1d155f51873e8f9eca",
-  "reportops_status": "FORMAL_V99_SITE_V114_RELEASE_PASS__UNATTENDED_STABILITY_PENDING",
+  "reportops_status": "FORMAL_V100_SITE_V115_RELEASE_PASS__UNATTENDED_STABILITY_PENDING",
   "correction_provenance_2026_09_27": {
     "corrected_at": "2026-09-27T22:50:00+08:00",
     "correction_type": "INLINE_CITATION_PLACEMENT_ONLY",
@@ -164,7 +162,7 @@
   "public_weekly_2026_w39_download_sha256": "4a0d029702d79447028235e7ad856d9f13d09ea601995a817a4e9111b76441e2",
   "run_started_at": "2026-10-03T10:13:51+08:00",
   "continuity_scan_status": "PASS__ALL_DUE_DATES_ACCOUNTED",
-  "current_daily_public_at_start": "2026-10-01",
+  "current_daily_public_at_start": "2026-11-13",
   "expected_dates": [
     "2026-10-02",
     "2026-10-03"
@@ -180,9 +178,7 @@
   ],
   "oldest_pending_date": null,
   "products_completed_this_run": [
-    "Daily 2026-11-07 Chat Candidate",
-    "Daily 2026-11-08 Chat Candidate",
-    "Daily 2026-11-09 Chat Candidate"
+    "Daily 2026-11-14"
   ],
   "github_write_status": "PASS",
   "github_readback_status": "PASS_CURRENT_PUBLIC_DEPLOYMENT_STATE_LATEST_AND_STATIC_MANIFEST_V83_V110",
@@ -203,9 +199,9 @@
   "public_daily_2026_09_30_download_sha256": "c9cb876285ccf713b651bfc8b551c2fad8525e7149979fc6388ceb507724014d",
   "public_daily_2026_10_01_download_sha256": "98851fc1d8897fd2402c53b9e457a31e1cbc4136c48f4c2f58b5574289e18725",
   "authority_sha_runtime_reconciliation": {
-    "authority": "470ac1f6f54bbed9b3d04435db9a28b8d1b680777b12d2cce6e5ef378323740d",
-    "sidecar": "470ac1f6f54bbed9b3d04435db9a28b8d1b680777b12d2cce6e5ef378323740d",
-    "status": "PASS_V99_LIBRARY_AUTHORITY_AND_SIDECAR_SHA"
+    "authority": "73f85f76ec0b127246432dfcee7fb90661dbfa96a1afff577f88c0eb6aca4c35",
+    "sidecar": "73f85f76ec0b127246432dfcee7fb90661dbfa96a1afff577f88c0eb6aca4c35",
+    "status": "PASS_V100_LIBRARY_AUTHORITY_AND_SIDECAR_SHA"
   },
   "runtime_sync_status": "RECONCILED_V100_V115",
   "recovery_provenance_2026_10_02": {
@@ -504,13 +500,13 @@
     "root_cause": "UNKNOWN__SCHEDULED_RUN_HISTORY_UNAVAILABLE"
   },
   "current_annual_public": "NO_FORMAL_2026_PRODUCT",
-  "last_updated": "2026-11-14T06:05:55.078Z",
-  "final_closure_status": "FORMAL_V99_SITE_V114_HISTORICAL_PRODUCT_DEBT_ZERO__NATURAL_RUN_ACCEPTANCE_PENDING",
+  "last_updated": "2026-11-14T06:37:50.802Z",
+  "final_closure_status": "FORMAL_V100_SITE_V115_HISTORICAL_PRODUCT_DEBT_ZERO__NATURAL_RUN_ACCEPTANCE_PENDING",
   "status": "FORMAL_PROMOTED__SITE_PUBLISHED",
-  "public_site_publication_receipt_status": "DEPLOYED_V114_REMOTE_READBACK_PASS",
+  "public_site_publication_receipt_status": "DEPLOYED_V115_REMOTE_READBACK_PASS",
   "public_daily_2026_10_13_download_sha256": "9f208040c99e46ce8752577be3b77387592d25776f3fb89940e91f727add246d",
   "public_weekly_2026_w41_download_sha256": "cc05e865be0ca86e17d9ca1c83a5f5a77d67b9f176a8058edf5482921f911fc0",
-  "upstream_producer_status": "DAILY_2026_11_12_AND_13_RECOVERED_AND_FORMALLY_CONSUMED__NEXT_NATURAL_RUN_PENDING",
+  "upstream_producer_status": "DAILY_2026_11_14_RECOVERED_AND_FORMALLY_CONSUMED__NEXT_NATURAL_RUN_PENDING",
   "producer_gap": [],
   "stable_operation_accepted": false,
   "public_remote_readback": {
@@ -527,9 +523,9 @@
   "download_integrity": "PASS_REMOTE_ZIP_SHA256_8_OF_8__6_HISTORICAL_PLUS_2_NEW",
   "public_daily_2026_10_14_download_sha256": "7198e935f91376c06aad940c241be3066617a338a4e6977e3edacd42295927fd",
   "public_daily_2026_10_15_download_sha256": "85bf61157397670325c5c7cfb7853e1436f69c99efacad464ceb55678954b00b",
-  "authority_sha_runtime_reconciliation_status": "PASS_CURRENT_COMMITTED_AUTHORITY_AND_SIDECAR",
+  "authority_sha_runtime_reconciliation_status": "PASS_V100_LIBRARY_AUTHORITY_AND_SIDECAR_SHA",
   "current_derived_views_status": "PASS_13_BYTE_EXACT_FROM_COMMITTED_V100",
-  "producer_automation_status": "UNATTENDED_RELIABILITY_NOT_ACCEPTED__NEXT_NATURAL_PRODUCER_RUN_2026_11_14",
+  "producer_automation_status": "UNATTENDED_RELIABILITY_NOT_ACCEPTED__NEXT_NATURAL_PRODUCER_RUN_2026_11_15",
   "public_daily_2026_10_16_download_sha256": "5ee3f31227ba541f8e3b79a6045c5f25dd13d9c066322327bbf7354b366896ba",
   "public_daily_2026_10_17_download_sha256": "c5da3880a3439a600d27939eaa94df9cfdaf21687fc640813ca552e8073db5e0",
   "current_package_site_publication_performed": true,
@@ -644,13 +640,13 @@
     }
   },
   "current_before": {
-    "daily": "2026-11-09",
+    "daily": "2026-11-13",
     "weekly": "2026-W45",
     "monthly": "2026-10",
     "quarterly": "2026-Q3"
   },
   "current_after": {
-    "daily": "2026-11-10",
+    "daily": "2026-11-14",
     "weekly": "2026-W45",
     "monthly": "2026-10",
     "quarterly": "2026-Q3"
@@ -809,7 +805,7 @@
   },
   "weekly_status": "FORMAL_CANONICAL_PUBLISHED",
   "site_status": "PUBLISHED",
-  "package_status": "FORMAL_CURRENT_2026_11_13",
+  "package_status": "FORMAL_CURRENT_2026_11_14",
   "pending_work_runtime_formalization": false,
   "site_deployment_receipt": {
     "id": "appgdep_6af7fa138cc88191b49b439af68bddcf",
@@ -1003,7 +999,7 @@
   "derived_from_current_pointer_sha256": "2e364aee9b356e17cc2b37eacfbb41d70cdf431aa4b05b714f496c1a7e3ecd81",
   "historical_download_sha_remaining": 0,
   "automation_1230_status": "ENABLED__SCHEDULED_WORK_ENVIRONMENT_UNVERIFIED",
-  "target_release_debt_remaining": 5,
+  "target_release_debt_remaining": 0,
   "newer_daily_candidates_pending": [],
   "historical_snapshots": {
     "pre_20261105_active_publication_aliases": {
@@ -2316,14 +2312,14 @@
   "remaining_site_debt": [],
   "public_report_count": 197,
   "mirror_status": "PASS",
-  "producer_self_audit_status": "PRODUCER_PRECHECK_PASS__NATIVE_WORK_GATE_PENDING",
-  "producer_handoff_note": "GitHub daily/2026/11/2026-11-11/{public_core.md,evidence.json,evidence_ledger_v2_2026-11-11.csv,manifest.json}; original scheduled failure retained at run_heartbeat.json. Source E06 URL and E01 stale price role corrected before 12:30.",
+  "producer_self_audit_status": "PASS_ALL_PRODUCER_GATES__WORK_NATIVE_PENDING",
+  "producer_handoff_note": "GitHub daily/2026/11/2026-11-14/{public_core.md,evidence.json,evidence_ledger_v2_2026-11-14.csv,manifest.json}; original scheduled 10:15 run failed; bounded interactive recovery completed with 13/13 claim-role and support-alignment checks plus four-artifact readback; formally consumed in Authority V100.",
   "current_annual": "NO_FORMAL_2026_PRODUCT",
   "library_mirror_sync_status": "PASS_13_OF_13",
   "library_mirror_pending_views": [],
   "library_mirror_sync_updated_at": "2026-11-13T09:32:50.869Z",
   "pointer_sha256": "2e364aee9b356e17cc2b37eacfbb41d70cdf431aa4b05b714f496c1a7e3ecd81",
-  "consumer_status": "FORMAL_CONSUMED_2026_11_12_13_V99__P8G_PRECOMMIT_AND_VERIFICATION_PASS",
+  "consumer_status": "FORMAL_CONSUMED_2026_11_14_V100__P8G_PRECOMMIT_10_OF_10_AND_COMMIT_VERIFICATION_10_OF_10_PASS",
   "last_site_runtime_reconciliation_at": "2026-11-13T09:32:50.869Z",
   "public_daily_2026_11_12_download_sha256": "ecfcf21f125cbd0e1955cf1514b99d57a83fede292fdd56a7f63e84e4d20a377",
   "public_daily_2026_11_13_download_sha256": "eb75824f7c47c4d6c24dfbf8e40db8bcbf3c9170733d2508e4751f8e622740a3",
