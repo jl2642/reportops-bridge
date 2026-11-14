@@ -2,7 +2,7 @@
   "target_date": "2026-11-14",
   "scheduled_for": "2026-11-14T10:15:00+08:00",
   "run_started_at": "2026-11-14T11:58:38.443+08:00",
-  "status": "RUN_STARTED_BEFORE_PREFLIGHT",
+  "status": "PRODUCER_SUCCESS_CANDIDATES_PENDING_WORK",
   "authority_version": 99,
   "authority_file_id": "file_000000006fec81fdba3d2aa1c67510ba",
   "authority_sha256": "470ac1f6f54bbed9b3d04435db9a28b8d1b680777b12d2cce6e5ef378323740d",
@@ -11,23 +11,174 @@
   "current_daily": "2026-11-13",
   "window_start": "2026-11-13T10:00:00+08:00",
   "window_end": "2026-11-14T10:00:00+08:00",
-  "products_repaired_or_produced": [],
-  "producer_recovery_queue_remaining": [
+  "products_repaired_or_produced": [
     "2026-11-14"
   ],
-  "queue_for_12_30_work": [],
-  "post_run_self_audit_status": "NOT_RUN",
-  "citation_binding_status": "NOT_RUN",
-  "citation_binding_checked": "0/0",
-  "evidence_record_count": 0,
-  "unverified_source_count": 0,
+  "producer_recovery_queue_remaining": [],
+  "queue_for_12_30_work": [
+    "2026-11-14"
+  ],
+  "post_run_self_audit_status": "PASS_ALL_PRODUCER_GATES__WORK_NATIVE_PENDING",
+  "citation_binding_status": "PASS",
+  "citation_binding_checked": "13/13",
+  "evidence_record_count": 13,
+  "unverified_source_count": 4,
   "failure_stage": null,
   "failure_reason": null,
-  "source_gaps": [],
+  "source_gaps": [
+    {
+      "channel": "D_INTERNATIONAL_GAS_LNG",
+      "candidate": "IEA November Oil Market Report",
+      "status": "REJECT_DATE_ONLY",
+      "observed_fact": "Official page showed publication date 13 November 2026 but no exact time.",
+      "missing": "Exact publication time/timezone",
+      "decision": "Not used as exact-window primary evidence; the supply-balance context is attributed to DTN's in-window report."
+    },
+    {
+      "channel": "A_CHINA_NATURAL_GAS_LNG",
+      "candidate": "Shanghai Petroleum and Natural Gas Exchange 11/13 South China gas auction notice",
+      "status": "REJECT_TIMEZONE_UNVERIFIED",
+      "observed_fact": "Page showed 11/13 11:12:01.",
+      "missing": "Verified publication timezone",
+      "decision": "Not included in the accepted evidence set."
+    },
+    {
+      "channel": "A_CHINA_NATURAL_GAS_LNG",
+      "candidate": "Shanghai Petroleum and Natural Gas Exchange 11/13 Anping pipeline auction notice",
+      "status": "REJECT_TIMEZONE_UNVERIFIED",
+      "observed_fact": "Page showed 11/13 18:16:56.",
+      "missing": "Verified publication timezone",
+      "decision": "Not included in the accepted evidence set."
+    },
+    {
+      "channel": "A_CHINA_NATURAL_GAS_LNG",
+      "candidate": "Shanghai Petroleum and Natural Gas Exchange 12-month pipeline gas trading notice",
+      "status": "REJECT_TIMEZONE_UNVERIFIED",
+      "observed_fact": "Page showed 11/13 20:10:00.",
+      "missing": "Verified publication timezone",
+      "decision": "Not included in the accepted evidence set."
+    },
+    {
+      "channel": "D_INTERNATIONAL_GAS_LNG",
+      "candidate": "JKM/TTF same-window settlement/spot price pair",
+      "status": "DATA_GAP_NOT_FOUND",
+      "observed_fact": "No same-window, same-basis paired observation was verified.",
+      "missing": "Comparable JKM and TTF observation with exact publication/observation time",
+      "decision": "No cross-region spread calculated."
+    },
+    {
+      "channel": "B_CHINA_LPG",
+      "candidate": "LPG CP/CFR/FEI same-window benchmark and independent regional transaction series",
+      "status": "DATA_GAP_NOT_FOUND",
+      "observed_fact": "The verified domestic source was a professional nationwide estimate.",
+      "missing": "Same-window CP/CFR/FEI and independent executable transaction data",
+      "decision": "Use only as assessed price; no import parity or margin inference."
+    },
+    {
+      "channel": "D_INTERNATIONAL_GAS_LNG",
+      "candidate": "LNG freight/war-risk insurance and China landed-cost matrix",
+      "status": "DATA_GAP_NOT_FOUND",
+      "observed_fact": "No complete same-window freight, insurance, tax, terminal and arrival-cost matrix was verified.",
+      "missing": "Comparable freight, war-risk insurance and landed-cost data",
+      "decision": "Explicitly disclosed as data gap; no realized import margin calculated."
+    }
+  ],
   "producer_only": true,
   "canonical_mutation_performed": false,
   "site_mutation_performed": false,
-  "verified_sources": [],
-  "search_passes": 0,
-  "source_recovery_mode": "USER_APPROVED_BOUNDED_RECOVERY"
+  "verified_sources": [
+    {
+      "title": "Oil prices set for second straight weekly drop on signs of growing supply surplus",
+      "publisher": "Reuters",
+      "observed_url": "https://www.reuters.com/business/energy/oil-prices-set-second-weekly-decline-trump-stay-with-iran-blockade-2026-11-13/",
+      "canonical_url": "https://www.reuters.com/business/energy/oil-prices-set-second-weekly-decline-trump-stay-with-iran-blockade-2026-11-13/",
+      "publication_time": "2026-11-13T03:01:00+00:00",
+      "timezone": "UTC",
+      "converted_window_result": "2026-11-13T11:01:00+08:00__PASS"
+    },
+    {
+      "title": "Oil Falls 2nd Week in Row as Iran Uncertainty Continues",
+      "publisher": "DTN",
+      "observed_url": "https://www.dtnpf.com/agriculture/web/AG/news/world-policy/article/2026/11/13/oil-falls-2nd-week-row-iran",
+      "canonical_url": "https://www.dtnpf.com/agriculture/web/AG/news/world-policy/article/2026/11/13/oil-falls-2nd-week-row-iran",
+      "publication_time": "2026-11-13T15:00:00-06:00",
+      "timezone": "America/Chicago_CST",
+      "converted_window_result": "2026-11-14T05:00:00+08:00__PASS"
+    },
+    {
+      "title": "Weekly Working Gas in Underground Storage",
+      "publisher": "U.S. Energy Information Administration",
+      "observed_url": "https://www.eia.gov/dnav/ng/NG_STOR_WKLY_S1_W.htm",
+      "canonical_url": "https://www.eia.gov/dnav/ng/NG_STOR_WKLY_S1_W.htm",
+      "publication_time": "2026-11-13T10:30:00-05:00",
+      "timezone": "America/New_York_EST",
+      "converted_window_result": "2026-11-13T23:30:00+08:00__PASS"
+    },
+    {
+      "title": "U.S. Natural Gas Futures Relinquish Some Gains",
+      "publisher": "The Wall Street Journal",
+      "observed_url": "https://www.wsj.com/finance/commodities-futures/u-s-natural-gas-futures-return-some-gains-1b28586d",
+      "canonical_url": "https://www.wsj.com/finance/commodities-futures/u-s-natural-gas-futures-return-some-gains-1b28586d",
+      "publication_time": "2026-11-13T15:32:00-05:00",
+      "timezone": "America/New_York_EST",
+      "converted_window_result": "2026-11-14T04:32:00+08:00__PASS"
+    },
+    {
+      "title": "Iran says tanker carrying LNG hit mine, suffered explosion in Hormuz",
+      "publisher": "Reuters",
+      "observed_url": "https://www.reuters.com/world/iran-says-tanker-carrying-lng-hit-mine-suffered-explosion-hormuz-2026-11-13/",
+      "canonical_url": "https://www.reuters.com/world/iran-says-tanker-carrying-lng-hit-mine-suffered-explosion-hormuz-2026-11-13/",
+      "publication_time": "2026-11-13T07:00:00+00:00",
+      "timezone": "UTC",
+      "converted_window_result": "2026-11-13T15:00:00+08:00__PASS"
+    },
+    {
+      "title": "Dropping Qatar LNG deal seen saving Poland's Orlen up to $2 billion",
+      "publisher": "Reuters",
+      "observed_url": "https://www.reuters.com/business/energy/dropping-qatar-lng-deal-seen-saving-polands-orlen-up-to-2-billion-2026-11-13/",
+      "canonical_url": "https://www.reuters.com/business/energy/dropping-qatar-lng-deal-seen-saving-polands-orlen-up-to-2-billion-2026-11-13/",
+      "publication_time": "2026-11-13T17:10:00+00:00",
+      "timezone": "UTC",
+      "converted_window_result": "2026-11-14T01:10:00+08:00__PASS"
+    },
+    {
+      "title": "Canada to invest C$200 million in Woodfibre LNG to grow project's capacity, source says",
+      "publisher": "Reuters",
+      "observed_url": "https://www.reuters.com/business/energy/canada-invest-c200-million-woodfibre-lng-grow-projects-capacity-source-says-2026-11-13/",
+      "canonical_url": "https://www.reuters.com/business/energy/canada-invest-c200-million-woodfibre-lng-grow-projects-capacity-source-says-2026-11-13/",
+      "publication_time": "2026-11-13T10:09:00+00:00",
+      "timezone": "UTC",
+      "converted_window_result": "2026-11-13T18:09:00+08:00__PASS"
+    },
+    {
+      "title": "11月下半月中石油LNG工厂原料气竞价结果",
+      "publisher": "隆众资讯",
+      "observed_url": "https://nenghua.mysteel.com/a/26111311/FAF97DC6423A40EA.html",
+      "canonical_url": "https://nenghua.mysteel.com/a/26111311/FAF97DC6423A40EA.html",
+      "publication_time": "2026-11-13T11:04:00+08:00",
+      "timezone": "Asia/Shanghai__Mysteel_Data_White_Paper",
+      "converted_window_result": "2026-11-13T11:04:00+08:00__PASS"
+    },
+    {
+      "title": "隆众资讯11月13日全国LNG价格",
+      "publisher": "隆众资讯",
+      "observed_url": "https://nenghua.mysteel.com/a/26111317/46813998F527866F.html",
+      "canonical_url": "https://nenghua.mysteel.com/a/26111317/46813998F527866F.html",
+      "publication_time": "2026-11-13T17:00:00+08:00",
+      "timezone": "Asia/Shanghai__Mysteel_Data_White_Paper",
+      "converted_window_result": "2026-11-13T17:00:00+08:00__PASS"
+    },
+    {
+      "title": "隆众资讯11月13日全国LPG价格",
+      "publisher": "隆众资讯",
+      "observed_url": "https://nenghua.mysteel.com/a/26111317/ADDB540C946EE263.html",
+      "canonical_url": "https://nenghua.mysteel.com/a/26111317/ADDB540C946EE263.html",
+      "publication_time": "2026-11-13T17:26:00+08:00",
+      "timezone": "Asia/Shanghai__Mysteel_Data_White_Paper",
+      "converted_window_result": "2026-11-13T17:26:00+08:00__PASS"
+    }
+  ],
+  "search_passes": 2,
+  "source_recovery_mode": "USER_APPROVED_BOUNDED_RECOVERY",
+  "completed_at": "2026-11-14T12:39:30.140+08:00"
 }
