@@ -29,25 +29,25 @@
   "authority_package_sha256": "73f85f76ec0b127246432dfcee7fb90661dbfa96a1afff577f88c0eb6aca4c35",
   "canonical_authority": "LIBRARY",
   "current_public_ref": "runtime/CURRENT_PUBLIC.json",
-  "final_closure_status": "FORMAL_V99_SITE_V114_HISTORICAL_PRODUCT_DEBT_ZERO__NATURAL_RUN_ACCEPTANCE_PENDING",
+  "final_closure_status": "FORMAL_V100_SITE_V115_HISTORICAL_PRODUCT_DEBT_ZERO__NATURAL_RUN_ACCEPTANCE_PENDING",
   "pending_product": null,
-  "updated_at": "2026-11-14T06:05:55.078Z",
-  "metadata_freshness": "PASS_V99_LIBRARY_DERIVED_MIRRORS_13_OF_13",
+  "updated_at": "2026-11-14T06:37:50.802Z",
+  "metadata_freshness": "PASS_V100_LIBRARY_DERIVED_MIRRORS_13_OF_13",
   "state_consistency_pointer_sha256": "2e364aee9b356e17cc2b37eacfbb41d70cdf431aa4b05b714f496c1a7e3ecd81",
   "real_remote_readback_status": "PASS",
   "site_only_corrective_republish_required": false,
   "private_site_dependency_removed": true,
   "queue_remaining": [],
   "stale_views": [],
-  "manifest_reconciliation_status": "PASS_AUTHORITY_POINTER_SITE_V114",
+  "manifest_reconciliation_status": "PASS_AUTHORITY_V100_POINTER_SITE_V115",
   "measurement_parity_status": "PASS_AUTHORITY_CONSUMER_ACTUALS",
   "derived_state_completeness_status": "PASS_13_OF_13_LIBRARY_DERIVED_MIRRORS_V99",
   "stable_operation_accepted": false,
   "higher_cycle_dependency_state": "W45_FORMAL_PROMOTED_7_OF_7_DAILY_DEPENDENCIES",
   "authority_sha_runtime_reconciliation": {
-    "authority": "470ac1f6f54bbed9b3d04435db9a28b8d1b680777b12d2cce6e5ef378323740d",
-    "sidecar": "470ac1f6f54bbed9b3d04435db9a28b8d1b680777b12d2cce6e5ef378323740d",
-    "status": "PASS_V99_LIBRARY_AUTHORITY_AND_SIDECAR_SHA"
+    "authority": "73f85f76ec0b127246432dfcee7fb90661dbfa96a1afff577f88c0eb6aca4c35",
+    "sidecar": "73f85f76ec0b127246432dfcee7fb90661dbfa96a1afff577f88c0eb6aca4c35",
+    "status": "PASS_V100_LIBRARY_AUTHORITY_AND_SIDECAR_SHA"
   },
   "current_daily_canonical": "2026-11-14",
   "current_package_site_publication_performed": true,
@@ -89,25 +89,23 @@
   "canonical_promotion_performed": true,
   "public_site_status": "PUBLISHED_V115__DAILY_2026_11_14_WEEKLY_W45",
   "download_sha_status": "PASS_2_OF_2_NEW_PLUS_6_OF_6_HISTORICAL",
-  "last_updated": "2026-11-14T06:05:55.078Z",
-  "reportops_status": "FORMAL_V99_SITE_V114_RELEASE_PASS__UNATTENDED_STABILITY_PENDING",
-  "public_site_publication_receipt_status": "DEPLOYED_V114_REMOTE_READBACK_PASS",
-  "next_action": "HISTORICAL_RELEASE_DEBT_ZERO__AWAIT_2026_11_14_NATURAL_10_15_PRODUCER_AND_12_30_CONSUMER_SITE_NO_OP_OR_INCREMENTAL_ACCEPTANCE",
-  "upstream_producer_status": "DAILY_2026_11_12_AND_13_RECOVERED_AND_FORMALLY_CONSUMED__NEXT_NATURAL_RUN_PENDING",
+  "last_updated": "2026-11-14T06:37:50.802Z",
+  "reportops_status": "FORMAL_V100_SITE_V115_RELEASE_PASS__UNATTENDED_STABILITY_PENDING",
+  "public_site_publication_receipt_status": "DEPLOYED_V115_REMOTE_READBACK_PASS",
+  "next_action": "HISTORICAL_RELEASE_DEBT_ZERO__AWAIT_2026_11_15_NATURAL_10_15_PRODUCER_AND_12_30_CONSUMER_SITE_NO_OP_OR_INCREMENTAL_ACCEPTANCE",
+  "upstream_producer_status": "DAILY_2026_11_14_RECOVERED_AND_FORMALLY_CONSUMED__NEXT_NATURAL_RUN_PENDING",
   "producer_gap": [],
-  "scheduled_date": "2026-11-02",
-  "target_date": "2026-11-10",
+  "scheduled_date": "2026-11-14",
+  "target_date": "2026-11-14",
   "current_day_status": "FORMAL_CANONICAL_PROMOTED__SITE_PUBLISHED",
-  "formal_status": "FORMAL_PROMOTED_DAILY_2026_11_13_WEEKLY_2026_W45",
+  "formal_status": "FORMAL_PROMOTED_DAILY_2026_11_14_WEEKLY_2026_W45",
   "public_daily_2026_10_14_download_sha256": "7198e935f91376c06aad940c241be3066617a338a4e6977e3edacd42295927fd",
   "public_weekly_2026_w41_download_sha256": "cc05e865be0ca86e17d9ca1c83a5f5a77d67b9f176a8058edf5482921f911fc0",
   "products_preflighted": [
-    "Daily 2026-11-10 (inherited unchanged native receipts)",
-    "Daily 2026-11-11"
+    "Daily 2026-11-14"
   ],
   "products_promoted": [
-    "Daily 2026-11-10",
-    "Daily 2026-11-11"
+    "Daily 2026-11-14"
   ],
   "products_blocked_local": [],
   "products_deferred_dependency": [],
@@ -115,7 +113,7 @@
   "last_work_reconciled_at": "2026-11-13T09:32:50.869Z",
   "public_daily_2026_10_15_download_sha256": "85bf61157397670325c5c7cfb7853e1436f69c99efacad464ceb55678954b00b",
   "current_derived_views_status": "PASS_13_BYTE_EXACT_FROM_COMMITTED_V100",
-  "producer_automation_status": "UNATTENDED_RELIABILITY_NOT_ACCEPTED__NEXT_NATURAL_PRODUCER_RUN_2026_11_14",
+  "producer_automation_status": "UNATTENDED_RELIABILITY_NOT_ACCEPTED__NEXT_NATURAL_PRODUCER_RUN_2026_11_15",
   "public_daily_2026_10_16_download_sha256": "5ee3f31227ba541f8e3b79a6045c5f25dd13d9c066322327bbf7354b366896ba",
   "public_daily_2026_10_17_download_sha256": "c5da3880a3439a600d27939eaa94df9cfdaf21687fc640813ca552e8073db5e0",
   "stable": false,
@@ -170,7 +168,7 @@
     }
   },
   "current_pointer_sha256": "2e364aee9b356e17cc2b37eacfbb41d70cdf431aa4b05b714f496c1a7e3ecd81",
-  "package_status": "FORMAL_CURRENT_2026_11_13",
+  "package_status": "FORMAL_CURRENT_2026_11_14",
   "site_status": "PUBLISHED",
   "w43_work_preflight": {
     "chat_final_assets_readback": "PASS_11_OF_11",
@@ -198,13 +196,13 @@
   "last_work_reportops_status": "FORMAL_SUCCESS",
   "stable_operation_status": "NATURAL_RUN_ACCEPTANCE_PENDING",
   "current_before": {
-    "daily": "2026-11-09",
+    "daily": "2026-11-13",
     "weekly": "2026-W45",
     "monthly": "2026-10",
     "quarterly": "2026-Q3"
   },
   "current_after": {
-    "daily": "2026-11-10",
+    "daily": "2026-11-14",
     "weekly": "2026-W45",
     "monthly": "2026-10",
     "quarterly": "2026-Q3"
@@ -270,7 +268,7 @@
     "updated_at": "2026-11-14T06:05:14.376014+00:00",
     "version": 115
   },
-  "authority_sha_runtime_reconciliation_status": "PASS_FINAL_LIBRARY_BYTE_READBACK",
+  "authority_sha_runtime_reconciliation_status": "PASS_V100_LIBRARY_AUTHORITY_AND_SIDECAR_SHA",
   "remaining_product_debt": [],
   "current_run_promoted_products": [
     "Daily 2026-11-14"
@@ -279,9 +277,7 @@
   "queue_for_12_30_work": [],
   "oldest_pending_date": null,
   "products_completed_this_run": [
-    "Daily 2026-11-04",
-    "Daily 2026-11-05",
-    "Daily 2026-11-06"
+    "Daily 2026-11-14"
   ],
   "public_daily_2026_11_02_download_sha256": "dbc114f8d061c0bc60c6f0b5c81f28d8a8c71dc391d2ccd23d528d9642af347c",
   "public_daily_2026_11_01_download_sha256": "61ed9961ce667f2449d9bf6b2c07e752ef0a3621f6d96347360d67c8eca7a458",
@@ -460,7 +456,7 @@
   "derived_from_current_pointer_sha256": "2e364aee9b356e17cc2b37eacfbb41d70cdf431aa4b05b714f496c1a7e3ecd81",
   "historical_download_sha_remaining": 0,
   "automation_1230_status": "ENABLED__SCHEDULED_WORK_ENVIRONMENT_UNVERIFIED",
-  "target_release_debt_remaining": 5,
+  "target_release_debt_remaining": 0,
   "newer_daily_candidates_pending": [],
   "historical_snapshots": {
     "pre_20261105_active_publication_aliases": {
