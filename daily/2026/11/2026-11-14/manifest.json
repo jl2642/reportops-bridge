@@ -58,6 +58,14 @@
     "NO_COMPLETE_SAME_WINDOW_FREIGHT_WAR_RISK_INSURANCE_OR_CHINA_ARRIVAL_COST_MATRIX"
   ],
   "next_work_action": "12:30 Work: include accepted Daily 2026-11-14 in oldest-first Daily consumer preflight only if the true Work capability gate passes; run native Evidence/Reader/Lineage/P8G gates. Do not re-research or rewrite accepted public core unless a native gate identifies a specific blocking defect. Previously promoted Daily 2026-11-12 and 2026-11-13 must be idempotent SKIP.",
-  "updated_at": "2026-11-14T12:46:36.321+08:00",
-  "producer_acceptance_completed_at": "2026-11-14T04:46:36.321Z"
+  "updated_at": "2026-11-14T12:52:37.518+08:00",
+  "producer_acceptance_completed_at": "2026-11-14T04:46:36.321Z",
+  "evidence_claim_role_status": "PASS_13_OF_13_CORE_AND_MATERIAL_ASSIGNED",
+  "evidence_support_alignment_status": "PASS_13_OF_13_DIRECT_TO_ATTRIBUTED_CLAIM_SCOPE",
+  "partial_support_records_remaining": 0,
+  "evidence_claim_scope_corrections": [
+    "E08: scoped to Reuters report of Iranian official claim; underlying vessel/event remains independently unconfirmed",
+    "E10: scoped to Reuters report citing anonymous source; final investment/permit approval remains unconfirmed"
+  ],
+  "evidence_alignment_completed_at": "2026-11-14T04:52:37.518Z"
 }
