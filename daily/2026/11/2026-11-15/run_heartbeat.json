@@ -1,8 +1,8 @@
 {
   "target_date": "2026-11-15",
   "scheduled_for": "10:15 Asia/Shanghai",
-  "run_started_at": "2026-11-15T10:15:53+08:00",
-  "status": "FAILED",
+  "run_started_at": "2026-11-15T04:16:09.628Z",
+  "status": "RUN_STARTED_BEFORE_PREFLIGHT",
   "authority_version": "V100",
   "authority_file_id": "file_0000000095f081fdbbd05d43a58882cd",
   "authority_library_file_id": "libfile_b8e5722993c08191a5185615ed3d33ab",
@@ -18,14 +18,14 @@
     "2026-11-15"
   ],
   "queue_for_12_30_work": [],
-  "post_run_self_audit_status": "NOT_RUN_NO_FOUR_ARTIFACT_CANDIDATE",
+  "post_run_self_audit_status": "NOT_RUN",
   "evidence_claim_role_status": "NOT_RUN",
   "evidence_support_alignment_status": "NOT_RUN",
   "inline_citation_id_url_binding": "0/0 NOT_RUN",
   "evidence_record_count": 0,
   "unverified_source_count": 3,
-  "failure_stage": "SOURCE_ACQUISITION_AND_V4_DEPTH_PRECOMMIT",
-  "failure_reason": "Two bounded search passes across A-E did not establish sufficient window-qualified, timezone-verified China LNG/LPG and international gas evidence for native V4 and Evidence v1.2. No candidate four-piece set written.",
+  "failure_stage": null,
+  "failure_reason": null,
   "search_passes": [
     {
       "pass": 1,
