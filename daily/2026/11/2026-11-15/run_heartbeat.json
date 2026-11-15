@@ -2,7 +2,7 @@
   "target_date": "2026-11-15",
   "scheduled_for": "10:15 Asia/Shanghai",
   "run_started_at": "2026-11-15T04:16:09.628Z",
-  "status": "RUN_STARTED_BEFORE_PREFLIGHT",
+  "status": "FAILED",
   "authority_version": "V100",
   "authority_file_id": "file_0000000095f081fdbbd05d43a58882cd",
   "authority_library_file_id": "libfile_b8e5722993c08191a5185615ed3d33ab",
@@ -18,80 +18,75 @@
     "2026-11-15"
   ],
   "queue_for_12_30_work": [],
-  "post_run_self_audit_status": "NOT_RUN",
+  "post_run_self_audit_status": "NOT_RUN_NO_FOUR_ARTIFACT_CANDIDATE",
   "evidence_claim_role_status": "NOT_RUN",
   "evidence_support_alignment_status": "NOT_RUN",
   "inline_citation_id_url_binding": "0/0 NOT_RUN",
   "evidence_record_count": 0,
-  "unverified_source_count": 3,
-  "failure_stage": null,
-  "failure_reason": null,
+  "unverified_source_count": 2,
+  "failure_stage": "WEEKEND_LOW_DENSITY__SOURCE_AND_V4_PRECOMMIT",
+  "failure_reason": "Corrective run read back immutable Library V100 (SHA 73f85f76..a4c35) and confirmed current_daily=2026-11-14. Reuters 2026-11-14 09:45 UTC COP31 is within 11/15 window, but no sufficient exact-document and time/price-semantics verified China LNG/LPG claim set. Gold 315i Nov14 page listing not confirmed as exact canonical article/timezone; NBS 2026-11-14 09:30 Asia/Shanghai is outside window. Native V4 --weekend-mode only removes 1800 CJK floor; other section/card floors persist and consumer daily_attempt_promotion_sync.py omits --weekend-mode. No formally eligible Producer four-piece set; fail closed.",
   "search_passes": [
     {
       "pass": 1,
       "channels": [
-        "A SHPGX China LNG official",
+        "A SHPGX China LNG listings and notices",
         "B Mysteel/Longzhong China LPG prices",
-        "C Reuters Brent WTI",
-        "D EIA/IEA Reuters gas Europe Asia",
-        "E NEA policy and company notices"
+        "C Reuters and oil market releases",
+        "D EIA and global gas/LNG coverage",
+        "E NEA/company announcements"
       ],
-      "result": "Reuters oil, EIA storage, Mysteel LNG pages observed; A/B/E exact window source coverage insufficient"
+      "result": "SHPGX recent precise announcements dated Nov12/13, Reuters COP31 Nov14 09:45 UTC verified inside window; energy/LNG/LPG claim coverage incomplete."
     },
     {
       "pass": 2,
       "channels": [
-        "A SHPGX Nov14 exact release",
-        "B Nov14 LPG exact page",
-        "D EIA release timestamp and Europe/Asia LNG",
-        "E NEA Nov14 notices"
+        "China NBS Nov14 price release and eligible reprints",
+        "Jinlianchuang LPG Nov14 exact regional pages",
+        "Reuters/AP Nov14/15 energy geopolitics and producer announcements"
       ],
-      "result": "EIA release time established; no sufficient precise China LNG/LPG same-window independent exact sources"
+      "result": "NBS original release Nov14 09:30 Beijing out of window; listing of Nov14 Jinlianchuang LPG stories observed but exact article identity/timezone not fully verified; Reuters COP31 qualified; remaining claims insufficient."
     }
   ],
   "verified_sources": [
     {
-      "observed_url": "https://www.reuters.com/business/energy/oil-releases-iea-emergency-stocks-pick-up-through-february-agency-says-2026-11-13/",
-      "canonical_url": "https://www.reuters.com/business/energy/oil-releases-iea-emergency-stocks-pick-up-through-february-agency-says-2026-11-13/",
-      "title": "Oil releases from IEA emergency stocks to pick up through February, agency says",
+      "observed_url": "https://www.reuters.com/sustainability/cop/un-climate-chief-urges-speed-cop31-confronts-fossil-fuel-divide-2026-11-14/",
+      "canonical_url": "https://www.reuters.com/sustainability/cop/un-climate-chief-urges-speed-cop31-confronts-fossil-fuel-divide-2026-11-14/",
+      "title": "UN climate chief urges speed as COP31 confronts fossil fuel divide",
       "publisher": "Reuters",
-      "publication_time": "2026-11-13T14:15:00Z",
+      "publication_time": "2026-11-14T09:45:00Z",
       "timezone": "UTC",
-      "converted_window_result": "2026-11-13T22:15:00+08:00 OUTSIDE_WINDOW"
+      "converted_window_result": "2026-11-14T17:45:00+08:00 INSIDE_WINDOW"
     }
   ],
   "source_gaps": [
     {
       "channel": "A",
-      "reason": "No qualifying exact-time Nov14/15 SHPGX LNG release observed in bounded searches",
+      "reason": "No reliable exact-time 2026-11-14/15 LNG source supporting required fresh claims; Nov12/13 SHPGX notices outside window",
       "status": "NO_QUALIFYING_RESULT"
     },
     {
       "channel": "B",
-      "observed_url": "https://www.mysteel.com/oilchem/a/26111314/2717E0662A7B9EF7.html",
-      "observed_time": "2026-11-13 14:22",
-      "reason": "Outside target window; timezone not verified; original page fetch failed HTTP 411",
-      "status": "TIMEZONE_UNVERIFIED_AND_OUT_OF_WINDOW"
+      "observed_url": "https://oil.315i.com/yehq.html",
+      "reason": "Nov14 regional LPG listing observed, but exact canonical document, its precise publication timestamp timezone, and claim support were not simultaneously verified",
+      "status": "EXACT_DOCUMENT_AND_TIMEZONE_UNVERIFIED"
     },
     {
-      "channel": "C",
-      "observed_url": "https://www.reuters.com/business/energy/oil-prices-set-second-weekly-decline-trump-stay-with-iran-blockade-2026-11-13/",
-      "publication_time": "2026-11-13T03:01:00Z",
-      "reason": "2026-11-13 11:01 Asia/Shanghai outside target window",
-      "status": "OUT_OF_WINDOW"
-    },
-    {
-      "channel": "D",
-      "observed_url": "https://www.eia.gov/naturalgas/storage/",
-      "observed_release": "2026-11-13 10:30 a.m. US local time",
-      "reason": "Original page does not explicitly state timezone; cannot convert for strict window without independently verified timezone",
-      "status": "TIMEZONE_UNVERIFIED"
+      "channel": "C/D",
+      "observed_url": "https://www.reuters.com/sustainability/cop/un-climate-chief-urges-speed-cop31-confronts-fossil-fuel-divide-2026-11-14/",
+      "reason": "In-window Reuters COP31 coverage verified, but not sufficient independent LNG/LPG market and price evidence for strict V4",
+      "status": "PARTIAL_ACCEPTED_INSUFFICIENT_EVIDENCE"
     },
     {
       "channel": "E",
-      "observed_url": "https://www.nea.gov.cn/",
-      "reason": "Nov13 storage policy listed with date only; no qualifying Nov14 exact-time energy notice identified",
-      "status": "DATE_ONLY_OR_NO_QUALIFYING_RESULT"
+      "observed_url": "https://www.stats.gov.cn/sj/zxfb/202611/t20261113_1965820.html",
+      "reason": "NBS original publication 2026-11-14 09:30 local before window, Nov-early observation period; later derivative coverage not an independent price survey",
+      "status": "OUTSIDE_WINDOW_AS_NEW_FACT"
+    },
+    {
+      "channel": "NATIVE_V4_CONSUMER",
+      "reason": "Weekend flag only skips total CJK floor while 3-5 signal cards and section/individual-card requirements remain; Consumer does not pass --weekend-mode. Requires controlled downstream source change in separate formal transaction, not an authorized 10:15 mutation.",
+      "status": "WEEKEND_MODE_NOT_END_TO_END"
     }
   ],
   "canonical_mutation_performed": false,
