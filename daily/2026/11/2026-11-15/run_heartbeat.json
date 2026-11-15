@@ -2,5 +2,99 @@
   "target_date": "2026-11-15",
   "scheduled_for": "10:15 Asia/Shanghai",
   "run_started_at": "2026-11-15T10:15:53+08:00",
-  "status": "RUN_STARTED_BEFORE_PREFLIGHT"
+  "status": "FAILED",
+  "authority_version": "V100",
+  "authority_file_id": "file_0000000095f081fdbbd05d43a58882cd",
+  "authority_library_file_id": "libfile_b8e5722993c08191a5185615ed3d33ab",
+  "authority_version_id": "100",
+  "authority_sha256": "73f85f76ec0b127246432dfcee7fb90661dbfa96a1afff577f88c0eb6aca4c35",
+  "authority_zip_integrity": "PASS",
+  "authority_pointer_sha256": "2e364aee9b356e17cc2b37eacfbb41d70cdf431aa4b05b714f496c1a7e3ecd81",
+  "authority_current_daily": "2026-11-14",
+  "target_window_start": "2026-11-14T10:00:00+08:00",
+  "target_window_end": "2026-11-15T10:00:00+08:00",
+  "products_repaired_or_produced": [],
+  "producer_recovery_queue_remaining": [
+    "2026-11-15"
+  ],
+  "queue_for_12_30_work": [],
+  "post_run_self_audit_status": "NOT_RUN_NO_FOUR_ARTIFACT_CANDIDATE",
+  "evidence_claim_role_status": "NOT_RUN",
+  "evidence_support_alignment_status": "NOT_RUN",
+  "inline_citation_id_url_binding": "0/0 NOT_RUN",
+  "evidence_record_count": 0,
+  "unverified_source_count": 3,
+  "failure_stage": "SOURCE_ACQUISITION_AND_V4_DEPTH_PRECOMMIT",
+  "failure_reason": "Two bounded search passes across A-E did not establish sufficient window-qualified, timezone-verified China LNG/LPG and international gas evidence for native V4 and Evidence v1.2. No candidate four-piece set written.",
+  "search_passes": [
+    {
+      "pass": 1,
+      "channels": [
+        "A SHPGX China LNG official",
+        "B Mysteel/Longzhong China LPG prices",
+        "C Reuters Brent WTI",
+        "D EIA/IEA Reuters gas Europe Asia",
+        "E NEA policy and company notices"
+      ],
+      "result": "Reuters oil, EIA storage, Mysteel LNG pages observed; A/B/E exact window source coverage insufficient"
+    },
+    {
+      "pass": 2,
+      "channels": [
+        "A SHPGX Nov14 exact release",
+        "B Nov14 LPG exact page",
+        "D EIA release timestamp and Europe/Asia LNG",
+        "E NEA Nov14 notices"
+      ],
+      "result": "EIA release time established; no sufficient precise China LNG/LPG same-window independent exact sources"
+    }
+  ],
+  "verified_sources": [
+    {
+      "observed_url": "https://www.reuters.com/business/energy/oil-releases-iea-emergency-stocks-pick-up-through-february-agency-says-2026-11-13/",
+      "canonical_url": "https://www.reuters.com/business/energy/oil-releases-iea-emergency-stocks-pick-up-through-february-agency-says-2026-11-13/",
+      "title": "Oil releases from IEA emergency stocks to pick up through February, agency says",
+      "publisher": "Reuters",
+      "publication_time": "2026-11-13T14:15:00Z",
+      "timezone": "UTC",
+      "converted_window_result": "2026-11-13T22:15:00+08:00 OUTSIDE_WINDOW"
+    }
+  ],
+  "source_gaps": [
+    {
+      "channel": "A",
+      "reason": "No qualifying exact-time Nov14/15 SHPGX LNG release observed in bounded searches",
+      "status": "NO_QUALIFYING_RESULT"
+    },
+    {
+      "channel": "B",
+      "observed_url": "https://www.mysteel.com/oilchem/a/26111314/2717E0662A7B9EF7.html",
+      "observed_time": "2026-11-13 14:22",
+      "reason": "Outside target window; timezone not verified; original page fetch failed HTTP 411",
+      "status": "TIMEZONE_UNVERIFIED_AND_OUT_OF_WINDOW"
+    },
+    {
+      "channel": "C",
+      "observed_url": "https://www.reuters.com/business/energy/oil-prices-set-second-weekly-decline-trump-stay-with-iran-blockade-2026-11-13/",
+      "publication_time": "2026-11-13T03:01:00Z",
+      "reason": "2026-11-13 11:01 Asia/Shanghai outside target window",
+      "status": "OUT_OF_WINDOW"
+    },
+    {
+      "channel": "D",
+      "observed_url": "https://www.eia.gov/naturalgas/storage/",
+      "observed_release": "2026-11-13 10:30 a.m. US local time",
+      "reason": "Original page does not explicitly state timezone; cannot convert for strict window without independently verified timezone",
+      "status": "TIMEZONE_UNVERIFIED"
+    },
+    {
+      "channel": "E",
+      "observed_url": "https://www.nea.gov.cn/",
+      "reason": "Nov13 storage policy listed with date only; no qualifying Nov14 exact-time energy notice identified",
+      "status": "DATE_ONLY_OR_NO_QUALIFYING_RESULT"
+    }
+  ],
+  "canonical_mutation_performed": false,
+  "site_mutation_performed": false,
+  "automation_mutation_performed": false
 }
