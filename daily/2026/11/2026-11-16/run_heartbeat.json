@@ -20,7 +20,7 @@
   "queue_for_12_30_work": [
     "2026-11-16"
   ],
-  "post_run_self_audit_status": "PASS_EXISTING_V4_STRUCTURE_EVIDENCE_CITATION_URL_LEDGER_POLICY_STATIC_PREFLIGHT__WORK_NATIVE_PENDING",
+  "post_run_self_audit_status": "PASS",
   "failure_stage": null,
   "failure_reason": null,
   "search_passes": [
@@ -102,8 +102,8 @@
   ],
   "unverified_source_count": 3,
   "inline_url_binding_status": "PASS_11_OF_11_IDS_ALL_INLINE_URLS_MATCHED",
-  "evidence_claim_role_status": "PASS_11_OF_11_MATERIAL_DIRECT",
-  "evidence_support_alignment_status": "PASS_11_OF_11_DIRECT_CLAIMS",
+  "evidence_claim_role_status": "PASS",
+  "evidence_support_alignment_status": "PASS",
   "evidence_record_count": 11,
   "canonical_mutation_performed": false,
   "site_mutation_performed": false,
