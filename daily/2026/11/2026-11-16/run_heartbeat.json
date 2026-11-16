@@ -2,5 +2,93 @@
   "target_date": "2026-11-16",
   "scheduled_for": "10:15 Asia/Shanghai",
   "run_started_at": "2026-11-16T10:16:25+08:00",
-  "status": "RUN_STARTED_BEFORE_PREFLIGHT"
+  "status": "FAILED",
+  "completed_at": "2026-11-16T02:17:19.076Z",
+  "authority_version": "V101",
+  "authority_file_id": "file_000000000b7c81fd81239f163d0d2391",
+  "authority_library_version_id": "101",
+  "authority_sha256": "5e5c1ef58c5c30aa2c49bd1f61b3840a4fb9f534f8950fc206c93edc25245f03",
+  "authority_pointer_sha256": "6556d6c2320a43972806d6ef9c10736183f10704543852214d159b9fb527a8d9",
+  "authority_zip_integrity": "PASS",
+  "current_daily": "2026-11-15",
+  "window_start": "2026-11-15T10:00:00+08:00",
+  "window_end": "2026-11-16T10:00:00+08:00",
+  "products_repaired_or_produced": [],
+  "producer_recovery_queue_remaining": [
+    "2026-11-16"
+  ],
+  "queue_for_12_30_work": [],
+  "post_run_self_audit_status": "NOT_RUN_NO_COMPLETE_CANDIDATE",
+  "failure_stage": "SOURCE_ACQUISITION_AND_V4_DEPTH_PRECOMMIT",
+  "failure_reason": "Weekend/low-density window: only two directly opened, exact-time Reuters reports verified inside window, both same publisher ownership; no verifiable in-window domestic LNG/LPG price series or independent gas-market evidence adequate to construct required signal cards and satisfy native Evidence/V4 gates. No product files written.",
+  "search_passes": [
+    {
+      "pass": 1,
+      "channels": {
+        "A": "Shanghai Petroleum and Natural Gas Exchange official LNG/trading announcements; no exact-window accepted item",
+        "B": "Mysteel/Longzhong LPG quotations; no exact-window accepted item",
+        "C": "Reuters crude/Brent WTI and market prices; Sunday diesel story published outside window, Monday oil story after cutoff",
+        "D": "EIA/IEA/TTF/JKM/US natural gas; current live feed has mixed historical commentary and insufficient publication provenance",
+        "E": "Energy corporate and policy announcements; Reuters Shell Egypt field start verified"
+      }
+    },
+    {
+      "pass": 2,
+      "channels": {
+        "A": "Targeted Nov 15 SHPGX announcement search; no accepted item",
+        "B": "Targeted Nov 15 LPG quote search; no accepted item",
+        "C": "Reuters exact-document time verification",
+        "D": "Targeted LNG shipping and regional market search; no accepted in-window primary benchmark",
+        "E": "Reuters Shell Mina West original story and regional Saudi security report verified"
+      }
+    }
+  ],
+  "verified_sources": [
+    {
+      "observed_url": "https://www.reuters.com/world/middle-east/saudi-led-coalition-intercepts-missiles-towards-riyadh-drones-eastern-province-2026-11-15/",
+      "canonical_url": "https://www.reuters.com/world/middle-east/saudi-led-coalition-intercepts-missiles-towards-riyadh-drones-eastern-province-2026-11-15/",
+      "title": "Saudi-led coalition intercepts missiles towards Riyadh, drones in Eastern Province",
+      "publisher": "Reuters",
+      "publication_time": "2026-11-15T02:58:00Z",
+      "timezone": "UTC",
+      "converted_window_result": "2026-11-15T10:58:00+08:00 IN_WINDOW"
+    },
+    {
+      "observed_url": "https://www.reuters.com/business/energy/shell-starts-gas-production-egypts-mina-west-field-2026-11-15/",
+      "canonical_url": "https://www.reuters.com/business/energy/shell-starts-gas-production-egypts-mina-west-field-2026-11-15/",
+      "title": "Shell starts gas production from Egypt's Mina West field",
+      "publisher": "Reuters",
+      "publication_time": "2026-11-15T13:01:00Z",
+      "timezone": "UTC",
+      "converted_window_result": "2026-11-15T21:01:00+08:00 IN_WINDOW"
+    }
+  ],
+  "source_gaps": [
+    {
+      "url": "https://www.reuters.com/business/energy/us-diesel-below-6-gallon-2-month-low-easing-tensions-weaker-demand-2026-11-15/",
+      "observed_publication_time": "2026-11-15T01:22:00Z",
+      "converted": "2026-11-15T09:22:00+08:00",
+      "reason": "OUT_OF_WINDOW_38_MINUTES_BEFORE_START"
+    },
+    {
+      "url": "https://www.reuters.com/business/energy/oil-prices-fall-expectations-coming-supply-surplus-2026-11-16/",
+      "reason": "Published Monday; precise time not verified before cutoff; not accepted"
+    },
+    {
+      "url": "https://lnginsights.com/",
+      "reason": "Live benchmark dated Nov 15 but analysis explicitly dated Sep 21; precise publication time and price provenance not verified; cannot claim fresh market evidence"
+    },
+    {
+      "category": "CHINA_LNG_LPG",
+      "reason": "No precise-time in-window original market quotation with timezone, region and price basis verified"
+    },
+    {
+      "category": "INDEPENDENT_GAS_MARKET",
+      "reason": "No sufficiently verified in-window primary regional LNG/gas report to support additional atomic CORE claims"
+    }
+  ],
+  "unverified_source_count": 3,
+  "inline_url_binding_status": "0/0 NOT_RUN",
+  "evidence_claim_role_status": "NOT_RUN",
+  "evidence_support_alignment_status": "NOT_RUN"
 }
