@@ -2,8 +2,8 @@
   "target_date": "2026-11-16",
   "scheduled_for": "10:15 Asia/Shanghai",
   "run_started_at": "2026-11-16T10:16:25+08:00",
-  "status": "FAILED",
-  "completed_at": "2026-11-16T02:17:19.076Z",
+  "status": "PRODUCER_SUCCESS_CANDIDATES_PENDING_WORK",
+  "completed_at": "2026-11-16T04:22:14.368Z",
   "authority_version": "V101",
   "authority_file_id": "file_000000000b7c81fd81239f163d0d2391",
   "authority_library_version_id": "101",
@@ -13,14 +13,16 @@
   "current_daily": "2026-11-15",
   "window_start": "2026-11-15T10:00:00+08:00",
   "window_end": "2026-11-16T10:00:00+08:00",
-  "products_repaired_or_produced": [],
-  "producer_recovery_queue_remaining": [
+  "products_repaired_or_produced": [
     "2026-11-16"
   ],
-  "queue_for_12_30_work": [],
-  "post_run_self_audit_status": "NOT_RUN_NO_COMPLETE_CANDIDATE",
-  "failure_stage": "SOURCE_ACQUISITION_AND_V4_DEPTH_PRECOMMIT",
-  "failure_reason": "Weekend/low-density window: only two directly opened, exact-time Reuters reports verified inside window, both same publisher ownership; no verifiable in-window domestic LNG/LPG price series or independent gas-market evidence adequate to construct required signal cards and satisfy native Evidence/V4 gates. No product files written.",
+  "producer_recovery_queue_remaining": [],
+  "queue_for_12_30_work": [
+    "2026-11-16"
+  ],
+  "post_run_self_audit_status": "PASS_EXISTING_V4_STRUCTURE_EVIDENCE_CITATION_URL_LEDGER_POLICY_STATIC_PREFLIGHT__WORK_NATIVE_PENDING",
+  "failure_stage": null,
+  "failure_reason": null,
   "search_passes": [
     {
       "pass": 1,
@@ -61,34 +63,49 @@
       "publication_time": "2026-11-15T13:01:00Z",
       "timezone": "UTC",
       "converted_window_result": "2026-11-15T21:01:00+08:00 IN_WINDOW"
+    },
+    {
+      "observed_url": "https://www.bjnews.com.cn/detail/1794755464189791.html",
+      "canonical_url": "https://www.bjnews.com.cn/detail/1794755464189791.html",
+      "title": "保供用能进入“备战模式” 风电、光伏、地热变身守护寒冬暖意“绿色基石”",
+      "publisher": "千龙网（新京报平台）",
+      "publication_time": "2026-11-15T23:05:00+08:00",
+      "timezone": "Asia/Shanghai",
+      "converted_window_result": "2026-11-15T23:05:00+08:00 IN_WINDOW"
+    },
+    {
+      "observed_url": "https://www.independent.co.uk/news/uk/politics/jackdaw-andy-burnham-rosebank-gas-production-b3085263.html",
+      "canonical_url": "https://www.independent.co.uk/news/uk/politics/jackdaw-andy-burnham-rosebank-gas-production-b3085263.html",
+      "title": "Jackdaw begins gas production as Burnham faces rebellion over Rosebank decision",
+      "publisher": "The Independent",
+      "publication_time": "2026-11-16T00:01:00Z",
+      "timezone": "UTC",
+      "converted_window_result": "2026-11-16T08:01:00+08:00 IN_WINDOW"
     }
   ],
   "source_gaps": [
     {
-      "url": "https://www.reuters.com/business/energy/us-diesel-below-6-gallon-2-month-low-easing-tensions-weaker-demand-2026-11-15/",
-      "observed_publication_time": "2026-11-15T01:22:00Z",
-      "converted": "2026-11-15T09:22:00+08:00",
-      "reason": "OUT_OF_WINDOW_38_MINUTES_BEFORE_START"
+      "category": "PRICE_SERIES",
+      "reason": "No independently verified fixed-window same-basis domestic LNG/LPG spot prices, JKM/TTF, freight or war-risk insurance. Report explicitly DATA_GAP with no proxy.",
+      "status": "DISCLOSED_DATA_GAP_NONBLOCKING"
     },
     {
-      "url": "https://www.reuters.com/business/energy/oil-prices-fall-expectations-coming-supply-surplus-2026-11-16/",
-      "reason": "Published Monday; precise time not verified before cutoff; not accepted"
+      "category": "HISTORICAL_SOURCES",
+      "reason": "Previously rejected Nov15 01:22 UTC US diesel article remains outside the current window; no stale price substituted.",
+      "status": "EXCLUDED_OUTSIDE_WINDOW"
     },
     {
-      "url": "https://lnginsights.com/",
-      "reason": "Live benchmark dated Nov 15 but analysis explicitly dated Sep 21; precise publication time and price provenance not verified; cannot claim fresh market evidence"
-    },
-    {
-      "category": "CHINA_LNG_LPG",
-      "reason": "No precise-time in-window original market quotation with timezone, region and price basis verified"
-    },
-    {
-      "category": "INDEPENDENT_GAS_MARKET",
-      "reason": "No sufficiently verified in-window primary regional LNG/gas report to support additional atomic CORE claims"
+      "category": "INDEPENDENCE",
+      "reason": "Four exact original articles from three distinct publishers; Reuters appears twice. Individual material claims separately attributed.",
+      "status": "PASS_SCOPED"
     }
   ],
   "unverified_source_count": 3,
-  "inline_url_binding_status": "0/0 NOT_RUN",
-  "evidence_claim_role_status": "NOT_RUN",
-  "evidence_support_alignment_status": "NOT_RUN"
+  "inline_url_binding_status": "PASS_11_OF_11_IDS_ALL_INLINE_URLS_MATCHED",
+  "evidence_claim_role_status": "PASS_11_OF_11_MATERIAL_DIRECT",
+  "evidence_support_alignment_status": "PASS_11_OF_11_DIRECT_CLAIMS",
+  "evidence_record_count": 11,
+  "canonical_mutation_performed": false,
+  "site_mutation_performed": false,
+  "automation_mutation_performed": false
 }
