@@ -1,8 +1,8 @@
 {
   "target_date": "2026-11-17",
   "scheduled_for": "10:15 Asia/Shanghai",
-  "run_started_at": "2026-11-17T10:12:43+08:00",
-  "status": "FAILED",
+  "run_started_at": "2026-11-17T10:38:55+08:00",
+  "status": "RUN_STARTED_BEFORE_PREFLIGHT",
   "authority_version": "V102",
   "authority_library_version": "102",
   "authority_file_id": "file_000000000e0881fdab2c5c7e463d5510",
@@ -19,8 +19,8 @@
   "post_run_self_audit_status": "NOT_RUN",
   "evidence_claim_role_status": "NOT_RUN",
   "evidence_support_alignment_status": "NOT_RUN",
-  "failure_stage": "SOURCE_ACQUISITION_AND_V4_DEPTH_PRECOMMIT",
-  "failure_reason": "Five targeted channels queried; source candidates found but no sufficient set with fully verified publication timezone/time, identity and claim support to satisfy current Evidence and V4 gates. Reuters originals could not be opened; China LNG/LPG exact-time sources not verified. No product files written.",
+  "failure_stage": null,
+  "failure_reason": null,
   "search_passes": [
     {
       "pass": 1,
@@ -60,5 +60,12 @@
     }
   ],
   "unverified_source_count": 3,
-  "completed_at": "2026-11-17T02:13:40.793Z"
+  "completed_at": null,
+  "previous_scheduled_run": {
+    "run_started_at": "2026-11-17T10:12:43+08:00",
+    "completed_at": "2026-11-17T02:13:40.793Z",
+    "status": "FAILED",
+    "failure_stage": "SOURCE_ACQUISITION_AND_V4_DEPTH_PRECOMMIT",
+    "failure_reason": "Five targeted channels queried; source candidates found but no sufficient set with fully verified publication timezone/time, identity and claim support to satisfy current Evidence and V4 gates. Reuters originals could not be opened; China LNG/LPG exact-time sources not verified. No product files written."
+  }
 }
