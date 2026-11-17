@@ -12,7 +12,7 @@
     {
       "id": "E01",
       "claim_id": "D20261117-C001",
-      "claim_type": "MARKET_DATA",
+      "claim_type": "FORECAST",
       "claim_role": "MATERIAL",
       "publisher": "Reuters",
       "title": "Europe draws LNG from Asia, but not fast enough",
