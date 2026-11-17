@@ -2,7 +2,7 @@
   "target_date": "2026-11-17",
   "scheduled_for": "10:15 Asia/Shanghai",
   "run_started_at": "2026-11-17T10:38:55+08:00",
-  "status": "RUN_STARTED_BEFORE_PREFLIGHT",
+  "status": "PRODUCER_SUCCESS_CANDIDATES_PENDING_WORK",
   "authority_version": "V102",
   "authority_library_version": "102",
   "authority_file_id": "file_000000000e0881fdab2c5c7e463d5510",
@@ -11,14 +11,16 @@
   "formal_current_daily": "2026-11-16",
   "window_start": "2026-11-16T10:00:00+08:00",
   "window_end": "2026-11-17T10:00:00+08:00",
-  "products_repaired_or_produced": [],
-  "producer_recovery_queue_remaining": [
+  "products_repaired_or_produced": [
     "2026-11-17"
   ],
-  "queue_for_12_30_work": [],
-  "post_run_self_audit_status": "NOT_RUN",
-  "evidence_claim_role_status": "NOT_RUN",
-  "evidence_support_alignment_status": "NOT_RUN",
+  "producer_recovery_queue_remaining": [],
+  "queue_for_12_30_work": [
+    "2026-11-17"
+  ],
+  "post_run_self_audit_status": "PASS",
+  "evidence_claim_role_status": "PASS",
+  "evidence_support_alignment_status": "PASS",
   "failure_stage": null,
   "failure_reason": null,
   "search_passes": [
@@ -40,32 +42,66 @@
       }
     }
   ],
-  "verified_sources": [],
-  "source_gaps": [
+  "verified_sources": [
     {
-      "url": "https://www.reuters.com/business/energy/oil-prices-fall-expectations-coming-supply-surplus-2026-11-16/",
-      "reason": "EXACT_ORIGINAL_UNAVAILABLE; precise publication time unverified"
+      "observed_url": "https://www.reuters.com/commentary/reuters-open-interest/europe-draws-lng-asia-not-fast-enough-2026-11-16/",
+      "canonical_url": "https://www.reuters.com/commentary/reuters-open-interest/europe-draws-lng-asia-not-fast-enough-2026-11-16/",
+      "title": "Europe draws LNG from Asia, but not fast enough",
+      "publisher": "Reuters",
+      "publication_time": "2026-11-16T04:42:00Z",
+      "timezone": "UTC",
+      "converted_window_result": "2026-11-16T12:42:00.000+08:00 BJT_FROM_UTC_IN_WINDOW"
     },
     {
-      "url": "https://www.reuters.com/commentary/reuters-open-interest/europe-draws-lng-asia-not-fast-enough-2026-11-16/",
-      "reason": "EXACT_ORIGINAL_UNAVAILABLE; precise publication time unverified"
+      "observed_url": "https://www.reuters.com/commentary/reuters-open-interest/china-resumes-storing-crude-oil-giving-it-fuel-export-options-2026-11-16/",
+      "canonical_url": "https://www.reuters.com/commentary/reuters-open-interest/china-resumes-storing-crude-oil-giving-it-fuel-export-options-2026-11-16/",
+      "title": "China resumes storing crude oil, giving it fuel export options",
+      "publisher": "Reuters",
+      "publication_time": "2026-11-16T23:20:00Z",
+      "timezone": "UTC",
+      "converted_window_result": "2026-11-17T07:20:00.000+08:00 BJT_FROM_UTC_IN_WINDOW"
     },
     {
-      "url": "https://globallnghub.com/natural-gas-prices-weekly-update-jkm-ttf-and-henry-hub-16-november-2026/",
-      "reason": "DATE_ONLY; price observations belong to Nov 9-13, not fresh Nov 16 prices"
-    },
-    {
-      "channel": "A/B/E",
-      "reason": "No verified in-window publication with sufficient time-zone and data semantics"
+      "observed_url": "https://www.reuters.com/world/europe/ukraine-launches-biggest-drone-attack-russia-since-war-began-defence-ministry-2026-11-16/",
+      "canonical_url": "https://www.reuters.com/world/europe/ukraine-launches-biggest-drone-attack-russia-since-war-began-defence-ministry-2026-11-16/",
+      "title": "Ukraine launches biggest drone attack on Russia since war began, defence ministry data shows",
+      "publisher": "Reuters",
+      "publication_time": "2026-11-16T10:33:00Z",
+      "timezone": "UTC",
+      "converted_window_result": "2026-11-16T18:33:00.000+08:00 BJT_FROM_UTC_IN_WINDOW"
     }
   ],
-  "unverified_source_count": 3,
-  "completed_at": null,
+  "source_gaps": [
+    {
+      "category": "CHINA_LNG_SHPGX",
+      "url": "https://finance.sina.com.cn/money/future/roll/2026-11-16/doc-iniyxuev1116237.shtml",
+      "reason": "20:19 displayed but timezone not independently verified; quoted data not included in accepted price evidence",
+      "status": "TIMEZONE_UNVERIFIED"
+    },
+    {
+      "category": "CHINA_LPG_MYSTEEL",
+      "url": "https://nenghua.mysteel.com/a/26111614/EB09691D488347AA.html",
+      "reason": "14:43 published time appears, independently verified time-zone absent; not included as accepted price",
+      "status": "TIMEZONE_UNVERIFIED"
+    },
+    {
+      "category": "INDEPENDENT_PUBLISHER",
+      "reason": "Three documents, all Reuters; Material Direct attribution only, cross-publisher verification still outstanding",
+      "status": "DISCLOSED"
+    }
+  ],
+  "unverified_source_count": 2,
+  "completed_at": "2026-11-17T02:44:26.758Z",
   "previous_scheduled_run": {
     "run_started_at": "2026-11-17T10:12:43+08:00",
     "completed_at": "2026-11-17T02:13:40.793Z",
     "status": "FAILED",
     "failure_stage": "SOURCE_ACQUISITION_AND_V4_DEPTH_PRECOMMIT",
     "failure_reason": "Five targeted channels queried; source candidates found but no sufficient set with fully verified publication timezone/time, identity and claim support to satisfy current Evidence and V4 gates. Reuters originals could not be opened; China LNG/LPG exact-time sources not verified. No product files written."
-  }
+  },
+  "inline_url_binding_status": "PASS_12_OF_12_IDS_ALL_INLINE_URLS_MATCHED",
+  "evidence_record_count": 12,
+  "canonical_mutation_performed": false,
+  "site_mutation_performed": false,
+  "automation_mutation_performed": false
 }
