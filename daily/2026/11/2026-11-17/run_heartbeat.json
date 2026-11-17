@@ -91,7 +91,7 @@
     }
   ],
   "unverified_source_count": 2,
-  "completed_at": "2026-11-17T02:44:26.758Z",
+  "completed_at": "2026-11-17T02:45:12.889Z",
   "previous_scheduled_run": {
     "run_started_at": "2026-11-17T10:12:43+08:00",
     "completed_at": "2026-11-17T02:13:40.793Z",
@@ -103,5 +103,9 @@
   "evidence_record_count": 12,
   "canonical_mutation_performed": false,
   "site_mutation_performed": false,
-  "automation_mutation_performed": false
+  "automation_mutation_performed": false,
+  "evidence_claim_scope_corrections": [
+    "E01_MARKET_DATA_TO_FORECAST__SEMANTIC_TYPE",
+    "E02_MARKET_DATA_TO_BACKGROUND__2025_HISTORICAL_COMPARISON"
+  ]
 }
