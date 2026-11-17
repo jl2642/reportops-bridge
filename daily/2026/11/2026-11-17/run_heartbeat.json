@@ -2,5 +2,63 @@
   "target_date": "2026-11-17",
   "scheduled_for": "10:15 Asia/Shanghai",
   "run_started_at": "2026-11-17T10:12:43+08:00",
-  "status": "RUN_STARTED_BEFORE_PREFLIGHT"
+  "status": "FAILED",
+  "authority_version": "V102",
+  "authority_library_version": "102",
+  "authority_file_id": "file_000000000e0881fdab2c5c7e463d5510",
+  "authority_sha256": "37c463959b6f451c801459d8f751ffef2f055479cfb02f9c6c57e01584e4b448",
+  "authority_pointer_sha256": "400954f7b4d55c8000c893e26f486592a9d4ffc5b670c9d2d359f619e975c2d6",
+  "formal_current_daily": "2026-11-16",
+  "window_start": "2026-11-16T10:00:00+08:00",
+  "window_end": "2026-11-17T10:00:00+08:00",
+  "products_repaired_or_produced": [],
+  "producer_recovery_queue_remaining": [
+    "2026-11-17"
+  ],
+  "queue_for_12_30_work": [],
+  "post_run_self_audit_status": "NOT_RUN",
+  "evidence_claim_role_status": "NOT_RUN",
+  "evidence_support_alignment_status": "NOT_RUN",
+  "failure_stage": "SOURCE_ACQUISITION_AND_V4_DEPTH_PRECOMMIT",
+  "failure_reason": "Five targeted channels queried; source candidates found but no sufficient set with fully verified publication timezone/time, identity and claim support to satisfy current Evidence and V4 gates. Reuters originals could not be opened; China LNG/LPG exact-time sources not verified. No product files written.",
+  "search_passes": [
+    {
+      "pass": 1,
+      "channels": {
+        "A": "China LNG and gas trading center search; no verified in-window original",
+        "B": "China LPG professional quotation search; no verified in-window price",
+        "C": "Reuters oil Nov 16 and market data search; Reuters original inaccessible",
+        "D": "EIA/Europe/Asia LNG search; Global LNG Hub Nov 16 page date-only",
+        "E": "China energy production and pipeline company news search; no verified in-window original"
+      }
+    },
+    {
+      "pass": 2,
+      "channels": {
+        "C": "Opened Reuters exact URLs; both inaccessible",
+        "D": "Opened Global LNG Hub dated Nov 16; precise publication time absent"
+      }
+    }
+  ],
+  "verified_sources": [],
+  "source_gaps": [
+    {
+      "url": "https://www.reuters.com/business/energy/oil-prices-fall-expectations-coming-supply-surplus-2026-11-16/",
+      "reason": "EXACT_ORIGINAL_UNAVAILABLE; precise publication time unverified"
+    },
+    {
+      "url": "https://www.reuters.com/commentary/reuters-open-interest/europe-draws-lng-asia-not-fast-enough-2026-11-16/",
+      "reason": "EXACT_ORIGINAL_UNAVAILABLE; precise publication time unverified"
+    },
+    {
+      "url": "https://globallnghub.com/natural-gas-prices-weekly-update-jkm-ttf-and-henry-hub-16-november-2026/",
+      "reason": "DATE_ONLY; price observations belong to Nov 9-13, not fresh Nov 16 prices"
+    },
+    {
+      "channel": "A/B/E",
+      "reason": "No verified in-window publication with sufficient time-zone and data semantics"
+    }
+  ],
+  "unverified_source_count": 3,
+  "completed_at": "2026-11-17T02:13:40.793Z"
 }
