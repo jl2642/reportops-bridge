@@ -24,7 +24,7 @@
     "new_remote_zip_sha": "1_OF_1_PASS",
     "checked_at": "2026-11-15T07:56:16.897Z"
   },
-  "authority_package_sha256": "46ac34e21717e533823c2a1128a2ad234cee0b2695112c6afe2b97f4a96567f0",
+  "authority_package_sha256": "5f5e637e0ee182e91aa203b7624eea140cbf3a6e2d023b455bf6de8dec037cb2",
   "github_role": "PUBLIC_SAFE_BRIDGE",
   "canonical_authority": "LIBRARY",
   "daily_runtime_contract_current": "V1_5_FORMAL_AUTHORITY",
@@ -37,7 +37,7 @@
   "last_updated": "2026-11-15T07:56:16.897Z",
   "deployment_state_ref": "runtime/DEPLOYMENT_STATE.json",
   "metadata_freshness": "PASS_V100_LIBRARY_DERIVED_MIRRORS_13_OF_13",
-  "state_consistency_pointer_sha256": "49af9a29f9af5e5a3596b2a57ed01b363f05c82f3b3136655ed90beab7fbe940",
+  "state_consistency_pointer_sha256": "386deefcbfc5f7aa01e0a19a96df9eab4e5a6f7bb1e4b3664953d56aeec44d46",
   "stale_views": [],
   "queue_remaining": [],
   "eligible_unpublished_products": [],
@@ -56,15 +56,15 @@
   "public_daily_2026_09_30_download_sha256": "c9cb876285ccf713b651bfc8b551c2fad8525e7149979fc6388ceb507724014d",
   "public_daily_2026_10_01_download_sha256": "98851fc1d8897fd2402c53b9e457a31e1cbc4136c48f4c2f58b5574289e18725",
   "authority_sha_runtime_reconciliation": {
-    "authority": "46ac34e21717e533823c2a1128a2ad234cee0b2695112c6afe2b97f4a96567f0",
-    "sidecar": "46ac34e21717e533823c2a1128a2ad234cee0b2695112c6afe2b97f4a96567f0",
-    "status": "PASS_V103_LIBRARY_AUTHORITY_AND_SIDECAR_SHA"
+    "authority": "5f5e637e0ee182e91aa203b7624eea140cbf3a6e2d023b455bf6de8dec037cb2",
+    "sidecar": "5f5e637e0ee182e91aa203b7624eea140cbf3a6e2d023b455bf6de8dec037cb2",
+    "status": "PASS_V104_LIBRARY_AUTHORITY_AND_SIDECAR_SHA"
   },
   "public_daily_2026_10_02_download_sha256": "9a45fcf57e9048c524ab0f1ebdbb547a6eeb34fbe23821f5cf43e252c4ed9237",
-  "current_daily_canonical": "2026-11-17",
-  "library_sidecar_sha256": "46ac34e21717e533823c2a1128a2ad234cee0b2695112c6afe2b97f4a96567f0",
+  "current_daily_canonical": "2026-11-18",
+  "library_sidecar_sha256": "5f5e637e0ee182e91aa203b7624eea140cbf3a6e2d023b455bf6de8dec037cb2",
   "current_package_site_publication_performed": false,
-  "runtime_sync_status": "FORMAL_V103__SITE_V116_PENDING",
+  "runtime_sync_status": "FORMAL_V104__SITE_V116_PENDING",
   "stable": false,
   "updated_at": "2026-11-15T07:56:16.897Z",
   "public_weekly_2026_w40_download_sha256": "7d5d10199df404c830519bf51f4639196e4d3c8256416b4362a65d640fd5c49e",
@@ -120,11 +120,11 @@
   "preflight_blocker_matrix": [],
   "last_work_reconciled_at": "2026-11-13T09:32:50.869Z",
   "public_daily_2026_10_15_download_sha256": "85bf61157397670325c5c7cfb7853e1436f69c99efacad464ceb55678954b00b",
-  "current_derived_views_status": "PASS_13_BYTE_EXACT_FROM_COMMITTED_V103",
+  "current_derived_views_status": "PASS_13_BYTE_EXACT_FROM_COMMITTED_V104",
   "producer_automation_status": "UNATTENDED_RELIABILITY_NOT_ACCEPTED__NEXT_NATURAL_PRODUCER_RUN_2026_11_15",
   "public_daily_2026_10_16_download_sha256": "5ee3f31227ba541f8e3b79a6045c5f25dd13d9c066322327bbf7354b366896ba",
   "public_daily_2026_10_17_download_sha256": "c5da3880a3439a600d27939eaa94df9cfdaf21687fc640813ca552e8073db5e0",
-  "current_daily": "2026-11-17",
+  "current_daily": "2026-11-18",
   "current_weekly": "2026-W45",
   "public_daily_2026_10_20_download_sha256": "e6451e584fea7e43109aae2553c06c5b7fcfdc7353d6e73f8e03e3e2ecb0b93c",
   "public_weekly_2026_w42_download_sha256": "c240fd90c92fc3f61e54a0fc888c821c369cc0bac67e69ae6169d93f22855132",
@@ -172,7 +172,7 @@
       "Daily 2026-11-15": "42d3fc42b4341ca95825f33d696ab5cb9dc6703edc2a7d45da5d27e9e594a037"
     }
   },
-  "current_pointer_sha256": "49af9a29f9af5e5a3596b2a57ed01b363f05c82f3b3136655ed90beab7fbe940",
+  "current_pointer_sha256": "386deefcbfc5f7aa01e0a19a96df9eab4e5a6f7bb1e4b3664953d56aeec44d46",
   "w43_work_preflight": {
     "chat_final_assets_readback": "PASS_11_OF_11",
     "round2_report_sha256": "05ca5e6d1c98d8cbbdc82503154cb81f312cff0b52cd953b016b8eabb5b8ac85",
@@ -192,8 +192,8 @@
   },
   "candidate_products_pending_gates": [],
   "current_run_canonical_promotion_performed": true,
-  "current_run_authority_sha256": "46ac34e21717e533823c2a1128a2ad234cee0b2695112c6afe2b97f4a96567f0",
-  "current_run_pointer_sha256": "49af9a29f9af5e5a3596b2a57ed01b363f05c82f3b3136655ed90beab7fbe940",
+  "current_run_authority_sha256": "5f5e637e0ee182e91aa203b7624eea140cbf3a6e2d023b455bf6de8dec037cb2",
+  "current_run_pointer_sha256": "386deefcbfc5f7aa01e0a19a96df9eab4e5a6f7bb1e4b3664953d56aeec44d46",
   "stability_status": "LONG_TERM_STABILITY_NOT_ACCEPTED",
   "external_mirror_readback_status": "PASS_13_CURRENT_DERIVED_VIEWS",
   "last_work_reportops_status": "FORMAL_SUCCESS",
@@ -270,10 +270,10 @@
     "updated_at": "2026-11-15T07:55:34.788317+00:00",
     "version": 116
   },
-  "authority_sha_runtime_reconciliation_status": "PASS_V103_LIBRARY_AUTHORITY_AND_SIDECAR_SHA",
+  "authority_sha_runtime_reconciliation_status": "PASS_V104_LIBRARY_AUTHORITY_AND_SIDECAR_SHA",
   "remaining_product_debt": [],
   "current_run_promoted_products": [
-    "Daily 2026-11-17"
+    "Daily 2026-11-18"
   ],
   "daily_reconsumed_this_run": false,
   "queue_for_12_30_work": [
@@ -445,7 +445,7 @@
   "public_quarterly_2026_q3_download_sha256": "82fa55d98ecedbd272298003113a44f1294b9a4addb9e0f0ed000a57d3b3ebf2",
   "public_quarterly_2026_q2_download_sha256": "dde4ab07709b7a898edc433287f6eef43dd943f256f36c5eb947ae8c57e4993c",
   "github_write_status": "PASS",
-  "derived_from_current_pointer_sha256": "49af9a29f9af5e5a3596b2a57ed01b363f05c82f3b3136655ed90beab7fbe940",
+  "derived_from_current_pointer_sha256": "386deefcbfc5f7aa01e0a19a96df9eab4e5a6f7bb1e4b3664953d56aeec44d46",
   "historical_download_sha_remaining": 0,
   "automation_1230_status": "ENABLED__SCHEDULED_WORK_ENVIRONMENT_UNVERIFIED",
   "target_release_debt_remaining": 0,
@@ -1990,14 +1990,15 @@
   "execution_mode": "MANUAL_WORK",
   "reader_w44_compatibility_repair": "ORIGINAL_CITATION_MARKERS_PRESERVED__WEEKLY_NATIVE_CONTRACT_PASS",
   "current_weekly_canonical": "2026-W45",
-  "authority_version": 103,
-  "authority_file_id": "file_00000000f86c81f4b6c28018713cb0aa",
+  "authority_version": 104,
+  "authority_file_id": "file_00000000ba6481fd81e1b5446635f26e",
   "authority_commit_rule": "R3_SINGLE_AUTHORITY_CAS_ACTIVE",
   "current_read_rule": "PIN_AUTHORITY_VERSION_AND_INTERNAL_POINTER",
   "external_pointer_role": "REPAIRABLE_DERIVED_MIRROR",
   "remaining_site_debt": [
     "2026-11-16",
-    "2026-11-17"
+    "2026-11-17",
+    "2026-11-18"
   ],
   "public_report_count": 197,
   "mirror_status": "PASS",
@@ -2007,7 +2008,7 @@
   "library_mirror_sync_updated_at": "2026-11-13T09:32:50.869Z",
   "site_verified_on": "2026-11-13",
   "last_site_runtime_reconciliation_at": "2026-11-13T09:32:50.869Z",
-  "pointer_sha256": "49af9a29f9af5e5a3596b2a57ed01b363f05c82f3b3136655ed90beab7fbe940",
+  "pointer_sha256": "386deefcbfc5f7aa01e0a19a96df9eab4e5a6f7bb1e4b3664953d56aeec44d46",
   "public_daily_2026_11_12_download_sha256": "ecfcf21f125cbd0e1955cf1514b99d57a83fede292fdd56a7f63e84e4d20a377",
   "public_daily_2026_11_13_download_sha256": "eb75824f7c47c4d6c24dfbf8e40db8bcbf3c9170733d2508e4751f8e622740a3",
   "reader_gate_v2": {
