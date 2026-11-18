@@ -1,9 +1,9 @@
 {
   "target_date": "2026-11-18",
   "scheduled_for": "10:15 Asia/Shanghai",
-  "run_started_at": "2026-11-18T10:15:15+08:00",
-  "status": "FAILED",
-  "completed_at": "2026-11-18T10:16:35+08:00",
+  "run_started_at": "2026-11-18T10:45:00+08:00",
+  "status": "PRODUCER_SUCCESS_CANDIDATES_PENDING_WORK",
+  "completed_at": "2026-11-18T11:07:42+08:00",
   "authority": {
     "library_file_id": "libfile_b8e5722993c08191a5185615ed3d33ab",
     "version_id": "103",
@@ -15,90 +15,125 @@
   },
   "window_start": "2026-11-17T10:00:00+08:00",
   "window_end": "2026-11-18T10:00:00+08:00",
-  "products_repaired_or_produced": [],
-  "producer_recovery_queue_remaining": [
+  "products_repaired_or_produced": [
     "2026-11-18"
   ],
-  "queue_for_12_30_work": [],
-  "post_run_self_audit_status": "NOT_RUN",
-  "evidence_claim_role_status": "NOT_RUN",
-  "evidence_support_alignment_status": "NOT_RUN",
-  "failure_stage": "SOURCE_ACQUISITION_AND_V4_DEPTH_PRECOMMIT",
-  "failure_reason": "After bounded A-E source acquisition, insufficient fully time-zone-verified directly supported CORE/MATERIAL evidence to form 3 independent decision signals and pass native V4. No candidate files written; cannot claim Producer acceptance.",
+  "producer_recovery_queue_remaining": [],
+  "queue_for_12_30_work": [
+    "2026-11-18"
+  ],
+  "post_run_self_audit_status": "PASS",
+  "evidence_claim_role_status": "PASS",
+  "evidence_support_alignment_status": "PASS",
+  "failure_stage": null,
+  "failure_reason": null,
   "search_passes": [
     {
       "pass": 1,
-      "channels": [
-        "A Chinese natural gas LNG official and supply",
-        "B Chinese LPG propane butane prices",
-        "C Brent WTI Reuters and exchanges",
-        "D North America Europe Asia natural gas LNG",
-        "E policy company and oil gas projects"
-      ]
+      "channels": {
+        "A": "Opened SHPGX CLD weekly analysis; timestamp timezone unresolved and data period 11/09-13.",
+        "B": "Searched China LPG professional sources; one Mysteel listing returned 411; regional quote pages identified.",
+        "C": "Opened Reuters energy market commentary and Newsquawk crude settlement wrap with exact UTC times.",
+        "D": "Opened Reuters US LNG feedgas article; Enercast Gas Day 11/17 page observed but actual publication time not established.",
+        "E": "Opened Reuters Enel/Aneel concession report with exact UTC time; no same-window official final decision located."
+      }
     },
     {
       "pass": 2,
-      "channels": [
-        "A SHPGX official CLD exact document",
-        "B Mysteel LPG price semantics",
-        "D EIA and European storage",
-        "E energy companies and projects"
-      ]
+      "channels": {
+        "A": "No additional accepted official China gas source; retain explicit time-zone/data-period gap.",
+        "B": "Targeted Longzhong/Mysteel regional LPG pages; timestamps or price basis not sufficiently verified, no price admitted.",
+        "C": "Confirmed Reuters 06:00 UTC commentary and Newsquawk 20:19 UTC settlement report; both inside fixed window.",
+        "D": "Confirmed Reuters 19:13 UTC US LNG feedgas report; retained facility-outage caveat and no independent page-time substitution.",
+        "E": "Confirmed Reuters 21:48 UTC Enel/Aneel procedure report; decision remains pending."
+      }
     }
   ],
   "verified_sources": [
     {
-      "observed_url": "https://live.euronext.com/en/financial-news/oil-edges-tanker-attacks-expected-us-crude-drop",
-      "canonical_url": "https://live.euronext.com/en/financial-news/oil-edges-tanker-attacks-expected-us-crude-drop",
-      "title": "Oil edges up on tanker attacks, expected US crude drop",
-      "publisher": "Reuters via Euronext",
-      "publication_time": "2026-11-17 20:55",
-      "timezone": "Euronext page timezone not independently established",
-      "converted_window_result": "TIMEZONE_UNVERIFIED; not counted as fully verified"
+      "observed_url": "https://www.reuters.com/commentary/reuters-open-interest/midterm-meltdown-how-us-elections-sparked-rethink-energy-risks-2026-11-17/",
+      "canonical_url": "https://www.reuters.com/commentary/reuters-open-interest/midterm-meltdown-how-us-elections-sparked-rethink-energy-risks-2026-11-17/",
+      "title": "Midterm Meltdown - How US elections sparked a rethink on energy risks",
+      "publisher": "Reuters",
+      "publication_time": "2026-11-17T06:00:00Z",
+      "timezone": "UTC",
+      "converted_window_result": "2026-11-17T14:00:00+08:00; IN_WINDOW"
+    },
+    {
+      "observed_url": "https://www.newsquawk.com/headlines/crude-wrap-wti-z6-settles-usd-029-higher-at-8601bbl-brent-f2-settles-usd-070-higher-at-9314bbl",
+      "canonical_url": "https://www.newsquawk.com/headlines/crude-wrap-wti-z6-settles-usd-029-higher-at-8601bbl-brent-f2-settles-usd-070-higher-at-9314bbl",
+      "title": "CRUDE WRAP: WTI (Z6) settles USD 0.29 higher at 86.01/bbl; Brent (F7) settles USD 0.70 higher at 93.14/bbl",
+      "publisher": "Newsquawk",
+      "publication_time": "2026-11-17T20:19:00Z",
+      "timezone": "UTC",
+      "converted_window_result": "2026-11-18T04:19:00+08:00; IN_WINDOW"
+    },
+    {
+      "observed_url": "https://www.reuters.com/business/energy/us-lng-feedgas-slips-sabine-pass-demand-drops-freeport-remains-constrained-2026-11-17/",
+      "canonical_url": "https://www.reuters.com/business/energy/us-lng-feedgas-slips-sabine-pass-demand-drops-freeport-remains-constrained-2026-11-17/",
+      "title": "US LNG feedgas slips as Sabine Pass demand drops, Freeport facility constrained",
+      "publisher": "Reuters",
+      "publication_time": "2026-11-17T19:13:00Z",
+      "timezone": "UTC",
+      "converted_window_result": "2026-11-18T03:13:00+08:00; IN_WINDOW"
+    },
+    {
+      "observed_url": "https://www.reuters.com/business/energy/brazil-regulator-forms-majority-recommend-ending-enels-sao-paulo-concession-2026-11-17/",
+      "canonical_url": "https://www.reuters.com/business/energy/brazil-regulator-forms-majority-recommend-ending-enels-sao-paulo-concession-2026-11-17/",
+      "title": "Brazil regulator pauses Enel Sao Paulo case after majority back ending contract",
+      "publisher": "Reuters",
+      "publication_time": "2026-11-17T21:48:00Z",
+      "timezone": "UTC",
+      "converted_window_result": "2026-11-18T05:48:00+08:00; IN_WINDOW"
     }
   ],
   "source_gaps": [
     {
       "channel": "A",
       "url": "https://www.shpgx.com/html/xyzx/20261117/10339.html",
-      "observed": "CLD weekly analysis posted 2026-11-17 16:30:48, data period 11/09-11/13",
-      "reason": "Publisher page does not explicitly establish timezone; TIMEZONE_UNVERIFIED"
+      "observed": "CLD weekly analysis displayed 2026-11-17 16:30:48; data period 2026-11-09 to 2026-11-13.",
+      "reason": "Publisher page did not establish timestamp timezone; period is a prior week. Not accepted as current in-window price/event evidence."
     },
     {
       "channel": "B",
       "url": "https://www.mysteel.com/hot/1601585.html",
-      "observed": "Index lists dated LPG quotations but original fetch returned 411; most shown prices belong to older observation dates",
-      "reason": "Exact daily source publication time, timezone and current price basis unverified"
+      "observed": "LPG index/listing page returned HTTP 411 on direct access; search listing contained some dated price items, several with older observation dates.",
+      "reason": "Exact page publication time, timezone and current quote basis not verified. Endpoint failure does not invalidate the whole LPG channel."
+    },
+    {
+      "channel": "B",
+      "url": "https://oil.oilchem.net/oil/LPG.shtml",
+      "observed": "Longzhong LPG listing displayed 2026-11-17 regional updates including 11:53/11:54 items.",
+      "reason": "Exact article pages and applicable publisher timestamp timezone basis not verified; prices not admitted as in-window facts."
+    },
+    {
+      "channel": "D",
+      "url": "https://mail.enercast.com/daily-summary/2026/11/17/",
+      "observed": "Gas Day November 17, LNG Feedgas table; page says updated daily by 7:30 AM ET.",
+      "reason": "Actual publication timestamp not displayed; update schedule and data day are not substitutes for exact publication time."
     },
     {
       "channel": "C",
       "url": "https://live.euronext.com/en/financial-news/oil-edges-tanker-attacks-expected-us-crude-drop",
-      "observed": "Reuters copy shows Nov 17 20:55 and settlement Brent 93.14 WTI 86.01 USD/bbl",
-      "reason": "Page timezone not proven; Reuters independent original not confirmed"
-    },
-    {
-      "channel": "D",
-      "url": "https://www.eia.gov/pressroom/releases/press594.php",
-      "observed": "Official EIA press release November 10, 2026",
-      "reason": "OUTSIDE_WINDOW; only historical background"
-    },
-    {
-      "channel": "D",
-      "url": "https://voltstack.energy/lng-send-out",
-      "observed": "Rendered Nov 17, data gas days through Nov 16",
-      "reason": "No exact publication time/timezone; DATA_PERIOD_NOT_PUBLICATION_TIME"
-    },
-    {
-      "channel": "E",
-      "url": "https://www.reuters.com/technology/equinor-detects-ongoing-cyberattack-output-unaffected-2026-11-17/",
-      "observed": "Relevant energy operator incident dated Nov 17",
-      "reason": "Exact source publication timestamp not independently verified"
+      "observed": "Reuters reprint page displayed November 17 20:55; page timezone not established.",
+      "reason": "TIMEZONE_UNVERIFIED; replaced by exact Reuters original and independent Newsquawk settlement report. Not listed as verified."
     }
   ],
   "unverified_source_count": 5,
-  "source_identity_gate_status": "NOT_PASSED",
-  "v4_public_depth_gate_status": "NOT_PASSED",
-  "four_piece_files_written": 0,
+  "source_identity_gate_status": "PASS_7_OF_7",
+  "inline_citation_gate_status": "PASS_7_OF_7",
+  "v4_public_depth_gate_status": "PASS_3442_CJK_3_CARDS",
+  "evidence_status": "PASS_7_MATERIAL_DIRECT_CLAIMS",
+  "strict_v2_ledger_status": "PASS_43_COLUMNS_7_ROWS",
+  "four_piece_files_written": 4,
+  "four_piece_files_sha256": {
+    "public_core.md": "b7ec9ce5870544e362654cb667b319d8a541f5ac68e756b126a8daf1cbb69319",
+    "evidence.json": "b9901b523d90c15117281dfed6db8f1470000f79ce0fbd5facb22ed08cadc146",
+    "evidence_ledger_v2_2026-11-18.csv": "86e84756d9ca7a119e4055a0873dec6c71eaa534682da53be3f5e39fbce54491"
+  },
   "policy_mirror_authority_policy_sha256_match": true,
-  "policy_mirror_public_subset_hash": "MATCHED_EXISTING_AUTHORITY_MIRROR_VALUE_64770bf24f1280d11060d6a905a659241d5e483109fc8c3e34195a8264fc48f6_NOT_INDEPENDENTLY_RECOMPUTED"
+  "policy_mirror_authority_policy_sha256": "ed69573e48d0daedd1b899ab2d6cf15880f37705f88b44b1a9d2ca26715f9905",
+  "policy_mirror_public_subset_hash": "64770bf24f1280d11060d6a905a659241d5e483109fc8c3e34195a8264fc48f6",
+  "policy_mirror_github_blob_sha": "0d7a4b53575cececdf028e3c5771c35f48188b7b",
+  "source_gap_boundary_status": "PASS_EXPLICIT_CHINA_LNG_LPG_GAPS_AND_US_LNG_PRELIMINARY_DATA_BOUNDARIES"
 }
