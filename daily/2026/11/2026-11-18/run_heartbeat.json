@@ -2,7 +2,7 @@
   "target_date": "2026-11-18",
   "scheduled_for": "10:15 Asia/Shanghai",
   "run_started_at": "2026-11-18T10:45:00+08:00",
-  "status": "PRODUCER_SUCCESS_CANDIDATES_PENDING_WORK",
+  "status": "PARTIAL_SUCCESS_RECOVERY_QUEUE_REMAINS",
   "completed_at": "2026-11-18T11:07:42+08:00",
   "authority": {
     "library_file_id": "libfile_b8e5722993c08191a5185615ed3d33ab",
@@ -22,11 +22,11 @@
   "queue_for_12_30_work": [
     "2026-11-18"
   ],
-  "post_run_self_audit_status": "PASS",
+  "post_run_self_audit_status": "PENDING_NATIVE_REVALIDATION",
   "evidence_claim_role_status": "PASS",
   "evidence_support_alignment_status": "PASS",
-  "failure_stage": null,
-  "failure_reason": null,
+  "failure_stage": "INLINE_CITATION_SOURCE_BINDING_REPAIR",
+  "failure_reason": "11/18 Product V4 native Consumer returned inline_citation_source_binding_fail: narrative E03/E04 were bound to wrong Evidence records; correcting candidate and revalidating before final Producer claim.",
   "search_passes": [
     {
       "pass": 1,
@@ -121,7 +121,7 @@
   ],
   "unverified_source_count": 5,
   "source_identity_gate_status": "PASS_7_OF_7",
-  "inline_citation_gate_status": "PASS_7_OF_7",
+  "inline_citation_gate_status": "FAIL_PREVIOUS_BINDING__REPAIR_IN_PROGRESS",
   "v4_public_depth_gate_status": "PASS_3442_CJK_3_CARDS",
   "evidence_status": "PASS_7_MATERIAL_DIRECT_CLAIMS",
   "strict_v2_ledger_status": "PASS_43_COLUMNS_7_ROWS",
@@ -135,5 +135,6 @@
   "policy_mirror_authority_policy_sha256": "ed69573e48d0daedd1b899ab2d6cf15880f37705f88b44b1a9d2ca26715f9905",
   "policy_mirror_public_subset_hash": "64770bf24f1280d11060d6a905a659241d5e483109fc8c3e34195a8264fc48f6",
   "policy_mirror_github_blob_sha": "0d7a4b53575cececdf028e3c5771c35f48188b7b",
-  "source_gap_boundary_status": "PASS_EXPLICIT_CHINA_LNG_LPG_GAPS_AND_US_LNG_PRELIMINARY_DATA_BOUNDARIES"
+  "source_gap_boundary_status": "PASS_EXPLICIT_CHINA_LNG_LPG_GAPS_AND_US_LNG_PRELIMINARY_DATA_BOUNDARIES",
+  "repair_source": "2026-11-18 12:30 native Consumer receipt; minimum record-preserving correction"
 }
