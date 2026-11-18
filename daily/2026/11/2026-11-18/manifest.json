@@ -25,7 +25,7 @@
   "public_contract_sha256": "64770bf24f1280d11060d6a905a659241d5e483109fc8c3e34195a8264fc48f6",
   "authority_policy_sha256": "ed69573e48d0daedd1b899ab2d6cf15880f37705f88b44b1a9d2ca26715f9905",
   "source_identity_gate_status": "PASS_7_OF_7_PRODUCER_EXACT_DOCUMENT_RECEIPTS",
-  "inline_citation_gate_status": "PASS_7_OF_7_EXACT_ID_URL_BINDINGS",
+  "inline_citation_gate_status": "PASS_7_OF_7_EXACT_ID_URL_BINDINGS__WORK_NATIVE_PENDING",
   "expert_signal_priority_status": "PASS_3_SEPARATE_DECISION_SIGNALS",
   "exact_v4_machine_structure_status": "PASS",
   "v4_public_depth_gate_status": "PASS_3442_CJK_3_CARDS",
@@ -34,7 +34,7 @@
   "evidence_status": "PASS_7_MATERIAL_DIRECT_CLAIMS",
   "strict_v2_ledger_status": "PASS_PRODUCER_PREFLIGHT_43_COLUMNS_7_ROWS_NATIVE_WORK_PENDING",
   "data_gap_boundary_status": "PASS_CHINA_LNG_LPG_PRICE_TIMEZONE_AND_BASIS_GAPS_DISCLOSED",
-  "producer_self_audit_status": "PASS_PRODUCER_PREFLIGHT__WORK_NATIVE_PENDING",
+  "producer_self_audit_status": "PASS_LOCAL_BINDING_RECONCILIATION__WORK_NATIVE_PENDING",
   "consumer_status": "NOT_RUN__WORK_NATIVE_CONSUMER_REQUIRED",
   "canonical_mutation_performed": false,
   "site_publication_performed": false,
@@ -52,7 +52,7 @@
     "CHINA_LPG_REGION_QUOTES_TIMEZONE_OR_PRICE_BASIS_NOT_VERIFIED"
   ],
   "next_work_action": "Existing 12:30 Work independently consumes Daily 2026-11-18 candidate through native Consumer, Evidence V2, Reader V2, Lineage, P8G PRECOMMIT/COMMIT_VERIFICATION and R3 CAS; Producer has not changed Authority, Pointer or Site.",
-  "updated_at": "2026-11-18T03:07:42Z",
+  "updated_at": "2026-11-18T07:21:49.380Z",
   "producer_acceptance_completed_at": "2026-11-18T03:07:42Z",
   "evidence_claim_role_status": "PASS",
   "evidence_support_alignment_status": "PASS",
@@ -60,8 +60,8 @@
   "evidence_claim_scope_corrections": [],
   "producer_note": "All seven evidence records are MATERIAL with DIRECT support; no CORE claim is asserted. unsupported_core_claims is intentionally not prefilled; Work must independently derive it and run native Consumer gates.",
   "candidate_files_sha256": {
-    "public_core.md": "b7ec9ce5870544e362654cb667b319d8a541f5ac68e756b126a8daf1cbb69319",
-    "evidence.json": "b9901b523d90c15117281dfed6db8f1470000f79ce0fbd5facb22ed08cadc146",
-    "evidence_ledger_v2_2026-11-18.csv": "86e84756d9ca7a119e4055a0873dec6c71eaa534682da53be3f5e39fbce54491"
+    "public_core.md": "fc3c2089e551b0893fb437f1bec11ff306cca63c314c8afad0cd818ef7fe15b7",
+    "evidence.json": "78ab5dd59a33a4767c79e3d99bf8b11d6d7ba4c0593b1c3acbaf69ff73ef4daa",
+    "evidence_ledger_v2_2026-11-18.csv": "030bec33b849f98c8d487ad32db5a914024baac9753d1b0ff0f95ac740affacc"
   }
 }
