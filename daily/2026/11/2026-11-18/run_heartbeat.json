@@ -2,5 +2,103 @@
   "target_date": "2026-11-18",
   "scheduled_for": "10:15 Asia/Shanghai",
   "run_started_at": "2026-11-18T10:15:15+08:00",
-  "status": "RUN_STARTED_BEFORE_PREFLIGHT"
+  "status": "FAILED",
+  "completed_at": "2026-11-18T10:16:35+08:00",
+  "authority": {
+    "library_file_id": "libfile_b8e5722993c08191a5185615ed3d33ab",
+    "version_id": "103",
+    "immutable_file_id": "file_00000000f86c81f4b6c28018713cb0aa",
+    "sha256": "46ac34e21717e533823c2a1128a2ad234cee0b2695112c6afe2b97f4a96567f0",
+    "zip_integrity": "PASS",
+    "pointer_sha256": "49af9a29f9af5e5a3596b2a57ed01b363f05c82f3b3136655ed90beab7fbe940",
+    "current_daily": "2026-11-17"
+  },
+  "window_start": "2026-11-17T10:00:00+08:00",
+  "window_end": "2026-11-18T10:00:00+08:00",
+  "products_repaired_or_produced": [],
+  "producer_recovery_queue_remaining": [
+    "2026-11-18"
+  ],
+  "queue_for_12_30_work": [],
+  "post_run_self_audit_status": "NOT_RUN",
+  "evidence_claim_role_status": "NOT_RUN",
+  "evidence_support_alignment_status": "NOT_RUN",
+  "failure_stage": "SOURCE_ACQUISITION_AND_V4_DEPTH_PRECOMMIT",
+  "failure_reason": "After bounded A-E source acquisition, insufficient fully time-zone-verified directly supported CORE/MATERIAL evidence to form 3 independent decision signals and pass native V4. No candidate files written; cannot claim Producer acceptance.",
+  "search_passes": [
+    {
+      "pass": 1,
+      "channels": [
+        "A Chinese natural gas LNG official and supply",
+        "B Chinese LPG propane butane prices",
+        "C Brent WTI Reuters and exchanges",
+        "D North America Europe Asia natural gas LNG",
+        "E policy company and oil gas projects"
+      ]
+    },
+    {
+      "pass": 2,
+      "channels": [
+        "A SHPGX official CLD exact document",
+        "B Mysteel LPG price semantics",
+        "D EIA and European storage",
+        "E energy companies and projects"
+      ]
+    }
+  ],
+  "verified_sources": [
+    {
+      "observed_url": "https://live.euronext.com/en/financial-news/oil-edges-tanker-attacks-expected-us-crude-drop",
+      "canonical_url": "https://live.euronext.com/en/financial-news/oil-edges-tanker-attacks-expected-us-crude-drop",
+      "title": "Oil edges up on tanker attacks, expected US crude drop",
+      "publisher": "Reuters via Euronext",
+      "publication_time": "2026-11-17 20:55",
+      "timezone": "Euronext page timezone not independently established",
+      "converted_window_result": "TIMEZONE_UNVERIFIED; not counted as fully verified"
+    }
+  ],
+  "source_gaps": [
+    {
+      "channel": "A",
+      "url": "https://www.shpgx.com/html/xyzx/20261117/10339.html",
+      "observed": "CLD weekly analysis posted 2026-11-17 16:30:48, data period 11/09-11/13",
+      "reason": "Publisher page does not explicitly establish timezone; TIMEZONE_UNVERIFIED"
+    },
+    {
+      "channel": "B",
+      "url": "https://www.mysteel.com/hot/1601585.html",
+      "observed": "Index lists dated LPG quotations but original fetch returned 411; most shown prices belong to older observation dates",
+      "reason": "Exact daily source publication time, timezone and current price basis unverified"
+    },
+    {
+      "channel": "C",
+      "url": "https://live.euronext.com/en/financial-news/oil-edges-tanker-attacks-expected-us-crude-drop",
+      "observed": "Reuters copy shows Nov 17 20:55 and settlement Brent 93.14 WTI 86.01 USD/bbl",
+      "reason": "Page timezone not proven; Reuters independent original not confirmed"
+    },
+    {
+      "channel": "D",
+      "url": "https://www.eia.gov/pressroom/releases/press594.php",
+      "observed": "Official EIA press release November 10, 2026",
+      "reason": "OUTSIDE_WINDOW; only historical background"
+    },
+    {
+      "channel": "D",
+      "url": "https://voltstack.energy/lng-send-out",
+      "observed": "Rendered Nov 17, data gas days through Nov 16",
+      "reason": "No exact publication time/timezone; DATA_PERIOD_NOT_PUBLICATION_TIME"
+    },
+    {
+      "channel": "E",
+      "url": "https://www.reuters.com/technology/equinor-detects-ongoing-cyberattack-output-unaffected-2026-11-17/",
+      "observed": "Relevant energy operator incident dated Nov 17",
+      "reason": "Exact source publication timestamp not independently verified"
+    }
+  ],
+  "unverified_source_count": 5,
+  "source_identity_gate_status": "NOT_PASSED",
+  "v4_public_depth_gate_status": "NOT_PASSED",
+  "four_piece_files_written": 0,
+  "policy_mirror_authority_policy_sha256_match": true,
+  "policy_mirror_public_subset_hash": "MATCHED_EXISTING_AUTHORITY_MIRROR_VALUE_64770bf24f1280d11060d6a905a659241d5e483109fc8c3e34195a8264fc48f6_NOT_INDEPENDENTLY_RECOMPUTED"
 }
