@@ -121,7 +121,7 @@
   ],
   "unverified_source_count": 5,
   "source_identity_gate_status": "PASS_7_OF_7",
-  "inline_citation_gate_status": "PASS_7_OF_7_EXACT_ID_URL_BINDINGS__WORK_NATIVE_PENDING",
+  "inline_citation_gate_status": "PASS_7_OF_7",
   "v4_public_depth_gate_status": "PASS_3442_CJK_3_CARDS",
   "evidence_status": "PASS_7_MATERIAL_DIRECT_CLAIMS",
   "strict_v2_ledger_status": "PASS_43_COLUMNS_7_ROWS",
