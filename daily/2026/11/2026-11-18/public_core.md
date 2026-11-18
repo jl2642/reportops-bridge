@@ -29,22 +29,22 @@ window_end: 2026-11-18T10:00:00+08:00
 - **下一步验证**：跟踪Brent近月价差、VLCC中东至亚洲运价、战争险附加费和海峡实际通行量；若价格回落而运费/保险持续上行，说明风险成本尚未同步消退。
 
 ### 信号卡2｜美国LNG出口Feedgas回落，设施可用率仍需核实
-- **事实摘要**：Reuters于11月17日19:13 UTC发布报道，援引LSEG初步数据称，美国LNG出口设施Feedgas周二约为19.2 bcfd，低于前一日约19.5 bcfd；Sabine Pass接收量降至约4.2 bcfd，前一日超过5.0 bcfd；Freeport约为1.5 bcfd，低于通常约2.0 bcfd的水平。[E03](https://www.reuters.com/business/energy/us-lng-feedgas-slips-sabine-pass-demand-drops-freeport-remains-constrained-2026-11-17/)
+- **事实摘要**：Reuters于11月17日19:13 UTC发布报道，援引LSEG初步数据称，美国LNG出口设施Feedgas周二约为19.2 bcfd，低于前一日约19.5 bcfd；Sabine Pass接收量降至约4.2 bcfd，前一日超过5.0 bcfd；Freeport约为1.5 bcfd，低于通常约2.0 bcfd的水平。[E04](https://www.reuters.com/business/energy/us-lng-feedgas-slips-sabine-pass-demand-drops-freeport-remains-constrained-2026-11-17/) [E05](https://www.reuters.com/business/energy/us-lng-feedgas-slips-sabine-pass-demand-drops-freeport-remains-constrained-2026-11-17/)
 - **运营信息**：报道认为Sabine Pass至少一条液化列车可能停运或降负荷，但这只是根据Feedgas变化作出的判断。Cheniere未发表评论；Freeport方面表示其三条液化列车均在运行。由此可见，Feedgas下降是出口端的早期观察信号，不能直接等同于确认设备故障或产能损失。
 - **为什么重要**：美国是全球重要的边际LNG供应来源，Feedgas变化会影响短期可出口量预期，并通过美国天然气需求、液化设施负荷和跨区域货流传导至国际市场。若下降持续，欧洲和亚洲买家对灵活货源的竞争可能重新升温；若很快恢复，则更可能是短周期调度或个别设施负荷波动。
 - **反证和边界**：LSEG数据为初步数据，且报道明确记录Freeport称三条列车正在运行。当前没有证据支持将该变化表述为美国LNG出口能力发生结构性下降，也不能据此推算月度出口量或现货价格变化。
 - **下一步验证**：连续跟踪Sabine Pass、Freeport及美国全国Feedgas日度序列，核对后续装船量、设施公告和船期；只有当Feedgas下降与装船减少、设施公告相互印证时，才上调为实质性供应扰动。
 
 ### 信号卡3｜巴西电力特许经营审查延续，监管程序尚未形成最终结论
-- **事实摘要**：Reuters于11月17日21:48 UTC报道，巴西电力监管机构Aneel董事会五名成员中已有四名支持建议提前终止Enel圣保罗配电特许经营权，但最后一名尚未投票的董事要求更多时间审阅材料，导致表决暂缓；若建议继续推进，最终决定权仍属于巴西矿业和能源部。[E04](https://www.reuters.com/business/energy/brazil-regulator-forms-majority-recommend-ending-enels-sao-paulo-concession-2026-11-17/)
+- **事实摘要**：Reuters于11月17日21:48 UTC报道，巴西电力监管机构Aneel董事会五名成员中已有四名支持建议提前终止Enel圣保罗配电特许经营权，但最后一名尚未投票的董事要求更多时间审阅材料，导致表决暂缓；若建议继续推进，最终决定权仍属于巴西矿业和能源部。[E06](https://www.reuters.com/business/energy/brazil-regulator-forms-majority-recommend-ending-enels-sao-paulo-concession-2026-11-17/)
 - **为什么重要**：该事件并非油气价格信号，但对能源基础设施投资具有直接的监管风险提示。配电特许经营权的提前终止涉及公共服务连续性、监管证据标准、企业整改能力及政府最终决策，程序推进速度与最终法律结果之间存在明显距离。对跨境电力、管网和公用事业投资而言，经营许可和服务质量指标可能比单期财务表现更早触发风险重估。
-- **事实边界**：本次报道描述的是监管董事会的建议倾向和程序暂停，不是特许经营权已经终止，也不是政府已作出接管或重新招标决定。Enel表示延期使其提交的数据和论据有机会接受技术评估；后续仍需等待监管机构恢复审议及主管部门决定。
+- **事实边界**：本次报道描述的是监管董事会的建议倾向和程序暂停，不是特许经营权已经终止，也不是政府已作出接管或重新招标决定。Enel表示延期使其提交的数据和论据有机会接受技术评估。[E07](https://www.reuters.com/business/energy/brazil-regulator-forms-majority-recommend-ending-enels-sao-paulo-concession-2026-11-17/) 后续仍需等待监管机构恢复审议及主管部门决定。
 - **下一步验证**：关注Aneel后续会议议程、正式表决结果、巴西矿业和能源部的决定，以及是否出现过渡运营、服务连续性或重新招标安排。
 
 <!-- MODULE:PRICE_AND_SPREAD_DELTA -->
 ## 3. 价格与价差变化
 
-本窗口能够确认的国际基准价格信息为11月17日原油期货结算：Brent F7为93.14美元/桶，较前一结算上涨0.70美元；WTI Z6为86.01美元/桶，上涨0.29美元。[E02](https://www.newsquawk.com/headlines/crude-wrap-wti-z6-settles-usd-029-higher-at-8601bbl-brent-f2-settles-usd-070-higher-at-9314bbl) 该数据属于期货结算口径，不是现货成交价，也不应与不同月份合约或盘中报价混用。当前材料没有提供可比的当窗中国LNG、华东/华南LPG现货报价或进口到岸价，因此不计算国内外价差、区域价差或丙丁烷价差。**DATA_GAP：无可用替代的同窗口、同口径国内LNG/LPG价格序列。**
+本窗口能够确认的国际基准价格信息为11月17日原油期货结算：Brent F7为93.14美元/桶，较前一结算上涨0.70美元；WTI Z6为86.01美元/桶，上涨0.29美元。[E02](https://www.newsquawk.com/headlines/crude-wrap-wti-z6-settles-usd-029-higher-at-8601bbl-brent-f2-settles-usd-070-higher-at-9314bbl) [E03](https://www.newsquawk.com/headlines/crude-wrap-wti-z6-settles-usd-029-higher-at-8601bbl-brent-f2-settles-usd-070-higher-at-9314bbl) 该数据属于期货结算口径，不是现货成交价，也不应与不同月份合约或盘中报价混用。当前材料没有提供可比的当窗中国LNG、华东/华南LPG现货报价或进口到岸价，因此不计算国内外价差、区域价差或丙丁烷价差。**DATA_GAP：无可用替代的同窗口、同口径国内LNG/LPG价格序列。**
 
 油价结算小幅上涨与中期风险溢价回吐的叙事并存，说明市场仍在对地缘消息进行短期定价。若后续实际供应流量未受影响，事件驱动的价格波动可能回归供需基本面；若运输、保险或装船量发生持续变化，则风险溢价可能重新扩大。当前不宜用单日涨跌推断趋势反转。
 
@@ -90,6 +90,6 @@ window_end: 2026-11-18T10:00:00+08:00
 ## Public Sources
 
 - [E01] Reuters, *Midterm Meltdown - How US elections sparked a rethink on energy risks* — 2026-11-17 06:00 UTC：https://www.reuters.com/commentary/reuters-open-interest/midterm-meltdown-how-us-elections-sparked-rethink-energy-risks-2026-11-17/
-- [E02] Newsquawk, *CRUDE WRAP: WTI (Z6) settles USD 0.29 higher at 86.01/bbl; Brent (F7) settles USD 0.70 higher at 93.14/bbl* — 2026-11-17 20:19 UTC：https://www.newsquawk.com/headlines/crude-wrap-wti-z6-settles-usd-029-higher-at-8601bbl-brent-f2-settles-usd-070-higher-at-9314bbl
-- [E03] Reuters, *US LNG feedgas slips as Sabine Pass demand drops, Freeport facility constrained* — 2026-11-17 19:13 UTC：https://www.reuters.com/business/energy/us-lng-feedgas-slips-sabine-pass-demand-drops-freeport-remains-constrained-2026-11-17/
-- [E04] Reuters, *Brazil regulator pauses Enel Sao Paulo case after majority back ending contract* — 2026-11-17 21:48 UTC：https://www.reuters.com/business/energy/brazil-regulator-forms-majority-recommend-ending-enels-sao-paulo-concession-2026-11-17/
+- [E02/E03] Newsquawk, *CRUDE WRAP: WTI (Z6) settles USD 0.29 higher at 86.01/bbl; Brent (F7) settles USD 0.70 higher at 93.14/bbl* — 2026-11-17 20:19 UTC：https://www.newsquawk.com/headlines/crude-wrap-wti-z6-settles-usd-029-higher-at-8601bbl-brent-f2-settles-usd-070-higher-at-9314bbl
+- [E04/E05] Reuters, *US LNG feedgas slips as Sabine Pass demand drops, Freeport facility constrained* — 2026-11-17 19:13 UTC：https://www.reuters.com/business/energy/us-lng-feedgas-slips-sabine-pass-demand-drops-freeport-remains-constrained-2026-11-17/
+- [E06/E07] Reuters, *Brazil regulator pauses Enel Sao Paulo case after majority back ending contract* — 2026-11-17 21:48 UTC：https://www.reuters.com/business/energy/brazil-regulator-forms-majority-recommend-ending-enels-sao-paulo-concession-2026-11-17/
