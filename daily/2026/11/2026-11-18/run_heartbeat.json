@@ -2,8 +2,8 @@
   "target_date": "2026-11-18",
   "scheduled_for": "10:15 Asia/Shanghai",
   "run_started_at": "2026-11-18T10:45:00+08:00",
-  "status": "RUN_STARTED_BEFORE_PREFLIGHT",
-  "completed_at": null,
+  "status": "PRODUCER_SUCCESS_CANDIDATES_PENDING_WORK",
+  "completed_at": "2026-11-18T11:17:26+08:00",
   "authority": {
     "library_file_id": "libfile_b8e5722993c08191a5185615ed3d33ab",
     "version_id": "103",
@@ -15,16 +15,18 @@
   },
   "window_start": "2026-11-17T10:00:00+08:00",
   "window_end": "2026-11-18T10:00:00+08:00",
-  "products_repaired_or_produced": [],
-  "producer_recovery_queue_remaining": [
+  "products_repaired_or_produced": [
     "2026-11-18"
   ],
-  "queue_for_12_30_work": [],
-  "post_run_self_audit_status": "NOT_RUN",
-  "evidence_claim_role_status": "NOT_RUN",
-  "evidence_support_alignment_status": "NOT_RUN",
-  "failure_stage": "SOURCE_ACQUISITION_AND_V4_DEPTH_PRECOMMIT__RETRY_IN_PROGRESS",
-  "failure_reason": "Prior scheduled 10:15 attempt failed before candidate creation. Immediate same-window retry is now in progress with targeted source discovery fallback and Authority-native Policy hash verification; prior attempt remains in GitHub commit history.",
+  "producer_recovery_queue_remaining": [],
+  "queue_for_12_30_work": [
+    "2026-11-18"
+  ],
+  "post_run_self_audit_status": "PASS",
+  "evidence_claim_role_status": "PASS",
+  "evidence_support_alignment_status": "PASS",
+  "failure_stage": null,
+  "failure_reason": null,
   "search_passes": [
     {
       "pass": 1,
@@ -96,9 +98,21 @@
     }
   ],
   "unverified_source_count": 5,
-  "source_identity_gate_status": "NOT_PASSED",
-  "v4_public_depth_gate_status": "NOT_PASSED",
-  "four_piece_files_written": 0,
+  "source_identity_gate_status": "PASS_7_OF_7",
+  "v4_public_depth_gate_status": "PASS_3442_CJK_3_CARDS",
+  "four_piece_files_written": 4,
   "policy_mirror_authority_policy_sha256_match": true,
-  "policy_mirror_public_subset_hash": "MATCHED_EXISTING_AUTHORITY_MIRROR_VALUE_64770bf24f1280d11060d6a905a659241d5e483109fc8c3e34195a8264fc48f6_NOT_INDEPENDENTLY_RECOMPUTED"
+  "policy_mirror_public_subset_hash": "64770bf24f1280d11060d6a905a659241d5e483109fc8c3e34195a8264fc48f6",
+  "inline_citation_gate_status": "PASS_7_OF_7",
+  "evidence_status": "PASS_7_MATERIAL_DIRECT_CLAIMS",
+  "strict_v2_ledger_status": "PASS_43_COLUMNS_7_ROWS",
+  "four_piece_files_sha256": {
+    "public_core.md": "b7ec9ce5870544e362654cb667b319d8a541f5ac68e756b126a8daf1cbb69319",
+    "evidence.json": "b9901b523d90c15117281dfed6db8f1470000f79ce0fbd5facb22ed08cadc146",
+    "evidence_ledger_v2_2026-11-18.csv": "86e84756d9ca7a119e4055a0873dec6c71eaa534682da53be3f5e39fbce54491",
+    "manifest.json": "09d9a4502f21db3b3f4b0cc5c6dd35170100b960622d625058e56868b22a8eac"
+  },
+  "policy_mirror_authority_policy_sha256": "ed69573e48d0daedd1b899ab2d6cf15880f37705f88b44b1a9d2ca26715f9905",
+  "policy_mirror_github_blob_sha": "0d7a4b53575cececdf028e3c5771c35f48188b7b",
+  "source_gap_boundary_status": "PASS_EXPLICIT_CHINA_LNG_LPG_GAPS_AND_US_LNG_PRELIMINARY_DATA_BOUNDARIES"
 }
