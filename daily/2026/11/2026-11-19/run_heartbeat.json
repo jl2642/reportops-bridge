@@ -141,8 +141,8 @@
   "github_candidate_four_piece_readback": {
     "public_core.md": "6692af726cfc0dd3bb7559aa7999f0bd12423eb58808ca6f4b35f83a80e27fd6",
     "evidence.json": "b37079e5626ccbe8636b54df216fcb46de0ac75f74d45d6c2a7306d1bea8fc69",
-    "evidence_ledger_v2_2026-11-19.csv": "354ac8b0ab119beae7b4177e9bc55c803ddc95bd7aa1f5cbe3bda7887728b1ae",
-    "manifest.json": "4fdedc060d852d77f657f82a091cda0e27bc1f91d2ccb0e5e88d57a9516bae1e"
+    "evidence_ledger_v2_2026-11-19.csv": "3f17e6d22cc11c73e90394366fa2da92b528b3a66d6dd3811addeb1506231535",
+    "manifest.json": "dd238ab4ef4807f0fa2bd7b04342e00e10369ec1d0572029881e2379a429d086"
   },
   "historical_handoff_status": "NO_HISTORICAL_DATE_BETWEEN_AUTHORITY_CURRENT_AND_TARGET",
   "schedule_mutation_performed": false,
@@ -154,5 +154,6 @@
   "scheduled_attempt_original_failure_stage": "ISOLATED_DRAFT_V4_EVIDENCE_PRECOMMIT",
   "scheduled_attempt_original_failure_reason": "Isolated preliminary draft 340 CJK characters vs Authority V4 1800 hard floor; evidence.json and Strict V2 ledger not completed; full native Source Identity, Evidence and consumer-eligibility precheck not passed. No candidate committed. Do not infer other sources invalid from this draft.",
   "scheduled_attempt_audit_path": "daily/2026/11/2026-11-19/chat_recovery_handoff.json",
-  "source_time_correction": "The Guardian first published 2026-11-18 10:29 GMT (minute precision); page updated 16:19 GMT; source content and editorial facts unchanged"
+  "source_time_correction": "The Guardian first published 2026-11-18 10:29 GMT (minute precision); page updated 16:19 GMT; source content and editorial facts unchanged",
+  "ledger_csv_quote_repair": "E05 notes quoted to ensure exact 43-column STRICT_NEW CSV; 2026-11-19 interactive recovery; formal Work gates still required"
 }
