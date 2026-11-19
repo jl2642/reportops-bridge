@@ -1,0 +1,187 @@
+{
+  "schema_version": "REPORTOPS_CHAT_RECOVERY_HANDOFF_V1",
+  "target_date": "2026-11-19",
+  "status": "PRODUCER_SUCCESS_CANDIDATES_PENDING_WORK",
+  "execution_mode": "INTERACTIVE_RECOVERY_AFTER_10_15_SCHEDULED_FAILED",
+  "scheduled_attempt_status": "FAILED",
+  "scheduled_attempt_snapshot": {
+    "target_date": "2026-11-19",
+    "scheduled_for": "10:15 Asia/Shanghai",
+    "run_started_at": "2026-11-19T10:13:35+08:00",
+    "completed_at": "2026-11-19T10:14:34+08:00",
+    "window_start": "2026-11-18T10:00:00+08:00",
+    "window_end": "2026-11-19T10:00:00+08:00",
+    "status": "FAILED",
+    "authority_version_id": "105",
+    "authority_file_id": "file_00000000d48081fdbaf3f216b92f2373",
+    "authority_sha256": "bd0224e2b7315c935ee42629a40140781b1d25cb9b393e638015eede3d175c60",
+    "authority_pointer_sha256": "7b802d588974ae711cec5ebb20aaa2485d247b6ec563f9e586412e1a8238aba7",
+    "authority_current_daily": "2026-11-18",
+    "authority_zip_integrity": "PASS",
+    "policy_mirror_authority_policy_sha256_match": true,
+    "policy_drift_check": {
+      "returncode": 0,
+      "status": "PASS",
+      "authority_policy_sha256": "ed69573e48d0daedd1b899ab2d6cf15880f37705f88b44b1a9d2ca26715f9905",
+      "public_contract_sha256": "64770bf24f1280d11060d6a905a659241d5e483109fc8c3e34195a8264fc48f6"
+    },
+    "search_passes": [
+      {
+        "pass": 1,
+        "channels": [
+          "A China LNG supply and trading",
+          "B China LPG prices",
+          "C Reuters Brent WTI and inventories",
+          "D EIA Europe Asia LNG and gas",
+          "E energy projects and company events"
+        ],
+        "status": "SEARCHED"
+      },
+      {
+        "pass": 2,
+        "status": "NOT_EXECUTED"
+      }
+    ],
+    "verified_sources": [],
+    "source_gaps": [
+      {
+        "url": "https://nenghua.mysteel.com/a/26111812/AAD845FCEBC72545.html",
+        "reason": "TIMEZONE_UNVERIFIED; original page fetch disabled",
+        "observed_time": "2026-11-18 12:06, timezone absent"
+      },
+      {
+        "url": "https://www.reuters.com/business/energy/oil-prices-fall-higher-us-crude-stocks-temper-supply-risks-2026-11-18/",
+        "reason": "Source page publication timestamp and article's later settlement data require update-time reconciliation before accepting as atomic window evidence"
+      },
+      {
+        "url": "https://www.theguardian.com/business/live/2026/nov/18/uk-inflation-rises-higher-petrol-prices-nvidia-live-updates",
+        "reason": "Candidate claims identified; atomic source receipts, cross-check and ledger not completed"
+      }
+    ],
+    "unverified_source_count": 3,
+    "products_repaired_or_produced": [],
+    "producer_recovery_queue_remaining": [
+      "2026-11-19"
+    ],
+    "queue_for_12_30_work": [],
+    "post_run_self_audit_status": "NOT_RUN",
+    "evidence_claim_role_status": "NOT_RUN",
+    "evidence_support_alignment_status": "NOT_RUN",
+    "failure_stage": "ISOLATED_DRAFT_V4_EVIDENCE_PRECOMMIT",
+    "failure_reason": "Isolated preliminary draft 340 CJK characters vs Authority V4 1800 hard floor; evidence.json and Strict V2 ledger not completed; full native Source Identity, Evidence and consumer-eligibility precheck not passed. No candidate committed. Do not infer other sources invalid from this draft.",
+    "github_candidate_four_piece_readback": "NOT_WRITTEN",
+    "historical_handoff_status": "NO_HISTORICAL_DATE_BETWEEN_AUTHORITY_CURRENT_AND_TARGET",
+    "schedule_mutation_performed": false,
+    "authority_mutation_performed": false,
+    "site_mutation_performed": false
+  },
+  "completed_at": "2026-11-19T03:08:02.132Z",
+  "authority_version": 105,
+  "authority_sha256": "bd0224e2b7315c935ee42629a40140781b1d25cb9b393e638015eede3d175c60",
+  "github_files": {
+    "public_core.md": {
+      "path": "daily/2026/11/2026-11-19/public_core.md",
+      "sha256": "e30a76355153ce78b8a3f1e96287354f3530d24d02eef9146df2a2594afd3b16",
+      "bytes": 14383
+    },
+    "evidence.json": {
+      "path": "daily/2026/11/2026-11-19/evidence.json",
+      "sha256": "ae601df39ba0d0dca2168cd2947618815544d29643e16ed34f7eba0f056bfd31",
+      "bytes": 8300
+    },
+    "evidence_ledger_v2_2026-11-19.csv": {
+      "path": "daily/2026/11/2026-11-19/evidence_ledger_v2_2026-11-19.csv",
+      "sha256": "7dc7864026a4c860eb620cac59868de285aeb17f6ef7bbbf1a32c0774e817b20",
+      "bytes": 5399
+    },
+    "manifest.json": {
+      "path": "daily/2026/11/2026-11-19/manifest.json",
+      "sha256": "08c28ac08d25faf2edc1f95b075b8fd05c5facc00bce962f8024350377e11630",
+      "bytes": 3371
+    }
+  },
+  "validation": {
+    "native_v4": "PASS_3347_CJK",
+    "source_identity": "PASS_5_OF_5",
+    "inline_citations": "PASS",
+    "evidence_governance": "PASS_5_0_BLOCKERS",
+    "ledger_columns": 43,
+    "producer_self_audit": "PASS",
+    "policy_drift_from_scheduled_attempt": {
+      "returncode": 0,
+      "status": "PASS",
+      "authority_policy_sha256": "ed69573e48d0daedd1b899ab2d6cf15880f37705f88b44b1a9d2ca26715f9905",
+      "public_contract_sha256": "64770bf24f1280d11060d6a905a659241d5e483109fc8c3e34195a8264fc48f6"
+    }
+  },
+  "verified_sources": [
+    {
+      "id": "E01",
+      "observed_url": "https://www.eia.gov/petroleum/supply/weekly/",
+      "canonical_url": "https://www.eia.gov/petroleum/supply/weekly/",
+      "title": "Weekly Petroleum Status Report",
+      "publisher": "EIA",
+      "publication_time": "2026-11-18T15:30:00Z",
+      "timezone": "UTC",
+      "converted_window_result": "2026-11-18T23:30:00.000+08:00; IN_WINDOW",
+      "source_identity_status": "PASS",
+      "claim_id": "D20261119-C001",
+      "verification_method": "OPENED_EXACT_DOCUMENT"
+    },
+    {
+      "id": "E02",
+      "observed_url": "https://www.marketwatch.com/livecoverage/stock-market-today-s-p-500-nasdaq-dow-nvidia-q3-results-anthropic-expected-price-ipo/card/u-s-oil-prices-settle-at-3-month-low-as-crude-stockpiles-rise-for-a-second-week-zjW9TS1cXssTjjqxXNfS",
+      "canonical_url": "https://www.marketwatch.com/livecoverage/stock-market-today-s-p-500-nasdaq-dow-nvidia-q3-results-anthropic-expected-price-ipo/card/u-s-oil-prices-settle-at-3-month-low-as-crude-stockpiles-rise-for-a-second-week-zjW9TS1cXssTjjqxXNfS",
+      "title": "U.S. oil prices settle at 3-month low as crude stockpiles rise for a second week",
+      "publisher": "MarketWatch",
+      "publication_time": "2026-11-18T20:30:45Z",
+      "timezone": "UTC",
+      "converted_window_result": "2026-11-19T04:30:45.000+08:00; IN_WINDOW",
+      "source_identity_status": "PASS",
+      "claim_id": "D20261119-C002",
+      "verification_method": "OPENED_EXACT_DOCUMENT"
+    },
+    {
+      "id": "E03",
+      "observed_url": "https://www.reuters.com/business/energy/orlen-qatarenergy-talks-new-lng-deal-days-after-contract-termination-sources-say-2026-11-18/",
+      "canonical_url": "https://www.reuters.com/business/energy/orlen-qatarenergy-talks-new-lng-deal-days-after-contract-termination-sources-say-2026-11-18/",
+      "title": "Orlen, QatarEnergy in talks on new LNG deal days after contract termination, sources say",
+      "publisher": "Reuters",
+      "publication_time": "2026-11-18T17:31:30Z",
+      "timezone": "UTC",
+      "converted_window_result": "2026-11-19T01:31:30.000+08:00; IN_WINDOW",
+      "source_identity_status": "PASS",
+      "claim_id": "D20261119-C003",
+      "verification_method": "OPENED_EXACT_DOCUMENT"
+    },
+    {
+      "id": "E04",
+      "observed_url": "https://www.reuters.com/legal/transactional/enquest-sell-uk-north-sea-assets-up-960-million-2026-11-18/",
+      "canonical_url": "https://www.reuters.com/legal/transactional/enquest-sell-uk-north-sea-assets-up-960-million-2026-11-18/",
+      "title": "EnQuest exits UK North Sea in $960 million sale to NEO NEXT+",
+      "publisher": "Reuters",
+      "publication_time": "2026-11-18T07:22:12Z",
+      "timezone": "UTC",
+      "converted_window_result": "2026-11-18T15:22:12.000+08:00; IN_WINDOW",
+      "source_identity_status": "PASS",
+      "claim_id": "D20261119-C004",
+      "verification_method": "OPENED_EXACT_DOCUMENT"
+    },
+    {
+      "id": "E05",
+      "observed_url": "https://www.theguardian.com/business/2026/nov/18/sse-threatens-to-close-yorkshire-gas-storage-site-unless-ministers-intervene",
+      "canonical_url": "https://www.theguardian.com/business/2026/nov/18/sse-threatens-to-close-yorkshire-gas-storage-site-unless-ministers-intervene",
+      "title": "Labour faces double blow over UK fossil fuel projects",
+      "publisher": "The Guardian",
+      "publication_time": "2026-11-18T16:19:41Z",
+      "timezone": "UTC",
+      "converted_window_result": "2026-11-19T00:19:41.000+08:00; IN_WINDOW",
+      "source_identity_status": "PASS",
+      "claim_id": "D20261119-C005",
+      "verification_method": "OPENED_EXACT_DOCUMENT"
+    }
+  ],
+  "next_action": "EXISTING_12_30_WORK_FORMAL_CONSUMER_NOT_FORMALLY_PROMOTED",
+  "no_authority_mutation": true,
+  "no_site_mutation": true
+}
