@@ -2,10 +2,10 @@
   "target_date": "2026-11-19",
   "scheduled_for": "10:15 Asia/Shanghai",
   "run_started_at": "2026-11-19T10:13:35+08:00",
-  "completed_at": "2026-11-19T10:14:34+08:00",
+  "completed_at": "2026-11-19T03:08:02.132Z",
   "window_start": "2026-11-18T10:00:00+08:00",
   "window_end": "2026-11-19T10:00:00+08:00",
-  "status": "FAILED",
+  "status": "PRODUCER_SUCCESS_CANDIDATES_PENDING_WORK",
   "authority_version_id": "105",
   "authority_file_id": "file_00000000d48081fdbaf3f216b92f2373",
   "authority_sha256": "bd0224e2b7315c935ee42629a40140781b1d25cb9b393e638015eede3d175c60",
@@ -34,9 +34,82 @@
     {
       "pass": 2,
       "status": "NOT_EXECUTED"
+    },
+    {
+      "pass": "INTERACTIVE_RECOVERY",
+      "status": "COMPLETE",
+      "verified_source_count": 5,
+      "qualified_body_cjk": 3347,
+      "completed_at": "2026-11-19T03:08:02.132Z"
     }
   ],
-  "verified_sources": [],
+  "verified_sources": [
+    {
+      "id": "E01",
+      "observed_url": "https://www.eia.gov/petroleum/supply/weekly/",
+      "canonical_url": "https://www.eia.gov/petroleum/supply/weekly/",
+      "title": "Weekly Petroleum Status Report",
+      "publisher": "EIA",
+      "publication_time": "2026-11-18T15:30:00Z",
+      "timezone": "UTC",
+      "converted_window_result": "2026-11-18T23:30:00.000+08:00; IN_WINDOW",
+      "source_identity_status": "PASS",
+      "claim_id": "D20261119-C001",
+      "verification_method": "OPENED_EXACT_DOCUMENT"
+    },
+    {
+      "id": "E02",
+      "observed_url": "https://www.marketwatch.com/livecoverage/stock-market-today-s-p-500-nasdaq-dow-nvidia-q3-results-anthropic-expected-price-ipo/card/u-s-oil-prices-settle-at-3-month-low-as-crude-stockpiles-rise-for-a-second-week-zjW9TS1cXssTjjqxXNfS",
+      "canonical_url": "https://www.marketwatch.com/livecoverage/stock-market-today-s-p-500-nasdaq-dow-nvidia-q3-results-anthropic-expected-price-ipo/card/u-s-oil-prices-settle-at-3-month-low-as-crude-stockpiles-rise-for-a-second-week-zjW9TS1cXssTjjqxXNfS",
+      "title": "U.S. oil prices settle at 3-month low as crude stockpiles rise for a second week",
+      "publisher": "MarketWatch",
+      "publication_time": "2026-11-18T20:30:45Z",
+      "timezone": "UTC",
+      "converted_window_result": "2026-11-19T04:30:45.000+08:00; IN_WINDOW",
+      "source_identity_status": "PASS",
+      "claim_id": "D20261119-C002",
+      "verification_method": "OPENED_EXACT_DOCUMENT"
+    },
+    {
+      "id": "E03",
+      "observed_url": "https://www.reuters.com/business/energy/orlen-qatarenergy-talks-new-lng-deal-days-after-contract-termination-sources-say-2026-11-18/",
+      "canonical_url": "https://www.reuters.com/business/energy/orlen-qatarenergy-talks-new-lng-deal-days-after-contract-termination-sources-say-2026-11-18/",
+      "title": "Orlen, QatarEnergy in talks on new LNG deal days after contract termination, sources say",
+      "publisher": "Reuters",
+      "publication_time": "2026-11-18T17:31:30Z",
+      "timezone": "UTC",
+      "converted_window_result": "2026-11-19T01:31:30.000+08:00; IN_WINDOW",
+      "source_identity_status": "PASS",
+      "claim_id": "D20261119-C003",
+      "verification_method": "OPENED_EXACT_DOCUMENT"
+    },
+    {
+      "id": "E04",
+      "observed_url": "https://www.reuters.com/legal/transactional/enquest-sell-uk-north-sea-assets-up-960-million-2026-11-18/",
+      "canonical_url": "https://www.reuters.com/legal/transactional/enquest-sell-uk-north-sea-assets-up-960-million-2026-11-18/",
+      "title": "EnQuest exits UK North Sea in $960 million sale to NEO NEXT+",
+      "publisher": "Reuters",
+      "publication_time": "2026-11-18T07:22:12Z",
+      "timezone": "UTC",
+      "converted_window_result": "2026-11-18T15:22:12.000+08:00; IN_WINDOW",
+      "source_identity_status": "PASS",
+      "claim_id": "D20261119-C004",
+      "verification_method": "OPENED_EXACT_DOCUMENT"
+    },
+    {
+      "id": "E05",
+      "observed_url": "https://www.theguardian.com/business/2026/nov/18/sse-threatens-to-close-yorkshire-gas-storage-site-unless-ministers-intervene",
+      "canonical_url": "https://www.theguardian.com/business/2026/nov/18/sse-threatens-to-close-yorkshire-gas-storage-site-unless-ministers-intervene",
+      "title": "Labour faces double blow over UK fossil fuel projects",
+      "publisher": "The Guardian",
+      "publication_time": "2026-11-18T16:19:41Z",
+      "timezone": "UTC",
+      "converted_window_result": "2026-11-19T00:19:41.000+08:00; IN_WINDOW",
+      "source_identity_status": "PASS",
+      "claim_id": "D20261119-C005",
+      "verification_method": "OPENED_EXACT_DOCUMENT"
+    }
+  ],
   "source_gaps": [
     {
       "url": "https://nenghua.mysteel.com/a/26111812/AAD845FCEBC72545.html",
@@ -53,19 +126,32 @@
     }
   ],
   "unverified_source_count": 3,
-  "products_repaired_or_produced": [],
-  "producer_recovery_queue_remaining": [
+  "products_repaired_or_produced": [
     "2026-11-19"
   ],
-  "queue_for_12_30_work": [],
-  "post_run_self_audit_status": "NOT_RUN",
-  "evidence_claim_role_status": "NOT_RUN",
-  "evidence_support_alignment_status": "NOT_RUN",
-  "failure_stage": "ISOLATED_DRAFT_V4_EVIDENCE_PRECOMMIT",
-  "failure_reason": "Isolated preliminary draft 340 CJK characters vs Authority V4 1800 hard floor; evidence.json and Strict V2 ledger not completed; full native Source Identity, Evidence and consumer-eligibility precheck not passed. No candidate committed. Do not infer other sources invalid from this draft.",
-  "github_candidate_four_piece_readback": "NOT_WRITTEN",
+  "producer_recovery_queue_remaining": [],
+  "queue_for_12_30_work": [
+    "2026-11-19"
+  ],
+  "post_run_self_audit_status": "PASS",
+  "evidence_claim_role_status": "PASS",
+  "evidence_support_alignment_status": "PASS",
+  "failure_stage": null,
+  "failure_reason": null,
+  "github_candidate_four_piece_readback": {
+    "public_core.md": "e30a76355153ce78b8a3f1e96287354f3530d24d02eef9146df2a2594afd3b16",
+    "evidence.json": "ae601df39ba0d0dca2168cd2947618815544d29643e16ed34f7eba0f056bfd31",
+    "evidence_ledger_v2_2026-11-19.csv": "7dc7864026a4c860eb620cac59868de285aeb17f6ef7bbbf1a32c0774e817b20",
+    "manifest.json": "08c28ac08d25faf2edc1f95b075b8fd05c5facc00bce962f8024350377e11630"
+  },
   "historical_handoff_status": "NO_HISTORICAL_DATE_BETWEEN_AUTHORITY_CURRENT_AND_TARGET",
   "schedule_mutation_performed": false,
   "authority_mutation_performed": false,
-  "site_mutation_performed": false
+  "site_mutation_performed": false,
+  "manual_recovery": true,
+  "execution_mode": "INTERACTIVE_RECOVERY_AFTER_10_15_SCHEDULED_FAILED",
+  "scheduled_attempt_status": "FAILED",
+  "scheduled_attempt_original_failure_stage": "ISOLATED_DRAFT_V4_EVIDENCE_PRECOMMIT",
+  "scheduled_attempt_original_failure_reason": "Isolated preliminary draft 340 CJK characters vs Authority V4 1800 hard floor; evidence.json and Strict V2 ledger not completed; full native Source Identity, Evidence and consumer-eligibility precheck not passed. No candidate committed. Do not infer other sources invalid from this draft.",
+  "scheduled_attempt_audit_path": "daily/2026/11/2026-11-19/chat_recovery_handoff.json"
 }
