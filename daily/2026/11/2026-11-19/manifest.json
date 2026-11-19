@@ -56,9 +56,9 @@
   "evidence_support_alignment_status": "PASS",
   "partial_support_records_remaining": 0,
   "candidate_files_sha256": {
-    "public_core.md": "e30a76355153ce78b8a3f1e96287354f3530d24d02eef9146df2a2594afd3b16",
-    "evidence.json": "ae601df39ba0d0dca2168cd2947618815544d29643e16ed34f7eba0f056bfd31",
-    "evidence_ledger_v2_2026-11-19.csv": "7dc7864026a4c860eb620cac59868de285aeb17f6ef7bbbf1a32c0774e817b20"
+    "public_core.md": "6692af726cfc0dd3bb7559aa7999f0bd12423eb58808ca6f4b35f83a80e27fd6",
+    "evidence.json": "b37079e5626ccbe8636b54df216fcb46de0ac75f74d45d6c2a7306d1bea8fc69",
+    "evidence_ledger_v2_2026-11-19.csv": "354ac8b0ab119beae7b4177e9bc55c803ddc95bd7aa1f5cbe3bda7887728b1ae"
   },
   "producer_note": "All five evidence records are MATERIAL with DIRECT support; no CORE claim asserted. 11/19 10:15 scheduled run failed separately; this is interactive inline regression and does not prove unattended task success."
 }
