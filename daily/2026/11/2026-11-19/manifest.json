@@ -58,7 +58,7 @@
   "candidate_files_sha256": {
     "public_core.md": "6692af726cfc0dd3bb7559aa7999f0bd12423eb58808ca6f4b35f83a80e27fd6",
     "evidence.json": "b37079e5626ccbe8636b54df216fcb46de0ac75f74d45d6c2a7306d1bea8fc69",
-    "evidence_ledger_v2_2026-11-19.csv": "354ac8b0ab119beae7b4177e9bc55c803ddc95bd7aa1f5cbe3bda7887728b1ae"
+    "evidence_ledger_v2_2026-11-19.csv": "3f17e6d22cc11c73e90394366fa2da92b528b3a66d6dd3811addeb1506231535"
   },
   "producer_note": "All five evidence records are MATERIAL with DIRECT support; no CORE claim asserted. 11/19 10:15 scheduled run failed separately; this is interactive inline regression and does not prove unattended task success."
 }
