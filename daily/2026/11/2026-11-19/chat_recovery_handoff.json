@@ -91,12 +91,12 @@
     },
     "evidence_ledger_v2_2026-11-19.csv": {
       "path": "daily/2026/11/2026-11-19/evidence_ledger_v2_2026-11-19.csv",
-      "sha256": "354ac8b0ab119beae7b4177e9bc55c803ddc95bd7aa1f5cbe3bda7887728b1ae",
-      "bytes": 5454
+      "sha256": "3f17e6d22cc11c73e90394366fa2da92b528b3a66d6dd3811addeb1506231535",
+      "bytes": 5456
     },
     "manifest.json": {
       "path": "daily/2026/11/2026-11-19/manifest.json",
-      "sha256": "4fdedc060d852d77f657f82a091cda0e27bc1f91d2ccb0e5e88d57a9516bae1e",
+      "sha256": "dd238ab4ef4807f0fa2bd7b04342e00e10369ec1d0572029881e2379a429d086",
       "bytes": 3371
     }
   },
@@ -184,5 +184,6 @@
   "next_action": "EXISTING_12_30_WORK_FORMAL_CONSUMER_NOT_FORMALLY_PROMOTED",
   "no_authority_mutation": true,
   "no_site_mutation": true,
-  "source_time_correction": "The Guardian first published 2026-11-18 10:29 GMT (minute precision); page updated 16:19 GMT; source content and editorial facts unchanged"
+  "source_time_correction": "The Guardian first published 2026-11-18 10:29 GMT (minute precision); page updated 16:19 GMT; source content and editorial facts unchanged",
+  "ledger_csv_quote_repair": "2026-11-19: corrected E05 notes CSV field quoting; 43 columns in every data row; native Lineage retry required; no scope change"
 }
