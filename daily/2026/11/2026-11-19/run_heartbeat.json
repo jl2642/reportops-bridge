@@ -2,5 +2,70 @@
   "target_date": "2026-11-19",
   "scheduled_for": "10:15 Asia/Shanghai",
   "run_started_at": "2026-11-19T10:13:35+08:00",
-  "status": "RUN_STARTED_BEFORE_PREFLIGHT"
+  "completed_at": "2026-11-19T10:14:34+08:00",
+  "window_start": "2026-11-18T10:00:00+08:00",
+  "window_end": "2026-11-19T10:00:00+08:00",
+  "status": "FAILED",
+  "authority_version_id": "105",
+  "authority_file_id": "file_00000000d48081fdbaf3f216b92f2373",
+  "authority_sha256": "bd0224e2b7315c935ee42629a40140781b1d25cb9b393e638015eede3d175c60",
+  "authority_pointer_sha256": "7b802d588974ae711cec5ebb20aaa2485d247b6ec563f9e586412e1a8238aba7",
+  "authority_current_daily": "2026-11-18",
+  "authority_zip_integrity": "PASS",
+  "policy_mirror_authority_policy_sha256_match": true,
+  "policy_drift_check": {
+    "returncode": 0,
+    "status": "PASS",
+    "authority_policy_sha256": "ed69573e48d0daedd1b899ab2d6cf15880f37705f88b44b1a9d2ca26715f9905",
+    "public_contract_sha256": "64770bf24f1280d11060d6a905a659241d5e483109fc8c3e34195a8264fc48f6"
+  },
+  "search_passes": [
+    {
+      "pass": 1,
+      "channels": [
+        "A China LNG supply and trading",
+        "B China LPG prices",
+        "C Reuters Brent WTI and inventories",
+        "D EIA Europe Asia LNG and gas",
+        "E energy projects and company events"
+      ],
+      "status": "SEARCHED"
+    },
+    {
+      "pass": 2,
+      "status": "NOT_EXECUTED"
+    }
+  ],
+  "verified_sources": [],
+  "source_gaps": [
+    {
+      "url": "https://nenghua.mysteel.com/a/26111812/AAD845FCEBC72545.html",
+      "reason": "TIMEZONE_UNVERIFIED; original page fetch disabled",
+      "observed_time": "2026-11-18 12:06, timezone absent"
+    },
+    {
+      "url": "https://www.reuters.com/business/energy/oil-prices-fall-higher-us-crude-stocks-temper-supply-risks-2026-11-18/",
+      "reason": "Source page publication timestamp and article's later settlement data require update-time reconciliation before accepting as atomic window evidence"
+    },
+    {
+      "url": "https://www.theguardian.com/business/live/2026/nov/18/uk-inflation-rises-higher-petrol-prices-nvidia-live-updates",
+      "reason": "Candidate claims identified; atomic source receipts, cross-check and ledger not completed"
+    }
+  ],
+  "unverified_source_count": 3,
+  "products_repaired_or_produced": [],
+  "producer_recovery_queue_remaining": [
+    "2026-11-19"
+  ],
+  "queue_for_12_30_work": [],
+  "post_run_self_audit_status": "NOT_RUN",
+  "evidence_claim_role_status": "NOT_RUN",
+  "evidence_support_alignment_status": "NOT_RUN",
+  "failure_stage": "ISOLATED_DRAFT_V4_EVIDENCE_PRECOMMIT",
+  "failure_reason": "Isolated preliminary draft 340 CJK characters vs Authority V4 1800 hard floor; evidence.json and Strict V2 ledger not completed; full native Source Identity, Evidence and consumer-eligibility precheck not passed. No candidate committed. Do not infer other sources invalid from this draft.",
+  "github_candidate_four_piece_readback": "NOT_WRITTEN",
+  "historical_handoff_status": "NO_HISTORICAL_DATE_BETWEEN_AUTHORITY_CURRENT_AND_TARGET",
+  "schedule_mutation_performed": false,
+  "authority_mutation_performed": false,
+  "site_mutation_performed": false
 }
