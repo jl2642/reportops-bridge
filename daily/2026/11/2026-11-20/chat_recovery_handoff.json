@@ -1,0 +1,79 @@
+{
+  "target_date": "2026-11-20",
+  "scheduled_attempt": {
+    "scheduled_for": "10:15 Asia/Shanghai",
+    "run_started_at": "2026-11-20T10:18:43+08:00",
+    "completed_at": "2026-11-20T10:20:02+08:00",
+    "status": "FAILED",
+    "authority_version": "106",
+    "authority_file_id": "file_000000000ed081fda12ddba33f4fa67a",
+    "authority_sha256": "5fc2fe45cce9b92633818c58bc9321d333e6f4153241dc40609a3844fe42017b",
+    "authority_pointer_sha256": "bd850fcb09f071c29694ced7d7afba5bc1ef79d55bf73bc233b0937089170d5e",
+    "formal_current_daily": "2026-11-19",
+    "window_start": "2026-11-19T10:00:00+08:00",
+    "window_end": "2026-11-20T10:00:00+08:00",
+    "failure_stage": "ISOLATED_FULL_DRAFT_EVIDENCE_LEDGER_PRECOMMIT",
+    "failure_reason": "Full 3072-CJK isolated draft completed, but atomic evidence.json, strict 43-column ledger, independent CORE corroboration and native precommit gates not completed. No four-piece candidate written.",
+    "search_passes": [
+      {
+        "pass": 1,
+        "channels": [
+          "A China LNG supply and SHPGX",
+          "B China LPG Mysteel",
+          "C Reuters crude and IEA",
+          "D US/EU/Asia natural gas LNG",
+          "E LNG projects and EU regulation"
+        ],
+        "status": "EXECUTED"
+      }
+    ],
+    "verified_sources_at_failure": [
+      "https://www.reuters.com/business/energy/energy-security-response-iran-war-could-cut-oil-demand-by-4-by-2035-iea-says-2026-11-19/",
+      "https://www.reuters.com/legal/litigation/federal-regulators-approve-chenieres-sabine-pass-expansion-project-2026-11-19/",
+      "https://www.reuters.com/business/energy/us-gas-exporters-more-comfortable-signing-european-deals-after-eu-delays-methane-2026-11-19/",
+      "https://www.reuters.com/business/energy/romanias-neptun-deep-gas-boost-exports-could-curb-lng-flows-north-sp-says-2026-11-19/"
+    ],
+    "source_gaps_at_failure": [
+      {
+        "url": "https://nenghua.mysteel.com/a/26111920/793B5681A6047D21.html",
+        "reason": "HTTP_411_AND_TIMEZONE_UNVERIFIED"
+      },
+      {
+        "url": "https://finance.sina.com.cn/money/future/roll/2026-11-18/doc-inizehkz6839894.shtml",
+        "reason": "ORIGINAL_PUBLISHER_TIMEZONE_NOT_INDEPENDENTLY_VERIFIED"
+      },
+      {
+        "reason": "FOUR_REUTERS_ITEMS_SAME_PUBLISHER; ORIGINAL_IEA_FERC_EU_AND_PROJECT_CORROBORATION_NOT_COMPLETED"
+      },
+      {
+        "reason": "CHINA_LPG_AND_INTERNATIONAL_PRICE_BASIS_NOT_VERIFIED"
+      }
+    ],
+    "unverified_source_count": 2,
+    "post_run_self_audit_status": "NOT_RUN",
+    "evidence_claim_role_status": "UNVERIFIED",
+    "evidence_support_alignment_status": "UNVERIFIED",
+    "queue_for_12_30_work": [],
+    "schedule_mutation_performed": false,
+    "authority_mutation_performed": false,
+    "site_mutation_performed": false,
+    "original_heartbeat_blob_sha": "c0e5a808f25c38528ba91714ed1b4b39eeed5a1c"
+  },
+  "recovery": {
+    "execution_mode": "MANUAL_EVIDENCE_FIRST_RECOVERY",
+    "started_at": "2026-11-20T12:30:00+08:00",
+    "completed_at": "2026-11-20T13:02:51+08:00",
+    "status": "PRODUCER_SUCCESS_CANDIDATES_PENDING_WORK",
+    "recovery_principle": "Do not continue the incomplete draft. Rebuild Evidence and the strict ledger first, then complete the public core and native Producer gates.",
+    "candidate_paths": [
+      "daily/2026/11/2026-11-20/public_core.md",
+      "daily/2026/11/2026-11-20/evidence.json",
+      "daily/2026/11/2026-11-20/evidence_ledger_v2_2026-11-20.csv",
+      "daily/2026/11/2026-11-20/manifest.json"
+    ],
+    "formal_consumer_status": "NOT_RUN",
+    "formal_promotion_status": "NOT_PROMOTED",
+    "authority_mutation_performed": false,
+    "site_mutation_performed": false
+  }
+}
