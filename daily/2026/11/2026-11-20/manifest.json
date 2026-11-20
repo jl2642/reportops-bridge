@@ -11,12 +11,7 @@
   "cjk_characters_actual": 2811,
   "executive_cjk_actual": 239,
   "key_signal_cjk_actual": 1292,
-  "signal_card_cjk_actual": [
-    265,
-    252,
-    272,
-    253
-  ],
+  "signal_card_cjk_actual": [265, 252, 272, 253, 243],
   "china_chain_cjk_actual": 192,
   "global_energy_cjk_actual": 171,
   "industry_operator_cjk_actual": 216,
@@ -60,8 +55,8 @@
     "MANUAL_RECOVERY_DOES_NOT_PROVE_UNATTENDED_10_15_RELIABILITY"
   ],
   "next_work_action": "Pending GitHub durable four-piece handoff and independent 12:30 Work Consumer. This is a producer candidate only; Work must run native Consumer, Reader, Lineage, P8G, CAS and downstream publication under existing authority.",
-  "updated_at": "2026-11-20T04:14:26Z",
-  "producer_acceptance_completed_at": "2026-11-20T04:14:26Z",
+  "updated_at": "2026-11-20T04:17:49Z",
+  "producer_acceptance_completed_at": "2026-11-20T04:17:49Z",
   "evidence_claim_role_status": "PASS",
   "evidence_support_alignment_status": "PASS",
   "partial_support_records_remaining": 0,
@@ -83,5 +78,5 @@
     "strict_v2_ledger_sha256": "b07fa8d13fd3d119053918a1eb9d6f71be11c8d0cca60907faa375bc5f16de8e",
     "body_sha256": "43c10ab72ba7c5c66839a0a47b90c0f8d3f18cdd195fdd396f4b00f7460e44c2"
   },
-  "producer_note": "All 12 records are MATERIAL with DIRECT support. Four claims requiring cross-check have at least two distinct publisher/ownership groups. Two LPG regional observations are separate material price observations, not cross-checks. The 10:15 scheduled attempt failed; this is a manual evidence-first recovery and does not prove unattended producer reliability."
+  "producer_note": "All 12 records are MATERIAL with DIRECT support. Four claims requiring cross-check have at least two distinct publisher/ownership groups. Two LPG regional observations are separate material price observations, not cross-checks. The 10:15 scheduled attempt failed; this is a manual recovery and does not prove unattended producer reliability."
 }
