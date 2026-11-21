@@ -1,6 +1,6 @@
 {
   "schema_version": "REPORTOPS_PUBLIC_RUNTIME_CURRENT_V1",
-  "status": "FORMAL_PROMOTED__SITE_PUBLISHED",
+  "status": "FORMAL_PROMOTED__SITE_PENDING",
   "current_daily_public": "2026-11-20",
   "current_weekly_public": "2026-W46",
   "current_monthly_public": "2026-10",
@@ -28,7 +28,7 @@
     "historical_weekly_2026_w46_sha256": "4aa470117318aa5bffb098c6d3812d9d23c3b0cd1ad40f73e2a70df9cf441623",
     "checked_at": "2026-11-20T05:45:04.287Z"
   },
-  "authority_package_sha256": "b4b5a2c392aefed6aa79611a903c2c3839cc09820acb6a37a33e7083404653b8",
+  "authority_package_sha256": "bd4f9e8c29aa73ea04e9619f41b8d06504ef34e851e8934114e302bb9be8bb3e",
   "github_role": "PUBLIC_SAFE_BRIDGE",
   "canonical_authority": "LIBRARY",
   "daily_runtime_contract_current": "V1_5_FORMAL_AUTHORITY",
@@ -43,7 +43,9 @@
   "metadata_freshness": "PASS_V107_13_OF_13_POINTER_PROVENANCE",
   "state_consistency_pointer_sha256": "ffeaabb7140d6b21d00c668e5116165645bc1ccc0e479cfc6562f3e5a5ad5e19",
   "stale_views": [],
-  "queue_remaining": [],
+  "queue_remaining": [
+    "SITE_PUBLISH_DAILY_2026_11_21"
+  ],
   "eligible_unpublished_products": [],
   "correction_backlog_status": "HISTORICAL_DAILY_AND_SITE_BACKLOG_ZERO_AS_OF_2026_11_13",
   "manifest_reconciliation_status": "NATIVE_FINALIZER_REGISTRY_MANIFEST_COMPLETE__RECONCILER_ALREADY_COMPLETE",
@@ -65,12 +67,12 @@
     "status": "PASS_V107_EXACT_BYTES"
   },
   "public_daily_2026_10_02_download_sha256": "9a45fcf57e9048c524ab0f1ebdbb547a6eeb34fbe23821f5cf43e252c4ed9237",
-  "current_daily_canonical": "2026-11-20",
+  "current_daily_canonical": "2026-11-21",
   "library_sidecar_sha256": "b4b5a2c392aefed6aa79611a903c2c3839cc09820acb6a37a33e7083404653b8",
   "current_package_site_publication_performed": true,
   "runtime_sync_status": "FORMAL_V107_SITE_V120_REMOTE_VERIFIED",
   "stable": false,
-  "updated_at": "2026-11-20T05:45:04.287Z",
+  "updated_at": "2026-11-21T04:43:03.426Z",
   "public_weekly_2026_w40_download_sha256": "7d5d10199df404c830519bf51f4639196e4d3c8256416b4362a65d640fd5c49e",
   "public_daily_2026_10_04_download_sha256": "e34a69cb519d7db802c80f20e56387358953f22667d170bd7136982150568f78",
   "failure_stage": null,
@@ -92,7 +94,7 @@
   "public_daily_2026_10_10_download_sha256": "0cc591e11f470276e934d816fc62675bca7ce5388de092816557da4049787f9e",
   "current_annual_public": "NO_FORMAL_2026_PRODUCT",
   "canonical_promotion_performed": true,
-  "public_site_status": "PUBLISHED_V120_REMOTE_VERIFIED",
+  "public_site_status": "SITE_PENDING",
   "real_remote_readback_status": "PASS",
   "download_sha_status": "PASS_NEW_2026_11_20_AND_HISTORICAL_11_19_W46",
   "reportops_status": "FORMAL_V107_SITE_V120_RELEASE_PASS__UNATTENDED_STABILITY_PENDING",
@@ -124,7 +126,7 @@
   "producer_automation_status": "UNATTENDED_RELIABILITY_NOT_ACCEPTED",
   "public_daily_2026_10_16_download_sha256": "5ee3f31227ba541f8e3b79a6045c5f25dd13d9c066322327bbf7354b366896ba",
   "public_daily_2026_10_17_download_sha256": "c5da3880a3439a600d27939eaa94df9cfdaf21687fc640813ca552e8073db5e0",
-  "current_daily": "2026-11-20",
+  "current_daily": "2026-11-21",
   "current_weekly": "2026-W46",
   "public_daily_2026_10_20_download_sha256": "e6451e584fea7e43109aae2553c06c5b7fcfdc7353d6e73f8e03e3e2ecb0b93c",
   "public_weekly_2026_w42_download_sha256": "c240fd90c92fc3f61e54a0fc888c821c369cc0bac67e69ae6169d93f22855132",
@@ -164,8 +166,8 @@
   "site_only_corrective_republish_attempted": true,
   "site_only_corrective_republish_deployed": true,
   "site_prepublication_audit": "PASS_22400_CHECKS_212_REPORTS__32758_LINKS__FOUR_EXACT_LEGACY_MATCHES",
-  "site_failure_stage": null,
-  "site_failure_reason": null,
+  "site_failure_stage": "SITE_WORKFLOW_PREPARE",
+  "site_failure_reason": "Unable to prepare the Site.",
   "remote_zip_verification": {
     "status": "PASS",
     "sha256": {
@@ -173,7 +175,7 @@
       "Daily 2026-11-20": "bc9724fc7b90837ffd28c910e5f3acb4cf393f5b93fda339a0ff3c07619258d8"
     }
   },
-  "current_pointer_sha256": "ffeaabb7140d6b21d00c668e5116165645bc1ccc0e479cfc6562f3e5a5ad5e19",
+  "current_pointer_sha256": "563c68e4e2180381ac01b1f1bed3a432e41191791c6c1a970c1ef570062f1b92",
   "w43_work_preflight": {
     "chat_final_assets_readback": "PASS_11_OF_11",
     "round2_report_sha256": "05ca5e6d1c98d8cbbdc82503154cb81f312cff0b52cd953b016b8eabb5b8ac85",
@@ -2951,12 +2953,14 @@
   "execution_mode": "MANUAL_WORK",
   "reader_w44_compatibility_repair": "ORIGINAL_CITATION_MARKERS_PRESERVED__WEEKLY_NATIVE_CONTRACT_PASS",
   "current_weekly_canonical": "2026-W46",
-  "authority_version": 107,
-  "authority_file_id": "file_000000000c5081f59ce0a95db9145d38",
+  "authority_version": 108,
+  "authority_file_id": "file_00000000b09481f583b681d4e274f897",
   "authority_commit_rule": "R3_SINGLE_AUTHORITY_CAS_ACTIVE",
   "current_read_rule": "PIN_AUTHORITY_VERSION_AND_INTERNAL_POINTER",
   "external_pointer_role": "REPAIRABLE_DERIVED_MIRROR",
-  "remaining_site_debt": [],
+  "remaining_site_debt": [
+    "2026-11-21"
+  ],
   "public_report_count": 212,
   "mirror_status": "PASS",
   "current_annual": "NO_FORMAL_2026_PRODUCT",
