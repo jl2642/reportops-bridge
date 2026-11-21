@@ -46,23 +46,21 @@
   "privacy_status": "PASS",
   "window_status": "PASS_12_OF_12",
   "data_gap_boundary_status": "PASS",
-  "current_daily_public": "2026-11-20",
+  "current_daily_public": "2026-11-21",
   "current_weekly_public": "2026-W46",
   "formal_status": "FORMAL_PROMOTED_DAILY_2026_11_20_WEEKLY_2026_W46",
   "canonical_promotion_performed": true,
   "site_publication_performed": true,
-  "public_site_version": 120,
-  "public_site_status": "SITE_PENDING",
+  "public_site_version": 121,
+  "public_site_status": "PUBLISHED_V121_REMOTE_VERIFIED",
   "manifest_reconciliation_status": "NATIVE_FINALIZER_REGISTRY_MANIFEST_COMPLETE__RECONCILER_ALREADY_COMPLETE",
   "metadata_freshness": "PASS_V107_13_OF_13_POINTER_PROVENANCE",
   "state_consistency_pointer_sha256": "ffeaabb7140d6b21d00c668e5116165645bc1ccc0e479cfc6562f3e5a5ad5e19",
   "failure_stage": null,
   "failure_reason": null,
   "next_action": "NEXT_ORIGINAL_2026_11_21_12_30_ASIA_SHANGHAI__DYNAMIC_CANDIDATE_AND_SITE_NO_OP_OR_INCREMENTAL",
-  "updated_at": "2026-11-21T04:43:07.545Z",
-  "queue_remaining": [
-    "SITE_PUBLISH_DAILY_2026_11_21"
-  ],
+  "updated_at": "2026-11-21T04:47:20.267Z",
+  "queue_remaining": [],
   "pending_product": null,
   "manual_intervention_required": false,
   "authority_package_sha256": "bd4f9e8c29aa73ea04e9619f41b8d06504ef34e851e8934114e302bb9be8bb3e",
@@ -446,8 +444,8 @@
   "public_daily_2026_10_10_download_sha256": "0cc591e11f470276e934d816fc62675bca7ce5388de092816557da4049787f9e",
   "live_site_publication_discrepancy": {
     "resolved": true,
-    "resolved_site_version": 120,
-    "checked_at": "2026-11-20T05:45:04.287Z"
+    "resolved_site_version": 121,
+    "checked_at": "2026-11-21T04:47:20.267Z"
   },
   "preflight_status": "PASS__READ_ONLY_NON_SHORT_CIRCUIT_FULL_QUEUE",
   "policy_identity_status": "PASS__AUTHORITY_GITHUB_MIRROR_MATCH",
@@ -475,7 +473,7 @@
   "current_annual_public": "NO_FORMAL_2026_PRODUCT",
   "last_updated": "2026-11-20T05:45:04.287Z",
   "final_closure_status": "V107_SITE_V120_ACCEPTED__NATURAL_RUN_RELIABILITY_UNVERIFIED",
-  "status": "FORMAL_PROMOTED__SITE_PENDING",
+  "status": "FORMAL_PROMOTED__SITE_PUBLISHED",
   "public_site_publication_receipt_status": "DEPLOYED_V120_REMOTE_READBACK_PASS",
   "public_daily_2026_10_13_download_sha256": "9f208040c99e46ce8752577be3b77387592d25776f3fb89940e91f727add246d",
   "public_weekly_2026_w41_download_sha256": "cc05e865be0ca86e17d9ca1c83a5f5a77d67b9f176a8058edf5482921f911fc0",
@@ -483,19 +481,15 @@
   "producer_gap": [],
   "stable_operation_accepted": false,
   "public_remote_readback": {
-    "site_version": 120,
-    "current_daily": "2026-11-20",
+    "site_version": 121,
+    "current_daily": "2026-11-21",
     "current_weekly": "2026-W46",
-    "current_monthly": "2026-10",
-    "current_quarterly": "2026-Q3",
     "home": "PASS",
     "bodies": "PASS",
     "archives": "PASS",
     "download_center": "PASS",
-    "new_remote_zip_sha256": "bc9724fc7b90837ffd28c910e5f3acb4cf393f5b93fda339a0ff3c07619258d8",
-    "historical_daily_2026_11_19_sha256": "426ccc1db10a3444672e8807ce7e07c387bbd3648667fca05b058484f6e03569",
-    "historical_weekly_2026_w46_sha256": "4aa470117318aa5bffb098c6d3812d9d23c3b0cd1ad40f73e2a70df9cf441623",
-    "checked_at": "2026-11-20T05:45:04.287Z"
+    "new_remote_zip_sha256": "cf8e32a5a082d9032d44b27b31d72b9d104e18fb55c0ca9da8bfb83076686b52",
+    "checked_at": "2026-11-21T04:47:20.267Z"
   },
   "download_integrity": "PASS_REMOTE_BYTES_SHA256",
   "public_daily_2026_10_14_download_sha256": "7198e935f91376c06aad940c241be3066617a338a4e6977e3edacd42295927fd",
@@ -608,8 +602,8 @@
   "site_only_corrective_republish_attempted": true,
   "site_only_corrective_republish_deployed": true,
   "site_prepublication_audit": "PASS_22400_CHECKS_212_REPORTS__32758_LINKS__FOUR_EXACT_LEGACY_MATCHES",
-  "site_failure_stage": "SITE_WORKFLOW_PREPARE",
-  "site_failure_reason": "Unable to prepare the Site.",
+  "site_failure_stage": null,
+  "site_failure_reason": null,
   "remote_zip_verification": {
     "status": "PASS",
     "sha256": {
@@ -659,7 +653,7 @@
   "correction_backlog_status": "HISTORICAL_DAILY_AND_SITE_BACKLOG_ZERO_AS_OF_2026_11_13",
   "site_source_preparation": {
     "status": "PUSHED_AND_PACKAGED_SAME_ORIGINAL_SITE",
-    "source_commit": "f89afdc1e67dd96d66fe9cb8c474f57c767a148b",
+    "source_commit": "1e6b9dd7c710baac2dda12a3d83c517866c1b6f8",
     "project_id": "appgprj_6a5893ab380c8191b03a261860f67102",
     "static_directory": "dist"
   },
@@ -4365,9 +4359,7 @@
   "authority_commit_rule": "R3_SINGLE_AUTHORITY_CAS_ACTIVE",
   "current_read_rule": "PIN_AUTHORITY_VERSION_AND_INTERNAL_POINTER",
   "external_pointer_role": "REPAIRABLE_DERIVED_MIRROR",
-  "remaining_site_debt": [
-    "2026-11-21"
-  ],
+  "remaining_site_debt": [],
   "public_report_count": 212,
   "mirror_status": "PASS",
   "producer_self_audit_status": "PASS_ALL_PRODUCER_GATES__WORK_NATIVE_PENDING",
@@ -4388,7 +4380,7 @@
   },
   "public_daily_2026_11_14_download_sha256": "eecdd5d1aef592f75fa567a7bd1a5dd8995299a63706396e8ee8e43174cc6e78",
   "public_daily_2026_11_15_download_sha256": "42d3fc42b4341ca95825f33d696ab5cb9dc6703edc2a7d45da5d27e9e594a037",
-  "site_version": 120,
+  "site_version": 121,
   "public_daily_2026_11_20_download_sha256": "bc9724fc7b90837ffd28c910e5f3acb4cf393f5b93fda339a0ff3c07619258d8",
   "manual_recovery_2026_11_20": {
     "scheduled_attempt_status": "FAILED",
@@ -4403,5 +4395,6 @@
     "mode": "USER_INITIATED_WORK_CONTINUATION",
     "scheduled_1230_environment": "UNVERIFIED",
     "automation_modified": false
-  }
+  },
+  "public_daily_2026_11_21_download_sha256": "cf8e32a5a082d9032d44b27b31d72b9d104e18fb55c0ca9da8bfb83076686b52"
 }
