@@ -2,16 +2,24 @@
   "target_date": "2026-11-21",
   "scheduled_for": "10:15 Asia/Shanghai",
   "run_started_at": "2026-11-21T10:15:37+08:00",
-  "status": "FAILED",
-  "authority_version": "107",
+  "completed_at": "2026-11-21T02:43:55.458Z",
+  "status": "PRODUCER_SUCCESS_CANDIDATES_PENDING_WORK",
+  "window_start": "2026-11-20T10:00:00+08:00",
+  "window_end": "2026-11-21T10:00:00+08:00",
+  "authority_version_id": "107",
   "authority_file_id": "file_000000000c5081f59ce0a95db9145d38",
   "authority_sha256": "b4b5a2c392aefed6aa79611a903c2c3839cc09820acb6a37a33e7083404653b8",
   "authority_pointer_sha256": "ffeaabb7140d6b21d00c668e5116165645bc1ccc0e479cfc6562f3e5a5ad5e19",
-  "formal_current_daily": "2026-11-20",
-  "window_start": "2026-11-20T10:00:00+08:00",
-  "window_end": "2026-11-21T10:00:00+08:00",
-  "failure_stage": "EVIDENCE_MATRIX_INDEPENDENT_CROSS_CHECK_PRECOMMIT",
-  "failure_reason": "A-E first pass and one targeted supplementary pass completed. Insufficient three independently substantiated decision signals with exact source time and owner-group cross-check. Reuters reports cannot cross-check each other. Evidence JSON/native evidence gate not passed; no full draft or four-piece commit.",
+  "authority_current_daily": "2026-11-20",
+  "authority_zip_integrity": "PASS",
+  "policy_mirror_authority_policy_sha256_match": true,
+  "policy_drift_check": {
+    "status": "PASS",
+    "returncode": 0,
+    "independently_recomputed": true,
+    "authority_policy_sha256": "ed69573e48d0daedd1b899ab2d6cf15880f37705f88b44b1a9d2ca26715f9905",
+    "public_contract_sha256": "64770bf24f1280d11060d6a905a659241d5e483109fc8c3e34195a8264fc48f6"
+  },
   "search_passes": [
     {
       "pass": 1,
@@ -26,57 +34,109 @@
     {
       "pass": 2,
       "focus": "Argentina RIGI original issuer/ANSA; Russian refinery local authorities; independent oil price source; Singapore gas official issuer"
+    },
+    {
+      "pass": "INTERACTIVE_RECOVERY",
+      "status": "COMPLETE",
+      "verified_exact_time_anchor_count": 3,
+      "date_only_supporter_count": 3
     }
   ],
   "verified_sources": [
     {
+      "id": "E01",
       "observed_url": "https://www.reuters.com/business/energy/argentina-approves-incentive-scheme-508-billion-lng-project-2026-11-20/",
       "canonical_url": "https://www.reuters.com/business/energy/argentina-approves-incentive-scheme-508-billion-lng-project-2026-11-20/",
-      "title": "Argentina approves incentive scheme for $50.8 billion LNG project",
       "publisher": "Reuters",
-      "publication_time": "2026-11-20T19:48:00Z",
+      "publication_time": "2026-11-20T19:48:04Z",
       "timezone": "UTC",
-      "converted_window_result": "2026-11-21T03:48:00+08:00 IN_WINDOW"
+      "converted_window_result": "2026-11-21T03:48:04+08:00; IN_WINDOW",
+      "source_identity_status": "PASS"
     },
     {
+      "id": "E03",
+      "observed_url": "https://www.reuters.com/business/energy/singapores-energy-ministry-says-piped-gas-supply-indonesia-is-fully-restored-2026-11-20/",
+      "canonical_url": "https://www.reuters.com/business/energy/singapores-energy-ministry-says-piped-gas-supply-indonesia-is-fully-restored-2026-11-20/",
+      "publisher": "Reuters",
+      "publication_time": "2026-11-20T10:05:22Z",
+      "timezone": "UTC",
+      "converted_window_result": "2026-11-20T18:05:22+08:00; IN_WINDOW",
+      "source_identity_status": "PASS"
+    },
+    {
+      "id": "E05",
       "observed_url": "https://www.reuters.com/business/energy/more-russian-regions-limit-fuel-sales-ukrainian-drone-strikes-hit-refinery-2026-11-20/",
       "canonical_url": "https://www.reuters.com/business/energy/more-russian-regions-limit-fuel-sales-ukrainian-drone-strikes-hit-refinery-2026-11-20/",
-      "title": "More Russian regions limit fuel sales as Ukrainian drone strikes hit refinery output",
       "publisher": "Reuters",
-      "publication_time": "2026-11-20T09:38:00Z",
+      "publication_time": "2026-11-20T09:38:39Z",
       "timezone": "UTC",
-      "converted_window_result": "2026-11-20T17:38:00+08:00 IN_WINDOW"
+      "converted_window_result": "2026-11-20T17:38:39+08:00; IN_WINDOW",
+      "source_identity_status": "PASS"
+    }
+  ],
+  "date_only_primary_supporters": [
+    {
+      "id": "E02",
+      "publisher": "Todo Noticias (TN)",
+      "publication_time": "2026-11-20",
+      "window_role": "SUPPORTING_ONLY_NOT_WINDOW_ANCHOR"
+    },
+    {
+      "id": "E04",
+      "publisher": "CNA",
+      "publication_time": "2026-11-20",
+      "window_role": "SUPPORTING_ONLY_NOT_WINDOW_ANCHOR"
+    },
+    {
+      "id": "E06",
+      "publisher": "Kommersant",
+      "publication_time": "2026-11-20",
+      "window_role": "SUPPORTING_ONLY_NOT_WINDOW_ANCHOR"
     }
   ],
   "source_gaps": [
     {
-      "url": "https://www.ansa.it/ansa2030/notizie/energia_energie/2026/11/20/largentina-approva-il-maxi-investimento-sul-gnl-di-eni-ypf-e-xrg_4001b160-6470-497b-99fa-06194d6ad2ea.html",
-      "reason": "Independent ANSA report 20:15 local but timezone not explicitly verified for article type; independent cross-check cannot be marked PASS"
+      "reason": "CHINA_LNG_LPG_SPOT_NO_VERIFIABLE_IN_WINDOW_QUOTE_AND_BASIS__DATA_GAP"
     },
     {
-      "url": "https://www.wsj.com/business/energy-oil/oil-prices-edge-higher-as-traders-assess-middle-east-shipping-risks-supply-outlook-faf8f60a",
-      "reason": "Exact publication minute/timezone not visible; DATE_ONLY"
+      "reason": "OIL_BENCHMARK_IN_WINDOW_SETTLEMENT_NOT_VERIFIED_NO_PROXY"
     },
     {
-      "url": "https://www.reuters.com/business/energy/singapores-energy-ministry-says-piped-gas-supply-indonesia-is-fully-restored-2026-11-20/",
-      "reason": "Official original statement and independent corroboration not verified"
-    },
-    {
-      "url": "https://www.eni.com/en-IT/media/press-release/2026/08/argentina-lng-submits-application-for-rigi-approval.html",
-      "reason": "Historical context dated August; not new in current window"
-    },
-    {
-      "reason": "China LPG/LNG spot prices: exact publication timezone and price basis not jointly verified; DATA_GAP"
+      "reason": "E02_E04_E06_DATE_ONLY_SUPPORTERS_NOT_USED_AS_EXACT_WINDOW_ANCHORS"
     }
   ],
-  "unverified_source_count": 4,
-  "products_repaired_or_produced": [],
-  "queue_for_12_30_work": [],
-  "producer_recovery_queue_remaining": [
+  "unverified_source_count": 0,
+  "products_repaired_or_produced": [
     "2026-11-21"
   ],
-  "post_run_self_audit_status": "NOT_RUN",
-  "evidence_claim_role_status": "NOT_RUN",
-  "evidence_support_alignment_status": "NOT_RUN",
-  "completed_at": "2026-11-21T10:16:30+08:00"
+  "producer_recovery_queue_remaining": [],
+  "queue_for_12_30_work": [
+    "2026-11-21"
+  ],
+  "post_run_self_audit_status": "PASS",
+  "evidence_claim_role_status": "PASS",
+  "evidence_support_alignment_status": "PASS",
+  "source_identity_gate_status": "PASS",
+  "inline_citation_gate_status": "PASS",
+  "evidence_product_gate_status": "PASS_STRICT_NEW_43_COLUMNS_6_ROWS",
+  "v4_public_depth_gate_status": "PASS_WEEKEND_MODE_3_CARDS_2728_CJK",
+  "data_gap_boundary_status": "PASS",
+  "github_candidate_four_piece_readback": {
+    "public_core.md": "1d1082ea175ae0953dde0471596a6763b97eb93725ba0390c43ded9ab1d0123b",
+    "evidence.json": "4f43bc79992b63360012a577ef4360731d808a2e4608f0993074dd4080fe2008",
+    "evidence_ledger_v2_2026-11-21.csv": "780b519e8784f52d6b815934721793d8cb173156581f9fe968319953567c6824",
+    "manifest.json": "27a60000b06c64f31ed3eb2ad08a5a156089d7d4f3e12dca919de58f92cacb0a"
+  },
+  "failure_stage": null,
+  "failure_reason": null,
+  "manual_recovery": true,
+  "execution_mode": "INTERACTIVE_RECOVERY_AFTER_10_15_SCHEDULED_FAILED",
+  "scheduled_attempt_status": "FAILED",
+  "scheduled_attempt_original_failure_stage": "EVIDENCE_MATRIX_INDEPENDENT_CROSS_CHECK_PRECOMMIT",
+  "scheduled_attempt_original_failure_reason": "A-E first pass and one targeted supplementary pass completed. Insufficient three independently substantiated decision signals with exact source time and owner-group cross-check. Reuters reports cannot cross-check each other. Evidence JSON/native evidence gate not passed; no full draft or four-piece commit.",
+  "scheduled_attempt_audit_path": "daily/2026/11/2026-11-21/chat_recovery_handoff.json",
+  "schedule_mutation_performed": false,
+  "authority_mutation_performed": false,
+  "site_mutation_performed": false,
+  "handoff_ready_at": "2026-11-21T02:43:55.458Z"
 }
