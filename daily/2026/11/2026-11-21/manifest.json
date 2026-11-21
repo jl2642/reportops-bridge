@@ -1,0 +1,57 @@
+{
+  "schema_version": "REPORTOPS_DAILY_MANIFEST_V1_5_SINGLE_SITE",
+  "target_date": "2026-11-21",
+  "window_start": "2026-11-20T10:00:00+08:00",
+  "window_end": "2026-11-21T10:00:00+08:00",
+  "scheduled_for": "10:15 Asia/Shanghai",
+  "execution_mode": "MANUAL_EVIDENCE_FIRST_RECOVERY_AFTER_SCHEDULED_FAILED__NOT_SCHEDULED_SUCCESS",
+  "producer_status": "PUBLIC_CORE_ACCEPTED",
+  "product_status": "PRODUCER_CANDIDATE_PENDING_WORK",
+  "formal_status": "NOT_FORMALLY_PROMOTED",
+  "cjk_characters_actual": 2728,
+  "signal_card_count": 3,
+  "evidence_record_count": 6,
+  "source_url_count_distinct": 6,
+  "public_contract_sha256": "64770bf24f1280d11060d6a905a659241d5e483109fc8c3e34195a8264fc48f6",
+  "authority_policy_sha256": "ed69573e48d0daedd1b899ab2d6cf15880f37705f88b44b1a9d2ca26715f9905",
+  "source_identity_gate_status": "PASS",
+  "inline_citation_gate_status": "PASS",
+  "strict_v2_ledger_status": "PASS",
+  "v4_public_depth_gate_status": "PASS",
+  "evidence_status": "PASS_3_MATERIAL_CLAIMS_6_DIRECT_RECORDS_3_INDEPENDENT_GROUP_CROSSCHECKS",
+  "date_only_supporting_source_ids": [
+    "E02",
+    "E04",
+    "E06"
+  ],
+  "exact_window_anchor_source_ids": [
+    "E01",
+    "E03",
+    "E05"
+  ],
+  "data_gap_boundary_status": "PASS_NO_UNVERIFIED_PRICE_PROXY",
+  "post_run_self_audit_status": "PASS_PRODUCER_PRECOMMIT__WORK_NATIVE_CONSUMER_PENDING",
+  "consumer_status": "NOT_RUN__WORK_NATIVE_CONSUMER_REQUIRED",
+  "authority_version": 107,
+  "authority_sha256": "b4b5a2c392aefed6aa79611a903c2c3839cc09820acb6a37a33e7083404653b8",
+  "authority_file_id": "file_000000000c5081f59ce0a95db9145d38",
+  "canonical_mutation_performed": false,
+  "site_mutation_performed": false,
+  "work_may_rewrite": false,
+  "candidate_files_sha256": {
+    "public_core.md": "1d1082ea175ae0953dde0471596a6763b97eb93725ba0390c43ded9ab1d0123b",
+    "evidence.json": "4f43bc79992b63360012a577ef4360731d808a2e4608f0993074dd4080fe2008",
+    "evidence_ledger_v2_2026-11-21.csv": "780b519e8784f52d6b815934721793d8cb173156581f9fe968319953567c6824"
+  },
+  "warnings": [
+    "11/21_SCHEDULED_ATTEMPT_FAILED_THIS_IS_MANUAL_RECOVERY",
+    "THREE_DATE_ONLY_INDEPENDENT_SUPPORTING_SOURCES_NOT_EXACT_WINDOW_ANCHORS",
+    "CHINA_LNG_LPG_SPOT_PRICE_DATA_GAP_NO_PROXY",
+    "MANUAL_RECOVERY_DOES_NOT_PROVE_UNATTENDED_10_15_RELIABILITY"
+  ],
+  "unsupported_core_claims": 0,
+  "evidence_claim_role_status": "PASS",
+  "evidence_support_alignment_status": "PASS",
+  "producer_self_audit_status": "PASS",
+  "next_work_action": "Independent Work Consumer/Reader/Lineage/P8G/CAS and unique Site publishing if product accepted; no changes to Producer candidate permitted by Work before formal gate."
+}
