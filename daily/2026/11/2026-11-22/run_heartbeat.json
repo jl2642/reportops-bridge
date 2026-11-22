@@ -2,5 +2,78 @@
   "target_date": "2026-11-22",
   "scheduled_for": "10:15 Asia/Shanghai",
   "run_started_at": "2026-11-22T10:10:59+08:00",
-  "status": "RUN_STARTED_BEFORE_PREFLIGHT"
+  "status": "FAILED",
+  "authority_version": "108",
+  "authority_file_id": "file_00000000b09481f583b681d4e274f897",
+  "authority_sha256": "bd4f9e8c29aa73ea04e9619f41b8d06504ef34e851e8934114e302bb9be8bb3e",
+  "formal_current_daily": "2026-11-21",
+  "window_start": "2026-11-21T10:00:00+08:00",
+  "window_end": "2026-11-22T10:00:00+08:00",
+  "search_passes": [
+    {
+      "pass": 1,
+      "channels": [
+        "A China LNG gas supply and exchange",
+        "B China LPG regional price",
+        "C international Brent WTI Reuters",
+        "D US Europe Asia LNG gas",
+        "E energy policy company pipeline projects"
+      ]
+    },
+    {
+      "pass": 2,
+      "channels": [
+        "targeted November 21 energy events",
+        "China winter gas supply",
+        "oil gas original sources and policy"
+      ]
+    }
+  ],
+  "verified_sources": [],
+  "source_gaps": [
+    {
+      "url": "https://www.ft.com/content/5fbc2b9d-0360-4a1f-9e4a-3e86168cbbc5",
+      "reason": "Publication time and timezone not visible; paywalled exact document"
+    },
+    {
+      "url": "https://www.thetimes.com/uk/politics/article/rosebank-energy-bills-miatta-fahnbulleh-kdn2wmkcp",
+      "reason": "Publication time and timezone not visible; paywalled exact document"
+    },
+    {
+      "url": "https://www.mysteel.com/hot/1601240.html",
+      "reason": "Index mixes historical pricing and dates; not an exact timestamped price document"
+    },
+    {
+      "url": "https://www.voltsdaily.com/day/2026-11-21",
+      "reason": "2026-11-21 00:55 UTC page timestamp observed but constituent events are prior-day reports, original source publication times not established; aggregator not primary evidence"
+    },
+    {
+      "url": "https://www.reuters.com/legal/litigation/federal-regulators-approve-chenieres-sabine-pass-expansion-project-2026-11-19/",
+      "reason": "Source published before target window"
+    },
+    {
+      "url": "https://www.pipechina.com.cn/front/news/3006392.html",
+      "reason": "2026-11-16 historical background outside target window"
+    }
+  ],
+  "unverified_source_count": 4,
+  "products_repaired_or_produced": [],
+  "producer_recovery_queue_remaining": [
+    "2026-11-22"
+  ],
+  "queue_for_12_30_work": [],
+  "post_run_self_audit_status": "NOT_RUN",
+  "evidence_claim_role_status": "NOT_RUN",
+  "evidence_support_alignment_status": "NOT_RUN",
+  "policy_drift_status": "NOT_RUN",
+  "failure_stage": "EVIDENCE_MATRIX_SOURCE_WINDOW_PRECOMMIT",
+  "failure_reason": "Two bounded search passes did not establish sufficient eligible, directly supported timestamped in-window claims for compliant Evidence Matrix; no native Evidence or V4 gates executed. No four-piece candidate produced.",
+  "files_written": {
+    "public_core.md": false,
+    "evidence.json": false,
+    "evidence_ledger_v2_2026-11-22.csv": false,
+    "manifest.json": false
+  },
+  "canonical_mutation_performed": false,
+  "site_mutation_performed": false
 }
