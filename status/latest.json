@@ -788,7 +788,9 @@
     "url": "https://energy-cycle-report-share.ljjx2020.chatgpt.site",
     "updated_at": "2026-11-20T05:45:04.287Z"
   },
-  "remaining_product_debt": [],
+  "remaining_product_debt": [
+    "Daily 2026-11-22: PRODUCER_CANDIDATE_NOT_READY"
+  ],
   "current_run_promoted_products": [
     "Daily 2026-11-20"
   ],
@@ -4396,5 +4398,21 @@
     "scheduled_1230_environment": "UNVERIFIED",
     "automation_modified": false
   },
-  "public_daily_2026_11_21_download_sha256": "cf8e32a5a082d9032d44b27b31d72b9d104e18fb55c0ca9da8bfb83076686b52"
+  "public_daily_2026_11_21_download_sha256": "cf8e32a5a082d9032d44b27b31d72b9d104e18fb55c0ca9da8bfb83076686b52",
+  "latest_reconciler_run": {
+    "target_date": "2026-11-22",
+    "candidate_count": 0,
+    "candidate_status": "DAILY_CANDIDATE_NOT_READY__SKIP_CONSUMER",
+    "producer_heartbeat_status": "FAILED",
+    "failure_stage": "EVIDENCE_MATRIX_SOURCE_WINDOW_PRECOMMIT",
+    "failure_reason": "No eligible four-piece candidate produced; native Evidence and V4 not executed by Producer.",
+    "consumer": "NOT_RUN",
+    "cas": "NOT_RUN",
+    "site": "SITE_NO_OP_ALREADY_CURRENT",
+    "deployment_performed": false,
+    "remote_daily": "2026-11-21",
+    "remote_weekly": "2026-W46",
+    "remote_zip_sha256": "cf8e32a5a082d9032d44b27b31d72b9d104e18fb55c0ca9da8bfb83076686b52",
+    "checked_at": "2026-11-22T04:27:35.410Z"
+  }
 }
