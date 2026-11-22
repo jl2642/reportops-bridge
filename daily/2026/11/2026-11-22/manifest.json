@@ -8,7 +8,7 @@
   "producer_status": "DRAFT_PENDING_NATIVE_GATES",
   "product_status": "PRODUCER_DRAFT_NOT_WORK_READY",
   "formal_status": "NOT_FORMALLY_PROMOTED",
-  "cjk_characters_actual": 3003,
+  "cjk_characters_actual": 3051,
   "signal_card_count": 3,
   "evidence_record_count": 6,
   "source_url_count_distinct": 6,
@@ -29,23 +29,23 @@
   "site_mutation_performed": false,
   "work_may_rewrite": false,
   "candidate_files_sha256": {
-    "public_core.md": "804499d17f3c0ba8d3ddbb50e70511a289085e35c6e35d30bc8fdaa55f52e6f7",
-    "evidence.json": "7b73191cb50c4326c554065c35b3b02ca03de75fb4d4e31791d53a6437c37474",
-    "evidence_ledger_v2_2026-11-22.csv": "cc4268dfa0be599cb72ef64d816163ac4b5337268cd1f648fe621efdc28ec274"
+    "public_core.md": "672d3f6616e54b89936d26515c19c3c79fea2e519276b326de2d143185e7782e",
+    "evidence.json": "824bdc32fcb2b315c91065b06888bcf80f885d50dcba503d3fa132181a881062",
+    "evidence_ledger_v2_2026-11-22.csv": "b88265ef5b4fcf10ce30faf45959b1b81dd89ceeeb2516b891f4b4bb2ee896f5"
   },
   "warnings": [
     "11_22_SCHEDULED_ATTEMPT_FAILED__MANUAL_RECOVERY_IN_PROGRESS",
     "NATIVE_GATES_NOT_RUN__NOT_ELIGIBLE_FOR_WORK",
     "UKMTO_DOCUMENT_PUBLICATION_MINUTE_NOT_VERIFIED__EVENT_TIMES_ONLY",
-    "FT_PAYWALL_DIRECTION_ONLY",
+    "UKMTO_WEEKLY_DATA_DATED_20_NOV_NEW_REPORT_21_NOV_VESSEL_COUNTS_NOT_OIL_BARRELS",
     "NO_VERIFIED_WEEKEND_SPOT_PRICES",
     "CSV_44_TO_43_COLUMNS_REPAIRED_BEFORE_NATIVE_GATE",
     "V4_REQUIRED_HEADING_ANCHORS_FIXED_BEFORE_NATIVE_GATES",
-    "INLINE_CITATIONS_ADDED_INSIDE_EACH_SIGNAL_CARD_BEFORE_NATIVE_GATES"
+    "INLINE_CITATIONS_ADDED_INSIDE_EACH_SIGNAL_CARD_BEFORE_NATIVE_GATES",
+    "E05_DIRECT_REPLACEMENT_DRAFT_NATIVE_GATES_REQUIRE_RERUN"
   ],
-  "unsupported_core_claims": 0,
   "evidence_claim_role_status": "PRELIMINARY_REVIEW_ONLY",
   "evidence_support_alignment_status": "PRELIMINARY_REVIEW_ONLY",
   "producer_self_audit_status": "NOT_RUN__NATIVE_PENDING",
-  "next_work_action": "Do not consume until native Producer gates are actually run and pass; heartbeat remains FAILED."
+  "next_work_action": "Re-run native Source Identity V2, Inline Citation V2, STRICT_NEW, weekend V4, Policy Drift, and Consumer with independently derived unsupported_core_claims. Only if all pass run P8G, CAS and old Site release. Do not rerun entire Daily Producer."
 }

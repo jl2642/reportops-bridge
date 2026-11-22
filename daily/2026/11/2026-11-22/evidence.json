@@ -138,28 +138,28 @@
       "claim_id": "D20261122-C002",
       "claim_type": "EVENT",
       "claim_role": "MATERIAL",
-      "publisher": "Financial Times",
-      "title": "Oil shipped through Hormuz falls as Iranian strikes increase",
-      "url": "https://www.ft.com/content/5fbc2b9d-0360-4a1f-9e4a-3e86168cbbc5",
-      "publication_time": "2026-11-21T05:00:35Z",
-      "claim": "FT published a report indicating directionally lower oil shipping via Hormuz as attacks increased; exact volume and percentage change are not asserted from paywalled text.",
-      "boundary": "Paywall constrains precise throughput volume; direction-only claim",
-      "support": "PARTIAL",
-      "support_excerpt": "FT headline/dated professional news snippet reports oil shipped through the strait falling amid higher attack frequency; article paywalled, no precise volume asserted.",
+      "publisher": "Iran International",
+      "title": "Strait of Hormuz shipping 65% below pre-war levels in mid-November, UKMTO says",
+      "url": "https://www.iranintl.com/en/202611215184",
+      "publication_time": "2026-11-21T03:11:00Z",
+      "claim": "Iran International published an in-window report on 21 Nov at 03:11 UTC citing UKMTO's 20 Nov weekly statistics: Hormuz vessel transits for the week to 18 Nov fell to 263 from 308 in the preceding week; these are vessel passages, not oil barrel volumes.",
+      "boundary": "In-window article published 21 Nov; underlying UKMTO report is 20 Nov and covers data only through 18 Nov. Do not misstate the week-on-week fall as a new 21 Nov traffic event or translate vessels into oil barrels.",
+      "support": "DIRECT",
+      "support_excerpt": "Iran International, 21 Nov 2026 03:11 GMT: UKMTO recorded 263 vessel transits during the week to 18 Nov, down from 308 the previous week; 115 outbound and 148 inbound versus 139 and 169. Original UKMTO overview is dated 20 Nov; vessel counts do not establish oil barrels.",
       "url_identity_status": "PASS",
       "url_verified_date": "2026-11-22",
       "source_identity_receipt": {
         "verification_method": "OPENED_EXACT_DOCUMENT",
-        "observed_url": "https://www.ft.com/content/5fbc2b9d-0360-4a1f-9e4a-3e86168cbbc5",
-        "canonical_url": "https://www.ft.com/content/5fbc2b9d-0360-4a1f-9e4a-3e86168cbbc5",
-        "observed_title": "Oil shipped through Hormuz falls as Iranian strikes increase",
-        "observed_publisher": "Financial Times",
+        "observed_url": "https://www.iranintl.com/en/202611215184",
+        "canonical_url": "https://www.iranintl.com/en/202611215184",
+        "observed_title": "Strait of Hormuz shipping 65% below pre-war levels in mid-November, UKMTO says",
+        "observed_publisher": "Iran International",
         "title_match_status": "EXACT",
-        "verified_at": "2026-11-22T05:02:48.194Z"
+        "verified_at": "2026-11-22T05:43:48.364Z"
       },
       "source_type": "ORIGINAL_MEDIA",
       "source_tier": "T2_PROFESSIONAL",
-      "independence_group": "FT_GROUP",
+      "independence_group": "IRAN_INTERNATIONAL",
       "cross_check_required": false,
       "cross_check_group": "D20261122-C002",
       "usage_policy": "PRIMARY"
@@ -207,7 +207,7 @@
       "reason": "UKMTO_E01_E02_EVENT_TIME_NOT_DOCUMENT_PUBLICATION_TIME"
     },
     {
-      "reason": "FT_PAYWALL_DIRECTION_ONLY_NO_UNVERIFIED_VOLUMES"
+      "reason": "UKMTO_20_NOV_WEEKLY_STATS_BACKGROUND_VESSEL_COUNTS_NOT_OIL_BARRELS"
     }
   ]
 }

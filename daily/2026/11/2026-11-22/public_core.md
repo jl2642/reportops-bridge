@@ -10,11 +10,11 @@ window_end: 2026-11-22T10:00:00+08:00
 ---
 # 能源周期日报｜2026-11-22（周日观察版）
 
-> **事实窗口与读法**：新增信息窗口为北京时间11月21日10:00—11月22日10:00。本期最值得注意的信息集中在霍尔木兹海峡航运安全、实际船货通过量和产油国的航运保障。三张信号卡是同一地区冲击的三个**不同经济传导环节**，不是三场互不相关的地缘事件。对中国LNG/LPG和国际气价缺乏合格当窗报价的部分，明确保留DATA_GAP；周内事实只作背景，不冒充当窗新增。
+> **事实窗口与读法**：新增信息窗口为北京时间11月21日10:00—11月22日10:00。本期最值得注意的信息集中在霍尔木兹海峡航运安全、船舶通行量和产油国的航运保障。三张信号卡是同一地区冲击的三个**不同经济传导环节**，不是三场互不相关的地缘事件。对中国LNG/LPG和国际气价缺乏合格当窗报价的部分，明确保留DATA_GAP；周内事实只作背景，不冒充当窗新增。
 
 <!-- MODULE:EXECUTIVE_SIGNAL_SUMMARY -->
 ## 一、今日一屏结论
-11月21日，英国海上贸易行动办公室UKMTO先后记录两起靠近阿曼哈塞卜的油轮遇袭通报，之后Reuters与美联社均发布当日新闻，显示海峡安全风险仍在持续。[E01](https://www.ukmto.org/-/media/ukmto/products/20261121-ukmto_warning_215-26.pdf) [E02](https://www.ukmto.org/-/media/ukmto/products/20261121-ukmto_warning_216-26.pdf) [E03](https://www.reuters.com/business/energy/tanker-hit-by-unknown-projectile-near-omans-khasab-ukmto-says-2026-11-21/) [E04](https://apnews.com/article/mideast-iran-gaza-israel-november-21-2026-29159a6f3365ff447c0ccbd1d7260f75) 与单次袭击并行，Financial Times于当窗报道霍尔木兹石油运输量有下降迹象；而华尔街日报同日描述阿联酋国家石油公司利用高风险穿梭船队维持部分石油出口，两种事实并不矛盾：局部通行得以维持，同时全系统物流效率和可靠性仍可能受损。[E05](https://www.ft.com/content/5fbc2b9d-0360-4a1f-9e4a-3e86168cbbc5) [E06](https://www.wsj.com/world/middle-east/the-u-a-e-is-shuttling-oil-past-iran-in-risky-hormuz-operation-9150693e) 经营层面不宜把袭击数量直接等同于供应量损失，也不能以少数船舶成功通航推出航道全面恢复。真正要跟踪的是有效运力、保险与运价、装卸效率以及区域替代供应链的履约能力。
+11月21日，英国海上贸易行动办公室UKMTO先后记录两起靠近阿曼哈塞卜的油轮遇袭通报，之后Reuters与美联社均发布当日新闻，显示海峡安全风险仍在持续。[E01](https://www.ukmto.org/-/media/ukmto/products/20261121-ukmto_warning_215-26.pdf) [E02](https://www.ukmto.org/-/media/ukmto/products/20261121-ukmto_warning_216-26.pdf) [E03](https://www.reuters.com/business/energy/tanker-hit-by-unknown-projectile-near-omans-khasab-ukmto-says-2026-11-21/) [E04](https://apnews.com/article/mideast-iran-gaza-israel-november-21-2026-29159a6f3365ff447c0ccbd1d7260f75) 与单次袭击并行，Iran International于当窗援引UKMTO前一日周报称海峡七日船舶通行数由308艘次降至263艘次；而华尔街日报同日描述阿联酋国家石油公司利用高风险穿梭船队维持部分石油出口，两种事实并不矛盾：局部通行得以维持，同时全系统物流效率和可靠性仍可能受损。[E05](https://www.iranintl.com/en/202611215184) [E06](https://www.wsj.com/world/middle-east/the-u-a-e-is-shuttling-oil-past-iran-in-risky-hormuz-operation-9150693e) 经营层面不宜把袭击数量直接等同于供应量损失，也不能以少数船舶成功通航推出航道全面恢复。真正要跟踪的是有效运力、保险与运价、装卸效率以及区域替代供应链的履约能力。
 
 <!-- MODULE:MARKET_AND_EVENT_DELTA -->
 ## 二、今日关键信号｜三张重点信号卡
@@ -24,13 +24,13 @@ window_end: 2026-11-22T10:00:00+08:00
 **经济含义。** 对承运人，第一层影响是船员安全、战险安排、航线风险评估和船东接受运输的意愿；对实货贸易商，第二层才是提单、装货窗口和到港交付的不确定性。只凭安全通报不能量化受影响的桶数或断言能源价格必然上涨；应把物理事故、有效航次、货损和船货延期分别建立证据与概率判断。
 **反证与跟踪。** 若UKMTO后续核实为重复报告，则实际独立受袭船舶数量需要下调；若随后数日通行量与装船量恢复，则对供应损失的推断也应下调。关注UKMTO更新、船东声明、船舶位置与保险报价，而非仅关注战事标题。
 
-### 信号卡2｜FT报道运输量回落：应区分真实吞吐与新闻声量
-**当窗新增事实。** Financial Times在11月21日05:00 UTC发布题为《Oil shipped through Hormuz falls as Iranian strikes increase》的报道，指向在袭击增加背景下油轮航运量下降。其确切文章身份与新闻发布时间可核对；全文受付费墙限制，故本期仅确认方向性事实，不自行引用无法全文交叉核验的细分周度桶数、船次或降幅。该报道的方向性陈述见Financial Times原文标题与具发布时间的新闻条目。[E05](https://www.ft.com/content/5fbc2b9d-0360-4a1f-9e4a-3e86168cbbc5) 该信息与UKMTO当日通报指向相同的运输风险，但前者是运输效率结果，后者是安全事件记录，不能把两者写成互不相关的供给冲击。
-**经济含义。** 通过量下降可能来自航线等待、保单约束、船舶集中装卸、转运瓶颈及部分货主延迟决策，不等于上游产量按同等比例下降。对油气贸易及基础设施投资，收入影响须拆分成装载量、转运费用、船期延误、库存天数和货币资金占用；若无法确认到岸增量成本，不应凭地缘新闻形成单点价差预测。
-**反证与跟踪。** 下个工作日使用Kpler、航运AIS、港口装载记录及独立机构发布的数据校验。若航道出现高频短程穿梭而长航程油轮减少，船次和实际出货桶数可能方向不一致。需要同时跟踪石油、LPG、LNG不同船型的通行情况，避免原油船流量代表全部气体货物。
+### 信号卡2｜周度通行艘次下降：船舶数量不是石油桶数
+**当窗新增事实（媒体报道），底层统计期为前一周。** Iran International于11月21日03:11 UTC发表可公开核验的报道，引用UKMTO于11月20日公布的截至11月18日七日海峡通行统计：总通行数量由前一周308艘次降至263艘次，出航由139降至115艘次，进航由169降至148艘次。数据统计截止11月18日，原始官方发布于11月20日；本窗口新增的是11月21日媒体对既有数据的报道，不能将其表述成11月21日船货突然下降。[E05](https://www.iranintl.com/en/202611215184) [UKMTO原始数据](https://www.ukmto.org/-/media/ukmto/products/20261120-ukmto_vra_overview_u.pdf) UKMTO周报包含AIS数据及美方通行协助统计，部分非AIS航次数据未经UKMTO独立核验。该数据只支持通行艘次变化，不能证明油品运输桶数或LNG、LPG运输吨数同比例下降。
+**经济含义。** 船舶通行次数是航道可用性和运输效率的信号，却不是实际装载货量。贸易商和基础设施经营者需分别跟踪出航船数、船型、载货状态、转运航次、实际装货桶数和到港量，不应用艘次变化直接外推原油产量、供应缺口或价差。若无法核实货量及合同船期，只能设定风险情景，不形成精确损益数字。
+**反证与跟踪。** 后续核对UKMTO、Kpler/AIS、港口装载与货流数据。油品短程穿梭和船对船转运可能导致单票货物对应多次船舶运动；非AIS或延迟识别航次也可能修正初步统计。此卡说明历史周度流量压力，不是第三起独立袭击事件。
 
 ### 信号卡3｜ADNOC高风险穿梭运输：部分供应维持不等于风险消失
-**当窗新增事实。** 华尔街日报在11月21日17:00 UTC发表针对阿联酋国家石油公司ADNOC的报道，描述其通过扩大船队及高风险往返运输维持部分海峡油品出口，在美国军事保护安排下承担其他商业船东不愿承接的航段。上述运营观察来自华尔街日报当窗的企业运营报道。[E06](https://www.wsj.com/world/middle-east/the-u-a-e-is-shuttling-oil-past-iran-in-risky-hormuz-operation-9150693e) 该报道属于独立于FT和UKMTO的企业运营观察，并没有证明整个海峡恢复正常，更不能当作航运成本降低的证据。
+**当窗新增事实。** 华尔街日报在11月21日17:00 UTC发表针对阿联酋国家石油公司ADNOC的报道，描述其通过扩大船队及高风险往返运输维持部分海峡油品出口，在美国军事保护安排下承担其他商业船东不愿承接的航段。上述运营观察来自华尔街日报当窗的企业运营报道。[E06](https://www.wsj.com/world/middle-east/the-u-a-e-is-shuttling-oil-past-iran-in-risky-hormuz-operation-9150693e) 该报道属于独立于上述安全通报和周度通行统计的企业运营观察，并没有证明整个海峡恢复正常，更不能当作航运成本降低的证据。
 **经济含义。** 当航道风险提升而特定国家公司凭借船队、组织协调和保安能力继续运营时，市场可能同时出现“部分出口仍在进行”和“可用运力集中、运输风险溢价上升”。这意味着供应链存在企业间分化：拥有自有船队、港口和保险协调能力的主体与仅依赖即期运力的货主可能遭遇不同履约成本。项目测算需审阅船舶租赁责任、战争风险保险、不可抗力、滞期及替代装货港条款。
 **反证与跟踪。** 媒体报道的运营路径不等于公开完整合同，不能假定ADNOC或其他公司承担相同费用或获得同一军事保障。之后应核对公司公告、实际航次、港口交接和第三方保险报价，才能判断高风险运输的商业可持续性。
 
@@ -44,7 +44,7 @@ window_end: 2026-11-22T10:00:00+08:00
 
 <!-- MODULE:GLOBAL_ENERGY_DELTA -->
 ## 五、全球供需与运力传导
-当窗三类报道构成“安全警告—实际货物流动—商业主体应对”的传导链：UKMTO及Reuters/AP提供事件证据，FT提供航运量变化方向，WSJ描述部分企业通过自有或协调运力继续执行运输。它们共同显示的是运输网络韧性受到挑战，而不是已经证实的全球供应总量缺口。即使油价因短期袭击波动，能源平衡仍取决于库存、替代管道、OPEC+政策、炼厂需求及航运恢复速度。对LNG的连带影响要以具体液化厂、航线、装运合同和可替代船队为依据；缺少气体船舶的当窗跟踪证据时，不从油轮报道推导LNG出口损失百分比。
+当窗三类报道构成“安全警告—实际货物流动—商业主体应对”的传导链：UKMTO及Reuters/AP提供事件证据，Iran International提供UKMTO周度通行数据的当窗报道，WSJ描述部分企业通过自有或协调运力继续执行运输。它们共同显示的是运输网络韧性受到挑战，而不是已经证实的全球供应总量缺口。即使油价因短期袭击波动，能源平衡仍取决于库存、替代管道、OPEC+政策、炼厂需求及航运恢复速度。对LNG的连带影响要以具体液化厂、航线、装运合同和可替代船队为依据；缺少气体船舶的当窗跟踪证据时，不从油轮报道推导LNG出口损失百分比。
 
 <!-- MODULE:INDUSTRY_CHAIN_AND_OPERATOR_EXPOSURE -->
 ## 六、经营主体与投资敞口
@@ -56,12 +56,12 @@ window_end: 2026-11-22T10:00:00+08:00
 
 <!-- MODULE:EVIDENCE_AND_GAPS -->
 ## 八、证据层级、引用和未决问题
-窗口内可精确核实发布时间的来源为Reuters当日07:57 UTC、美联社14:43 UTC、FT 05:00 UTC与WSJ 17:00 UTC；UKMTO的两份原始文件明确写有11月21日05:00及05:50 UTC的**事故时间**，但不得把该时间冒充网页发布时间。Reuters与AP属于不同媒体集团；UKMTO是原始安全通报，FT和WSJ分别提供运输量方向和运营主体案例。为保证可验证性，本期仅将有直接或部分支持的事实写作MATERIAL主张，未构造缺乏双重证据的强CORE量化断言。FT付费墙限制全文核验，因此不把摘要中的推测值变成可交易的精准吞吐指标；伊朗方面有关第三艘油轮的主张未单独确证，不能与UKMTO通报机械累加。国内实货报价与LNG船舶专门运量属DATA_GAP，后续待补，不以代理值修补。
+窗口内可精确核实发布时间的来源为Reuters当日07:57 UTC、美联社14:43 UTC、Iran International 03:11 UTC与WSJ 17:00 UTC；UKMTO的两份原始文件明确写有11月21日05:00及05:50 UTC的**事故时间**，但不得把该时间冒充网页发布时间。Reuters与AP属于不同媒体集团；UKMTO是原始安全通报，Iran International和WSJ分别提供周度船舶通行量报道和运营主体案例。为保证可验证性，本期仅将有直接或部分支持的事实写作MATERIAL主张，未构造缺乏双重证据的强CORE量化断言。UKMTO周度数据截止11月18日、官方发布于11月20日，不能据此伪造11月21日新流量事件，亦不能将船次推断为油品桶数；伊朗方面有关第三艘油轮的主张未单独确证，不能与UKMTO通报机械累加。国内实货报价与LNG船舶专门运量属DATA_GAP，后续待补，不以代理值修补。
 
 ## Public Sources
 - [E01] UKMTO, WARNING 215-26, 11/21 incident at 05:00 UTC, source document published on 11/21 (publication minute not verified).
 - [E02] UKMTO, WARNING 216-26, 11/21 incident at 05:50 UTC, source document published on 11/21 (publication minute not verified).
 - [E03] Reuters, tanker incidents near Oman, 11/21 07:57 UTC.
 - [E04] AP, Iran strikes tankers and other Mideast news, 11/21 14:43 UTC.
-- [E05] Financial Times, Oil shipped through Hormuz falls, 11/21 05:00 UTC.
+- [E05] Iran International, Strait of Hormuz shipping 65% below pre-war levels, 11/21 03:11 UTC (UKMTO 11/20 data).
 - [E06] The Wall Street Journal, The U.A.E. Is Shuttling Oil Past Iran, 11/21 17:00 UTC.
