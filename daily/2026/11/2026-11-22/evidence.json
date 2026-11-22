@@ -1,0 +1,213 @@
+{
+  "schema_version": "REPORTOPS_EVIDENCE_V1_2",
+  "target_date": "2026-11-22",
+  "window_start": "2026-11-21T10:00:00+08:00",
+  "window_end": "2026-11-22T10:00:00+08:00",
+  "mode": "STRICT_NEW_PUBLIC",
+  "source_identity_summary": {
+    "guessed_url_count": 0,
+    "unverified_external_source_count": 0
+  },
+  "records": [
+    {
+      "id": "E01",
+      "claim_id": "D20261122-C001",
+      "claim_type": "EVENT",
+      "claim_role": "MATERIAL",
+      "publisher": "UKMTO",
+      "title": "UKMTO WARNING 215-26 - ATTACK",
+      "url": "https://www.ukmto.org/-/media/ukmto/products/20261121-ukmto_warning_215-26.pdf",
+      "publication_time": "2026-11-21",
+      "claim": "UKMTO documented an outbound tanker projectile incident north of Khasab on 21 Nov at 0500 UTC; exact UKMTO document publication minute was not established.",
+      "boundary": "Incident reports may refer to the same vessel; do not add Iranian claim as verified third vessel",
+      "support": "DIRECT",
+      "support_excerpt": "UKMTO document records 21 Nov 2026 at 0500 UTC as the incident time, 11 nautical miles north of Khasab, stern hit, casualties unreported.",
+      "url_identity_status": "PASS",
+      "url_verified_date": "2026-11-22",
+      "source_identity_receipt": {
+        "verification_method": "OPENED_EXACT_DOCUMENT",
+        "observed_url": "https://www.ukmto.org/-/media/ukmto/products/20261121-ukmto_warning_215-26.pdf",
+        "canonical_url": "https://www.ukmto.org/-/media/ukmto/products/20261121-ukmto_warning_215-26.pdf",
+        "observed_title": "UKMTO WARNING 215-26 - ATTACK",
+        "observed_publisher": "UKMTO",
+        "title_match_status": "EXACT",
+        "verified_at": "2026-11-22T05:02:48.194Z"
+      },
+      "source_type": "OFFICIAL_DOCUMENT",
+      "source_tier": "T1_OFFICIAL",
+      "independence_group": "UKMTO_ROYAL_NAVY",
+      "cross_check_required": true,
+      "cross_check_group": "D20261122-C001",
+      "usage_policy": "SUPPORTING"
+    },
+    {
+      "id": "E02",
+      "claim_id": "D20261122-C001",
+      "claim_type": "EVENT",
+      "claim_role": "MATERIAL",
+      "publisher": "UKMTO",
+      "title": "UKMTO WARNING 216-26 - ATTACK",
+      "url": "https://www.ukmto.org/-/media/ukmto/products/20261121-ukmto_warning_216-26.pdf",
+      "publication_time": "2026-11-21",
+      "claim": "UKMTO documented a second report for an outbound tanker engine-room incident east of Khasab at 0550 UTC; it does not establish separate vessel identity.",
+      "boundary": "Incident reports may refer to the same vessel; do not add Iranian claim as verified third vessel",
+      "support": "DIRECT",
+      "support_excerpt": "UKMTO document records 21 Nov 2026 at 0550 UTC as the incident time, 17 nautical miles east of Khasab, engine room projectile, casualties unreported.",
+      "url_identity_status": "PASS",
+      "url_verified_date": "2026-11-22",
+      "source_identity_receipt": {
+        "verification_method": "OPENED_EXACT_DOCUMENT",
+        "observed_url": "https://www.ukmto.org/-/media/ukmto/products/20261121-ukmto_warning_216-26.pdf",
+        "canonical_url": "https://www.ukmto.org/-/media/ukmto/products/20261121-ukmto_warning_216-26.pdf",
+        "observed_title": "UKMTO WARNING 216-26 - ATTACK",
+        "observed_publisher": "UKMTO",
+        "title_match_status": "EXACT",
+        "verified_at": "2026-11-22T05:02:48.194Z"
+      },
+      "source_type": "OFFICIAL_DOCUMENT",
+      "source_tier": "T1_OFFICIAL",
+      "independence_group": "UKMTO_ROYAL_NAVY",
+      "cross_check_required": true,
+      "cross_check_group": "D20261122-C001",
+      "usage_policy": "SUPPORTING"
+    },
+    {
+      "id": "E03",
+      "claim_id": "D20261122-C001",
+      "claim_type": "EVENT",
+      "claim_role": "MATERIAL",
+      "publisher": "Reuters",
+      "title": "UK maritime agency reports two tanker incidents near Oman; Iran says vessel hit mine east of Hormuz",
+      "url": "https://www.reuters.com/business/energy/tanker-hit-by-unknown-projectile-near-omans-khasab-ukmto-says-2026-11-21/",
+      "publication_time": "2026-11-21T07:57:07Z",
+      "claim": "Reuters reports UKMTO tanker incidents near Khasab in the 11 Nov 21 news window and explicitly says two reported incidents may refer to the same vessel.",
+      "boundary": "Incident reports may refer to the same vessel; do not add Iranian claim as verified third vessel",
+      "support": "DIRECT",
+      "support_excerpt": "Reuters published 21 Nov 07:57 UTC; reported UKMTO notices at 11NM north and 17NM east of Khasab, and cautioned it was not clear if the two notices involved the same vessel.",
+      "url_identity_status": "PASS",
+      "url_verified_date": "2026-11-22",
+      "source_identity_receipt": {
+        "verification_method": "OPENED_EXACT_DOCUMENT",
+        "observed_url": "https://www.reuters.com/business/energy/tanker-hit-by-unknown-projectile-near-omans-khasab-ukmto-says-2026-11-21/",
+        "canonical_url": "https://www.reuters.com/business/energy/tanker-hit-by-unknown-projectile-near-omans-khasab-ukmto-says-2026-11-21/",
+        "observed_title": "UK maritime agency reports two tanker incidents near Oman; Iran says vessel hit mine east of Hormuz",
+        "observed_publisher": "Reuters",
+        "title_match_status": "EXACT",
+        "verified_at": "2026-11-22T05:02:48.194Z"
+      },
+      "source_type": "WIRE",
+      "source_tier": "T2_PROFESSIONAL",
+      "independence_group": "THOMSON_REUTERS",
+      "cross_check_required": true,
+      "cross_check_group": "D20261122-C001",
+      "usage_policy": "PRIMARY"
+    },
+    {
+      "id": "E04",
+      "claim_id": "D20261122-C001",
+      "claim_type": "EVENT",
+      "claim_role": "MATERIAL",
+      "publisher": "AP News",
+      "title": "Iran strikes 3 tankers as it shows off missile launchers, and other Mideast news",
+      "url": "https://apnews.com/article/mideast-iran-gaza-israel-november-21-2026-29159a6f3365ff447c0ccbd1d7260f75",
+      "publication_time": "2026-11-21T14:43:49Z",
+      "claim": "AP independently reported Saturday tanker attacks around Hormuz, based on UKMTO safety notices plus Iranian statement, but third Iranian claim remains unverified.",
+      "boundary": "Incident reports may refer to the same vessel; do not add Iranian claim as verified third vessel",
+      "support": "DIRECT",
+      "support_excerpt": "AP article published 21 Nov 14:43 UTC; its maritime paragraph independently reports UKMTO describing two early Saturday tanker projectile reports and distinguishes an Iranian military claim.",
+      "url_identity_status": "PASS",
+      "url_verified_date": "2026-11-22",
+      "source_identity_receipt": {
+        "verification_method": "CANONICAL_REDIRECT_CONFIRMED",
+        "observed_url": "https://apnews.com/article/29159a6f3365ff447c0ccbd1d7260f75",
+        "canonical_url": "https://apnews.com/article/mideast-iran-gaza-israel-november-21-2026-29159a6f3365ff447c0ccbd1d7260f75",
+        "observed_title": "Iran strikes 3 tankers as it shows off missile launchers, and other Mideast news",
+        "observed_publisher": "AP News",
+        "title_match_status": "EXACT",
+        "verified_at": "2026-11-22T05:02:48.194Z"
+      },
+      "source_type": "ORIGINAL_MEDIA",
+      "source_tier": "T2_PROFESSIONAL",
+      "independence_group": "ASSOCIATED_PRESS",
+      "cross_check_required": true,
+      "cross_check_group": "D20261122-C001",
+      "usage_policy": "SUPPORTING"
+    },
+    {
+      "id": "E05",
+      "claim_id": "D20261122-C002",
+      "claim_type": "EVENT",
+      "claim_role": "MATERIAL",
+      "publisher": "Financial Times",
+      "title": "Oil shipped through Hormuz falls as Iranian strikes increase",
+      "url": "https://www.ft.com/content/5fbc2b9d-0360-4a1f-9e4a-3e86168cbbc5",
+      "publication_time": "2026-11-21T05:00:35Z",
+      "claim": "FT published a report indicating directionally lower oil shipping via Hormuz as attacks increased; exact volume and percentage change are not asserted from paywalled text.",
+      "boundary": "Paywall constrains precise throughput volume; direction-only claim",
+      "support": "PARTIAL",
+      "support_excerpt": "FT headline/dated professional news snippet reports oil shipped through the strait falling amid higher attack frequency; article paywalled, no precise volume asserted.",
+      "url_identity_status": "PASS",
+      "url_verified_date": "2026-11-22",
+      "source_identity_receipt": {
+        "verification_method": "OPENED_EXACT_DOCUMENT",
+        "observed_url": "https://www.ft.com/content/5fbc2b9d-0360-4a1f-9e4a-3e86168cbbc5",
+        "canonical_url": "https://www.ft.com/content/5fbc2b9d-0360-4a1f-9e4a-3e86168cbbc5",
+        "observed_title": "Oil shipped through Hormuz falls as Iranian strikes increase",
+        "observed_publisher": "Financial Times",
+        "title_match_status": "EXACT",
+        "verified_at": "2026-11-22T05:02:48.194Z"
+      },
+      "source_type": "ORIGINAL_MEDIA",
+      "source_tier": "T2_PROFESSIONAL",
+      "independence_group": "FT_GROUP",
+      "cross_check_required": false,
+      "cross_check_group": "D20261122-C002",
+      "usage_policy": "PRIMARY"
+    },
+    {
+      "id": "E06",
+      "claim_id": "D20261122-C003",
+      "claim_type": "EVENT",
+      "claim_role": "MATERIAL",
+      "publisher": "The Wall Street Journal",
+      "title": "The U.A.E. Is Shuttling Oil Past Iran in Risky Hormuz Operation",
+      "url": "https://www.wsj.com/world/middle-east/the-u-a-e-is-shuttling-oil-past-iran-in-risky-hormuz-operation-9150693e",
+      "publication_time": "2026-11-21T17:00:00Z",
+      "claim": "WSJ reports ADNOC organizes risky shuttle tanker operations to support some oil movements through Hormuz, not proof that overall shipping normalizes.",
+      "boundary": "Partial shuttle continuity does not imply normal operations or lower costs",
+      "support": "DIRECT",
+      "support_excerpt": "WSJ dated article reports ADNOC expanded its tanker fleet and high-risk shuttle operations to maintain oil movement through Hormuz, under military protection, with material vessel and crew risks.",
+      "url_identity_status": "PASS",
+      "url_verified_date": "2026-11-22",
+      "source_identity_receipt": {
+        "verification_method": "OPENED_EXACT_DOCUMENT",
+        "observed_url": "https://www.wsj.com/world/middle-east/the-u-a-e-is-shuttling-oil-past-iran-in-risky-hormuz-operation-9150693e",
+        "canonical_url": "https://www.wsj.com/world/middle-east/the-u-a-e-is-shuttling-oil-past-iran-in-risky-hormuz-operation-9150693e",
+        "observed_title": "The U.A.E. Is Shuttling Oil Past Iran in Risky Hormuz Operation",
+        "observed_publisher": "The Wall Street Journal",
+        "title_match_status": "EXACT",
+        "verified_at": "2026-11-22T05:02:48.194Z"
+      },
+      "source_type": "ORIGINAL_MEDIA",
+      "source_tier": "T2_PROFESSIONAL",
+      "independence_group": "DOW_JONES",
+      "cross_check_required": false,
+      "cross_check_group": "D20261122-C003",
+      "usage_policy": "PRIMARY"
+    }
+  ],
+  "source_gaps": [
+    {
+      "reason": "CHINA_LNG_LPG_SPOT_DATA_GAP_NO_IN_WINDOW_PRICE_BASIS"
+    },
+    {
+      "reason": "OIL_GAS_SETTLEMENT_DATA_GAP_NO_WEEKEND_SYNTHETIC_QUOTE"
+    },
+    {
+      "reason": "UKMTO_E01_E02_EVENT_TIME_NOT_DOCUMENT_PUBLICATION_TIME"
+    },
+    {
+      "reason": "FT_PAYWALL_DIRECTION_ONLY_NO_UNVERIFIED_VOLUMES"
+    }
+  ]
+}
