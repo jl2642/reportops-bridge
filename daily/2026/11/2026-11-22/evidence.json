@@ -33,8 +33,8 @@
         "title_match_status": "EXACT",
         "verified_at": "2026-11-22T05:02:48.194Z"
       },
-      "source_type": "OFFICIAL_DOCUMENT",
-      "source_tier": "T1_OFFICIAL",
+      "source_type": "OFFICIAL",
+      "source_tier": "T1_PRIMARY",
       "independence_group": "UKMTO_ROYAL_NAVY",
       "cross_check_required": true,
       "cross_check_group": "D20261122-C001",
@@ -64,8 +64,8 @@
         "title_match_status": "EXACT",
         "verified_at": "2026-11-22T05:02:48.194Z"
       },
-      "source_type": "OFFICIAL_DOCUMENT",
-      "source_tier": "T1_OFFICIAL",
+      "source_type": "OFFICIAL",
+      "source_tier": "T1_PRIMARY",
       "independence_group": "UKMTO_ROYAL_NAVY",
       "cross_check_required": true,
       "cross_check_group": "D20261122-C001",
