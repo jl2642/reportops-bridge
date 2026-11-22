@@ -30,15 +30,16 @@
   "work_may_rewrite": false,
   "candidate_files_sha256": {
     "public_core.md": "cc7d58824f1144673286ffe8fecb2e2988996e00ed0b3189545228968b225f16",
-    "evidence.json": "46e9f8343b83736f5db126cf13ad91546e5462b99fe2d58186a990b368cee375",
-    "evidence_ledger_v2_2026-11-22.csv": "eaaf3ff7fc8410d1f83c24545c4be063e3441e24e5555e5cad5243ea890e63bf"
+    "evidence.json": "7b73191cb50c4326c554065c35b3b02ca03de75fb4d4e31791d53a6437c37474",
+    "evidence_ledger_v2_2026-11-22.csv": "cc4268dfa0be599cb72ef64d816163ac4b5337268cd1f648fe621efdc28ec274"
   },
   "warnings": [
     "11_22_SCHEDULED_ATTEMPT_FAILED__MANUAL_RECOVERY_IN_PROGRESS",
     "NATIVE_GATES_NOT_RUN__NOT_ELIGIBLE_FOR_WORK",
     "UKMTO_DOCUMENT_PUBLICATION_MINUTE_NOT_VERIFIED__EVENT_TIMES_ONLY",
     "FT_PAYWALL_DIRECTION_ONLY",
-    "NO_VERIFIED_WEEKEND_SPOT_PRICES"
+    "NO_VERIFIED_WEEKEND_SPOT_PRICES",
+    "CSV_44_TO_43_COLUMNS_REPAIRED_BEFORE_NATIVE_GATE"
   ],
   "unsupported_core_claims": 0,
   "evidence_claim_role_status": "PRELIMINARY_REVIEW_ONLY",
