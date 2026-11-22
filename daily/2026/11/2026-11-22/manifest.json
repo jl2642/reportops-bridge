@@ -8,7 +8,7 @@
   "producer_status": "DRAFT_PENDING_NATIVE_GATES",
   "product_status": "PRODUCER_DRAFT_NOT_WORK_READY",
   "formal_status": "NOT_FORMALLY_PROMOTED",
-  "cjk_characters_actual": 2944,
+  "cjk_characters_actual": 2956,
   "signal_card_count": 3,
   "evidence_record_count": 6,
   "source_url_count_distinct": 6,
@@ -29,7 +29,7 @@
   "site_mutation_performed": false,
   "work_may_rewrite": false,
   "candidate_files_sha256": {
-    "public_core.md": "cc7d58824f1144673286ffe8fecb2e2988996e00ed0b3189545228968b225f16",
+    "public_core.md": "8d6c3424b1a0d5350624658f83bb487543cdd521a4c1e2a5336c7f1cb3f0c2f7",
     "evidence.json": "7b73191cb50c4326c554065c35b3b02ca03de75fb4d4e31791d53a6437c37474",
     "evidence_ledger_v2_2026-11-22.csv": "cc4268dfa0be599cb72ef64d816163ac4b5337268cd1f648fe621efdc28ec274"
   },
@@ -39,7 +39,8 @@
     "UKMTO_DOCUMENT_PUBLICATION_MINUTE_NOT_VERIFIED__EVENT_TIMES_ONLY",
     "FT_PAYWALL_DIRECTION_ONLY",
     "NO_VERIFIED_WEEKEND_SPOT_PRICES",
-    "CSV_44_TO_43_COLUMNS_REPAIRED_BEFORE_NATIVE_GATE"
+    "CSV_44_TO_43_COLUMNS_REPAIRED_BEFORE_NATIVE_GATE",
+    "V4_REQUIRED_HEADING_ANCHORS_FIXED_BEFORE_NATIVE_GATES"
   ],
   "unsupported_core_claims": 0,
   "evidence_claim_role_status": "PRELIMINARY_REVIEW_ONLY",
