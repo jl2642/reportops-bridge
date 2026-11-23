@@ -46,20 +46,20 @@
   "privacy_status": "PASS",
   "window_status": "PASS_12_OF_12",
   "data_gap_boundary_status": "PASS",
-  "current_daily_public": "2026-11-22",
+  "current_daily_public": "2026-11-23",
   "current_weekly_public": "2026-W46",
   "formal_status": "FORMAL_PROMOTED_DAILY_2026_11_20_WEEKLY_2026_W46",
   "canonical_promotion_performed": true,
-  "site_publication_performed": false,
-  "public_site_version": 122,
-  "public_site_status": "SITE_PENDING",
+  "site_publication_performed": true,
+  "public_site_version": 123,
+  "public_site_status": "DEPLOYED_HISTORY_REMOTE_VERIFICATION_PENDING",
   "manifest_reconciliation_status": "NATIVE_FINALIZER_REGISTRY_MANIFEST_COMPLETE__RECONCILER_ALREADY_COMPLETE",
   "metadata_freshness": "PASS_V107_13_OF_13_POINTER_PROVENANCE",
   "state_consistency_pointer_sha256": "ffeaabb7140d6b21d00c668e5116165645bc1ccc0e479cfc6562f3e5a5ad5e19",
   "failure_stage": null,
   "failure_reason": null,
   "next_action": "NEXT_ORIGINAL_2026_11_21_12_30_ASIA_SHANGHAI__DYNAMIC_CANDIDATE_AND_SITE_NO_OP_OR_INCREMENTAL",
-  "updated_at": "2026-11-23T07:35:28.458Z",
+  "updated_at": "2026-11-23T07:50:31.141Z",
   "queue_remaining": [],
   "pending_product": null,
   "manual_intervention_required": false,
@@ -481,20 +481,23 @@
   "producer_gap": [],
   "stable_operation_accepted": false,
   "public_remote_readback": {
-    "site_version": 122,
-    "current_daily": "2026-11-22",
+    "checked_at": "2026-11-23T07:50:31.141Z",
+    "method": "NORMAL_BROWSER_NATIVE_DOWNLOAD",
+    "current_daily": "2026-11-23",
     "current_weekly": "2026-W46",
-    "home": "PASS",
-    "bodies": "PASS",
-    "archives": "PASS",
-    "download_center": "PASS_VISIBLE_11_22",
-    "new_remote_zip_sha256": "d3b08b6162052ad11f90ccd1b15a797cb0cb90d4e6073d1b21de5684445a78c4",
-    "checked_at": "2026-11-23T07:35:28.458Z",
-    "method": "NORMAL_BROWSER_VISIBLE_PAGE",
-    "homepage": "PASS_CURRENT_11_22_W46",
-    "target_daily_2026_11_23": "NOT_PUBLISHED",
-    "remote_zip_sha_status": "NOT_VERIFIED",
-    "historical_bytes_status": "HTTP_CLIENT_403_1010__BROWSER_DOWNLOAD_TIMED_OUT"
+    "homepage": "PASS",
+    "daily_archive": "PASS",
+    "target_body": "PASS",
+    "download_center": "PASS",
+    "target_zip_sha256": "2f1ff2d682d10893c6b1e31873937351db93e3a8bf9a39037dfb9577d06e97a0",
+    "target_zip_exact_bytes": "PASS",
+    "historical_files": {
+      "local_preserved": 860,
+      "legacy_pairs": 4,
+      "prepublication_sha_receipt_inheritance": "PASS_MATCH_V122_DEPLOYED_GIT_BYTES",
+      "postdeployment_remote_recheck": "TIMEOUT_10000MS_WAITING_FOR_DOWNLOAD"
+    },
+    "site_pending_cleared": false
   },
   "download_integrity": "PASS_REMOTE_BYTES_SHA256",
   "public_daily_2026_10_14_download_sha256": "7198e935f91376c06aad940c241be3066617a338a4e6977e3edacd42295927fd",
@@ -596,7 +599,7 @@
     "checked_at": "2026-10-25T06:17:59.722Z",
     "warning": "Only exact Authority baseline SHA is tested; if Authority has moved, Work must reconcile rather than overwrite"
   },
-  "current_run_site_publication_performed": false,
+  "current_run_site_publication_performed": true,
   "reader_baseline_patch": {
     "status": "ALREADY_PRESENT_IN_AUTHORITY_V71__IDEMPOTENT_SKIP",
     "reader_validation": "PASS 2107/2107",
@@ -785,13 +788,19 @@
   "package_status": "FORMAL_CURRENT_2026_11_20",
   "pending_work_runtime_formalization": false,
   "site_deployment_receipt": {
-    "id": "appgdep_6affddfd55f88191a822827bf601555e",
-    "version": 120,
-    "status": "succeeded",
+    "id": "appgdep_6b03efcf67648191a0d4a98bbd84ef02",
     "project_id": "appgprj_6a5893ab380c8191b03a261860f67102",
-    "version_id": "appgprj_6a5893ab380c8191b03a261860f67102~appgver_a7798404db2881918ae4a06287f2b7f9",
+    "title": "能源周期报告中心·分享版",
+    "version_id": "appgprj_6a5893ab380c8191b03a261860f67102~appgver_12c83a9c5564819189f3593dd41c7dd0",
+    "type": "publish",
+    "status": "succeeded",
     "url": "https://energy-cycle-report-share.ljjx2020.chatgpt.site",
-    "updated_at": "2026-11-20T05:45:04.287Z"
+    "has_mcp": false,
+    "screenshot_asset_pointer": null,
+    "provider_deployment_id": "ljjx2020--energy-cycle-report-share",
+    "failure_message": null,
+    "env_set_revision": 0,
+    "updated_at": "2026-11-23T07:48:37.275608+00:00"
   },
   "remaining_product_debt": [],
   "current_run_promoted_products": [
@@ -4417,7 +4426,7 @@
   "current_read_rule": "PIN_AUTHORITY_VERSION_AND_INTERNAL_POINTER",
   "external_pointer_role": "REPAIRABLE_DERIVED_MIRROR",
   "remaining_site_debt": [
-    "2026-11-23"
+    "POSTDEPLOY_HISTORY_REMOTE_RECHECK_TIMEOUT"
   ],
   "public_report_count": 212,
   "mirror_status": "PASS",
@@ -4439,7 +4448,7 @@
   },
   "public_daily_2026_11_14_download_sha256": "eecdd5d1aef592f75fa567a7bd1a5dd8995299a63706396e8ee8e43174cc6e78",
   "public_daily_2026_11_15_download_sha256": "42d3fc42b4341ca95825f33d696ab5cb9dc6703edc2a7d45da5d27e9e594a037",
-  "site_version": 122,
+  "site_version": 123,
   "public_daily_2026_11_20_download_sha256": "bc9724fc7b90837ffd28c910e5f3acb4cf393f5b93fda339a0ff3c07619258d8",
   "manual_recovery_2026_11_20": {
     "scheduled_attempt_status": "FAILED",
@@ -4453,25 +4462,31 @@
   "current_execution_environment": "UNVERIFIED",
   "public_daily_2026_11_21_download_sha256": "cf8e32a5a082d9032d44b27b31d72b9d104e18fb55c0ca9da8bfb83076686b52",
   "latest_reconciler_run": {
-    "execution_mode": "SITE_ONLY_EXTERNAL_STATE_SYNC",
+    "mode": "SITE_ONLY",
     "authority_version": 111,
     "authority_unchanged": true,
-    "mirror_exact_readback": "15/15",
-    "pointer_version": 86,
-    "consumer": "NOT_RUN_ALREADY_PROMOTED",
-    "reader": "NOT_RUN",
-    "lineage": "NOT_RUN",
+    "consumer": "NOT_RUN",
     "p8g": "NOT_RUN",
     "cas": "NOT_RUN",
-    "site_source_authorization": "PASS_GIT_LS_REMOTE",
-    "source_commit": "31d55b703a01918a510c87fe511c75f61654e737",
-    "site_version": 122,
-    "site_deployed": false,
-    "site_status": "SITE_PENDING",
-    "failure_stage": "SITE_PREPUBLICATION_REMOTE_BASELINE_SHA",
-    "failure_reason": "Historical remote ZIP returned HTTP 403/error code 1010 via HTTP client; normal browser could read homepage/download center but historical file download did not return usable bytes and timed out at 120 seconds. Eight-file remote SHA prerequisite is unverified.",
-    "input_gap": "V111 public_distribution lacks 2026-11-23 public page, download ZIP and index entries. No stale webroot deployed.",
-    "checked_at": "2026-11-23T07:35:28.458Z"
+    "mirrors": "NOT_MODIFIED",
+    "base_version": 122,
+    "source_commit": "8d87db1742316c3ce963db54a61fffba6846bec4",
+    "site_version": 123,
+    "deploy_status": "succeeded",
+    "public_validator": {
+      "status": "PASS",
+      "checks": 22554,
+      "reports": 215
+    },
+    "release_audit": {
+      "status": "PASS",
+      "links": 32460,
+      "legacy_pairs": 4
+    },
+    "target_remote_zip_sha256": "2f1ff2d682d10893c6b1e31873937351db93e3a8bf9a39037dfb9577d06e97a0",
+    "final_status": "SITE_PENDING",
+    "only_remaining_blocker": "Historical file post-deployment browser download timed out after 10000ms waiting for download; stopped without retry",
+    "checked_at": "2026-11-23T07:50:31.141Z"
   },
   "recovery_provenance_2026_11_23": {
     "prior_scheduled_work": {
@@ -4503,5 +4518,6 @@
       "library_mirror_readback": "NOT_REPEATED_THIS_RUN",
       "weekly_w47": "NO_CHAT_FINAL_FOUND"
     }
-  }
+  },
+  "public_daily_2026_11_23_download_sha256": "2f1ff2d682d10893c6b1e31873937351db93e3a8bf9a39037dfb9577d06e97a0"
 }
