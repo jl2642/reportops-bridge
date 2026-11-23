@@ -20,7 +20,7 @@
   "v4_public_depth_gate_status": "NOT_RUN__WORK_NATIVE_REQUIRED",
   "evidence_status": "CHAT_MANUAL_EVIDENCE_REVIEW_ONLY__WORK_NATIVE_RECHECK_REQUIRED",
   "data_gap_boundary_status": "PASS",
-  "post_run_self_audit_status": "PASS__CHAT_MANUAL_SELF_AUDIT_ONLY",
+  "post_run_self_audit_status": "PASS",
   "consumer_status": "NOT_RUN__WORK_NATIVE_CONSUMER_REQUIRED",
   "authority_version": 109,
   "authority_sha256": "608554b792b5f7a5c4ce7757b5e514b5698967d414367c2aeb16df7f2e1fce7f",
@@ -212,5 +212,6 @@
     "v4_public_depth": "NOT_RUN_IN_NATIVE_AUTHORITY_RUNTIME",
     "policy_drift": "NOT_RUN_IN_NATIVE_AUTHORITY_RUNTIME",
     "note": "Chat controlled recovery produced and manually reviewed the candidate assets; no Authority-native Python validator or Work Consumer was executed in this Chat session."
-  }
+  },
+  "post_run_self_audit_method": "CHAT_MANUAL_SELF_AUDIT; NATIVE_AUTHORITY_GATES_REMAIN_WORK_PENDING"
 }
