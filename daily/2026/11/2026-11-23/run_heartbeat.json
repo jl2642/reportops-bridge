@@ -185,7 +185,7 @@
     "2026-11-23"
   ],
   "producer_recovery_queue_remaining": [],
-  "post_run_self_audit_status": "PASS__CHAT_MANUAL_SELF_AUDIT_ONLY",
+  "post_run_self_audit_status": "PASS",
   "evidence_claim_role_status": "PASS",
   "evidence_support_alignment_status": "PASS",
   "policy_drift_status": "NOT_RUN__WORK_NATIVE_REQUIRED",
@@ -231,7 +231,7 @@
     },
     {
       "name": "manifest.json",
-      "git_blob_sha": "60055087978573a07d18e014b95e674b3fe188f2"
+      "git_blob_sha": "69e7bb1a70f5b013060a79ede0fde76ec2c9e9b8"
     }
   ],
   "candidate_files_sha256": {
@@ -239,8 +239,8 @@
     "evidence.json": "643682e05950621c8d819cf355fcf5d2b4a5c9dbd9b8866fd80313cbc82ea84f",
     "evidence_ledger_v2_2026-11-23.csv": "5dcb9f865c30ca2e2280e2a3db4bc2e321d4766b29095fb4f453b6534a840515"
   },
-  "manifest_git_blob_sha": "60055087978573a07d18e014b95e674b3fe188f2",
-  "producer_self_audit_status": "PASS__CHAT_MANUAL_SELF_AUDIT_ONLY",
+  "manifest_git_blob_sha": "69e7bb1a70f5b013060a79ede0fde76ec2c9e9b8",
+  "producer_self_audit_status": "PASS",
   "consumer_status": "NOT_RUN__WORK_NATIVE_CONSUMER_REQUIRED",
   "reader_status": "NOT_RUN__WORK_NATIVE_REQUIRED",
   "lineage_status": "NOT_RUN__WORK_NATIVE_REQUIRED",
@@ -292,5 +292,6 @@
     "v4_public_depth": "NOT_RUN_IN_NATIVE_AUTHORITY_RUNTIME",
     "policy_drift": "NOT_RUN_IN_NATIVE_AUTHORITY_RUNTIME",
     "note": "Chat controlled recovery produced and manually reviewed the candidate assets; no Authority-native Python validator or Work Consumer was executed in this Chat session."
-  }
+  },
+  "post_run_self_audit_method": "CHAT_MANUAL_SELF_AUDIT; NATIVE_AUTHORITY_GATES_REMAIN_WORK_PENDING"
 }
