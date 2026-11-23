@@ -1,0 +1,69 @@
+{
+  "target_date": "2026-11-23",
+  "scheduled_for": "10:15 Asia/Shanghai",
+  "run_started_at": "2026-11-23T10:19:41+08:00",
+  "status": "FAILED",
+  "authority_version": "109",
+  "authority_file_id": "file_000000001e04821294da18265fa6b53d",
+  "authority_sha256": "608554b792b5f7a5c4ce7757b5e514b5698967d414367c2aeb16df7f2e1fce7f",
+  "authority_pointer_sha256": "7b5da464a048914a87f0501c5ee04e0b96dca94aea86b4258c0cc2542a288a42",
+  "formal_current_daily": "2026-11-22",
+  "window_start": "2026-11-22T10:00:00+08:00",
+  "window_end": "2026-11-23T10:00:00+08:00",
+  "search_passes": [
+    {
+      "pass": 1,
+      "channels": [
+        "A China natural gas/LNG supply and terminals",
+        "B China LPG regional prices",
+        "C Brent/WTI and oil drivers",
+        "D US Europe Asia natural gas/LNG",
+        "E energy policy/company/project announcements"
+      ]
+    },
+    {
+      "pass": 2,
+      "channels": [
+        "November 22 precise-time oil and energy source",
+        "China LNG precise time",
+        "China LPG precise time"
+      ]
+    }
+  ],
+  "verified_sources": [],
+  "source_gaps": [
+    {
+      "url": "https://energyreader.io/brief/19766",
+      "reason": "2026-11-22 17:55 displayed without independently established timezone; market price timestamp 17:09 UTC refers to price feed rather than article publication; TIMEZONE_UNVERIFIED"
+    },
+    {
+      "url": "https://www.theguardian.com/environment/live/2026/nov/22/cop31-climate-crisis-talks-turkey-latest-news-updates",
+      "reason": "Live article dated Nov 22; precise relevant update timestamps not verified within fixed window"
+    },
+    {
+      "url": "https://lnginsights.com/",
+      "reason": "Dynamic prices and older commentary mixed; precise article publication time not established"
+    },
+    {
+      "url": "https://energy.cngold.org/c/2026-11-20/c10892887.html",
+      "reason": "Published Nov 20; outside window"
+    },
+    {
+      "url": "https://www.reuters.com/business/energy/singapores-energy-ministry-says-piped-gas-supply-indonesia-is-fully-restored-2026-11-20/",
+      "reason": "Published Nov 20; outside window"
+    }
+  ],
+  "unverified_source_count": 3,
+  "products_repaired_or_produced": [],
+  "queue_for_12_30_work": [],
+  "producer_recovery_queue_remaining": [
+    "2026-11-23"
+  ],
+  "post_run_self_audit_status": "NOT_RUN",
+  "evidence_claim_role_status": "NOT_RUN",
+  "evidence_support_alignment_status": "NOT_RUN",
+  "policy_drift_status": "NOT_RUN",
+  "failure_stage": "EVIDENCE_MATRIX_SOURCE_WINDOW_PRECOMMIT",
+  "failure_reason": "Two bounded search passes did not establish sufficient source identities with independently verifiable publication time/timezone inside 2026-11-22 10:00 to 2026-11-23 10:00 Asia/Shanghai. Evidence JSON, 43-column ledger and native gates NOT_RUN; no candidate accepted.",
+  "completed_at": "2026-11-23T10:23:00+08:00"
+}
