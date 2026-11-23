@@ -59,7 +59,7 @@
   "failure_stage": null,
   "failure_reason": null,
   "next_action": "NEXT_ORIGINAL_2026_11_21_12_30_ASIA_SHANGHAI__DYNAMIC_CANDIDATE_AND_SITE_NO_OP_OR_INCREMENTAL",
-  "updated_at": "2026-11-22T05:51:43.928Z",
+  "updated_at": "2026-11-23T04:28:51.562Z",
   "queue_remaining": [],
   "pending_product": null,
   "manual_intervention_required": false,
@@ -591,7 +591,7 @@
     "checked_at": "2026-10-25T06:17:59.722Z",
     "warning": "Only exact Authority baseline SHA is tested; if Authority has moved, Work must reconcile rather than overwrite"
   },
-  "current_run_site_publication_performed": true,
+  "current_run_site_publication_performed": false,
   "reader_baseline_patch": {
     "status": "ALREADY_PRESENT_IN_AUTHORITY_V71__IDEMPOTENT_SKIP",
     "reader_validation": "PASS 2107/2107",
@@ -643,7 +643,7 @@
   },
   "public_site_url": "https://energy-cycle-report-share.ljjx2020.chatgpt.site",
   "candidate_products_pending_gates": [],
-  "current_run_canonical_promotion_performed": true,
+  "current_run_canonical_promotion_performed": false,
   "current_run_authority_sha256": "b4b5a2c392aefed6aa79611a903c2c3839cc09820acb6a37a33e7083404653b8",
   "current_run_pointer_sha256": "ffeaabb7140d6b21d00c668e5116165645bc1ccc0e479cfc6562f3e5a5ad5e19",
   "stability_status": "LONG_TERM_STABILITY_NOT_ACCEPTED",
@@ -788,7 +788,9 @@
     "url": "https://energy-cycle-report-share.ljjx2020.chatgpt.site",
     "updated_at": "2026-11-20T05:45:04.287Z"
   },
-  "remaining_product_debt": [],
+  "remaining_product_debt": [
+    "2026-11-23: DAILY_CANDIDATE_NOT_READY__SKIP_CONSUMER"
+  ],
   "current_run_promoted_products": [
     "Daily 2026-11-20"
   ],
@@ -4359,7 +4361,9 @@
   "authority_commit_rule": "R3_SINGLE_AUTHORITY_CAS_ACTIVE",
   "current_read_rule": "PIN_AUTHORITY_VERSION_AND_INTERNAL_POINTER",
   "external_pointer_role": "REPAIRABLE_DERIVED_MIRROR",
-  "remaining_site_debt": [],
+  "remaining_site_debt": [
+    "CURRENT_REMOTE_VERIFICATION_PENDING: HTTP_403"
+  ],
   "public_report_count": 212,
   "mirror_status": "PASS",
   "producer_self_audit_status": "PASS_ALL_PRODUCER_GATES__WORK_NATIVE_PENDING",
@@ -4391,20 +4395,35 @@
     "p8g_postcommit": "10/10 PASS",
     "scheduled_producer_reliability": "NOT_ACCEPTED"
   },
-  "current_execution_environment": {
-    "mode": "USER_INITIATED_WORK_CONTINUATION",
-    "scheduled_1230_environment": "UNVERIFIED",
-    "automation_modified": false
-  },
+  "current_execution_environment": "UNVERIFIED",
   "public_daily_2026_11_21_download_sha256": "cf8e32a5a082d9032d44b27b31d72b9d104e18fb55c0ca9da8bfb83076686b52",
   "latest_reconciler_run": {
-    "target_date": "2026-11-22",
-    "mode": "MANUAL_REVISED_CANDIDATE_NATIVE_CONSUMPTION",
-    "consumer": "PASS",
-    "p8g_precommit": "10/10 PASS",
-    "p8g_commit_verification": "10/10 PASS",
+    "date": "2026-11-23",
+    "checked_at": "2026-11-23T04:28:51.562Z",
     "authority_version": 109,
-    "site_version": 122,
-    "scheduled_producer_failed_history_preserved": true
+    "authority_file_id": "file_000000001e04821294da18265fa6b53d",
+    "authority_sha256": "608554b792b5f7a5c4ce7757b5e514b5698967d414367c2aeb16df7f2e1fce7f",
+    "current_daily": "2026-11-22",
+    "current_weekly": "2026-W46",
+    "candidate_count": 1,
+    "ready_count": 0,
+    "candidate_status": "DAILY_CANDIDATE_NOT_READY__SKIP_CONSUMER",
+    "heartbeat_blob_sha": "598d0c9f34d35efb10687e6fd54c18987149185c",
+    "failure_stage": "EVIDENCE_MATRIX_SOURCE_WINDOW_PRECOMMIT",
+    "missing_files": [
+      "evidence.json",
+      "evidence_ledger_v2_2026-11-23.csv",
+      "manifest.json"
+    ],
+    "consumer": "NOT_RUN",
+    "cas": "NOT_RUN",
+    "site_version_record": 122,
+    "site_deployed": false,
+    "site_no_op": "UNVERIFIED",
+    "remote_readback": "BLOCKED_HTTP_403",
+    "remote_zip_sha256": null,
+    "environment": "UNVERIFIED",
+    "library_mirror_readback": "NOT_REPEATED_THIS_RUN",
+    "weekly_w47": "NO_CHAT_FINAL_FOUND"
   }
 }
