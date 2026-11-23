@@ -1,7 +1,7 @@
 {
   "schema_version": "REPORTOPS_PUBLIC_RUNTIME_CURRENT_V1",
   "status": "FORMAL_PROMOTED__SITE_PUBLISHED",
-  "current_daily_public": "2026-11-22",
+  "current_daily_public": "2026-11-23",
   "current_weekly_public": "2026-W46",
   "current_monthly_public": "2026-10",
   "current_quarterly_public": "2026-Q3",
@@ -11,23 +11,26 @@
   "scheduled_work_consumer_time_local": "12:30",
   "live_site_mode": "SINGLE_SITE_V4_PUBLIC",
   "private_site_status": "RETIRED_FROM_LIVE_OPERATION",
-  "public_site_version": 122,
+  "public_site_version": 123,
   "public_site_url": "https://energy-cycle-report-share.ljjx2020.chatgpt.site",
   "public_remote_readback": {
-    "site_version": 122,
-    "current_daily": "2026-11-22",
+    "checked_at": "2026-11-23T07:50:31.141Z",
+    "method": "NORMAL_BROWSER_NATIVE_DOWNLOAD",
+    "current_daily": "2026-11-23",
     "current_weekly": "2026-W46",
-    "home": "PASS",
-    "bodies": "PASS",
-    "archives": "PASS",
-    "download_center": "PASS_VISIBLE_11_22",
-    "new_remote_zip_sha256": "d3b08b6162052ad11f90ccd1b15a797cb0cb90d4e6073d1b21de5684445a78c4",
-    "checked_at": "2026-11-23T07:35:25.477Z",
-    "method": "NORMAL_BROWSER_VISIBLE_PAGE",
-    "homepage": "PASS_CURRENT_11_22_W46",
-    "target_daily_2026_11_23": "NOT_PUBLISHED",
-    "remote_zip_sha_status": "NOT_VERIFIED",
-    "historical_bytes_status": "HTTP_CLIENT_403_1010__BROWSER_DOWNLOAD_TIMED_OUT"
+    "homepage": "PASS",
+    "daily_archive": "PASS",
+    "target_body": "PASS",
+    "download_center": "PASS",
+    "target_zip_sha256": "2f1ff2d682d10893c6b1e31873937351db93e3a8bf9a39037dfb9577d06e97a0",
+    "target_zip_exact_bytes": "PASS",
+    "historical_files": {
+      "local_preserved": 860,
+      "legacy_pairs": 4,
+      "prepublication_sha_receipt_inheritance": "PASS_MATCH_V122_DEPLOYED_GIT_BYTES",
+      "postdeployment_remote_recheck": "TIMEOUT_10000MS_WAITING_FOR_DOWNLOAD"
+    },
+    "site_pending_cleared": false
   },
   "authority_package_sha256": "13dc4819591d2aa3a7708a6db5aebd600eab458653cf9efe7649e8a898d25db1",
   "github_role": "PUBLIC_SAFE_BRIDGE",
@@ -71,7 +74,7 @@
   "current_package_site_publication_performed": true,
   "runtime_sync_status": "FORMAL_V107_SITE_V120_REMOTE_VERIFIED",
   "stable": false,
-  "updated_at": "2026-11-23T07:35:25.477Z",
+  "updated_at": "2026-11-23T07:50:31.141Z",
   "public_weekly_2026_w40_download_sha256": "7d5d10199df404c830519bf51f4639196e4d3c8256416b4362a65d640fd5c49e",
   "public_daily_2026_10_04_download_sha256": "e34a69cb519d7db802c80f20e56387358953f22667d170bd7136982150568f78",
   "failure_stage": null,
@@ -93,11 +96,11 @@
   "public_daily_2026_10_10_download_sha256": "0cc591e11f470276e934d816fc62675bca7ce5388de092816557da4049787f9e",
   "current_annual_public": "NO_FORMAL_2026_PRODUCT",
   "canonical_promotion_performed": true,
-  "public_site_status": "SITE_PENDING",
+  "public_site_status": "DEPLOYED_HISTORY_REMOTE_VERIFICATION_PENDING",
   "real_remote_readback_status": "PASS",
   "download_sha_status": "PASS_NEW_2026_11_20_AND_HISTORICAL_11_19_W46",
   "reportops_status": "FORMAL_V107_SITE_V120_RELEASE_PASS__UNATTENDED_STABILITY_PENDING",
-  "site_publication_performed": false,
+  "site_publication_performed": true,
   "public_site_publication_receipt_status": "DEPLOYED_V120_REMOTE_READBACK_PASS",
   "next_action": "NEXT_ORIGINAL_2026_11_21_12_30_ASIA_SHANGHAI__DYNAMIC_CANDIDATE_AND_SITE_NO_OP_OR_INCREMENTAL",
   "public_daily_2026_10_13_download_sha256": "9f208040c99e46ce8752577be3b77387592d25776f3fb89940e91f727add246d",
@@ -154,7 +157,7 @@
   "public_daily_2026_10_23_download_sha256": "4e323d9bbebcdc9840073f76d4b1482519e21e313ac444a01928e02bb91227d1",
   "public_daily_2026_10_24_download_sha256": "ba4eb7c148388230aa68dea2b7fed61a1b2bb0c9b422414b6685fc9dea1e4422",
   "oldest_producer_gap": null,
-  "current_run_site_publication_performed": false,
+  "current_run_site_publication_performed": true,
   "reader_baseline_patch": {
     "status": "ALREADY_PRESENT_IN_AUTHORITY_V71__IDEMPOTENT_SKIP",
     "reader_validation": "PASS 2107/2107",
@@ -258,13 +261,19 @@
   "site_status": "SITE_PENDING",
   "package_status": "FORMAL_CURRENT_2026_11_20",
   "site_deployment_receipt": {
-    "id": "appgdep_6affddfd55f88191a822827bf601555e",
-    "version": 120,
-    "status": "succeeded",
+    "id": "appgdep_6b03efcf67648191a0d4a98bbd84ef02",
     "project_id": "appgprj_6a5893ab380c8191b03a261860f67102",
-    "version_id": "appgprj_6a5893ab380c8191b03a261860f67102~appgver_a7798404db2881918ae4a06287f2b7f9",
+    "title": "能源周期报告中心·分享版",
+    "version_id": "appgprj_6a5893ab380c8191b03a261860f67102~appgver_12c83a9c5564819189f3593dd41c7dd0",
+    "type": "publish",
+    "status": "succeeded",
     "url": "https://energy-cycle-report-share.ljjx2020.chatgpt.site",
-    "updated_at": "2026-11-20T05:45:04.287Z"
+    "has_mcp": false,
+    "screenshot_asset_pointer": null,
+    "provider_deployment_id": "ljjx2020--energy-cycle-report-share",
+    "failure_message": null,
+    "env_set_revision": 0,
+    "updated_at": "2026-11-23T07:48:37.275608+00:00"
   },
   "authority_sha_runtime_reconciliation_status": "PASS_V104_LIBRARY_AUTHORITY_AND_SIDECAR_SHA",
   "remaining_product_debt": [],
@@ -3010,7 +3019,7 @@
   "current_read_rule": "PIN_AUTHORITY_VERSION_AND_INTERNAL_POINTER",
   "external_pointer_role": "REPAIRABLE_DERIVED_MIRROR",
   "remaining_site_debt": [
-    "2026-11-23"
+    "POSTDEPLOY_HISTORY_REMOTE_RECHECK_TIMEOUT"
   ],
   "public_report_count": 212,
   "mirror_status": "PASS",
@@ -3030,7 +3039,7 @@
   },
   "public_daily_2026_11_14_download_sha256": "eecdd5d1aef592f75fa567a7bd1a5dd8995299a63706396e8ee8e43174cc6e78",
   "public_daily_2026_11_15_download_sha256": "42d3fc42b4341ca95825f33d696ab5cb9dc6703edc2a7d45da5d27e9e594a037",
-  "site_version": 122,
+  "site_version": 123,
   "consumer_status": "FORMAL_CONSUMED_2026_11_20_V107__P8G_PRECOMMIT_10_OF_10_AND_COMMIT_VERIFICATION_10_OF_10_PASS",
   "public_daily_2026_11_20_download_sha256": "bc9724fc7b90837ffd28c910e5f3acb4cf393f5b93fda339a0ff3c07619258d8",
   "manual_recovery_2026_11_20": {
@@ -3045,25 +3054,31 @@
   "current_execution_environment": "UNVERIFIED",
   "public_daily_2026_11_21_download_sha256": "cf8e32a5a082d9032d44b27b31d72b9d104e18fb55c0ca9da8bfb83076686b52",
   "latest_reconciler_run": {
-    "execution_mode": "SITE_ONLY_EXTERNAL_STATE_SYNC",
+    "mode": "SITE_ONLY",
     "authority_version": 111,
     "authority_unchanged": true,
-    "mirror_exact_readback": "15/15",
-    "pointer_version": 86,
-    "consumer": "NOT_RUN_ALREADY_PROMOTED",
-    "reader": "NOT_RUN",
-    "lineage": "NOT_RUN",
+    "consumer": "NOT_RUN",
     "p8g": "NOT_RUN",
     "cas": "NOT_RUN",
-    "site_source_authorization": "PASS_GIT_LS_REMOTE",
-    "source_commit": "31d55b703a01918a510c87fe511c75f61654e737",
-    "site_version": 122,
-    "site_deployed": false,
-    "site_status": "SITE_PENDING",
-    "failure_stage": "SITE_PREPUBLICATION_REMOTE_BASELINE_SHA",
-    "failure_reason": "Historical remote ZIP returned HTTP 403/error code 1010 via HTTP client; normal browser could read homepage/download center but historical file download did not return usable bytes and timed out at 120 seconds. Eight-file remote SHA prerequisite is unverified.",
-    "input_gap": "V111 public_distribution lacks 2026-11-23 public page, download ZIP and index entries. No stale webroot deployed.",
-    "checked_at": "2026-11-23T07:35:25.477Z"
+    "mirrors": "NOT_MODIFIED",
+    "base_version": 122,
+    "source_commit": "8d87db1742316c3ce963db54a61fffba6846bec4",
+    "site_version": 123,
+    "deploy_status": "succeeded",
+    "public_validator": {
+      "status": "PASS",
+      "checks": 22554,
+      "reports": 215
+    },
+    "release_audit": {
+      "status": "PASS",
+      "links": 32460,
+      "legacy_pairs": 4
+    },
+    "target_remote_zip_sha256": "2f1ff2d682d10893c6b1e31873937351db93e3a8bf9a39037dfb9577d06e97a0",
+    "final_status": "SITE_PENDING",
+    "only_remaining_blocker": "Historical file post-deployment browser download timed out after 10000ms waiting for download; stopped without retry",
+    "checked_at": "2026-11-23T07:50:31.141Z"
   },
   "recovery_provenance_2026_11_23": {
     "prior_scheduled_work": {
@@ -3095,5 +3110,6 @@
       "library_mirror_readback": "NOT_REPEATED_THIS_RUN",
       "weekly_w47": "NO_CHAT_FINAL_FOUND"
     }
-  }
+  },
+  "public_daily_2026_11_23_download_sha256": "2f1ff2d682d10893c6b1e31873937351db93e3a8bf9a39037dfb9577d06e97a0"
 }
