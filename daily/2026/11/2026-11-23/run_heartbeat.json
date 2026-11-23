@@ -2,7 +2,7 @@
   "target_date": "2026-11-23",
   "scheduled_for": "10:15 Asia/Shanghai",
   "run_started_at": "2026-11-23T10:19:41+08:00",
-  "status": "FAILED",
+  "status": "PRODUCER_SUCCESS_CANDIDATES_PENDING_WORK",
   "authority_version": "109",
   "authority_file_id": "file_000000001e04821294da18265fa6b53d",
   "authority_sha256": "608554b792b5f7a5c4ce7757b5e514b5698967d414367c2aeb16df7f2e1fce7f",
@@ -30,40 +30,231 @@
       ]
     }
   ],
-  "verified_sources": [],
+  "verified_sources": [
+    {
+      "source_id": "E01/E03",
+      "publisher_group": "GUARDIAN_NEWS_MEDIA",
+      "publication_time": "2026-11-22T12:54:00Z",
+      "beijing_time": "2026-11-22T20:54:00+08:00",
+      "claim_role": "CORE",
+      "url": "https://www.theguardian.com/environment/2026/nov/22/cop31-climate-talks-set-to-end-in-deep-division-as-key-deal-rejected",
+      "title": "Cop31 climate talks break down as key deal rejected",
+      "source_identity_status": "PASS",
+      "source_identity_receipt": {
+        "verification_method": "OPENED_EXACT_DOCUMENT",
+        "observed_url": "https://www.theguardian.com/environment/2026/nov/22/cop31-climate-talks-set-to-end-in-deep-division-as-key-deal-rejected",
+        "canonical_url": "https://www.theguardian.com/environment/2026/nov/22/cop31-climate-talks-set-to-end-in-deep-division-as-key-deal-rejected",
+        "observed_title": "Cop31 climate talks break down as key deal rejected",
+        "observed_publisher": "The Guardian",
+        "title_match_status": "EXACT",
+        "verified_at": "2026-11-23T04:18:03Z"
+      },
+      "source_timezone": "GMT",
+      "window_eligibility": "IN_WINDOW",
+      "support": "DIRECT",
+      "publication_time_kind": "FIRST_PUBLISHED"
+    },
+    {
+      "source_id": "E02/E04",
+      "publisher_group": "ASSOCIATED_PRESS_VIA_EURONEWS",
+      "publication_time": "2026-11-22T15:23:00+01:00",
+      "beijing_time": "2026-11-22T22:23:00+08:00",
+      "claim_role": "CORE_CORROBORATION",
+      "url": "https://www.euronews.com/2026/11/22/cop31-climate-talks-fail-after-eu-and-others-reject-final-deal-proposal",
+      "title": "COP31 climate talks fail after EU and others reject final deal proposal",
+      "source_identity_status": "PASS",
+      "source_identity_receipt": {
+        "verification_method": "OPENED_EXACT_DOCUMENT",
+        "observed_url": "https://www.euronews.com/2026/11/22/cop31-climate-talks-fail-after-eu-and-others-reject-final-deal-proposal",
+        "canonical_url": "https://www.euronews.com/2026/11/22/cop31-climate-talks-fail-after-eu-and-others-reject-final-deal-proposal",
+        "observed_title": "COP31 climate talks fail after EU and others reject final deal proposal",
+        "observed_publisher": "Associated Press via Euronews",
+        "title_match_status": "EXACT",
+        "verified_at": "2026-11-23T04:18:03Z"
+      },
+      "source_timezone": "GMT+1",
+      "window_eligibility": "IN_WINDOW",
+      "support": "DIRECT",
+      "publication_time_kind": "FIRST_PUBLISHED"
+    },
+    {
+      "source_id": "E05",
+      "publisher_group": "PRESS_TRUST_OF_INDIA",
+      "publication_time": "2026-11-22T16:16:00+05:30",
+      "beijing_time": "2026-11-22T18:46:00+08:00",
+      "claim_role": "MATERIAL",
+      "url": "https://www.theweek.in/wire-updates/business/2026/11/22/crude-oil-futures-brace-for-opec-output-decision-amid-supply-glut-concerns-analysts.amp.html",
+      "title": "Crude oil futures brace for OPEC+ output decision amid supply glut concerns Analysts",
+      "source_identity_status": "PASS",
+      "source_identity_receipt": {
+        "verification_method": "OPENED_EXACT_DOCUMENT",
+        "observed_url": "https://www.theweek.in/wire-updates/business/2026/11/22/crude-oil-futures-brace-for-opec-output-decision-amid-supply-glut-concerns-analysts.amp.html",
+        "canonical_url": "https://www.theweek.in/wire-updates/business/2026/11/22/crude-oil-futures-brace-for-opec-output-decision-amid-supply-glut-concerns-analysts.amp.html",
+        "observed_title": "Crude oil futures brace for OPEC+ output decision amid supply glut concerns Analysts",
+        "observed_publisher": "PTI",
+        "title_match_status": "EXACT",
+        "verified_at": "2026-11-23T04:18:03Z"
+      },
+      "source_timezone": "IST",
+      "window_eligibility": "IN_WINDOW",
+      "support": "DIRECT",
+      "publication_time_kind": "FIRST_PUBLISHED"
+    },
+    {
+      "source_id": "E07",
+      "publisher_group": "THOMSON_REUTERS",
+      "publication_time": "2026-11-22T17:52:00Z",
+      "beijing_time": "2026-11-23T01:52:00+08:00",
+      "claim_role": "MATERIAL",
+      "url": "https://www.reuters.com/world/middle-east/yemens-houthis-say-they-attacked-saudi-rabigh-oil-refinery-2026-11-22/",
+      "title": "Yemen's Houthis say they attacked Saudi Rabigh oil refinery",
+      "source_identity_status": "PASS",
+      "source_identity_receipt": {
+        "verification_method": "OPENED_EXACT_DOCUMENT",
+        "observed_url": "https://www.reuters.com/world/middle-east/yemens-houthis-say-they-attacked-saudi-rabigh-oil-refinery-2026-11-22/",
+        "canonical_url": "https://www.reuters.com/world/middle-east/yemens-houthis-say-they-attacked-saudi-rabigh-oil-refinery-2026-11-22/",
+        "observed_title": "Yemen's Houthis say they attacked Saudi Rabigh oil refinery",
+        "observed_publisher": "Reuters",
+        "title_match_status": "EXACT",
+        "verified_at": "2026-11-23T04:18:03Z"
+      },
+      "source_timezone": "UTC",
+      "window_eligibility": "IN_WINDOW",
+      "support": "DIRECT",
+      "publication_time_kind": "FIRST_PUBLISHED"
+    },
+    {
+      "source_id": "E08",
+      "publisher_group": "THOMSON_REUTERS",
+      "publication_time": "2026-11-22T14:25:00Z",
+      "beijing_time": "2026-11-22T22:25:00+08:00",
+      "claim_role": "CONTEXT_ONLY",
+      "url": "https://www.reuters.com/world/middle-east/libyas-eastern-government-suspects-drone-attack-caused-explosion-russian-ship-2026-11-22/",
+      "title": "Libya's eastern government suspects drone attack caused explosion on Russian ship",
+      "source_identity_status": "PASS",
+      "source_identity_receipt": {
+        "verification_method": "OPENED_EXACT_DOCUMENT",
+        "observed_url": "https://www.reuters.com/world/middle-east/libyas-eastern-government-suspects-drone-attack-caused-explosion-russian-ship-2026-11-22/",
+        "canonical_url": "https://www.reuters.com/world/middle-east/libyas-eastern-government-suspects-drone-attack-caused-explosion-russian-ship-2026-11-22/",
+        "observed_title": "Libya's eastern government suspects drone attack caused explosion on Russian ship",
+        "observed_publisher": "Reuters",
+        "title_match_status": "EXACT",
+        "verified_at": "2026-11-23T04:18:03Z"
+      },
+      "source_timezone": "UTC",
+      "window_eligibility": "IN_WINDOW",
+      "support": "DIRECT",
+      "publication_time_kind": "FIRST_PUBLISHED"
+    }
+  ],
   "source_gaps": [
     {
+      "source_id": "GAP01",
       "url": "https://energyreader.io/brief/19766",
-      "reason": "2026-11-22 17:55 displayed without independently established timezone; market price timestamp 17:09 UTC refers to price feed rather than article publication; TIMEZONE_UNVERIFIED"
+      "reason": "2026-11-22 17:55 displayed without a verified timezone; 17:09 UTC is live price-feed observation time, not article publication time."
     },
     {
-      "url": "https://www.theguardian.com/environment/live/2026/nov/22/cop31-climate-crisis-talks-turkey-latest-news-updates",
-      "reason": "Live article dated Nov 22; precise relevant update timestamps not verified within fixed window"
-    },
-    {
+      "source_id": "GAP02",
       "url": "https://lnginsights.com/",
-      "reason": "Dynamic prices and older commentary mixed; precise article publication time not established"
+      "reason": "Homepage/dynamic prices and older commentary are mixed; no exact article publication time established."
     },
     {
-      "url": "https://energy.cngold.org/c/2026-11-20/c10892887.html",
-      "reason": "Published Nov 20; outside window"
+      "source_id": "GAP03",
+      "url": "https://www.reuters.com/business/energy/oil-prices-fall-amid-equity-selloff-though-iran-war-attacks-limit-losses-2026-11-23/",
+      "reason": "Published 2026-11-23 02:24 UTC = 10:24 Beijing, after the 10:00 cutoff."
     },
     {
-      "url": "https://www.reuters.com/business/energy/singapores-energy-ministry-says-piped-gas-supply-indonesia-is-fully-restored-2026-11-20/",
-      "reason": "Published Nov 20; outside window"
+      "source_id": "GAP04",
+      "url": "https://www.gulf-times.com/article/731298/shopping/shipping-slows-through-strait-of-hormuz-after-tanker-attacks",
+      "reason": "Reuters-syndicated article published 2026-11-23 07:00 Doha (UTC+3) = 12:00 Beijing, after the 10:00 cutoff."
+    },
+    {
+      "source_id": "GAP05",
+      "url": null,
+      "reason": "No verifiable China LNG/LPG quote with exact observation time, region, unit, tax status and price basis."
     }
   ],
   "unverified_source_count": 3,
-  "products_repaired_or_produced": [],
-  "queue_for_12_30_work": [],
-  "producer_recovery_queue_remaining": [
+  "products_repaired_or_produced": [
+    "public_core.md",
+    "evidence.json",
+    "evidence_ledger_v2_2026-11-23.csv",
+    "manifest.json"
+  ],
+  "queue_for_12_30_work": [
     "2026-11-23"
   ],
-  "post_run_self_audit_status": "NOT_RUN",
-  "evidence_claim_role_status": "NOT_RUN",
-  "evidence_support_alignment_status": "NOT_RUN",
-  "policy_drift_status": "NOT_RUN",
-  "failure_stage": "EVIDENCE_MATRIX_SOURCE_WINDOW_PRECOMMIT",
-  "failure_reason": "Two bounded search passes did not establish sufficient source identities with independently verifiable publication time/timezone inside 2026-11-22 10:00 to 2026-11-23 10:00 Asia/Shanghai. Evidence JSON, 43-column ledger and native gates NOT_RUN; no candidate accepted.",
-  "completed_at": "2026-11-23T10:23:00+08:00"
+  "producer_recovery_queue_remaining": [],
+  "post_run_self_audit_status": "PASS",
+  "evidence_claim_role_status": "PASS",
+  "evidence_support_alignment_status": "PASS",
+  "policy_drift_status": "PASS",
+  "failure_stage": "",
+  "failure_reason": "",
+  "completed_at": "2026-11-23T04:33:22.777Z",
+  "execution_mode": "CHAT_INTERACTIVE_CONTROLLED_RECOVERY_AFTER_SCHEDULED_FAILED",
+  "recovery_started_at": "2026-11-23T04:18:03Z",
+  "original_scheduled_run_status": "FAILED",
+  "original_failed_heartbeat_path": "daily/2026/11/2026-11-23/run_heartbeat_original_failed.json",
+  "original_failed_heartbeat_git_blob_sha": "598d0c9f34d35efb10687e6fd54c18987149185c",
+  "original_failed_heartbeat_preserved_exactly": true,
+  "source_matrix_status": "PASS",
+  "source_identity_gate_status": "PASS",
+  "inline_citation_gate_status": "PASS",
+  "evidence_status": "PASS",
+  "strict_v2_ledger_status": "PASS",
+  "v4_public_depth_gate_status": "PASS",
+  "data_gap_boundary_status": "PASS",
+  "source_binding_id_url_check": "8/8",
+  "source_binding_status": "PASS",
+  "cjk_characters_actual": 2835,
+  "signal_card_count": 3,
+  "evidence_record_count": 8,
+  "source_url_count_distinct": 6,
+  "ledger_column_count": 43,
+  "ledger_row_count": 8,
+  "candidate_files": [
+    {
+      "name": "public_core.md",
+      "git_blob_sha": "bb3c1e040446e67a9edde53f45b35a87028e71db",
+      "sha256": "7b58b5d52c55427fa9c9a984270b35869b429367fabb1dc191b4c2d7ff5b66d7"
+    },
+    {
+      "name": "evidence.json",
+      "git_blob_sha": "9b411560df9e38037542f4597f88cf2de3aca75d",
+      "sha256": "f12271cf910a3bb912fb033c3831f3f6464eb1a60b928d0c106896151bbf721e"
+    },
+    {
+      "name": "evidence_ledger_v2_2026-11-23.csv",
+      "git_blob_sha": "4e0f64bf55166528c0467910af7d6097f62a3023",
+      "sha256": "e414ba058125e53407cc2679c1c26128c605efb4e5bdba7f4c6f76b7ef361bef"
+    },
+    {
+      "name": "manifest.json",
+      "git_blob_sha": "0b66220802f90a96e087fea57f34d5dc50c2ea70"
+    }
+  ],
+  "candidate_files_sha256": {
+    "public_core.md": "7b58b5d52c55427fa9c9a984270b35869b429367fabb1dc191b4c2d7ff5b66d7",
+    "evidence.json": "f12271cf910a3bb912fb033c3831f3f6464eb1a60b928d0c106896151bbf721e",
+    "evidence_ledger_v2_2026-11-23.csv": "e414ba058125e53407cc2679c1c26128c605efb4e5bdba7f4c6f76b7ef361bef"
+  },
+  "manifest_git_blob_sha": "0b66220802f90a96e087fea57f34d5dc50c2ea70",
+  "producer_self_audit_status": "PASS",
+  "consumer_status": "NOT_RUN__WORK_NATIVE_CONSUMER_REQUIRED",
+  "reader_status": "NOT_RUN__WORK_NATIVE_REQUIRED",
+  "lineage_status": "NOT_RUN__WORK_NATIVE_REQUIRED",
+  "p8g_status": "NOT_RUN__WORK_NATIVE_REQUIRED",
+  "formal_promotion_performed": false,
+  "site_publication_performed": false,
+  "work_task_last_run": {
+    "scheduled_for": "2026-11-23T12:30:00+08:00",
+    "started_at": "2026-11-23T12:25:47+08:00",
+    "completed_at": "2026-11-23T12:29:06+08:00",
+    "result": "NOT_CONSUMED__CANDIDATE_NOT_PRESENT_AT_RUN_TIME",
+    "task_enabled": true,
+    "next_scheduled_run": "2026-11-24T12:30:00+08:00",
+    "site_remote_status": "HTTP_403_NO_BYTES"
+  },
+  "next_work_action": "The 2026-11-23 12:30 Work run completed before this controlled-recovery candidate existed, so it did not consume 11/23. Run the existing Work reconciler manually against this exact four-file candidate; otherwise the next scheduled attempt is 2026-11-24 12:30 Asia/Shanghai. Do not re-research or rewrite. Work must run native Consumer (independently derive unsupported_core_claims), Reader V2, Lineage, P8G PRECOMMIT and COMMIT_VERIFICATION, then V109 CAS and the original Site publication/remote readback. The previous Work run observed HTTP 403 with no remote bytes; treat Site access as a separate pending blocker."
 }
