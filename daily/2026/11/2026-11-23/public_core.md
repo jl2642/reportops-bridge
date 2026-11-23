@@ -25,7 +25,7 @@ window_end: 2026-11-23T10:00:00+08:00
 
 ### 信号卡1｜COP31总体封面决定未获共识，化石能源措辞仍是政策分水岭
 
-- **事实**：Guardian原文首发于11月22日12:54 GMT（北京时间20:54），Euronews页面刊载的AP来源报道于15:23 GMT+1（北京时间22:23）发布。Guardian与AP两个来源集团均确认，COP31未能通过主席国提出的总体封面决定；争议集中在文本未明确写入摆脱化石能源的转型承诺。[E01](https://www.theguardian.com/environment/2026/nov/22/cop31-climate-talks-set-to-end-in-deep-division-as-key-deal-rejected) [E02](https://www.euronews.com/2026/11/22/cop31-climate-talks-fail-after-eu-and-others-reject-final-deal-proposal)
+- **事实**：Guardian原文首发于11月22日07:54 EST（UTC-5；北京时间20:54），Euronews原文于15:23 GMT+1（北京时间22:23）发布。Guardian与Euronews两个来源集团均确认，COP31未能通过主席国提出的总体封面决定；争议集中在文本未明确写入摆脱化石能源的转型承诺。[E01](https://www.theguardian.com/environment/2026/nov/22/cop31-climate-talks-set-to-end-in-deep-division-as-key-deal-rejected) [E02](https://www.euronews.com/2026/11/22/cop31-climate-talks-fail-after-eu-and-others-reject-final-deal-proposal)
 - **政策含义**：这反映主要经济体对化石能源退出路径、气候融资和碳捕集作用的分歧，可能增加跨国项目长期政策假设的不确定性，但不能直接推导为现有油气项目许可收紧或需求立即下降。
 - **文本细节**：Guardian记录拟议文本未回应超过130个国家提出的“摆脱化石能源”要求；Euronews亦报道欧盟反对缺少化石能源表述的最终方案。[E03](https://www.theguardian.com/environment/2026/nov/22/cop31-climate-talks-set-to-end-in-deep-division-as-key-deal-rejected) [E04](https://www.euronews.com/2026/11/22/cop31-climate-talks-fail-after-eu-and-others-reject-final-deal-proposal)
 - **边界与反证**：总体封面决定未通过，不等于COP31全部工作失败。公正转型等相关议题已有单独决定；若各国继续通过国内预算、甲烷治理和电气化项目推进政策，谈判层面的受阻对实际投资的影响可能有限。
@@ -79,7 +79,7 @@ window_end: 2026-11-23T10:00:00+08:00
 <!-- MODULE:EVIDENCE_AND_GAPS -->
 ## 8. 证据、数据缺口、风险与反证
 
-当窗已核验的精确首发来源包括：Guardian 11月22日12:54 GMT；Euronews 11月22日15:23 GMT+1；PTI 11月22日16:16 IST；Reuters关于Rabigh的报道为11月22日17:52 UTC；Reuters关于班加西港船舶事件为11月22日14:25 UTC。以上均落在固定窗口。班加西报道涉及俄海军舰艇及一艘马耳他旗商船，利比亚东部政府称港口设施安全且正常运营已恢复；没有证据显示油气设施或能源货物受损，因此仅作海事安全背景，不计入能源供应损失。[E08](https://www.reuters.com/world/middle-east/libyas-eastern-government-suspects-drone-attack-caused-explosion-russian-ship-2026-11-22/)
+当窗已核验的精确首发来源包括：Guardian 11月22日07:54 EST（UTC-5）；Euronews 11月22日15:23 GMT+1；PTI 11月22日16:16 IST；Reuters关于Rabigh的报道为11月22日17:52 UTC；Reuters关于班加西港船舶事件为11月22日14:25 UTC。以上均落在固定窗口。班加西报道涉及俄海军舰艇及一艘马耳他旗商船，利比亚东部政府称港口设施安全且正常运营已恢复；没有证据显示油气设施或能源货物受损，因此仅作海事安全背景，不计入能源供应损失。[E08](https://www.reuters.com/world/middle-east/libyas-eastern-government-suspects-drone-attack-caused-explosion-russian-ship-2026-11-22/)
 
 OPEC 11月1日公告只有日期、没有可核验的具体发布时间，只用于核对会议日程，不计为当窗新增。EnergyReader页面显示11月22日17:55但未能确认时区，其17:09 UTC为动态价格数据时点；LNG Insights为首页而非精确文章页面；两者均不进入合格Evidence。关于霍尔木兹周末通行量的Reuters转载于11月23日07:00 Doha发布，折合北京时间12:00，晚于本期10:00截点；Reuters周一油价报道首发于02:24 UTC，折合北京时间10:24，同样晚于截点，均留待下一窗口。中国LNG/LPG报价仍为DATA_GAP。
 
@@ -102,9 +102,9 @@ OPEC 11月1日公告只有日期、没有可核验的具体发布时间，只用
 ## Public Sources
 
 - [E01] The Guardian，Cop31 climate talks break down as key deal rejected，首发11/22 12:54 GMT。
-- [E02] Euronews刊载AP来源报道，COP31 climate talks fail after EU and others reject final deal proposal，发布11/22 15:23 GMT+1。
+- [E02] Euronews，COP31 climate talks fail after EU and others reject final deal proposal，发布11/22 15:23 GMT+1。
 - [E03] The Guardian，同一原文，支持拟议文本未写入化石能源转型承诺。
-- [E04] Euronews刊载AP来源报道，同一原文，交叉核验欧盟反对理由。
+- [E04] Euronews，同一原文，交叉核验欧盟反对理由。
 - [E05] The Week / PTI，Crude oil futures brace for OPEC+ output decision amid supply glut concerns，发布11/22 16:16 IST。
 - [E06] OPEC，七个参与国关于市场稳定的公告，11/01历史日程背景。
 - [E07] Reuters，Yemen's Houthis say they attacked Saudi Rabigh oil refinery，发布11/22 17:52 UTC。
