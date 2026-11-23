@@ -101,7 +101,7 @@ OPEC 11月1日公告只有日期、没有可核验的具体发布时间，只用
 
 ## Public Sources
 
-- [E01] The Guardian，Cop31 climate talks break down as key deal rejected，首发11/22 12:54 GMT。
+- [E01] The Guardian，Cop31 climate talks break down as key deal rejected，首发11/22 07:54 EST（UTC-5）。
 - [E02] Euronews，COP31 climate talks fail after EU and others reject final deal proposal，发布11/22 15:23 GMT+1。
 - [E03] The Guardian，同一原文，支持拟议文本未写入化石能源转型承诺。
 - [E04] Euronews，同一原文，交叉核验欧盟反对理由。
