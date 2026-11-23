@@ -185,10 +185,10 @@
     "2026-11-23"
   ],
   "producer_recovery_queue_remaining": [],
-  "post_run_self_audit_status": "PASS",
+  "post_run_self_audit_status": "PASS__CHAT_MANUAL_SELF_AUDIT_ONLY",
   "evidence_claim_role_status": "PASS",
   "evidence_support_alignment_status": "PASS",
-  "policy_drift_status": "PASS",
+  "policy_drift_status": "NOT_RUN__WORK_NATIVE_REQUIRED",
   "failure_stage": "",
   "failure_reason": "",
   "completed_at": "2026-11-23T04:33:22.777Z",
@@ -199,11 +199,11 @@
   "original_failed_heartbeat_git_blob_sha": "598d0c9f34d35efb10687e6fd54c18987149185c",
   "original_failed_heartbeat_preserved_exactly": true,
   "source_matrix_status": "PASS",
-  "source_identity_gate_status": "PASS",
-  "inline_citation_gate_status": "PASS",
-  "evidence_status": "PASS",
-  "strict_v2_ledger_status": "PASS",
-  "v4_public_depth_gate_status": "PASS",
+  "source_identity_gate_status": "CHAT_MANUAL_REVIEW_ONLY__WORK_NATIVE_RECHECK_REQUIRED",
+  "inline_citation_gate_status": "CHAT_MANUAL_BINDING_REVIEW_ONLY__WORK_NATIVE_RECHECK_REQUIRED",
+  "evidence_status": "CHAT_MANUAL_EVIDENCE_REVIEW_ONLY__WORK_NATIVE_RECHECK_REQUIRED",
+  "strict_v2_ledger_status": "CHAT_SCHEMA_AND_ROW_WIDTH_CHECK_PASS__WORK_NATIVE_RECHECK_REQUIRED",
+  "v4_public_depth_gate_status": "NOT_RUN__WORK_NATIVE_REQUIRED",
   "data_gap_boundary_status": "PASS",
   "source_binding_id_url_check": "8/8",
   "source_binding_status": "PASS",
@@ -231,7 +231,7 @@
     },
     {
       "name": "manifest.json",
-      "git_blob_sha": "967e77ca0c8bd640d90741374ff8565f6e1b81f8"
+      "git_blob_sha": "60055087978573a07d18e014b95e674b3fe188f2"
     }
   ],
   "candidate_files_sha256": {
@@ -239,8 +239,8 @@
     "evidence.json": "643682e05950621c8d819cf355fcf5d2b4a5c9dbd9b8866fd80313cbc82ea84f",
     "evidence_ledger_v2_2026-11-23.csv": "5dcb9f865c30ca2e2280e2a3db4bc2e321d4766b29095fb4f453b6534a840515"
   },
-  "manifest_git_blob_sha": "967e77ca0c8bd640d90741374ff8565f6e1b81f8",
-  "producer_self_audit_status": "PASS",
+  "manifest_git_blob_sha": "60055087978573a07d18e014b95e674b3fe188f2",
+  "producer_self_audit_status": "PASS__CHAT_MANUAL_SELF_AUDIT_ONLY",
   "consumer_status": "NOT_RUN__WORK_NATIVE_CONSUMER_REQUIRED",
   "reader_status": "NOT_RUN__WORK_NATIVE_REQUIRED",
   "lineage_status": "NOT_RUN__WORK_NATIVE_REQUIRED",
@@ -256,7 +256,7 @@
     "next_scheduled_run": "2026-11-24T12:30:00+08:00",
     "site_remote_status": "HTTP_403_NO_BYTES"
   },
-  "next_work_action": "The 2026-11-23 12:30 Work run completed before this controlled-recovery candidate existed, so it did not consume 11/23. Run the existing Work reconciler manually against this exact four-file candidate; otherwise the next scheduled attempt is 2026-11-24 12:30 Asia/Shanghai. Do not re-research or rewrite. Work must run native Consumer (independently derive unsupported_core_claims), Reader V2, Lineage, P8G PRECOMMIT and COMMIT_VERIFICATION, then V109 CAS and the original Site publication/remote readback. The previous Work run observed HTTP 403 with no remote bytes; treat Site access as a separate pending blocker.",
+  "next_work_action": "The existing 12:30 Work run completed before these candidate files existed. The candidate is a Chat-produced handoff, not native-validated. Work must independently execute current Authority Source Identity, Evidence, Inline Citation, V4 and Policy Drift checks before Consumer/Reader/Lineage/P8G/CAS; reject/hold if any fails. Site publication remains separate and remote HTTP 403 must be resolved with supported access.",
   "window_eligible_unique_source_count": 5,
   "window_eligible_evidence_record_count": 7,
   "recovery_search_passes": [
@@ -284,5 +284,13 @@
     }
   ],
   "source_publisher_attribution_correction": "Euronews article is authored by Nathan Rennolds; AP credit on the page applies to images, not the article publisher. Corrected source group to EURONEWS.",
-  "guardian_original_timestamp_correction": "Guardian page labels first publication 07:54 EST (UTC-5), updated 11:14 EST; Beijing first-publication time 20:54."
+  "guardian_original_timestamp_correction": "Guardian page labels first publication 07:54 EST (UTC-5), updated 11:14 EST; Beijing first-publication time 20:54.",
+  "native_gate_execution": {
+    "source_identity": "NOT_RUN_IN_NATIVE_AUTHORITY_RUNTIME",
+    "evidence": "NOT_RUN_IN_NATIVE_AUTHORITY_RUNTIME",
+    "inline_citation": "NOT_RUN_IN_NATIVE_AUTHORITY_RUNTIME",
+    "v4_public_depth": "NOT_RUN_IN_NATIVE_AUTHORITY_RUNTIME",
+    "policy_drift": "NOT_RUN_IN_NATIVE_AUTHORITY_RUNTIME",
+    "note": "Chat controlled recovery produced and manually reviewed the candidate assets; no Authority-native Python validator or Work Consumer was executed in this Chat session."
+  }
 }
