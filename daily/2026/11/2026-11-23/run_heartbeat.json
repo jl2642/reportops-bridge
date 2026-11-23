@@ -34,7 +34,7 @@
     {
       "source_id": "E01/E03",
       "publisher_group": "GUARDIAN_NEWS_MEDIA",
-      "publication_time": "2026-11-22T12:54:00Z",
+      "publication_time": "2026-11-22T07:54:00-05:00",
       "beijing_time": "2026-11-22T20:54:00+08:00",
       "claim_role": "CORE",
       "url": "https://www.theguardian.com/environment/2026/nov/22/cop31-climate-talks-set-to-end-in-deep-division-as-key-deal-rejected",
@@ -49,14 +49,14 @@
         "title_match_status": "EXACT",
         "verified_at": "2026-11-23T04:18:03Z"
       },
-      "source_timezone": "GMT",
+      "source_timezone": "EST (UTC-5)",
       "window_eligibility": "IN_WINDOW",
       "support": "DIRECT",
       "publication_time_kind": "FIRST_PUBLISHED"
     },
     {
       "source_id": "E02/E04",
-      "publisher_group": "ASSOCIATED_PRESS_VIA_EURONEWS",
+      "publisher_group": "EURONEWS",
       "publication_time": "2026-11-22T15:23:00+01:00",
       "beijing_time": "2026-11-22T22:23:00+08:00",
       "claim_role": "CORE_CORROBORATION",
@@ -68,7 +68,7 @@
         "observed_url": "https://www.euronews.com/2026/11/22/cop31-climate-talks-fail-after-eu-and-others-reject-final-deal-proposal",
         "canonical_url": "https://www.euronews.com/2026/11/22/cop31-climate-talks-fail-after-eu-and-others-reject-final-deal-proposal",
         "observed_title": "COP31 climate talks fail after EU and others reject final deal proposal",
-        "observed_publisher": "Associated Press via Euronews",
+        "observed_publisher": "Euronews",
         "title_match_status": "EXACT",
         "verified_at": "2026-11-23T04:18:03Z"
       },
@@ -174,7 +174,7 @@
       "reason": "No verifiable China LNG/LPG quote with exact observation time, region, unit, tax status and price basis."
     }
   ],
-  "unverified_source_count": 3,
+  "unverified_source_count": 2,
   "products_repaired_or_produced": [
     "public_core.md",
     "evidence.json",
@@ -207,7 +207,7 @@
   "data_gap_boundary_status": "PASS",
   "source_binding_id_url_check": "8/8",
   "source_binding_status": "PASS",
-  "cjk_characters_actual": 2835,
+  "cjk_characters_actual": 2816,
   "signal_card_count": 3,
   "evidence_record_count": 8,
   "source_url_count_distinct": 6,
@@ -216,30 +216,30 @@
   "candidate_files": [
     {
       "name": "public_core.md",
-      "git_blob_sha": "bb3c1e040446e67a9edde53f45b35a87028e71db",
-      "sha256": "7b58b5d52c55427fa9c9a984270b35869b429367fabb1dc191b4c2d7ff5b66d7"
+      "git_blob_sha": "1d85bee14a9a98f7975f78677283cd275be1539f",
+      "sha256": "fcf7dcf98d0b6bd69449dd141b6be13f87c563386ce8ca013550b91bda833423"
     },
     {
       "name": "evidence.json",
-      "git_blob_sha": "9b411560df9e38037542f4597f88cf2de3aca75d",
-      "sha256": "f12271cf910a3bb912fb033c3831f3f6464eb1a60b928d0c106896151bbf721e"
+      "git_blob_sha": "bf637f36f847510ba99c6c89b21f4eb9a1f6fa03",
+      "sha256": "643682e05950621c8d819cf355fcf5d2b4a5c9dbd9b8866fd80313cbc82ea84f"
     },
     {
       "name": "evidence_ledger_v2_2026-11-23.csv",
-      "git_blob_sha": "4e0f64bf55166528c0467910af7d6097f62a3023",
-      "sha256": "e414ba058125e53407cc2679c1c26128c605efb4e5bdba7f4c6f76b7ef361bef"
+      "git_blob_sha": "f4406a95a093f112728d7ae48aa4aae238c11656",
+      "sha256": "5dcb9f865c30ca2e2280e2a3db4bc2e321d4766b29095fb4f453b6534a840515"
     },
     {
       "name": "manifest.json",
-      "git_blob_sha": "0b66220802f90a96e087fea57f34d5dc50c2ea70"
+      "git_blob_sha": "967e77ca0c8bd640d90741374ff8565f6e1b81f8"
     }
   ],
   "candidate_files_sha256": {
-    "public_core.md": "7b58b5d52c55427fa9c9a984270b35869b429367fabb1dc191b4c2d7ff5b66d7",
-    "evidence.json": "f12271cf910a3bb912fb033c3831f3f6464eb1a60b928d0c106896151bbf721e",
-    "evidence_ledger_v2_2026-11-23.csv": "e414ba058125e53407cc2679c1c26128c605efb4e5bdba7f4c6f76b7ef361bef"
+    "public_core.md": "fcf7dcf98d0b6bd69449dd141b6be13f87c563386ce8ca013550b91bda833423",
+    "evidence.json": "643682e05950621c8d819cf355fcf5d2b4a5c9dbd9b8866fd80313cbc82ea84f",
+    "evidence_ledger_v2_2026-11-23.csv": "5dcb9f865c30ca2e2280e2a3db4bc2e321d4766b29095fb4f453b6534a840515"
   },
-  "manifest_git_blob_sha": "0b66220802f90a96e087fea57f34d5dc50c2ea70",
+  "manifest_git_blob_sha": "967e77ca0c8bd640d90741374ff8565f6e1b81f8",
   "producer_self_audit_status": "PASS",
   "consumer_status": "NOT_RUN__WORK_NATIVE_CONSUMER_REQUIRED",
   "reader_status": "NOT_RUN__WORK_NATIVE_REQUIRED",
@@ -256,5 +256,33 @@
     "next_scheduled_run": "2026-11-24T12:30:00+08:00",
     "site_remote_status": "HTTP_403_NO_BYTES"
   },
-  "next_work_action": "The 2026-11-23 12:30 Work run completed before this controlled-recovery candidate existed, so it did not consume 11/23. Run the existing Work reconciler manually against this exact four-file candidate; otherwise the next scheduled attempt is 2026-11-24 12:30 Asia/Shanghai. Do not re-research or rewrite. Work must run native Consumer (independently derive unsupported_core_claims), Reader V2, Lineage, P8G PRECOMMIT and COMMIT_VERIFICATION, then V109 CAS and the original Site publication/remote readback. The previous Work run observed HTTP 403 with no remote bytes; treat Site access as a separate pending blocker."
+  "next_work_action": "The 2026-11-23 12:30 Work run completed before this controlled-recovery candidate existed, so it did not consume 11/23. Run the existing Work reconciler manually against this exact four-file candidate; otherwise the next scheduled attempt is 2026-11-24 12:30 Asia/Shanghai. Do not re-research or rewrite. Work must run native Consumer (independently derive unsupported_core_claims), Reader V2, Lineage, P8G PRECOMMIT and COMMIT_VERIFICATION, then V109 CAS and the original Site publication/remote readback. The previous Work run observed HTTP 403 with no remote bytes; treat Site access as a separate pending blocker.",
+  "window_eligible_unique_source_count": 5,
+  "window_eligible_evidence_record_count": 7,
+  "recovery_search_passes": [
+    {
+      "pass": 3,
+      "method": "open exact source documents and verify first-publication timestamp, original timezone, publisher and canonical URL",
+      "sources": [
+        "Guardian COP31",
+        "Euronews COP31",
+        "PTI OPEC+",
+        "Reuters Rabigh refinery claim",
+        "Reuters Benghazi maritime context"
+      ]
+    },
+    {
+      "pass": 4,
+      "method": "targeted event and cutoff audit",
+      "sources": [
+        "Rabigh refinery attack claim",
+        "OPEC 29 November meeting schedule",
+        "Hormuz traffic article after 10:00 Beijing cutoff",
+        "Reuters Monday oil-price article after 10:00 Beijing cutoff",
+        "China LNG/LPG exact-price gap"
+      ]
+    }
+  ],
+  "source_publisher_attribution_correction": "Euronews article is authored by Nathan Rennolds; AP credit on the page applies to images, not the article publisher. Corrected source group to EURONEWS.",
+  "guardian_original_timestamp_correction": "Guardian page labels first publication 07:54 EST (UTC-5), updated 11:14 EST; Beijing first-publication time 20:54."
 }
