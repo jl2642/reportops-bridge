@@ -185,5 +185,9 @@
   "manual_recovery_encoding_integrity": "PASS_AFTER_QUALITY_CHECK_CREATED",
   "manual_recovery_scope": "Chat-side isolated validation only; no formal Work Consumer, Reader/P8G, CAS, Pointer, mirror or Site mutation.",
   "failure_stage": "AUTHORITY_LOCK_AND_INTEGRITY_NOT_COMPLETED",
-  "failure_reason": "The scheduled 10:15 run ended after startup heartbeat and Authority metadata; it did not verify raw ZIP, search or produce a candidate. Chat later generated a controlled recovery candidate, but it is not Work-ready: Reader Design Static V2 fails on five inline style attributes, legacy truthfulness is below threshold, and the old V3 gate expects a missing V3 manifest. Do not queue for Work."
+  "failure_reason": "The scheduled 10:15 run ended after startup heartbeat and Authority metadata; it did not verify raw ZIP, search or produce a candidate. Chat later generated a controlled recovery candidate, but it is not Work-ready: Reader Design Static V2 fails on five inline style attributes, legacy truthfulness is below threshold, and the old V3 gate expects a missing V3 manifest. Do not queue for Work.",
+  "manual_recovery_library_archive_path": "/能源周期报告/20_PRODUCTS/DAILY/2026/11/2026-11-24/CHAT_RECOVERY_PENDING/",
+  "manual_recovery_library_archive_files": 25,
+  "manual_recovery_library_readback": "5_CORE_FILES_EXACT_SHA_PASS",
+  "manual_recovery_work_disposition": "SKIP_DAILY__PENDING_READER_AND_LEGACY_GATE_RECONCILIATION"
 }
