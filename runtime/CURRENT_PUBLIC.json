@@ -3054,31 +3054,27 @@
   "current_execution_environment": "UNVERIFIED",
   "public_daily_2026_11_21_download_sha256": "cf8e32a5a082d9032d44b27b31d72b9d104e18fb55c0ca9da8bfb83076686b52",
   "latest_reconciler_run": {
-    "mode": "SITE_ONLY",
+    "date": "2026-11-24",
+    "scheduled_for": "2026-11-24T12:30:00+08:00",
+    "next_scheduled_for": "2026-11-25T12:30:00+08:00",
+    "execution_environment": "UNVERIFIED",
     "authority_version": 111,
-    "authority_unchanged": true,
-    "consumer": "NOT_RUN",
-    "p8g": "NOT_RUN",
-    "cas": "NOT_RUN",
-    "mirrors": "NOT_MODIFIED",
-    "base_version": 122,
-    "source_commit": "8d87db1742316c3ce963db54a61fffba6846bec4",
+    "authority_file_id": "file_00000000ff6481f794833cd84567eba7",
+    "authority_sha256": "13dc4819591d2aa3a7708a6db5aebd600eab458653cf9efe7649e8a898d25db1",
+    "candidate_count": 2,
+    "daily_2026_11_24": "DAILY_CANDIDATE_NOT_READY__SKIP_CONSUMER",
+    "daily_blocker": "heartbeat.status=FAILED; post_run_self_audit_status=FAIL_CLOSED_FULL_PIPELINE_NOT_ACCEPTED; manifest.producer_status=PUBLIC_CORE_V4_PASS_PENDING_FULL_PIPELINE",
+    "weekly_2026_W47": "BLOCKED_PRODUCT_LOCAL",
+    "weekly_blocker": "product_v3_content_gate.py exit 1: SUMMARY_EVIDENCE_ID_MISSING (14 references); manifest summary uses E2-W47-* IDs whereas ledger claim_id uses W47-C*",
+    "cas_performed": false,
+    "site_deployment_performed": false,
     "site_version": 123,
-    "deploy_status": "succeeded",
-    "public_validator": {
-      "status": "PASS",
-      "checks": 22554,
-      "reports": 215
-    },
-    "release_audit": {
-      "status": "PASS",
-      "links": 32460,
-      "legacy_pairs": 4
-    },
-    "target_remote_zip_sha256": "2f1ff2d682d10893c6b1e31873937351db93e3a8bf9a39037dfb9577d06e97a0",
-    "final_status": "SITE_PENDING",
-    "only_remaining_blocker": "Historical file post-deployment browser download timed out after 10000ms waiting for download; stopped without retry",
-    "checked_at": "2026-11-23T07:50:31.141Z"
+    "site_current_daily": "2026-11-23",
+    "site_current_weekly": "2026-W46",
+    "home_archive_body_readback": "PASS",
+    "remote_daily_2026_11_23_zip_sha256": "2f1ff2d682d10893c6b1e31873937351db93e3a8bf9a39037dfb9577d06e97a0",
+    "site_disposition": "NO_NEW_FORMALLY_PROMOTED_PRODUCT__NO_DEPLOYMENT; prior history verification debt retained",
+    "result": "PUBLISH_INCOMPLETE"
   },
   "recovery_provenance_2026_11_23": {
     "prior_scheduled_work": {
