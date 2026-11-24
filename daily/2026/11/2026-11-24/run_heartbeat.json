@@ -149,10 +149,10 @@
   "original_failed_heartbeat_path": "daily/2026/11/2026-11-24/run_heartbeat_original_failed.json",
   "original_failed_heartbeat_git_blob_sha": "284523402a065558621226f0e911468dc83366c1",
   "original_failed_heartbeat_preserved_exactly": true,
-  "producer_recovery_queue_remaining": [],
-  "queue_for_12_30_work": [
+  "producer_recovery_queue_remaining": [
     "2026-11-24"
   ],
+  "queue_for_12_30_work": [],
   "post_run_self_audit_status": "PASS",
   "evidence_claim_role_status": "PASS",
   "evidence_support_alignment_status": "PASS",
@@ -175,5 +175,13 @@
   "formal_promotion_performed": false,
   "site_publication_performed": false,
   "next_work_action": "12:30 Work should read this candidate by exact GitHub paths and SHA, independently rerun Source Identity, strict Evidence, Inline Citation, V4 and Policy Drift; then run Consumer, Reader V2, Lineage and P8G. Only if all formal gates pass may it perform Authority CAS. Site release is a separate step; do not rewrite the accepted Daily core or repeat source research. The prior remote HTTP 403 remains a separate Site-side issue.",
-  "manifest_git_blob_sha": "8c7d3d203cf0734e15d8a9325a1742a5d9b3f148"
+  "manifest_git_blob_sha": "8c7d3d203cf0734e15d8a9325a1742a5d9b3f148",
+  "manual_recovery_status": "CANDIDATE_GENERATED_BUT_NOT_READY_FOR_WORK_CONSUMPTION",
+  "manual_recovery_consumer_preflight": "PASS_ISOLATED_COPY_ONLY_NOT_FORMAL_WORK",
+  "manual_recovery_unsupported_core_claims_derived": 0,
+  "manual_recovery_reader_design_static_v2": "FAIL_5_INLINE_STYLE_ATTRIBUTES",
+  "manual_recovery_legacy_evidence_truthfulness": "FAIL_3_OF_7_CLAIM_TRACEABLE",
+  "manual_recovery_product_v3_gate": "FAIL_PRODUCT_QUALITY_MANIFEST_V3_MISSING",
+  "manual_recovery_encoding_integrity": "PASS_AFTER_QUALITY_CHECK_CREATED",
+  "manual_recovery_scope": "Chat-side isolated validation only; no formal Work Consumer, Reader/P8G, CAS, Pointer, mirror or Site mutation."
 }
