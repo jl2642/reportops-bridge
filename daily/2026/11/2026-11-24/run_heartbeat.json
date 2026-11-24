@@ -2,8 +2,8 @@
   "target_date": "2026-11-24",
   "scheduled_for": "10:15 Asia/Shanghai",
   "run_started_at": "2026-11-24T02:10:18.360Z",
-  "status": "PRODUCER_SUCCESS_CANDIDATES_PENDING_WORK",
-  "execution_mode": "CHAT_INTERACTIVE_CONTROLLED_RECOVERY_AFTER_SCHEDULED_FAILED",
+  "status": "FAILED",
+  "execution_mode": "SCHEDULED_WITH_SEPARATE_CHAT_RECOVERY",
   "original_scheduled_run_status": "FAILED",
   "completed_at": "2026-11-24T03:27:23Z",
   "authority_version": "111",
@@ -153,7 +153,7 @@
     "2026-11-24"
   ],
   "queue_for_12_30_work": [],
-  "post_run_self_audit_status": "PASS",
+  "post_run_self_audit_status": "FAIL_CLOSED_FULL_PIPELINE_NOT_ACCEPTED",
   "evidence_claim_role_status": "PASS",
   "evidence_support_alignment_status": "PASS",
   "native_gate_execution": {
@@ -180,8 +180,10 @@
   "manual_recovery_consumer_preflight": "PASS_ISOLATED_COPY_ONLY_NOT_FORMAL_WORK",
   "manual_recovery_unsupported_core_claims_derived": 0,
   "manual_recovery_reader_design_static_v2": "FAIL_5_INLINE_STYLE_ATTRIBUTES",
-  "manual_recovery_legacy_evidence_truthfulness": "FAIL_3_OF_7_CLAIM_TRACEABLE",
+  "manual_recovery_legacy_evidence_truthfulness": "FAIL_2_OF_5_CLAIM_TRACEABLE",
   "manual_recovery_product_v3_gate": "FAIL_PRODUCT_QUALITY_MANIFEST_V3_MISSING",
   "manual_recovery_encoding_integrity": "PASS_AFTER_QUALITY_CHECK_CREATED",
-  "manual_recovery_scope": "Chat-side isolated validation only; no formal Work Consumer, Reader/P8G, CAS, Pointer, mirror or Site mutation."
+  "manual_recovery_scope": "Chat-side isolated validation only; no formal Work Consumer, Reader/P8G, CAS, Pointer, mirror or Site mutation.",
+  "failure_stage": "AUTHORITY_LOCK_AND_INTEGRITY_NOT_COMPLETED",
+  "failure_reason": "The scheduled 10:15 run ended after startup heartbeat and Authority metadata; it did not verify raw ZIP, search or produce a candidate. Chat later generated a controlled recovery candidate, but it is not Work-ready: Reader Design Static V2 fails on five inline style attributes, legacy truthfulness is below threshold, and the old V3 gate expects a missing V3 manifest. Do not queue for Work."
 }
