@@ -1,7 +1,7 @@
 {
   "schema_version": "REPORTOPS_PUBLIC_RUNTIME_CURRENT_V1",
-  "status": "FORMAL_PROMOTED__SITE_PENDING",
-  "current_daily_public": "2026-11-23",
+  "status": "FORMAL_PROMOTED__SITE_PUBLISHED",
+  "current_daily_public": "2026-11-24",
   "current_weekly_public": "2026-W46",
   "current_monthly_public": "2026-10",
   "current_quarterly_public": "2026-Q3",
@@ -11,26 +11,19 @@
   "scheduled_work_consumer_time_local": "12:30",
   "live_site_mode": "SINGLE_SITE_V4_PUBLIC",
   "private_site_status": "RETIRED_FROM_LIVE_OPERATION",
-  "public_site_version": 123,
+  "public_site_version": 124,
   "public_site_url": "https://energy-cycle-report-share.ljjx2020.chatgpt.site",
   "public_remote_readback": {
-    "checked_at": "2026-11-23T07:50:31.141Z",
-    "method": "NORMAL_BROWSER_NATIVE_DOWNLOAD",
-    "current_daily": "2026-11-23",
+    "current_daily": "2026-11-24",
     "current_weekly": "2026-W46",
     "homepage": "PASS",
     "daily_archive": "PASS",
     "target_body": "PASS",
     "download_center": "PASS",
-    "target_zip_sha256": "2f1ff2d682d10893c6b1e31873937351db93e3a8bf9a39037dfb9577d06e97a0",
-    "target_zip_exact_bytes": "PASS",
-    "historical_files": {
-      "local_preserved": 860,
-      "legacy_pairs": 4,
-      "prepublication_sha_receipt_inheritance": "PASS_MATCH_V122_DEPLOYED_GIT_BYTES",
-      "postdeployment_remote_recheck": "TIMEOUT_10000MS_WAITING_FOR_DOWNLOAD"
-    },
-    "site_pending_cleared": false
+    "target_zip_sha256": "b15bb1a60814d70795ec4687f8477fb8ffd58e7c54d20ada2392697fba4fbd44",
+    "target_zip_exact_bytes": true,
+    "historical_files": "8/8",
+    "site_pending_cleared": true
   },
   "authority_package_sha256": "95fd6987cbb46ccd5cbf7abc1d285d23b157f79714aa9e751926de46982ca80e",
   "github_role": "PUBLIC_SAFE_BRIDGE",
@@ -48,9 +41,7 @@
   "state_consistency_pointer_sha256": "8af5544790e35633cfa96e24fb1e9622873309445a6a1f841ed13c26f72eb760",
   "stale_views": [],
   "queue_remaining": [],
-  "eligible_unpublished_products": [
-    "2026-11-24"
-  ],
+  "eligible_unpublished_products": [],
   "correction_backlog_status": "HISTORICAL_DAILY_AND_SITE_BACKLOG_ZERO_AS_OF_2026_11_13",
   "manifest_reconciliation_status": "NATIVE_FINALIZER_REGISTRY_MANIFEST_COMPLETE__RECONCILER_ALREADY_COMPLETE",
   "measurement_parity_status": "PASS_AUTHORITY_CONSUMER_ACTUALS",
@@ -73,8 +64,8 @@
   "public_daily_2026_10_02_download_sha256": "9a45fcf57e9048c524ab0f1ebdbb547a6eeb34fbe23821f5cf43e252c4ed9237",
   "current_daily_canonical": "2026-11-24",
   "library_sidecar_sha256": "95fd6987cbb46ccd5cbf7abc1d285d23b157f79714aa9e751926de46982ca80e",
-  "current_package_site_publication_performed": false,
-  "runtime_sync_status": "V112_SYNC__SITE_PENDING",
+  "current_package_site_publication_performed": true,
+  "runtime_sync_status": "V112_SITE_V124_REMOTE_VERIFIED",
   "stable": false,
   "updated_at": "2026-11-24T06:29:12.604Z",
   "public_weekly_2026_w40_download_sha256": "7d5d10199df404c830519bf51f4639196e4d3c8256416b4362a65d640fd5c49e",
@@ -98,12 +89,12 @@
   "public_daily_2026_10_10_download_sha256": "0cc591e11f470276e934d816fc62675bca7ce5388de092816557da4049787f9e",
   "current_annual_public": "NO_FORMAL_2026_PRODUCT",
   "canonical_promotion_performed": true,
-  "public_site_status": "SITE_PENDING",
-  "real_remote_readback_status": "HOMEPAGE_VERIFIED__TARGET_PENDING",
-  "download_sha_status": "TARGET_PENDING",
+  "public_site_status": "SITE_PUBLISHED",
+  "real_remote_readback_status": "PASS",
+  "download_sha_status": "PASS",
   "reportops_status": "FORMAL_V107_SITE_V120_RELEASE_PASS__UNATTENDED_STABILITY_PENDING",
-  "site_publication_performed": false,
-  "public_site_publication_receipt_status": "SITE_PENDING",
+  "site_publication_performed": true,
+  "public_site_publication_receipt_status": "V124_REMOTE_VERIFIED",
   "next_action": "NEXT_ORIGINAL_2026_11_21_12_30_ASIA_SHANGHAI__DYNAMIC_CANDIDATE_AND_SITE_NO_OP_OR_INCREMENTAL",
   "public_daily_2026_10_13_download_sha256": "9f208040c99e46ce8752577be3b77387592d25776f3fb89940e91f727add246d",
   "public_weekly_2026_w41_download_sha256": "cc05e865be0ca86e17d9ca1c83a5f5a77d67b9f176a8058edf5482921f911fc0",
@@ -111,7 +102,7 @@
   "producer_gap": [],
   "scheduled_date": "2026-11-20",
   "target_date": "2026-11-24",
-  "current_day_status": "FORMAL_PROMOTED__SITE_PENDING",
+  "current_day_status": "FORMAL_PROMOTED__SITE_PUBLISHED",
   "formal_status": "FORMAL_PROMOTED_DAILY_2026_11_24_WEEKLY_2026_W46",
   "download_integrity": "PASS_REMOTE_BYTES_SHA256",
   "public_daily_2026_10_14_download_sha256": "7198e935f91376c06aad940c241be3066617a338a4e6977e3edacd42295927fd",
@@ -137,7 +128,7 @@
   "public_daily_2026_10_20_download_sha256": "e6451e584fea7e43109aae2553c06c5b7fcfdc7353d6e73f8e03e3e2ecb0b93c",
   "public_weekly_2026_w42_download_sha256": "c240fd90c92fc3f61e54a0fc888c821c369cc0bac67e69ae6169d93f22855132",
   "github_readback_status": "CONTENT_DERIVED_FROM_VERIFIED_V107_V120__EXACT_READBACK_REQUIRED",
-  "site_only_corrective_republish_required": true,
+  "site_only_corrective_republish_required": false,
   "site_only_corrective_republish_receipt": {
     "status": "PASS_V113",
     "scope": "SITE_ONLY_DAILY_2026_11_07_TO_2026_11_11_AND_WEEKLY_2026_W45",
@@ -161,7 +152,7 @@
   "public_daily_2026_10_23_download_sha256": "4e323d9bbebcdc9840073f76d4b1482519e21e313ac444a01928e02bb91227d1",
   "public_daily_2026_10_24_download_sha256": "ba4eb7c148388230aa68dea2b7fed61a1b2bb0c9b422414b6685fc9dea1e4422",
   "oldest_producer_gap": null,
-  "current_run_site_publication_performed": false,
+  "current_run_site_publication_performed": true,
   "reader_baseline_patch": {
     "status": "ALREADY_PRESENT_IN_AUTHORITY_V71__IDEMPOTENT_SKIP",
     "reader_validation": "PASS 2107/2107",
@@ -172,14 +163,11 @@
   "site_only_corrective_republish_attempted": true,
   "site_only_corrective_republish_deployed": true,
   "site_prepublication_audit": "PASS_22400_CHECKS_212_REPORTS__32758_LINKS__FOUR_EXACT_LEGACY_MATCHES",
-  "site_failure_stage": "VERIFIED_LEGACY_BASELINE",
-  "site_failure_reason": "Legacy daily 2026-06-29 HTML returned HTTP 403 / error code: 1010",
+  "site_failure_stage": null,
+  "site_failure_reason": null,
   "remote_zip_verification": {
     "status": "PASS",
-    "sha256": {
-      "Daily 2026-11-15": "42d3fc42b4341ca95825f33d696ab5cb9dc6703edc2a7d45da5d27e9e594a037",
-      "Daily 2026-11-20": "bc9724fc7b90837ffd28c910e5f3acb4cf393f5b93fda339a0ff3c07619258d8"
-    }
+    "sha256": "b15bb1a60814d70795ec4687f8477fb8ffd58e7c54d20ada2392697fba4fbd44"
   },
   "current_pointer_sha256": "8af5544790e35633cfa96e24fb1e9622873309445a6a1f841ed13c26f72eb760",
   "w43_work_preflight": {
@@ -262,7 +250,7 @@
       "status": "FORMAL_PROMOTED__SITE_PENDING"
     }
   },
-  "site_status": "SITE_PENDING",
+  "site_status": "SITE_PUBLISHED",
   "package_status": "FORMAL_CURRENT_2026_11_20",
   "site_deployment_receipt": {
     "id": "appgdep_6b03efcf67648191a0d4a98bbd84ef02",
@@ -457,7 +445,7 @@
   "derived_from_current_pointer_sha256": "8af5544790e35633cfa96e24fb1e9622873309445a6a1f841ed13c26f72eb760",
   "historical_download_sha_remaining": 0,
   "automation_1230_status": "ENABLED__SCHEDULED_WORK_ENVIRONMENT_UNVERIFIED",
-  "target_release_debt_remaining": 1,
+  "target_release_debt_remaining": 0,
   "newer_daily_candidates_pending": [],
   "historical_snapshots": {
     "pre_20261105_active_publication_aliases": {
@@ -3047,9 +3035,7 @@
   "authority_commit_rule": "R3_SINGLE_AUTHORITY_CAS_ACTIVE",
   "current_read_rule": "PIN_AUTHORITY_VERSION_AND_INTERNAL_POINTER",
   "external_pointer_role": "REPAIRABLE_DERIVED_MIRROR",
-  "remaining_site_debt": [
-    "2026-11-24"
-  ],
+  "remaining_site_debt": [],
   "public_report_count": 212,
   "mirror_status": "PASS",
   "current_annual": "NO_FORMAL_2026_PRODUCT",
@@ -3068,7 +3054,7 @@
   },
   "public_daily_2026_11_14_download_sha256": "eecdd5d1aef592f75fa567a7bd1a5dd8995299a63706396e8ee8e43174cc6e78",
   "public_daily_2026_11_15_download_sha256": "42d3fc42b4341ca95825f33d696ab5cb9dc6703edc2a7d45da5d27e9e594a037",
-  "site_version": 123,
+  "site_version": 124,
   "consumer_status": "FORMAL_CONSUMED",
   "public_daily_2026_11_20_download_sha256": "bc9724fc7b90837ffd28c910e5f3acb4cf393f5b93fda339a0ff3c07619258d8",
   "manual_recovery_2026_11_20": {
@@ -3096,16 +3082,17 @@
     "weekly_2026_W47": "BLOCKED_PRODUCT_LOCAL",
     "weekly_blocker": "empty registry/refs registry=25 markdown=43 reader=0",
     "cas_performed": true,
-    "site_deployment_performed": false,
-    "site_version": 123,
-    "site_current_daily": "2026-11-23",
+    "site_deployment_performed": true,
+    "site_version": 124,
+    "site_current_daily": "2026-11-24",
     "site_current_weekly": "2026-W46",
-    "home_archive_body_readback": "HOMEPAGE_V123_CONFIRMED__NEW_PRODUCT_NOT_DEPLOYED",
+    "home_archive_body_readback": "PASS",
     "remote_daily_2026_11_23_zip_sha256": "2f1ff2d682d10893c6b1e31873937351db93e3a8bf9a39037dfb9577d06e97a0",
-    "site_disposition": "SITE_PENDING__LEGACY_HTML_HTTP_403_1010",
-    "result": "PUBLISH_INCOMPLETE",
+    "site_disposition": "SITE_PUBLISHED",
+    "result": "DAILY_PUBLISHED__W47_BLOCKED_PRODUCT_LOCAL",
     "p8g_precommit": "10/10",
-    "p8g_commit_verification": "10/10"
+    "p8g_commit_verification": "10/10",
+    "remote_daily_2026_11_24_zip_sha256": "b15bb1a60814d70795ec4687f8477fb8ffd58e7c54d20ada2392697fba4fbd44"
   },
   "recovery_provenance_2026_11_23": {
     "prior_scheduled_work": {
@@ -3138,5 +3125,6 @@
       "weekly_w47": "NO_CHAT_FINAL_FOUND"
     }
   },
-  "public_daily_2026_11_23_download_sha256": "2f1ff2d682d10893c6b1e31873937351db93e3a8bf9a39037dfb9577d06e97a0"
+  "public_daily_2026_11_23_download_sha256": "2f1ff2d682d10893c6b1e31873937351db93e3a8bf9a39037dfb9577d06e97a0",
+  "public_daily_2026_11_24_download_sha256": "b15bb1a60814d70795ec4687f8477fb8ffd58e7c54d20ada2392697fba4fbd44"
 }
