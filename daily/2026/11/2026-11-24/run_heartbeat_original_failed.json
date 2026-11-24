@@ -1,0 +1,38 @@
+{
+  "target_date": "2026-11-24",
+  "scheduled_for": "10:15 Asia/Shanghai",
+  "run_started_at": "2026-11-24T02:10:18.360Z",
+  "status": "FAILED",
+  "completed_at": "2026-11-24T02:10:32.594691Z",
+  "execution_mode": "SCHEDULED",
+  "failure_stage": "AUTHORITY_LOCK_AND_INTEGRITY_NOT_COMPLETED",
+  "failure_reason": "Scheduled run ended after startup heartbeat and Authority version metadata; raw ZIP verification, research and candidate production were not completed. No underlying tool error was recorded; cause remains unverified.",
+  "scheduled_run_id": "cc880449-b0b4-8331-9f1d-c65e4049d6e8",
+  "platform_recorded_status": "completed",
+  "original_start_heartbeat_git_blob_sha": "e6cfb22bde4e9f9efc78ede02bfde4dee432d591",
+  "original_final_heartbeat_not_written": true,
+  "authority_version": "111",
+  "authority_file_id": "file_00000000ff6481f794833cd84567eba7",
+  "authority_zip_integrity": "NOT_RUN_IN_SCHEDULED_RUN",
+  "authority_current_verified_in_scheduled_run": false,
+  "search_status": "NOT_RUN",
+  "candidate_count": 0,
+  "post_run_self_audit_status": "NOT_RUN",
+  "policy_drift_status": "NOT_RUN_IN_SCHEDULED_RUN",
+  "producer_recovery_queue_remaining": [
+    "2026-11-24"
+  ],
+  "queue_for_12_30_work": [],
+  "formal_promotion_performed": false,
+  "manual_postmortem": {
+    "authority_version": "111",
+    "authority_sha256": "13dc4819591d2aa3a7708a6db5aebd600eab458653cf9efe7649e8a898d25db1",
+    "authority_zip_integrity": "PASS",
+    "zip_members": 10234,
+    "current_daily": "2026-11-23",
+    "current_weekly": "2026-W46",
+    "native_policy_drift_status": "PASS",
+    "public_policy_mirror_hash_match": true,
+    "scope": "Interactive Chat read-only verification after scheduled run; not evidence of scheduled execution success"
+  }
+}

@@ -2,37 +2,178 @@
   "target_date": "2026-11-24",
   "scheduled_for": "10:15 Asia/Shanghai",
   "run_started_at": "2026-11-24T02:10:18.360Z",
-  "status": "FAILED",
-  "completed_at": "2026-11-24T02:10:32.594691Z",
-  "execution_mode": "SCHEDULED",
-  "failure_stage": "AUTHORITY_LOCK_AND_INTEGRITY_NOT_COMPLETED",
-  "failure_reason": "Scheduled run ended after startup heartbeat and Authority version metadata; raw ZIP verification, research and candidate production were not completed. No underlying tool error was recorded; cause remains unverified.",
-  "scheduled_run_id": "cc880449-b0b4-8331-9f1d-c65e4049d6e8",
-  "platform_recorded_status": "completed",
-  "original_start_heartbeat_git_blob_sha": "e6cfb22bde4e9f9efc78ede02bfde4dee432d591",
-  "original_final_heartbeat_not_written": true,
+  "status": "PRODUCER_SUCCESS_CANDIDATES_PENDING_WORK",
+  "execution_mode": "CHAT_INTERACTIVE_CONTROLLED_RECOVERY_AFTER_SCHEDULED_FAILED",
+  "original_scheduled_run_status": "FAILED",
+  "completed_at": "2026-11-24T03:27:23Z",
   "authority_version": "111",
   "authority_file_id": "file_00000000ff6481f794833cd84567eba7",
-  "authority_zip_integrity": "NOT_RUN_IN_SCHEDULED_RUN",
-  "authority_current_verified_in_scheduled_run": false,
-  "search_status": "NOT_RUN",
-  "candidate_count": 0,
-  "post_run_self_audit_status": "NOT_RUN",
-  "policy_drift_status": "NOT_RUN_IN_SCHEDULED_RUN",
-  "producer_recovery_queue_remaining": [
+  "authority_sha256": "13dc4819591d2aa3a7708a6db5aebd600eab458653cf9efe7649e8a898d25db1",
+  "authority_pointer_sha256": "bc55369e704ad74a46cce89cb135aab97b706d8286697c04b44d29427c8c93c0",
+  "authority_zip_integrity": "PASS",
+  "authority_zip_member_count": 10234,
+  "formal_current_daily": "2026-11-23",
+  "formal_current_weekly": "2026-W46",
+  "window_start": "2026-11-23T10:00:00+08:00",
+  "window_end": "2026-11-24T10:00:00+08:00",
+  "search_passes": [
+    {
+      "pass": 1,
+      "channels": [
+        "A China natural gas/LNG supply and terminals",
+        "B China LPG regional prices",
+        "C Brent/WTI and oil drivers",
+        "D US Europe Asia natural gas/LNG",
+        "E energy policy/company/project announcements"
+      ]
+    },
+    {
+      "pass": 2,
+      "channels": [
+        "Brent/WTI Nov 23 settlement exact Reuters and Dow Jones documents",
+        "European TTF settlement and storage exact Guardian document",
+        "US Henry Hub Dec settlement exact Dow Jones market note",
+        "EU energy-efficiency savings exact Reuters document",
+        "China LNG/LPG and Asia JKM precise-time quote gap check"
+      ]
+    }
+  ],
+  "verified_sources": [
+    {
+      "source_id": "E01/E03/E08",
+      "publisher_group": "THOMSON_REUTERS",
+      "publication_time": "2026-11-23T02:24:00Z",
+      "beijing_time": "2026-11-23T10:24:00+08:00",
+      "claim_role": "CORE",
+      "url": "https://www.reuters.com/business/energy/oil-prices-fall-amid-equity-selloff-though-iran-war-attacks-limit-losses-2026-11-23/",
+      "title": "Oil slumps to 3-month low on increased Middle East flows, Libyan pipeline restart",
+      "source_identity_status": "PASS",
+      "window_eligibility": "IN_WINDOW"
+    },
+    {
+      "source_id": "E02/E04",
+      "publisher_group": "DOW_JONES",
+      "publication_time": "2026-11-23T16:29:00-05:00",
+      "beijing_time": "2026-11-24T05:29:00+08:00",
+      "claim_role": "CORE",
+      "url": "https://www.wsj.com/business/energy-utilities-roundup-market-talk-39f5dead",
+      "title": "Energy & Utilities Roundup: Market Talk",
+      "source_identity_status": "PASS",
+      "window_eligibility": "IN_WINDOW"
+    },
+    {
+      "source_id": "E05/E06",
+      "publisher_group": "GUARDIAN_NEWS_MEDIA",
+      "publication_time": "2026-11-23T09:45:00+01:00",
+      "beijing_time": "2026-11-23T16:45:00+08:00",
+      "claim_role": "MATERIAL",
+      "url": "https://www.theguardian.com/business/2026/nov/23/gas-prices-in-europe-surge-as-forecast-cold-snap-feeds-supply-shortage-fears",
+      "title": "Gas prices in Europe surge as forecast cold snap feeds supply shortage fears",
+      "source_identity_status": "PASS",
+      "window_eligibility": "IN_WINDOW"
+    },
+    {
+      "source_id": "E07",
+      "publisher_group": "DOW_JONES",
+      "publication_time": "2026-11-23T16:25:00-05:00",
+      "beijing_time": "2026-11-24T05:25:00+08:00",
+      "claim_role": "MATERIAL",
+      "url": "https://www.wsj.com/finance/commodities-futures/european-ttf-gas-climbs-on-colder-weather-low-storage-c3b99a8a",
+      "title": "U.S. Natural Gas Futures Sink on Milder Weather Outlook",
+      "source_identity_status": "PASS",
+      "window_eligibility": "IN_WINDOW"
+    },
+    {
+      "source_id": "E09",
+      "publisher_group": "THOMSON_REUTERS",
+      "publication_time": "2026-11-23T17:21:00Z",
+      "beijing_time": "2026-11-24T01:21:00+08:00",
+      "claim_role": "MATERIAL",
+      "url": "https://www.reuters.com/business/energy/eu-says-efficiency-measures-saved-120-billion-gas-oil-import-costs-since-ukraine-2026-11-23/",
+      "title": "EU says efficiency measures saved €120 billion in gas, oil import costs since Ukraine invasion",
+      "source_identity_status": "PASS",
+      "window_eligibility": "IN_WINDOW"
+    }
+  ],
+  "source_gaps": [
+    {
+      "source_id": "GAP01",
+      "url": null,
+      "reason": "No verifiable China LNG/LPG quote with exact publication/observation time, region, unit, tax status and price basis."
+    },
+    {
+      "source_id": "GAP02",
+      "url": null,
+      "reason": "No independently verifiable Asia JKM assessment with exact publication time and observation time inside the fixed window."
+    }
+  ],
+  "unverified_source_count": 0,
+  "source_matrix_status": "PASS",
+  "source_binding_id_url_check": "9/9",
+  "source_binding_status": "PASS",
+  "source_identity_gate_status": "PASS_V2",
+  "inline_citation_gate_status": "PASS",
+  "evidence_status": "PASS",
+  "strict_v2_ledger_status": "PASS",
+  "v4_public_depth_gate_status": "PASS",
+  "policy_drift_status": "PASS",
+  "data_gap_boundary_status": "PASS",
+  "cjk_characters_actual": 3368,
+  "signal_card_count": 3,
+  "evidence_record_count": 9,
+  "source_url_count_distinct": 5,
+  "ledger_column_count": 43,
+  "ledger_row_count": 9,
+  "candidate_files": [
+    {
+      "name": "public_core.md",
+      "sha256": "0299bcf834454b04c89f324e93db63f22fb401d18c6326327b95e9640e3bfccc",
+      "git_blob_sha": "ad48c65548559a392feae61bc935186c578dd8c1"
+    },
+    {
+      "name": "evidence.json",
+      "sha256": "c3fca031de5c0f902686ce94ce31ba1816c19e15dab16b4f35b1f264cc7dded9",
+      "git_blob_sha": "2c0d88610ea74e0ab08c3bd8611ca051f8d1651e"
+    },
+    {
+      "name": "evidence_ledger_v2_2026-11-24.csv",
+      "sha256": "3b3d488a9c58c298796e274f3248e09df47c5666d815539f7f5011a6152649e6",
+      "git_blob_sha": "9647013777d4eb9d1fd570f3ba35b014097343d8"
+    },
+    {
+      "name": "manifest.json",
+      "sha256": "bf9101cfdb632c57b235800bcaeca2699cdc0f61225cfd92819f6a3cb2c43647",
+      "git_blob_sha": "8c7d3d203cf0734e15d8a9325a1742a5d9b3f148"
+    }
+  ],
+  "original_failed_heartbeat_path": "daily/2026/11/2026-11-24/run_heartbeat_original_failed.json",
+  "original_failed_heartbeat_git_blob_sha": "284523402a065558621226f0e911468dc83366c1",
+  "original_failed_heartbeat_preserved_exactly": true,
+  "producer_recovery_queue_remaining": [],
+  "queue_for_12_30_work": [
     "2026-11-24"
   ],
-  "queue_for_12_30_work": [],
+  "post_run_self_audit_status": "PASS",
+  "evidence_claim_role_status": "PASS",
+  "evidence_support_alignment_status": "PASS",
+  "native_gate_execution": {
+    "source_identity": "PASS_V2",
+    "evidence_governance": "PASS_STRICT_NEW_9_RECORDS_7_CLAIMS_0_BLOCKING_0_WARNINGS",
+    "inline_citation": "PASS_5_UNIQUE_URLS_26_MARKDOWN_LINKS_9_EVIDENCE_RECORDS",
+    "v4_public_depth": "PASS_3368_CJK_3_CARDS_0_BLOCKING_0_WARNINGS",
+    "policy_drift": "PASS",
+    "consumer": "NOT_RUN__WORK_NATIVE_REQUIRED",
+    "reader": "NOT_RUN__WORK_NATIVE_REQUIRED",
+    "lineage": "NOT_RUN__WORK_NATIVE_REQUIRED",
+    "p8g": "NOT_RUN__WORK_NATIVE_REQUIRED",
+    "execution_scope": "Authority-contained V111 Python validators executed against the exact V111 ZIP extracted in this controlled Chat recovery; Work must independently re-read and revalidate before formal consumption."
+  },
+  "consumer_status": "NOT_RUN__WORK_NATIVE_CONSUMER_REQUIRED",
+  "reader_status": "NOT_RUN__WORK_NATIVE_REQUIRED",
+  "lineage_status": "NOT_RUN__WORK_NATIVE_REQUIRED",
+  "p8g_status": "NOT_RUN__WORK_NATIVE_REQUIRED",
   "formal_promotion_performed": false,
-  "manual_postmortem": {
-    "authority_version": "111",
-    "authority_sha256": "13dc4819591d2aa3a7708a6db5aebd600eab458653cf9efe7649e8a898d25db1",
-    "authority_zip_integrity": "PASS",
-    "zip_members": 10234,
-    "current_daily": "2026-11-23",
-    "current_weekly": "2026-W46",
-    "native_policy_drift_status": "PASS",
-    "public_policy_mirror_hash_match": true,
-    "scope": "Interactive Chat read-only verification after scheduled run; not evidence of scheduled execution success"
-  }
+  "site_publication_performed": false,
+  "next_work_action": "12:30 Work should read this candidate by exact GitHub paths and SHA, independently rerun Source Identity, strict Evidence, Inline Citation, V4 and Policy Drift; then run Consumer, Reader V2, Lineage and P8G. Only if all formal gates pass may it perform Authority CAS. Site release is a separate step; do not rewrite the accepted Daily core or repeat source research. The prior remote HTTP 403 remains a separate Site-side issue.",
+  "manifest_git_blob_sha": "8c7d3d203cf0734e15d8a9325a1742a5d9b3f148"
 }
