@@ -5,7 +5,7 @@
   "window_end": "2026-11-24T10:00:00+08:00",
   "scheduled_for": "10:15 Asia/Shanghai",
   "execution_mode": "CHAT_INTERACTIVE_CONTROLLED_RECOVERY_AFTER_SCHEDULED_FAILED",
-  "producer_status": "PUBLIC_CORE_ACCEPTED",
+  "producer_status": "PUBLIC_CORE_V4_PASS_PENDING_FULL_PIPELINE",
   "product_status": "PRODUCER_CANDIDATE_PENDING_WORK",
   "formal_status": "NOT_FORMALLY_PROMOTED",
   "cjk_characters_actual": 3368,
@@ -21,7 +21,7 @@
   "evidence_status": "PASS",
   "policy_drift_status": "PASS",
   "data_gap_boundary_status": "PASS",
-  "post_run_self_audit_status": "PASS",
+  "post_run_self_audit_status": "FAIL_CLOSED_FULL_PIPELINE_NOT_ACCEPTED",
   "evidence_claim_role_status": "PASS",
   "evidence_support_alignment_status": "PASS",
   "authority_version": 111,
@@ -188,10 +188,10 @@
     "evidence_ledger_v2_2026-11-24.csv",
     "manifest.json"
   ],
-  "queue_for_12_30_work": [
+  "queue_for_12_30_work": [],
+  "producer_recovery_queue_remaining": [
     "2026-11-24"
   ],
-  "producer_recovery_queue_remaining": [],
   "consumer_status": "NOT_RUN__WORK_NATIVE_CONSUMER_REQUIRED",
   "reader_status": "NOT_RUN__WORK_NATIVE_REQUIRED",
   "lineage_status": "NOT_RUN__WORK_NATIVE_REQUIRED",
@@ -210,6 +210,11 @@
     "p8g": "NOT_RUN__WORK_NATIVE_REQUIRED",
     "execution_scope": "Authority-contained V111 Python validators executed against the exact V111 ZIP extracted in this controlled Chat recovery; Work must independently re-read and revalidate before formal consumption."
   },
-  "next_work_action": "12:30 Work should read this candidate by exact GitHub paths and SHA, independently rerun Source Identity, strict Evidence, Inline Citation, V4 and Policy Drift; then run Consumer, Reader V2, Lineage and P8G. Only if all formal gates pass may it perform Authority CAS. Site release is a separate step; do not rewrite the accepted Daily core or repeat source research. The prior remote HTTP 403 remains a separate Site-side issue.",
-  "completed_at": "2026-11-24T03:27:22Z"
+  "next_work_action": "Do not consume Daily 2026-11-24. Scheduled 10:15 run failed; Chat recovery core gates pass, but Reader Design Static V2 and legacy truthfulness gates are not accepted. Process independent W47 CHAT_FINAL separately after full-queue preflight; preserve Daily recovery debt.",
+  "completed_at": "2026-11-24T03:27:22Z",
+  "manual_recovery_status": "CANDIDATE_GENERATED_BUT_NOT_READY_FOR_WORK_CONSUMPTION",
+  "manual_recovery_reader_design_static_v2": "FAIL_5_INLINE_STYLE_ATTRIBUTES",
+  "manual_recovery_legacy_evidence_truthfulness": "FAIL_2_OF_5_CLAIM_TRACEABLE",
+  "manual_recovery_product_v3_gate": "FAIL_PRODUCT_QUALITY_MANIFEST_V3_MISSING",
+  "manual_recovery_consumer_preflight": "PASS_ISOLATED_COPY_ONLY_NOT_FORMAL_WORK"
 }
