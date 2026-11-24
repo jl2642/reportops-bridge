@@ -216,5 +216,20 @@
   "manual_recovery_reader_design_static_v2": "FAIL_5_INLINE_STYLE_ATTRIBUTES",
   "manual_recovery_legacy_evidence_truthfulness": "FAIL_2_OF_5_CLAIM_TRACEABLE",
   "manual_recovery_product_v3_gate": "FAIL_PRODUCT_QUALITY_MANIFEST_V3_MISSING",
-  "manual_recovery_consumer_preflight": "PASS_ISOLATED_COPY_ONLY_NOT_FORMAL_WORK"
+  "manual_recovery_consumer_preflight": "PASS_ISOLATED_COPY_ONLY_NOT_FORMAL_WORK",
+  "manual_recovery_library_archive_path": "/能源周期报告/20_PRODUCTS/DAILY/2026/11/2026-11-24/CHAT_RECOVERY_PENDING/",
+  "manual_recovery_library_archive_status": "25_FILES_UPLOADED__5_CORE_FILES_EXACT_SHA_READBACK_PASS",
+  "manual_recovery_latest_candidate_summary": {
+    "evidence_records": 11,
+    "claims": 9,
+    "unique_source_urls": 7,
+    "cjk_characters": 3387,
+    "source_identity": "PASS",
+    "inline_citation": "PASS",
+    "strict_evidence": "PASS",
+    "v4": "PASS",
+    "reader_design_static_v2": "FAIL_5_INLINE_STYLE_ATTRIBUTES",
+    "legacy_truthfulness": "FAIL_3_OF_7_CLAIM_TRACEABLE",
+    "product_v3_gate": "FAIL_MANIFEST_V3_MISSING"
+  }
 }
