@@ -1,0 +1,242 @@
+{
+  "schema_version": "REPORTOPS_DAILY_MANIFEST_V1_5_SINGLE_SITE",
+  "target_date": "2026-11-25",
+  "window_start": "2026-11-24T10:00:00+08:00",
+  "window_end": "2026-11-25T10:00:00+08:00",
+  "scheduled_for": "10:15 Asia/Shanghai",
+  "execution_mode": "CHAT_INTERACTIVE_CONTROLLED_RECOVERY_AFTER_SCHEDULED_FAILED",
+  "original_scheduled_run_status": "FAILED",
+  "producer_status": "PUBLIC_CORE_ACCEPTED",
+  "product_status": "PRODUCER_CANDIDATE_PENDING_WORK",
+  "formal_status": "NOT_FORMALLY_PROMOTED",
+  "cjk_characters_actual": 3199,
+  "signal_card_count": 3,
+  "evidence_record_count": 10,
+  "source_url_count_distinct": 5,
+  "public_contract_sha256": "64770bf24f1280d11060d6a905a659241d5e483109fc8c3e34195a8264fc48f6",
+  "authority_policy_sha256": "ed69573e48d0daedd1b899ab2d6cf15880f37705f88b44b1a9d2ca26715f9905",
+  "policy_mirror_authority_policy_sha256_match": true,
+  "policy_mirror_public_contract_sha256_match": true,
+  "source_identity_gate_status": "PASS_V2",
+  "inline_citation_gate_status": "PASS",
+  "strict_v2_ledger_status": "PASS",
+  "v4_public_depth_gate_status": "PASS",
+  "evidence_status": "PASS",
+  "policy_drift_status": "PASS",
+  "data_gap_boundary_status": "PASS",
+  "post_run_self_audit_status": "PASS",
+  "evidence_claim_role_status": "PASS",
+  "evidence_support_alignment_status": "PASS",
+  "authority_version": 112,
+  "authority_sha256": "95fd6987cbb46ccd5cbf7abc1d285d23b157f79714aa9e751926de46982ca80e",
+  "authority_file_id": "file_00000000650481f5b45b2aae4c54632f",
+  "producer_authority_version": 112,
+  "producer_authority_sha256": "95fd6987cbb46ccd5cbf7abc1d285d23b157f79714aa9e751926de46982ca80e",
+  "authority_pointer_sha256": "8af5544790e35633cfa96e24fb1e9622873309445a6a1f841ed13c26f72eb760",
+  "canonical_mutation_performed": false,
+  "site_mutation_performed": false,
+  "work_may_rewrite": false,
+  "candidate_files_sha256": {
+    "public_core.md": "c9b90d1f40160def07647856d6aff4f431d6010bf93c974ab1ec5ae74833c4ef",
+    "evidence.json": "7a2d4bf1254a5774e81c6ce5cc6d3b9bade32d0bd1c13f1d39cefaf6336341df",
+    "evidence_ledger_v2_2026-11-25.csv": "07b8c5522fa15a02c22c7b1a52e4c02acd7de667e1eea95d530d810d8d9c16b8"
+  },
+  "warnings": [
+    "SCHEDULED_PRODUCER_FAILED__CHAT_CONTROLLED_RECOVERY",
+    "NO_VERIFIED_CHINA_LNG_LPG_SPOT_QUOTES",
+    "NO_VERIFIED_ASIA_JKM_SPOT_ASSESSMENT",
+    "EU_STORAGE_MEDIA_REPORTED_NOT_INDEPENDENT_GIE_READBACK",
+    "TTF_INTRADAY_NOT_SETTLEMENT"
+  ],
+  "source_matrix_status": "PASS",
+  "source_binding_id_url_check": "10/10",
+  "source_binding_status": "PASS",
+  "window_status": "PASS_FOR_5_UNIQUE_IN_WINDOW_SOURCE_DOCUMENTS",
+  "window_eligible_unique_source_count": 5,
+  "window_eligible_evidence_record_count": 10,
+  "ledger_column_count": 43,
+  "ledger_row_count": 10,
+  "verified_sources": [
+    {
+      "publisher_group": "THOMSON_REUTERS",
+      "publication_time": "2026-11-24T14:58:00-05:00",
+      "beijing_time": "2026-11-25T03:58:00+08:00",
+      "source_timezone": "-05:00",
+      "claim_role": "CORE",
+      "url": "https://www.marketscreener.com/news/oil-prices-near-three-month-lows-as-rising-supply-offsets-hormuz-threat-ce7851dad189f523",
+      "title": "Oil settles up $2 as traders weigh continued Hormuz ship attacks",
+      "source_identity_status": "PASS",
+      "source_identity_receipt": {
+        "verification_method": "OPENED_EXACT_DOCUMENT",
+        "observed_url": "https://www.marketscreener.com/news/oil-prices-near-three-month-lows-as-rising-supply-offsets-hormuz-threat-ce7851dad189f523",
+        "canonical_url": "https://www.marketscreener.com/news/oil-prices-near-three-month-lows-as-rising-supply-offsets-hormuz-threat-ce7851dad189f523",
+        "observed_title": "Oil settles up $2 as traders weigh continued Hormuz ship attacks",
+        "observed_publisher": "MarketScreener",
+        "title_match_status": "EXACT",
+        "verified_at": "2026-11-25T02:32:59.498945+00:00"
+      },
+      "window_eligibility": "IN_WINDOW",
+      "support": "DIRECT",
+      "publication_time_kind": "SUBSTANTIVE_UPDATE",
+      "source_id": "E01/E03/E10"
+    },
+    {
+      "publisher_group": "DOW_JONES",
+      "publication_time": "2026-11-24T21:28:00Z",
+      "beijing_time": "2026-11-25T05:28:00+08:00",
+      "source_timezone": "UTC",
+      "claim_role": "CORE",
+      "url": "https://www.wsj.com/business/energy-oil/oil-prices-fall-as-traders-weigh-supply-outlook-shipping-risks-7225885e",
+      "title": "Oil Prices Rebound as Shipping Risks Persist",
+      "source_identity_status": "PASS",
+      "source_identity_receipt": {
+        "verification_method": "OPENED_EXACT_DOCUMENT",
+        "observed_url": "https://www.wsj.com/business/energy-oil/oil-prices-fall-as-traders-weigh-supply-outlook-shipping-risks-7225885e",
+        "canonical_url": "https://www.wsj.com/business/energy-oil/oil-prices-fall-as-traders-weigh-supply-outlook-shipping-risks-7225885e",
+        "observed_title": "Oil Prices Rebound as Shipping Risks Persist",
+        "observed_publisher": "The Wall Street Journal",
+        "title_match_status": "EXACT",
+        "verified_at": "2026-11-25T02:32:59.498945+00:00"
+      },
+      "window_eligibility": "IN_WINDOW",
+      "support": "DIRECT",
+      "publication_time_kind": "PUBLISHED",
+      "source_id": "E02/E04"
+    },
+    {
+      "publisher_group": "DOW_JONES",
+      "publication_time": "2026-11-24T14:50:00-05:00",
+      "beijing_time": "2026-11-25T03:50:00+08:00",
+      "source_timezone": "-05:00",
+      "claim_role": "MATERIAL",
+      "url": "https://www.wsj.com/finance/commodities-futures/european-gas-edges-lower-but-signs-of-stronger-demand-keep-prices-elevated-11c3316e",
+      "title": "U.S. Natural Gas Futures Recover Lost Ground",
+      "source_identity_status": "PASS",
+      "source_identity_receipt": {
+        "verification_method": "OPENED_EXACT_DOCUMENT",
+        "observed_url": "https://www.wsj.com/finance/commodities-futures/european-gas-edges-lower-but-signs-of-stronger-demand-keep-prices-elevated-11c3316e",
+        "canonical_url": "https://www.wsj.com/finance/commodities-futures/european-gas-edges-lower-but-signs-of-stronger-demand-keep-prices-elevated-11c3316e",
+        "observed_title": "U.S. Natural Gas Futures Recover Lost Ground",
+        "observed_publisher": "The Wall Street Journal",
+        "title_match_status": "EXACT",
+        "verified_at": "2026-11-25T02:32:59.498945+00:00"
+      },
+      "window_eligibility": "IN_WINDOW",
+      "support": "DIRECT",
+      "publication_time_kind": "EXACT_ITEM_TIME",
+      "source_id": "E05"
+    },
+    {
+      "publisher_group": "OILPRICE",
+      "publication_time": "2026-11-24T05:45:00-06:00",
+      "beijing_time": "2026-11-24T19:45:00+08:00",
+      "source_timezone": "-06:00",
+      "claim_role": "MATERIAL",
+      "url": "https://oilprice.com/Latest-Energy-News/World-News/European-Gas-Prices-Climb-as-Cold-Snap-Threatens-Depleted-Reserves.html",
+      "title": "European Gas Prices Climb as Cold Snap Threatens Depleted Reserves",
+      "source_identity_status": "PASS",
+      "source_identity_receipt": {
+        "verification_method": "OPENED_EXACT_DOCUMENT",
+        "observed_url": "https://oilprice.com/Latest-Energy-News/World-News/European-Gas-Prices-Climb-as-Cold-Snap-Threatens-Depleted-Reserves.html",
+        "canonical_url": "https://oilprice.com/Latest-Energy-News/World-News/European-Gas-Prices-Climb-as-Cold-Snap-Threatens-Depleted-Reserves.html",
+        "observed_title": "European Gas Prices Climb as Cold Snap Threatens Depleted Reserves",
+        "observed_publisher": "Oilprice.com",
+        "title_match_status": "EXACT",
+        "verified_at": "2026-11-25T02:32:59.498945+00:00"
+      },
+      "window_eligibility": "IN_WINDOW",
+      "support": "DIRECT",
+      "publication_time_kind": "PUBLISHED",
+      "source_id": "E06/E07"
+    },
+    {
+      "publisher_group": "THOMSON_REUTERS",
+      "publication_time": "2026-11-24T09:05:00Z",
+      "beijing_time": "2026-11-24T17:05:00+08:00",
+      "source_timezone": "UTC",
+      "claim_role": "MATERIAL",
+      "url": "https://www.reuters.com/business/energy/china-india-set-record-russian-oil-imports-2026-demand-seen-peaking-2026-11-24/",
+      "title": "China, India set for record Russian oil imports in 2026, but demand seen peaking",
+      "source_identity_status": "PASS",
+      "source_identity_receipt": {
+        "verification_method": "OPENED_EXACT_DOCUMENT",
+        "observed_url": "https://www.reuters.com/business/energy/china-india-set-record-russian-oil-imports-2026-demand-seen-peaking-2026-11-24/",
+        "canonical_url": "https://www.reuters.com/business/energy/china-india-set-record-russian-oil-imports-2026-demand-seen-peaking-2026-11-24/",
+        "observed_title": "China, India set for record Russian oil imports in 2026, but demand seen peaking",
+        "observed_publisher": "Reuters",
+        "title_match_status": "EXACT",
+        "verified_at": "2026-11-25T02:32:59.498945+00:00"
+      },
+      "window_eligibility": "IN_WINDOW",
+      "support": "DIRECT",
+      "publication_time_kind": "PUBLISHED",
+      "source_id": "E08/E09"
+    }
+  ],
+  "source_gaps": [
+    {
+      "url": "https://www.chinacqpgx.com/cyl?dt=2026-11-24&type=1",
+      "reason": "DATE_ONLY",
+      "status": "DATA_GAP",
+      "detail": "原文仅日期；不能证明固定窗口"
+    },
+    {
+      "url": "https://nenghua.mysteel.com/a/26112416/D64EE95EBF5F566A.html",
+      "reason": "HTTP_411",
+      "status": "DATA_GAP"
+    },
+    {
+      "url": "https://finance.sina.cn/futuremarket/nyshzx/2026-11-24/detail-inizutph5205667.d.html?cid=76594&node_id=76594&oid=BaS&vt=4",
+      "reason": "CACHE_MISS",
+      "status": "DATA_GAP"
+    },
+    {
+      "url": "https://www.oilpriceapi.com/live/natural-gas-price",
+      "reason": "NONCOMPARABLE_DYNAMIC_QUOTE",
+      "status": "DATA_GAP",
+      "detail": "JKM期货不是亚洲LNG现货评估"
+    },
+    {
+      "url": "https://www.investing.com/news/forex-news/european-gas-bucks-energy-selloff-as-lingering-cold-snap-offsets-crude-slump-5047347",
+      "reason": "TIMEZONE_UNVERIFIED",
+      "status": "EXCLUDED"
+    }
+  ],
+  "unverified_source_count": 0,
+  "products_repaired_or_produced": [
+    "2026-11-25"
+  ],
+  "queue_for_12_30_work": [
+    "2026-11-25"
+  ],
+  "producer_recovery_queue_remaining": [],
+  "consumer_status": "NOT_RUN__WORK_NATIVE_CONSUMER_REQUIRED",
+  "reader_status": "NOT_RUN__WORK_NATIVE_CONSUMER_REQUIRED",
+  "lineage_status": "NOT_RUN__WORK_NATIVE_CONSUMER_REQUIRED",
+  "p8g_status": "NOT_RUN__WORK_NATIVE_CONSUMER_REQUIRED",
+  "native_gate_execution": {
+    "source_identity": "PASS",
+    "inline_citation": "PASS",
+    "evidence_governance": "PASS",
+    "v4_public_depth": "PASS",
+    "policy_drift": "PASS",
+    "reader_static_isolated": "PASS",
+    "temporal_integrity": "PASS",
+    "content_integrity": "PASS",
+    "encoding": "PASS",
+    "consumer_preflight": "PASS_ISOLATED"
+  },
+  "completed_at": "2026-11-25T02:35:49.226926+00:00",
+  "temporal_integrity_status": "PASS",
+  "content_integrity_status": "PASS",
+  "legacy_evidence_truthfulness_status": "NOT_APPLICABLE_PUBLIC_V4",
+  "reader_design_static_v2_status": "PASS",
+  "product_v3_gate_status": "NOT_APPLICABLE_PUBLIC_V4",
+  "encoding_integrity_status": "PASS",
+  "formal_promotion_performed": false,
+  "site_publication_performed": false,
+  "manual_recovery_status": "CANDIDATE_PENDING_WORK",
+  "blocking_findings": [],
+  "next_work_action": "Consume exact candidate files; rerun native Work formal gates, then R3 CAS and existing Site only if all PASS.",
+  "consumer_preflight_status": "PASS_ISOLATED_COPY_ONLY_NOT_FORMAL_WORK"
+}
