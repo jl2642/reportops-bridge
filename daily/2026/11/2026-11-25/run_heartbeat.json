@@ -1,0 +1,32 @@
+{
+  "target_date": "2026-11-25",
+  "scheduled_for": "10:15 Asia/Shanghai",
+  "scheduled_run_id": "07e5042a-db00-8323-9885-c40bfbb4f461",
+  "run_started_at": "2026-11-25T02:15:01.716087Z",
+  "completed_at": "2026-11-25T02:15:10.835152Z",
+  "status": "FAILED",
+  "execution_mode": "INTERACTIVE_AUDIT_RECORD_OF_SCHEDULED_FAILURE",
+  "original_scheduled_run_status": "FAILED",
+  "platform_recorded_status": "completed",
+  "scheduled_start_heartbeat_written": false,
+  "scheduled_start_heartbeat_readback": false,
+  "scheduled_final_heartbeat_written": false,
+  "scheduled_github_write_request_attempted": false,
+  "record_provenance": "Post-run interactive audit; not a scheduled startup or scheduled final heartbeat; no candidate production.",
+  "failure_stage": "SCHEDULED_CHAT_PRE_FIRST_GITHUB_WRITE",
+  "failure_reason": "Scheduled receipt explicitly reports GitHub write interface identified but no write request attempted. Underlying reason for early termination is not exposed. No evidence of permission rejection or timeout.",
+  "window_start": "2026-11-24T10:00:00+08:00",
+  "window_end": "2026-11-25T10:00:00+08:00",
+  "authority_zip_integrity": "NOT_RUN",
+  "search_passes": [],
+  "candidate_files": [],
+  "candidate_count": 0,
+  "work_eligible_candidate_count": 0,
+  "post_run_self_audit_status": "FAIL_CLOSED",
+  "queue_for_12_30_work": [],
+  "producer_recovery_queue_remaining": [
+    "2026-11-25"
+  ],
+  "formal_promotion_performed": false,
+  "site_publication_performed": false
+}
