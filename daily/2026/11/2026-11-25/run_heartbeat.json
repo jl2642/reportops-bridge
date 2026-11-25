@@ -2,31 +2,277 @@
   "target_date": "2026-11-25",
   "scheduled_for": "10:15 Asia/Shanghai",
   "scheduled_run_id": "07e5042a-db00-8323-9885-c40bfbb4f461",
-  "run_started_at": "2026-11-25T02:15:01.716087Z",
-  "completed_at": "2026-11-25T02:15:10.835152Z",
-  "status": "FAILED",
-  "execution_mode": "INTERACTIVE_AUDIT_RECORD_OF_SCHEDULED_FAILURE",
+  "scheduled_run_started_at": "2026-11-25T02:15:01.716087Z",
+  "scheduled_run_completed_at": "2026-11-25T02:15:10.835152Z",
+  "run_started_at": "2026-11-25T02:31:01.640480Z",
+  "completed_at": "2026-11-25T02:37:51.538Z",
+  "status": "PRODUCER_SUCCESS_CANDIDATES_PENDING_WORK",
+  "execution_mode": "CHAT_INTERACTIVE_CONTROLLED_RECOVERY_AFTER_SCHEDULED_FAILED",
   "original_scheduled_run_status": "FAILED",
-  "platform_recorded_status": "completed",
   "scheduled_start_heartbeat_written": false,
-  "scheduled_start_heartbeat_readback": false,
   "scheduled_final_heartbeat_written": false,
-  "scheduled_github_write_request_attempted": false,
-  "record_provenance": "Post-run interactive audit; not a scheduled startup or scheduled final heartbeat; no candidate production.",
-  "failure_stage": "SCHEDULED_CHAT_PRE_FIRST_GITHUB_WRITE",
-  "failure_reason": "Scheduled receipt explicitly reports GitHub write interface identified but no write request attempted. Underlying reason for early termination is not exposed. No evidence of permission rejection or timeout.",
+  "original_failed_heartbeat_path": "daily/2026/11/2026-11-25/run_heartbeat_original_failed.json",
+  "original_failed_heartbeat_git_blob_sha": "2fbab6f6c44e512d410ffe88a389cd242c530d8f",
+  "original_failed_heartbeat_preserved_exactly": true,
+  "authority_version": "112",
+  "authority_file_id": "file_00000000650481f5b45b2aae4c54632f",
+  "authority_sha256": "95fd6987cbb46ccd5cbf7abc1d285d23b157f79714aa9e751926de46982ca80e",
+  "authority_pointer_sha256": "8af5544790e35633cfa96e24fb1e9622873309445a6a1f841ed13c26f72eb760",
+  "authority_zip_integrity": "PASS",
+  "authority_zip_member_count": 10252,
+  "formal_current_daily": "2026-11-24",
+  "formal_current_weekly": "2026-W46",
   "window_start": "2026-11-24T10:00:00+08:00",
   "window_end": "2026-11-25T10:00:00+08:00",
-  "authority_zip_integrity": "NOT_RUN",
-  "search_passes": [],
-  "candidate_files": [],
-  "candidate_count": 0,
-  "work_eligible_candidate_count": 0,
-  "post_run_self_audit_status": "FAIL_CLOSED",
-  "queue_for_12_30_work": [],
-  "producer_recovery_queue_remaining": [
-    "2026-11-25"
+  "search_passes": [
+    {
+      "pass": 1,
+      "channels": [
+        "A China LNG",
+        "B China LPG",
+        "C international crude",
+        "D regional gas/LNG",
+        "E policy/company/project"
+      ]
+    },
+    {
+      "pass": 2,
+      "channels": [
+        "exact Brent/WTI settlement independent sources",
+        "Henry Hub/TTF exact documents",
+        "Russian oil imports and producer outage",
+        "domestic quote and time gaps"
+      ]
+    }
   ],
+  "candidate_files": [
+    {
+      "name": "public_core.md",
+      "sha256": "c9b90d1f40160def07647856d6aff4f431d6010bf93c974ab1ec5ae74833c4ef",
+      "git_blob_sha": "e1d488b47f775f09c2d9af1cc872a0f1ccb5fd85",
+      "byte_count": 18624,
+      "pass": true
+    },
+    {
+      "name": "evidence.json",
+      "sha256": "7a2d4bf1254a5774e81c6ce5cc6d3b9bade32d0bd1c13f1d39cefaf6336341df",
+      "git_blob_sha": "8ce5c4c8590b3b4e212b9f228728219b10bf1a8e",
+      "byte_count": 21542,
+      "pass": true
+    },
+    {
+      "name": "evidence_ledger_v2_2026-11-25.csv",
+      "sha256": "07b8c5522fa15a02c22c7b1a52e4c02acd7de667e1eea95d530d810d8d9c16b8",
+      "git_blob_sha": "b70070544db3565a5b9533dca0aa5439a3274c0b",
+      "byte_count": 10341,
+      "pass": true
+    },
+    {
+      "name": "manifest.json",
+      "sha256": "7b4d64012013e69150c5bb114247dc31abc32427e72390afcc3b5d11d22742a5",
+      "git_blob_sha": "f500dbff5e2ae716856a99cd79c78993d7ff0195",
+      "byte_count": 11579,
+      "pass": true
+    }
+  ],
+  "manifest_git_blob_sha": "f500dbff5e2ae716856a99cd79c78993d7ff0195",
+  "candidate_count": 1,
+  "work_eligible_candidate_count": 1,
+  "post_run_self_audit_status": "PASS",
+  "evidence_claim_role_status": "PASS",
+  "evidence_support_alignment_status": "PASS",
+  "source_matrix_status": "PASS",
+  "source_binding_id_url_check": "10/10",
+  "source_binding_status": "PASS",
+  "source_identity_gate_status": "PASS_V2",
+  "inline_citation_gate_status": "PASS",
+  "evidence_status": "PASS",
+  "strict_v2_ledger_status": "PASS",
+  "v4_public_depth_gate_status": "PASS",
+  "policy_drift_status": "PASS",
+  "policy_mirror_authority_policy_sha256_match": true,
+  "policy_mirror_public_contract_sha256_match": true,
+  "data_gap_boundary_status": "PASS",
+  "verified_sources": [
+    {
+      "publisher_group": "THOMSON_REUTERS",
+      "publication_time": "2026-11-24T14:58:00-05:00",
+      "beijing_time": "2026-11-25T03:58:00+08:00",
+      "source_timezone": "-05:00",
+      "claim_role": "CORE",
+      "url": "https://www.marketscreener.com/news/oil-prices-near-three-month-lows-as-rising-supply-offsets-hormuz-threat-ce7851dad189f523",
+      "title": "Oil settles up $2 as traders weigh continued Hormuz ship attacks",
+      "source_identity_status": "PASS",
+      "source_identity_receipt": {
+        "verification_method": "OPENED_EXACT_DOCUMENT",
+        "observed_url": "https://www.marketscreener.com/news/oil-prices-near-three-month-lows-as-rising-supply-offsets-hormuz-threat-ce7851dad189f523",
+        "canonical_url": "https://www.marketscreener.com/news/oil-prices-near-three-month-lows-as-rising-supply-offsets-hormuz-threat-ce7851dad189f523",
+        "observed_title": "Oil settles up $2 as traders weigh continued Hormuz ship attacks",
+        "observed_publisher": "MarketScreener",
+        "title_match_status": "EXACT",
+        "verified_at": "2026-11-25T02:32:59.498945+00:00"
+      },
+      "window_eligibility": "IN_WINDOW",
+      "support": "DIRECT",
+      "publication_time_kind": "SUBSTANTIVE_UPDATE",
+      "source_id": "E01/E03/E10"
+    },
+    {
+      "publisher_group": "DOW_JONES",
+      "publication_time": "2026-11-24T21:28:00Z",
+      "beijing_time": "2026-11-25T05:28:00+08:00",
+      "source_timezone": "UTC",
+      "claim_role": "CORE",
+      "url": "https://www.wsj.com/business/energy-oil/oil-prices-fall-as-traders-weigh-supply-outlook-shipping-risks-7225885e",
+      "title": "Oil Prices Rebound as Shipping Risks Persist",
+      "source_identity_status": "PASS",
+      "source_identity_receipt": {
+        "verification_method": "OPENED_EXACT_DOCUMENT",
+        "observed_url": "https://www.wsj.com/business/energy-oil/oil-prices-fall-as-traders-weigh-supply-outlook-shipping-risks-7225885e",
+        "canonical_url": "https://www.wsj.com/business/energy-oil/oil-prices-fall-as-traders-weigh-supply-outlook-shipping-risks-7225885e",
+        "observed_title": "Oil Prices Rebound as Shipping Risks Persist",
+        "observed_publisher": "The Wall Street Journal",
+        "title_match_status": "EXACT",
+        "verified_at": "2026-11-25T02:32:59.498945+00:00"
+      },
+      "window_eligibility": "IN_WINDOW",
+      "support": "DIRECT",
+      "publication_time_kind": "PUBLISHED",
+      "source_id": "E02/E04"
+    },
+    {
+      "publisher_group": "DOW_JONES",
+      "publication_time": "2026-11-24T14:50:00-05:00",
+      "beijing_time": "2026-11-25T03:50:00+08:00",
+      "source_timezone": "-05:00",
+      "claim_role": "MATERIAL",
+      "url": "https://www.wsj.com/finance/commodities-futures/european-gas-edges-lower-but-signs-of-stronger-demand-keep-prices-elevated-11c3316e",
+      "title": "U.S. Natural Gas Futures Recover Lost Ground",
+      "source_identity_status": "PASS",
+      "source_identity_receipt": {
+        "verification_method": "OPENED_EXACT_DOCUMENT",
+        "observed_url": "https://www.wsj.com/finance/commodities-futures/european-gas-edges-lower-but-signs-of-stronger-demand-keep-prices-elevated-11c3316e",
+        "canonical_url": "https://www.wsj.com/finance/commodities-futures/european-gas-edges-lower-but-signs-of-stronger-demand-keep-prices-elevated-11c3316e",
+        "observed_title": "U.S. Natural Gas Futures Recover Lost Ground",
+        "observed_publisher": "The Wall Street Journal",
+        "title_match_status": "EXACT",
+        "verified_at": "2026-11-25T02:32:59.498945+00:00"
+      },
+      "window_eligibility": "IN_WINDOW",
+      "support": "DIRECT",
+      "publication_time_kind": "EXACT_ITEM_TIME",
+      "source_id": "E05"
+    },
+    {
+      "publisher_group": "OILPRICE",
+      "publication_time": "2026-11-24T05:45:00-06:00",
+      "beijing_time": "2026-11-24T19:45:00+08:00",
+      "source_timezone": "-06:00",
+      "claim_role": "MATERIAL",
+      "url": "https://oilprice.com/Latest-Energy-News/World-News/European-Gas-Prices-Climb-as-Cold-Snap-Threatens-Depleted-Reserves.html",
+      "title": "European Gas Prices Climb as Cold Snap Threatens Depleted Reserves",
+      "source_identity_status": "PASS",
+      "source_identity_receipt": {
+        "verification_method": "OPENED_EXACT_DOCUMENT",
+        "observed_url": "https://oilprice.com/Latest-Energy-News/World-News/European-Gas-Prices-Climb-as-Cold-Snap-Threatens-Depleted-Reserves.html",
+        "canonical_url": "https://oilprice.com/Latest-Energy-News/World-News/European-Gas-Prices-Climb-as-Cold-Snap-Threatens-Depleted-Reserves.html",
+        "observed_title": "European Gas Prices Climb as Cold Snap Threatens Depleted Reserves",
+        "observed_publisher": "Oilprice.com",
+        "title_match_status": "EXACT",
+        "verified_at": "2026-11-25T02:32:59.498945+00:00"
+      },
+      "window_eligibility": "IN_WINDOW",
+      "support": "DIRECT",
+      "publication_time_kind": "PUBLISHED",
+      "source_id": "E06/E07"
+    },
+    {
+      "publisher_group": "THOMSON_REUTERS",
+      "publication_time": "2026-11-24T09:05:00Z",
+      "beijing_time": "2026-11-24T17:05:00+08:00",
+      "source_timezone": "UTC",
+      "claim_role": "MATERIAL",
+      "url": "https://www.reuters.com/business/energy/china-india-set-record-russian-oil-imports-2026-demand-seen-peaking-2026-11-24/",
+      "title": "China, India set for record Russian oil imports in 2026, but demand seen peaking",
+      "source_identity_status": "PASS",
+      "source_identity_receipt": {
+        "verification_method": "OPENED_EXACT_DOCUMENT",
+        "observed_url": "https://www.reuters.com/business/energy/china-india-set-record-russian-oil-imports-2026-demand-seen-peaking-2026-11-24/",
+        "canonical_url": "https://www.reuters.com/business/energy/china-india-set-record-russian-oil-imports-2026-demand-seen-peaking-2026-11-24/",
+        "observed_title": "China, India set for record Russian oil imports in 2026, but demand seen peaking",
+        "observed_publisher": "Reuters",
+        "title_match_status": "EXACT",
+        "verified_at": "2026-11-25T02:32:59.498945+00:00"
+      },
+      "window_eligibility": "IN_WINDOW",
+      "support": "DIRECT",
+      "publication_time_kind": "PUBLISHED",
+      "source_id": "E08/E09"
+    }
+  ],
+  "source_gaps": [
+    {
+      "url": "https://www.chinacqpgx.com/cyl?dt=2026-11-24&type=1",
+      "reason": "DATE_ONLY",
+      "status": "DATA_GAP",
+      "detail": "原文仅日期；不能证明固定窗口"
+    },
+    {
+      "url": "https://nenghua.mysteel.com/a/26112416/D64EE95EBF5F566A.html",
+      "reason": "HTTP_411",
+      "status": "DATA_GAP"
+    },
+    {
+      "url": "https://finance.sina.cn/futuremarket/nyshzx/2026-11-24/detail-inizutph5205667.d.html?cid=76594&node_id=76594&oid=BaS&vt=4",
+      "reason": "CACHE_MISS",
+      "status": "DATA_GAP"
+    },
+    {
+      "url": "https://www.oilpriceapi.com/live/natural-gas-price",
+      "reason": "NONCOMPARABLE_DYNAMIC_QUOTE",
+      "status": "DATA_GAP",
+      "detail": "JKM期货不是亚洲LNG现货评估"
+    },
+    {
+      "url": "https://www.investing.com/news/forex-news/european-gas-bucks-energy-selloff-as-lingering-cold-snap-offsets-crude-slump-5047347",
+      "reason": "TIMEZONE_UNVERIFIED",
+      "status": "EXCLUDED"
+    }
+  ],
+  "unverified_source_count": 0,
+  "cjk_characters_actual": 3199,
+  "signal_card_count": 3,
+  "evidence_record_count": 10,
+  "source_url_count_distinct": 5,
+  "ledger_column_count": 43,
+  "ledger_row_count": 10,
+  "producer_recovery_queue_remaining": [],
+  "queue_for_12_30_work": [
+    "Daily 2026-11-25"
+  ],
+  "manual_recovery_status": "CHAT_CANDIDATE_ACCEPTED_PENDING_WORK",
+  "manual_recovery_consumer_preflight": "PASS_ISOLATED_COPY_ONLY_NOT_FORMAL_WORK",
+  "native_gate_execution": {
+    "source_identity": "PASS",
+    "inline_citation": "PASS",
+    "evidence_governance": "PASS",
+    "v4_public_depth": "PASS",
+    "policy_drift": "PASS",
+    "reader_static_isolated": "PASS",
+    "temporal_integrity": "PASS",
+    "content_integrity": "PASS",
+    "encoding": "PASS",
+    "consumer_preflight": "PASS_ISOLATED"
+  },
+  "library_recovery_package": {
+    "file_id": "file_00000000463481fd94e9c5e16c2dcd72",
+    "library_file_id": "libfile_02db327820108191b07d086a180959e9",
+    "sha256": "329acafbd14141fe9cc4c7afddf308a22684c8570fd6af3621ad83e92a7a8821",
+    "byte_readback": "PASS"
+  },
   "formal_promotion_performed": false,
-  "site_publication_performed": false
+  "site_publication_performed": false,
+  "failure_stage": null,
+  "failure_reason": null,
+  "next_work_action": "Existing 12:30 Work must independently revalidate current Authority, consume exact GitHub four files and original W47 recovery package, run formal applicable gates; no re-research. No formal promotion or Site mutation in Chat."
 }
