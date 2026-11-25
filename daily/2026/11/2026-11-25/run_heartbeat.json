@@ -274,5 +274,27 @@
   "site_publication_performed": false,
   "failure_stage": null,
   "failure_reason": null,
-  "next_work_action": "Existing 12:30 Work must independently revalidate current Authority, consume exact GitHub four files and original W47 recovery package, run formal applicable gates; no re-research. No formal promotion or Site mutation in Chat."
+  "next_work_action": "Existing 12:30 Work must independently revalidate current Authority, consume exact GitHub four files and original W47 recovery package, run formal applicable gates; no re-research. No formal promotion or Site mutation in Chat.",
+  "isolated_publication_preflight": {
+    "status": "PASS_ISOLATED_PRODUCT_AND_LOCAL_DISTRIBUTION_NOT_FORMAL_NOT_REMOTE",
+    "authority_version": 112,
+    "authority_sha256": "95fd6987cbb46ccd5cbf7abc1d285d23b157f79714aa9e751926de46982ca80e",
+    "library_file_id": "libfile_bb1b4e295e5c8191aae835029e20e9bc",
+    "file_id": "file_000000008e3881fd811146e4b8ffc68c",
+    "package_sha256": "19220c98e5a3d3f9198a6d7ff2adb84cc45ce4ae869f5ffe81a451d6cf9a9905",
+    "library_byte_readback": "PASS",
+    "native_finalizer_exit_code": 0,
+    "native_finalizer_seconds": 121.27,
+    "p8g_precommit": "10/10 PASS",
+    "p8g_commit_verification": "10/10 PASS",
+    "reader_html_sha256": "bdfc02980d55d0ce64f79115185461c66fe5374f529bdcceb3ebd0fcb80bcd9f",
+    "reader_css_sha256": "c8ac8659b396547b6ada3b7128e86813b984dcdd51d1fc0ed2879a88de5a26ab",
+    "target_zip_reextract": "PASS",
+    "target_zip_sha256": "5873cc9eebfcb2cbb870cc697ffd1f1de895813dfc043fa6cb8f866d8ab9cf64",
+    "local_public_audit": "PASS",
+    "historical_published_bytes_remote_verified": false,
+    "formal_cas_performed": false,
+    "site_deployed": false,
+    "work_boundary": "Read supplementary evidence package; independently revalidate current Authority and formal gates. Do not deploy full builder output: V112 embedded public snapshot predates V124 deployed site, 13 historical periods regenerated in isolation; use actual latest original site source and preserve deployed historical bytes. No new gate. Daily independent of W47."
+  }
 }
