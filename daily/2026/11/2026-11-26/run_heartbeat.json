@@ -92,5 +92,308 @@
   },
   "completed_at": "2026-11-26T02:31:31.882Z",
   "completed_at_provenance": "EXACT_CANDIDATE_AND_HANDOFF_READBACK_TIMESTAMP",
-  "manifest_git_blob_sha": "a6d0d16355fd8530f29256c3a5af6a1eaf43fe17"
+  "manifest_git_blob_sha": "a6d0d16355fd8530f29256c3a5af6a1eaf43fe17",
+  "authority_file_id": "file_00000000cb6881f5b6d6f092cd557d05",
+  "authority_pointer_sha256": "460e566f699b128443783df611831124bf7f308f66fdd90f795871a4f3d92b90",
+  "authority_policy_sha256": "ed69573e48d0daedd1b899ab2d6cf15880f37705f88b44b1a9d2ca26715f9905",
+  "public_contract_sha256": "64770bf24f1280d11060d6a905a659241d5e483109fc8c3e34195a8264fc48f6",
+  "policy_mirror_authority_policy_sha256_match": true,
+  "policy_mirror_public_contract_sha256_match": true,
+  "verified_sources": [
+    {
+      "url": "https://www.marketscreener.com/news/oil-slips-over-1-as-supply-glut-prospect-offsets-middle-east-disruption-fears-ce7851dbdf80ff2c",
+      "title": "Oil prices rise after Houthis claim attack on Saudi refinery",
+      "publisher": "MarketScreener",
+      "publisher_group": "THOMSON_REUTERS",
+      "publication_time": "2026-11-25T15:24:00-05:00",
+      "beijing_time": "2026-11-26T04:24:00+08:00",
+      "source_timezone": "-05:00",
+      "source_identity_status": "PASS",
+      "source_identity_receipt": {
+        "verification_method": "OPENED_EXACT_DOCUMENT",
+        "observed_url": "https://www.marketscreener.com/news/oil-slips-over-1-as-supply-glut-prospect-offsets-middle-east-disruption-fears-ce7851dbdf80ff2c",
+        "canonical_url": "https://www.marketscreener.com/news/oil-slips-over-1-as-supply-glut-prospect-offsets-middle-east-disruption-fears-ce7851dbdf80ff2c",
+        "observed_title": "Oil prices rise after Houthis claim attack on Saudi refinery",
+        "observed_publisher": "MarketScreener",
+        "title_match_status": "EXACT",
+        "verified_at": "2026-11-26T02:26:09.606559+00:00"
+      },
+      "window_eligibility": "IN_WINDOW",
+      "evidence_ids": [
+        "E01",
+        "E03"
+      ],
+      "claims": [
+        {
+          "evidence_id": "E01",
+          "claim_id": "D20261126-C001",
+          "claim_role": "CORE",
+          "support": "DIRECT",
+          "claim": "11月25日Brent近月原油期货收盘价94.61美元/桶。",
+          "boundary": "近月期货结算，非实物到岸报价。"
+        },
+        {
+          "evidence_id": "E03",
+          "claim_id": "D20261126-C002",
+          "claim_role": "CORE",
+          "support": "DIRECT",
+          "claim": "11月25日WTI近月原油期货收盘价83.68美元/桶。",
+          "boundary": "近月期货结算，非实物到岸报价。"
+        }
+      ],
+      "source_id": "E01/E03",
+      "claim_role": "CORE",
+      "support": "DIRECT"
+    },
+    {
+      "url": "https://www.wsj.com/world/middle-east/oil-prices-fall-as-traders-weigh-supply-outlook-renewed-middle-east-tensions-182b1198",
+      "title": "Oil Futures Pick Up as Middle East Tensions Persist",
+      "publisher": "The Wall Street Journal",
+      "publisher_group": "DOW_JONES",
+      "publication_time": "2026-11-25T21:07:00Z",
+      "beijing_time": "2026-11-26T05:07:00+08:00",
+      "source_timezone": "UTC",
+      "source_identity_status": "PASS",
+      "source_identity_receipt": {
+        "verification_method": "OPENED_EXACT_DOCUMENT",
+        "observed_url": "https://www.wsj.com/world/middle-east/oil-prices-fall-as-traders-weigh-supply-outlook-renewed-middle-east-tensions-182b1198",
+        "canonical_url": "https://www.wsj.com/world/middle-east/oil-prices-fall-as-traders-weigh-supply-outlook-renewed-middle-east-tensions-182b1198",
+        "observed_title": "Oil Futures Pick Up as Middle East Tensions Persist",
+        "observed_publisher": "The Wall Street Journal",
+        "title_match_status": "EXACT",
+        "verified_at": "2026-11-26T02:26:09.606559+00:00"
+      },
+      "window_eligibility": "IN_WINDOW",
+      "evidence_ids": [
+        "E02",
+        "E04"
+      ],
+      "claims": [
+        {
+          "evidence_id": "E02",
+          "claim_id": "D20261126-C001",
+          "claim_role": "CORE",
+          "support": "DIRECT",
+          "claim": "11月25日Brent近月原油期货收盘价94.61美元/桶。",
+          "boundary": "近月期货结算，非实物到岸报价。"
+        },
+        {
+          "evidence_id": "E04",
+          "claim_id": "D20261126-C002",
+          "claim_role": "CORE",
+          "support": "DIRECT",
+          "claim": "11月25日WTI近月原油期货收盘价83.68美元/桶。",
+          "boundary": "近月期货结算，非实物到岸报价。"
+        }
+      ],
+      "source_id": "E02/E04",
+      "claim_role": "CORE",
+      "support": "DIRECT"
+    },
+    {
+      "url": "https://www.wsj.com/business/energy-oil/u-s-crude-oil-stockpiles-rise-for-third-straight-week-90dfcab0",
+      "title": "U.S. Crude Oil Stockpiles Rise for Third Straight Week",
+      "publisher": "The Wall Street Journal",
+      "publisher_group": "DOW_JONES",
+      "publication_time": "2026-11-25T16:29:00Z",
+      "beijing_time": "2026-11-26T00:29:00+08:00",
+      "source_timezone": "UTC",
+      "source_identity_status": "PASS",
+      "source_identity_receipt": {
+        "verification_method": "OPENED_EXACT_DOCUMENT",
+        "observed_url": "https://www.wsj.com/business/energy-oil/u-s-crude-oil-stockpiles-rise-for-third-straight-week-90dfcab0",
+        "canonical_url": "https://www.wsj.com/business/energy-oil/u-s-crude-oil-stockpiles-rise-for-third-straight-week-90dfcab0",
+        "observed_title": "U.S. Crude Oil Stockpiles Rise for Third Straight Week",
+        "observed_publisher": "The Wall Street Journal",
+        "title_match_status": "EXACT",
+        "verified_at": "2026-11-26T02:26:09.606559+00:00"
+      },
+      "window_eligibility": "IN_WINDOW",
+      "evidence_ids": [
+        "E05"
+      ],
+      "claims": [
+        {
+          "evidence_id": "E05",
+          "claim_id": "D20261126-C003",
+          "claim_role": "MATERIAL",
+          "support": "DIRECT",
+          "claim": "截至11月20日当周美国商业原油库存增加110万桶至4.189亿桶。",
+          "boundary": "商业库存不含战略储备；美国统计，不代表全球库存。"
+        }
+      ],
+      "source_id": "E05",
+      "claim_role": "MATERIAL",
+      "support": "DIRECT"
+    },
+    {
+      "url": "https://news.bloomberglaw.com/international-trade/europe-beats-asia-in-fight-for-gas-supply-disrupted-by-war-1",
+      "title": "Europe Beats Asia in Fight for Gas Supply Disrupted by War (1)",
+      "publisher": "Bloomberg Law",
+      "publisher_group": "BLOOMBERG",
+      "publication_time": "2026-11-25T10:11:00Z",
+      "beijing_time": "2026-11-25T18:11:00+08:00",
+      "source_timezone": "UTC",
+      "source_identity_status": "PASS",
+      "source_identity_receipt": {
+        "verification_method": "OPENED_EXACT_DOCUMENT",
+        "observed_url": "https://news.bloomberglaw.com/international-trade/europe-beats-asia-in-fight-for-gas-supply-disrupted-by-war-1",
+        "canonical_url": "https://news.bloomberglaw.com/international-trade/europe-beats-asia-in-fight-for-gas-supply-disrupted-by-war-1",
+        "observed_title": "Europe Beats Asia in Fight for Gas Supply Disrupted by War (1)",
+        "observed_publisher": "Bloomberg Law",
+        "title_match_status": "EXACT",
+        "verified_at": "2026-11-26T02:26:09.606559+00:00"
+      },
+      "window_eligibility": "IN_WINDOW",
+      "evidence_ids": [
+        "E06"
+      ],
+      "claims": [
+        {
+          "evidence_id": "E06",
+          "claim_id": "D20261126-C004",
+          "claim_role": "MATERIAL",
+          "support": "DIRECT",
+          "claim": "据彭博转述Kpler，截至报道时11月已有八艘美国墨西哥湾LNG船货改道欧洲。",
+          "boundary": "航线变化不等于已卸货，不是出口总量或全球短缺测算；未取得独立原始船舶序列。"
+        }
+      ],
+      "source_id": "E06",
+      "claim_role": "MATERIAL",
+      "support": "DIRECT"
+    },
+    {
+      "url": "https://www.wsj.com/finance/commodities-futures/u-s-natural-gas-steady-as-december-contract-set-to-expire-9d411e92",
+      "title": "U.S. Natural Gas Futures End Lower As December Contract Expires",
+      "publisher": "The Wall Street Journal",
+      "publisher_group": "DOW_JONES",
+      "publication_time": "2026-11-25T21:32:00Z",
+      "beijing_time": "2026-11-26T05:32:00+08:00",
+      "source_timezone": "UTC",
+      "source_identity_status": "PASS",
+      "source_identity_receipt": {
+        "verification_method": "OPENED_EXACT_DOCUMENT",
+        "observed_url": "https://www.wsj.com/finance/commodities-futures/u-s-natural-gas-steady-as-december-contract-set-to-expire-9d411e92",
+        "canonical_url": "https://www.wsj.com/finance/commodities-futures/u-s-natural-gas-steady-as-december-contract-set-to-expire-9d411e92",
+        "observed_title": "U.S. Natural Gas Futures End Lower As December Contract Expires",
+        "observed_publisher": "The Wall Street Journal",
+        "title_match_status": "EXACT",
+        "verified_at": "2026-11-26T02:26:09.606559+00:00"
+      },
+      "window_eligibility": "IN_WINDOW",
+      "evidence_ids": [
+        "E07",
+        "E08",
+        "E09"
+      ],
+      "claims": [
+        {
+          "evidence_id": "E07",
+          "claim_id": "D20261126-C005",
+          "claim_role": "MATERIAL",
+          "support": "DIRECT",
+          "claim": "11月25日NYMEX天然气12月合约到期结算3.269美元/MMBtu。",
+          "boundary": "到期合约结算，不是现货；不得与下一月合约混为同一时间序列。"
+        },
+        {
+          "evidence_id": "E08",
+          "claim_id": "D20261126-C006",
+          "claim_role": "MATERIAL",
+          "support": "DIRECT",
+          "claim": "11月25日NYMEX天然气1月合约收于3.658美元/MMBtu。",
+          "boundary": "2027年1月合约收盘，非12月合约，非现货。"
+        },
+        {
+          "evidence_id": "E09",
+          "claim_id": "D20261126-C007",
+          "claim_role": "MATERIAL",
+          "support": "DIRECT",
+          "claim": "截至11月20日美国工作气库存为3858 Bcf，周度减少24 Bcf。",
+          "boundary": "美国地下储气库工作气估计，周度统计而非实时库存。"
+        }
+      ],
+      "source_id": "E07/E08/E09",
+      "claim_role": "MATERIAL",
+      "support": "DIRECT"
+    },
+    {
+      "url": "https://www.eia.gov/naturalgas/storage/",
+      "title": "Weekly Natural Gas Storage Report",
+      "publisher": "U.S. Energy Information Administration",
+      "publisher_group": "EIA",
+      "publication_time": "2026-11-25T12:00:00-05:00",
+      "beijing_time": "2026-11-26T01:00:00+08:00",
+      "source_timezone": "-05:00",
+      "source_identity_status": "PASS",
+      "source_identity_receipt": {
+        "verification_method": "SEARCH_RESULT_OBSERVED",
+        "observed_url": "https://www.eia.gov/naturalgas/storage/",
+        "canonical_url": "https://www.eia.gov/naturalgas/storage/",
+        "observed_title": "Weekly Natural Gas Storage Report",
+        "observed_publisher": "U.S. Energy Information Administration",
+        "title_match_status": "EXACT",
+        "verified_at": "2026-11-26T02:26:09.606559+00:00"
+      },
+      "window_eligibility": "IN_WINDOW",
+      "evidence_ids": [
+        "E10"
+      ],
+      "claims": [
+        {
+          "evidence_id": "E10",
+          "claim_id": "D20261126-C007",
+          "claim_role": "MATERIAL",
+          "support": "DIRECT",
+          "claim": "截至11月20日美国工作气库存为3858 Bcf，周度减少24 Bcf。",
+          "boundary": "官方周度估计；搜索结果可见数值，非完整正文重新提取。"
+        }
+      ],
+      "source_id": "E10",
+      "claim_role": "MATERIAL",
+      "support": "DIRECT"
+    }
+  ],
+  "source_gaps": [
+    {
+      "channel": "CHINA_LNG",
+      "status": "DATA_GAP",
+      "reason": "CLP仅日度日期，无法确认发布时间；08:30生意社报价早于窗口。"
+    },
+    {
+      "channel": "CHINA_LPG",
+      "status": "DATA_GAP",
+      "reason": "隆众华北区域行情原文读取HTTP 411；未取得完整成交口径。"
+    },
+    {
+      "channel": "ASIA_JKM_TTF",
+      "status": "DATA_GAP",
+      "reason": "未取得同窗同月可比现货评估及观测时间。"
+    },
+    {
+      "channel": "POLICY_PROJECT",
+      "status": "EXCLUDED",
+      "reason": "Taweelah C项目原始公告11/23；Bay du Nord审批事件据线索发生11/20；不当成当窗新增。"
+    }
+  ],
+  "unverified_source_count": 0,
+  "source_identity_gate_status": "PASS_V2",
+  "inline_citation_gate_status": "PASS",
+  "evidence_status": "PASS",
+  "strict_v2_ledger_status": "PASS",
+  "v4_public_depth_gate_status": "PASS",
+  "data_gap_boundary_status": "PASS",
+  "evidence_record_count": 10,
+  "source_url_count_distinct": 6,
+  "cjk_characters_actual": 3183,
+  "signal_card_count": 3,
+  "ledger_column_count": 43,
+  "ledger_row_count": 10,
+  "source_matrix_reconciliation": {
+    "evidence_blob": "3c6d27afe166c96e9811672b263e4ea18e8e0afe",
+    "manifest_blob": "a6d0d16355fd8530f29256c3a5af6a1eaf43fe17",
+    "distinct_urls": 6,
+    "evidence_ids": 10,
+    "source_gaps": 4,
+    "method": "DERIVED_FROM_EXACT_ACCEPTED_EVIDENCE_AND_MANIFEST_NOT_NEW_RESEARCH"
+  }
 }
