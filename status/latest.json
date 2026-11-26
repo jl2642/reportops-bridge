@@ -431,14 +431,15 @@
   "post_run_self_audit_status": "PASS__FIVE_DURABLE_ASSETS_READBACK__SOURCE_RECEIPTS_12_OF_12__48_INLINE_LINKS__DYNAMIC_V4__STRICT_V2_LEDGER",
   "correction_request_path": "daily/2026/10/2026-10-09/correction_request.json",
   "producer_recovery_latest": {
-    "date": "2026-10-18",
+    "date": "2026-11-26",
     "status": "PUBLIC_CORE_ACCEPTED_PENDING_WORK",
-    "mode": "BOUNDED_USER_AUTHORIZED_INTERACTIVE_RECOVERY_NOT_SCHEDULED_SUCCESS",
-    "candidate_path": "daily/2026/10/2026-10-18/manifest.json",
-    "strict_v2_evidence_status": "PASS_9_RECORDS_9_CLAIMS_0_LOCAL_STRUCTURAL_BLOCKERS",
-    "github_artifacts_readback": "PASS_4_OF_4",
+    "mode": "CHAT_INTERACTIVE_CONTROLLED_RECOVERY_AFTER_SCHEDULED_FAILED",
+    "candidate_path": "daily/2026/11/2026-11-26/manifest.json",
+    "github_artifacts_readback": "PASS_4_OF_4_EXACT_GIT_BLOB_AND_LOCAL_SHA256_BINDING",
     "formal_status": "PENDING_WORK_RECONCILIATION",
-    "checked_at": "2026-10-18T09:00:44.417Z"
+    "original_scheduled_run_status": "FAILED",
+    "candidate_commit": "7cf2ff33ffdd9910120bf6329d55fcb3a05b349b",
+    "checked_at": "2026-11-26T02:31:31.882Z"
   },
   "last_work_blocked_preflight_provenance": {
     "formal_status": "BLOCKED_PRODUCT_LOCAL_EVIDENCE_GOVERNANCE_V2",
@@ -555,9 +556,10 @@
   "producer_status": "PUBLIC_CORE_ACCEPTED",
   "queue_for_12_30_work": [
     "Daily 2026-11-25",
-    "Weekly 2026-W47"
+    "Weekly 2026-W47",
+    "Daily 2026-11-26"
   ],
-  "producer_candidate_readback_status": "PASS_4_OF_4__2026_11_03__PUBLIC_CORE_EVIDENCE_LEDGER_MANIFEST_READBACK",
+  "producer_candidate_readback_status": "PASS_4_OF_4__2026_11_26",
   "measurement_parity_status": "PASS_AUTHORITY_CONSUMER_ACTUALS",
   "last_work_reportops_status": "FORMAL_W43_AND_ORIGINAL_SITE_V110_PUBLISHED__REMOTE_DOWNLOAD_SHA_181_OF_186_VERIFIED",
   "last_work_runtime_snapshot_updated_at": "2026-11-02T12:28:06.972Z",
@@ -986,7 +988,9 @@
   "historical_download_sha_remaining": 0,
   "automation_1230_status": "ENABLED__SCHEDULED_WORK_ENVIRONMENT_UNVERIFIED",
   "target_release_debt_remaining": 2,
-  "newer_daily_candidates_pending": [],
+  "newer_daily_candidates_pending": [
+    "2026-11-26"
+  ],
   "historical_snapshots": {
     "pre_20261105_active_publication_aliases": {
       "final_closure_status": "W43_AND_SITE_DEPLOYMENT_CLOSED__FIVE_HISTORICAL_REMOTE_DOWNLOAD_SHA_PENDING",
@@ -4462,7 +4466,7 @@
   "public_report_count": 212,
   "mirror_status": "PASS_15_OF_15_EXACT_V113_BYTES",
   "producer_self_audit_status": "PASS_ALL_PRODUCER_GATES__WORK_NATIVE_PENDING",
-  "producer_handoff_note": "GitHub daily/2026/11/2026-11-14/{public_core.md,evidence.json,evidence_ledger_v2_2026-11-14.csv,manifest.json}; original scheduled 10:15 run failed; bounded interactive recovery completed with 13/13 claim-role and support-alignment checks plus four-artifact readback; formally consumed in Authority V100.",
+  "producer_handoff_note": "11/26 manual recovery four-file candidate ready; prior 11/25/W47 formal records must be idempotently checked against latest Authority and actual Site; do not re-promote. Original 10:15 failure preserved; not unattended success.",
   "current_annual": "NO_FORMAL_2026_PRODUCT",
   "library_mirror_sync_status": "PASS_15_OF_15_EXACT_V113_BYTES",
   "library_mirror_pending_views": [],
