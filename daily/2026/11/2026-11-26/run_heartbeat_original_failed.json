@@ -1,0 +1,38 @@
+{
+  "status": "FAILED",
+  "date": "2026-11-26",
+  "window_start": "2026-11-25T10:00:00+08:00",
+  "window_end": "2026-11-26T10:00:00+08:00",
+  "started_at": "2026-11-26T10:17:42+08:00",
+  "target_date": "2026-11-26",
+  "execution_mode": "CHAT_INTERACTIVE_RECONCILIATION_OF_REPORTED_SCHEDULED_FAILURE",
+  "original_scheduled_run_status": "FAILED",
+  "original_scheduled_start_blob_sha": "3f647d8f7fdf6a4679b85756f0767b35fc240530",
+  "scheduled_final_heartbeat_written": false,
+  "authority_version": "113",
+  "authority_sha256": "f1436d4118ef78be724b27df5ad9d8a4d9ed68364a8aaef48bc62a495e44a3a0",
+  "formal_current_daily": "2026-11-25",
+  "formal_current_weekly": "2026-W47",
+  "reported_scheduled_preflight": {
+    "zip_sha_crc": "PASS",
+    "internal_pointer": "PASS",
+    "policy_drift": "PASS",
+    "search_passes": "A-E_AND_BOUNDED_SUPPLEMENT_REPORTED",
+    "source_matrix": "INCOMPLETE",
+    "native_evidence": "NOT_RUN",
+    "native_v4": "NOT_RUN"
+  },
+  "failure_stage": "SOURCE_MATRIX_AND_EVIDENCE_ASSEMBLY_INCOMPLETE",
+  "failure_reason": "Scheduled final receipt supplied by user reports search completed but no Evidence assembly or candidate; interactive GitHub directory readback confirmed only startup heartbeat. No underlying execution termination log obtained.",
+  "candidate_count": 0,
+  "candidate_files": [],
+  "work_eligible_candidate_count": 0,
+  "post_run_self_audit_status": "FAIL_CLOSED_FULL_PIPELINE_NOT_ACCEPTED",
+  "producer_recovery_queue_remaining": [
+    "2026-11-26"
+  ],
+  "queue_for_12_30_work": [],
+  "formal_promotion_performed": false,
+  "site_publication_performed": false,
+  "platform_root_cause_status": "PLATFORM_ROOT_CAUSE_UNRESOLVED"
+}
