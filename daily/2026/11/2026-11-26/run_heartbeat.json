@@ -1,11 +1,11 @@
 {
-  "status": "FAILED",
+  "status": "PRODUCER_SUCCESS_CANDIDATES_PENDING_WORK",
   "date": "2026-11-26",
   "window_start": "2026-11-25T10:00:00+08:00",
   "window_end": "2026-11-26T10:00:00+08:00",
   "started_at": "2026-11-26T10:17:42+08:00",
   "target_date": "2026-11-26",
-  "execution_mode": "CHAT_INTERACTIVE_RECONCILIATION_OF_REPORTED_SCHEDULED_FAILURE",
+  "execution_mode": "CHAT_INTERACTIVE_CONTROLLED_RECOVERY_AFTER_SCHEDULED_FAILED",
   "original_scheduled_run_status": "FAILED",
   "original_scheduled_start_blob_sha": "3f647d8f7fdf6a4679b85756f0767b35fc240530",
   "scheduled_final_heartbeat_written": false,
@@ -22,17 +22,54 @@
     "native_evidence": "NOT_RUN",
     "native_v4": "NOT_RUN"
   },
-  "failure_stage": "SOURCE_MATRIX_AND_EVIDENCE_ASSEMBLY_INCOMPLETE",
-  "failure_reason": "Scheduled final receipt supplied by user reports search completed but no Evidence assembly or candidate; interactive GitHub directory readback confirmed only startup heartbeat. No underlying execution termination log obtained.",
-  "candidate_count": 0,
-  "candidate_files": [],
-  "work_eligible_candidate_count": 0,
-  "post_run_self_audit_status": "FAIL_CLOSED_FULL_PIPELINE_NOT_ACCEPTED",
-  "producer_recovery_queue_remaining": [
-    "2026-11-26"
+  "failure_stage": null,
+  "failure_reason": null,
+  "candidate_count": 1,
+  "candidate_files": [
+    {
+      "name": "public_core.md",
+      "bytes": 18259,
+      "sha256": "c131aa121c18093b5719696f70a39756091446d0f424ceeb2073cb05855b9ebb",
+      "git_blob_sha": "0fe080d7a7ade970398b3687421729669bca3d57"
+    },
+    {
+      "name": "evidence.json",
+      "bytes": 20772,
+      "sha256": "c7abcffd5578283bf7a19e6acac6a497b9aa8330f7d5adabaf2cbb99eaaab110",
+      "git_blob_sha": "3c6d27afe166c96e9811672b263e4ea18e8e0afe"
+    },
+    {
+      "name": "evidence_ledger_v2_2026-11-26.csv",
+      "bytes": 9067,
+      "sha256": "52a4a8e39edd58474b3af2b313d706fbf9636c933cf18b58dc2ccb9bdf269698",
+      "git_blob_sha": "bb193a63c309771ce32a9cded153de17465e5332"
+    },
+    {
+      "name": "manifest.json",
+      "bytes": 6312,
+      "sha256": "a7898ab5f6b648bfe43ae348b40d4c70176161c240cb48c29997e0de15518ac6",
+      "git_blob_sha": "a6d0d16355fd8530f29256c3a5af6a1eaf43fe17"
+    }
   ],
-  "queue_for_12_30_work": [],
+  "work_eligible_candidate_count": 1,
+  "post_run_self_audit_status": "PASS",
+  "producer_recovery_queue_remaining": [],
+  "queue_for_12_30_work": [
+    "Daily 2026-11-26"
+  ],
   "formal_promotion_performed": false,
   "site_publication_performed": false,
-  "platform_root_cause_status": "PLATFORM_ROOT_CAUSE_UNRESOLVED"
+  "platform_root_cause_status": "PLATFORM_ROOT_CAUSE_UNRESOLVED",
+  "original_failed_heartbeat_path": "daily/2026/11/2026-11-26/run_heartbeat_original_failed.json",
+  "original_failed_heartbeat_git_blob_sha": "d280673fe296b04a6dab7fae84b2125cbcefdba7",
+  "manual_recovery_completed_at": "2026-11-26T02:28:32.871286+00:00",
+  "producer_self_audit_status": "PASS",
+  "candidate_readback_status": "PASS_4_OF_4_EXACT_GIT_BLOB_AND_LOCAL_SHA256_BINDING",
+  "candidate_commit": "7cf2ff33ffdd9910120bf6329d55fcb3a05b349b",
+  "native_producer_gates": "PASS",
+  "consumer_preflight_status": "PASS_ISOLATED_COPY_ONLY_NOT_FORMAL_WORK",
+  "formal_status": "PENDING_WORK_RECONCILIATION",
+  "manual_recovery_status": "CANDIDATE_PENDING_WORK",
+  "library_recovery_file_id": "file_00000000455081fda45c3f1daa1718f6",
+  "library_recovery_sha256": "5ebab0ff0b75da86c803e7909d9bbabe762400aa1795c25d8ef54d5457a05bc0"
 }
