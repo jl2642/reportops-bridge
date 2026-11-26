@@ -160,12 +160,18 @@
   "site_failure_stage": null,
   "site_failure_reason": null,
   "remote_zip_verification": {
-    "status": "PENDING",
+    "status": "PASS",
     "targets": [
       "Daily 2026-11-25",
+      "Daily 2026-11-26",
       "Weekly 2026-W47"
     ],
-    "last_verified_site_version": 124
+    "last_verified_site_version": 127,
+    "sha256": {
+      "Daily 2026-11-25": "af5206dc0f027c93ace86bb87749afea1f18b796f3059134e03383b2cf87876b",
+      "Daily 2026-11-26": "5666c537b5dbbd9cc3a5653a03545b957a9b235dce6f249be4482fa796fb7f1c",
+      "Weekly 2026-W47": "7766958ab0d749f1eb5823cf274249cafac928755c4e67edda84fb246af2b9ff"
+    }
   },
   "current_pointer_sha256": "3b9149ac26a62297ad3e7677878d1702f5d90e71baf4165bbfbd59d15724fa58",
   "package_status": "FORMAL_CURRENT_2026_11_26",
@@ -254,19 +260,19 @@
   "weekly_status": "FORMAL_CANONICAL_PUBLISHED",
   "pending_work_runtime_formalization": false,
   "site_deployment_receipt": {
-    "id": "appgdep_6b03efcf67648191a0d4a98bbd84ef02",
+    "id": "appgdep_6b07a377f9908191b41d1a27e9a241ca",
     "project_id": "appgprj_6a5893ab380c8191b03a261860f67102",
     "title": "能源周期报告中心·分享版",
-    "version_id": "appgprj_6a5893ab380c8191b03a261860f67102~appgver_12c83a9c5564819189f3593dd41c7dd0",
+    "version_id": "appgprj_6a5893ab380c8191b03a261860f67102~appgver_6ba1009887f081918356df9d238fddc2",
     "type": "publish",
     "status": "succeeded",
     "url": "https://energy-cycle-report-share.ljjx2020.chatgpt.site",
     "has_mcp": false,
-    "screenshot_asset_pointer": null,
+    "screenshot_asset_pointer": "sediment://file_00000000a81881f8bd0d2dabfdd34537",
     "provider_deployment_id": "ljjx2020--energy-cycle-report-share",
     "failure_message": null,
     "env_set_revision": 0,
-    "updated_at": "2026-11-23T07:48:37.275608+00:00"
+    "updated_at": "2026-11-26T03:11:57.552683+00:00"
   },
   "authority_sha_runtime_reconciliation_status": "PASS_V113_LIBRARY_AUTHORITY_AND_SIDECAR_SHA",
   "remaining_product_debt": [],
