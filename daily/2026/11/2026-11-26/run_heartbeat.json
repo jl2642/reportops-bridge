@@ -71,5 +71,26 @@
   "formal_status": "PENDING_WORK_RECONCILIATION",
   "manual_recovery_status": "CANDIDATE_PENDING_WORK",
   "library_recovery_file_id": "file_00000000455081fda45c3f1daa1718f6",
-  "library_recovery_sha256": "5ebab0ff0b75da86c803e7909d9bbabe762400aa1795c25d8ef54d5457a05bc0"
+  "library_recovery_sha256": "5ebab0ff0b75da86c803e7909d9bbabe762400aa1795c25d8ef54d5457a05bc0",
+  "evidence_claim_role_status": "PASS",
+  "evidence_support_alignment_status": "PASS",
+  "source_matrix_status": "PASS",
+  "source_binding_status": "PASS",
+  "source_binding_id_url_check": "10/10",
+  "policy_drift_status": "PASS",
+  "native_gate_execution": {
+    "source_identity": "PASS",
+    "inline_citation": "PASS_MD_HTML",
+    "evidence_governance": "PASS",
+    "v4_public_depth": "PASS",
+    "policy_drift": "PASS",
+    "reader_static_isolated": "PASS_74_OF_74",
+    "temporal_integrity": "PASS",
+    "content_integrity": "PASS",
+    "encoding": "PASS_PUBLIC_FILES",
+    "consumer_preflight": "PASS_ISOLATED"
+  },
+  "completed_at": "2026-11-26T02:31:31.882Z",
+  "completed_at_provenance": "EXACT_CANDIDATE_AND_HANDOFF_READBACK_TIMESTAMP",
+  "manifest_git_blob_sha": "a6d0d16355fd8530f29256c3a5af6a1eaf43fe17"
 }
