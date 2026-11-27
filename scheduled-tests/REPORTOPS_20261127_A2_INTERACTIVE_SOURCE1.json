@@ -1,0 +1,15 @@
+{
+  "test_id": "REPORTOPS_20261127_A2_INTERACTIVE_CONTROL",
+  "writer": "interactive_chat",
+  "executed_at": "2026-11-27T03:32:20.532Z",
+  "source1": {
+    "url": "https://finance.sina.com.cn/money/future/roll/2026-11-26/doc-inkaapny8129181.shtml",
+    "title": "〖SHPGX交易及数据指数发布〗",
+    "observed_published": "2026年11月26日 20:39",
+    "timezone": "Asia/Shanghai",
+    "fact": "上海石油天然气交易中心发布11月26日中国LNG出厂价格指数6997元/吨。",
+    "boundary": "指数而非企业实成交价",
+    "source_open": "PASS"
+  },
+  "status": "CHECKPOINT_ONLY"
+}
