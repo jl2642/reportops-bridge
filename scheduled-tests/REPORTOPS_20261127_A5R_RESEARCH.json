@@ -7,7 +7,8 @@
   ],
   "status": "RESEARCH_PARTIAL_NOT_ELIGIBLE",
   "covered": [
-    "C"
+    "C",
+    "D"
   ],
   "sources": [
     {
@@ -22,10 +23,25 @@
       "claim": "两位知情人士预计OPEC+至少维持现行目标至2027年一季度",
       "boundary": "会前预期，非正式决定；未独立交叉验证；更新时点待核",
       "method": "OPENED_EXACT_DOCUMENT"
+    },
+    {
+      "channel": "D",
+      "url": "https://www.reuters.com/business/energy/australia-set-pass-law-lng-exporters-reserve-more-gas-domestic-use-2026-11-26/",
+      "title": "Australia delays final vote on gas reservation law for LNG exporters to February",
+      "publisher": "Reuters",
+      "group": "Thomson Reuters",
+      "publication_observed": "November 26, 2026 8:16 AM UTC",
+      "update": "Updated ago; body refers to debate after 11:00 UTC, exact update unknown",
+      "window": "displayed publication in window; update unverified",
+      "claim": "澳大利亚参议院二读通过国内天然气保留法案，报道指最终表决推迟至2027年2月",
+      "boundary": "不是已生效法律；最多20%保留方案，2028年拟实施；需官方及更新核验",
+      "method": "OPENED_EXACT_DOCUMENT"
     }
   ],
   "gaps": [
-    "C: 独立交叉验证及实质更新时间未确认"
+    "C: 独立交叉验证及实质更新时间未确认",
+    "D: TTF/JKM及储气当窗精确发布时间未确认；澳洲法案更新时点待核"
   ],
-  "queue": []
+  "queue": [],
+  "updated_at": "2026-11-27T03:47:33.586Z"
 }
