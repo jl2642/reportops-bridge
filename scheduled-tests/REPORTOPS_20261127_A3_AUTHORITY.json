@@ -1,0 +1,34 @@
+{
+  "test_id": "REPORTOPS_20261127_A3",
+  "executed_at": "2026-11-27T03:48:16.346Z",
+  "first_blob_sha": "273d3f6a829302ef1d1a04bd22bbfb701002f7c9",
+  "version": 114,
+  "file_id": "file_00000000ff4481f9855375d865b26ae1",
+  "bytes": 54472834,
+  "sha256": "472b295ce776441a05fe15679e78a998c5bb4b3423fc2c5a7667e1f182990702",
+  "crc": "PASS",
+  "current": {
+    "daily": "2026-11-26",
+    "weekly": "2026-W47",
+    "monthly": "2026-10",
+    "quarterly": "2026-Q3",
+    "annual": "NO_FORMAL_2026_PRODUCT"
+  },
+  "contract_read": "runtime/contracts/DAILY_RUNTIME_CONTRACT_PUBLIC_V1_5.md",
+  "contract_sha256": "069dc3d78eaa6ee55d49712050bc7d1ac35e7eefcfb5915debdbe0263596f6e2",
+  "public_contract_blobs": {
+    "depth": "0d7a4b53575cececdf028e3c5771c35f48188b7b",
+    "evidence": "d76432f11789c529e01db316ac02a56d432cb36b",
+    "template": "d3167307ff2eab5ef84765bdebfb1c7fabf18501"
+  },
+  "native_policy_drift": {
+    "exit_code": 0,
+    "status": "PASS",
+    "authority_policy_sha256": "ed69573e48d0daedd1b899ab2d6cf15880f37705f88b44b1a9d2ca26715f9905",
+    "public_contract_sha256": "64770bf24f1280d11060d6a905a659241d5e483109fc8c3e34195a8264fc48f6",
+    "mirror_fields_and_hash_labels_match": true,
+    "missing_policy_keys": [],
+    "validator_hardcoded_threshold_patterns": []
+  },
+  "status": "AUTHORITY_CHECK_COMPLETE"
+}
