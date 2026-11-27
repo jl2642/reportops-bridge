@@ -1,0 +1,89 @@
+{
+  "test_id": "REPORTOPS_20261127_A5R2",
+  "parent_blob_sha": "bd0a2108e3b0141dc9601219e943086969110904",
+  "window": [
+    "2026-11-26T10:00:00+08:00",
+    "2026-11-27T10:00:00+08:00"
+  ],
+  "executed_at": "2026-11-27T03:52:43.158Z",
+  "inherited": {
+    "test_id": "REPORTOPS_20261127_A5R",
+    "executed_at": "2026-11-27T03:47:20.469Z",
+    "window": [
+      "2026-11-26T10:00:00+08:00",
+      "2026-11-27T10:00:00+08:00"
+    ],
+    "status": "RESEARCH_PARTIAL_NOT_ELIGIBLE",
+    "covered": [
+      "C",
+      "D"
+    ],
+    "sources": [
+      {
+        "channel": "C",
+        "url": "https://www.reuters.com/business/energy/opec-may-roll-over-current-oil-output-targets-sunday-meeting-sources-say-2026-11-26/",
+        "title": "OPEC+ likely to roll over oil output targets for Q1 as capacity disputes persist, sources say",
+        "publisher": "Reuters",
+        "group": "Thomson Reuters",
+        "publication_observed": "November 26, 2026 11:42 AM UTC",
+        "update": "Updated ago; exact update time unavailable",
+        "window": "displayed publication in window; update unverified",
+        "claim": "两位知情人士预计OPEC+至少维持现行目标至2027年一季度",
+        "boundary": "会前预期，非正式决定；未独立交叉验证；更新时点待核",
+        "method": "OPENED_EXACT_DOCUMENT"
+      },
+      {
+        "channel": "D",
+        "url": "https://www.reuters.com/business/energy/australia-set-pass-law-lng-exporters-reserve-more-gas-domestic-use-2026-11-26/",
+        "title": "Australia delays final vote on gas reservation law for LNG exporters to February",
+        "publisher": "Reuters",
+        "group": "Thomson Reuters",
+        "publication_observed": "November 26, 2026 8:16 AM UTC",
+        "update": "Updated ago; body refers to debate after 11:00 UTC, exact update unknown",
+        "window": "displayed publication in window; update unverified",
+        "claim": "澳大利亚参议院二读通过国内天然气保留法案，报道指最终表决推迟至2027年2月",
+        "boundary": "不是已生效法律；最多20%保留方案，2028年拟实施；需官方及更新核验",
+        "method": "OPENED_EXACT_DOCUMENT"
+      }
+    ],
+    "gaps": [
+      "C: 独立交叉验证及实质更新时间未确认",
+      "D: TTF/JKM及储气当窗精确发布时间未确认；澳洲法案更新时点待核"
+    ],
+    "queue": [],
+    "updated_at": "2026-11-27T03:47:33.586Z"
+  },
+  "covered": [
+    "C",
+    "D",
+    "A"
+  ],
+  "new_sources": [
+    {
+      "channel": "A",
+      "url": "https://finance.sina.com.cn/money/future/roll/2026-11-26/doc-inkaapny8129181.shtml",
+      "title": "〖SHPGX交易及数据指数发布〗",
+      "publisher": "上海石油天然气交易中心",
+      "host": "新浪财经",
+      "group": "上海石油天然气交易中心（原始数据发布者）",
+      "publication_observed": "2026-11-26 20:39",
+      "timezone": "Asia/Shanghai（中国本地页面惯例）",
+      "update": "未单列",
+      "window": "显示发布时间在窗内；原始首发及独立更新时间未核实",
+      "claim": "11月26日中国LNG出厂价格指数6997元/吨、出站价格指数7092元/吨",
+      "boundary": "指数而非单笔成交价；不推断实际供需变化",
+      "method": "OPENED_EXACT_DOCUMENT"
+    }
+  ],
+  "pending": [
+    "B",
+    "E"
+  ],
+  "gaps": [
+    "C: 独立交叉验证及实质更新时间未确认",
+    "D: TTF/JKM及储气当窗精确发布时间未确认；澳洲法案更新时点待核",
+    "A: 原始首发及独立更新时间未核实"
+  ],
+  "queue": [],
+  "status": "RESEARCH_PARTIAL_NOT_ELIGIBLE"
+}
