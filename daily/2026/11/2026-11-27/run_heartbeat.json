@@ -4,9 +4,7 @@
   "window_start": "2026-11-26T10:00:00+08:00",
   "window_end": "2026-11-27T10:00:00+08:00",
   "started_at": "2026-11-27T02:14:02.722Z",
-  "queue_for_12_30_work": [
-    "Daily 2026-11-27"
-  ],
+  "queue_for_12_30_work": [],
   "target_date": "2026-11-27",
   "execution_mode": "CHAT_INTERACTIVE_CONTROLLED_RECOVERY_AFTER_SCHEDULED_FAILED",
   "original_scheduled_run_status": "FAILED",
@@ -35,7 +33,7 @@
   "public_contract_sha256": "64770bf24f1280d11060d6a905a659241d5e483109fc8c3e34195a8264fc48f6",
   "policy_mirror_authority_policy_sha256_match": true,
   "policy_mirror_public_contract_sha256_match": true,
-  "formal_current_daily": "2026-11-26",
+  "formal_current_daily": "2026-11-27",
   "formal_current_weekly": "2026-W47",
   "candidate_files": [
     {
@@ -368,12 +366,23 @@
   "research_checkpoint_status": "COMPLETE_IN_FINAL_EVIDENCE_NOT_NATURAL_TASK",
   "completed_at": "2026-11-27T02:44:31.619Z",
   "manual_recovery_completed_at": "2026-11-27T02:44:31.619Z",
-  "manual_recovery_status": "CANDIDATE_PENDING_WORK",
+  "manual_recovery_status": "FORMALLY_CONSUMED_AND_SITE_PUBLISHED",
   "library_recovery_file_id": "file_00000000b54481fd9d6ccfd7bcf4717f",
   "library_recovery_sha256": "6f9104e65712e35df4b76d4460c038a3d37df468f5f90fb4989e5548d65d49b6",
   "producer_recovery_queue_remaining": [],
-  "formal_status": "NOT_FORMALLY_PROMOTED",
+  "formal_status": "FORMAL_PROMOTED",
   "formal_promotion_performed": false,
   "site_publication_performed": false,
-  "p2_status": "NOT_RUN_AT_P1_HANDOFF"
+  "p2_status": "NOT_RUN_AT_P1_HANDOFF",
+  "formal_release_reconciliation": {
+    "authority_version": 115,
+    "authority_file_id": "file_00000000907082129d6151a415603a4f",
+    "authority_sha256": "b94ebcab43619ca305b6186a99b782928ae69f20d2c50d95112fe9485a3a996d",
+    "pointer_sha256": "c1adf1b194df561f91fc734261bfa949db4f707e918e397fb7d320363bf0cf5a",
+    "site_version": 128,
+    "site_status": "PUBLISHED_VERIFIED_PER_EXISTING_WORK_RECEIPT",
+    "remote_zip_sha256": "4d051e7cd149699e8fa97e975142b9998422d619133bacc7e71f820f58cce1f5",
+    "producer_manifest_unchanged": true,
+    "original_scheduled_failure_preserved": true
+  }
 }
