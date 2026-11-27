@@ -57,7 +57,8 @@
     "C",
     "D",
     "A",
-    "B"
+    "B",
+    "E"
   ],
   "new_sources": [
     {
@@ -89,18 +90,74 @@
       "boundary": "检索与原文版本不一致；不采纳11月26日价格为核实事实；11月25日仅历史背景",
       "method": "OPENED_DYNAMIC_INDEX",
       "eligibility": "EXCLUDED"
+    },
+    {
+      "channel": "E",
+      "url": "https://www.reuters.com/business/energy/australian-parliament-passes-government-plan-reserve-20-lng-domestic-market-2026-11-26/",
+      "title": "Australia clears law requiring LNG exporters to keep 20% for domestic use",
+      "publisher": "Reuters",
+      "group": "Thomson Reuters",
+      "publication_observed": "2026-11-26 23:04 UTC",
+      "beijing_time": "2026-11-27 07:04",
+      "update": "Updated ago; exact time unavailable",
+      "window": "显示发布时间在窗内，实质更新时间未核实",
+      "claim": "澳大利亚议会已通过天然气保留方案，2028年起要求LNG出口商向国内供应最高20%的出口量",
+      "boundary": "议会通过不等于已实施；同集团后续报道推翻D早期延期叙述，非独立交叉验证",
+      "method": "OPENED_EXACT_DOCUMENT"
+    },
+    {
+      "channel": "E",
+      "url": "https://minister.dcceew.gov.au/bowen/media-releases/joint-media-release-australian-gas-reserved-australians",
+      "title": "Joint media release: Australian gas reserved for Australians",
+      "publisher": "澳大利亚资源、气候能源及工业部长联合发布",
+      "group": "澳大利亚联邦政府",
+      "publication_observed": "2026-11-27",
+      "timezone": "澳大利亚当地日期，具体时区及时间未显示",
+      "update": "未单列",
+      "window": "DATE_ONLY; 不确认当窗资格",
+      "claim": "政府确认议会通过方案；2027年1月1日出口许可框架启动，2028年1月1日国内供应义务适用",
+      "boundary": "独立官方确认事件，但不可据日期推断窗口内发布",
+      "method": "OPENED_EXACT_DOCUMENT"
+    },
+    {
+      "channel": "E",
+      "url": "https://www.pm.gov.au/media/press-conference-canberra-33",
+      "title": "Press conference - Canberra",
+      "publisher": "澳大利亚总理办公室",
+      "group": "澳大利亚联邦政府",
+      "publication_observed": "2026-11-27",
+      "timezone": "Canberra当地日期，精确时间未显示",
+      "update": "未单列",
+      "window": "DATE_ONLY",
+      "claim": "总理确认当日上午议会通过方案",
+      "boundary": "与部长联合公告同政府集团；不单独计独立来源；不确认窗口资格",
+      "method": "OPENED_EXACT_DOCUMENT"
     }
   ],
-  "pending": [
-    "E"
-  ],
+  "pending": [],
   "gaps": [
     "C: 独立交叉验证及实质更新时间未确认",
     "D: TTF/JKM及储气当窗精确发布时间未确认；澳洲法案更新时点待核",
     "A: 原始首发及独立更新时间未核实",
-    "B: 未取得当窗可核验丙烷/丁烷现货报价，动态页面与摘要不一致"
+    "B: 未取得当窗可核验丙烷/丁烷现货报价，动态页面与摘要不一致",
+    "E: Reuters实质更新时间及官方精确发布时间未核实；需正式窗口复核"
   ],
   "queue": [],
-  "status": "RESEARCH_PARTIAL_NOT_ELIGIBLE",
-  "updated_at": "2026-11-27T03:52:53.870Z"
+  "status": "RESEARCH_COVERAGE_COMPLETE_NOT_ELIGIBLE",
+  "updated_at": "2026-11-27T03:53:11.164Z",
+  "inherited_review": {
+    "C": "原限制保留",
+    "D": "原记录保留但延期至2027年2月的叙述已被后续Reuters及政府确认推翻，不得作为当前结论"
+  },
+  "candidate_signals": {
+    "count": 3,
+    "items": [
+      "中国LNG指数（页面时间在窗内，原始首发待核）",
+      "OPEC+会前预期（继承，更新时间及独立核验待补）",
+      "澳洲天然气保留方案议会通过（后续报道与政府确认，精确更新及官方窗口资格待核）"
+    ],
+    "formal_eligible_count": "未验收；不赋予正式Evidence资格",
+    "excluded": "B价格缺口，不计为信号"
+  },
+  "observed_tool_error": null
 }
