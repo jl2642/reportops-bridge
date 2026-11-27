@@ -1,0 +1,31 @@
+{
+  "test_id": "REPORTOPS_20261127_A5R",
+  "executed_at": "2026-11-27T03:47:20.469Z",
+  "window": [
+    "2026-11-26T10:00:00+08:00",
+    "2026-11-27T10:00:00+08:00"
+  ],
+  "status": "RESEARCH_PARTIAL_NOT_ELIGIBLE",
+  "covered": [
+    "C"
+  ],
+  "sources": [
+    {
+      "channel": "C",
+      "url": "https://www.reuters.com/business/energy/opec-may-roll-over-current-oil-output-targets-sunday-meeting-sources-say-2026-11-26/",
+      "title": "OPEC+ likely to roll over oil output targets for Q1 as capacity disputes persist, sources say",
+      "publisher": "Reuters",
+      "group": "Thomson Reuters",
+      "publication_observed": "November 26, 2026 11:42 AM UTC",
+      "update": "Updated ago; exact update time unavailable",
+      "window": "displayed publication in window; update unverified",
+      "claim": "两位知情人士预计OPEC+至少维持现行目标至2027年一季度",
+      "boundary": "会前预期，非正式决定；未独立交叉验证；更新时点待核",
+      "method": "OPENED_EXACT_DOCUMENT"
+    }
+  ],
+  "gaps": [
+    "C: 独立交叉验证及实质更新时间未确认"
+  ],
+  "queue": []
+}
