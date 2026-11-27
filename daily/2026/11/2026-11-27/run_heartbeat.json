@@ -1,12 +1,14 @@
 {
-  "status": "FAILED",
+  "status": "PRODUCER_SUCCESS_CANDIDATES_PENDING_WORK",
   "date": "2026-11-27",
   "window_start": "2026-11-26T10:00:00+08:00",
   "window_end": "2026-11-27T10:00:00+08:00",
   "started_at": "2026-11-27T02:14:02.722Z",
-  "queue_for_12_30_work": [],
+  "queue_for_12_30_work": [
+    "Daily 2026-11-27"
+  ],
   "target_date": "2026-11-27",
-  "execution_mode": "CHAT_INTERACTIVE_RECONCILIATION_OF_SCHEDULED_FAILURE",
+  "execution_mode": "CHAT_INTERACTIVE_CONTROLLED_RECOVERY_AFTER_SCHEDULED_FAILED",
   "original_scheduled_run_status": "FAILED",
   "original_scheduled_start_blob_sha": "476b18876064233ed19ac6af1213a70dfac2f90b",
   "scheduled_run_id": "718d5aad-0464-832f-9cac-e30fbec104bc",
@@ -16,11 +18,362 @@
   "scheduled_final_heartbeat_written": false,
   "authority_version": 114,
   "authority_sha256": "472b295ce776441a05fe15679e78a998c5bb4b3423fc2c5a7667e1f182990702",
-  "failure_stage": "RESEARCH_AFTER_INITIAL_SEARCH_BEFORE_DURABLE_SOURCE_MATRIX",
-  "failure_reason": "Scheduled receipt reports first-pass search but no verified source checkpoint or candidate. GitHub directory readback confirms only startup heartbeat. No underlying termination or explicit tool rejection log available.",
-  "candidate_count": 0,
-  "work_eligible_candidate_count": 0,
-  "post_run_self_audit_status": "FAIL_CLOSED",
+  "failure_stage": null,
+  "failure_reason": null,
+  "candidate_count": 1,
+  "work_eligible_candidate_count": 1,
+  "post_run_self_audit_status": "PASS",
   "platform_root_cause_status": "UNRESOLVED",
-  "reconciled_at": "2026-11-27T02:41:19.125Z"
+  "reconciled_at": "2026-11-27T02:41:19.125Z",
+  "original_failed_heartbeat_path": "daily/2026/11/2026-11-27/run_heartbeat_original_failed.json",
+  "original_failed_heartbeat_git_blob_sha": "47d8c18c4e31741cbd2166920bb39444c8b527f8",
+  "original_failure_stage": "RESEARCH_AFTER_INITIAL_SEARCH_BEFORE_DURABLE_SOURCE_MATRIX",
+  "original_failure_reason": "Scheduled receipt reports first-pass search but no verified source checkpoint or candidate. GitHub directory readback confirms only startup heartbeat. No underlying termination or explicit tool rejection log available.",
+  "authority_file_id": "file_00000000ff4481f9855375d865b26ae1",
+  "authority_pointer_sha256": "3b9149ac26a62297ad3e7677878d1702f5d90e71baf4165bbfbd59d15724fa58",
+  "authority_policy_sha256": "ed69573e48d0daedd1b899ab2d6cf15880f37705f88b44b1a9d2ca26715f9905",
+  "public_contract_sha256": "64770bf24f1280d11060d6a905a659241d5e483109fc8c3e34195a8264fc48f6",
+  "policy_mirror_authority_policy_sha256_match": true,
+  "policy_mirror_public_contract_sha256_match": true,
+  "formal_current_daily": "2026-11-26",
+  "formal_current_weekly": "2026-W47",
+  "candidate_files": [
+    {
+      "name": "public_core.md",
+      "bytes": 16837,
+      "sha256": "89440b09aa1e010c97d2e453f7fdb8c7edf5db7dfcefac0d896f0dc53880eae1",
+      "git_blob_sha": "2ecda3adeb05880d84eaa5e5ffd994a46b3f0e7d"
+    },
+    {
+      "name": "evidence.json",
+      "bytes": 16879,
+      "sha256": "51d14593f441dd3fa62a93e52d169dcfaa7c3bea41f8d96a8b9b544b75602786",
+      "git_blob_sha": "c5660d43fd9104da496332dd0a621d3485fdb449"
+    },
+    {
+      "name": "evidence_ledger_v2_2026-11-27.csv",
+      "bytes": 7751,
+      "sha256": "a2d8a5390ecac9f746e06cf52764713b209f8ead3b26cc4ece749f4278eddabf",
+      "git_blob_sha": "47b3c8e9829b74fc38ac67436e8fa84986cb6a51"
+    },
+    {
+      "name": "manifest.json",
+      "bytes": 5558,
+      "sha256": "e07f541334bbc7f3160ac6dc6d6a040395e373b230c53a0921390acfaf48d845",
+      "git_blob_sha": "cd23452dc1cf7fcdcfb22b9faa8029d3208f6801"
+    }
+  ],
+  "candidate_readback_status": "PASS_4_OF_4_EXACT_BASE64_READBACK_AND_GIT_BLOB_SHA",
+  "producer_self_audit_status": "PASS",
+  "evidence_claim_role_status": "PASS",
+  "evidence_support_alignment_status": "PASS",
+  "source_matrix_status": "PASS",
+  "source_binding_status": "PASS",
+  "source_binding_id_url_check": "8/8",
+  "policy_drift_status": "PASS",
+  "native_gate_execution": {
+    "policy": "PASS",
+    "identity": "PASS",
+    "evidence": "PASS",
+    "v4": "PASS",
+    "citation": "PASS",
+    "temporal": "PASS",
+    "content": "PASS"
+  },
+  "verified_sources": [
+    {
+      "url": "https://finance.sina.com.cn/money/future/roll/2026-11-26/doc-inkaapny8129181.shtml",
+      "title": "〖SHPGX交易及数据指数发布〗",
+      "publisher": "新浪财经",
+      "publisher_group": "SHPGX",
+      "publication_time": "2026-11-26T20:39:00+08:00",
+      "beijing_time": "2026-11-26T20:39:00+08:00",
+      "source_identity_receipt": {
+        "verification_method": "OPENED_EXACT_DOCUMENT",
+        "observed_url": "https://finance.sina.com.cn/money/future/roll/2026-11-26/doc-inkaapny8129181.shtml",
+        "canonical_url": "https://finance.sina.com.cn/money/future/roll/2026-11-26/doc-inkaapny8129181.shtml",
+        "observed_title": "〖SHPGX交易及数据指数发布〗",
+        "observed_publisher": "新浪财经",
+        "title_match_status": "EXACT",
+        "verified_at": "2026-11-27T02:41:51.241373+00:00"
+      },
+      "source_identity_status": "PASS",
+      "window_eligibility": "IN_WINDOW",
+      "evidence_ids": [
+        "E01",
+        "E02"
+      ],
+      "claims": [
+        {
+          "claim_id": "D20261127-C001",
+          "claim_role": "MATERIAL",
+          "support": "DIRECT",
+          "claim": "上海交易中心11月26日中国LNG出厂价格指数为6997元/吨。",
+          "boundary": "指数监测口径，不是任一企业实成交价或到岸价格。",
+          "usage_policy": "PRIMARY"
+        },
+        {
+          "claim_id": "D20261127-C002",
+          "claim_role": "MATERIAL",
+          "support": "DIRECT",
+          "claim": "上海交易中心11月26日中国LNG出站价格指数为7092元/吨。",
+          "boundary": "指数监测口径，不是任一企业实成交价或到岸价格。",
+          "usage_policy": "PRIMARY"
+        }
+      ],
+      "source_id": "E01/E02",
+      "claim_role": "MATERIAL",
+      "support": "DIRECT"
+    },
+    {
+      "url": "https://www.reuters.com/business/energy/australian-parliament-passes-government-plan-reserve-20-lng-domestic-market-2026-11-26/",
+      "title": "Australia clears law requiring LNG exporters to keep 20% for domestic use",
+      "publisher": "Reuters",
+      "publisher_group": "THOMSON_REUTERS",
+      "publication_time": "2026-11-26T23:04:39Z",
+      "beijing_time": "2026-11-27T07:04:39+08:00",
+      "source_identity_receipt": {
+        "verification_method": "OPENED_EXACT_DOCUMENT",
+        "observed_url": "https://www.reuters.com/business/energy/australian-parliament-passes-government-plan-reserve-20-lng-domestic-market-2026-11-26/",
+        "canonical_url": "https://www.reuters.com/business/energy/australian-parliament-passes-government-plan-reserve-20-lng-domestic-market-2026-11-26/",
+        "observed_title": "Australia clears law requiring LNG exporters to keep 20% for domestic use",
+        "observed_publisher": "Reuters",
+        "title_match_status": "EXACT",
+        "verified_at": "2026-11-27T02:41:51.241373+00:00"
+      },
+      "source_identity_status": "PASS",
+      "window_eligibility": "IN_WINDOW",
+      "evidence_ids": [
+        "E03"
+      ],
+      "claims": [
+        {
+          "claim_id": "D20261127-C003",
+          "claim_role": "CORE",
+          "support": "DIRECT",
+          "claim": "澳大利亚议会通过国内天然气预留制度，要求受适用范围约束的出口商自2028年起预留最多20%供应国内市场。",
+          "boundary": "不等同于全部澳大利亚出口立即减20%；实施细则和合同影响待确认。",
+          "usage_policy": "PRIMARY"
+        }
+      ],
+      "source_id": "E03",
+      "claim_role": "CORE",
+      "support": "DIRECT"
+    },
+    {
+      "url": "https://www.theguardian.com/australia-news/2026/nov/26/coalition-to-team-up-with-labor-to-pass-20-gas-reservation-scheme-for-australias-largest-exporters",
+      "title": "Coalition teams up with Labor to pass 20% gas reservation scheme for Australia’s largest exporters",
+      "publisher": "The Guardian",
+      "publisher_group": "GUARDIAN_MEDIA_GROUP",
+      "publication_time": "2026-11-27T00:02:00Z",
+      "beijing_time": "2026-11-27T08:02:00+08:00",
+      "source_identity_receipt": {
+        "verification_method": "OPENED_EXACT_DOCUMENT",
+        "observed_url": "https://www.theguardian.com/australia-news/2026/nov/26/coalition-to-team-up-with-labor-to-pass-20-gas-reservation-scheme-for-australias-largest-exporters",
+        "canonical_url": "https://www.theguardian.com/australia-news/2026/nov/26/coalition-to-team-up-with-labor-to-pass-20-gas-reservation-scheme-for-australias-largest-exporters",
+        "observed_title": "Coalition teams up with Labor to pass 20% gas reservation scheme for Australia’s largest exporters",
+        "observed_publisher": "The Guardian",
+        "title_match_status": "EXACT",
+        "verified_at": "2026-11-27T02:41:51.241373+00:00"
+      },
+      "source_identity_status": "PASS",
+      "window_eligibility": "IN_WINDOW",
+      "evidence_ids": [
+        "E04"
+      ],
+      "claims": [
+        {
+          "claim_id": "D20261127-C003",
+          "claim_role": "CORE",
+          "support": "DIRECT",
+          "claim": "澳大利亚议会通过国内天然气预留制度，要求受适用范围约束的出口商自2028年起预留最多20%供应国内市场。",
+          "boundary": "首次刊发11月26日09:33 GMT，采用11月27日00:02 GMT实质更新；具体出口影响待核。",
+          "usage_policy": "PRIMARY"
+        }
+      ],
+      "source_id": "E04",
+      "claim_role": "CORE",
+      "support": "DIRECT"
+    },
+    {
+      "url": "https://www.reuters.com/business/energy/opec-may-roll-over-current-oil-output-targets-sunday-meeting-sources-say-2026-11-26/",
+      "title": "OPEC+ likely to roll over oil output targets for Q1 as capacity disputes persist, sources say",
+      "publisher": "Reuters",
+      "publisher_group": "THOMSON_REUTERS",
+      "publication_time": "2026-11-26T11:42:21Z",
+      "beijing_time": "2026-11-26T19:42:21+08:00",
+      "source_identity_receipt": {
+        "verification_method": "OPENED_EXACT_DOCUMENT",
+        "observed_url": "https://www.reuters.com/business/energy/opec-may-roll-over-current-oil-output-targets-sunday-meeting-sources-say-2026-11-26/",
+        "canonical_url": "https://www.reuters.com/business/energy/opec-may-roll-over-current-oil-output-targets-sunday-meeting-sources-say-2026-11-26/",
+        "observed_title": "OPEC+ likely to roll over oil output targets for Q1 as capacity disputes persist, sources say",
+        "observed_publisher": "Reuters",
+        "title_match_status": "EXACT",
+        "verified_at": "2026-11-27T02:41:51.241373+00:00"
+      },
+      "source_identity_status": "PASS",
+      "window_eligibility": "IN_WINDOW",
+      "evidence_ids": [
+        "E05"
+      ],
+      "claims": [
+        {
+          "claim_id": "D20261127-C004",
+          "claim_role": "MATERIAL",
+          "support": "DIRECT",
+          "claim": "Reuters援引两位知情人士称OPEC+可能至少在2027年一季度维持现行产量目标，尚未决定。",
+          "boundary": "报道的是预期，不是正式会议决定；不能换算为实际出口量。",
+          "usage_policy": "PRIMARY"
+        }
+      ],
+      "source_id": "E05",
+      "claim_role": "MATERIAL",
+      "support": "DIRECT"
+    },
+    {
+      "url": "https://www.wsj.com/finance/commodities-futures/oil-rises-amid-ongoing-middle-east-tensions-c730426d",
+      "title": "Oil Mixed Amid Middle East Attacks, U.S. Inventory Build",
+      "publisher": "The Wall Street Journal",
+      "publisher_group": "DOW_JONES",
+      "publication_time": "2026-11-26T08:55:00Z",
+      "beijing_time": "2026-11-26T16:55:00+08:00",
+      "source_identity_receipt": {
+        "verification_method": "OPENED_EXACT_DOCUMENT",
+        "observed_url": "https://www.wsj.com/finance/commodities-futures/oil-rises-amid-ongoing-middle-east-tensions-c730426d",
+        "canonical_url": "https://www.wsj.com/finance/commodities-futures/oil-rises-amid-ongoing-middle-east-tensions-c730426d",
+        "observed_title": "Oil Mixed Amid Middle East Attacks, U.S. Inventory Build",
+        "observed_publisher": "The Wall Street Journal",
+        "title_match_status": "EXACT",
+        "verified_at": "2026-11-27T02:41:51.241373+00:00"
+      },
+      "source_identity_status": "PASS",
+      "window_eligibility": "IN_WINDOW",
+      "evidence_ids": [
+        "E06"
+      ],
+      "claims": [
+        {
+          "claim_id": "D20261127-C005",
+          "claim_role": "MATERIAL",
+          "support": "DIRECT",
+          "claim": "11月26日08:47 UTC近月Brent盘中报价94.43美元/桶。",
+          "boundary": "盘中观察，不是收盘结算；报价时点与文档发布时间分开。",
+          "usage_policy": "PRIMARY"
+        }
+      ],
+      "source_id": "E06",
+      "claim_role": "MATERIAL",
+      "support": "DIRECT"
+    },
+    {
+      "url": "https://www.shpgx.com/html/xyzx/20261126/10388.html",
+      "title": "11月16日-22日中国液化丙烷、丁烷综合进口到岸价格指数为191.42、155.65点",
+      "publisher": "上海石油天然气交易中心",
+      "publisher_group": "SHPGX",
+      "publication_time": "2026-11-26T12:22:01+08:00",
+      "beijing_time": "2026-11-26T12:22:01+08:00",
+      "source_identity_receipt": {
+        "verification_method": "OPENED_EXACT_DOCUMENT",
+        "observed_url": "https://www.shpgx.com/html/xyzx/20261126/10388.html",
+        "canonical_url": "https://www.shpgx.com/html/xyzx/20261126/10388.html",
+        "observed_title": "11月16日-22日中国液化丙烷、丁烷综合进口到岸价格指数为191.42、155.65点",
+        "observed_publisher": "上海石油天然气交易中心",
+        "title_match_status": "EXACT",
+        "verified_at": "2026-11-27T02:41:51.241373+00:00"
+      },
+      "source_identity_status": "PASS",
+      "window_eligibility": "IN_WINDOW",
+      "evidence_ids": [
+        "E07"
+      ],
+      "claims": [
+        {
+          "claim_id": "D20261127-C006",
+          "claim_role": "MATERIAL",
+          "support": "DIRECT",
+          "claim": "上海交易中心11月26日发布周度分析，明确此前11月25日公布的11月16日至22日丙烷及丁烷进口到岸指数分别为191.42点、155.65点。",
+          "boundary": "仅作为当窗分析文档内历史背景；非今日现货价格或首次公布指数。",
+          "usage_policy": "CONTEXT_ONLY"
+        }
+      ],
+      "source_id": "E07",
+      "claim_role": "MATERIAL",
+      "support": "DIRECT"
+    },
+    {
+      "url": "https://www.wsj.com/business/energy-oil/opec-allies-face-tough-choices-as-surplus-builds-hormuz-risks-persist-769f8d98",
+      "title": "OPEC, Allies Face Tough Choices as Surplus Builds, Hormuz Risks Persist",
+      "publisher": "The Wall Street Journal",
+      "publisher_group": "DOW_JONES",
+      "publication_time": "2026-11-26T13:27:00Z",
+      "beijing_time": "2026-11-26T21:27:00+08:00",
+      "source_identity_receipt": {
+        "verification_method": "OPENED_EXACT_DOCUMENT",
+        "observed_url": "https://www.wsj.com/business/energy-oil/opec-allies-face-tough-choices-as-surplus-builds-hormuz-risks-persist-769f8d98",
+        "canonical_url": "https://www.wsj.com/business/energy-oil/opec-allies-face-tough-choices-as-surplus-builds-hormuz-risks-persist-769f8d98",
+        "observed_title": "OPEC, Allies Face Tough Choices as Surplus Builds, Hormuz Risks Persist",
+        "observed_publisher": "The Wall Street Journal",
+        "title_match_status": "EXACT",
+        "verified_at": "2026-11-27T02:41:51.241373+00:00"
+      },
+      "source_identity_status": "PASS",
+      "window_eligibility": "IN_WINDOW",
+      "evidence_ids": [
+        "E08"
+      ],
+      "claims": [
+        {
+          "claim_id": "D20261127-C007",
+          "claim_role": "MATERIAL",
+          "support": "DIRECT",
+          "claim": "《华尔街日报》11月26日报道OPEC+周日将讨论2027年产量目标。",
+          "boundary": "仅为会前议题，不能证明已达成决策。",
+          "usage_policy": "PRIMARY"
+        }
+      ],
+      "source_id": "E08",
+      "claim_role": "MATERIAL",
+      "support": "DIRECT"
+    }
+  ],
+  "source_gaps": [
+    {
+      "channel": "CHINA_LPG_SPOT",
+      "status": "DATA_GAP",
+      "reason": "未取得当窗同组分同区域现货成交；11月25日首次公布的进口指数仅历史背景。"
+    },
+    {
+      "channel": "ASIA_EU_LNG_SPOT",
+      "status": "DATA_GAP",
+      "reason": "未取得当窗同交付期可比JKM/TTF与到岸口径。"
+    },
+    {
+      "channel": "OIL_SETTLEMENT",
+      "status": "DATA_GAP",
+      "reason": "部分报道结算版显示时间早于其行情观察，且其他数据口径不一致，排除结算值，仅使用明确时点盘中报价。"
+    },
+    {
+      "channel": "EUROPE_GAS",
+      "status": "DATA_GAP",
+      "reason": "未取得可确认时间的官方储气量及同口径现货评估。"
+    }
+  ],
+  "source_url_count_distinct": 7,
+  "evidence_record_count": 8,
+  "ledger_column_count": 43,
+  "ledger_row_count": 8,
+  "cjk_characters_actual": 3397,
+  "signal_card_count": 3,
+  "research_recovery_method": "FIVE_CHANNEL_BOUNDED_SEARCH_AND_TARGETED_SOURCE_OPEN",
+  "research_checkpoint_status": "COMPLETE_IN_FINAL_EVIDENCE_NOT_NATURAL_TASK",
+  "completed_at": "2026-11-27T02:44:31.619Z",
+  "manual_recovery_completed_at": "2026-11-27T02:44:31.619Z",
+  "manual_recovery_status": "CANDIDATE_PENDING_WORK",
+  "library_recovery_file_id": "file_00000000b54481fd9d6ccfd7bcf4717f",
+  "library_recovery_sha256": "6f9104e65712e35df4b76d4460c038a3d37df468f5f90fb4989e5548d65d49b6",
+  "producer_recovery_queue_remaining": [],
+  "formal_status": "NOT_FORMALLY_PROMOTED",
+  "formal_promotion_performed": false,
+  "site_publication_performed": false,
+  "p2_status": "NOT_RUN_AT_P1_HANDOFF"
 }
