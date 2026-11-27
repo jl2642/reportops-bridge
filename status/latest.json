@@ -543,7 +543,9 @@
     "site_version": 106
   },
   "producer_status": "PUBLIC_CORE_ACCEPTED",
-  "queue_for_12_30_work": [],
+  "queue_for_12_30_work": [
+    "Daily 2026-11-27"
+  ],
   "producer_candidate_readback_status": "PASS_4_OF_4__2026_11_26",
   "measurement_parity_status": "PASS_AUTHORITY_CONSUMER_ACTUALS",
   "last_work_reportops_status": "FORMAL_W43_AND_ORIGINAL_SITE_V110_PUBLISHED__REMOTE_DOWNLOAD_SHA_181_OF_186_VERIFIED",
@@ -4644,5 +4646,14 @@
     "recorded_at": "2026-11-25T08:41:49.022Z"
   },
   "public_daily_2026_11_26_download_sha256": "5666c537b5dbbd9cc3a5653a03545b957a9b235dce6f249be4482fa796fb7f1c",
-  "site_verified_on": "2026-11-26"
+  "site_verified_on": "2026-11-26",
+  "latest_producer_handoff": {
+    "date": "2026-11-27",
+    "status": "PRODUCER_SUCCESS_CANDIDATES_PENDING_WORK",
+    "heartbeat_git_blob_sha": "24c005e96f6cfb5fc79a0bfa32b7c56f409ebd8b",
+    "original_scheduled_run_status": "FAILED",
+    "candidate_manifest_git_blob_sha": "cd23452dc1cf7fcdcfb22b9faa8029d3208f6801",
+    "formal_promotion_performed": false,
+    "site_publication_performed": false
+  }
 }
