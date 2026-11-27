@@ -1,0 +1,135 @@
+{
+  "schema_version": "REPORTOPS_DAILY_MANIFEST_V1_5_SINGLE_SITE",
+  "target_date": "2026-11-27",
+  "window_start": "2026-11-26T10:00:00+08:00",
+  "window_end": "2026-11-27T10:00:00+08:00",
+  "scheduled_for": "10:15 Asia/Shanghai",
+  "execution_mode": "CHAT_INTERACTIVE_CONTROLLED_RECOVERY_AFTER_SCHEDULED_FAILED",
+  "original_scheduled_run_status": "FAILED",
+  "producer_status": "PUBLIC_CORE_ACCEPTED",
+  "product_status": "PRODUCER_CANDIDATE_PENDING_WORK",
+  "formal_status": "NOT_FORMALLY_PROMOTED",
+  "cjk_characters_actual": 3397,
+  "executive_cjk_actual": 278,
+  "key_signal_cjk_actual": 1733,
+  "signal_card_cjk_actual": [
+    608,
+    557,
+    559
+  ],
+  "china_chain_cjk_actual": 165,
+  "global_energy_cjk_actual": 177,
+  "industry_operator_cjk_actual": 222,
+  "signal_card_count": 3,
+  "evidence_record_count": 8,
+  "source_url_count_distinct": 7,
+  "public_contract_sha256": "64770bf24f1280d11060d6a905a659241d5e483109fc8c3e34195a8264fc48f6",
+  "authority_policy_sha256": "ed69573e48d0daedd1b899ab2d6cf15880f37705f88b44b1a9d2ca26715f9905",
+  "policy_mirror_authority_policy_sha256_match": true,
+  "policy_mirror_public_contract_sha256_match": true,
+  "source_identity_gate_status": "PASS_V2",
+  "inline_citation_gate_status": "PASS",
+  "expert_signal_priority_status": "PASS_EDITORIAL_RANKING",
+  "signal_priority_ranking": [
+    "澳大利亚国内预留制度",
+    "中国LNG指数",
+    "OPEC+会前预期"
+  ],
+  "exact_v4_machine_structure_status": "PASS",
+  "strict_v2_ledger_status": "PASS",
+  "v4_public_depth_gate_status": "PASS",
+  "evidence_status": "PASS",
+  "policy_drift_status": "PASS",
+  "data_gap_boundary_status": "PASS",
+  "privacy_status": "PASS",
+  "window_status": "PASS_FOR_7_UNIQUE_IN_WINDOW_SOURCE_DOCUMENTS",
+  "post_run_self_audit_status": "PASS",
+  "producer_self_audit_status": "PASS",
+  "evidence_claim_role_status": "PASS",
+  "evidence_support_alignment_status": "PASS",
+  "source_matrix_status": "PASS",
+  "source_binding_id_url_check": "8/8",
+  "source_binding_status": "PASS",
+  "window_eligible_unique_source_count": 7,
+  "window_eligible_evidence_record_count": 8,
+  "ledger_column_count": 43,
+  "ledger_row_count": 8,
+  "unverified_source_count": 0,
+  "authority_version": 114,
+  "authority_sha256": "472b295ce776441a05fe15679e78a998c5bb4b3423fc2c5a7667e1f182990702",
+  "authority_file_id": "file_00000000ff4481f9855375d865b26ae1",
+  "producer_authority_version": 114,
+  "producer_authority_sha256": "472b295ce776441a05fe15679e78a998c5bb4b3423fc2c5a7667e1f182990702",
+  "authority_pointer_sha256": "3b9149ac26a62297ad3e7677878d1702f5d90e71baf4165bbfbd59d15724fa58",
+  "canonical_mutation_performed": false,
+  "site_mutation_performed": false,
+  "site_publication_performed": false,
+  "formal_promotion_performed": false,
+  "work_may_rewrite": false,
+  "candidate_files_sha256": {
+    "public_core.md": "89440b09aa1e010c97d2e453f7fdb8c7edf5db7dfcefac0d896f0dc53880eae1",
+    "evidence.json": "51d14593f441dd3fa62a93e52d169dcfaa7c3bea41f8d96a8b9b544b75602786",
+    "evidence_ledger_v2_2026-11-27.csv": "a2d8a5390ecac9f746e06cf52764713b209f8ead3b26cc4ece749f4278eddabf"
+  },
+  "warnings": [
+    "SCHEDULED_PRODUCER_FAILED__CHAT_CONTROLLED_RECOVERY",
+    "LPG_WEEKLY_INDEX_PREVIOUSLY_RELEASED_CONTEXT_ONLY",
+    "NO_VERIFIED_COMPARABLE_ASIA_EU_LNG_SPOT",
+    "INCONSISTENT_OIL_SETTLEMENT_REPORTS_EXCLUDED"
+  ],
+  "source_gaps": [
+    {
+      "channel": "CHINA_LPG_SPOT",
+      "status": "DATA_GAP",
+      "reason": "未取得当窗同组分同区域现货成交；11月25日首次公布的进口指数仅历史背景。"
+    },
+    {
+      "channel": "ASIA_EU_LNG_SPOT",
+      "status": "DATA_GAP",
+      "reason": "未取得当窗同交付期可比JKM/TTF与到岸口径。"
+    },
+    {
+      "channel": "OIL_SETTLEMENT",
+      "status": "DATA_GAP",
+      "reason": "部分报道结算版显示时间早于其行情观察，且其他数据口径不一致，排除结算值，仅使用明确时点盘中报价。"
+    },
+    {
+      "channel": "EUROPE_GAS",
+      "status": "DATA_GAP",
+      "reason": "未取得可确认时间的官方储气量及同口径现货评估。"
+    }
+  ],
+  "native_gate_execution": {
+    "policy": "PASS",
+    "identity": "PASS",
+    "evidence": "PASS",
+    "v4": "PASS",
+    "citation": "PASS",
+    "temporal": "PASS",
+    "content": "PASS"
+  },
+  "temporal_integrity_status": "PASS",
+  "content_integrity_status": "PASS",
+  "legacy_evidence_truthfulness_status": "NOT_APPLICABLE_PUBLIC_V4",
+  "product_v3_gate_status": "NOT_APPLICABLE_PUBLIC_V4",
+  "encoding_integrity_status": "PASS_PUBLIC_V4_FILES",
+  "consumer_status": "NOT_RUN__WORK_NATIVE_CONSUMER_REQUIRED",
+  "reader_status": "NOT_RUN__WORK_NATIVE_CONSUMER_REQUIRED",
+  "lineage_status": "NOT_RUN__WORK_NATIVE_CONSUMER_REQUIRED",
+  "p8g_status": "NOT_RUN__WORK_NATIVE_CONSUMER_REQUIRED",
+  "unsupported_core_claims": 0,
+  "unsupported_core_claims_provenance": {
+    "method": "NATIVE_STRICT_NEW_EVIDENCE_AND_DIRECT_SOURCE_REVIEW",
+    "core_claim_ids": [
+      "D20261127-C003"
+    ],
+    "evidence_records": 8,
+    "unique_claim_ids": 7,
+    "native_evidence_blocking": 0,
+    "body_sha256": "89440b09aa1e010c97d2e453f7fdb8c7edf5db7dfcefac0d896f0dc53880eae1",
+    "ledger_sha256": "a2d8a5390ecac9f746e06cf52764713b209f8ead3b26cc4ece749f4278eddabf"
+  },
+  "manual_recovery_status": "CANDIDATE_PENDING_WORK",
+  "completed_at": "2026-11-27T02:43:14.798057+00:00",
+  "next_work_action": "Consume exact four-piece candidate under formal Authority; no rewrite; run applicable native formal gates and publish original Site."
+}
