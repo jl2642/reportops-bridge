@@ -1,0 +1,36 @@
+{
+  "test_id": "REPORTOPS_20261127_A2",
+  "executed_at": "2026-11-27T03:38:52.632Z",
+  "source1": {
+    "url": "https://finance.sina.com.cn/money/future/roll/2026-11-26/doc-inkaapny8129181.shtml",
+    "title": "〖SHPGX交易及数据指数发布〗",
+    "publication_time": "2026-11-26T20:39:00+08:00",
+    "fact": "11月26日中国LNG出厂价格指数6997元/吨",
+    "boundary": "监测指数，非单笔成交价",
+    "search": "PASS",
+    "open": "PASS",
+    "window": "IN_WINDOW"
+  },
+  "source2": {
+    "url": "https://www.reuters.com/business/energy/opec-may-roll-over-current-oil-output-targets-sunday-meeting-sources-say-2026-11-26/",
+    "title": "OPEC+ likely to roll over oil output targets for Q1 as capacity disputes persist, sources say",
+    "publication_time_observed": "November 26, 2026 11:42 AM UTC",
+    "beijing_time": "2026-11-26T19:42+08:00",
+    "fact": "两位知情人士称OPEC+可能至少在2027年第一季度维持现行石油产量目标",
+    "boundary": "会前消息，尚无正式决定，不代表实际产量",
+    "search": "PASS",
+    "open": "PASS",
+    "window": "IN_WINDOW"
+  },
+  "first_blob_sha": "be80c1e581250a1610132772866c1c08ed0bc6a6",
+  "tool_results": {
+    "source1_search": "PASS",
+    "source1_open": "PASS",
+    "checkpoint_create_commit": "362dfb116c0fca25320eca181ce3350f6ef99472",
+    "checkpoint_readback_exact": true,
+    "source2_search": "PASS",
+    "source2_open": "PASS",
+    "final_readback": "verified externally after creation"
+  },
+  "status": "COMPLETE"
+}
