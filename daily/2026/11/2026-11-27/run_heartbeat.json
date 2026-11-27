@@ -1,8 +1,26 @@
 {
-  "status": "RUN_STARTED_BEFORE_PREFLIGHT",
+  "status": "FAILED",
   "date": "2026-11-27",
   "window_start": "2026-11-26T10:00:00+08:00",
   "window_end": "2026-11-27T10:00:00+08:00",
   "started_at": "2026-11-27T02:14:02.722Z",
-  "queue_for_12_30_work": []
+  "queue_for_12_30_work": [],
+  "target_date": "2026-11-27",
+  "execution_mode": "CHAT_INTERACTIVE_RECONCILIATION_OF_SCHEDULED_FAILURE",
+  "original_scheduled_run_status": "FAILED",
+  "original_scheduled_start_blob_sha": "476b18876064233ed19ac6af1213a70dfac2f90b",
+  "scheduled_run_id": "718d5aad-0464-832f-9cac-e30fbec104bc",
+  "scheduled_run_started_at": "2026-11-27T02:13:54.262276Z",
+  "scheduled_run_completed_at": "2026-11-27T02:14:37.232033Z",
+  "platform_recorded_status": "completed",
+  "scheduled_final_heartbeat_written": false,
+  "authority_version": 114,
+  "authority_sha256": "472b295ce776441a05fe15679e78a998c5bb4b3423fc2c5a7667e1f182990702",
+  "failure_stage": "RESEARCH_AFTER_INITIAL_SEARCH_BEFORE_DURABLE_SOURCE_MATRIX",
+  "failure_reason": "Scheduled receipt reports first-pass search but no verified source checkpoint or candidate. GitHub directory readback confirms only startup heartbeat. No underlying termination or explicit tool rejection log available.",
+  "candidate_count": 0,
+  "work_eligible_candidate_count": 0,
+  "post_run_self_audit_status": "FAIL_CLOSED",
+  "platform_root_cause_status": "UNRESOLVED",
+  "reconciled_at": "2026-11-27T02:41:19.125Z"
 }
