@@ -1,0 +1,11 @@
+{
+  "test_id": "REPORTOPS_20261127_A5P",
+  "status": "RUN_STARTED_BEFORE_PREFLIGHT",
+  "classification": "TEST_ONLY_NOT_WORK_ELIGIBLE",
+  "started_at": "2026-11-27T04:00:56.476Z",
+  "window": [
+    "2026-11-26T10:00:00+08:00",
+    "2026-11-27T10:00:00+08:00"
+  ],
+  "queue": []
+}
