@@ -56,7 +56,8 @@
   "covered": [
     "C",
     "D",
-    "A"
+    "A",
+    "B"
   ],
   "new_sources": [
     {
@@ -73,17 +74,33 @@
       "claim": "11月26日中国LNG出厂价格指数6997元/吨、出站价格指数7092元/吨",
       "boundary": "指数而非单笔成交价；不推断实际供需变化",
       "method": "OPENED_EXACT_DOCUMENT"
+    },
+    {
+      "channel": "B",
+      "url": "https://zhis.315i.com/exponent/main/001?columnClassId=001007001&productClassId=001&selectProductName=001",
+      "title": "金联创指数中心—丙烷全国指数",
+      "publisher": "金联创",
+      "group": "金联创",
+      "publication_observed": null,
+      "update": null,
+      "timezone": "未显示",
+      "window": "UNVERIFIED",
+      "claim": "检索摘要显示11月26日7322，但实际打开页面最新行仅11月25日7351",
+      "boundary": "检索与原文版本不一致；不采纳11月26日价格为核实事实；11月25日仅历史背景",
+      "method": "OPENED_DYNAMIC_INDEX",
+      "eligibility": "EXCLUDED"
     }
   ],
   "pending": [
-    "B",
     "E"
   ],
   "gaps": [
     "C: 独立交叉验证及实质更新时间未确认",
     "D: TTF/JKM及储气当窗精确发布时间未确认；澳洲法案更新时点待核",
-    "A: 原始首发及独立更新时间未核实"
+    "A: 原始首发及独立更新时间未核实",
+    "B: 未取得当窗可核验丙烷/丁烷现货报价，动态页面与摘要不一致"
   ],
   "queue": [],
-  "status": "RESEARCH_PARTIAL_NOT_ELIGIBLE"
+  "status": "RESEARCH_PARTIAL_NOT_ELIGIBLE",
+  "updated_at": "2026-11-27T03:52:53.870Z"
 }
