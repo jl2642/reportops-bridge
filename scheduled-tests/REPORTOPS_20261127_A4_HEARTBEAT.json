@@ -1,0 +1,12 @@
+{
+  "test_id": "REPORTOPS_20261127_A4",
+  "status": "RUN_STARTED_BEFORE_PREFLIGHT",
+  "classification": "TEST_ONLY_NOT_WORK_ELIGIBLE",
+  "date": "2026-11-27",
+  "window": [
+    "2026-11-26T10:00:00+08:00",
+    "2026-11-27T10:00:00+08:00"
+  ],
+  "started_at": "2026-11-27T03:41:30.473Z",
+  "queue_for_12_30_work": []
+}
