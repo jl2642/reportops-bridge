@@ -1,0 +1,27 @@
+{
+  "test_id": "REPORTOPS_20261127_A2_INTERACTIVE_CONTROL",
+  "writer": "interactive_chat",
+  "executed_at": "2026-11-27T03:32:23.519Z",
+  "source1": {
+    "url": "https://finance.sina.com.cn/money/future/roll/2026-11-26/doc-inkaapny8129181.shtml",
+    "title": "〖SHPGX交易及数据指数发布〗",
+    "observed_published": "2026年11月26日 20:39",
+    "timezone": "Asia/Shanghai",
+    "fact": "上海石油天然气交易中心发布11月26日中国LNG出厂价格指数6997元/吨。",
+    "boundary": "指数而非企业实成交价",
+    "source_open": "PASS"
+  },
+  "source2": {
+    "url": "https://www.kitco.com/news/off-the-wire/2026-11-26/opec-likely-roll-over-oil-output-targets-q1-capacity-disputes-persist",
+    "title": "OPEC+ likely to roll over oil output targets for Q1 as capacity disputes persist, sources say",
+    "observed_published": "Nov 26, 2026 - 5:22 PM; page does not explicitly show timezone",
+    "original_reuters_search_timestamp": "2026-11-26T11:42:21Z",
+    "fact": "Reuters报道知情人士预计OPEC+可能维持至少2027年第一季度产量目标，但尚未决定。",
+    "boundary": "转载原文可读；发布时间时区未显示，原通讯社检索时间为独立记录；会前预期非正式决议。",
+    "source_open": "PASS",
+    "exact_reprint_timezone": "UNVERIFIED"
+  },
+  "first_file_blob_sha": "41a4c9af384e9fdb1165419d31a0c927ce97cf3a",
+  "status": "COMPLETE_WITH_TIMESTAMP_LIMITATION",
+  "boundary": "Nonproduction test, no formal evidence qualification; search/open for both sources preceded the writes, unlike the scheduled test's staged order."
+}
