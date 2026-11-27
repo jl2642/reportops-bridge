@@ -54,7 +54,7 @@
   "public_site_version": 128,
   "public_site_status": "PUBLISHED_VERIFIED",
   "manifest_reconciliation_status": "FROZEN_PRODUCER_MANIFEST_RETAINED__FORMAL_STATE_FROM_V115",
-  "metadata_freshness": "V115_FULL_MIRROR_READBACK_NOT_REPEATED__PRIOR_RECEIPTS_RETAINED_IN_HISTORY",
+  "metadata_freshness": "PASS_V115_MIRROR_BYTE_PARITY__NATIVE_EMBEDDED_RECEIPT_FRESHNESS_NOT_RETESTED",
   "state_consistency_pointer_sha256": "c1adf1b194df561f91fc734261bfa949db4f707e918e397fb7d320363bf0cf5a",
   "failure_stage": null,
   "failure_reason": null,
@@ -156,7 +156,7 @@
     "Daily 2026-11-27"
   ],
   "github_write_status": "PASS",
-  "github_readback_status": "V115_IDENTITY_RECONCILIATION_READBACK_REQUIRED",
+  "github_readback_status": "V115_RUNTIME_IDENTITY_FIELDS_RECONCILED",
   "concurrency_reconciliation": {
     "detected": true,
     "issue": "LATE_HEARTBEAT_STALE_STATUS_OVERWRITE_FROM_IN_FLIGHT_10_15_RUN",
@@ -178,7 +178,7 @@
     "sidecar": "b94ebcab43619ca305b6186a99b782928ae69f20d2c50d95112fe9485a3a996d",
     "status": "PASS_V115_EXACT_BYTES"
   },
-  "runtime_sync_status": "V115_V128_IDENTITY_RECONCILED__MIRROR_FULL_READBACK_NOT_REPEATED",
+  "runtime_sync_status": "V115_V128_IDENTITY_AND_LIBRARY_MIRRORS_RECONCILED",
   "recovery_provenance_2026_10_02": {
     "mode": "BOUNDED_INTERACTIVE_CONTINUITY_RECOVERY",
     "original_scheduled_run_observed": true,
@@ -496,7 +496,7 @@
   "public_daily_2026_10_14_download_sha256": "7198e935f91376c06aad940c241be3066617a338a4e6977e3edacd42295927fd",
   "public_daily_2026_10_15_download_sha256": "85bf61157397670325c5c7cfb7853e1436f69c99efacad464ceb55678954b00b",
   "authority_sha_runtime_reconciliation_status": "PASS_V115_LIBRARY_AUTHORITY_AND_SIDECAR_SHA",
-  "current_derived_views_status": "V115_FULL_MIRROR_READBACK_NOT_REPEATED__PRIOR_RECEIPTS_RETAINED_IN_HISTORY",
+  "current_derived_views_status": "PASS_13_OF_13_EXACT_V115_BYTES",
   "producer_automation_status": "UNATTENDED_RELIABILITY_NOT_ACCEPTED",
   "public_daily_2026_10_16_download_sha256": "5ee3f31227ba541f8e3b79a6045c5f25dd13d9c066322327bbf7354b366896ba",
   "public_daily_2026_10_17_download_sha256": "c5da3880a3439a600d27939eaa94df9cfdaf21687fc640813ca552e8073db5e0",
@@ -651,9 +651,9 @@
   "current_run_authority_sha256": "b94ebcab43619ca305b6186a99b782928ae69f20d2c50d95112fe9485a3a996d",
   "current_run_pointer_sha256": "c1adf1b194df561f91fc734261bfa949db4f707e918e397fb7d320363bf0cf5a",
   "stability_status": "LONG_TERM_STABILITY_NOT_ACCEPTED",
-  "external_mirror_readback_status": "V115_FULL_MIRROR_READBACK_NOT_REPEATED__PRIOR_RECEIPTS_RETAINED_IN_HISTORY",
+  "external_mirror_readback_status": "PASS_15_OF_15_EXACT_V115_BYTES",
   "stable_operation_status": "NATURAL_RUN_ACCEPTANCE_PENDING",
-  "derived_state_completeness_status": "V115_FULL_MIRROR_READBACK_NOT_REPEATED__PRIOR_RECEIPTS_RETAINED_IN_HISTORY",
+  "derived_state_completeness_status": "PASS_13_OF_13_LIBRARY_DERIVED_MIRRORS_V115",
   "correction_backlog_status": "HISTORICAL_DAILY_AND_SITE_BACKLOG_ZERO_AS_OF_2026_11_13",
   "site_source_preparation": {
     "status": "PUSHED_AND_PACKAGED_SAME_ORIGINAL_SITE",
@@ -4446,11 +4446,11 @@
   "external_pointer_role": "REPAIRABLE_DERIVED_MIRROR",
   "remaining_site_debt": [],
   "public_report_count": 220,
-  "mirror_status": "V115_FULL_MIRROR_READBACK_NOT_REPEATED__PRIOR_RECEIPTS_RETAINED_IN_HISTORY",
+  "mirror_status": "PASS_15_OF_15_EXACT_V115_BYTES",
   "producer_self_audit_status": "PASS_ALL_PRODUCER_GATES__WORK_NATIVE_PENDING",
   "producer_handoff_note": "11/26 manual recovery four-file candidate ready; prior 11/25/W47 formal records must be idempotently checked against latest Authority and actual Site; do not re-promote. Original 10:15 failure preserved; not unattended success.",
   "current_annual": "NO_FORMAL_2026_PRODUCT",
-  "library_mirror_sync_status": "V115_FULL_MIRROR_READBACK_NOT_REPEATED__PRIOR_RECEIPTS_RETAINED_IN_HISTORY",
+  "library_mirror_sync_status": "PASS_15_OF_15_EXACT_V115_BYTES",
   "library_mirror_pending_views": [],
   "library_mirror_sync_updated_at": "2026-11-25T08:41:49.022Z",
   "pointer_sha256": "c1adf1b194df561f91fc734261bfa949db4f707e918e397fb7d320363bf0cf5a",
@@ -4659,7 +4659,7 @@
     "site_version": 128,
     "download_sha256": "4d051e7cd149699e8fa97e975142b9998422d619133bacc7e71f820f58cce1f5",
     "remote_provenance": "PRIOR_WORK_VERIFIED_NOT_INDEPENDENTLY_REPEATED",
-    "full_library_mirror_readback": "NOT_RUN_THIS_CHAT",
+    "full_library_mirror_readback": "PASS_15_OF_15_EXACT_V115_BYTES",
     "producer_manifest_frozen": true,
     "natural_run_acceptance": "0/7"
   }
