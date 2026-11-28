@@ -48,7 +48,7 @@
   "data_gap_boundary_status": "PASS",
   "current_daily_public": "2026-11-28",
   "current_weekly_public": "2026-W47",
-  "formal_status": "FORMAL_PROMOTED_DAILY_2026_11_27",
+  "formal_status": "FORMAL_PROMOTED_DAILY_2026_11_28",
   "canonical_promotion_performed": true,
   "site_publication_performed": true,
   "public_site_version": 129,
@@ -4664,5 +4664,19 @@
     "natural_run_acceptance": "0/7"
   },
   "conditional_recovery_authority_version": 116,
-  "public_daily_2026_11_28_download_sha256": "6954353b69ed3594c70eb21953c3a1f36b56b91dabfadd77c64540b21b50e9e8"
+  "public_daily_2026_11_28_download_sha256": "6954353b69ed3594c70eb21953c3a1f36b56b91dabfadd77c64540b21b50e9e8",
+  "post_commit_reconciliation_20261128": {
+    "authority_version": 117,
+    "authority_file_id": "file_00000000977c81f582d69e14ffa5f82f",
+    "authority_sha256": "669ec6e1584c91ba5c8ac9403762e3fb9b7d143647b92d33df2585bc98d86cef",
+    "pointer_sha256": "e3eb4aa7920b5eefe87afa60d7f51ee50c36e084f2d6c6638dd56b1c4975ad52",
+    "site_version": 129,
+    "site_status": "PUBLISHED_VERIFIED_PER_EXISTING_WORK_RECEIPT",
+    "remote_zip_sha256": "6954353b69ed3594c70eb21953c3a1f36b56b91dabfadd77c64540b21b50e9e8",
+    "producer_manifest_unchanged": true,
+    "original_scheduled_failure_preserved": true,
+    "natural_run_acceptance": "0/7",
+    "remote_provenance": "PRIOR_WORK_VERIFIED_NOT_INDEPENDENTLY_REPEATED",
+    "full_library_mirror_readback": "PASS_15_OF_15_EXACT_V117_BYTES"
+  }
 }
