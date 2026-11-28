@@ -1,8 +1,59 @@
 {
-  "status": "RUN_STARTED_BEFORE_PREFLIGHT",
+  "status": "MANUAL_RECOVERY_IN_PROGRESS_UNACCEPTED",
   "date": "2026-11-28",
   "window_start": "2026-11-27T10:00:00+08:00",
   "window_end": "2026-11-28T10:00:00+08:00",
   "started_at": "2026-11-28T10:19:16+08:00",
-  "queue_for_12_30_work": []
+  "queue_for_12_30_work": [],
+  "original_scheduled_run_status": "FAILED",
+  "original_heartbeat_blob": "17dbb6e82844d77f74535b950ef5a8bc36b500a0",
+  "authority_version": 116,
+  "authority_sha256": "45ecd59d4748380c3cd7dfd91b2d67b87a7ba7cdc4030d8399d9c1add0646240",
+  "research_checkpoint": {
+    "scope": "CHAT_INTERACTIVE_RECOVERY_NOT_P1",
+    "date": "2026-11-28",
+    "window_start": "2026-11-27T10:00:00+08:00",
+    "window_end": "2026-11-28T10:00:00+08:00",
+    "policy": "DAILY_PUBLIC_DEPTH_POLICY_V4",
+    "sources": [
+      {
+        "url": "https://finance.sina.com.cn/money/future/roll/2026-11-27/doc-inkaewtz3060067.shtml",
+        "title": "〖SHPGX交易及数据指数发布〗",
+        "publisher": "SHPGX via 新浪财经",
+        "publication_time": "2026-11-27T20:49:00+08:00",
+        "claim": "11月27日出厂指数6966元/吨，出站指数7096元/吨",
+        "support": "已打开正文价格表；非单笔成交，转载时点，不证明首次分钟"
+      },
+      {
+        "url": "https://www.wsj.com/finance/commodities-futures/oil-mixed-as-markets-track-mideast-developments-u-s-inventories-6daf3fb1",
+        "title": "Oil Futures Settle Lower Ahead of OPEC+ Policy Meeting",
+        "publisher": "Dow Jones",
+        "publication_time": "2026-11-27T20:47:00Z",
+        "claim": "Brent收95.44美元/桶、日跌1.2%；WTI收83.08美元/桶；周末会议待定",
+        "support": "正文1526 ET条目；不采信与时间冲突的Reuters首发结算或不一致周收益"
+      },
+      {
+        "url": "https://www.wsj.com/finance/commodities-futures/u-s-natural-gas-futures-fall-as-front-month-shifts-to-january-3b1ef621",
+        "title": "U.S. Natural Gas Futures Fall on Milder Near-Term Weather Outlook",
+        "publisher": "Dow Jones",
+        "publication_time": "2026-11-27T20:44:00Z",
+        "claim": "NYMEX一月天然气结算3.491美元/MMBtu，报道跌4.5%",
+        "support": "正文1541 ET条目；新近月首日，非现货"
+      }
+    ],
+    "channels_searched": [
+      "C",
+      "D",
+      "A",
+      "B",
+      "E"
+    ],
+    "pending": [
+      "LPG原文或缺口",
+      "Reuters Eni更新时间边界",
+      "同口径亚洲欧洲现货",
+      "正式P1全部门禁"
+    ],
+    "queue_for_12_30_work": []
+  }
 }
