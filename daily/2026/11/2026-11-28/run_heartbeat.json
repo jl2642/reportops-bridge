@@ -72,26 +72,125 @@
     {
       "url": "https://finance.sina.com.cn/money/future/roll/2026-11-27/doc-inkaewtz3060067.shtml",
       "title": "〖SHPGX交易及数据指数发布〗",
-      "publisher": "SHPGX via 新浪财经",
+      "publisher": "新浪财经",
+      "publisher_group": "SHPGX",
       "publication_time": "2026-11-27T20:49:00+08:00",
-      "claim": "11月27日出厂指数6966元/吨，出站指数7096元/吨",
-      "support": "已打开正文价格表；非单笔成交，转载时点，不证明首次分钟"
+      "beijing_time": "2026-11-27T20:49:00+08:00",
+      "source_identity_receipt": {
+        "verification_method": "OPENED_EXACT_DOCUMENT",
+        "observed_url": "https://finance.sina.com.cn/money/future/roll/2026-11-27/doc-inkaewtz3060067.shtml",
+        "canonical_url": "https://finance.sina.com.cn/money/future/roll/2026-11-27/doc-inkaewtz3060067.shtml",
+        "observed_title": "〖SHPGX交易及数据指数发布〗",
+        "observed_publisher": "新浪财经",
+        "title_match_status": "EXACT",
+        "verified_at": "2026-11-28T04:49:10.028148+00:00"
+      },
+      "source_identity_status": "PASS",
+      "window_eligibility": "IN_WINDOW",
+      "evidence_ids": [
+        "E01",
+        "E02"
+      ],
+      "claims": [
+        {
+          "claim_id": "D20261128-C001",
+          "claim_role": "MATERIAL",
+          "support": "DIRECT",
+          "claim": "11月27日中国LNG出厂价格指数6966元/吨。",
+          "boundary": "指数非实际单笔成交或到岸价。",
+          "usage_policy": "PRIMARY"
+        },
+        {
+          "claim_id": "D20261128-C002",
+          "claim_role": "MATERIAL",
+          "support": "DIRECT",
+          "claim": "11月27日中国LNG出站价格指数7096元/吨。",
+          "boundary": "指数非单笔成交；与出厂样本未必相同。",
+          "usage_policy": "PRIMARY"
+        }
+      ],
+      "source_id": "E01/E02",
+      "claim_role": "MATERIAL",
+      "support": "DIRECT"
     },
     {
       "url": "https://www.wsj.com/finance/commodities-futures/oil-mixed-as-markets-track-mideast-developments-u-s-inventories-6daf3fb1",
       "title": "Oil Futures Settle Lower Ahead of OPEC+ Policy Meeting",
-      "publisher": "Dow Jones",
+      "publisher": "The Wall Street Journal",
+      "publisher_group": "DOW_JONES",
       "publication_time": "2026-11-27T20:47:00Z",
-      "claim": "Brent收95.44美元/桶、日跌1.2%；WTI收83.08美元/桶；周末会议待定",
-      "support": "正文1526 ET条目；不采信与时间冲突的Reuters首发结算或不一致周收益"
+      "beijing_time": "2026-11-28T04:47:00+08:00",
+      "source_identity_receipt": {
+        "verification_method": "OPENED_EXACT_DOCUMENT",
+        "observed_url": "https://www.wsj.com/finance/commodities-futures/oil-mixed-as-markets-track-mideast-developments-u-s-inventories-6daf3fb1",
+        "canonical_url": "https://www.wsj.com/finance/commodities-futures/oil-mixed-as-markets-track-mideast-developments-u-s-inventories-6daf3fb1",
+        "observed_title": "Oil Futures Settle Lower Ahead of OPEC+ Policy Meeting",
+        "observed_publisher": "The Wall Street Journal",
+        "title_match_status": "EXACT",
+        "verified_at": "2026-11-28T04:49:10.028148+00:00"
+      },
+      "source_identity_status": "PASS",
+      "window_eligibility": "IN_WINDOW",
+      "evidence_ids": [
+        "E03",
+        "E04"
+      ],
+      "claims": [
+        {
+          "claim_id": "D20261128-C003",
+          "claim_role": "MATERIAL",
+          "support": "DIRECT",
+          "claim": "11月27日Brent结算95.44美元/桶，日跌1.2%，当周上涨。",
+          "boundary": "单一专业媒体报道；不采用更新时点未确认的其他报道或不一致周收益。",
+          "usage_policy": "PRIMARY"
+        },
+        {
+          "claim_id": "D20261128-C004",
+          "claim_role": "MATERIAL",
+          "support": "DIRECT",
+          "claim": "周末OPEC+会议拟讨论2027年产量政策。",
+          "boundary": "会前议题，非正式决议。",
+          "usage_policy": "PRIMARY"
+        }
+      ],
+      "source_id": "E03/E04",
+      "claim_role": "MATERIAL",
+      "support": "DIRECT"
     },
     {
       "url": "https://www.wsj.com/finance/commodities-futures/u-s-natural-gas-futures-fall-as-front-month-shifts-to-january-3b1ef621",
       "title": "U.S. Natural Gas Futures Fall on Milder Near-Term Weather Outlook",
-      "publisher": "Dow Jones",
+      "publisher": "The Wall Street Journal",
+      "publisher_group": "DOW_JONES",
       "publication_time": "2026-11-27T20:44:00Z",
-      "claim": "NYMEX一月天然气结算3.491美元/MMBtu，报道跌4.5%",
-      "support": "正文1541 ET条目；新近月首日，非现货"
+      "beijing_time": "2026-11-28T04:44:00+08:00",
+      "source_identity_receipt": {
+        "verification_method": "OPENED_EXACT_DOCUMENT",
+        "observed_url": "https://www.wsj.com/finance/commodities-futures/u-s-natural-gas-futures-fall-as-front-month-shifts-to-january-3b1ef621",
+        "canonical_url": "https://www.wsj.com/finance/commodities-futures/u-s-natural-gas-futures-fall-as-front-month-shifts-to-january-3b1ef621",
+        "observed_title": "U.S. Natural Gas Futures Fall on Milder Near-Term Weather Outlook",
+        "observed_publisher": "The Wall Street Journal",
+        "title_match_status": "EXACT",
+        "verified_at": "2026-11-28T04:49:10.028148+00:00"
+      },
+      "source_identity_status": "PASS",
+      "window_eligibility": "IN_WINDOW",
+      "evidence_ids": [
+        "E05"
+      ],
+      "claims": [
+        {
+          "claim_id": "D20261128-C005",
+          "claim_role": "MATERIAL",
+          "support": "DIRECT",
+          "claim": "11月27日NYMEX一月天然气期货结算3.491美元/MMBtu，报道跌4.5%。",
+          "boundary": "指定月份期货，不是现货，不能跨合约直接比较。",
+          "usage_policy": "PRIMARY"
+        }
+      ],
+      "source_id": "E05",
+      "claim_role": "MATERIAL",
+      "support": "DIRECT"
     }
   ],
   "source_gaps": [
@@ -147,5 +246,73 @@
     "citation": "PASS",
     "temporal": "PASS",
     "content": "PASS"
-  }
+  },
+  "target_date": "2026-11-28",
+  "execution_mode": "CHAT_INTERACTIVE_CONTROLLED_RECOVERY_AFTER_SCHEDULED_FAILED",
+  "original_scheduled_start_blob_sha": "17dbb6e82844d77f74535b950ef5a8bc36b500a0",
+  "scheduled_run_id": "54fb3f44-f73c-8321-b508-8ab7923e3b06",
+  "scheduled_run_started_at": "2026-11-28T02:19:16.251175Z",
+  "scheduled_run_completed_at": "2026-11-28T02:19:59.524210Z",
+  "platform_recorded_status": "completed",
+  "scheduled_final_heartbeat_written": false,
+  "original_failed_heartbeat_path": "daily/2026/11/2026-11-28/run_heartbeat_original_failed.json",
+  "original_failed_heartbeat_git_blob_sha": "17dbb6e82844d77f74535b950ef5a8bc36b500a0",
+  "original_failure_stage": "RESEARCH_BEFORE_FIRST_VERIFIED_CHECKPOINT",
+  "original_failure_reason": "Natural task ended before first valid checkpoint or P1; underlying cause unverified",
+  "platform_root_cause_status": "UNVERIFIED",
+  "candidate_count": 1,
+  "work_eligible_candidate_count": 1,
+  "candidate_files": [
+    {
+      "name": "public_core.md",
+      "bytes": 14688,
+      "sha256": "2ee3f12a9fd566c546ebd2ce74c52e1dbd8f42a2469c886a9acf03d2729ac21e",
+      "git_blob_sha": "890415947990d1e1ff903ef6efd6a248f63d245f"
+    },
+    {
+      "name": "evidence.json",
+      "bytes": 10619,
+      "sha256": "74ee4a8647645c7fa17bce988739d664c65bc596feba5541bb2c4dddac6a2ad7",
+      "git_blob_sha": "b9c3b554bfe114e469d37c853e0def334f8eaecd"
+    },
+    {
+      "name": "evidence_ledger_v2_2026-11-28.csv",
+      "bytes": 4652,
+      "sha256": "d7a743d5dd8bbc453be66a704a097c07dfc693ac78c1dc2c8d87a014619d0cf8",
+      "git_blob_sha": "b84564ff1d5a6d6f91d170961f127e948f1a0d52"
+    },
+    {
+      "name": "manifest.json",
+      "bytes": 5415,
+      "sha256": "7cf41a2e66442a6155b64ceabffc1eff8156902a8cc41a297b5964f2b3dec7af",
+      "git_blob_sha": "2dd2b7242e9fce9dac57b67992b0068158962599"
+    }
+  ],
+  "candidate_readback_status": "PASS_4_OF_4_EXACT_BASE64_READBACK_AND_GIT_BLOB_SHA",
+  "producer_self_audit_status": "PASS",
+  "source_matrix_status": "PASS",
+  "source_binding_status": "PASS",
+  "policy_drift_status": "PASS",
+  "source_url_count_distinct": 3,
+  "evidence_record_count": 5,
+  "ledger_column_count": 43,
+  "ledger_row_count": 5,
+  "cjk_characters_actual": 3125,
+  "signal_card_count": 3,
+  "authority_policy_sha256": "ed69573e48d0daedd1b899ab2d6cf15880f37705f88b44b1a9d2ca26715f9905",
+  "public_contract_sha256": "64770bf24f1280d11060d6a905a659241d5e483109fc8c3e34195a8264fc48f6",
+  "policy_mirror_authority_policy_sha256_match": true,
+  "policy_mirror_public_contract_sha256_match": true,
+  "formal_current_daily": "2026-11-27",
+  "formal_current_weekly": "2026-W47",
+  "research_recovery_method": "CHAT_INTERACTIVE_FRESH_FIXED_WINDOW_RESEARCH",
+  "research_checkpoint_status": "COMPLETE_IN_FINAL_EVIDENCE_NOT_NATURAL_TASK",
+  "manual_recovery_completed_at": "2026-11-28T04:49:42.833803+00:00",
+  "formal_status": "NOT_FORMALLY_PROMOTED",
+  "formal_promotion_performed": false,
+  "site_publication_performed": false,
+  "p2_status": "NOT_RUN",
+  "producer_recovery_queue_remaining": [
+    "2026-11-28"
+  ]
 }
