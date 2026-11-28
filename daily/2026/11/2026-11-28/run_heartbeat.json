@@ -1,10 +1,12 @@
 {
-  "status": "MANUAL_RECOVERY_IN_PROGRESS_UNACCEPTED",
+  "status": "PRODUCER_SUCCESS_CANDIDATES_PENDING_WORK",
   "date": "2026-11-28",
   "window_start": "2026-11-27T10:00:00+08:00",
   "window_end": "2026-11-28T10:00:00+08:00",
   "started_at": "2026-11-28T10:19:16+08:00",
-  "queue_for_12_30_work": [],
+  "queue_for_12_30_work": [
+    "2026-11-28"
+  ],
   "original_scheduled_run_status": "FAILED",
   "original_heartbeat_blob": "17dbb6e82844d77f74535b950ef5a8bc36b500a0",
   "authority_version": 116,
@@ -55,5 +57,95 @@
       "正式P1全部门禁"
     ],
     "queue_for_12_30_work": []
+  },
+  "completed_at": "2026-11-28T04:49:42.833803+00:00",
+  "manual_recovery_status": "CANDIDATE_PENDING_WORK",
+  "authority_file_id": "file_000000007ccc82128b61fb11001fe302",
+  "authority_pointer_sha256": "c1adf1b194df561f91fc734261bfa949db4f707e918e397fb7d320363bf0cf5a",
+  "post_run_self_audit_status": "PASS",
+  "evidence_claim_role_status": "PASS",
+  "evidence_support_alignment_status": "PASS",
+  "failure_stage": "",
+  "failure_reason": "",
+  "source_binding_id_url_check": "5/5",
+  "verified_sources": [
+    {
+      "url": "https://finance.sina.com.cn/money/future/roll/2026-11-27/doc-inkaewtz3060067.shtml",
+      "title": "〖SHPGX交易及数据指数发布〗",
+      "publisher": "SHPGX via 新浪财经",
+      "publication_time": "2026-11-27T20:49:00+08:00",
+      "claim": "11月27日出厂指数6966元/吨，出站指数7096元/吨",
+      "support": "已打开正文价格表；非单笔成交，转载时点，不证明首次分钟"
+    },
+    {
+      "url": "https://www.wsj.com/finance/commodities-futures/oil-mixed-as-markets-track-mideast-developments-u-s-inventories-6daf3fb1",
+      "title": "Oil Futures Settle Lower Ahead of OPEC+ Policy Meeting",
+      "publisher": "Dow Jones",
+      "publication_time": "2026-11-27T20:47:00Z",
+      "claim": "Brent收95.44美元/桶、日跌1.2%；WTI收83.08美元/桶；周末会议待定",
+      "support": "正文1526 ET条目；不采信与时间冲突的Reuters首发结算或不一致周收益"
+    },
+    {
+      "url": "https://www.wsj.com/finance/commodities-futures/u-s-natural-gas-futures-fall-as-front-month-shifts-to-january-3b1ef621",
+      "title": "U.S. Natural Gas Futures Fall on Milder Near-Term Weather Outlook",
+      "publisher": "Dow Jones",
+      "publication_time": "2026-11-27T20:44:00Z",
+      "claim": "NYMEX一月天然气结算3.491美元/MMBtu，报道跌4.5%",
+      "support": "正文1541 ET条目；新近月首日，非现货"
+    }
+  ],
+  "source_gaps": [
+    {
+      "channel": "CHINA_LPG_SPOT",
+      "status": "DATA_GAP",
+      "reason": "同区域同组分原始报价表访问或发表时点未核实。"
+    },
+    {
+      "channel": "ASIA_EU_LNG_SPOT",
+      "status": "DATA_GAP",
+      "reason": "同交付期现货及实际到岸成本未核证。"
+    },
+    {
+      "channel": "PROJECT_AND_PHYSICAL_FLOW",
+      "status": "DATA_GAP",
+      "reason": "项目报道更新时间不明；实际出口损失未取得可核证数据。"
+    }
+  ],
+  "files": {
+    "public_core.md": {
+      "sha256": "2ee3f12a9fd566c546ebd2ce74c52e1dbd8f42a2469c886a9acf03d2729ac21e",
+      "blob": "890415947990d1e1ff903ef6efd6a248f63d245f",
+      "commit": "7b05002f03ae8d450ad699af273c43004893e0b5"
+    },
+    "evidence.json": {
+      "sha256": "74ee4a8647645c7fa17bce988739d664c65bc596feba5541bb2c4dddac6a2ad7",
+      "blob": "b9c3b554bfe114e469d37c853e0def334f8eaecd",
+      "commit": "4b3561c1a4b2aba5a0c1f42702e59dcdf23d63de"
+    },
+    "evidence_ledger_v2_2026-11-28.csv": {
+      "sha256": "d7a743d5dd8bbc453be66a704a097c07dfc693ac78c1dc2c8d87a014619d0cf8",
+      "blob": "b84564ff1d5a6d6f91d170961f127e948f1a0d52",
+      "commit": "3faaae218561d8b435b84d8593758e661ef5733b"
+    },
+    "manifest.json": {
+      "sha256": "7cf41a2e66442a6155b64ceabffc1eff8156902a8cc41a297b5964f2b3dec7af",
+      "blob": "2dd2b7242e9fce9dac57b67992b0068158962599",
+      "commit": "6f0572376df1069dbefb03ea25aac0c6cc279a49"
+    }
+  },
+  "candidate_files_sha256": {
+    "public_core.md": "2ee3f12a9fd566c546ebd2ce74c52e1dbd8f42a2469c886a9acf03d2729ac21e",
+    "evidence.json": "74ee4a8647645c7fa17bce988739d664c65bc596feba5541bb2c4dddac6a2ad7",
+    "evidence_ledger_v2_2026-11-28.csv": "d7a743d5dd8bbc453be66a704a097c07dfc693ac78c1dc2c8d87a014619d0cf8",
+    "manifest.json": "7cf41a2e66442a6155b64ceabffc1eff8156902a8cc41a297b5964f2b3dec7af"
+  },
+  "native_gate_execution": {
+    "policy": "PASS",
+    "identity": "PASS",
+    "evidence": "PASS",
+    "v4": "PASS",
+    "citation": "PASS",
+    "temporal": "PASS",
+    "content": "PASS"
   }
 }
