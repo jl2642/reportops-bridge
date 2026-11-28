@@ -4,9 +4,7 @@
   "window_start": "2026-11-27T10:00:00+08:00",
   "window_end": "2026-11-28T10:00:00+08:00",
   "started_at": "2026-11-28T10:19:16+08:00",
-  "queue_for_12_30_work": [
-    "2026-11-28"
-  ],
+  "queue_for_12_30_work": [],
   "original_scheduled_run_status": "FAILED",
   "original_heartbeat_blob": "17dbb6e82844d77f74535b950ef5a8bc36b500a0",
   "authority_version": 116,
@@ -308,11 +306,21 @@
   "research_recovery_method": "CHAT_INTERACTIVE_FRESH_FIXED_WINDOW_RESEARCH",
   "research_checkpoint_status": "COMPLETE_IN_FINAL_EVIDENCE_NOT_NATURAL_TASK",
   "manual_recovery_completed_at": "2026-11-28T04:49:42.833803+00:00",
-  "formal_status": "NOT_FORMALLY_PROMOTED",
+  "formal_status": "FORMAL_PROMOTED",
   "formal_promotion_performed": false,
   "site_publication_performed": false,
   "p2_status": "NOT_RUN",
-  "producer_recovery_queue_remaining": [
-    "2026-11-28"
-  ]
+  "producer_recovery_queue_remaining": [],
+  "formal_release_reconciliation": {
+    "authority_version": 117,
+    "authority_file_id": "file_00000000977c81f582d69e14ffa5f82f",
+    "authority_sha256": "669ec6e1584c91ba5c8ac9403762e3fb9b7d143647b92d33df2585bc98d86cef",
+    "pointer_sha256": "e3eb4aa7920b5eefe87afa60d7f51ee50c36e084f2d6c6638dd56b1c4975ad52",
+    "site_version": 129,
+    "site_status": "PUBLISHED_VERIFIED_PER_EXISTING_WORK_RECEIPT",
+    "remote_zip_sha256": "6954353b69ed3594c70eb21953c3a1f36b56b91dabfadd77c64540b21b50e9e8",
+    "producer_manifest_unchanged": true,
+    "original_scheduled_failure_preserved": true,
+    "natural_run_acceptance": "0/7"
+  }
 }
